@@ -284,7 +284,6 @@
 }
 [t:2W_mp_guard_03,n:0x05a00399]
 {
-	
 	[conversation]
 	{
 		[conversations]
@@ -296,13 +295,12 @@
 	[aspect]
 	{
 		model = m_c_gah_fb_pos_a3;
-		b is_collidable = false;
-		
+	  b is_collidable = false;
 	}
 	[mind]
 	{
-		b actor_may_attack = false;
-	  	b actor_may_be_attacked = false;
+	  b actor_may_attack = false;
+	  b actor_may_be_attacked = false;
 		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
@@ -323,7 +321,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.02518;
+	  f scale_multiplier = 1.025180;
 	}
 	[placement]
 	{
@@ -383,7 +381,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.0876;
+	  f scale_multiplier = 1.087600;
 	}
 	[placement]
 	{
@@ -499,7 +497,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.0822;
+	  f scale_multiplier = 1.082200;
 	}
 	[placement]
 	{
@@ -543,7 +541,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.18283;
+	  f scale_multiplier = 1.182830;
 	}
 	[placement]
 	{
@@ -851,7 +849,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.16605;
+	  f scale_multiplier = 1.166050;
 	}
 	[placement]
 	{
@@ -883,7 +881,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.18247;
+	  f scale_multiplier = 1.182470;
 	}
 	[placement]
 	{
@@ -895,7 +893,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.19257;
+	  f scale_multiplier = 1.192570;
 	}
 	[placement]
 	{

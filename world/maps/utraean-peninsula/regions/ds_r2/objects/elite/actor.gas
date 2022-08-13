@@ -265,17 +265,16 @@
 			es_chest = bd_ch_r_g_c_fun;
 			es_feet = bo_bo_ch_f_g_c_avg;
 			es_forearms = gl_ga_bl_f_g_c_avg;
-			
 		}
 	}
 	[aspect]
 	{
-		b is_collidable = false;
+	  b is_collidable = false;
 	}
 	[mind]
 	{
-		b actor_may_attack = false;
-	  	b actor_may_be_attacked = false;
+	  b actor_may_attack = false;
+	  b actor_may_be_attacked = false;
 		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]

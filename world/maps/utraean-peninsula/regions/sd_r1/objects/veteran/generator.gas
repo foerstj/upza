@@ -33,10 +33,10 @@
 	  i accel_count = 3;
 	  i accel_delay = 3;
 		child_template_name = 2W_spider_adolescent;
-	  f decel_cap = 3;
+	  f decel_cap = 3.000000;
 	  x initial_command = 0x02C0013F;
 	  i num_children_incubating = 7;
-	  f spawn_period = 10;
+	  f spawn_period = 10.000000;
 	  x spawnpoint = 0x02C00132;
 	}
 	[placement]
@@ -68,10 +68,10 @@
 	  i accel_count = 3;
 	  i accel_delay = 3;
 		child_template_name = 2W_spider_adolescent;
-	  f decel_cap = 3;
+	  f decel_cap = 3.000000;
 	  x initial_command = 0x02C0013E;
 	  i num_children_incubating = 7;
-	  f spawn_period = 7;
+	  f spawn_period = 7.000000;
 	  x spawnpoint = 0x02C00133;
 	}
 	[placement]
@@ -91,10 +91,10 @@
 	  i accel_count = 3;
 	  i accel_delay = 3;
 		child_template_name = 2W_spider_adolescent;
-	  f decel_cap = 3;
+	  f decel_cap = 3.000000;
 	  x initial_command = 0x02C00141;
 	  i num_children_incubating = 7;
-	  f spawn_period = 8;
+	  f spawn_period = 8.000000;
 	  x spawnpoint = 0x02C00134;
 	}
 	[placement]
@@ -114,10 +114,10 @@
 	  i accel_count = 3;
 	  i accel_delay = 3;
 		child_template_name = 2W_spider_adolescent;
-	  f decel_cap = 3;
+	  f decel_cap = 3.000000;
 	  x initial_command = 0x02C0013D;
 	  i num_children_incubating = 7;
-	  f spawn_period = 13;
+	  f spawn_period = 13.000000;
 	  x spawnpoint = 0x02C00135;
 	}
 	[placement]
@@ -177,7 +177,7 @@
 	  x initial_command = 0x02C00392;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 5;
-	  f spawn_period = 2.5;
+	  f spawn_period = 2.500000;
 	  x spawnpoint = 0x02C00394;
 	}
 	[placement]
@@ -198,7 +198,7 @@
 	  x initial_command = 0x02C00393;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 5;
-	  f spawn_period = 4;
+	  f spawn_period = 4.000000;
 	  x spawnpoint = 0x02C0043F;
 	}
 	[placement]
@@ -331,7 +331,7 @@
 	  x initial_command = 0x02C0036A;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 8;
+	  f spawn_period = 8.000000;
 	  x spawnpoint = 0x02C0044D;
 	}
 	[placement]
@@ -375,7 +375,7 @@
 		child_template_name = 2W_spider_adolescent;
 	  x initial_command = 0x02C001B3;
 	  i num_children_incubating = 5;
-	  f spawn_period = 7;
+	  f spawn_period = 7.000000;
 	  x spawnpoint = 0x02C00088;
 	}
 	[placement]
@@ -395,7 +395,7 @@
 		child_template_name = 2W_spider_adolescent;
 	  x initial_command = 0x02C00220;
 	  i num_children_incubating = 5;
-	  f spawn_period = 3;
+	  f spawn_period = 3.000000;
 	  x spawnpoint = 0x02C0008A;
 	}
 	[placement]
@@ -415,7 +415,7 @@
 		child_template_name = 2W_spider_adolescent;
 	  x initial_command = 0x02C001B7;
 	  i num_children_incubating = 5;
-	  f spawn_period = 9;
+	  f spawn_period = 9.000000;
 	  x spawnpoint = 0x02C00138;
 	}
 	[placement]
@@ -443,7 +443,7 @@
 		child_template_name = 2W_mucosa_small;
 	  x initial_command = 0x02C00369;
 	  i num_children_incubating = 2;
-	  f spawn_period = 7;
+	  f spawn_period = 7.000000;
 	  x spawnpoint = 0x02C0013A;
 	}
 	[placement]
@@ -463,7 +463,7 @@
 		child_template_name = 2W_spider_adolescent;
 	  x initial_command = 0x02C00171;
 	  i num_children_incubating = 5;
-	  f spawn_period = 6;
+	  f spawn_period = 6.000000;
 	  x spawnpoint = 0x02C00139;
 	}
 	[placement]
@@ -483,7 +483,7 @@
 		child_template_name = 2W_spider_adolescent;
 	  x initial_command = 0x02C0029F;
 	  i num_children_incubating = 5;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 	  x spawnpoint = 0x02C00089;
 	}
 	[placement]
@@ -527,10 +527,10 @@
 	  i accel_count = 3;
 	  i accel_delay = 3;
 		child_template_name = 2W_spider_adolescent;
-	  f decel_cap = 3;
+	  f decel_cap = 3.000000;
 	  x initial_command = 0x02C0013C;
 	  i num_children_incubating = 7;
-	  f spawn_period = 18;
+	  f spawn_period = 18.000000;
 	  x spawnpoint = 0x02C00136;
 	}
 	[placement]
@@ -550,10 +550,10 @@
 	  i accel_count = 3;
 	  i accel_delay = 3;
 		child_template_name = 2W_spider_adolescent;
-	  f decel_cap = 3;
+	  f decel_cap = 3.000000;
 	  x initial_command = 0x02C00140;
 	  i num_children_incubating = 7;
-	  f spawn_period = 7;
+	  f spawn_period = 7.000000;
 	  x spawnpoint = 0x02C00131;
 	}
 	[placement]

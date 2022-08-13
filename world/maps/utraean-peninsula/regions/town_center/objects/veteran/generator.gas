@@ -22,7 +22,7 @@
 	  x initial_command = 0x03200DE6;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 45;
+	  f spawn_period = 45.000000;
 	  x spawnpoint = 0x03200DCF;
 	}
 	[placement]
@@ -39,7 +39,7 @@
 	  x initial_command = 0x03200DE7;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 65;
+	  f spawn_period = 65.000000;
 	  x spawnpoint = 0x03200DDF;
 	}
 	[placement]
@@ -56,7 +56,7 @@
 	  x initial_command = 0x03200DE8;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 40;
+	  f spawn_period = 40.000000;
 	  x spawnpoint = 0x03200DD3;
 	}
 	[placement]
@@ -129,7 +129,7 @@
 	  x initial_command = 0x03200DFB;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DFA;
 	}
 	[placement]
@@ -146,7 +146,7 @@
 	  x initial_command = 0x03200E03;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E02;
 	}
 	[placement]
@@ -163,7 +163,7 @@
 	  x initial_command = 0x03200D95;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 40;
+	  f spawn_period = 40.000000;
 	  x spawnpoint = 0x03200DBB;
 	}
 	[placement]
@@ -180,7 +180,7 @@
 	  x initial_command = 0x03200DF8;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DF7;
 	}
 	[placement]
@@ -197,7 +197,7 @@
 	  x initial_command = 0x03200D97;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 40;
+	  f spawn_period = 40.000000;
 	  x spawnpoint = 0x03200DBF;
 	}
 	[placement]
@@ -214,7 +214,7 @@
 	  x initial_command = 0x03200E0E;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E0D;
 	}
 	[placement]
@@ -231,7 +231,7 @@
 	  x initial_command = 0x03200DF2;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DF1;
 	}
 	[placement]
@@ -248,7 +248,7 @@
 	  x initial_command = 0x03200D96;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 40;
+	  f spawn_period = 40.000000;
 	  x spawnpoint = 0x03200DD7;
 	}
 	[placement]
@@ -265,7 +265,7 @@
 	  x initial_command = 0x03200E14;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E13;
 	}
 	[placement]
@@ -282,7 +282,7 @@
 	  x initial_command = 0x03200E11;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E10;
 	}
 	[placement]
@@ -299,7 +299,7 @@
 	  x initial_command = 0x03200DE3;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DDC;
 	}
 	[placement]
@@ -316,7 +316,7 @@
 	  x initial_command = 0x03200DD5;
 	  i max_alive_children = 4;
 	  i num_children_incubating = 4;
-	  f spawn_period = 40;
+	  f spawn_period = 40.000000;
 	  x spawnpoint = 0x03200DDB;
 	}
 	[placement]
@@ -333,7 +333,7 @@
 	  x initial_command = 0x03200E06;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E05;
 	}
 	[placement]
@@ -350,7 +350,7 @@
 	  x initial_command = 0x03200DEF;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DEE;
 	}
 	[placement]
@@ -367,7 +367,7 @@
 	  x initial_command = 0x03200DEB;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DEA;
 	}
 	[placement]
@@ -384,7 +384,7 @@
 	  x initial_command = 0x03200DCC;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DC8;
 	}
 	[placement]
@@ -401,7 +401,7 @@
 	  x initial_command = 0x03200DC0;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DBC;
 	}
 	[placement]
@@ -418,7 +418,7 @@
 	  x initial_command = 0x03200DB5;
 	  i max_alive_children = 4;
 	  i num_children_incubating = 4;
-	  f spawn_period = 50;
+	  f spawn_period = 50.000000;
 	  x spawnpoint = 0x03200DC3;
 	}
 	[placement]
@@ -435,7 +435,7 @@
 	  x initial_command = 0x03200DB3;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DB0;
 	}
 	[placement]
@@ -452,7 +452,7 @@
 	  x initial_command = 0x03200D6F;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200D18;
 	}
 	[placement]
@@ -469,7 +469,7 @@
 	  x initial_command = 0x03200E09;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E08;
 	}
 	[placement]
@@ -494,7 +494,7 @@
 	  x initial_command = 0x03200DE0;
 	  i max_alive_children = 4;
 	  i num_children_incubating = 4;
-	  f spawn_period = 40;
+	  f spawn_period = 40.000000;
 	  x spawnpoint = 0x03200DC7;
 	}
 	[placement]
@@ -511,7 +511,7 @@
 	  x initial_command = 0x03200D98;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 50;
+	  f spawn_period = 50.000000;
 	  x spawnpoint = 0x03200DE2;
 	}
 	[placement]
@@ -536,7 +536,7 @@
 	  x initial_command = 0x03200E1B;
 	  i max_alive_children = 3;
 	  i num_children_incubating = 3;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E1A;
 	}
 	[placement]
@@ -553,7 +553,7 @@
 	  x initial_command = 0x03200E1F;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200E1E;
 	}
 	[placement]
@@ -570,7 +570,7 @@
 	  x initial_command = 0x03200DFE;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x03200DFD;
 	}
 	[placement]

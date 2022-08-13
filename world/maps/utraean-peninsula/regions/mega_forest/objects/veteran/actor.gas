@@ -48,7 +48,6 @@
 }
 [t:2W_mp_guard,n:0x074001b7]
 {
-	
 	[common]
 	{
 		dev_instance_text = "Forest Protector";
@@ -73,13 +72,13 @@
 	}
 	[aspect]
 	{
-		b is_collidable = false;
+	  b is_collidable = false;
 		model = m_c_gah_fb_pos_a2;
 	}
 	[mind]
 	{
-		b actor_may_attack = false;
-	  	b actor_may_be_attacked = false;
+	  b actor_may_attack = false;
+	  b actor_may_be_attacked = false;
 		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]

@@ -292,7 +292,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -305,7 +305,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -318,7 +318,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -331,7 +331,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -344,7 +344,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -357,7 +357,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_raider;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -370,7 +370,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_shaman;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -383,7 +383,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -396,7 +396,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_grunt;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -409,7 +409,7 @@
 	[generator_basic]
 	{
 		child_template_name = 3W_krug_throw;
-	  f spawn_period = 0;
+	  f spawn_period = 0.000000;
 	}
 	[placement]
 	{
@@ -672,7 +672,7 @@
 	  x initial_command = 0x00200A5F;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 10;
+	  f spawn_period = 10.000000;
 	  x spawnpoint = 0x00200A5E;
 	}
 	[placement]
@@ -849,7 +849,7 @@
 	  x initial_command = 0x00200A21;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 3;
+	  f spawn_period = 3.000000;
 	  x spawnpoint = 0x00200A1A;
 	}
 	[placement]

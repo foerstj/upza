@@ -6,7 +6,7 @@
 	  x initial_command = 0x01C00B46;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 15;
+	  f spawn_period = 15.000000;
 	  x spawnpoint = 0x01C00B45;
 	}
 	[placement]
@@ -23,7 +23,7 @@
 	  x initial_command = 0x01C00B4A;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 65;
+	  f spawn_period = 65.000000;
 	  x spawnpoint = 0x01C00B49;
 	}
 	[placement]
@@ -40,7 +40,7 @@
 	  x initial_command = 0x01C00B50;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 	  x spawnpoint = 0x01C00B4F;
 	}
 	[placement]
@@ -57,7 +57,7 @@
 	  x initial_command = 0x01C00AA9;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 35;
+	  f spawn_period = 35.000000;
 	  x spawnpoint = 0x01C00AA8;
 	}
 	[placement]
@@ -74,7 +74,7 @@
 	  x initial_command = 0x01C00AD7;
 	  i max_alive_children = 3;
 	  i num_children_incubating = 4;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00AD6;
 	}
 	[placement]
@@ -91,7 +91,7 @@
 	  x initial_command = 0x01C00A9B;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 45;
+	  f spawn_period = 45.000000;
 	  x spawnpoint = 0x01C00A9A;
 	}
 	[placement]
@@ -108,7 +108,7 @@
 	  x initial_command = 0x01C00AB3;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 75;
+	  f spawn_period = 75.000000;
 	  x spawnpoint = 0x01C00AB2;
 	}
 	[placement]
@@ -125,7 +125,7 @@
 	  x initial_command = 0x01C00B4C;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B43;
 	}
 	[placement]
@@ -157,7 +157,7 @@
 		child_template_name = "krug_grunt";
 	  x initial_command = 0x01C00B6F;
 	  i num_children_incubating = 2;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 	  x spawnpoint = 0x01C00B6E;
 	}
 	[placement]
@@ -174,7 +174,7 @@
 	  x initial_command = 0x01C00B99;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B98;
 	}
 	[placement]
@@ -191,7 +191,7 @@
 	  x initial_command = 0x01C00B8F;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 3;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B8E;
 	}
 	[placement]
@@ -208,7 +208,7 @@
 	  x initial_command = 0x01C00B7F;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B7E;
 	}
 	[placement]
@@ -224,7 +224,7 @@
 		child_template_name = "krug_raider";
 	  x initial_command = 0x01C00B68;
 	  i num_children_incubating = 2;
-	  f spawn_period = 35;
+	  f spawn_period = 35.000000;
 	  x spawnpoint = 0x01C00B67;
 	}
 	[placement]
@@ -241,7 +241,7 @@
 	  x initial_command = 0x01C00B77;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B76;
 	}
 	[placement]
@@ -257,7 +257,7 @@
 		child_template_name = "krug_grunt";
 	  x initial_command = 0x01C00B7B;
 	  i num_children_incubating = 2;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B7A;
 	}
 	[placement]
@@ -274,7 +274,7 @@
 	  x initial_command = 0x01C00B65;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 15;
+	  f spawn_period = 15.000000;
 	  x spawnpoint = 0x01C00B64;
 	}
 	[placement]
@@ -291,7 +291,7 @@
 	  x initial_command = 0x01C00B62;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 65;
+	  f spawn_period = 65.000000;
 	  x spawnpoint = 0x01C00B61;
 	}
 	[placement]
@@ -308,7 +308,7 @@
 	  x initial_command = 0x01C00B5C;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 3;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 	  x spawnpoint = 0x01C00B5B;
 	}
 	[placement]
@@ -325,7 +325,7 @@
 	  x initial_command = 0x01C00B56;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 80;
+	  f spawn_period = 80.000000;
 	  x spawnpoint = 0x01C00B55;
 	}
 	[placement]
@@ -341,7 +341,7 @@
 		child_template_name = "krug_grunt";
 	  x initial_command = 0x01C00B59;
 	  i num_children_incubating = 2;
-	  f spawn_period = 15;
+	  f spawn_period = 15.000000;
 	  x spawnpoint = 0x01C00B58;
 	}
 	[placement]
@@ -358,7 +358,7 @@
 	  x initial_command = 0x01C00A97;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 35;
+	  f spawn_period = 35.000000;
 	  x spawnpoint = 0x01C00A77;
 	}
 	[placement]
@@ -375,7 +375,7 @@
 	  x initial_command = 0x01C00A98;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 65;
+	  f spawn_period = 65.000000;
 	  x spawnpoint = 0x01C00A80;
 	}
 	[placement]
@@ -407,7 +407,7 @@
 		child_template_name = "krug_grunt";
 	  x initial_command = 0x01C00B73;
 	  i num_children_incubating = 2;
-	  f spawn_period = 8;
+	  f spawn_period = 8.000000;
 	  x spawnpoint = 0x01C00B72;
 	}
 	[placement]
@@ -424,7 +424,7 @@
 	  x initial_command = 0x01C00B83;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 25;
+	  f spawn_period = 25.000000;
 	  x spawnpoint = 0x01C00B82;
 	}
 	[placement]
@@ -441,7 +441,7 @@
 	  x initial_command = 0x01C00B87;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
-	  f spawn_period = 1;
+	  f spawn_period = 1.000000;
 	  x spawnpoint = 0x01C00B86;
 	}
 	[placement]
@@ -458,7 +458,7 @@
 	  x initial_command = 0x01C00B36;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 20;
+	  f spawn_period = 20.000000;
 	  x spawnpoint = 0x01C00B35;
 	}
 	[placement]
@@ -581,7 +581,7 @@
 	  x initial_command = 0x01C00B33;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 4;
-	  f spawn_period = 35;
+	  f spawn_period = 35.000000;
 	  x spawnpoint = 0x01C00B32;
 	}
 	[placement]
@@ -597,7 +597,7 @@
 		child_template_name = "krug_grunt";
 	  x initial_command = 0x01C00B8B;
 	  i num_children_incubating = 2;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 	  x spawnpoint = 0x01C00B8A;
 	}
 	[placement]
