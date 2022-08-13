@@ -441,17 +441,6 @@
 		bool_variable = "3w_teleport_river_forest_path2mines_active";
 	}
 }
-[t:tutorial_tip,n:0x002004ab]
-{
-	[placement]
-	{
-	  p position = -1.12735,0.199999,0.998619,0x898cbaaa;
-	}
-	[tip]
-	{
-		tip = "tip_6";
-	}
-}
 [t:trigger_change_mood_box,n:0x002005a2]
 {
 	[common]
@@ -491,7 +480,6 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x002004AB,0f,"16387","party_member_within_bounding_box",0), doc("[*labelled condition (party_member_within_bounding_box)*]");
 				action* = send_world_message("we_req_activate",0x00200958,0f,"default","",0), doc("set the bool to true");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.000000,3.000000,"on_first_enter"), doc("[*one-shot check (trigger is one-shot)*]");
@@ -509,7 +497,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.587215,0.199999,0.000221252,0x628dc9ff;
+	  p position = 0.0744581,0.199996,-0.023613,0x628dc9ff;
 	}
 }
 [t:use_point,n:0x00200884]
