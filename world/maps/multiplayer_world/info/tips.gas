@@ -1,0 +1,81 @@
+[world_tips]
+{
+//	defeat_tip = tip_filtered_5;
+
+	[t:tip,n:tip_1]
+	{
+		order = 1;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "Townspeople can give you directions to the next town, if you ask.";
+			texture = b_gui_ig_mnu_tip_compass;
+		}
+	}
+	[t:tip,n:tip_2]
+	{
+		order = 2;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "Adventurers can use the H.U.B. system to rapidly traverse great distances across the Utraean Peninsula. To use it, simply step onto the platform and depress the button in its center.";
+			texture = b_gui_ig_mnu_tip_hub;
+		}
+	}
+	[t:tip,n:tip_3]
+	{
+		order = 3;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "Welcome to the Utraean Basilicus! From here you can take the H.U.B. to any town on the Utraean Peninsula. Have caution, though -- not all towns are safe to travel to.";
+			texture = b_gui_ig_mnu_tip_hub;
+		}
+	}
+//	[t:tip,n:tip_4]
+//	{
+//		order = 4;
+//		style = bullets_1;
+//
+//		[text_1]
+//		{
+//			screen_name = "If you wish to keep the Townstones for future use, be sure to gather them before you speak with High Priest Kavaren.";
+//			texture = b_gui_ig_mnu_tip_tenstone;
+//		}
+//	}
+	[t:tip,n:tip_4]
+	{
+		order = 4;
+		style = bullets_3;
+
+		[text_1]
+		{
+			screen_name = "Legion engineers built these magical displacement towers to resupply local patrols. Provisions could be rapidly moved without relying on vulnerable baggage trains during times of war and siege.";
+			texture = b_gui_ig_mnu_tip_displacer;
+		}
+		[text_2]
+		{
+			screen_name = "The displacers were patterned after the H.U.B. created by the ancient Utreans, but were not as powerful or as safe. Fatalities forced the Legion to use them for troop movement only in emergencies.";
+			texture = b_gui_ig_mnu_tip_displacer;
+		}
+		[text_3]
+		{
+			screen_name = "These displacers require calibration before use. Find a forward displacer platform and calibrate it. Once calibrated, travel between the displacement tower and the displacer platform will be possible.";
+			texture = b_gui_ig_mnu_tip_displacer;
+		}
+	}
+	[t:tip,n:tip_5]
+	{
+		order = 5;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "This is a forward displacer platform for the Legion's displacement system. Step on the platform to calibrate it with its displacement tower, and then twist the statuette to activate it.";
+			texture = b_gui_ig_mnu_tip_displacer;
+		}
+	}
+}
