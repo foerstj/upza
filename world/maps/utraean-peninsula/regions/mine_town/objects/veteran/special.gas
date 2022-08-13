@@ -25,37 +25,6 @@
 	  p position = 0.216335,-1.25,0.245514,0xcef1c513;
 	}
 }
-[t:trigger_change_mood_box,n:0x00c00346]
-{
-	[common]
-	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("quest_crystwind","active",1);
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(15.000000,0.500000,15.000000,"while_inside");
-				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_crystwind_01");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -2.65912,-2,0.214294,0xbd469bbb;
-	}
-}
-
 [t:trigger_fade_nodes_box,n:0x00c00011]
 {
 	[common]
@@ -631,6 +600,36 @@
 	[placement]
 	{
 	  p position = -2.34729,-1.5,0.609164,0xe2e9fbc7;
+	}
+}
+[t:trigger_change_mood_box,n:0x00c00346]
+{
+	[common]
+	{
+		dev_instance_text = "SCRIPTED EVENT";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_crystwind","active",1);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(15.000000,0.500000,15.000000,"while_inside");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_crystwind_01");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -2.65912,-2,0.214294,0xbd469bbb;
 	}
 }
 [t:trigger_change_mood_box,n:0x00c003b9]

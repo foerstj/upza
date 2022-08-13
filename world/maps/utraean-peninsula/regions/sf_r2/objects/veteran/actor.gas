@@ -156,6 +156,14 @@
 	  p position = -1.91566,0,-2.88118,0xbc8add21;
 	}
 }
+[t:2W_ice_archer_boss_01,n:0x0440021b]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 3.08097,0,-0.961306,0xcb138167;
+	}
+}
 [t:2W_ice_warrior,n:0x0440039e]
 {
 	[placement]
@@ -194,14 +202,6 @@
 	{
 	  q orientation = 0,0.85264,0,0.522498;
 	  p position = 3.80381,0,-3.21588,0xcb138167;
-	}
-}
-[t:2W_ice_archer_boss_01,n:0x0440021b]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = 3.08097,0,-0.961306,0xcb138167;
 	}
 }
 [t:2W_ice_archer,n:0x044003bc]

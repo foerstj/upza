@@ -284,6 +284,11 @@
 }
 [t:3W_mp_guard_03,n:0x05a00399]
 {
+	[aspect]
+	{
+	  b is_collidable = false;
+		model = m_c_gah_fb_pos_a3;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -291,11 +296,6 @@
 			* = conversation_guard;
 			* = conversation_guard_red;
 		}
-	}
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	  b is_collidable = false;
 	}
 	[mind]
 	{

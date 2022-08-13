@@ -8219,6 +8219,14 @@
 	  p position = -0.690849,11.9954,0.634155,0xa22fda77;
 	}
 }
+[t:log_ice_hollow,n:0x02700237]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.9141,5.96432,1.84265,0x48f9c3a9;
+	}
+}
 [t:tree_ice_pine_04,n:0x027005c1]
 {
 	[aspect]
@@ -19588,13 +19596,5 @@
 	[placement]
 	{
 	  p position = 2.10913,-0.572045,-4.06953,0x8a2b94b4;
-	}
-}
-[t:log_ice_hollow,n:0x02700237]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.9141,5.96432,1.84265,0x48f9c3a9;
 	}
 }

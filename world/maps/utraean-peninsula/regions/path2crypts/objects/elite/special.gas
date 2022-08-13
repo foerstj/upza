@@ -291,10 +291,14 @@
 }
 [t:tutorial_tip,n:0x01d001b6]
 {
+	[common]
+	{
+		dev_instance_text = "DISPLACER TIP";
+	}
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.592857,0.200003,-0.817551,0xc95ecd0d;
+	  q orientation = 0,1,0,0;
+	  p position = -3.42809,0.250001,2.7301,0x402bad50;
 	}
 	[tip]
 	{
@@ -310,9 +314,9 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x01D001B6,0f,"16386","party_member_within_bounding_box",0), doc("[*labelled condition (party_member_within_bounding_box)*]");
+				action* = send_world_message("we_req_activate",0x01D001B6,0f,"0x4002","party_member_within_bounding_box",0), doc("[*labelled condition (party_member_within_bounding_box)*]");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_unique_enter"), doc("[*one-shot check (trigger is one-shot)*]");
+				condition* = party_member_within_node(0xAAA10200,1,99,-1,"on_unique_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -327,7 +331,8 @@
 	}
 	[placement]
 	{
-	  p position = -0.213249,0.200003,-0.0213432,0xc95ecd0d;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.41746,0.25,1.54268,0x402bad50;
 	}
 }
 [t:check_quest_bits,n:0x01d001b9]

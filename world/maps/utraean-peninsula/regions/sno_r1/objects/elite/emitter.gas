@@ -161,6 +161,20 @@
 	  p position = 0.129211,-5.67449,-0.0358124,0xc166446c;
 	}
 }
+[t:emt_sound,n:0x006003dd]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.18962,0,1.35057,0xbd344ad9;
+	}
+	[sound_emitter]
+	{
+		event_sound = "amb_water_drip";
+	  f min_dist = 1;
+	  f repeat_rate = 3;
+	}
+}
 [t:emt_generic_act,n:0x006002f9]
 {
 	[generic_emitter_act]
@@ -346,6 +360,19 @@
 	  f repeat_rate = 3;
 	}
 }
+[t:emt_sound,n:0x00600465]
+{
+	[placement]
+	{
+	  p position = -0.908859,0,-0.783204,0x9987d309;
+	}
+	[sound_emitter]
+	{
+		event_sound = "amb_water_drip";
+	  f min_dist = 1;
+	  f repeat_rate = 3;
+	}
+}
 [t:emt_generic_act,n:0x00600368]
 {
 	[generic_emitter_act]
@@ -496,20 +523,6 @@
 	  p position = -0.817566,-0.177974,0.576675,0x504df595;
 	}
 }
-[t:emt_sound,n:0x00600468]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.99983,1.17181,-1.68085,0xa8428e2f;
-	}
-	[sound_emitter]
-	{
-		event_sound = "amb_water_drip";
-	  f min_dist = 2;
-	  f repeat_rate = 3;
-	}
-}
 [t:emt_generic_act,n:0x0060030a]
 {
 	[generic_emitter_act]
@@ -540,6 +553,20 @@
 	  p position = 0.171036,0.0220261,-0.0267333,0xa8428e2f;
 	}
 }
+[t:emt_sound,n:0x00600468]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.99983,1.17181,-1.68085,0xa8428e2f;
+	}
+	[sound_emitter]
+	{
+		event_sound = "amb_water_drip";
+	  f min_dist = 2;
+	  f repeat_rate = 3;
+	}
+}
 [t:emt_generic_act,n:0x00600304]
 {
 	[generic_emitter_act]
@@ -568,19 +595,6 @@
 	{
 	  q orientation = 0,0.95882,0,0.284015;
 	  p position = 0.339661,-0.00826263,0.0586703,0x1ad4d3fa;
-	}
-}
-[t:emt_sound,n:0x00600465]
-{
-	[placement]
-	{
-	  p position = -0.908859,0,-0.783204,0x9987d309;
-	}
-	[sound_emitter]
-	{
-		event_sound = "amb_water_drip";
-	  f min_dist = 1;
-	  f repeat_rate = 3;
 	}
 }
 [t:emt_generic_act,n:0x006002f5]
@@ -641,20 +655,6 @@
 	{
 	  q orientation = 0,0.104529,0,0.994522;
 	  p position = -0.925209,-0.243958,0.428047,0x60c8074e;
-	}
-}
-[t:emt_sound,n:0x006003dd]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.18962,0,1.35057,0xbd344ad9;
-	}
-	[sound_emitter]
-	{
-		event_sound = "amb_water_drip";
-	  f min_dist = 1;
-	  f repeat_rate = 3;
 	}
 }
 [t:emt_generic_act,n:0x006002ee]

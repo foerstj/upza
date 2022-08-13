@@ -27,51 +27,6 @@
 	  p position = -0.20394,0,-0.392225,0xa29c0717;
 	}
 }
-[t:tutorial_tip,n:0x04400253]
-{
-	[common]
-	{
-		dev_instance_text = "DISPLACER TIP";
-	}
-	[placement]
-	{
-	  p position = -2.1384,-9.53674e-007,-1.43914,0x2a9a5249;
-	}
-	[tip]
-	{
-		tip = "tip_5";
-	}
-}
-[t:trigger_generic,n:0x04400258]
-{
-	[common]
-	{
-		dev_instance_text = "TIP TRIGGER";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x04400253,0f,"0x4002","every",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_node(0x2D1043BC,1,99,-1,"on_unique_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-2.98023e-008,0,1;
-	  p position = -1.34117,0,-1.38443,0x2a9a5249;
-	}
-}
 [t:trigger_change_mood_box,n:0x044002c6]
 {
 	[common]
@@ -323,6 +278,51 @@
 	{
 	  q orientation = 0,-0.849202,0,0.528068;
 	  p position = 2.11162,-0.467401,-1.26987,0x453c4527;
+	}
+}
+[t:tutorial_tip,n:0x04400253]
+{
+	[common]
+	{
+		dev_instance_text = "DISPLACER TIP";
+	}
+	[placement]
+	{
+	  p position = -2.1384,-9.53674e-007,-1.43914,0x2a9a5249;
+	}
+	[tip]
+	{
+		tip = "tip_5";
+	}
+}
+[t:trigger_generic,n:0x04400258]
+{
+	[common]
+	{
+		dev_instance_text = "TIP TRIGGER";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04400253,0f,"0x4002","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_node(0x2D1043BC,1,99,-1,"on_unique_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.98023e-008,0,1;
+	  p position = -1.34117,0,-1.38443,0x2a9a5249;
 	}
 }
 [t:set_quest_bits,n:0x044002e3]

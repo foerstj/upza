@@ -10569,6 +10569,22 @@
 	  p position = 3.92396,0,-3.8584,0xca2fd96b;
 	}
 }
+[t:rock_grs_02,n:0x04d0022d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.48953,0,1.22775,0xf8348b77;
+	}
+}
+[t:rock_grs_02,n:0x04d0022e]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = 1.38385,0,1.40878,0x6fac5dbb;
+	}
+}
 [t:tree_glb_pine_sequoia_01,n:0x04d002b2]
 {
 	[aspect]
@@ -16288,21 +16304,5 @@
 	[placement]
 	{
 	  p position = 1.36385,2e-006,0.760612,0x16f0f4fe;
-	}
-}
-[t:rock_grs_02,n:0x04d0022d]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.48953,0,1.22775,0xf8348b77;
-	}
-}
-[t:rock_grs_02,n:0x04d0022e]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.923879,0,-0.382684;
-	  p position = 1.38385,0,1.40878,0x6fac5dbb;
 	}
 }

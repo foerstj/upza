@@ -1,3 +1,19 @@
+[t:3W_gen_explode_box3-gobbot_flamethrower,n:0x0750035e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 0.603218,0,0.994485,0x04878c38;
+	}
+}
+[t:3W_gen_explode_box3-gobbot_lightning,n:0x0750035f]
+{
+	[placement]
+	{
+	  q orientation = 0,2.38418e-007,0,1;
+	  p position = 0.242912,0,-0.663709,0x04878c38;
+	}
+}
 [t:3W_gen_explode_box1-blaster,n:0x075003a1]
 {
 	[placement]
@@ -131,22 +147,6 @@
 	[placement]
 	{
 	  p position = -0.240673,6,0.883834,0x3b5085c3;
-	}
-}
-[t:3W_gen_explode_box3-gobbot_flamethrower,n:0x0750035e]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707106,0,0.707107;
-	  p position = 0.603218,0,0.994485,0x04878c38;
-	}
-}
-[t:3W_gen_explode_box3-gobbot_lightning,n:0x0750035f]
-{
-	[placement]
-	{
-	  q orientation = 0,2.38418e-007,0,1;
-	  p position = 0.242912,0,-0.663709,0x04878c38;
 	}
 }
 [t:3W_gen_explode_box3-kill_bot,n:0x0750035b]
