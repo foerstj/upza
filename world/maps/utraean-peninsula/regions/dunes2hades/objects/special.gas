@@ -13,6 +13,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -34,6 +35,13 @@
 	  p position = 1.99343,0,0.193551,0xc955e329;
 	}
 }
+[t:use_point,n:0x07e0004f]
+{
+	[placement]
+	{
+	  p position = -2.53111,0,0.562431,0x0f748fd2;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x07e0004e]
 {
 	[common]
@@ -48,6 +56,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -59,12 +68,5 @@
 	[placement]
 	{
 	  p position = 1.95848,0,0.0292702,0x8ff27e4e;
-	}
-}
-[t:use_point,n:0x07e0004f]
-{
-	[placement]
-	{
-	  p position = -2.53111,0,0.562431,0x0f748fd2;
 	}
 }
