@@ -1456,7 +1456,7 @@
 {
 	[generic_accumtrigger]
 	{
-	  f num_delay = 2;
+	  f num_delay = 2.000000;
 	  i num_til_send = 8;
 	  x send_to_scid = 0x07200690;
 	}
