@@ -555,7 +555,7 @@
 			{
 				action* = change_actor_life(-30000f,0x00000000), delay(3);
 			  b can_self_destruct = true;
-				condition* = go_within_bounding_box(12.000000,5.000000,25.000000,0x00000000,"3w_maljin_melee","on_every_enter");
+				condition* = go_within_bounding_box(12.000000,5.000000,25.000000,0x00000000,"3W_maljin_melee","on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -569,7 +569,7 @@
 			{
 				action* = change_actor_life(-30000f,0x00000000), delay(3);
 			  b can_self_destruct = true;
-				condition* = go_within_bounding_box(12.000000,5.000000,25.000000,0x00000000,"3w_maljin_ranged","on_every_enter");
+				condition* = go_within_bounding_box(12.000000,5.000000,25.000000,0x00000000,"3W_maljin_ranged","on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -583,7 +583,7 @@
 			{
 				action* = change_actor_life(-30000f,0x00000000), delay(3);
 			  b can_self_destruct = true;
-				condition* = go_within_bounding_box(12.000000,5.000000,25.000000,0x00000000,"3w_maljin_magic","on_every_enter");
+				condition* = go_within_bounding_box(12.000000,5.000000,25.000000,0x00000000,"3W_maljin_magic","on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
