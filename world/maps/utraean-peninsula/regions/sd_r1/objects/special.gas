@@ -1513,6 +1513,36 @@
 	  p position = 0.437536,-4,7.42722,0xc677876f;
 	}
 }
+[t:trigger_generic,n:0x02c00374]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x08B4B471,1,-1,-1,"out:black"), doc("path2mines");
+				action* = fade_nodes(0xA7BC2565,1,-1,-1,"out:black"), doc("crypts2sd");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.300000,1.000000,0.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.219569,-4,4.67969,0xc677876f;
+	}
+}
 [t:trigger_generic,n:0x02c00398]
 {
 	[common]
@@ -2508,35 +2538,5 @@
 	[placement]
 	{
 	  p position = -0.617569,-9.53674e-007,1.56671,0x41bbebc7;
-	}
-}
-[t:trigger_generic,n:0x02c00374]
-{
-	[common]
-	{
-		dev_instance_text = "FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x08B4B471,1,-1,-1,"out:black"), doc("path2mines");
-				action* = fade_nodes(0xA7BC2565,1,-1,-1,"out:black"), doc("crypts2sd");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.300000,1.000000,0.700000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.219569,-4,4.67969,0xc677876f;
 	}
 }

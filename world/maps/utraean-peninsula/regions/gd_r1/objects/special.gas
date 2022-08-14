@@ -299,6 +299,34 @@
 	  p position = 0.813817,-1.2911,2.41589,0x10f3310f;
 	}
 }
+[t:trigger_fade_nodes_box,n:0x009001c3]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x08B4B471,1,7,-1,"out:black"), doc("path2mines_roof");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.300000,1.000000,0.200000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.967778,-1.20012,3.49959,0x10f3310f;
+	}
+}
 [t:use_point,n:0x009001b8]
 {
 	[placement]
@@ -1115,6 +1143,37 @@
 	  p position = 0.0920512,0.0999999,3.3785,0x75488c9f;
 	}
 }
+[t:trigger_fade_nodes_box,n:0x009001c2]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x08B4B471,1,-1,-1,"out:black"), doc("path2mines");
+				action* = fade_nodes(0xE0A672FE,55,-1,-1,"in"), doc("gd_r1_bad_wall");
+				action* = fade_nodes(0x5C3929B3,1,-1,-1,"out:black"), doc("mega_forest_r3");
+				action* = fade_nodes(0xE0A672FE,5,-1,-1,"in"), doc("gd_r1_l");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.300000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.136564,-1.1,0.973434,0x75488c9f;
+	}
+}
 [t:use_point,n:0x009001b6]
 {
 	[placement]
@@ -1700,64 +1759,5 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -1.74702,-1.75,-2.23344,0x9af4d6f9;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x009001c2]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x08B4B471,1,-1,-1,"out:black"), doc("path2mines");
-				action* = fade_nodes(0xE0A672FE,55,-1,-1,"in"), doc("gd_r1_bad_wall");
-				action* = fade_nodes(0x5C3929B3,1,-1,-1,"out:black"), doc("mega_forest_r3");
-				action* = fade_nodes(0xE0A672FE,5,-1,-1,"in"), doc("gd_r1_l");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.300000,1.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.136564,-1.1,0.973434,0x75488c9f;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x009001c3]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x08B4B471,1,7,-1,"out:black"), doc("path2mines_roof");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.300000,1.000000,0.200000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.967778,-1.20012,3.49959,0x10f3310f;
 	}
 }
