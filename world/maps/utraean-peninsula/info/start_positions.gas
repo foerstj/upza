@@ -1,120 +1,5 @@
 [start_positions]
 {
-	[t:start_group,n:elddim]
-	{
-	  b default = true;
-		description = "Elddim, the Center of the Kingdom";
-	  b dev_only = false;
-	  i id = 1;
-		screen_name = "Elddim";
-		[world_levels]
-		{
-			[veteran]
-			{
-				required_level = 54;
-			}
-			[elite]
-			{
-				required_level = 83;
-			}
-		}
-		[start_position]
-		{
-		  i id = 1;
-			position = -2.733674,0.000000,-0.836062,0x4EE0A82E;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = -2.733674,0.000000,-0.836062,0x4EE0A82E;
-			}
-		}
-		[start_position]
-		{
-		  i id = 2;
-			position = 1.696284,0.000000,-0.501113,0xDB2E2DA2;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 1.696284,0.000000,-0.501113,0xDB2E2DA2;
-			}
-		}
-		[start_position]
-		{
-		  i id = 3;
-			position = -0.779971,0.000000,-0.338092,0xCAF63FCF;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = -0.779971,0.000000,-0.338092,0xCAF63FCF;
-			}
-		}
-		[start_position]
-		{
-		  i id = 4;
-			position = -1.248366,0.000000,2.493267,0x66385B98;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = -1.248366,0.000000,2.493267,0x66385B98;
-			}
-		}
-		[start_position]
-		{
-		  i id = 5;
-			position = 0.330120,0.000000,1.873428,0x6168681D;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 0.330120,0.000000,1.873428,0x6168681D;
-			}
-		}
-		[start_position]
-		{
-		  i id = 6;
-			position = 0.037865,0.000000,-0.154900,0x05E056E4;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 0.037865,0.000000,-0.154900,0x05E056E4;
-			}
-		}
-		[start_position]
-		{
-		  i id = 7;
-			position = 1.588087,0.000000,-0.515390,0x1E9F4866;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 1.588087,0.000000,-0.515390,0x1E9F4866;
-			}
-		}
-		[start_position]
-		{
-		  i id = 8;
-			position = 2.051337,-1.000000,0.186340,0xC6415DE6;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 2.051337,-1.000000,0.186340,0xC6415DE6;
-			}
-		}
-	}
 	[t:start_group,n:crystwind]
 	{
 	  b default = false;
@@ -122,21 +7,6 @@
 	  b dev_only = false;
 	  i id = 2;
 		screen_name = "Crystwind";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 5;
-			}
-			[veteran]
-			{
-				required_level = 56;
-			}
-			[elite]
-			{
-				required_level = 87;
-			}
-		}
 		[start_position]
 		{
 		  i id = 2;
@@ -233,6 +103,136 @@
 				position = 3.115657,0.000000,-1.071869,0xC73AF851;
 			}
 		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 87;
+			}
+			[regular]
+			{
+			  i required_level = 5;
+			}
+			[veteran]
+			{
+			  i required_level = 56;
+			}
+		}
+	}
+	[t:start_group,n:elddim]
+	{
+	  b default = true;
+		description = "Elddim, the Center of the Kingdom";
+	  b dev_only = false;
+	  i id = 1;
+		screen_name = "Elddim";
+		[start_position]
+		{
+		  i id = 1;
+			position = -2.733674,0.000000,-0.836062,0x4EE0A82E;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.733674,0.000000,-0.836062,0x4EE0A82E;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = 1.696284,0.000000,-0.501113,0xDB2E2DA2;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.696284,0.000000,-0.501113,0xDB2E2DA2;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = -0.779971,0.000000,-0.338092,0xCAF63FCF;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.779971,0.000000,-0.338092,0xCAF63FCF;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = -1.248366,0.000000,2.493267,0x66385B98;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.248366,0.000000,2.493267,0x66385B98;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = 0.330120,0.000000,1.873428,0x6168681D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.330120,0.000000,1.873428,0x6168681D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = 0.037865,0.000000,-0.154900,0x05E056E4;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.037865,0.000000,-0.154900,0x05E056E4;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = 1.588087,0.000000,-0.515390,0x1E9F4866;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.588087,0.000000,-0.515390,0x1E9F4866;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = 2.051337,-1.000000,0.186340,0xC6415DE6;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.051337,-1.000000,0.186340,0xC6415DE6;
+			}
+		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 83;
+			}
+			[veteran]
+			{
+			  i required_level = 54;
+			}
+		}
 	}
 	[t:start_group,n:fallraen]
 	{
@@ -241,21 +241,6 @@
 	  b dev_only = false;
 	  i id = 3;
 		screen_name = "Fallraen";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 9;
-			}
-			[veteran]
-			{
-				required_level = 59;
-			}
-			[elite]
-			{
-				required_level = 90;
-			}
-		}
 		[start_position]
 		{
 		  i id = 1;
@@ -352,6 +337,21 @@
 				position = 1.098724,-0.000001,1.469881,0x6054F408;
 			}
 		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 90;
+			}
+			[regular]
+			{
+			  i required_level = 9;
+			}
+			[veteran]
+			{
+			  i required_level = 59;
+			}
+		}
 	}
 	[t:start_group,n:grescal]
 	{
@@ -360,21 +360,6 @@
 	  b dev_only = false;
 	  i id = 8;
 		screen_name = "Grescal";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 50;
-			}
-			[veteran]
-			{
-				required_level = 80;
-			}
-			[elite]
-			{
-				required_level = 106;
-			}
-		}
 		[start_position]
 		{
 		  i id = 1;
@@ -471,6 +456,21 @@
 				position = -2.133221,-0.793582,-10.755177,0x432556A7;
 			}
 		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 106;
+			}
+			[regular]
+			{
+			  i required_level = 50;
+			}
+			[veteran]
+			{
+			  i required_level = 80;
+			}
+		}
 	}
 	[t:start_group,n:hiroth]
 	{
@@ -479,21 +479,6 @@
 	  b dev_only = false;
 	  i id = 7;
 		screen_name = "Hiroth";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 46;
-			}
-			[veteran]
-			{
-				required_level = 79;
-			}
-			[elite]
-			{
-				required_level = 105;
-			}
-		}
 		[start_position]
 		{
 		  i id = 1;
@@ -590,6 +575,21 @@
 				position = -0.330330,0.000000,0.278603,0xB5546767;
 			}
 		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 105;
+			}
+			[regular]
+			{
+			  i required_level = 46;
+			}
+			[veteran]
+			{
+			  i required_level = 79;
+			}
+		}
 	}
 	[t:start_group,n:lang]
 	{
@@ -598,21 +598,6 @@
 	  b dev_only = false;
 	  i id = 5;
 		screen_name = "Lang";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 25;
-			}
-			[veteran]
-			{
-				required_level = 68;
-			}
-			[elite]
-			{
-				required_level = 99;
-			}
-		}
 		[start_position]
 		{
 		  i id = 1;
@@ -709,6 +694,21 @@
 				position = -1.669024,-0.000001,-0.098546,0x9824090F;
 			}
 		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 99;
+			}
+			[regular]
+			{
+			  i required_level = 25;
+			}
+			[veteran]
+			{
+			  i required_level = 68;
+			}
+		}
 	}
 	[t:start_group,n:meren]
 	{
@@ -717,21 +717,6 @@
 	  b dev_only = false;
 	  i id = 4;
 		screen_name = "Meren";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 18;
-			}
-			[veteran]
-			{
-				required_level = 64;
-			}
-			[elite]
-			{
-				required_level = 96;
-			}
-		}
 		[start_position]
 		{
 		  i id = 1;
@@ -828,6 +813,21 @@
 				position = -1.149331,0.000000,1.177485,0x3097F50A;
 			}
 		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 96;
+			}
+			[regular]
+			{
+			  i required_level = 18;
+			}
+			[veteran]
+			{
+			  i required_level = 64;
+			}
+		}
 	}
 	[t:start_group,n:quillrabe]
 	{
@@ -836,21 +836,6 @@
 	  b dev_only = false;
 	  i id = 6;
 		screen_name = "Quillrabe";
-		[world_levels]
-		{
-			[regular]
-			{
-				required_level = 42;
-			}
-			[veteran]
-			{
-				required_level = 77;
-			}
-			[elite]
-			{
-				required_level = 103;
-			}
-		}
 		[start_position]
 		{
 		  i id = 1;
@@ -860,7 +845,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -10.805069,-4.429999,4.283493,0x273EBA2E;
+				position = -11.189025,4.698408,-0.321976,0x273EBA2E;
 			}
 		}
 		[start_position]
@@ -872,7 +857,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -10.858673,-4.429999,0.172882,0x273EBA2E;
+				position = -11.830643,2.979325,-6.419197,0x273EBA2E;
 			}
 		}
 		[start_position]
@@ -884,7 +869,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -9.243561,-4.429999,-0.030640,0x273EBA2E;
+				position = -5.306091,3.661813,-4.093269,0x273EBA2E;
 			}
 		}
 		[start_position]
@@ -896,7 +881,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -9.243561,-4.429999,-0.030640,0x273EBA2E;
+				position = -4.497116,2.695568,-8.269402,0x273EBA2E;
 			}
 		}
 		[start_position]
@@ -908,7 +893,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -23.734177,-4.429999,33.827629,0x5E776AAD;
+				position = -24.201340,1.187978,27.201912,0x5E776AAD;
 			}
 		}
 		[start_position]
@@ -920,7 +905,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -10.805069,-4.429999,4.283493,0x273EBA2E;
+				position = -11.867599,3.853664,-3.124298,0x273EBA2E;
 			}
 		}
 		[start_position]
@@ -932,7 +917,7 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -21.102142,-4.480000,23.366631,0x06163332;
+				position = -19.607101,0.500000,21.617241,0x06163332;
 			}
 		}
 		[start_position]
@@ -944,7 +929,22 @@
 			  f azimuth = 0.950796;
 			  f distance = 23.000000;
 			  f orbit = -0.060000;
-				position = -10.805069,-4.429999,4.283493,0x273EBA2E;
+				position = -4.891098,4.744550,-0.168167,0x273EBA2E;
+			}
+		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 103;
+			}
+			[regular]
+			{
+			  i required_level = 42;
+			}
+			[veteran]
+			{
+			  i required_level = 77;
 			}
 		}
 	}
