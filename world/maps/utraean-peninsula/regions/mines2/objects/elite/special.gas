@@ -153,7 +153,7 @@
 	}
 	[set_quest_bits]
 	{
-		bool_variable = "3w_teleporter_mine_town_mines2_active";
+		bool_variable = "teleporter_mine_town_mines2_active";
 	}
 }
 [t:use_point,n:0x035003eb]
@@ -167,7 +167,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "3w_teleporter_mine_town_mines2_active";
+		bool_variable = "teleporter_mine_town_mines2_active";
 	  i level = 1;
 	  i object = -1;
 	  i region = 331519469;

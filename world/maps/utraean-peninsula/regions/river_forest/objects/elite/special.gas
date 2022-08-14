@@ -566,7 +566,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "3w_teleport_river_forest_path2mines_active";
+		bool_variable = "teleport_river_forest_path2mines_active";
 	  i level = 2;
 	  i object = -1;
 	  i region = -1141441793;
@@ -589,7 +589,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "3w_teleport_river_forest_path2crypts_active";
+		bool_variable = "teleport_river_forest_path2crypts_active";
 	  i level = 1;
 	  i object = -1;
 	  i region = -1141441793;

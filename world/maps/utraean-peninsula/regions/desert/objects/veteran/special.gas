@@ -754,7 +754,7 @@
 	}
 	[set_quest_bits]
 	{
-		bool_variable = "2w_teleport_castle_town_desert_active";
+		bool_variable = "teleport_castle_town_desert_active";
 	}
 }
 [t:trigger_snd_msg_activate,n:0x071004b8]
@@ -790,7 +790,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "2w_teleport_castle_town_desert_active";
+		bool_variable = "teleport_castle_town_desert_active";
 	  i level = 1;
 	  i object = -1;
 	  i region = -1432223232;

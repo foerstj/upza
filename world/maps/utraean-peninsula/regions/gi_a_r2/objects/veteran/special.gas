@@ -100,7 +100,7 @@
 	}
 	[set_quest_bits]
 	{
-		bool_variable = "2w_teleporter_swamp_town_gi_a_r2_active";
+		bool_variable = "teleporter_swamp_town_gi_a_r2_active";
 	}
 }
 [t:tutorial_tip,n:0x08f001c8]
@@ -203,7 +203,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "2w_teleporter_swamp_town_gi_a_r2_active";
+		bool_variable = "teleporter_swamp_town_gi_a_r2_active";
 	  i level = 1;
 	  i object = -1;
 	  i region = -614093858;

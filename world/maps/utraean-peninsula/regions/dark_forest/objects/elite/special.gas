@@ -66,7 +66,7 @@
 	}
 	[set_quest_bits]
 	{
-		bool_variable = "3w_teleport_ocean_dark_forest_active";
+		bool_variable = "teleport_ocean_dark_forest_active";
 	}
 }
 [t:use_point,n:0x08001b33]
@@ -80,7 +80,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "3w_teleport_ocean_dark_forest_active";
+		bool_variable = "teleport_ocean_dark_forest_active";
 	  i level = 1;
 	  i object = -1;
 	  i region = -1525810748;
