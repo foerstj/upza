@@ -553,6 +553,14 @@
 	  p position = 1.66674,-1.95567,-0.647854,0x35b89fd9;
 	}
 }
+[t:giant_rat_boss_01,n:0x001001e3]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.266346,-2,-1.92481,0x35b89fd9;
+	}
+}
 [t:krug_throw,n:0x00100290]
 {
 	[placement]
@@ -1194,13 +1202,5 @@
 	[placement]
 	{
 	  p position = 1.39359,-0.05,-2.86526,0xbe393b33;
-	}
-}
-[t:giant_rat_boss_01,n:0x001001e3]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.266346,-2,-1.92481,0x35b89fd9;
 	}
 }

@@ -533,6 +533,39 @@
 	  p position = -1.14465,-0.6,-1.14243,0x29e3f62b;
 	}
 }
+[t:dev_path_point,n:0x00c00186]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00C001DB;
+		path_name = "mine_town_mainpath";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.04878,-0.800002,-1.81317,0x2e9c049a;
+	}
+}
+[t:dev_path_point,n:0x00c00255]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00C002E3;
+		path_name = "mine_town_mainpath";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.10376,-0.799998,-1.26657,0x2e9c049a;
+	}
+}
 [t:dev_path_point,n:0x00c00041]
 {
 	[dev_path_point]
@@ -637,39 +670,6 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = -2.49343,-1.90735e-006,-1.26249,0x93b89c45;
-	}
-}
-[t:dev_path_point,n:0x00c00186]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x00C001DB;
-		path_name = "mine_town_mainpath";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.04878,-0.800002,-1.81317,0x2e9c049a;
-	}
-}
-[t:dev_path_point,n:0x00c00255]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x00C002E3;
-		path_name = "mine_town_mainpath";
-		point_name = "dup";
-	  f radius = 15;
-	}
-	[gizmo]
-	{
-	  v diffuse_color = 0,1,0;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.10376,-0.799998,-1.26657,0x2e9c049a;
 	}
 }
 [t:dev_path_point,n:0x00c002e5]
