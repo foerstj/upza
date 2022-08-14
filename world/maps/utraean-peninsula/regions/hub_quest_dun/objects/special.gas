@@ -12,6 +12,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -39,6 +40,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -67,6 +69,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -95,6 +98,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -137,6 +141,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -164,6 +169,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -191,6 +197,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -219,6 +226,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -231,70 +239,6 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 0.0353394,8,-0.931801,0xd1e73dd1;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200042]
-{
-	[placement]
-	{
-	  p position = -0.0130738,0.299998,-0.236906,0xbb826ec1;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200041]
-{
-	[placement]
-	{
-	  p position = -0.00536251,0.300001,-0.203994,0x0f2dfc9e;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200040]
-{
-	[placement]
-	{
-	  p position = 0.0411668,0.3,-0.200698,0x112b60ce;
-	}
-}
-[t:emitter_glb_fire_01,n:0x0820004a]
-{
-	[placement]
-	{
-	  p position = 0.0187833,0.300002,-0.146356,0x660cc535;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200049]
-{
-	[placement]
-	{
-	  p position = -0.0203249,0.299999,-0.122056,0x96a250b0;
-	}
-}
-[t:emitter_glb_fire_01,n:0x0820004b]
-{
-	[placement]
-	{
-	  p position = 0.0183978,0.299999,-0.116016,0x02092062;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200047]
-{
-	[placement]
-	{
-	  p position = 0.01902,0.299999,-0.131035,0x00e09bd1;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200048]
-{
-	[placement]
-	{
-	  p position = 0.0040608,0.299997,-0.13582,0x176ab112;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x0820004f]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.76629,-1.10478,0.965532,0xd6c79167;
 	}
 }
 [t:trigger_generic,n:0x082001f0]
@@ -316,6 +260,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -327,21 +272,6 @@
 	[placement]
 	{
 	  p position = 0.0208968,-9.53674e-007,1.4188,0x0b7da625;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x08200053]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.717529,-3.20477,-0.0824949,0x55cd49d3;
-	}
-}
-[t:emitter_glb_fire_01,n:0x0820004d]
-{
-	[placement]
-	{
-	  p position = -0.0198159,0.3,-0.187849,0x915a3d3b;
 	}
 }
 [t:trigger_change_mood_box,n:0x0820015d]
@@ -359,6 +289,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -388,6 +319,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -423,6 +355,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -450,6 +383,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -478,6 +412,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -530,6 +465,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -559,6 +495,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -573,6 +510,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -587,6 +525,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -601,6 +540,7 @@
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
+			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
@@ -685,57 +625,5 @@
 	[placement]
 	{
 	  p position = -1.23643,0,-0.782593,0x9e2ed8cf;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x08200052]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.52741,-1.10478,0.822472,0x58ba5421;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x08200050]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.42164,-1.10477,0.944556,0xe6e6a384;
-	}
-}
-[t:emitter_glb_fire_01,n:0x0820004c]
-{
-	[placement]
-	{
-	  p position = 0.0213349,0.300001,-0.179474,0x7c944dd9;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200046]
-{
-	[placement]
-	{
-	  p position = -0.00733769,0.3,-0.121531,0x7d551cf0;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200044]
-{
-	[placement]
-	{
-	  p position = 0.00470579,0.300001,-0.170115,0x88ce3ca0;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200043]
-{
-	[placement]
-	{
-	  q orientation = 0,-2.98023e-008,0,1;
-	  p position = -0.035717,0.35883,-0.272539,0x21921fb0;
-	}
-}
-[t:emitter_glb_fire_01,n:0x08200045]
-{
-	[placement]
-	{
-	  p position = 0.0173362,0.3,-0.175185,0xb3847800;
 	}
 }
