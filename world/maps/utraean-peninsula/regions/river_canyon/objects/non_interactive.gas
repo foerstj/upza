@@ -2441,6 +2441,18 @@
 	  p position = 1.74975,0,0.347069,0x8b6c7a3c;
 	}
 }
+[t:grass_des_03,n:0x07300198]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.906308,0,-0.422618;
+	  p position = -0.636425,0,0.28221,0xf12db70b;
+	}
+}
 [t:bush_grs_rhod_01,n:0x073002fb]
 {
 	[aspect]
@@ -2607,18 +2619,6 @@
 	{
 	  q orientation = 0,0.366501,0,-0.930418;
 	  p position = -0.717262,-1.38668,-1.36698,0x4f995085;
-	}
-}
-[t:grass_des_03,n:0x07300198]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.2;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.906308,0,-0.422618;
-	  p position = -0.636425,0,0.28221,0xf12db70b;
 	}
 }
 [t:bush_des_04,n:0x0730033c]
