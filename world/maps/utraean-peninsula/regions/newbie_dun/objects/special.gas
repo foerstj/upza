@@ -527,6 +527,43 @@
 	  p position = -0.0166934,-1.5,1.40002,0x6e7f8436;
 	}
 }
+[t:trigger_generic,n:0x06d00056]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x2D1043BC,1,-1,-1,"in"), doc("sf_r2");
+				action* = fade_nodes(0x47A36F36,1,-1,-1,"out:black"), doc("sf_r1");
+				action* = fade_nodes(0x9C7B3870,2,1,-1,"in"), doc("newbie_dun top stairs");
+				action* = fade_nodes(0x9C7B3870,2,2,-1,"in"), doc("newbie_dun stairs 2");
+				action* = fade_nodes(0x9C7B3870,2,3,-1,"in"), doc("newbie_dun stairs 3");
+				action* = fade_nodes(0x9C7B3870,2,4,-1,"in"), doc("newbie_dun stairs 4");
+				action* = fade_nodes(0x9C7B3870,2,5,-1,"in"), doc("newbie_dun stairs 5");
+				action* = fade_nodes(0x9C7B3870,2,6,-1,"in"), doc("newbie_dun stairs 6");
+				action* = fade_nodes(0x9C7B3870,2,7,-1,"in"), doc("newbie_dun stairs 7");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.700000,1.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.39987,0,-0.0468138,0x12bb16fd;
+	}
+}
 [t:trigger_generic,n:0x06d001bf]
 {
 	[common]
@@ -1973,42 +2010,5 @@
 	[placement]
 	{
 	  p position = -0.0647316,-0.5,2.08918,0x4c2a60d6;
-	}
-}
-[t:trigger_generic,n:0x06d00056]
-{
-	[common]
-	{
-		dev_instance_text = "FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x2D1043BC,1,-1,-1,"in"), doc("sf_r2");
-				action* = fade_nodes(0x47A36F36,1,-1,-1,"out:black"), doc("sf_r1");
-				action* = fade_nodes(0x9C7B3870,2,1,-1,"in"), doc("newbie_dun top stairs");
-				action* = fade_nodes(0x9C7B3870,2,2,-1,"in"), doc("newbie_dun stairs 2");
-				action* = fade_nodes(0x9C7B3870,2,3,-1,"in"), doc("newbie_dun stairs 3");
-				action* = fade_nodes(0x9C7B3870,2,4,-1,"in"), doc("newbie_dun stairs 4");
-				action* = fade_nodes(0x9C7B3870,2,5,-1,"in"), doc("newbie_dun stairs 5");
-				action* = fade_nodes(0x9C7B3870,2,6,-1,"in"), doc("newbie_dun stairs 6");
-				action* = fade_nodes(0x9C7B3870,2,7,-1,"in"), doc("newbie_dun stairs 7");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.700000,1.000000,4.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.39987,0,-0.0468138,0x12bb16fd;
 	}
 }
