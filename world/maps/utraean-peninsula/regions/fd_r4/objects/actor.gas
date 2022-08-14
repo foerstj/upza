@@ -417,6 +417,14 @@
 	  p position = -2.04112,1.98274,-2.08401,0xf55b3bdd;
 	}
 }
+[t:wraith_boss_01,n:0x045000d5]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.503261,0,-0.558136,0x769d3fa3;
+	}
+}
 [t:wraith_archer,n:0x045000d7]
 {
 	[placement]
@@ -911,6 +919,14 @@
 	  p position = -0.670686,0,3.86113,0x356896c4;
 	}
 }
+[t:wraith_mage_boss_01,n:0x045000d6]
+{
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.60478e-007;
+	  p position = -1.97148,0,-2.36607,0xa3bf98ea;
+	}
+}
 [t:googore_grub,n:0x045000f7]
 {
 	[placement]
@@ -1323,21 +1339,5 @@
 	{
 	  q orientation = 0,1,0,2.98023e-007;
 	  p position = 1.36745,0,0.68368,0x5ec29b86;
-	}
-}
-[t:wraith_boss_01,n:0x045000d5]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.503261,0,-0.558136,0x769d3fa3;
-	}
-}
-[t:wraith_mage_boss_01,n:0x045000d6]
-{
-	[placement]
-	{
-	  q orientation = 0,-1,0,-1.60478e-007;
-	  p position = -1.97148,0,-2.36607,0xa3bf98ea;
 	}
 }

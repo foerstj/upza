@@ -246,6 +246,10 @@
 }
 [t:mp_guard_02,n:0x0170092e]
 {
+	[aspect]
+	{
+	  b is_collidable = false;
+	}
 	[common]
 	{
 		screen_name = "Swamp Tracker";
@@ -266,10 +270,6 @@
 			es_feet = bo_bo_ch_f_g_c_avg;
 			es_forearms = gl_ga_bl_f_g_c_avg;
 		}
-	}
-	[aspect]
-	{
-	  b is_collidable = false;
 	}
 	[mind]
 	{

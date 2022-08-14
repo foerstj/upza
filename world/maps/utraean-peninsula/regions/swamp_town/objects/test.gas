@@ -95,56 +95,107 @@
 	  p position = 1.34176,0.657448,1.78434,0x55fd8eec;
 	}
 }
-[t:dev_path_point,n:0x04e00a73]
+[t:dev_path_point,n:0x04e00a6c]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E00A74;
-		path_name = "zdistance_swamp2gi_sign_7";
+	  x next_scid = 0x04E00A6D;
+		path_name = "zdistance_sr2_lang";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = 1.8446,0.60676,3.0054,0x69a8e48c;
+	  p position = -2.52843,0.999992,2.4338,0x12895cf2;
 	}
 }
-[t:dev_path_point,n:0x04e003e8]
+[t:dev_path_point,n:0x04e003d7]
 {
 	[dev_path_point]
 	{
-		path_name = "zdistance_of_r1_sign_7";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  p position = 0.0553033,1.04316,2.40359,0xa3a1bc0e;
-	}
-}
-[t:dev_path_point,n:0x04e003eb]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003EC;
-		path_name = "swamp_town_sidepath_1";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 0.162355,0,-1.64205,0xa8fc267b;
-	}
-}
-[t:dev_path_point,n:0x04e003e7]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003E9;
+	  x next_scid = 0x04E003D8;
 		path_name = "swamp_town_mainpath";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = 1.17866,-0.363265,-4.83297,0x305c3731;
+	  p position = -0.0104842,0.950002,8.64394,0xf97a205d;
+	}
+}
+[t:dev_path_point,n:0x04e003d9]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003DA;
+		path_name = "swamp_town_mainpath";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.86679,-1.19209e-007,-1.90998,0x1018b81c;
+	}
+}
+[t:dev_path_point,n:0x04e003da]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003DB;
+		path_name = "swamp_town_mainpath";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.809216,0,0.193079,0x7e1c420e;
+	}
+}
+[t:dev_path_point,n:0x04e003dc]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003DD;
+		path_name = "swamp_town_mainpath";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.632851,0,1.18173,0x7e1c420e;
+	}
+}
+[t:dev_path_point,n:0x04e003de]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003DF;
+		path_name = "swamp_town_mainpath";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.54924,0,0.201859,0x39c1b195;
+	}
+}
+[t:dev_path_point,n:0x04e003e0]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003E1;
+		path_name = "swamp_town_mainpath";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.93715e-007;
+	  p position = -0.995132,0,0.36718,0x39c1b195;
 	}
 }
 [t:dev_path_point,n:0x04e003e6]
@@ -161,19 +212,6 @@
 	  p position = 3.84163,1,1.98976,0xce444e21;
 	}
 }
-[t:dev_path_point,n:0x04e00a75]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E00A76;
-		path_name = "zdistance_swamp2gi_sign_7";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  p position = -1.2501,1.04855,2.36652,0xbe0e773a;
-	}
-}
 [t:dev_path_point,n:0x04e00a76]
 {
 	[dev_path_point]
@@ -187,71 +225,42 @@
 	  p position = 1.88067,1.5,3.61183,0x896996a4;
 	}
 }
-[t:dev_path_point,n:0x04e00a6f]
+[t:dev_path_point,n:0x04e003e7]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E00A70;
-		path_name = "zdistance_swamp2gi_lang";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  p position = 0.748775,1,1.21401,0x87186a50;
-	}
-}
-[t:dev_path_point,n:0x04e003e5]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003E6;
+	  x next_scid = 0x04E003E9;
 		path_name = "swamp_town_mainpath";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,-2.08616e-007;
-	  p position = -0.218925,1.03986,0.690153,0x34f6ec22;
+	  p position = 1.17866,-0.363265,-4.83297,0x305c3731;
 	}
 }
-[t:dev_path_point,n:0x04e00a70]
+[t:dev_path_point,n:0x04e00a77]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E00A71;
-		path_name = "zdistance_swamp2gi_lang";
+		path_name = "zdistance_swamp2gi_sign_7";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -1.0983,0.740349,1.11223,0x700433d9;
+	  p position = -0.815393,-0.699997,-2.83652,0x3d8add2c;
 	}
 }
-[t:dev_path_point,n:0x04e003e2]
+[t:dev_path_point,n:0x04e00a74]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003E3;
-		path_name = "swamp_town_mainpath";
+	  x next_scid = 0x04E00A75;
+		path_name = "zdistance_swamp2gi_sign_7";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.980785,0,0.19509;
-	  p position = -3.51021,0,-1.84358,0xbe513444;
-	}
-}
-[t:dev_path_point,n:0x04e00a71]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E00A72;
-		path_name = "zdistance_swamp2gi_lang";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  p position = -3.74071,0,-0.177872,0xbe513444;
+	  p position = -3.49615,1,1.88156,0x396370fd;
 	}
 }
 [t:dev_path_point,n:0x04e003e4]
@@ -321,17 +330,56 @@
 	  p position = 1.28117,-0.82724,-1.65448,0xc764f256;
 	}
 }
-[t:dev_path_point,n:0x04e00a74]
+[t:dev_path_point,n:0x04e003eb]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E00A75;
+	  x next_scid = 0x04E003EC;
+		path_name = "swamp_town_sidepath_1";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.162355,0,-1.64205,0xa8fc267b;
+	}
+}
+[t:dev_path_point,n:0x04e003e8]
+{
+	[dev_path_point]
+	{
+		path_name = "zdistance_of_r1_sign_7";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.0553033,1.04316,2.40359,0xa3a1bc0e;
+	}
+}
+[t:dev_path_point,n:0x04e003fa]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003FB;
+		path_name = "zdistance_sign_7_sign_2";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.694876,1,2.05945,0x52b91b66;
+	}
+}
+[t:dev_path_point,n:0x04e00a73]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E00A74;
 		path_name = "zdistance_swamp2gi_sign_7";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -3.49615,1,1.88156,0x396370fd;
+	  p position = 1.8446,0.60676,3.0054,0x69a8e48c;
 	}
 }
 [t:dev_path_point,n:0x04e00400]
@@ -901,107 +949,84 @@
 	  p position = -2.39577,0,1.49556,0x64c99de4;
 	}
 }
-[t:dev_path_point,n:0x04e003de]
+[t:dev_path_point,n:0x04e003e2]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003DF;
+	  x next_scid = 0x04E003E3;
 		path_name = "swamp_town_mainpath";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -1.54924,0,0.201859,0x39c1b195;
+	  q orientation = 0,0.980785,0,0.19509;
+	  p position = -3.51021,0,-1.84358,0xbe513444;
 	}
 }
-[t:dev_path_point,n:0x04e003e0]
+[t:dev_path_point,n:0x04e00a71]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003E1;
-		path_name = "swamp_town_mainpath";
-		point_name = "dup";
-	  f radius = 15;
-	}
-	[gizmo]
-	{
-	  v diffuse_color = 0,1,0;
-	}
-	[placement]
-	{
-	  q orientation = 0,-1,0,-1.93715e-007;
-	  p position = -0.995132,0,0.36718,0x39c1b195;
-	}
-}
-[t:dev_path_point,n:0x04e00a6c]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E00A6D;
-		path_name = "zdistance_sr2_lang";
+	  x next_scid = 0x04E00A72;
+		path_name = "zdistance_swamp2gi_lang";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -2.52843,0.999992,2.4338,0x12895cf2;
+	  p position = -3.74071,0,-0.177872,0xbe513444;
 	}
 }
-[t:dev_path_point,n:0x04e003d7]
+[t:dev_path_point,n:0x04e00a70]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003D8;
-		path_name = "swamp_town_mainpath";
+	  x next_scid = 0x04E00A71;
+		path_name = "zdistance_swamp2gi_lang";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -0.0104842,0.950002,8.64394,0xf97a205d;
+	  p position = -1.0983,0.740349,1.11223,0x700433d9;
 	}
 }
-[t:dev_path_point,n:0x04e003d9]
+[t:dev_path_point,n:0x04e00a75]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003DA;
+	  x next_scid = 0x04E00A76;
+		path_name = "zdistance_swamp2gi_sign_7";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.2501,1.04855,2.36652,0xbe0e773a;
+	}
+}
+[t:dev_path_point,n:0x04e003e5]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003E6;
 		path_name = "swamp_town_mainpath";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -1.86679,-1.19209e-007,-1.90998,0x1018b81c;
+	  q orientation = 0,1,0,-2.08616e-007;
+	  p position = -0.218925,1.03986,0.690153,0x34f6ec22;
 	}
 }
-[t:dev_path_point,n:0x04e003da]
+[t:dev_path_point,n:0x04e00a6f]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003DB;
-		path_name = "swamp_town_mainpath";
+	  x next_scid = 0x04E00A70;
+		path_name = "zdistance_swamp2gi_lang";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.809216,0,0.193079,0x7e1c420e;
-	}
-}
-[t:dev_path_point,n:0x04e003dc]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003DD;
-		path_name = "swamp_town_mainpath";
-		point_name = "dup";
-	  f radius = 15;
-	}
-	[gizmo]
-	{
-	  v diffuse_color = 0,1,0;
-	}
-	[placement]
-	{
-	  p position = 0.632851,0,1.18173,0x7e1c420e;
+	  p position = 0.748775,1,1.21401,0x87186a50;
 	}
 }
 [t:dev_path_point,n:0x04e003dd]
@@ -1035,20 +1060,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 0.325615,0.587837,-0.259223,0x4923c82e;
-	}
-}
-[t:dev_path_point,n:0x04e003df]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003E0;
-		path_name = "swamp_town_mainpath";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.923879;
-	  p position = 3.20398,0.923901,3.43166,0x71261311;
 	}
 }
 [t:dev_path_point,n:0x04e003ce]
@@ -1254,16 +1265,30 @@
 	  p position = -0.630717,0.950001,-3.85465,0xabf2b98b;
 	}
 }
-[t:dev_path_point,n:0x04e00a77]
+[t:dev_path_point,n:0x04e003c0]
 {
 	[dev_path_point]
 	{
-		path_name = "zdistance_swamp2gi_sign_7";
+	  x next_scid = 0x04E003E8;
+		path_name = "zdistance_of_r1_sign_7";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -0.815393,-0.699997,-2.83652,0x3d8add2c;
+	  p position = -0.153436,0.950005,-3.30494,0xe570e098;
+	}
+}
+[t:dev_path_point,n:0x04e003ea]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x04E003EB;
+		path_name = "swamp_town_sidepath_1";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.166688,0.988363,-0.977203,0xe570e098;
 	}
 }
 [t:dev_path_point,n:0x04e003e9]
@@ -1291,43 +1316,18 @@
 	  p position = 0.649842,-1.5,0.882254,0x849ecefc;
 	}
 }
-[t:dev_path_point,n:0x04e003fa]
+[t:dev_path_point,n:0x04e003df]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x04E003FB;
-		path_name = "zdistance_sign_7_sign_2";
+	  x next_scid = 0x04E003E0;
+		path_name = "swamp_town_mainpath";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = -0.694876,1,2.05945,0x52b91b66;
-	}
-}
-[t:dev_path_point,n:0x04e003c0]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003E8;
-		path_name = "zdistance_of_r1_sign_7";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  p position = -0.153436,0.950005,-3.30494,0xe570e098;
-	}
-}
-[t:dev_path_point,n:0x04e003ea]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x04E003EB;
-		path_name = "swamp_town_sidepath_1";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  p position = 0.166688,0.988363,-0.977203,0xe570e098;
+	  q orientation = 0,0.382683,0,0.923879;
+	  p position = 3.20398,0.923901,3.43166,0x71261311;
 	}
 }
 [t:dev_path_point,n:0x04e003f5]

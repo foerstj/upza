@@ -171,6 +171,19 @@
 	  p position = -1.47732,2.38419e-007,-0.411233,0x914fb256;
 	}
 }
+[t:chest_csl_03_un_wd_r1,n:0x064000ba]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -0.824565,0.549999,1.59341,0x9ac6b902;
+		use_point_scids = 0x064000bb;
+	}
+}
 [t:chest_csl_03_wd_r1,n:0x064000c5]
 {
 	[placement]
@@ -178,6 +191,18 @@
 		drop_point_scids = 0x064000ae;
 	  q orientation = 0,-0.737277,0,0.67559;
 	  p position = 1.79045,-2.38419e-007,0.508965,0x0982bfd0;
+	}
+}
+[t:chest_csl_03_un_wd_r1,n:0x064000bf]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  p position = 0.0342872,0.550001,1.96607,0xe6539cab;
+		use_point_scids = 0x064000be;
 	}
 }
 [t:barrel_swp_01_wd_r1,n:0x06400417]
@@ -192,7 +217,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3.000000;
+	  f use_range = 3;
 	}
 	[placement]
 	{
@@ -205,7 +230,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3.000000;
+	  f use_range = 3;
 	}
 	[placement]
 	{
@@ -236,7 +261,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3.000000;
+	  f use_range = 3;
 	}
 	[placement]
 	{
@@ -283,30 +308,5 @@
 	{
 	  q orientation = 0,0.748956,0,-0.66262;
 	  p position = 0.512529,-1.5,-0.542839,0x9203637a;
-	}
-}
-[t:chest_csl_03_un_wd_r1,n:0x064000ba]
-{
-	[inventory]
-	{
-	  b drop_at_use_point = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -0.824565,0.549999,1.59341,0x9ac6b902;
-		use_point_scids = 0x064000BB;
-	}
-}
-[t:chest_csl_03_un_wd_r1,n:0x064000bf]
-{
-	[inventory]
-	{
-	  b drop_at_use_point = true;
-	}
-	[placement]
-	{
-	  p position = 0.0342872,0.550001,1.96607,0xe6539cab;
-		use_point_scids = 0x064000BE;
 	}
 }
