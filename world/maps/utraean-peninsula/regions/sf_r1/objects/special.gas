@@ -215,7 +215,6 @@
 			{
 				action* = mood_change("multiplayer_world_sf_r1_3");
 				action* = fade_nodes(0x47A36F36,1,2,-1,"out:black");
-				action* = set_player_world_location("elspen_forest");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -225,6 +224,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elspen_forest");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -341,11 +355,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -399,7 +414,7 @@
 			  b no_trig_bits = false;
 				occupants_group = sno_r1_boundary_fade;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -439,7 +454,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_sr_r5_1");
-				action* = set_player_world_location("elspen_forest");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,1.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -449,6 +463,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elspen_forest");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,1.000000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -587,9 +616,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 6;
-	  f health_left = 836;
-	  f health_regen = 0.3979;
+	  f heal_amount = 6.000000;
+	  f health_left = 836.000000;
+	  f health_regen = 0.397900;
 	}
 	[placement]
 	{
@@ -698,11 +727,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -728,11 +758,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{

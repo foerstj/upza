@@ -349,7 +349,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -359,6 +358,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -378,7 +392,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -388,6 +401,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -536,7 +564,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -546,6 +573,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -565,7 +607,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -575,6 +616,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -595,7 +651,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -605,6 +660,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -632,11 +702,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -653,7 +724,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -663,6 +733,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -813,7 +898,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -823,6 +907,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -856,7 +955,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_1");
-				action* = set_player_world_location("hiroth");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -866,6 +964,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1196,9 +1309,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 10.8;
-	  f health_left = 2606.8;
-	  f health_regen = 0.808;
+	  f heal_amount = 10.800000;
+	  f health_left = 2606.800000;
+	  f health_regen = 0.808000;
 	}
 	[placement]
 	{
@@ -1423,11 +1536,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1456,7 +1570,7 @@
 {
 	[generic_accumtrigger]
 	{
-	  f num_delay = 2;
+	  f num_delay = 2.000000;
 	  i num_til_send = 8;
 	  x send_to_scid = 0x07200690;
 	}
@@ -2162,7 +2276,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dragon_5");
-				action* = set_player_world_location("drake_nest");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2172,6 +2285,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("drake_nest");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.000000,5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2192,7 +2320,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_town_3");
-				action* = set_player_world_location("hiroth_ravine");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2202,6 +2329,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hiroth_ravine");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.000000,10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2289,11 +2431,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2319,11 +2462,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2487,11 +2631,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{

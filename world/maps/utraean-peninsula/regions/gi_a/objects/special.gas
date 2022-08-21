@@ -772,11 +772,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2362,7 +2363,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_gi_a_1");
-				action* = set_player_world_location("goblin_warrens");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,4.000000,9.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2372,6 +2372,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("goblin_warrens");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,4.000000,9.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

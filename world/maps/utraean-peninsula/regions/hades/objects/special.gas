@@ -8,7 +8,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_hades_1");
-				action* = set_player_world_location("lava_caverns");
 				action* = fade_nodes(0xEA1CCCA8,1,-1,-1,"out:black"), doc("dunes");
 				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
 				action* = fade_nodes(0xA6495190,2,-1,-1,"out:black"), doc("dunes2hades entrance");
@@ -22,6 +21,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lava_caverns");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -43,7 +57,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_hades_2");
-				action* = set_player_world_location("lava_caverns");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -53,6 +66,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lava_caverns");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -94,7 +122,6 @@
 		{
 			[*]
 			{
-				action* = set_player_world_location("lava_caverns");
 				action* = mood_change("multiplayer_world_hades_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,3.000000,11.000000,"on_every_enter");
@@ -105,6 +132,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lava_caverns");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,3.000000,11.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -166,11 +208,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -332,7 +375,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_hades_2");
-				action* = set_player_world_location("lava_caverns");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -342,6 +384,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lava_caverns");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -357,9 +414,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 18;
-	  f health_left = 2458;
-	  f health_regen = 1.1569;
+	  f heal_amount = 18.000000;
+	  f health_left = 2458.000000;
+	  f health_regen = 1.156900;
 	}
 	[placement]
 	{
@@ -435,7 +492,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_hades_1");
-				action* = set_player_world_location("lava_caverns");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -445,6 +501,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lava_caverns");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -520,11 +591,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -588,9 +660,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 11.7;
-	  f health_left = 2881.2;
-	  f health_regen = 0.874;
+	  f heal_amount = 11.700000;
+	  f health_left = 2881.200000;
+	  f health_regen = 0.874000;
 	}
 	[placement]
 	{
@@ -686,7 +758,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_hades_1");
-				action* = set_player_world_location("lava_caverns");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,8.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -696,6 +767,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lava_caverns");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

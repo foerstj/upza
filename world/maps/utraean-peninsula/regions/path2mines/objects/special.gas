@@ -38,7 +38,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_1");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -48,6 +47,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -69,7 +83,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_2");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,3.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -79,6 +92,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,3.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -160,7 +188,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_1");
-				action* = set_player_world_location("elddim_glade");
 				action* = fade_nodes(0xE0A672FE,55,-1,-1,"in"), doc("gd_r1_bad_nodes");
 				action* = fade_nodes(0xE0A672FE,1,-1,-1,"in"), doc("gd_r1");
 				action* = fade_nodes(0xE0A672FE,5,-1,-1,"in"), doc("gd_r1_l");
@@ -173,6 +200,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -194,7 +236,6 @@
 			{
 				action* = mood_change("multiplayer_world_gd_r1_1");
 				action* = fade_nodes(0x08B4B471,1,7,-1,"out:black"), doc("path2mines");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -204,6 +245,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -504,11 +560,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -619,9 +676,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 3.6;
-	  f health_left = 468;
-	  f health_regen = 0.19274;
+	  f heal_amount = 3.600000;
+	  f health_left = 468.000000;
+	  f health_regen = 0.192740;
 	}
 	[placement]
 	{
@@ -2692,11 +2749,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -3010,7 +3068,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_4");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(25.000000,3.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3020,6 +3077,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(25.000000,3.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3070,7 +3142,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_4");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3080,6 +3151,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3128,7 +3214,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_4");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3138,6 +3223,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3210,7 +3310,7 @@
 			  b no_trig_bits = false;
 				occupants_group = path2mines_fade_6;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3250,7 +3350,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_4");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3260,6 +3359,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3281,7 +3395,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_4");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3291,6 +3404,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3343,7 +3471,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2mines_4");
-				action* = set_player_world_location("elddim_glade");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3353,6 +3480,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("elddim_glade");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -3529,9 +3671,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 1.8;
-	  f health_left = 548.8;
-	  f health_regen = 0.1228;
+	  f heal_amount = 1.800000;
+	  f health_left = 548.800000;
+	  f health_regen = 0.122800;
 	}
 	[placement]
 	{

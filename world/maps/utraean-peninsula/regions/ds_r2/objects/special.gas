@@ -14,7 +14,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_1");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -24,6 +23,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -44,7 +58,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_1");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -54,6 +67,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -98,9 +126,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 6.3;
-	  f health_left = 1626.8;
-	  f health_regen = 0.478;
+	  f heal_amount = 6.300000;
+	  f health_left = 1626.800000;
+	  f health_regen = 0.478000;
 	}
 	[placement]
 	{
@@ -162,7 +190,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_2");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -172,6 +199,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -191,7 +233,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_2");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -201,6 +242,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -221,7 +277,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_2");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -231,6 +286,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -250,7 +320,6 @@
 		{
 			[*]
 			{
-				action* = set_player_world_location("lang_mire");
 				action* = mood_change("multiplayer_world_ds_r2_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(12.000000,2.000000,0.500000,"on_every_enter");
@@ -261,6 +330,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(12.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -281,7 +365,6 @@
 		{
 			[*]
 			{
-				action* = set_player_world_location("utrae_north");
 				action* = mood_change("multiplayer_world_df2ds_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(12.000000,2.000000,0.500000,"on_every_enter");
@@ -292,6 +375,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("utrae_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(12.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -307,9 +405,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 9.6;
-	  f health_left = 1364;
-	  f health_regen = 0.6256;
+	  f heal_amount = 9.600000;
+	  f health_left = 1364.000000;
+	  f health_regen = 0.625600;
 	}
 	[placement]
 	{
@@ -428,7 +526,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_1");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -438,6 +535,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -974,7 +1086,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_1");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -984,6 +1095,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1196,7 +1322,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_ds_r2_1");
-				action* = set_player_world_location("lang_mire");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1206,6 +1331,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("lang_mire");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

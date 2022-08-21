@@ -64,7 +64,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dunes_1");
-				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,40.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -74,6 +73,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,40.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -93,7 +107,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,38.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -103,6 +116,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,38.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -123,7 +151,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -133,6 +160,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -153,7 +195,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dunes_1");
-				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,34.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -163,6 +204,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,34.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -183,7 +239,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -193,6 +248,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -249,7 +319,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dunes_1");
-				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -259,6 +328,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -279,7 +363,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,35.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -289,6 +372,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,35.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -309,7 +407,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dunes_1");
-				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,35.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -319,6 +416,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,35.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -339,7 +451,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dunes_1");
-				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -349,6 +460,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -369,7 +495,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -379,6 +504,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,30.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -399,7 +539,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,17.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -409,6 +548,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,17.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -429,7 +583,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dunes_1");
-				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,5.000000,18.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -439,6 +592,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,5.000000,18.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -486,7 +654,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -496,6 +663,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -516,7 +698,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -526,6 +707,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -546,7 +742,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_1");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -556,6 +751,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -577,7 +787,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_castle_dun_1");
-				action* = set_player_world_location("mausoleum");
 				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.500000,2.000000,3.000000,"on_every_enter");
@@ -588,6 +797,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mausoleum");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.500000,2.000000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -970,7 +1194,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_4");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -980,6 +1203,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1028,7 +1266,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dragon_4");
-				action* = set_player_world_location("drake_nest");
 				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.000000,1.500000,"on_every_enter");
@@ -1039,6 +1276,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("drake_nest");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.000000,1.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1059,7 +1311,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_4");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1069,6 +1320,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1089,7 +1355,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_desert_4");
-				action* = set_player_world_location("mesa_desert");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1099,6 +1364,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mesa_desert");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

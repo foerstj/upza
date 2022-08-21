@@ -154,7 +154,6 @@
 			[*]
 			{
 				action* = fade_nodes_global(0xE0A672FE,1,7,-1,"out:black");
-				action* = set_player_world_location("hovarts_folly_north");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,3.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -164,6 +163,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hovarts_folly_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,3.000000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -276,7 +290,6 @@
 			{
 				action* = fade_nodes(0x08B4B471,1,-1,-1,"in"), doc("path2mines");
 				action* = fade_nodes(0x5C3929B2,1,-1,-1,"in"), doc("mega_forest");
-				action* = set_player_world_location("hovarts_folly_north");
 				action* = fade_nodes(0xE0A672FE,55,-1,-1,"out:black"), doc("gd_r1_bad_wall");
 				action* = fade_nodes(0x5C3929B3,1,-1,-1,"in"), doc("mega_forest_r3");
 				action* = fade_nodes(0x08B4B471,1,7,-1,"in"), doc("path2mines_roof");
@@ -289,6 +302,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hovarts_folly_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -556,11 +584,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -586,11 +615,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -720,7 +750,6 @@
 				action* = set_camera_fade_node(0x75E6BB3C,1);
 				action* = set_camera_fade_node(0x87C31DC1,1);
 				action* = fade_nodes_global(0xE0A672FE,1,5,-1,"out:black");
-				action* = set_player_world_location("hovarts_folly_north");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,2.000000,"on_first_enter"), doc("[*one-shot check (trigger is one-shot)*]");
 			  f delay = 0.000000;
@@ -730,6 +759,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hovarts_folly_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,2.000000,"on_first_enter"), doc("[*one-shot check (trigger is one-shot)*]");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = true;
 			  b start_active = true;
 			}
@@ -1120,7 +1164,6 @@
 			[*]
 			{
 				action* = fade_nodes(0x08B4B471,1,-1,-1,"in"), doc("path2mines");
-				action* = set_player_world_location("hovarts_folly_north");
 				action* = fade_nodes(0xE0A672FE,55,-1,-1,"out:black"), doc("gd_r1_bad_wall");
 				action* = fade_nodes(0x5C3929B3,1,-1,-1,"in"), doc("mega_forest_r3");
 				action* = fade_nodes(0x08B4B471,1,7,-1,"in"), doc("path2mines_roof");
@@ -1133,6 +1176,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hovarts_folly_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.300000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1430,7 +1488,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_gd_r1_3");
-				action* = set_player_world_location("great_hall");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1440,6 +1497,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("great_hall");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1721,7 +1793,6 @@
 			[*]
 			{
 				action* = fade_nodes(0x5C3929B2,1,-1,-1,"out:black"), doc("mega_forest");
-				action* = set_player_world_location("hovarts_folly_north");
 				action* = fade_nodes(0x5C3929B3,1,-1,-1,"out:black"), doc("mega_forest_r3");
 				action* = fade_nodes(0xBBF6FAFF,2,2,-1,"in"), doc("river_forest_teleporter");
 				action* = fade_nodes(0x08B4B471,4,1,-1,"in"), doc("path2mines_teleporter");
@@ -1735,6 +1806,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("hovarts_folly_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.500000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

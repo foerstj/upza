@@ -326,7 +326,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_df2ds_7");
-				action* = set_player_world_location("utrae_north");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,2.200000,"on_every_enter");
 			  f delay = 0.000000;
@@ -336,6 +335,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("utrae_north");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,2.200000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -356,7 +370,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_df2ds_9");
-				action* = set_player_world_location("utrae_summit");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,2.200000,"on_every_enter");
 			  f delay = 0.000000;
@@ -366,6 +379,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("utrae_summit");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,2.200000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -386,7 +414,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_df2ds_8");
-				action* = set_player_world_location("utrae_alpine");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -396,6 +423,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("utrae_alpine");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -416,7 +458,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_df2ds_9");
-				action* = set_player_world_location("utrae_summit");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -426,6 +467,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("utrae_summit");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -719,7 +775,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_dark_forest_4");
-				action* = set_player_world_location("utrae_alpine");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.500000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -729,6 +784,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("utrae_alpine");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.500000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -831,7 +901,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.19296;
+	  f scale_multiplier = 1.192960;
 	}
 	[placement]
 	{
