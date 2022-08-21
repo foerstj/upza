@@ -18,6 +18,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.747223,0,0.664573;
 	  p position = 1.11928,12,1.68817,0x2317c7c3;
 	}
 }
@@ -1241,6 +1242,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.40033,0,-0.916371;
 	  p position = -8.3374,8.05,1.00479,0x2902d216;
 	}
 }
@@ -2032,6 +2034,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.966811,0,-0.255491;
 	  p position = 1.13201,0,0.783491,0xe661f692;
 	}
 }
@@ -2805,8 +2808,13 @@
 }
 [t:tree_des_pine_01,n:0x08700044]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.08523;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.022907,0,0.999738;
 	  p position = 0.602551,11.9139,2.93597,0xef93c391;
 	}
 }

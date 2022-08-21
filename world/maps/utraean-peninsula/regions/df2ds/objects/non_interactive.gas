@@ -222,6 +222,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.379259,0,-0.925291;
 	  p position = -0.116434,-0.649998,3.29059,0x0f831a26;
 	}
 }
@@ -1337,6 +1338,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.875063,0,0.484008;
 	  p position = -3.76968,-12,-2.6118,0x9cccdf9a;
 	}
 }
@@ -2272,6 +2274,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.173783,0,-0.984784;
 	  p position = 1.18188,6,5.03768,0x31844287;
 	}
 }
@@ -2583,6 +2586,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.928319,0,0.371784;
 	  p position = -0.824432,-1.90735e-006,0.593623,0x2f897ed0;
 	}
 }
@@ -2780,6 +2784,10 @@
 }
 [t:tree_des_dead_03,n:0x09300a7d]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.17573;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -4690,6 +4698,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.532883,0,0.846189;
 	  p position = -1.31439,0,0.94696,0x28f02d97;
 	}
 }
@@ -6765,6 +6774,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.534217,0,0.845347;
 	  p position = -2.48617,-1.45389,-0.264685,0xe02c8b28;
 	}
 }
@@ -8756,6 +8766,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.810653,0,-0.585527;
 	  p position = -6.99216,-3.71636,-4.44335,0x43a811f7;
 	}
 }
@@ -11915,6 +11926,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.00878,0,0.999961;
 	  p position = 2.55529,2,3.05537,0x12b8aed6;
 	}
 }
@@ -13150,6 +13162,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.082644,0,-0.996579;
 	  p position = 2.01913,3.79207,0.164001,0xf66a12bc;
 	}
 }
@@ -15897,6 +15910,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.673322,0,0.739349;
 	  p position = -3.75002,2,2.65837,0xd74db687;
 	}
 }
@@ -18008,6 +18022,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.037161,0,-0.999309;
 	  p position = -1.10775,-6,-1.76916,0x07b5d88b;
 	}
 }
@@ -20461,6 +20476,10 @@
 }
 [t:tree_ice_dead_01,n:0x093009d7]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.84143;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0784588,0,-0.996917;
@@ -21041,6 +21060,10 @@
 }
 [t:tree_ice_dead_01,n:0x093009d6]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81038;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.325568,0,0.945519;

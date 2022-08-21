@@ -814,6 +814,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.794897,0,-0.606744;
 	  p position = 2.20706,0,1.52949,0x872698ba;
 	}
 }
@@ -2793,6 +2794,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.749027,0,0.66254;
 	  p position = -0.0389299,-0.5,-1.7933,0x98e63c27;
 	}
 }
@@ -6263,6 +6265,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.919178,0,0.393843;
 	  p position = 0.567545,0,0.721142,0x19a95f4d;
 	}
 }
@@ -8074,6 +8077,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.798961,0,-0.601383;
 	  p position = -3.01489,0,0.749083,0x652177cb;
 	}
 }
@@ -8433,6 +8437,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.136687,0,0.990614;
 	  p position = -2.78663,0.5,1.32307,0x811528fd;
 	}
 }
@@ -11444,6 +11449,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.855237,0,0.518237;
 	  p position = 0.0317304,16,3.70966,0xcdc73578;
 	}
 }
@@ -12103,6 +12109,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.142517,0,-0.989792;
 	  p position = -1.44055,0,-1.00199,0x805f0137;
 	}
 }
@@ -12150,6 +12157,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.999998,0,-0.00211;
 	  p position = 1.78557,0,0.760059,0x44c691db;
 	}
 }
@@ -15527,6 +15535,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.838334,0,0.545157;
 	  p position = 3.55742,1.90735e-006,0.176205,0xdf53a72b;
 	}
 }
@@ -16830,6 +16839,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.592253,0,-0.805752;
 	  p position = 1.7897,11.9206,-1.53884,0xeed3e7aa;
 	}
 }
@@ -16895,29 +16905,49 @@
 }
 [t:bush_grs_rhod_01,n:0x08400717]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.09555;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.654185,0,-0.756334;
 	  p position = 1.75277,-6,-0.629625,0xdf644de1;
 	}
 }
 [t:tree_grs_pine_01,n:0x08400271]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.76253;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.678223,0,0.734856;
 	  p position = 0.296526,0,0.726402,0xe5b4414f;
 	}
 }
 [t:bush_grs_rhod_01,n:0x08400532]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19414;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.406083,0,0.913836;
 	  p position = 0.719534,0,-0.166019,0xe5b4414f;
 	}
 }
 [t:bush_grs_rhod_01,n:0x084006b7]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.17829;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.522334,0,-0.852741;
 	  p position = -1.15546,0,-0.784184,0xe5b4414f;
 	}
 }
@@ -17043,22 +17073,37 @@
 }
 [t:tree_grs_pine_04,n:0x0840028a]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.87364;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.491003,0,0.871158;
 	  p position = -3.19552,12,0.51108,0xfe26ff4f;
 	}
 }
 [t:bush_grs_rhod_01,n:0x0840052e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.91501;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.347993,0,-0.937497;
 	  p position = -3.86403,12,-0.109024,0xfe26ff4f;
 	}
 }
 [t:bush_grs_rhod_01,n:0x08400778]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.18626;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.209747,0,-0.977756;
 	  p position = -1.69253,12,0.719231,0xfe26ff4f;
 	}
 }
@@ -17100,78 +17145,133 @@
 }
 [t:tree_grs_pine_01,n:0x0840024e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.80192;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.567001,0,-0.823717;
 	  p position = 1.22373,0,0.598539,0x737bd28a;
 	}
 }
 [t:tree_grs_pine_01,n:0x0840024f]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.87197;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.17508,0,-0.984554;
 	  p position = -2.20224,0,0.0547314,0x737bd28a;
 	}
 }
 [t:tree_grs_pine_04,n:0x0840028b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89445;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.765343,0,0.643623;
 	  p position = -2.94074,0,0.834259,0x737bd28a;
 	}
 }
 [t:bush_grs_rhod_01,n:0x08400505]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.85164;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.556198,0,-0.83105;
 	  p position = 1.41366,0,0.273169,0x737bd28a;
 	}
 }
 [t:bush_grs_rhod_01,n:0x08400526]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89772;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.819219,0,-0.573481;
 	  p position = -1.46471,0,-0.133692,0x737bd28a;
 	}
 }
 [t:bush_grs_rhod_01,n:0x084007d3]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.08927;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.530869,0,-0.847454;
 	  p position = 0.374905,0,1.53213,0x737bd28a;
 	}
 }
 [t:tree_grs_pine_04,n:0x0840028c]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.96279;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.988332,0,-0.152318;
 	  p position = -1.08044,11.7569,2.93289,0xdb010675;
 	}
 }
 [t:tree_grs_pine_01,n:0x0840026f]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.70921;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.335059,0,0.942197;
 	  p position = 3.98761,5.99897,3.84137,0x143780c2;
 	}
 }
 [t:tree_grs_pine_04,n:0x084002b6]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.12534;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.97766,0,-0.210191;
 	  p position = 1.02555,5.96865,4.20901,0x143780c2;
 	}
 }
 [t:bush_grs_rhod_01,n:0x0840071a]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.05528;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.425517,0,0.904951;
 	  p position = 3.44253,5.96911,4.01686,0x143780c2;
 	}
 }
 [t:bush_grs_rhod_01,n:0x0840071b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.03307;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.763476,0,-0.645836;
 	  p position = 0.642925,6,5.32796,0x143780c2;
 	}
 }
@@ -17225,8 +17325,13 @@
 }
 [t:bush_grs_rhod_01,n:0x084007d8]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.84937;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.677425,0,-0.735592;
 	  p position = 1.00148,11.8569,2.91865,0xbb88a706;
 	}
 }
@@ -18786,6 +18891,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.222891,0,-0.974843;
 	  p position = 0.526535,0,1.69551,0x78ee2bed;
 	}
 }
@@ -20195,6 +20301,10 @@
 }
 [t:fern_grs_03,n:0x084015ad]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89905;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.994522,0,0.104528;
@@ -20353,6 +20463,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.514655,0,-0.857397;
 	  p position = 0.300914,3.9544,3.11075,0x6fbc5beb;
 	}
 }
@@ -20400,6 +20511,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.054423,0,0.998518;
 	  p position = 0.0806246,1.90735e-006,0.739146,0x95c84cc5;
 	}
 }

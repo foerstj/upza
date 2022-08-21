@@ -2418,6 +2418,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.09483,0,0.995493;
 	  p position = 1.81938,-2,-0.412787,0xad9f8907;
 	}
 }
@@ -2483,8 +2484,13 @@
 }
 [t:reed_des_04,n:0x0920002d]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.08155;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.306816,0,-0.951769;
 	  p position = -2.58278,1.47422,2.69308,0x37a5aafc;
 	}
 }
@@ -2526,8 +2532,13 @@
 }
 [t:reed_des_05,n:0x0920002e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.11314;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.755397,0,-0.655267;
 	  p position = 0.216237,0.053532,2.16854,0xba2121e7;
 	}
 }
@@ -7146,6 +7157,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.904845,0,-0.425742;
 	  p position = -0.251068,0,-2.90831,0x4c8988ed;
 	}
 }
@@ -9256,6 +9268,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.784164,0,0.620554;
 	  p position = -1.65496,0,0.118473,0xeb8491bd;
 	}
 }

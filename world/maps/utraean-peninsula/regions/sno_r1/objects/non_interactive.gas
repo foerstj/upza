@@ -1065,6 +1065,10 @@
 }
 [t:moss_swp_03,n:0x00600241]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.09719;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -1073,15 +1077,25 @@
 }
 [t:moss_swp_08,n:0x00600242]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.98075;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.146522,0,-0.989207;
 	  p position = -19.0797,12,-15.1086,0x3a10313f;
 	}
 }
 [t:moss_swp_06,n:0x00600252]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89306;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.508617,0,-0.860993;
 	  p position = -18.1346,12,-13.9341,0x3a10313f;
 	}
 }
@@ -1159,6 +1173,10 @@
 }
 [t:moss_swp_03,n:0x0060020d]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81901;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;

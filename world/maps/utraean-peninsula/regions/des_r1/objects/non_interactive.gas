@@ -1326,6 +1326,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.900299,0,0.435271;
 	  p position = 0.0117378,1.90735e-006,-1.68432,0x0e051b68;
 	}
 }
@@ -2160,6 +2161,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.959834,0,0.280567;
 	  p position = -2.43581,0,-3.59966,0x68be9006;
 	}
 }
@@ -4495,6 +4497,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.769518,0,0.638625;
 	  p position = 1.2333,0,0.318344,0xfa366e6d;
 	}
 }
@@ -11568,6 +11571,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.3714,0,0.928473;
 	  p position = -2.09246,0,2.71004,0x6fbf6d0d;
 	}
 }
@@ -16923,6 +16927,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.803299,0,-0.595576;
 	  p position = -0.0738983,-8,-0.197868,0xbf591b67;
 	}
 }
@@ -17596,6 +17601,10 @@
 }
 [t:grass_des_03,n:0x007004c1]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.17423;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97437,0,0.224951;

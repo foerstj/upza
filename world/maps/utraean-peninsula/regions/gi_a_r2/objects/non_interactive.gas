@@ -43,6 +43,10 @@
 }
 [t:mushrooms_cav_05,n:0x08f000e6]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19179;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.0436193,0,0.999048;
