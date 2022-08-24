@@ -70,6 +70,26 @@
 	  p position = -1.30327,-0.637122,-1.69334,0xd78a7603;
 	}
 }
+[t:chest_grs_02_sr_r3,n:0x04200143]
+{
+	[common]
+	{
+		dev_instance_text = "SP Chest w. Fury Eye";
+	  b is_multi_player = false;
+	}
+	[inventory]
+	{
+		[other]
+		{
+			il_main = fury_eye;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 2.41851e-007,0.956305,4.59452e-007,-0.292372;
+	  p position = 0.317894,-4,-3.37365,0x11ebde37;
+	}
+}
 [t:chest_grs_02_sr_r3,n:0x04200393]
 {
 	[common]
@@ -105,25 +125,5 @@
 	{
 	  q orientation = 0,0.956305,0,-0.292372;
 	  p position = -3.28127,1.90735e-006,-0.408487,0x4ee66c40;
-	}
-}
-[t:chest_grs_02_sr_r3,n:0x04200143]
-{
-	[common]
-	{
-		dev_instance_text = "SP Chest w. Fury Eye";
-	  b is_multi_player = false;
-	}
-	[inventory]
-	{
-		[other]
-		{
-			il_main = fury_eye;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 2.41851e-007,0.956305,4.59452e-007,-0.292372;
-	  p position = 0.317894,-4,-3.37365,0x11ebde37;
 	}
 }

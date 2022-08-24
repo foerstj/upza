@@ -2487,6 +2487,30 @@
 	  p position = -0.702164,1.41494,-1.34143,0x1d723ea2;
 	}
 }
+[t:crystals_cav_12,n:0x042002f5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.978251;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.968148,0,-0.25038;
+	  p position = -2.51867,0,-2.85351,0x0a0d2180;
+	}
+}
+[t:crystals_cav_12,n:0x042002f6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06118;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.615661,0,-0.788011;
+	  p position = -2.27956,0,-1.45618,0x0a0d2180;
+	}
+}
 [t:crystals_cav_09,n:0x042002f3]
 {
 	[aspect]
@@ -2497,6 +2521,18 @@
 	{
 	  q orientation = 2.12617e-009,0.771625,-5.7079e-009,0.636078;
 	  p position = 1.11711,0,1.706,0x282511d1;
+	}
+}
+[t:crystals_cav_12,n:0x042002f4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04849;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.34202,0,0.939693;
+	  p position = 1.24774,-4,-5.66354,0x0136b452;
 	}
 }
 [t:crystals_cav_11,n:0x042002f0]
@@ -2523,16 +2559,16 @@
 	  p position = 1.51991,0,-1.3006,0xd4cc00b7;
 	}
 }
-[t:crystals_cav_12,n:0x042002f4]
+[t:crystals_cav_11,n:0x042002fc]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.04849;
+	  f scale_multiplier = 1.2261;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.34202,0,0.939693;
-	  p position = 1.24774,-4,-5.66354,0x0136b452;
+	  q orientation = 0,0.537299,0,-0.843392;
+	  p position = -2.9961,1.90735e-006,-0.407257,0xd7b9e798;
 	}
 }
 [t:crystals_cav_09,n:0x042002f7]
@@ -2569,30 +2605,6 @@
 	{
 	  q orientation = 0,0.970296,0,-0.241922;
 	  p position = -3.30736,1,1.84694,0x5268d938;
-	}
-}
-[t:crystals_cav_12,n:0x042002f5]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.978251;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.968148,0,-0.25038;
-	  p position = -2.51867,0,-2.85351,0x0a0d2180;
-	}
-}
-[t:crystals_cav_12,n:0x042002f6]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06118;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.615661,0,-0.788011;
-	  p position = -2.27956,0,-1.45618,0x0a0d2180;
 	}
 }
 [t:crystals_cav_11,n:0x04200038]
@@ -3042,18 +3054,6 @@
 	{
 	  q orientation = 0,0.66913,0,-0.743145;
 	  p position = -2.54288,-7.15256e-007,-1.98358,0xfc954981;
-	}
-}
-[t:crystals_cav_11,n:0x042002fc]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.2261;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.537299,0,-0.843392;
-	  p position = -2.9961,1.90735e-006,-0.407257,0xd7b9e798;
 	}
 }
 [t:mushroom_glb_02,n:0x04200116]
