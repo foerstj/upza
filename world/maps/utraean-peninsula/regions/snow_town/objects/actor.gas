@@ -986,6 +986,32 @@
 	  p position = -1.70643,-1.25,-2.77505,0xf50c5ee6;
 	}
 }
+[t:ghilbertnor,n:0x027002ca]
+{
+	[common]
+	{
+	  b is_multi_player = false;
+		screen_name = "Uhlbertnor";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_ghilbertnor_first;
+			* = conversation_ghilbertnor_has_packmules;
+			* = conversation_ghilbertnor_no_packmules;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_ghilbertnor.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 5.14656,-1.75,-0.548074,0xf50c5ee6;
+	}
+}
 [t:mule_nt_r1,n:0x02700331]
 {
 	[common]
@@ -1473,30 +1499,5 @@
 	{
 	  p position = -10.3641,-1.4,4.73339,0x8a2b94b4;
 		use_point_scids = 0x02700360;
-	}
-}
-[t:ghilbertnor,n:0x027002ca]
-{
-	[common]
-	{
-	  b is_multi_player = false;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_ghilbertnor_first;
-            * = conversation_ghilbertnor_has_packmules;
-            * = conversation_ghilbertnor_no_packmules;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_ghilbertnor.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 5.14656,-1.75,-0.548074,0xf50c5ee6;
 	}
 }
