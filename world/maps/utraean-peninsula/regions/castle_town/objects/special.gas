@@ -689,6 +689,7 @@
 {
 	[common]
 	{
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -707,7 +708,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1309,9 +1309,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 10.800000;
-	  f health_left = 2606.800000;
-	  f health_regen = 0.808000;
+	  f heal_amount = 10.8;
+	  f health_left = 2606.8;
+	  f health_regen = 0.808;
 	}
 	[placement]
 	{
@@ -1523,6 +1523,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1541,7 +1542,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1570,7 +1570,7 @@
 {
 	[generic_accumtrigger]
 	{
-	  f num_delay = 2.000000;
+	  f num_delay = 2;
 	  i num_til_send = 8;
 	  x send_to_scid = 0x07200690;
 	}
@@ -2418,6 +2418,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -2436,7 +2437,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2449,6 +2449,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -2467,7 +2468,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2618,6 +2618,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -2636,7 +2637,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{

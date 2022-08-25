@@ -1088,6 +1088,7 @@
 	[common]
 	{
 		dev_instance_text = " PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1106,7 +1107,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1655,9 +1655,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 10.800000;
-	  f health_left = 2508.800000;
-	  f health_regen = 0.808000;
+	  f heal_amount = 10.8;
+	  f health_left = 2508.8;
+	  f health_regen = 0.808;
 	}
 	[placement]
 	{
