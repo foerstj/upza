@@ -759,9 +759,19 @@
 	  b is_multi_player = false;
 		screen_name = "Eliar Helmsvor";
 	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_owen_first;
+			* = conversation_owen_two_packmules;
+			* = conversation_owen_one_packmule;
+            * = conversation_owen_no_packmules;
+		}
+	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\actors\good\job_talk_owen.skrit;
 	}
 	[placement]
 	{

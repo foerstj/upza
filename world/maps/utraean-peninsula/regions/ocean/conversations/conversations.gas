@@ -533,3 +533,34 @@
 	}
 }
 
+[conversation_owen_first]
+{
+	[text*]
+	{
+		screen_text = "Trolls. You ask me, we should'a run the bastards outta these hills when we settled here. All those dung eaters left me were a pair of Jacks and a half lame mare. The Jacks I can part with for a price, though not for half as much I could've a week ago. You interested?";
+		choice = buy_packmule;
+	}
+}
+[conversation_owen_two_packmules]
+{
+	[text*]
+	{
+		screen_text = "I still got ole Beauty and Beast, if you're interested.";
+		choice = buy_packmule;
+	}
+}
+[conversation_owen_one_packmule]
+{
+	[text*]
+	{
+		screen_text = "I hope Beauty hasn't given you too much trouble. How 'bout making it a pair? I still got Beast, if you're interested.";
+		choice = buy_packmule;
+	}
+}
+[conversation_owen_no_packmules]
+{
+	[text*]
+	{
+		screen_text = "Good luck to you, then.";
+	}
+}
