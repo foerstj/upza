@@ -3821,3 +3821,20 @@
 	  p position = -1.5866,12,2.27553,0x06642f8f;
 	}
 }
+[t:party_humanoid,n:0x027002c2]
+{
+	[party]
+	{
+		[add_members]
+		{
+		  x * = 0x027002CA;
+		  x * = 0x02700240;
+		  x * = 0x02700331;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 5.51632,-1.60508,2.05197,0xf50c5ee6;
+	}
+}
