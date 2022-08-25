@@ -748,9 +748,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 4.500000;
-	  f health_left = 1215.200000;
-	  f health_regen = 0.346000;
+	  f heal_amount = 4.5;
+	  f health_left = 1215.2;
+	  f health_regen = 0.346;
 	}
 	[placement]
 	{
@@ -763,6 +763,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -781,7 +782,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -926,6 +926,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -944,7 +945,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1073,6 +1073,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1091,7 +1092,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1111,6 +1111,7 @@
 {
 	[common]
 	{
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1129,7 +1130,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1872,6 +1872,22 @@
 	  p position = 0.0553741,-0.95,0.482721,0x387a8ad2;
 	}
 }
+[t:party_humanoid,n:0x04d0022c]
+{
+	[party]
+	{
+		[add_members]
+		{
+		  x * = 0x04D00232;
+		  x * = 0x04D00200;
+		  x * = 0x04D00201;
+		}
+	}
+	[placement]
+	{
+	  p position = 0.396065,9.53674e-007,1.18543,0x1b0f5415;
+	}
+}
 [t:trigger_generic,n:0x04d00752]
 {
 	[common]
@@ -2377,6 +2393,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -2395,7 +2412,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{

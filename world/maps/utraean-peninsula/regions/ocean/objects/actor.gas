@@ -751,10 +751,30 @@
 	  p position = 1.12518,-0.949973,-1.47675,0xafbdaa34;
 	}
 }
+[t:farmer_male_old,n:0x04d00232]
+{
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Eliar Helmsvor";
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.942641,0,-0.333807;
+	  p position = -1.93028,-0.85,-1.71026,0x951e9074;
+	}
+}
 [t:mp_farmer_male_old,n:0x04d005fe]
 {
 	[common]
 	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 		screen_name = "Eliar Helmsvor";
 	}
 	[conversation]
