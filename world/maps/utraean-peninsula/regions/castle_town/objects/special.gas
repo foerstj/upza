@@ -2221,6 +2221,21 @@
 	  p position = -0.0329285,-9.4,-8.91816,0x71f7841e;
 	}
 }
+[t:party_humanoid,n:0x072001ce]
+{
+	[party]
+	{
+		[add_members]
+		{
+		  x * = 0x072001CF;
+		  x * = 0x072000F2;
+		}
+	}
+	[placement]
+	{
+	  p position = 0.217578,0,-1.37532,0x9e976670;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x07200428]
 {
 	[common]

@@ -685,4 +685,26 @@
 	}
 }
 
-
+[conversation_ghilbertnor_first]
+{
+	[text*]
+	{
+		screen_text = "Here to buy a mule, are you? You want a nice docile beastie you can leave out in the rain, pack a house-worth of stuff onto its back, and feed whenever you feel it's convenient? Hah! It's no wonder we went out of the sodding yak business! Do me a favor: take one of these worthless mules I got in trade for its equal in gold, and I'll be one step closer to getting out of this blighted kingdom for good.";
+		choice = buy_packmule;
+	}
+}
+[conversation_ghilbertnor_has_packmules]
+{
+	[text*]
+	{
+		screen_text = "Oh, back to buy one of these cretinous mules? Fine, fine. Take your pick. I don't care which one, just as long as you've got the gold I need.";
+		choice = buy_packmule;
+	}
+}
+[conversation_ghilbertnor_no_packmules]
+{
+	[text*]
+	{
+		screen_text = "If you're looking for another mule, you're out of luck. I've sold the last of them, and the Frozen Yak Corral is now history. Good riddance!";
+	}
+}

@@ -732,10 +732,39 @@
 	  p position = -2.82953,-9.53674e-007,-0.947868,0x8ddbf4df;
 	}
 }
+[t:azunite_priestess_lilyaire_prieve,n:0x072001cf]
+{
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Lillian Zane";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_ghilbertnor_first;
+			* = conversation_ghilbertnor_has_packmules;
+			* = conversation_ghilbertnor_no_packmules;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_ghilbertnor.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.258819,0,0.965926;
+	  p position = -1.36566,0,0.414556,0x9e976670;
+	}
+}
 [t:mp_townfolk_female_08,n:0x07200565]
 {
 	[common]
 	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 		screen_name = "Lillian Zane";
 	}
 	[conversation]
