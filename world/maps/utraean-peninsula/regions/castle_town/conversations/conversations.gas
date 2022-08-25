@@ -689,7 +689,7 @@
 {
 	[text*]
 	{
-		screen_text = "Here to buy a mule, are you? You want a nice docile beastie you can leave out in the rain, pack a house-worth of stuff onto its back, and feed whenever you feel it's convenient? Hah! It's no wonder we went out of the sodding yak business! Do me a favor: take one of these worthless mules I got in trade for its equal in gold, and I'll be one step closer to getting out of this blighted kingdom for good.";
+		screen_text = "Welcome to Hiroth, hero. Are you going to enter the castle and fight its horrors? If you succeed, you will find heaps of treasure and nobody will deny it to you. You might want to bring a packmule with you to carry all the stuff...";
 		choice = buy_packmule;
 	}
 }
@@ -697,7 +697,7 @@
 {
 	[text*]
 	{
-		screen_text = "Oh, back to buy one of these cretinous mules? Fine, fine. Take your pick. I don't care which one, just as long as you've got the gold I need.";
+		screen_text = "So, are you interested in buying a packmule? Gerty here is very docile, I assure you.";
 		choice = buy_packmule;
 	}
 }
@@ -705,6 +705,6 @@
 {
 	[text*]
 	{
-		screen_text = "If you're looking for another mule, you're out of luck. I've sold the last of them, and the Frozen Yak Corral is now history. Good riddance!";
+		screen_text = "Farewell, hero! I mean, see you soon!";
 	}
 }
