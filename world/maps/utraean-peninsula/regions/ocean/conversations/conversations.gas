@@ -191,15 +191,24 @@
 	[text*]
 	{
 		choice = buy_packmule;
-		screen_text = "Trolls. You ask me, we should'a run the bastards outta these hills when we settled here. All those dung eaters left me were a pair of Jacks and a half lame mare. The Jacks I can part with for a price, though not for half as much I could've a week ago. You interested?";
-	  f scroll_rate = 10.000000;
+		screen_text = "Hello, welcome to the livery stable of Meren! Would you be interested in my stalward mules?";
 	}
 }
 [conversation_owen_no_packmules]
 {
 	[text*]
 	{
-		screen_text = "Good luck to you, then.";
+		button_1_text = "Directions";
+		button_1_value = d_0x04d005fe;
+		order = 0;
+		screen_text = "Hey, check out that bush! I dare you to touch it.";
+        choice = more;
+	}
+	[text*]
+	{
+		button_1_text = "Directions";
+		button_1_value = d_0x04d005fe;
+		screen_text = "Har har har! And did you know 'gullible' is a type of sea-bird? Har har!";
 	}
 }
 [conversation_owen_one_packmule]
