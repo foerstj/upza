@@ -685,51 +685,26 @@
 	}
 }
 
-[conversation_ghilbertnor_first]
+[conversation_dhoge_first]
 {
 	[text*]
 	{
-		screen_text = "Welcome to Hiroth, hero. Are you going to enter the castle and fight its horrors? If you succeed, you will find heaps of treasure and nobody will deny it to you. You might want to bring a packmule with you to carry all the stuff...";
+		screen_text = "Welcome to Hiroth! Are you looking for mules? I've got one here, and you can buy another one just on the other side of the lake.";
 		choice = buy_packmule;
 	}
 }
-[conversation_ghilbertnor_has_packmules]
+[conversation_dhoge_one_packmule]
 {
 	[text*]
 	{
-		screen_text = "Are you interested in buying a packmule? Gerty here is very docile, I assure you.";
+		screen_text = "Are you interested in buying a packmule? This one here is very docile, I assure you.";
 		choice = buy_packmule;
 	}
 }
-[conversation_ghilbertnor_no_packmules]
+[conversation_dhoge_no_packmules]
 {
 	[text*]
 	{
-		screen_text = "Farewell, hero! I mean, see you soon!";
-	}
-}
-
-
-[conversation_fretch_first]
-{
-	[text*]
-	{
-		screen_text = "You want to buy my mule? Okay, whatever.";
-		choice = buy_packmule;
-	}
-}
-[conversation_fretch_one_packmule]
-{
-	[text*]
-	{
-		screen_text = "You want to buy my mule? Okay, whatever.";
-		choice = buy_packmule;
-	}
-}
-[conversation_fretch_no_packmules]
-{
-	[text*]
-	{
-		screen_text = "My mare is lame, don't you see? I don't have another mule for you. But Lillian might sell hers, she's on the other side of the lake.";
+		screen_text = "Farewell! I mean, see you soon!";
 	}
 }

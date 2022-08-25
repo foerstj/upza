@@ -744,14 +744,14 @@
 	{
 		[conversations]
 		{
-			* = conversation_ghilbertnor_first;
-			* = conversation_ghilbertnor_has_packmules;
-			* = conversation_ghilbertnor_no_packmules;
+			* = conversation_dhoge_first;
+			* = conversation_dhoge_one_packmule;
+			* = conversation_dhoge_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_ghilbertnor.skrit;
+		jat_talk = world\ai\jobs\actors\good\job_talk_dhoge.skrit;
 	}
 	[placement]
 	{
@@ -971,21 +971,21 @@
 {
     [common]
     {
-        screen_name = Jonnievas;
+        screen_name = "Liennor Zane";
       b is_multi_player = false;
     }
 	[conversation]
 	{
 		[conversations]
 		{
-			* = conversation_fretch_first;
-			* = conversation_fretch_one_packmule;
-			* = conversation_fretch_no_packmules;
+			* = conversation_dhoge_first;
+			* = conversation_dhoge_one_packmule;
+			* = conversation_dhoge_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_fretch.skrit;
+		jat_talk = world\ai\jobs\actors\good\job_talk_dhoge.skrit;
 	}
 	[placement]
 	{
