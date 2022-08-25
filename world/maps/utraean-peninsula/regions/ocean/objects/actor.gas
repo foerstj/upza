@@ -751,7 +751,7 @@
 	  p position = 1.12518,-0.949973,-1.47675,0xafbdaa34;
 	}
 }
-[t:farmer_male_old,n:0x04d00232]
+[t:mp_farmer_male_old,n:0x04d00232]
 {
 	[common]
 	{
@@ -764,9 +764,9 @@
 		[conversations]
 		{
 			* = conversation_owen_first;
-			* = conversation_owen_two_packmules;
+			* = conversation_owen_no_packmules;
 			* = conversation_owen_one_packmule;
-            * = conversation_owen_no_packmules;
+			* = conversation_owen_two_packmules;
 		}
 	}
 	[mind]
