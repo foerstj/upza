@@ -697,7 +697,7 @@
 {
 	[text*]
 	{
-		screen_text = "So, are you interested in buying a packmule? Gerty here is very docile, I assure you.";
+		screen_text = "Are you interested in buying a packmule? Gerty here is very docile, I assure you.";
 		choice = buy_packmule;
 	}
 }
@@ -706,5 +706,30 @@
 	[text*]
 	{
 		screen_text = "Farewell, hero! I mean, see you soon!";
+	}
+}
+
+
+[conversation_fretch_first]
+{
+	[text*]
+	{
+		screen_text = "You want to buy my mule? Okay, whatever.";
+		choice = buy_packmule;
+	}
+}
+[conversation_fretch_one_packmule]
+{
+	[text*]
+	{
+		screen_text = "You want to buy my mule? Okay, whatever.";
+		choice = buy_packmule;
+	}
+}
+[conversation_fretch_no_packmules]
+{
+	[text*]
+	{
+		screen_text = "My mare is lame, don't you see? I don't have another mule for you. But Lillian might sell hers, she's on the other side of the lake.";
 	}
 }
