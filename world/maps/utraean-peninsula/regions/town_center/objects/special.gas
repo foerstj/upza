@@ -644,6 +644,7 @@
 	[common]
 	{
 		dev_instance_text = " PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -662,7 +663,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1673,6 +1673,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1691,7 +1692,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1710,6 +1710,7 @@
 {
 	[common]
 	{
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1728,7 +1729,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1936,6 +1936,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1954,7 +1955,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2291,6 +2291,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -2309,7 +2310,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -4454,9 +4454,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 0.300000;
-	  f health_left = 100.000000;
-	  f health_regen = 0.033200;
+	  f heal_amount = 0.3;
+	  f health_left = 100;
+	  f health_regen = 0.0332;
 	}
 	[placement]
 	{
@@ -4874,6 +4874,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -4892,7 +4893,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -5020,5 +5020,20 @@
 	{
 	  q orientation = 0,0.477159,0,-0.878817;
 	  p position = -2.17738,0,0.131153,0x29a3e45c;
+	}
+}
+[t:party_humanoid,n:0x03200b9c]
+{
+	[party]
+	{
+		[add_members]
+		{
+		  x * = 0x03200B9A;
+		  x * = 0x03200BB7;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.612679,-1.9,3.06461,0x7ea1508c;
 	}
 }

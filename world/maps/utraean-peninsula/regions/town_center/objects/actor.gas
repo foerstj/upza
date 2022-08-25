@@ -2302,3 +2302,29 @@
 	  p position = 1.39631,0,-2.91906,0x14c70a85;
 	}
 }
+[t:merchant_packmule,n:0x03200b9a]
+{
+	[common]
+	{
+	  b is_multi_player = false;
+		screen_name = "Wilson";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_fretch_first;
+			* = conversation_fretch_one_packmule;
+			* = conversation_fretch_no_packmules;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_fretch.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.487371,0,0.873195;
+	  p position = -0.0636749,-1.9,4.93877,0x7ea1508c;
+	}
+}
