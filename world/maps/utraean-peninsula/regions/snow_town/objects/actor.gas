@@ -986,25 +986,24 @@
 	  p position = -1.70643,-1.25,-2.77505,0xf50c5ee6;
 	}
 }
-[t:ghilbertnor,n:0x027002ca]
+[t:up_mule_merchant_fallraen,n:0x027002ca]
 {
 	[common]
 	{
 	  b is_multi_player = false;
-		screen_name = "Uhlbertnor";
 	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = conversation_ghilbertnor_first;
-			* = conversation_ghilbertnor_has_packmules;
-			* = conversation_ghilbertnor_no_packmules;
+			* = conversation_mule_merchant_fallraen_first;
+			* = conversation_mule_merchant_fallraen_has_packmules;
+			* = conversation_mule_merchant_fallraen_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_ghilbertnor.skrit;
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_fallraen&first=true;
 	}
 	[placement]
 	{

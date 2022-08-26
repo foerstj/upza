@@ -157,7 +157,7 @@
 		screen_text = "And you found Priest Lagreth as well? Dead, you say? Oh dear. I'll have the Guard Captain send out a rescue party for him. While we do not have much to give, please accept this small token of appreciation. It's the least we can do. Oh, and I'll send word to the Priests in Meren to be on the lookout for you.";
 	}
 }
-[conversation_ghilbertnor_first]
+[conversation_mule_merchant_fallraen_first]
 {
 	[text*]
 	{
@@ -166,7 +166,7 @@
 	  f scroll_rate = 10.000000;
 	}
 }
-[conversation_ghilbertnor_has_packmules]
+[conversation_mule_merchant_fallraen_has_packmules]
 {
 	[text*]
 	{
@@ -175,7 +175,7 @@
 	  f scroll_rate = 10.000000;
 	}
 }
-[conversation_ghilbertnor_no_packmules]
+[conversation_mule_merchant_fallraen_no_packmules]
 {
 	[text*]
 	{
