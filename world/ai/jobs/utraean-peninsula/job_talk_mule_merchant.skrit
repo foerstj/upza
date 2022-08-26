@@ -65,25 +65,24 @@ state Talk$
 
 	event OnEnterState$
 	{
-		if ( !first$ || GameAuditor.GetDb.GetBool( namespace$ + "_talked_to" ) )		
+		if ( first$ && !GameAuditor.GetDb.GetBool( namespace$ + "_talked_to" ) )		
 		{
-			if ( m_Go$.GetStore().GetNumHires() > 0 )
-			{		
-				m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_has_packmules" );
-				TryAnim$('talk');
-			}	
-			else 
-			{			
-				m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_no_packmules" );
-				TryAnim$('talk');
-			}		
+			GameAuditor.GetDb.SetBool( namespace$ + "_talked_to", true );
+			m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_first" );
 		}
 		else
 		{		
-			m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_first" );
-			GameAuditor.GetDb.SetBool( namespace$ + "_talked_to", true );
-			TryAnim$('talk');
+            int numMules$ = m_Go$.GetStore().GetNumHires();
+			if ( numMules$ == 0 )
+			{
+				m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_no_packmules" );
+			}	
+			else 
+			{			
+				m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_has_packmules" );
+			}
 		}	
+        TryAnim$('talk');
 
 		m_Go$.GetConversation.RSActivateDialogue();
 	}
