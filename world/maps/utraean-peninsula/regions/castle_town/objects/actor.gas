@@ -391,6 +391,32 @@
 	  p position = -1.67031,0,1.02744,0x4b8ec8fc;
 	}
 }
+[t:up_mule_merchant_hiroth_b,n:0x072001d2]
+{
+	[common]
+	{
+	  b is_multi_player = false;
+		screen_name = "Liennor Zane";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_mule_merchant_hiroth_first;
+			* = conversation_mule_merchant_hiroth_has_packmules;
+			* = conversation_mule_merchant_hiroth_no_packmules;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_hiroth&first=true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.950436,0,-0.310919;
+	  p position = -0.589825,0,1.10178,0x1844420c;
+	}
+}
 [t:lame_mare,n:0x07200167]
 {
 	[placement]
@@ -965,31 +991,5 @@
 	{
 	  q orientation = 0,-0.0348999,0,0.99939;
 	  p position = 7.80494,-2.65,1.34921,0x2dbbce58;
-	}
-}
-[t:up_mule_merchant_hiroth_b,n:0x072001d2]
-{
-    [common]
-    {
-        screen_name = "Liennor Zane";
-      b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_mule_merchant_hiroth_first;
-			* = conversation_mule_merchant_hiroth_has_packmules;
-			* = conversation_mule_merchant_hiroth_no_packmules;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_hiroth&first=true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.950436,0,-0.310919;
-	  p position = -0.589825,0,1.10178,0x1844420c;
 	}
 }

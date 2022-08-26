@@ -446,9 +446,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 0.900000;
-	  f health_left = 156.800000;
-	  f health_regen = 0.078000;
+	  f heal_amount = 0.9;
+	  f health_left = 156.8;
+	  f health_regen = 0.078;
 	}
 	[placement]
 	{
@@ -543,6 +543,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -561,7 +562,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -574,6 +574,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -592,7 +593,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -604,9 +604,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 0.300000;
-	  f health_left = 156.800000;
-	  f health_regen = 0.033200;
+	  f heal_amount = 0.3;
+	  f health_left = 156.8;
+	  f health_regen = 0.0332;
 	}
 	[placement]
 	{
@@ -803,6 +803,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -821,7 +822,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{

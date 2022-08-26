@@ -1941,6 +1941,32 @@
 	  p position = 1.68864,-1,-2.22729,0x5e890300;
 	}
 }
+[t:up_mule_merchant_elddim,n:0x03200b9a]
+{
+	[common]
+	{
+	  b is_multi_player = false;
+		screen_name = "Wilson";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_mule_merchant_elddim_1_packmules;
+			* = conversation_mule_merchant_elddim_first;
+			* = conversation_mule_merchant_elddim_no_packmules;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_elddim&first=true&numeric=true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.487371,0,0.873195;
+	  p position = -0.0636749,-1.9,4.93877,0x7ea1508c;
+	}
+}
 [t:mule_bt_r1,n:0x03200bb7]
 {
 	[common]
@@ -2300,31 +2326,5 @@
 	{
 	  q orientation = 0,-0.350207,0,0.936672;
 	  p position = 1.39631,0,-2.91906,0x14c70a85;
-	}
-}
-[t:up_mule_merchant_elddim,n:0x03200b9a]
-{
-	[common]
-	{
-	  b is_multi_player = false;
-        screen_name = "Wilson";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_mule_merchant_elddim_first;
-			* = conversation_mule_merchant_elddim_1_packmules;
-			* = conversation_mule_merchant_elddim_no_packmules;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_elddim&first=true&numeric=true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.487371,0,0.873195;
-	  p position = -0.0636749,-1.9,4.93877,0x7ea1508c;
 	}
 }

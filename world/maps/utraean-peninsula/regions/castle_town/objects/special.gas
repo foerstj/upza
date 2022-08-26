@@ -715,6 +715,21 @@
 	  p position = 20.1074,0.4,-5.95645,0xa931d4e8;
 	}
 }
+[t:party_humanoid,n:0x072001d4]
+{
+	[party]
+	{
+		[add_members]
+		{
+		  x * = 0x072001D2;
+		  x * = 0x07200168;
+		}
+	}
+	[placement]
+	{
+	  p position = 1.29027,0,0.352252,0x1844420c;
+	}
+}
 [t:trigger_change_mood_box,n:0x07200465]
 {
 	[common]
@@ -2751,20 +2766,5 @@
 	[placement]
 	{
 	  p position = -2.4872,-2.65,-2.17723,0x2dbbce58;
-	}
-}
-[t:party_humanoid,n:0x072001d4]
-{
-	[party]
-	{
-		[add_members]
-		{
-		  x * = 0x072001D2;
-		  x * = 0x07200168;
-		}
-	}
-	[placement]
-	{
-	  p position = 1.29027,0,0.352252,0x1844420c;
 	}
 }
