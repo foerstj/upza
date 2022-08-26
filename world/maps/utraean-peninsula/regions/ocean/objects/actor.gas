@@ -751,7 +751,7 @@
 	  p position = 1.12518,-0.949973,-1.47675,0xafbdaa34;
 	}
 }
-[t:fretch,n:0x04d00232]
+[t:up_mule_merchant_meren,n:0x04d00232]
 {
 	[common]
 	{
@@ -763,15 +763,15 @@
 	{
 		[conversations]
 		{
-			* = conversation_owen_first;
-			* = conversation_owen_no_packmules;
-			* = conversation_owen_one_packmule;
-			* = conversation_owen_two_packmules;
+			* = conversation_mule_merchant_meren_first;
+			* = conversation_mule_merchant_meren_2_packmules;
+			* = conversation_mule_merchant_meren_1_packmules;
+			* = conversation_mule_merchant_meren_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_owen.skrit;
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_meren&first=true&numeric=true;
 	}
 	[placement]
 	{

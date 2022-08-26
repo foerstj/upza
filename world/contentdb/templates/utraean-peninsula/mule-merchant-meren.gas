@@ -1,0 +1,45 @@
+[t:template,n:fretch_base]  // = fretch
+{
+	category_name = "1W_character";
+	doc = "fretch";
+	specializes = base_npc_fb;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_19;
+			1 = b_c_pos_a1_060;
+		}
+	}
+	[common]
+	{
+		screen_name = "Fretch";
+	}
+	[conversation]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+
+[t:template,n:up_mule_merchant_meren] { specializes = up_mule_merchant_meren_base; }
+[t:template,n:up_mule_merchant_meren_base]
+{
+    specializes = fretch_base;
+
+    // from mp_farmer_male_old
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_12;
+			1 = b_c_pos_a1_051;
+		}
+	}
+	[common]
+	{
+		screen_name = "Farmer";
+	}
+}
