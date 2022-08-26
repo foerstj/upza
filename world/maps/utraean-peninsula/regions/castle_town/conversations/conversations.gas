@@ -685,7 +685,7 @@
 	}
 }
 
-[conversation_dhoge_first]
+[conversation_mule_merchant_hiroth_first]
 {
 	[text*]
 	{
@@ -693,7 +693,7 @@
 		choice = buy_packmule;
 	}
 }
-[conversation_dhoge_one_packmule]
+[conversation_mule_merchant_hiroth_has_packmules]
 {
 	[text*]
 	{
@@ -701,7 +701,7 @@
 		choice = buy_packmule;
 	}
 }
-[conversation_dhoge_no_packmules]
+[conversation_mule_merchant_hiroth_no_packmules]
 {
 	[text*]
 	{

@@ -1,0 +1,53 @@
+[t:template,n:mp_townfolk_female_08_base]  // = mp_townfolk_female_08
+{
+	category_name = "1W_character";
+	doc = "mp_townfolk_female_08";
+	specializes = base_npc_fg;
+	[actor] {portrait_icon = b_gui_ig_i_ic_c_prieve;}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		model = m_c_gah_fg_pos_a7;
+		use_range = 1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_01;
+			1 = b_c_pos_a7_012;
+		}
+	}
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+	[conversation]
+	{
+	}
+}
+
+[t:template,n:mp_shopkeep_female_08_base]
+{
+    specializes = mp_townfolk_female_08_base;
+
+	[aspect]
+	{
+		is_ghost_usable = TRUE;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+    }
+}
+
+[t:template,n:up_mule_merchant_hiroth_a] { specializes = up_mule_merchant_hiroth_a_base; }
+[t:template,n:up_mule_merchant_hiroth_a_base]
+{
+    specializes = mp_shopkeep_female_08_base;
+
+	[common]
+	{
+		screen_name = "Mule Merchant Hiroth A";
+	}
+}

@@ -732,7 +732,7 @@
 	  p position = -2.82953,-9.53674e-007,-0.947868,0x8ddbf4df;
 	}
 }
-[t:azunite_priestess_lilyaire_prieve,n:0x072001cf]
+[t:up_mule_merchant_hiroth_a,n:0x072001cf]
 {
 	[common]
 	{
@@ -744,14 +744,14 @@
 	{
 		[conversations]
 		{
-			* = conversation_dhoge_first;
-			* = conversation_dhoge_one_packmule;
-			* = conversation_dhoge_no_packmules;
+			* = conversation_mule_merchant_hiroth_first;
+			* = conversation_mule_merchant_hiroth_has_packmules;
+			* = conversation_mule_merchant_hiroth_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_dhoge.skrit;
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_hiroth&first=true;
 	}
 	[placement]
 	{
@@ -967,7 +967,7 @@
 	  p position = 7.80494,-2.65,1.34921,0x2dbbce58;
 	}
 }
-[t:jonn,n:0x072001d2]
+[t:up_mule_merchant_hiroth_b,n:0x072001d2]
 {
     [common]
     {
@@ -978,14 +978,14 @@
 	{
 		[conversations]
 		{
-			* = conversation_dhoge_first;
-			* = conversation_dhoge_one_packmule;
-			* = conversation_dhoge_no_packmules;
+			* = conversation_mule_merchant_hiroth_first;
+			* = conversation_mule_merchant_hiroth_has_packmules;
+			* = conversation_mule_merchant_hiroth_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_dhoge.skrit;
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_hiroth&first=true;
 	}
 	[placement]
 	{
