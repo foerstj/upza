@@ -2302,25 +2302,24 @@
 	  p position = 1.39631,0,-2.91906,0x14c70a85;
 	}
 }
-[t:merchant_packmule,n:0x03200b9a]
+[t:up_mule_merchant_elddim,n:0x03200b9a]
 {
 	[common]
 	{
 	  b is_multi_player = false;
-		screen_name = "Wilson";
 	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = conversation_fretch_first;
-			* = conversation_fretch_one_packmule;
-			* = conversation_fretch_no_packmules;
+			* = conversation_mule_merchant_elddim_first;
+			* = conversation_mule_merchant_elddim_one_packmule;
+			* = conversation_mule_merchant_elddim_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_fretch.skrit;
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant_elddim.skrit;
 	}
 	[placement]
 	{

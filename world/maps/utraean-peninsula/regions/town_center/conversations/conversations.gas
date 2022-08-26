@@ -852,7 +852,7 @@
 	}
 }
 
-[conversation_fretch_first]
+[conversation_mule_merchant_elddim_first]
 {
 	[text*]
 	{
@@ -860,7 +860,7 @@
 		screen_text = "Krug. You ask me, we should'a run the bastards outta these hills when we settled here. All those dung eaters left me were a Jack and a half lame mare. The Jack I can part with for a price, though not for half as much I could've a week ago. You interested?";
 	}
 }
-[conversation_fretch_one_packmule]
+[conversation_mule_merchant_elddim_one_packmule]
 {
 	[text*]
 	{
@@ -868,7 +868,7 @@
         choice = buy_packmule;
 	}
 }
-[conversation_fretch_no_packmules]
+[conversation_mule_merchant_elddim_no_packmules]
 {
 	[text*]
 	{
