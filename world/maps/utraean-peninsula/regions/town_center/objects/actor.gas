@@ -2313,13 +2313,13 @@
 		[conversations]
 		{
 			* = conversation_mule_merchant_elddim_first;
-			* = conversation_mule_merchant_elddim_one_packmule;
+			* = conversation_mule_merchant_elddim_has_packmules;
 			* = conversation_mule_merchant_elddim_no_packmules;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant_elddim.skrit;
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_mule_merchant.skrit?namespace=mule_merchant_elddim&first=true;
 	}
 	[placement]
 	{
