@@ -8,7 +8,8 @@ Goid		m_Target$;
 #include "k_job_c_talk_utils"
 
 property    string  namespace$  = "companion"   doc = "Namespace for conversations and flags";
-property    string  oid$                        doc = "Object ID";
+property    string  oid$                        doc = "Object ID, lower-case hex, no leading zeroes, e.g. 0x17001af";
+property    int     more_gold$  = 0             doc = "Demand more gold to rejoin"
 
 startup state STARTUP$
 {
@@ -90,7 +91,11 @@ state Talk$
 		}
 		else if ( GameAuditor.GetDb.GetBool( MakeStringF( "party_disbanded_%s", oid$ ) ) )
 		{
-			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "conversation_%s_disband_rejoin", namespace$ ) );			
+			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "conversation_%s_disband_rejoin", namespace$ ) );
+            if ( more_gold$ > 0 )
+            {
+                m_Go$.Aspect.SetGoldValue( more_gold$ );
+            }
 		} 
 		else if ( GameAuditor.GetDb.GetBool( MakeStringF( "party_allow_rejoin_%s", oid$ ) ) )
 		{
