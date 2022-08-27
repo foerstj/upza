@@ -1727,6 +1727,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_andiemus_join;
+			* = conversation_andiemus_accept_have_money;
+			* = conversation_andiemus_accept_no_money;
+			* = conversation_andiemus_reject;
+			* = conversation_andiemus_disband;
+			* = conversation_andiemus_rejoin;
+			* = conversation_andiemus_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=andiemus&oid=0x4e000be;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.645676,0,-0.763611;

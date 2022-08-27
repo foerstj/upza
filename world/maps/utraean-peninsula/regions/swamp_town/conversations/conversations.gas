@@ -532,3 +532,55 @@
 	}
 }
 
+[conversation_andiemus_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_andiemus_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_andiemus_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_andiemus_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_andiemus_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_andiemus_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_andiemus_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}

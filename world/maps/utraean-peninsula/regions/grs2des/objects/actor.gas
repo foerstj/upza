@@ -1787,6 +1787,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_sikra_join;
+			* = conversation_sikra_accept_have_money;
+			* = conversation_sikra_accept_no_money;
+			* = conversation_sikra_reject;
+			* = conversation_sikra_disband;
+			* = conversation_sikra_rejoin;
+			* = conversation_sikra_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=sikra&oid=0x92001c1;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.448132,0,0.893967;

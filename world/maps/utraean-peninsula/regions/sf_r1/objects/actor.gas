@@ -1589,6 +1589,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_merik_join;
+			* = conversation_merik_accept_have_money;
+			* = conversation_merik_accept_no_money;
+			* = conversation_merik_reject;
+			* = conversation_merik_disband;
+			* = conversation_merik_rejoin;
+			* = conversation_merik_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=merik&oid=0x59005b0;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.219255,0,0.975668;

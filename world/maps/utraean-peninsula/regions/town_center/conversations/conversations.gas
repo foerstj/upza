@@ -928,3 +928,218 @@
 		screen_text = "Rejoin?";
 	}
 }
+
+[conversation_gyorn_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_gyorn_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_gyorn_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_gyorn_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_gyorn_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_gyorn_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_gyorn_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}
+
+
+[conversation_naidi_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_naidi_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_naidi_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_naidi_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_naidi_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_naidi_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_naidi_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}
+
+
+[conversation_rusk_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_rusk_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_rusk_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_rusk_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_rusk_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_rusk_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_rusk_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}
+
+
+[conversation_zed_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_zed_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_zed_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_zed_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_zed_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_zed_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_zed_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}

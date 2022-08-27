@@ -905,3 +905,161 @@
     }
 }
 
+[conversation_gloern_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_gloern_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_gloern_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_gloern_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_gloern_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_gloern_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_gloern_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}
+
+[conversation_boryev_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_boryev_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_boryev_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_boryev_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_boryev_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_boryev_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_boryev_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}
+
+[conversation_rhut_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_rhut_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_rhut_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_rhut_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_rhut_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_rhut_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_rhut_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}

@@ -2573,6 +2573,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_ulfgrim_join;
+			* = conversation_ulfgrim_accept_have_money;
+			* = conversation_ulfgrim_accept_no_money;
+			* = conversation_ulfgrim_reject;
+			* = conversation_ulfgrim_disband;
+			* = conversation_ulfgrim_rejoin;
+			* = conversation_ulfgrim_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=ulfgrim&oid=0x70072f;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.85638,0,0.516347;

@@ -708,3 +708,56 @@
 		screen_text = "They say it's perfectly safe back here far away from the fighting in Hiroth Castle to the south, but I'm sticking close to my livestock just in case. ";
 	}
 }
+
+[conversation_lord_bolingar_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_lord_bolingar_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_lord_bolingar_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_lord_bolingar_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_lord_bolingar_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_lord_bolingar_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_lord_bolingar_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}

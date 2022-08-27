@@ -2373,6 +2373,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_gyorn_join;
+			* = conversation_gyorn_accept_have_money;
+			* = conversation_gyorn_accept_no_money;
+			* = conversation_gyorn_reject;
+			* = conversation_gyorn_disband;
+			* = conversation_gyorn_rejoin;
+			* = conversation_gyorn_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=gyorn&oid=0x3200bae;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0671493,0,0.997743;
@@ -2390,6 +2407,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_naidi_join;
+			* = conversation_naidi_accept_have_money;
+			* = conversation_naidi_accept_no_money;
+			* = conversation_naidi_reject;
+			* = conversation_naidi_disband;
+			* = conversation_naidi_rejoin;
+			* = conversation_naidi_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=naidi&oid=0x3200baf;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.963204,0,-0.268772;
@@ -2407,6 +2441,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_rusk_join;
+			* = conversation_rusk_accept_have_money;
+			* = conversation_rusk_accept_no_money;
+			* = conversation_rusk_reject;
+			* = conversation_rusk_disband;
+			* = conversation_rusk_rejoin;
+			* = conversation_rusk_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=rusk&oid=0x3200bb0;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.296819,0,0.954934;
@@ -2424,6 +2475,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_zed_join;
+			* = conversation_zed_accept_have_money;
+			* = conversation_zed_accept_no_money;
+			* = conversation_zed_reject;
+			* = conversation_zed_disband;
+			* = conversation_zed_rejoin;
+			* = conversation_zed_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=zed&oid=0x3200bb1;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.633458,0,-0.773777;

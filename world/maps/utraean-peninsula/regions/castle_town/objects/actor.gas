@@ -1004,6 +1004,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_lord_bolingar_join;
+			* = conversation_lord_bolingar_accept_have_money;
+			* = conversation_lord_bolingar_accept_no_money;
+			* = conversation_lord_bolingar_reject;
+			* = conversation_lord_bolingar_disband;
+			* = conversation_lord_bolingar_rejoin;
+			* = conversation_lord_bolingar_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=lord_bolingar&oid=0x72001d0;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.990123,0,0.140203;

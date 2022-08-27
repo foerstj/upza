@@ -498,3 +498,56 @@
 		screen_text = "I'll tell you how to get to the town of Lang from here, but I bet you won't stay there long. If you look along the southern cliff, you will find an old lift. Take that up to the top and follow the road. It winds south through the Cloud Forest for a goodly distance. There's an abandoned mining outpost you'll come across. Go through that and eventually you will come to Lang Mire. Follow the boardwalks and you'll reach Lang proper in good time.";
 	}
 }
+
+[conversation_phaedriel_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_phaedriel_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_phaedriel_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_phaedriel_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_phaedriel_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_phaedriel_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_phaedriel_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}

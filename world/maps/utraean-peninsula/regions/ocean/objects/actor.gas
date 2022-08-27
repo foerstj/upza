@@ -1134,6 +1134,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_phaedriel_join;
+			* = conversation_phaedriel_accept_have_money;
+			* = conversation_phaedriel_accept_no_money;
+			* = conversation_phaedriel_reject;
+			* = conversation_phaedriel_disband;
+			* = conversation_phaedriel_rejoin;
+			* = conversation_phaedriel_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=phaedriel&oid=0x4d00242;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.815352,0,-0.578965;
