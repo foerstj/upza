@@ -2328,3 +2328,68 @@
 	  p position = 1.39631,0,-2.91906,0x14c70a85;
 	}
 }
+[t:ulora,n:0x03200b99]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.951057,0,0.309017;
+	  p position = -1.94941,-0.997471,-1.82275,0xabb8ec2a;
+	}
+}
+[t:gyorn,n:0x03200bae]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0671493,0,0.997743;
+	  p position = 2.99759,1.90735e-006,-0.411591,0xa1708e10;
+	}
+}
+[t:naidi,n:0x03200baf]
+{
+	[aspect]
+	{
+	  f max_life = 58.8;
+	  f max_mana = 34;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.963204,0,-0.268772;
+	  p position = 1.95557,-2.7,0.808815,0xf9384d81;
+	}
+}
+[t:rusk,n:0x03200bb0]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.296819,0,0.954934;
+	  p position = 1.90758,-2.7,-0.870201,0xf9384d81;
+	}
+}
+[t:zed,n:0x03200bb1]
+{
+	[aspect]
+	{
+	  f max_life = 68.6;
+	  f max_mana = 80;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.633458,0,-0.773777;
+	  p position = -0.22345,-2.7,-0.229227,0xf9384d81;
+	}
+}
