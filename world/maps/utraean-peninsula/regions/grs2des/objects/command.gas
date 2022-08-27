@@ -1,1 +1,41 @@
-// emptied.  live long.  avoid P.C.W.
+[t:cmd_animation_command,n:0x092001c6]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1751409772;
+	  x client_scid = 0x092001C1;
+	  b initially_active = true;
+	  x next_scid = 0x092001F1;
+	}
+	[placement]
+	{
+	  p position = 6.08666,1.5,-4.57197,0xdd802d4f;
+	}
+}
+[t:cmd_animation_command,n:0x092001f1]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1751414128;
+	  x client_scid = 0x092001C1;
+	  x next_scid = 0x092001FE;
+	  b repeat_animation = false;
+	  b start_fidget = true;
+	}
+	[placement]
+	{
+	  p position = 6.66525,1.5,-3.42557,0xdd802d4f;
+	}
+}
+[t:cmd_alignment_changer,n:0x092001fe]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  x target_actor = 0x092001C1;
+	}
+	[placement]
+	{
+	  p position = 7.35734,1.5,-2.1309,0xdd802d4f;
+	}
+}
