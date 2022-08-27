@@ -1,0 +1,55 @@
+[t:template,n:phaedriel_base]  // = phaedriel
+{
+	doc = "phaedriel";
+	specializes = base_pm_fg;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_phaedriel;
+		[skills]
+		{
+			strength 		=   4.25, 0, 10;
+			intelligence 	=  	2.21, 0, 10;
+			dexterity 		=   10.54, 0, 10;
+            ranged 			= 	17,0, 0;
+            uber 			= 	17,0, 0;
+		}
+	}
+	[aspect]
+	{
+        gold_value = 38400;
+		model = m_c_gah_fg_pos_a1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_25;
+			1 = b_c_pos_a1_061;
+		}
+	}
+	[common] { screen_name="Phaedriel"; }
+	[conversation] { }
+   	[inventory]
+	{
+		[equipment]
+		{
+            es_chest = bd_br_r_g_c_avg;
+            es_feet = #boots/20-30;
+            es_forearms = #gloves/20-30;
+		}
+        [other]
+        {
+			il_main = bw_g_c_c_m_r_avg;
+        }
+
+	}
+
+}
+
+[t:template,n:up_phaedriel] { specializes = up_phaedriel_base; }
+[t:template,n:up_phaedriel_base]
+{
+    specializes = phaedriel_base;
+
+    [common]
+    {
+        screen_name = "Nightshade";
+    }
+}
