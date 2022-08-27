@@ -463,6 +463,20 @@
 	  p position = 1.34372,1.75,-4.3746,0x58af705f;
 	}
 }
+[t:accumulate_trigger,n:0x092001c2]
+{
+	[generic_accumtrigger]
+	{
+		message_when_active = we_req_deactivate;
+		message_when_inactive = we_req_activate;
+	  i num_til_send = 6;
+	  x send_to_scid = 0x092001C6;
+	}
+	[placement]
+	{
+	  p position = 3.95859,1.5,-0.0697691,0xdd802d4f;
+	}
+}
 [t:trigger_generic,n:0x0920021a]
 {
 	[common]
@@ -957,19 +971,5 @@
 	{
 	  q orientation = 0,-0.707107,0,-0.707107;
 	  p position = 0.204222,0.59171,1.10992,0xd1d8f09b;
-	}
-}
-[t:accumulate_trigger,n:0x092001c2]
-{
-	[generic_accumtrigger]
-	{
-		message_when_active = we_req_deactivate;
-		message_when_inactive = we_req_activate;
-	  i num_til_send = 6;
-	  x send_to_scid = 0x092001C6;
-	}
-	[placement]
-	{
-	  p position = 3.95859,1.5,-0.0697691,0xdd802d4f;
 	}
 }

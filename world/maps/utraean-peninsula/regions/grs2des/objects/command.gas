@@ -32,6 +32,9 @@
 	[cmd_dumb_guy]
 	{
 		alignment_activated = aa_good;
+	  b change_collide = true;
+	  b change_life_state = false;
+	  b collide_spawn = false;
 	  x target_actor = 0x092001C1;
 	}
 	[placement]

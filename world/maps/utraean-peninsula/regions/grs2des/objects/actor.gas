@@ -353,14 +353,37 @@
 }
 [t:up_sikra,n:0x092001c1]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
+	  b is_collidable = false;
 	  f max_life = 480.2;
 	  f max_mana = 708;
 	}
 	[common]
 	{
 	  b is_multi_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x092001C6,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[conversation]
 	{
@@ -370,6 +393,7 @@
 			* = conversation_sikra_accept_no_money;
 			* = conversation_sikra_disband;
 			* = conversation_sikra_disband_rejoin;
+			* = conversation_sikra_first;
 			* = conversation_sikra_join;
 			* = conversation_sikra_reject;
 			* = conversation_sikra_rejoin;
@@ -377,11 +401,12 @@
 	}
 	[mind]
 	{
+	  b actor_auto_fidgets = false;
 		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=sikra&oid=0x92001c1&first=true;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.448132,0,0.893967;
+	  q orientation = 0,-0.0719136,0,0.99741;
 	  p position = 7.1224,1.5,-0.61404,0xdd802d4f;
 	}
 }
