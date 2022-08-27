@@ -82,7 +82,9 @@ state Talk$
 			{
                 if ( numeric$ )
                 {
-                    m_Go$.GetConversation.RSSelectConversation( "conversation_" + namespace$ + "_" + MakeStringF("%i", numMules$) + "_packmules" );
+                    string muleConversation$;
+                    StringTool.AssignF(muleConversation$, "conversation_%s_%d_packmules", namespace$, numMules$);
+                    m_Go$.GetConversation.RSSelectConversation( muleConversation$ );
                 }
                 else
                 {
