@@ -104,6 +104,74 @@
 		use_point_scids = 0x00c003a9;
 	}
 }
+[t:up_boryev,n:0x00c00362]
+{
+	[aspect]
+	{
+	  f max_life = 558.6;
+	  f max_mana = 464;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_boryev_accept_have_money;
+			* = conversation_boryev_accept_no_money;
+			* = conversation_boryev_disband;
+			* = conversation_boryev_disband_rejoin;
+			* = conversation_boryev_join;
+			* = conversation_boryev_reject;
+			* = conversation_boryev_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=boryev&oid=0xc00362;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.48481,0,0.87462;
+	  p position = -4.21737,-0.7,-0.983466,0x7f90c19e;
+	}
+}
+[t:up_rhut,n:0x00c00371]
+{
+	[aspect]
+	{
+	  f max_life = 842.8;
+	  f max_mana = 164;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_rhut_accept_have_money;
+			* = conversation_rhut_accept_no_money;
+			* = conversation_rhut_disband;
+			* = conversation_rhut_disband_rejoin;
+			* = conversation_rhut_join;
+			* = conversation_rhut_reject;
+			* = conversation_rhut_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=rhut&oid=0xc00371&more_gold=3837;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.781585,0,-0.623798;
+	  p position = -2.71723,-0.7,-0.694066,0x7f90c19e;
+	}
+}
 [t:mp_dwarf,n:0x00c003cd]
 {
 	[common]
@@ -298,6 +366,40 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.08059,-2,0.418256,0xbd469bbb;
+	}
+}
+[t:up_gloern,n:0x00c00351]
+{
+	[aspect]
+	{
+	  f max_life = 147;
+	  f max_mana = 37;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_gloern_accept_have_money;
+			* = conversation_gloern_accept_no_money;
+			* = conversation_gloern_disband;
+			* = conversation_gloern_disband_rejoin;
+			* = conversation_gloern_join;
+			* = conversation_gloern_reject;
+			* = conversation_gloern_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=gloern&oid=0xc00351;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.130928,0,0.991392;
+	  p position = 0.51071,0,0.47071,0xc73af851;
 	}
 }
 [t:smith_jerena_strongblade,n:0x00c003d0]
@@ -1022,107 +1124,5 @@
 	{
 	  q orientation = 0,0.00872672,0,0.999962;
 	  p position = -1.70048,-1.55,-1.94428,0x5476923c;
-	}
-}
-[t:up_gloern,n:0x00c00351]
-{
-	[aspect]
-	{
-	  f max_life = 147;
-	  f max_mana = 37;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_gloern_join;
-			* = conversation_gloern_accept_have_money;
-			* = conversation_gloern_accept_no_money;
-			* = conversation_gloern_reject;
-			* = conversation_gloern_disband;
-			* = conversation_gloern_rejoin;
-			* = conversation_gloern_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=gloern&oid=0xc00351;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.130928,0,0.991392;
-	  p position = -0.684023,-2,-1.85118,0xbd469bbb;
-	}
-}
-[t:up_boryev,n:0x00c00362]
-{
-	[aspect]
-	{
-	  f max_life = 558.6;
-	  f max_mana = 464;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_boryev_join;
-			* = conversation_boryev_accept_have_money;
-			* = conversation_boryev_accept_no_money;
-			* = conversation_boryev_reject;
-			* = conversation_boryev_disband;
-			* = conversation_boryev_rejoin;
-			* = conversation_boryev_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=boryev&oid=0xc00362;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.48481,0,0.87462;
-	  p position = -3.97285,-0.7,-0.905458,0x7f90c19e;
-	}
-}
-[t:up_rhut,n:0x00c00371]
-{
-	[aspect]
-	{
-	  f max_life = 842.8;
-	  f max_mana = 164;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_rhut_join;
-			* = conversation_rhut_accept_have_money;
-			* = conversation_rhut_accept_no_money;
-			* = conversation_rhut_reject;
-			* = conversation_rhut_disband;
-			* = conversation_rhut_rejoin;
-			* = conversation_rhut_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=rhut&oid=0xc00371&more_gold=3837;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.781585,0,-0.623798;
-	  p position = -2.13742,-0.7,-0.735232,0x7f90c19e;
 	}
 }
