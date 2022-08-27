@@ -10,7 +10,8 @@ Goid		m_Target$;
 property    string  namespace$  = "companion"   doc = "Namespace for conversations and flags";
 property    string  oid$                        doc = "Object ID, lower-case hex, no leading zeroes, e.g. 0x17001af";
 property    int     more_gold$  = 0             doc = "Demand more gold to rejoin after being disbanded";
-property    int     more_gold2$  = 0            doc = "Demand more gold to join when asked twice";
+property    int     more_gold2$ = 0             doc = "Demand more gold to join when asked twice";
+property    bool    first$      = false         doc = "Whether to have a first conversation";
 
 startup state STARTUP$
 {
@@ -109,7 +110,15 @@ state Talk$
 		}
 		else
 		{
-            m_Go$.GetConversation.RSSelectConversation( MakeStringF( "conversation_%s_join", namespace$ ) );
+            if ( first$ && !GameAuditor.GetDb.GetBool( MakeStringF( "%s_talked_to", namespace$ ) ) )
+            {
+                GameAuditor.GetDb.SetBool( MakeStringF( "%s_talked_to", namespace$ ), true );
+                m_Go$.GetConversation.RSSelectConversation( MakeStringF( "conversation_%s_first", namespace$ ) );
+            }
+            else
+            {
+                m_Go$.GetConversation.RSSelectConversation( MakeStringF( "conversation_%s_join", namespace$ ) );
+            }
         }
         TryAnim$('talk');
 
