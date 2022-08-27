@@ -9,7 +9,7 @@ Goid		m_Target$;
 
 property    string  namespace$  = "companion"   doc = "Namespace for conversations and flags";
 property    string  oid$                        doc = "Object ID, lower-case hex, no leading zeroes, e.g. 0x17001af";
-property    int     more_gold$  = 0             doc = "Demand more gold to rejoin"
+property    int     more_gold$  = 0             doc = "Demand more gold to rejoin";
 
 startup state STARTUP$
 {
