@@ -881,35 +881,35 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "I am the scribe Kerstin. Another day of translating ancient Utraean stone tablets for the Historical Society and I'll go as mad as old Lord Hovart. I'd rather go out to the Ancient Crypt and find the Townstone, but Kelti says it's not my job. Nonsense! The crypt is just to the east of here. Shall we travel together?";
 	}
 }
 [conversation_ulora_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "My thanks. I did not cherish the thought of finding my way alone. Let's make haste!";
 	}
 }
 [conversation_ulora_accept_no_money]
 {
 	[text*]
 	{
-		screen_text = "You need more money...";
+		screen_text = "I need a little gold to quit this place though.";
 	}
 }
 [conversation_ulora_reject]
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Very well. I'm sure I'll do quite fine alone, unarmed, and surrounded by Krug and other monstrocities. Good day to you!";
 	}
 }
 [conversation_ulora_disband]
 {
 	[text*]
 	{
-		screen_text = "Wait, what?";
+		screen_text = "You're as inconstant as the wind! Very well, go on then. I'll do well enough on my own.";
 	}
 }
 [conversation_ulora_rejoin]
@@ -917,7 +917,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "The crypt is just to the east of here. Shall we travel together?";
 	}
 }
 [conversation_ulora_disband_rejoin]
@@ -925,7 +925,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "Come to join me again? I'd feel safer if you simply made a choice and abided by it. Nevertheless, shall we join forces?";
 	}
 }
 
@@ -934,35 +934,35 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "The Krug are getting more cheeky every day. They already smashed the old orchard house! I'd rather go back to Fallraen, but I owe some money to those adventurers in the inn. If you could pay me out, we can leave this place together!";
 	}
 }
 [conversation_gyorn_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "Aye, I knew you'd be the right sort for a trek! Well met, friend!";
 	}
 }
 [conversation_gyorn_accept_no_money]
 {
 	[text*]
 	{
-		screen_text = "You need more money...";
+		screen_text = "I owe some money to those adventurers in the inn though...";
 	}
 }
 [conversation_gyorn_reject]
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Bah, just as well. It's heroics that's called for now, and I've no business dragging you into Elddim's mess. Good luck to ye.";
 	}
 }
 [conversation_gyorn_disband]
 {
 	[text*]
 	{
-		screen_text = "Wait, what?";
+		screen_text = "Ah well, I suppose I'll find someone else to travel with.";
 	}
 }
 [conversation_gyorn_rejoin]
@@ -970,7 +970,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "If you could pay me out, we can leave this place together! What do you think?";
 	}
 }
 [conversation_gyorn_disband_rejoin]
@@ -978,10 +978,9 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "Back for Martin are ya? I'd be glad to follow ya, if you'd like the company. Nothing worse than following a long road and not having a soul to talk to. Shall we?";
 	}
 }
-
 
 [conversation_naidi_join]
 {
@@ -1036,7 +1035,6 @@
 	}
 }
 
-
 [conversation_rusk_join]
 {
 	[text*]
@@ -1089,7 +1087,6 @@
 		screen_text = "Rejoin?";
 	}
 }
-
 
 [conversation_zed_join]
 {
