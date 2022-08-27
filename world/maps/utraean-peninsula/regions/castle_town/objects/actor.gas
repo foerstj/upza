@@ -1000,6 +1000,10 @@
 	  f max_life = 980;
 	  f max_mana = 176;
 	}
+	[common]
+	{
+	  b is_multi_player = false;
+    }
 	[placement]
 	{
 	  q orientation = 0,-0.990123,0,0.140203;
