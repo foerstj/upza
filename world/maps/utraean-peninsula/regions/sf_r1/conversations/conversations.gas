@@ -67,14 +67,14 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "I'm so glad to see you coming this way! A blasted Furok ate my staff, and so I've been stuck here with a tracker and a quarrier for a fortnight now. Let's go to Meren together, shall we?";
 	}
 }
 [conversation_merik_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "An excellent and wise choice. Now, let's have a stroll through the Crystal Caverns, shall we?";
 	}
 }
 [conversation_merik_accept_no_money]
@@ -88,14 +88,14 @@
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Don't you see what's happening? The very fate of this peninsula hangs in the balance! If you don't have the stomach to help me save our people, I'll have to find someone who does.";
 	}
 }
 [conversation_merik_disband]
 {
 	[text*]
 	{
-		screen_text = "Wait, what?";
+		screen_text = "What?! You've the gall to dismiss the Grand Mage of the 2nd Legion? I certainly hope you've no ambitions greater than being a mule-dung seller, child, because that's the most you can hope for after today! Off with you!";
 	}
 }
 [conversation_merik_rejoin]
@@ -103,7 +103,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "I'm in no mood to be mocked, if that's why you've come. I'm weak, I'm tired, and everything I've sworn to defend teeters on the brink of the abyss. Will you help me?";
 	}
 }
 [conversation_merik_disband_rejoin]
@@ -111,6 +111,6 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "Forgive my earlier outburst. I've many things on my mind and am afraid I've lost most of my social graces over this affair. Also I'm not actually the Grand Mage of the 2nd Legion. If you can forgive an intolerable old man's complaints, I could well use your assistance. I expect there are a few things I could do for you as well.";
 	}
 }

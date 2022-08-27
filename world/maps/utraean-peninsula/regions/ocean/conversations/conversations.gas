@@ -504,28 +504,28 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "I am ruined, most horribly ruined! For six years I have poured all my wealth and labors into planning a contest of skill, a challenge to find the greatest living archer in the known lands. But on the very eve of our contest, disaster! Our treasury stolen by Bandits! Our finest prizes seized! My bow and skills are all I have left in the world to redeem my tarnished name and reputation. I have followed the Bandits this far, but cannot go further without funds to replenish my supplies. If you might spare some gold, I should be glad to lend you my talents while I search for my lost treasures.";
 	}
 }
 [conversation_phaedriel_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "The bow and honor of Nightshade are yours to command, good friend. I am glad to join your fellowship. Now let's kick some Bandit ass!";
 	}
 }
 [conversation_phaedriel_accept_no_money]
 {
 	[text*]
 	{
-		screen_text = "You need more money...";
+		screen_text = "With supplies short, and more battles ahead before we reach another town, I would be in a sorry state indeed if I joined you for less. Once you have the sum I require, I shall be glad to accompany you.";
 	}
 }
 [conversation_phaedriel_reject]
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Pff then not!";
 	}
 }
 [conversation_phaedriel_disband]
@@ -540,7 +540,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "I have a bow and the will to help, if you need a superb archer in your company. All I ask is a small fee of gold.";
 	}
 }
 [conversation_phaedriel_disband_rejoin]
@@ -548,6 +548,6 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "Curious, I had not thought we would meet again. Do you wish me to rejoin your company?";
 	}
 }

@@ -537,35 +537,35 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "You cannot know how glad I am to see fellow heroes! It seems this land is overrun with monsters! I was following the gold what's been stolen from Nightshade's archery tournament when I come to this place. Look, I know I'm young fer a mage, but I knows me a spell or two, and I'd be willing to help you out fer some gold. I promise I knows me stuff. I jus needs someone that can watch me back.";
 	}
 }
 [conversation_andiemus_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "By the stars! Maybe me luck is a' changin'! Myros, apprentice mage, at yer service.";
 	}
 }
 [conversation_andiemus_accept_no_money]
 {
 	[text*]
 	{
-		screen_text = "You need more money...";
+		screen_text = "I've lost every bit o' my sorcerin' gear and I didn't recover Nightshade's gold. I need sumethin' I can take back to my father Radicus to shows that I'm not a complete mooncalf. If you don't have the gold I'm askin' for now, then you can finds me later.";
 	}
 }
 [conversation_andiemus_reject]
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Ah well, should expect as much. I'm probably half-witted now with all this head bashin' I've been getting lately. So long then.";
 	}
 }
 [conversation_andiemus_disband]
 {
 	[text*]
 	{
-		screen_text = "Wait, what?";
+		screen_text = "For the respect of Azunai, you can't be serious! I'll die out there alone! As soon as I'm out o' the camp I'll get clomped on the head again, I just know it!";
 	}
 }
 [conversation_andiemus_rejoin]
@@ -573,7 +573,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "Ho there! Decided you needs the sorcerous type did ye? I still stand ready ta serve if'n you've got the gold I require!";
 	}
 }
 [conversation_andiemus_disband_rejoin]
@@ -581,6 +581,6 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "By all that's pure and true, please take me with you again! I know I've much yet ta learn, but I'll do my dead-level best to help, I swear I will!";
 	}
 }
