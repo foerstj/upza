@@ -467,10 +467,8 @@
 {
 	[generic_accumtrigger]
 	{
-		message_when_active = we_req_deactivate;
-		message_when_inactive = we_req_activate;
 	  i num_til_send = 6;
-	  x send_to_scid = 0x092001C6;
+	  x send_to_scid = 0x092001FE;
 	}
 	[placement]
 	{
