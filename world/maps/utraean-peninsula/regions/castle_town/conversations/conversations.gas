@@ -714,14 +714,14 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "By all the powers that be, a hero's face! The castle's overrun! The bloody Undead came up from below, but I don't know how. I fought them with my friends, but they've all joined their unholy ranks now... This formerly so proud town is busy just defending itself. Shall we join forces to fight them or go on separately?";
 	}
 }
 [conversation_lord_bolingar_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "Let's not stand about then! There's a castle full of undead to fight!";
 	}
 }
 [conversation_lord_bolingar_accept_no_money]
@@ -735,14 +735,14 @@
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Aye, we'll probably cover more territory alone, but watch out. Those Undead are thick as thieves throughout the castle.";
 	}
 }
 [conversation_lord_bolingar_disband]
 {
 	[text*]
 	{
-		screen_text = "Wait, what?";
+		screen_text = "You wish to search alone? Hmmmph. Very well. We can meet here again if you need me.";
 	}
 }
 [conversation_lord_bolingar_rejoin]
@@ -750,7 +750,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "We haven't time to be indecisive! Shall we free the castle together or not?";
 	}
 }
 [conversation_lord_bolingar_disband_rejoin]
@@ -758,6 +758,6 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "Let's go again together, shall we?";
 	}
 }
