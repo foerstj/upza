@@ -441,35 +441,35 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join?";
+		screen_text = "An age ago I fought with the bladdy 2nd Legion in the battle o' the Plains. These days I've no more trust for queen nor Legion any more than I do for Droog nor Traveler. All I trust is a handful o' gold. If you want me to fight for ye, you have ta 'earn' my trust!";
 	}
 }
 [conversation_ulfgrim_accept_have_money]
 {
 	[text*]
 	{
-		screen_text = "Yay let's go!";
+		screen_text = "That's doon then. I'll fight for yer cause as long as I'm able, but doon expect me to bow and scrape to any Legion types. The only authority I respect in this warld is my own!";
 	}
 }
 [conversation_ulfgrim_accept_no_money]
 {
 	[text*]
 	{
-		screen_text = "You need more money...";
+		screen_text = "Are you a fool!?! That won't even buy the trust of a gremal! Don't talk ta me until you're prepared to pay!";
 	}
 }
 [conversation_ulfgrim_reject]
 {
 	[text*]
 	{
-		screen_text = "Think again.";
+		screen_text = "Suits yourself! I just hope the other side doesn't make me a better offer!";
 	}
 }
 [conversation_ulfgrim_disband]
 {
 	[text*]
 	{
-		screen_text = "Wait, what?";
+		screen_text = "You're as undecided as those bladdy sods who commanded the Legion during the battle o' the Plain! If you canna see what's good far you, it's best I left anyway! I hope yer enemies use your skull for a bedpan!";
 	}
 }
 [conversation_ulfgrim_rejoin]
@@ -477,7 +477,7 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Join? Hm?";
+		screen_text = "You've turned your back on Hildr before. That's a considerable lack o' respect to me. You'll pay me my standard fee plus a little extra for insulting my honor! What will it be?";
 	}
 }
 [conversation_ulfgrim_disband_rejoin]
@@ -485,6 +485,6 @@
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Rejoin?";
+		screen_text = "I'm not in the best mood thanks to you, so I'll make myself plain. It's a dangerous world out there, and I'd be a fool not to take help even from the likes of you. I'll travel with you again, but don't expect I'll go much out o' my way to protect your sorry carcass. Got it?! Good!";
 	}
 }

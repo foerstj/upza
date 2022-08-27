@@ -9,7 +9,8 @@ Goid		m_Target$;
 
 property    string  namespace$  = "companion"   doc = "Namespace for conversations and flags";
 property    string  oid$                        doc = "Object ID, lower-case hex, no leading zeroes, e.g. 0x17001af";
-property    int     more_gold$  = 0             doc = "Demand more gold to rejoin";
+property    int     more_gold$  = 0             doc = "Demand more gold to rejoin after being disbanded";
+property    int     more_gold2$  = 0            doc = "Demand more gold to join when asked twice";
 
 startup state STARTUP$
 {
@@ -101,6 +102,10 @@ state Talk$
 		{
 			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "conversation_%s_rejoin", namespace$ ) );
 			GameAuditor.GetDb.SetBool( MakeStringF( "party_allow_rejoin_%s", oid$ ), false );
+            if ( more_gold2$ > 0 )
+            {
+                m_Go$.Aspect.SetGoldValue( more_gold2$ );
+            }
 		}
 		else
 		{
