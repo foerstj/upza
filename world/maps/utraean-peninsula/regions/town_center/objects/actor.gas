@@ -2339,6 +2339,23 @@
 	{
 	  b is_multi_player = false;
     }
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_ulora_join;
+			* = conversation_ulora_accept_have_money;
+			* = conversation_ulora_accept_no_money;
+			* = conversation_ulora_reject;
+			* = conversation_ulora_disband;
+			* = conversation_ulora_rejoin;
+			* = conversation_ulora_disband_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=ulora&oid=0x3200b99;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.951057,0,0.309017;

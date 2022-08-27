@@ -875,3 +875,56 @@
 		screen_text = "Good luck to you, then.";
 	}
 }
+
+[conversation_ulora_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join?";
+	}
+}
+[conversation_ulora_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	}
+}
+[conversation_ulora_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You need more money...";
+	}
+}
+[conversation_ulora_reject]
+{
+	[text*]
+	{
+		screen_text = "Think again.";
+	}
+}
+[conversation_ulora_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	}
+}
+[conversation_ulora_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Join? Hm?";
+	}
+}
+[conversation_ulora_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Rejoin?";
+	}
+}
