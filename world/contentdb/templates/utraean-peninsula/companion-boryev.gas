@@ -66,7 +66,7 @@
 		[equipment]
 		{
 			es_chest = #body,m/136-170;
-			es_feet = #boots,m/136-170;
+			es_feet = #boots,m/102-136;  // 136-170 proved too high
 		}
 		[other]
 		{
@@ -77,7 +77,7 @@
 			il_main = #cmagic/25-30;
 			il_main = #cmagic/25-30;
 			il_main = #cmagic/31-34;
-            il_main = #mace/68-85;
+            il_main = #mace/51-68;  // 68-85 proved too high
 		}
     }
 }
