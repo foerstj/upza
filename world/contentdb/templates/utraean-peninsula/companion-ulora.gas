@@ -61,5 +61,11 @@
     [inventory]
     {
         custom_head =;
+
+		[equipment]
+		{
+            es_chest = #body,r/-no_mod/0-5;
+            es_feet = #boots/-no_mod/0-5;
+		}
     }
 }

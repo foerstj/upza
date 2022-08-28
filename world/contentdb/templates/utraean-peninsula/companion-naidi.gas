@@ -48,4 +48,12 @@
     {
         screen_name = "Lisa";
     }
+   	[inventory]
+	{
+		[equipment]
+		{
+            es_chest = #body,r/-no_mod/6-10;
+            es_feet = #boots/-no_mod/6-10;
+		}
+    }
 }
