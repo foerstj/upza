@@ -64,6 +64,11 @@
     }
     [inventory]
     {
+		[equipment]
+		{
+            es_chest = #body,m/200-230;
+            es_feet = #boots,m/30-35;
+		}
         [other]
         {
             // il_main = book_glb_lore_dragon;

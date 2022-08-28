@@ -63,8 +63,13 @@
 		[equipment]
 		{
 			es_chest = #body,f/-no_mod/20-30;
-			es_feet = #boots/-no_mod/20-30;
-			es_forearms = #gloves/-no_mod/20-30;
+			es_feet = #boots,f/-no_mod/20-30;
+			es_forearms = #gloves,f/-no_mod/20-30;
 		}
+        [other]
+        {
+			il_main = #axe/20-23;
+            il_main = #shield,f/30-40;
+        }
     }
 }

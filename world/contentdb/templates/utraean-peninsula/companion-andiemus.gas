@@ -61,6 +61,11 @@
     }
 	[inventory]
 	{
+		[equipment]
+		{
+			es_chest = #body,m/120-130;
+			es_feet = #boots,m/20-25;
+		}
 		[other]
 		{
 			il_active_primary_spell = #nmagic/22-24;
