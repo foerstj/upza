@@ -64,8 +64,13 @@
 
 		[equipment]
 		{
-            es_chest = #body,r/-no_mod/0-5;
-            es_feet = #boots/-no_mod/0-5;
+            es_chest = #body,r/-no_mod/3-6;
+            es_feet = #boots/-no_mod/3-6;
 		}
+        [other]
+        {
+			il_main = book_glb_lore_azunite;
+            il_main = #helm/3-6;
+        }
     }
 }

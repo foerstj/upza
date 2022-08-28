@@ -68,5 +68,16 @@
 			es_chest = #body,m/60-70;
 			es_feet = #boots,m/60-70;
 		}
+		[other]
+		{
+			il_active_primary_spell = #cmagic/31-34;
+			il_main = #nmagic/4-16;
+			il_main = #cmagic/15-22;
+			il_main = #cmagic/20-26;
+			il_main = #cmagic/25-30;
+			il_main = #cmagic/25-30;
+			il_main = #cmagic/31-34;
+            il_main = #mace/39-46;
+		}
     }
 }

@@ -69,10 +69,23 @@
     }
 	[inventory]
 	{
-		[pcontent]
+        [pcontent] {}  // nonsense
+		[equipment]
 		{
-			es_chest 	= #body,m/25-35;
+			es_chest 	= #body,ro/25-35;
 			es_feet 	= #boots,m/25-35;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_iceshard;
+			il_main = spell_firespray;
+			il_main = spell_healing_hands;
+			il_main = spell_hold_creature;
+			il_main = spell_spark;
+			il_main = spell_dancing_zap;
+			il_main = spell_resurrect;
+			il_main = spell_mana_channel;
+			il_main = spell_healing_wind;
 		}
 	}
 }

@@ -62,5 +62,10 @@
 			es_chest = #body,f/-no_mod/7-10;
 			es_feet = #boots/-no_mod/7-10;
 		}
+        [other]
+        {
+			il_main = #mace/-no_mod/7-10;
+            il_main = #shield,m/-no_mod/7-10;
+        }
     }
 }
