@@ -58,4 +58,13 @@
     {
         screen_name = "Kraul";
     }
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = #body,f/-no_mod/20-30;
+			es_feet = #boots/-no_mod/20-30;
+			es_forearms = #gloves/-no_mod/20-30;
+		}
+    }
 }

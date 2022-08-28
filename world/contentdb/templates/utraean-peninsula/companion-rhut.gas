@@ -60,6 +60,14 @@
     }
     [inventory]
     {
+		[equipment]
+		{
+			es_chest = #body,f/82-90;
+			es_feet = #boots/82-90;
+			es_forearms = #gloves/82-90;
+			es_head = #helm/82-90;
+			es_weapon_hand = #axe/82-90;
+		}
         [other]
         {
             // il_main = book_glb_lore_droog_2;

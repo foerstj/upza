@@ -58,4 +58,14 @@
     {
         screen_name = "Hildr";
     }
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = #body,f/130-150;
+			es_feet = #boots/130-150;
+			es_forearms = #gloves/130-150;
+			es_head = #helm/130-150;
+		}
+    }
 }

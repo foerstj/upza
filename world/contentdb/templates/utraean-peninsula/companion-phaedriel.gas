@@ -52,4 +52,17 @@
     {
         screen_name = "Nightshade";
     }
+   	[inventory]
+	{
+		[equipment]
+		{
+            es_chest = #body,r/20-30;
+            es_feet = #boots/20-30;
+            es_forearms = #gloves/20-30;
+		}
+        [other]
+        {
+			il_main = #bow/30-40;
+        }
+	}
 }

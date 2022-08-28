@@ -50,4 +50,16 @@
     {
         screen_name = "Knight Mighell";
     }
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = #body,f/150-170;
+			es_feet = #boots/150-170;
+			es_forearms = #gloves/150-170;
+			es_head = #helm/150-170;
+			es_shield_hand = #shield/200-230;
+			es_weapon_hand = #sword/100-110;
+		}
+	}
 }
