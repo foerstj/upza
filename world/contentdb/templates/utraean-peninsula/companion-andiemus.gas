@@ -59,4 +59,18 @@
     {
         screen_name = "Myros";
     }
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = #nmagic/22-24;
+			il_main = #nmagic/8-16;
+			il_main = #nmagic/15-19;
+			il_main = #nmagic/20-22;
+			il_main = #nmagic/20-22;
+			il_main = #nmagic/22-24;
+            il_main = #staff/45-58;
+            // il_main = book_glb_lore_castle;
+		}
+	}
 }

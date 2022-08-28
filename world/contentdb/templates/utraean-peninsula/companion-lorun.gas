@@ -61,4 +61,17 @@
     {
         screen_name = "Pyros";
     }
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = #cmagic/7-9;
+			il_main = #cmagic/2-4;
+			il_main = #cmagic/3-7;
+			il_main = #cmagic/7-9;
+			il_main = #cmagic/8-9;
+			il_main = #staff/23-27;
+			// il_main = book_glb_lore_fortkroth;
+		}
+	}
 }
