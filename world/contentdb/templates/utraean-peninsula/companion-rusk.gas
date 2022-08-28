@@ -58,14 +58,14 @@
 	{
 		[equipment]
 		{
-			es_chest = #body,f/-no_mod/5-10;
-			es_feet = #boots/-no_mod/2-8;
+			es_chest = #body,f/-no_mod/12-15;
+			es_feet = #boots/-no_mod/12-15;
 		}
 		[other]
 		{
-			il_main = #shield,f/-no_mod/5-10;
-            il_main = #helm,f/-no_mod/5-10;
-			il_main = #sword/-no_mod/5-10;
+            il_main = #helm,f/-no_mod/12-15;
+			il_main = #sword/-no_mod/6-8;
+			il_main = #shield,f/-no_mod/6-8;
 		}
 	}
 }

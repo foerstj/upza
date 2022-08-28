@@ -63,15 +63,15 @@
 	{
 		[equipment]
 		{
-			es_chest = #body,m/-no_mod/7-10;
-			es_feet = #boots/-no_mod/7-10;
+			es_chest = #body,m/-no_mod/12-15;
+			es_feet = #boots/-no_mod/12-15;
 		}
 		[other]
 		{
 			il_active_primary_spell = spell_zap;
 			il_main = spell_healing_hands;
 			il_main = spell_resurrect;
-			il_main = #staff/-no_mod/7-10;
+			il_main = #staff/-no_mod/6-8;
 		}
     }
 }
