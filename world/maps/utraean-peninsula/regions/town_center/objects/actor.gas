@@ -1,3 +1,37 @@
+[t:up_ulora,n:0x03200b99]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_ulora_accept_have_money;
+			* = conversation_ulora_accept_no_money;
+			* = conversation_ulora_disband;
+			* = conversation_ulora_disband_rejoin;
+			* = conversation_ulora_join;
+			* = conversation_ulora_reject;
+			* = conversation_ulora_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=ulora&oid=0x3200b99;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.951057,0,0.309017;
+	  p position = -1.94941,-0.997471,-1.82275,0xabb8ec2a;
+	}
+}
 [t:mp_townfolk_female_01,n:0x032007b5]
 {
 	[aspect]
@@ -488,6 +522,108 @@
 	{
 	  q orientation = 0,-0.382684,0,0.92388;
 	  p position = 6.23237,-2.7,6.51849,0xf9384d81;
+	}
+}
+[t:up_naidi,n:0x03200baf]
+{
+	[aspect]
+	{
+	  f max_life = 58.8;
+	  f max_mana = 34;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_naidi_accept_have_money;
+			* = conversation_naidi_accept_no_money;
+			* = conversation_naidi_disband;
+			* = conversation_naidi_disband_rejoin;
+			* = conversation_naidi_join;
+			* = conversation_naidi_reject;
+			* = conversation_naidi_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=naidi&oid=0x3200baf;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.963204,0,-0.268772;
+	  p position = 1.95557,-2.7,0.808815,0xf9384d81;
+	}
+}
+[t:up_rusk,n:0x03200bb0]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_rusk_accept_have_money;
+			* = conversation_rusk_accept_no_money;
+			* = conversation_rusk_disband;
+			* = conversation_rusk_disband_rejoin;
+			* = conversation_rusk_join;
+			* = conversation_rusk_reject;
+			* = conversation_rusk_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=rusk&oid=0x3200bb0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.296819,0,0.954934;
+	  p position = 1.90758,-2.7,-0.870201,0xf9384d81;
+	}
+}
+[t:up_zed,n:0x03200bb1]
+{
+	[aspect]
+	{
+	  f max_life = 68.6;
+	  f max_mana = 80;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_zed_accept_have_money;
+			* = conversation_zed_accept_no_money;
+			* = conversation_zed_disband;
+			* = conversation_zed_disband_rejoin;
+			* = conversation_zed_join;
+			* = conversation_zed_reject;
+			* = conversation_zed_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=zed&oid=0x3200bb1;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.633458,0,-0.773777;
+	  p position = -0.22345,-2.7,-0.229227,0xf9384d81;
 	}
 }
 [t:tarish,n:0x03200c4c]
@@ -1246,6 +1382,40 @@
 	{
 	  q orientation = 0,-0.923879,0,0.382683;
 	  p position = -0.484398,0,1.16044,0xd511ae72;
+	}
+}
+[t:up_gyorn,n:0x03200bae]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_gyorn_accept_have_money;
+			* = conversation_gyorn_accept_no_money;
+			* = conversation_gyorn_disband;
+			* = conversation_gyorn_disband_rejoin;
+			* = conversation_gyorn_join;
+			* = conversation_gyorn_reject;
+			* = conversation_gyorn_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=gyorn&oid=0x3200bae;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0671493,0,0.997743;
+	  p position = 2.99759,1.90735e-006,-0.411591,0xa1708e10;
 	}
 }
 [t:blacksmith_zabar_treseck,n:0x03200c26]
@@ -2326,175 +2496,5 @@
 	{
 	  q orientation = 0,-0.350207,0,0.936672;
 	  p position = 1.39631,0,-2.91906,0x14c70a85;
-	}
-}
-[t:up_ulora,n:0x03200b99]
-{
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_ulora_join;
-			* = conversation_ulora_accept_have_money;
-			* = conversation_ulora_accept_no_money;
-			* = conversation_ulora_reject;
-			* = conversation_ulora_disband;
-			* = conversation_ulora_rejoin;
-			* = conversation_ulora_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=ulora&oid=0x3200b99;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.951057,0,0.309017;
-	  p position = -1.94941,-0.997471,-1.82275,0xabb8ec2a;
-	}
-}
-[t:up_gyorn,n:0x03200bae]
-{
-	[aspect]
-	{
-	  f max_life = 78.4;
-	  f max_mana = 31;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_gyorn_join;
-			* = conversation_gyorn_accept_have_money;
-			* = conversation_gyorn_accept_no_money;
-			* = conversation_gyorn_reject;
-			* = conversation_gyorn_disband;
-			* = conversation_gyorn_rejoin;
-			* = conversation_gyorn_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=gyorn&oid=0x3200bae;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.0671493,0,0.997743;
-	  p position = 2.99759,1.90735e-006,-0.411591,0xa1708e10;
-	}
-}
-[t:up_naidi,n:0x03200baf]
-{
-	[aspect]
-	{
-	  f max_life = 58.8;
-	  f max_mana = 34;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_naidi_join;
-			* = conversation_naidi_accept_have_money;
-			* = conversation_naidi_accept_no_money;
-			* = conversation_naidi_reject;
-			* = conversation_naidi_disband;
-			* = conversation_naidi_rejoin;
-			* = conversation_naidi_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=naidi&oid=0x3200baf;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.963204,0,-0.268772;
-	  p position = 1.95557,-2.7,0.808815,0xf9384d81;
-	}
-}
-[t:up_rusk,n:0x03200bb0]
-{
-	[aspect]
-	{
-	  f max_life = 78.4;
-	  f max_mana = 31;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_rusk_join;
-			* = conversation_rusk_accept_have_money;
-			* = conversation_rusk_accept_no_money;
-			* = conversation_rusk_reject;
-			* = conversation_rusk_disband;
-			* = conversation_rusk_rejoin;
-			* = conversation_rusk_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=rusk&oid=0x3200bb0;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.296819,0,0.954934;
-	  p position = 1.90758,-2.7,-0.870201,0xf9384d81;
-	}
-}
-[t:up_zed,n:0x03200bb1]
-{
-	[aspect]
-	{
-	  f max_life = 68.6;
-	  f max_mana = 80;
-	}
-	[common]
-	{
-	  b is_multi_player = false;
-    }
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_zed_join;
-			* = conversation_zed_accept_have_money;
-			* = conversation_zed_accept_no_money;
-			* = conversation_zed_reject;
-			* = conversation_zed_disband;
-			* = conversation_zed_rejoin;
-			* = conversation_zed_disband_rejoin;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\utraean-peninsula\job_talk_companion.skrit?namespace=zed&oid=0x3200bb1;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.633458,0,-0.773777;
-	  p position = -0.22345,-2.7,-0.229227,0xf9384d81;
 	}
 }
