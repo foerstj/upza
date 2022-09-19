@@ -39,5 +39,13 @@ robocopy "%doc_dsloa%\Bits\world\contentdb\templates\%map%" "%tmp%\Bits\world\co
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "CC-BY-SA 2022" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
+:: Compile German language resource file
+if not "%mode%"=="light" (
+  rmdir /S /Q "%tmp%\Bits"
+  robocopy "%doc_dsloa%\Bits\language" "%tmp%\Bits\language" /E
+  %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.de.dsres" -copyright "CC-BY-SA 2022" -title "%map_cs%" -author "Johannes Förstner"
+  if %errorlevel% neq 0 pause
+)
+
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
