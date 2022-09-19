@@ -12,6 +12,62 @@
         to = "- Die acht Steine von Uträa -\nEine Kampagne in den südwestlichen Ruinen des Reichs";
     }
 
+    // Mule merchant conversations
+    // Elddim
+    [0x0000]
+    {
+        from = "Krug. You ask me, we should'a run the bastards outta these hills when we settled here. All those dung eaters left me were a Jack and a half lame mare. The Jack I can part with for a price, though not for half as much I could've a week ago. You interested?";
+        to = "";
+    }
+    [0x0000]
+    {
+        from = "I still got ole Plodder, if you're interested.";
+        to = "Den Maulesel - Schlurfer - hab' ich noch, wie sieht's aus?";
+    }
+    // Fallraen
+    [0x0000]
+    {
+        from = "Here to buy a mule, are you? You want a nice docile beastie you can leave out in the rain, pack a house-worth of stuff onto its back, and that doesn't try to eat you as soon as it gets hungry? Hah! It's no wonder we went out of the sodding Furok business! Do me a favor: take one of these worthless mules I got in trade for its equal in gold, and I'll be one step closer to getting out of this blighted peninsula for good.";
+        to = "Ihr wollt ein Maultier kaufen? Ein nettes, zahmes Tierchen, das man im Regen stehen lassen und mit 'ner Wagenladung voll packen kann und nur füttert, wenn's einem grade so passt? Ha! Kein Wunder, dass wir keine Furoks mehr verkaufen! Tut mir 'n Gefallen: Nehmt eines dieser wertlosen Viecher, für das ich ein Vermögen bezahlt habe, damit ich diese vermaledeite Halbinsel bald verlassen kann.";
+    }
+    [0x0000]
+    {
+        from = "If you're looking for another mule, you're out of luck. I've sold the last of them, and the Shivering Furok Corral is now history. Good riddance!";
+        to = "Wenn Ihr noch ein Maultier braucht, habt Ihr Pech gehabt. Ich hab das letzte verkauft. Der Hof zum bibbernden Furok ist Geschichte. Endlich!";
+    }
+    // Meren
+    [0x0000]
+    {
+        from = "Hello, welcome to the livery stable of Meren! Would you be interested in my stalwart mules?";
+        to = "Hallo, willkommen im Mietstall von Meren! Wäret Ihr an meinen tüchtigen Maultieren interessiert?";
+    }
+    [0x0000]
+    {
+        from = "Hey, check out that bush! I dare you to touch it.";
+        to = "He, seht Euch diesen Busch an! Versucht doch mal, ihn zu berühren.";
+    }
+    [0x0000]
+    {
+        from = "I hope Beauty hasn't given you too much trouble. How 'bout making it a pair? I still got Beast, if you're interested.";
+        to = "Hoffe, Schönheit war nicht zu schlimm. Wie wär's mit 'nem Paar? Bestie hab' ich noch, wenn Ihr wollt.";
+    }
+    [0x0000]
+    {
+        from = "I still got ole Beauty and Beast, if you're interested.";
+        to = "Die zwei Maulesel - Schönheit und Bestie - hab' ich noch, wie sieht's aus?";
+    }
+    // Hiroth
+    [0x0000]
+    {
+        from = "Welcome to Hiroth! Are you looking for mules? I've got one here, and you can buy another one just on the other side of the lake.";
+        to = "Willkommen in Hiroth! Seid Ihr auf der Suche nach Mauleseln? Ich habe einen hier, und gleich auf der anderen Seite des Sees könnt Ihr auch noch einen kaufen.";
+    }
+    [0x0000]
+    {
+        from = "Are you interested in buying a packmule? This one here is very docile, I assure you.";
+        to = "Seid Ihr an einem Maulesel interessiert? Dieser hier ist sehr gehorsam, das versichere ich Euch.";
+    }
+
     // Mule names
     [0x0000]
     {
