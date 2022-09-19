@@ -256,8 +256,81 @@
     }
 
     // Flintbeard / Merik
+    [0x0000]
+    {
+        from = "I'm so glad to see you coming this way! A blasted Furok ate my staff, and so I've been stuck here with a tracker and a quarrier for a fortnight now. Let's go to Meren together, shall we?";
+        to = "Ich freue mich, Euch hier auf dem Weg zu sehen! Ein verfluchter Furok hat meinen Stab gefressen, und so sitze ich hier schon seit zwei Wochen mit einem Fährtenleser und einem Steinbruchbetreiber fest. Wollen wir zusammen nach Meren gehen?";
+    }
+    [0x0000]
+    {
+        from = "An excellent and wise choice. Now, let's have a stroll through the Crystal Caverns, shall we?";
+        to = "Eine gute und weise Entscheidung. Und jetzt spazieren wir durch die Kristallhöhlen, ja?";
+    }
+    [0x0000]
+    {
+        from = "You need more money...";
+        to = "Ihr benötigt mehr Geld...";
+    }
+    [0x0000]
+    {
+        from = "Don't you see what's happening? The very fate of this peninsula hangs in the balance! If you don't have the stomach to help me save our people, I'll have to find someone who does.";
+        to = "Seht Ihr denn nicht, was hier geschieht? Das Schicksal der ganzen Halbinsel steht auf dem Spiel! Wenn Ihr nicht den Mut habt, mir zu helfen, unser Volk zu retten, muss ich andere finden.";
+    }
+    [0x0000]
+    {
+        from = "What?! You've the gall to dismiss the Grand Mage of the 2nd Legion? I certainly hope you've no ambitions greater than being a mule-dung seller, child, because that's the most you can hope for after today! Off with you!";
+        to = "Wie?! Ihr habt die Dreistigkeit, mich, den Großmagier der zweiten Legion, zurückzulassen? Ich hoffe, Eure Ziele gehen nicht über das Verkaufen von Maultierdung hinaus - mehr könnt Ihr jetzt nicht mehr erhoffen! Fort mit Euch!";
+    }
+    [0x0000]
+    {
+        from = "Forgive my earlier outburst. I've many things on my mind and am afraid I've lost most of my social graces over this affair. Also I'm not actually the Grand Mage of the 2nd Legion. If you can forgive an intolerable old man's complaints, I could well use your assistance. I expect there are a few things I could do for you as well.";
+        to = "Verzeiht meinen Ausbruch von vorhin. Ich habe viele Dinge im Kopf und fürchte, über diese Angelegenheit ist mir die Höflichkeit abhanden gekommen. Außerdem bin ich nicht wirklich der Großmagier der zweiten Legion. Bitte vergebt einem unerträglichen alten Mann; ich könnte Eure Hilfe gebrauchen. Ich nehme an, ich könnte auch einiges für Euch tun.";
+    }
+
     // Nightshade / Phaedriel
+    [0x0000]
+    {
+        from = "I am ruined, most horribly ruined! For six years I have poured all my wealth and labors into planning a contest of skill, a challenge to find the greatest living archer in the known lands. But on the very eve of our contest, disaster! Our treasury stolen by Bandits! Our finest prizes seized! My bow and skills are all I have left in the world to redeem my tarnished name and reputation. I have followed the Bandits this far, but cannot go further without funds to replenish my supplies. If you might spare some gold, I should be glad to lend you my talents while I search for my lost treasures.";
+        to = "Ich bin ruiniert, völlig ruiniert! Sechs Jahre lang habe ich all mein Geld und meine Arbeit in die Organisation eines Wettkampfs gesteckt, um den besten Bogenschützen der bekannten Welt zu finden. Und dann ... am Vorabend ... das Ende! Unser ganzer Schatz - von Räubern geraubt! Unsere schönsten Preise - weg! Ich habe nur noch Pfeile, Bogen und meine Fähigkeiten, um meinen Ruf und meinen Namen wiederherzustellen. Bis hierhin bin ich den Räubern gefolgt; aber ohne Gold, um meine Vorräte aufzustocken, komme ich nicht weiter. Wenn Ihr ein bisschen Gold entbehren könntet, will ich mein Können auf der Suche nach den verlorenen Schätzen gern in Euren Dienst stellen.";
+    }
+    [0x0000]
+    {
+        from = "The bow and honor of Nightshade are yours to command, good friend. I am glad to join your fellowship. Now let's kick some Bandit ass!";
+        to = "Bogen und Ehre von Nightshade stehen Euch zu Diensten, Freund. Ich freue mich, zu Euch zu stoßen. Treten wir den Räubern in den Arsch!";
+    }
+    [0x0000]
+    {
+        from = "Pff then not!";
+        to = "Dann halt nicht!";
+    }
+    [0x0000]
+    {
+        from = "Wait, what?";
+        to = "Bitte, was?";
+    }
+
     // Myros / Andiemus
+    [0x0000]
+    {
+        from = "You cannot know how glad I am to see fellow heroes! It seems this land is overrun with monsters! I was following the gold what's been stolen from Nightshade's archery tournament when I come to this place. Look, I know I'm young fer a mage, but I knows me a spell or two, and I'd be willing to help you out fer some gold. I promise I knows me stuff. I jus needs someone that can watch me back.";
+        to = "Das Antlitz eines Helden! Welche eine Freude! Mir wollte scheinen, es gäbe nur noch Ungeheuer! Ich kam auf der Suche nach dem Gold, das bei Nightshades Bogenschützenturnier gestohlen wurde, hierher. Als Magier mag ich jung für Euch erscheinen, doch Zaubersprüche kenn' ich wohl. Für etwas Gold will ich Euch gern' helfen. Mein Handwerk beherrsche ich, nur muss mir jemand den Rücken freihalten.";
+    }
+    [0x0000]
+    {
+        from = "By the stars! Maybe me luck is a' changin'! Myros, apprentice mage, at yer service.";
+        to = "Bei den Sternen! Mein Glück scheint sich zu wenden! Myros, Zauberlehrling, zu Euren Diensten.";
+    }
+    [0x0000]
+    {
+        from = "I've lost every bit o' my sorcerin' gear and I didn't recover Nightshade's gold. I need sumethin' I can take back to my father Radicus to shows that I'm not a complete mooncalf. If you don't have the gold I'm askin' for now, then you can finds me later.";
+        to = "Meine magischen Sachen - alle weg! Und das Gold von Nightshade habe ich auch nicht. Ich brauche irgendetwas zum Vorzeigen für meinen Vater Radicus - sonst hält er mich für einen völligen Trottel. Wenn Ihr das geforderte Gold nicht habt, könnt Ihr gern später wiederkommen.";
+    }
+    [0x0000]
+    {
+        from = "For the respect of Azunai, you can't be serious! I'll die out there alone! As soon as I'm out o' the camp I'll get clomped on the head again, I just know it!";
+        to = "Im Namen von Azunai! Das kann nicht Euer Ernst sein! Allein dort draußen - das wäre mein Ende! Bestimmt beziehe ich wieder Prügel, sobald die Zelte von Lang außer Sichtweite sind!";
+    }
+
     // Hjort / Rhut
     // Zartk / Boryev
     // Lisbeth / Sikra
