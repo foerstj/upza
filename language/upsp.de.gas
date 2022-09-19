@@ -87,6 +87,110 @@
         to = "Hof zum bibbernden Furok";
     }
 
+    // Companion conversations
+
+    // Kerstin / Ulora
+    [0x0000]
+    {
+        from = "I am the scribe Kerstin. Another day of translating ancient Utraean stone tablets for the Historical Society and I'll go as mad as old Lord Hovart. I'd rather go out to the Ancient Crypt and find the Townstone, but Kelti says it's not my job. Nonsense! The crypt is just to the east of here. Shall we travel together?";
+        to = "Ich bin Schreiberin Kerstin. Noch einen Tag lang antike uträische Steintafeln für die Gesellschaft für uträische Geschichte übersetzen, und ich werde so wahnsinnig wie der alte Fürst Hovart. Ich würde viel lieber raus zur Alten Gruft gehen und den Townstone-Stein finden, aber Kelti sagt das sei nicht meine Aufgabe. So ein Quatsch! Die Gruft ist gleich östlich von hier. Wollen wir gemeinsam reisen?";
+    }
+    [0x0000]
+    {
+        from = "I need a little gold to quit this place though.";
+        to = "Ich benötige allerdings ein wenig Gold um diesen Ort zu verlassen.";
+    }
+    [0x0000]
+    {
+        from = "The crypt is just to the east of here. Shall we travel together?";
+        to = "Die Gruft ist gleich östlich von hier. Wollen wir gemeinsam reisen?";
+    }
+
+    // Martin / Gyorn
+    [0x0000]
+    {
+        from = "The Krug are getting more cheeky every day. They already smashed the old orchard house! I'd rather go back to Fallraen, but I owe some money to those adventurers in the inn. If you could pay me out, we can leave this place together!";
+        to = "";
+    }
+    [0x0000]
+    {
+        from = "Aye, I knew you'd be the right sort for a trek! Well met, friend!";
+        to = "Ich wusste, dass Ihr der Richtige für so etwas seid! Gut so, Freund!";
+    }
+    [0x0000]
+    {
+        from = "I owe some money to those adventurers in the inn though...";
+        to = "Ich schulde diesen Abenteurern in der Taverne allerdings etwas Geld...";
+    }
+    [0x0000]
+    {
+        from = "Bah, just as well. It's heroics that's called for now, and I've no business dragging you into Elddim's mess. Good luck to ye.";
+        to = "Dann eben nicht. Hier brauchen wir einen Helden, und es liegt mir fern, Euch in den Schlamassel um Elddim hinein zu ziehen. Viel Glück Euch.";
+    }
+    [0x0000]
+    {
+        from = "If you could pay me out, we can leave this place together! What do you think?";
+        to = "Wenn Ihr mich auszahlen könntet, könnten wir diesen Ort gemeinsam verlassen! Was meint Ihr?";
+    }
+    [0x0000]
+    {
+        from = "Back for Martin are ya? I'd be glad to follow ya, if you'd like the company. Nothing worse than following a long road and not having a soul to talk to. Shall we?";
+        to = "Wollt Ihr Martin doch mitnehmen? Ich würde gern mitkommen, wenn Ihr Gesellschaft braucht. Es gibt nichts Schlimmeres, als einen langen Weg ohne Gefährten zu gehen. Wollen wir?";
+    }
+
+    // Marshwind / Zed
+    [0x0000]
+    {
+        from = "Greetings! I am Marshwind the sorcerer, and as of late, Marshwind the bored. I came to see this peninsula full of ancient Utraean ruins and artifacts, and I ended up in this wretched village. If you can use a sorcerer, take me with you. I'd certainly like to see some excitement somewhere on the peninsula. Normally, I charge a fortune for my services, but I'd be willing to take somewhat less just to get out of this putrid place. Is my fee acceptable?";
+        to = "Seid gegrüßt! Ich bin Marshwind der Zauberer und seit kurzem auch Marshwind der Gelangweilte. Ich kam, um diese Halbinsel voller antiker uträischer Ruinen und Artefakte zu sehen, und bin in diesem elenden Dorf gelandet. Normalerweise kosten meine Dienste ein Vermögen, aber um hier rauszukommen, wäre ich sogar bereit, meinen Preis zu verringern. Was haltet Ihr von meinem Angebot?";
+    }
+
+    // Lisa / Naidi
+    [0x0000]
+    {
+        from = "Sorry for looking such a mess. I took an arrow yesterday walking through the Iliarth Valley, but I'm not really all that injured. Kelti's got me patched up, and I'm ready to get back into the fight again if someone will just believe in me. If you need a good archer to escort you through the mess beyond Elddim, I'd be glad to help. I just need some gold to settle my healing bill. Interested?";
+        to = "Verzeiht mein Aussehen. Bei einem Spaziergang im Iliarth-Tal gestern Abend traf mich ein Pfeil, aber ich bin nicht schwer verletzt. Kelti hat mich zusammengeflickt, und ich bin bereit, wieder zu kämpfen, wenn nur jemand an mich glauben wollte. Wenn Ihr eine gute Bogenschützin braucht, um Euch durch das Chaos außerhalb Elddim zu bringen, kann ich Euch helfen. Ich brauche nur etwas Gold, um die Heilung zu bezahlen. Wie wär's?";
+    }
+    [0x0000]
+    {
+        from = "Lisa the archer is at your service. You just tell me where we're going, and I'll do everything I can to get us there alive!";
+        to = "Bogenschützin Lisa zu Euren Diensten. Sagt mir einfach, wohin es geht, und ich tue alles in meiner Macht, um uns lebendig dort hin zu bringen!";
+    }
+    [0x0000]
+    {
+        from = "If you need a good archer to escort you through the mess beyond Elddim, I'd be glad to help. I just need some gold to settle my healing bill. Interested?";
+        to = "Wenn Ihr eine gute Bogenschützin braucht, um Euch durch das Chaos außerhalb Elddim zu bringen, kann ich Euch helfen. Ich brauche nur etwas Gold, um die Heilung zu bezahlen. Wie wär's?";
+    }
+
+    // Rach / Rusk
+    [0x0000]
+    {
+        from = "Hey! Watch who you're kickin'! I've got a sword and a mind to use it--and I would, too, if I didn't have this bloody hangover. Ach. People keep bothering me with some damn nonsense about saving the village. But you look the sort that'll pay for my services. For a clink of gold you'll have the best sword slinger around. Deal?";
+        to = "He! Passt mal 'n bisschen auf, wen Ihr da tretet! Ich hab 'n Schwert und kanns benutzen - wenn ich nur nicht den verteufelten Kater hätte. Ouhhh. Ständig nervt mich einer und erzählt mir irgendwelchen Unsinn von wegen Dörfer retten. Aber Ihr ... Ihr seht aus, als könntet Ihr für meine Arbeit bezahlen. Für 'ne Handvoll Gold kriegt Ihr den besten Schwertkämpfer dens gibt. Einverstanden?";
+    }
+    [0x0000]
+    {
+        from = "Well, your head was in the right place, but it doesn't appear you've got enough gold on you. You just come find old Rach when you need the best swordsman on the Peninsula.";
+        to = "Na, Ihr habt die richtigen Ideen, aber wohl nicht genug Gold. Kommt einfach den alten Rach suchen, wenn Ihr den besten Schwertkämpfer der ganzen Halbinsel braucht.";
+    }
+    [0x0000]
+    {
+        from = "You're just the luckiest sod on earth that someone hasn't come along and hired me. You want me back, I'll come along. But you'd best learn to show more appreciation to ole Rach this time around!";
+        to = "Habt 'n verdammtes Glück, dass mich noch keiner angeheuert hat. Kann gern wieder mitkommen. Aber mehr Anerkennung wär' diesmal angebracht!";
+    }
+
+    // Bjoern / Gloern
+    // Kraul / Kroduk
+    // Pyros / Lorun
+    // Flintbeard / Merik
+    // Nightshade / Phaedriel
+    // Myros / Andiemus
+    // Hjort / Rhut
+    // Zartk / Boryev
+    // Lisbeth / Sikra
+    // Hildr / Ulfgrim
+    // Knight Mighell / Lord Bolingar
+
     // KOPIMI
     [0x0000]
     {
