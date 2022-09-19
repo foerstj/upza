@@ -1,5 +1,6 @@
 [t:0x0407,n:text]
 {
+    // Base
     [0x0000]
     {
         from = "Utraean Peninsula (single-player)";
@@ -9,6 +10,25 @@
     {
         from = "- The Eight Stones of Utrae -\nA campaign amidst the southwestern ruins of the Empire";
         to = "- Die acht Steine von Uträa -\nEine Kampagne in den südwestlichen Ruinen des Reichs";
+    }
+
+    // Mule names
+    [0x0000]
+    {
+        from = "Plodder";
+        to = "Schlurfer";
+    }
+    [0x0000]
+    {
+        from = "Scuttling";
+        to = "Hoppel";
+    }
+
+    // Signs
+    [0x0000]
+    {
+        from = "Shivering Furok Corral";
+        to = "Hof zum bibbernden Furok";
     }
 
     // KOPIMI
