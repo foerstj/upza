@@ -332,15 +332,122 @@
     }
 
     // Hjort / Rhut
-    // Zartk / Boryev
-    // Lisbeth / Sikra
-    // Hildr / Ulfgrim
-    // Knight Mighell / Lord Bolingar
-
-    // KOPIMI
     [0x0000]
     {
-        from = "";
-        to = "";
+        from = "So the Krug have taken this worthless bunch of mines, what of it, eh? 'Ave any of us found so much as a gold nugget since this mess started? Not bloody likely! I'm sick o' bleeding for spit! Tell you what. You come up with a nice sum, I'll show this dunghill my backside, and Hjort will work for you from now on. What do you think?";
+        to = "Haben wir also diese wertlosen Minen zurückerobert, ja und? Hat einer von Euch auch nur ein einziges Goldnugget gefunden, seit alles angefangen hat? Wohl kaum! Ich hab' die Schnauze voll! Wisst Ihr was ... kratzt 'n bisschen Gold zusammen, dann können die hier mich alle mal, und Hjort arbeitet dann für Euch. Na?";
+    }
+    [0x0000]
+    {
+        from = "I think I'm going to likes workin' for you. Good enough! Hjort's your man!";
+        to = "Ich glaub', bei Euch wird's mir gefallen. Geht klar. Hjort ist Euer Mann!";
+    }
+    [0x0000]
+    {
+        from = "Fine, fine. You bloody do whatever you bloody well want to do while the rest of us slave for the mine owners! I hopes you rot!";
+        to = "Gut, gut. Könnt verdammt noch mal machen, was Ihr verdammt noch mal wollt, seid ja kein Sklave der Minenbesitzer wie wir! Könnt verschimmeln dabei!";
+    }
+    [0x0000]
+    {
+        from = "Well, well, if it isn't the independent adventurer come back to visit Hjortie. You think about what I said before? My price will get you a superb axe-wielding, sword-slinging, death machine, it will.";
+        to = "Sieh mal einer an, der unabhängige Abenteurer will den kleinen Hjort wieder. Habt Ihr Euch die Sache überlegt? Für den Preis kriegt Ihr 'ne grandiose Kampfmaschine komplett mit Axt und Schwert, jawoll.";
+    }
+    [0x0000]
+    {
+        from = "What, are you mad? You want Hjort to come with you again? Not unless you've got more gold for me I won't.";
+        to = "Was is', seid Ihr wahnsinnig? Ihr wollt, dass Hjort wieder mitkommt? Aber nich' ohne 'n bisschen mehr Gold, oh nein.";
+    }
+
+    // Zarkh / Boryev
+    [0x0000]
+    {
+        from = "Zhese fools do not know a friend when zhey see him! I turn my spells against zhe Droog, but zhese Dwarves do not trust me because I am traveler, outsider! I know zhese Droog haf my cousin Lisbeth in a fortress in the Iliarth Canyon. I must know she is well. Perhaps if I come with you, they shall let me in, eh? I shall be sorcerer for you cheap. Zhat goot?";
+        to = "Dummköpfe allesamt! Kennen kein' Freund, wenn's einen seh'n! Ein Zauber nach die andere ich mach' gegen die Droog, un was machen Zwerge? Angst haben sie, weil ich bin von fahrendem Volk, von draußen! Ich weiß, haben sie mein Base Lisbeth in der Iliarth-Schlucht. Muss ich wissen, ob ihr gut geht. Vielleicht wenn ich komm' mit Euch, sie lassen mich rein? Ich dann für Euch Zauberei mach' billig. Gut?";
+    }
+    [0x0000]
+    {
+        from = "You are good friend to Zarkh. I shall not forget. We go into zhe fortress together and see what we shall see!";
+        to = "Ihr zeid guter Freund für Zarkh. Ich das werde nicht vergessen. Wir geh'n in Festung zusammen und schau'n, was zu schau'n ist!";
+    }
+    [0x0000]
+    {
+        from = "Zhe Dwarves are watching. Zhey will expect to see an exchange of money, else zhey will not believe you truly hire Zarkh. When you have enough money, we try again.";
+        to = "Zwerge. Schauen uns zu. Müssen seh'n, dass Gold gibt, sonst glauben's nicht, dass Ihr Auftrag für Zarkh habt. Wenn Ihr habt genug Gold, wir probieren's wieder.";
+    }
+    [0x0000]
+    {
+        from = "Go then! If you do not trust Zarkh, I shall find someone else who needs zhe best sorcerer zhe Travelers hef to offer!";
+        to = "Geht doch! Wenn Ihr nicht traut Zarkh, Zarkh findet andere, was brauchen beste Magier, den fahrendes Volk hat!";
+    }
+    [0x0000]
+    {
+        from = "If you are satisfied with our bargain, zhen so is Zarkh! You will be well remembered by zhe Travelers of zhis peninsula!";
+        to = "Wenn Abmachung Euch recht, auch Zarkh ist zufrieden! Fahrendes Volk von diese Halbinsel wird denken gut von Euch!";
+    }
+    [0x0000]
+    {
+        from = "Perhaps you hef zhought about Zarkh's problem? A little gold will buy you an excellent sorcerer, and all you must do in return is walk him through zhe gates of zhe Droog fortress in the Iliarth Canyon.";
+        to = "Vielleicht Ihr habt nachgedacht über Angebot von Zarkh? Bisschen Gold nur und Ihr kriegt guuten Magier. Ihr müsst nur bringen Zarkh durch Tore von Festung der Droog in Iliarth-Schlucht.";
+    }
+
+    // Lisbeth / Sikra
+    [0x0000]
+    {
+        from = "Ah, I have forseen your arrival. The Droog have been instructed to hold me here, but I don't think they even know why. They seem to fear me for reasons I cannot fathom, but then again I am Lisbeth, the daughter of Zong. I am... Traveler.";
+        to = "Ah, Euer Kommen habe ich vorhergesehen. Die Droog haben den Auftrag, mich hier festzuhalten, wissen aber wohl nicht, weshalb. Sie scheinen mich zu fürchten, ich weiß nicht, warum. Nun ja, ich bin Lisbeth, Tochter des Zong. Ich bin ... vom fahrenden Volk.";
+    }
+    [0x0000]
+    {
+        from = "On behalf of my father Zong, the Brotherhood of Travelers for which we toil, and the Great Road upon which we journey, I offer humble thanks for my rescue. I have naught else to offer except my skills, but I shall pledge them til the completion of your quest, if you so desire. May I join you?";
+        to = "Im Namen meines Vaters Zong, der fahrenden Bruderschaft, der wir dienen, und des Großen Weges, auf dem wir reisen, danke ich Euch für meine Rettung. Ich habe nur meine Fähigkeiten zu bieten, doch werde ich Euch damit bei der Erfüllung Eurer Aufgabe helfen, wenn Ihr dies wünscht. Darf ich mit Euch kommen?";
+    }
+    [0x0000]
+    {
+        from = "To the completion of your quest, to the ends of the world, I now vow my loyalty to you, servant of the Historical Society! Let us begin our sacred work.";
+        to = "Bis zur Erfüllung Eurer Aufgabe, bis an die Enden der Welt schwöre ich Euch heute die Treue, Diener der Gesellschaft für uträische Geschichte! Beginnen wir unser heiliges Werk.";
+    }
+    [0x0000]
+    {
+        from = "You have need of Lisbeth again? The honor would be mine if I might serve you further.";
+        to = "Soll Lisbeth Euch wieder dienen? Es wäre mir eine Ehre, könnte ich Euch weiter dienen.";
+    }
+
+    // Hildr / Ulfgrim
+    [0x0000]
+    {
+        from = "An age ago I fought with the bladdy 2nd Legion in the battle o' the Plains. These days I've no more trust for queen nor Legion any more than I do for Droog nor Traveler. All I trust is a handful o' gold. If you want me to fight for ye, you have ta 'earn' my trust!";
+        to = "Bleibt mir weg mit der gerechten Sache! Vor Urzeiten hab' ich mit der vermaledeiten zweiten Legion in der Schlacht der Ebenen gekämpft. Sicher, die Hüter des Tempels der dunklen Schwester hatten angefangen, aber was wir dort angerichtet haben, war Mord! Das waren Priester! Heute trau' ich König und Legion nicht mehr als Droogs und fahrendem Volk. Ich trau' nur noch einer Hand voll Gold. Wenn ich für Euch kämpfen soll, müsst Ihr Euch mein Vertrauen schon 'verdienen'!";
+    }
+    [0x0000]
+    {
+        from = "That's doon then. I'll fight for yer cause as long as I'm able, but doon expect me to bow and scrape to any Legion types. The only authority I respect in this warld is my own!";
+        to = "Das wär's dann also. Ich kämpf' für Eure Sache, solang ich kann, aber katzbuckeln werd ich nicht vor Euch und denen aus der Legion. Ich bin meine oberste Autorität!";
+    }
+    [0x0000]
+    {
+        from = "You've turned your back on Hildr before. That's a considerable lack o' respect to me. You'll pay me my standard fee plus a little extra for insulting my honor! What will it be?";
+        to = "Habt Euch ja schon mal von Hildr abgewandt. Finde, das lässt kräftig an Respekt fehlen. Standardhonorar plus Zulage für die Beleidigung meiner Ehre! Wie sieht's aus?";
+    }
+
+    // Knight Mighell / Lord Bolingar
+    [0x0000]
+    {
+        from = "By all the powers that be, a hero's face! The castle's overrun! The bloody Undead came up from below, but I don't know how. I fought them with my friends, but they've all joined their unholy ranks now... This formerly so proud town is busy just defending itself. Shall we join forces to fight them or go on separately?";
+        to = "Bei allem, was heilig ist! Ein freundliches Gesicht! Die Burg wurde gestürmt! Die verdammten Secks sind aus der Tiefe gekommen - keine Ahnung wie! Ich kämpfte gegen sie mit meinen Freunden, doch sie sind nun alle unter ihren unheiligen Reihen... Diese ehemals so stolze Stadt ist vollauf damit beschäftigt sich zu verteidigen. Wollen wir sie gemeinsam bekämpfen oder uns trennen?";
+    }
+    [0x0000]
+    {
+        from = "Let's not stand about then! There's a castle full of undead to fight!";
+        to = "Stehen wir nicht untätig herum! Eine Burg voller untoter wartet auf uns!";
+    }
+    [0x0000]
+    {
+        from = "Aye, we'll probably cover more territory alone, but watch out. Those Undead are thick as thieves throughout the castle.";
+        to = "Gewiss, so können wir mehr Orte durchsuchen. Aber nehmt Euch in Acht. Hier im Schloss wimmelt es nur so von Untoten.";
+    }
+    [0x0000]
+    {
+        from = "We haven't time to be indecisive! Shall we free the castle together or not?";
+        to = "Wir haben keine Zeit für Zauderei. Sollen wir das Schloss gemeinsam befreien oder nicht?";
     }
 }
