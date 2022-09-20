@@ -21,6 +21,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 The "revisited" map variant is based on the remaster, with these additional changes:
 - Fixed a tree floating in mid-air, add a missing sign post, put mugs on tables in Elddim tavern
 - Brushed up plants that had default scaling / orientation
+- Renamed map ingame to *Utraean Peninsula (revisited)*
 
 ## How to build
 
