@@ -23,6 +23,16 @@ The "revisited" map variant is based on the remaster, with these additional chan
 - Brushed up plants that had default scaling / orientation
 - Renamed map ingame to *Utraean Peninsula (revisited)*
 
+## What I did (single-player)
+
+The "single-player" map variant is based on the revisit, with these additional changes:
+- Made all player-world-location triggers multi-player-only
+- Added Fury Eye
+- Enabled map for single-player
+- Renamed map ingame to *Utraean Peninsula (single-player)*, adapt description
+- Made mules sellable, add mule merchants
+- Added companions! They're based on KoE originals, but renamed, conversations adapted etc.
+
 ## How to build
 
 GasPy repo: https://github.com/foerstj/gaspy
