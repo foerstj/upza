@@ -1,0 +1,50 @@
+[t:template,n:up_mule_town_center]
+{
+	doc = "mule_bt_r1";
+	specializes = base_mule;
+    category_name = "1W_ambients";
+    [aspect]
+	{
+		gold_value = 320;
+	}
+}
+[t:template,n:up_mule_snow_town]
+{
+	doc = "mule_nt_r1";
+	specializes = base_mule;
+    category_name = "1W_ambients";
+    [aspect]
+	{
+		gold_value = 1750;
+	}
+}
+[t:template,n:up_mule_ocean]
+{
+	doc = "mule_df_r0";
+	specializes = base_mule;
+    category_name = "1W_ambients";
+    [aspect]
+	{
+		gold_value = 16300;
+	}
+}
+[t:template,n:up_mule_castle_town]
+{
+	doc = "mule_cf_r1";
+	specializes = base_mule;
+    category_name = "1W_ambients";
+    [aspect]
+	{
+		gold_value = 151800;
+	}
+}
+[t:template,n:up_mule_oasis]
+{
+	doc = "mule_cf_r1";
+	specializes = base_mule;
+    category_name = "1W_ambients";
+    [aspect]
+	{
+		gold_value = 151800;
+	}
+}
