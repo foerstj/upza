@@ -1,14 +1,14 @@
 [t:map,n:map]
 {
-	description = "- The Eight Stones of Utrae -\nA multiplayer campaign amidst the southwestern ruins of the Empire";
+	description = "- The Eight Stones of Utrae -\nA campaign amidst the southwestern ruins of the Empire";
 	name = multiplayer_world;
     world_frustum_radius = 45;
 	world_frustum_height = 60;
 	world_interest_radius	= 4;
 	notes = none;
-	screen_name = "Utraean Peninsula (revisited)";
+	screen_name = "Utraean Peninsula (single-player)";
 	timeofday			 = 5h00m;
-	multiplayer_only = true;
+	// multiplayer_only = true;
   b use_node_mesh_index = true;
 
 	[camera]

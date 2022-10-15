@@ -8,7 +8,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_2");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,25.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -18,6 +17,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.000000,25.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -39,7 +53,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,35.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -49,6 +62,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_valley");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.000000,35.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -106,7 +134,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(25.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -116,6 +143,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(25.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -137,7 +179,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -147,6 +188,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -225,7 +281,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -235,6 +290,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -267,7 +337,6 @@
 			[*]
 			{
 				action* = send_world_message("we_req_activate",0x01D00251,0f,"default","",0);
-				action* = set_player_world_location("iliarth_divide");
 				action* = fade_nodes(0xE0A672FE,1,-1,-1,"out:black"), doc("gd_r1");
 				action* = fade_nodes(0xE0A672FE,55,-1,-1,"out:black"), doc("gd_r1_bad_nodes");
 			  b can_self_destruct = true;
@@ -279,6 +348,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(6.000000,2.000000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -362,9 +446,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 0.9;
-	  f health_left = 156.8;
-	  f health_regen = 0.078;
+	  f heal_amount = 0.900000;
+	  f health_left = 156.800000;
+	  f health_regen = 0.078000;
 	}
 	[placement]
 	{
@@ -472,11 +556,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -502,11 +587,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -518,9 +604,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 0.3;
-	  f health_left = 156.8;
-	  f health_regen = 0.0332;
+	  f heal_amount = 0.300000;
+	  f health_left = 156.800000;
+	  f health_regen = 0.033200;
 	}
 	[placement]
 	{
@@ -670,7 +756,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -680,6 +765,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -716,11 +816,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -739,7 +840,6 @@
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
 				action* = fade_nodes(0xE0A672FE,2,-1,-1,"in"), doc("gd_r1_stairs");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -749,6 +849,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -771,7 +886,6 @@
 			{
 				action* = mood_change("multiplayer_world_mega_forest_1");
 				action* = fade_nodes(0xE0A672FE,2,-1,-1,"out:black"), doc("gd_r1_stairs");
-				action* = set_player_world_location("great_northern_forest");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(33.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -781,6 +895,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("great_northern_forest");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(33.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -849,7 +978,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_path2crypts_1");
-				action* = set_player_world_location("iliarth_divide");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -859,6 +987,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_divide");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -917,7 +1060,7 @@
 			  b no_trig_bits = false;
 				occupants_group = path2crypts_fade_1;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

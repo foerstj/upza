@@ -218,7 +218,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -228,6 +227,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -642,7 +656,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(9.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -652,6 +665,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(9.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -672,7 +700,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(8.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -682,6 +709,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -827,7 +869,7 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -848,7 +890,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -858,6 +899,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,0.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -947,7 +1003,7 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -996,7 +1052,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1006,6 +1061,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,0.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1106,9 +1176,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 2.7;
-	  f health_left = 646.8;
-	  f health_regen = 0.1676;
+	  f heal_amount = 2.700000;
+	  f health_left = 646.800000;
+	  f health_regen = 0.167600;
 	}
 	[placement]
 	{
@@ -1178,11 +1248,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1409,11 +1480,12 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
 		}
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1506,7 +1578,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(27.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1516,6 +1587,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(27.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1537,7 +1623,6 @@
 			[*]
 			{
 				action* = fade_nodes(0xAAA80400,1,-1,-1,"in"), doc("fade fury den");
-				action* = set_player_world_location("crystwind_grasslands");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(27.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1547,6 +1632,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind_grasslands");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(27.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1600,7 +1700,6 @@
 			{
 				action* = mood_change("multiplayer_world_mine_town_2");
 				action* = fade_nodes(0xAAA80400,1,-1,-1,"out:black"), doc("fade fury den");
-				action* = set_player_world_location("crystwind_grasslands");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(12.000000,3.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1610,6 +1709,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind_grasslands");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(12.000000,3.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1631,7 +1745,6 @@
 			[*]
 			{
 				action* = fade_nodes(0xAAA80400,1,-1,-1,"out:black"), doc("fade fury den");
-				action* = set_player_world_location("crystwind_grasslands");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1641,6 +1754,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind_grasslands");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1662,7 +1790,6 @@
 			[*]
 			{
 				action* = fade_nodes(0xAAA80400,1,-1,-1,"in"), doc("fade fury den");
-				action* = set_player_world_location("iliarth_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1672,6 +1799,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1694,7 +1836,6 @@
 			{
 				action* = mood_change("multiplayer_world_mine_town_1");
 				action* = fade_nodes(0xAAA80400,1,-1,-1,"in"), doc("fade fury den");
-				action* = set_player_world_location("crystwind");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1704,6 +1845,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("crystwind");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

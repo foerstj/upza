@@ -67,7 +67,6 @@
 			{
 				action* = fade_nodes(0xD0807472,2,-1,-1,"out:black");
 				action* = fade_nodes(0xC2C0AFAB,1,-1,-1,"out:black");
-				action* = set_player_world_location("mines");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(6.000000,1.500000,0.800000,"on_every_enter");
 			  f delay = 0.000000;
@@ -77,6 +76,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mines");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(6.000000,1.500000,0.800000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -99,7 +113,6 @@
 			{
 				action* = fade_nodes(0xD0807472,2,-1,-1,"in");
 				action* = fade_nodes(0xC2C0AFAB,1,-1,-1,"in");
-				action* = set_player_world_location("old_mines");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(6.000000,1.500000,0.800000,"on_every_enter");
 			  f delay = 0.000000;
@@ -109,6 +122,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("old_mines");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(6.000000,1.500000,0.800000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -129,7 +157,6 @@
 			[*]
 			{
 				action* = fade_nodes(0xD0807472,2,-1,-1,"out:black");
-				action* = set_player_world_location("mines");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.800000,1.500000,0.800000,"on_every_enter");
 			  f delay = 0.000000;
@@ -139,6 +166,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("mines");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.800000,1.500000,0.800000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -398,7 +440,7 @@
 			  b no_trig_bits = false;
 				occupants_group = mines_fade_4;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

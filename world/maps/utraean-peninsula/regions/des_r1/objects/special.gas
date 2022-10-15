@@ -7,7 +7,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_5");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(10.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -17,6 +16,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -37,7 +51,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_5");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -47,6 +60,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -73,9 +101,9 @@
 	}
 	[fountain]
 	{
-	  f heal_amount = 9.9;
-	  f health_left = 2312.8;
-	  f health_regen = 0.742;
+	  f heal_amount = 9.900000;
+	  f health_left = 2312.800000;
+	  f health_regen = 0.742000;
 	}
 	[placement]
 	{
@@ -136,9 +164,9 @@
 	}
 	[fountain]
 	{
-	  f heal_amount = 14.4;
-	  f health_left = 1940;
-	  f health_regen = 0.9292;
+	  f heal_amount = 14.400000;
+	  f health_left = 1940.000000;
+	  f health_regen = 0.929200;
 	}
 	[placement]
 	{
@@ -337,7 +365,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_1");
-				action* = set_player_world_location("quillrabe");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(10.000000,2.000000,5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -347,6 +374,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,2.000000,5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -677,7 +719,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_2");
-				action* = set_player_world_location("quillrabe");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.000000,4.000000,12.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -687,6 +728,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(5.000000,4.000000,12.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -847,7 +903,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_7");
-				action* = set_player_world_location("quillrabe");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -857,6 +912,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -876,7 +946,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_3");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -886,6 +955,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1731,7 +1815,6 @@
 		{
 			[*]
 			{
-				action* = set_player_world_location("quillrabe");
 				action* = mood_change("multiplayer_world_des_r1_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
@@ -1742,6 +1825,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1761,7 +1859,6 @@
 		{
 			[*]
 			{
-				action* = set_player_world_location("quillrabe_canyons");
 				action* = mood_change("multiplayer_world_des_r1_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
@@ -1772,6 +1869,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1827,7 +1939,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_1");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1837,6 +1948,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1857,7 +1983,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_grs2des_3");
-				action* = set_player_world_location("iliarth_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1867,6 +1992,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("iliarth_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,1.000000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2167,7 +2307,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_3");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2177,6 +2316,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,1.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2197,7 +2351,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_gp_r1_2");
-				action* = set_player_world_location("forgotten_mesas");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,1.000000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2207,6 +2360,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("forgotten_mesas");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,1.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2227,7 +2395,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_3");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2237,6 +2404,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2257,7 +2439,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_3");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2267,6 +2448,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,2.700000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2287,7 +2483,6 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_3");
-				action* = set_player_world_location("quillrabe_canyons");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,3.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2297,6 +2492,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("quillrabe_canyons");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,3.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
