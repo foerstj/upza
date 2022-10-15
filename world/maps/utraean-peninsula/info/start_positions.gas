@@ -119,9 +119,40 @@
 			}
 		}
 	}
-	[t:start_group,n:elddim]
+	[t:start_group,n:eastern_island]
 	{
 	  b default = true;
+		description = "The Eastern Island";
+	  b dev_only = false;
+	  i id = 0;
+		screen_name = "Eastern Island";
+		[start_position]
+		{
+		  i id = 1;
+			position = -0.393707,0.000000,0.447517,0xF42500BA;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0xF42500BA;
+			}
+		}
+		[world_levels]
+		{
+			[elite]
+			{
+			  i required_level = 83;
+			}
+			[veteran]
+			{
+			  i required_level = 54;
+			}
+		}
+	}
+	[t:start_group,n:elddim]
+	{
+	  b default = false;
 		description = "Elddim, the Center of the Kingdom";
 	  b dev_only = false;
 	  i id = 1;

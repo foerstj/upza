@@ -2,9 +2,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 11.700000;
-	  f health_left = 2881.200000;
-	  f health_regen = 0.874000;
+	  f heal_amount = 11.7;
+	  f health_left = 2881.2;
+	  f health_regen = 0.874;
 	}
 	[placement]
 	{
@@ -329,6 +329,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -347,7 +348,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -737,6 +737,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -755,7 +756,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1129,6 +1129,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1147,7 +1148,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1756,6 +1756,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1774,7 +1775,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -2173,5 +2173,34 @@
 	{
 	  q orientation = 0,0.471396,0,0.881921;
 	  p position = 1.48384,0,0.789974,0xcd7ef5ea;
+	}
+}
+[t:trigger_change_mood_box,n:0x0790006d]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_island_2_2");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,2.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.98023e-007,0,1;
+	  p position = -0.761909,0,-0.457161,0xf42500ba;
 	}
 }
