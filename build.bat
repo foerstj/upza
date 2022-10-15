@@ -29,6 +29,7 @@ if not "%mode%"=="light" (
   venv\Scripts\python -m build.add_world_levels %map% "%tmp%\Bits" "%doc_dsloa%\Bits"
   if !errorlevel! neq 0 pause
 )
+ENDLOCAL
 popd
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "GPG 2002" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
