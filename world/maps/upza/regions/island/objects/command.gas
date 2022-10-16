@@ -1,3 +1,29 @@
+[t:cmd_animation_command,n:0x07900260]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1936290865;
+	  x client_scid = 0x0790024D;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.100344,0,0.994953;
+	  p position = 3.43558,0,2.47037,0x0f5009e0;
+	}
+}
+[t:cmd_animation_command,n:0x07900261]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1936290865;
+	  x client_scid = 0x0790024E;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.366691,0,0.930343;
+	  p position = 3.37381,0,3.76321,0x0f5009e0;
+	}
+}
 [t:cmd_camera_move,n:0x079003c3]
 {
 	[placement]

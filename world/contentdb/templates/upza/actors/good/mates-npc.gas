@@ -38,27 +38,6 @@
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 }
-
-[t:template,n:upza_mate_npc_01]
-{
-	specializes = upza_base_mate_npc_fb;
-
-	doc = "UPZA mate NPC 01";
-
-	[aspect]
-	{
-		[textures]
-		{
-			0 = b_c_gah_fb_skin_03;
-			1 = b_c_pos_a1_003;
-		}
-	}
-	[common]
-	{
-		screen_name = "2nd Legion Mate";
-	}
-}
-
 [t:template,n:upza_base_mate_npc_fg]
 {
 	specializes = base_npc_fg_multiplayer;
@@ -100,6 +79,65 @@
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 }
+[t:template,n:upza_base_mate_npc_df]
+{
+	specializes = base_dwarf;
+
+	category_name = "1W_character";
+	doc = "UPZA mate NPC df";
+
+	[aspect]
+	{
+		is_collidable = true;
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+	[conversation]
+	{
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_fun;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_forearms = gl_ga_bl_f_g_c_avg;
+			//es_head = he_op_pl_eyes;
+			//es_weapon_hand = ax_g_c_2h1b_avg;
+		}
+	}
+	[mind]
+	{
+    	actor_may_attack = true;
+        actor_may_be_attacked = true;
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+}
+
+[t:template,n:upza_mate_npc_01]
+{
+	specializes = upza_base_mate_npc_fb;
+
+	doc = "UPZA mate NPC 01";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_03;  // red hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
 
 [t:template,n:upza_mate_npc_02]
 {
@@ -111,16 +149,163 @@
 	{
 		[textures]
 		{
-			0 = b_c_gah_fg_skin_22;
-			1 = b_c_pos_a1_059;
+			0 = b_c_gah_fg_skin_07;  // black hair
 		}
 	}
 	[common]
 	{
 		screen_name = "2nd Legion Mate";
 	}
-	[inventory]
+}
+
+[t:template,n:upza_mate_npc_03]
+{
+	specializes = upza_base_mate_npc_fb;
+
+	doc = "UPZA mate NPC 03";
+
+	[aspect]
 	{
-		custom_head = m_c_gah_fg_hlmt_head-02;
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_01;  // blond hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_04]
+{
+	specializes = upza_base_mate_npc_fg;
+
+	doc = "UPZA mate NPC 04";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_04;  // red hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_05]
+{
+	specializes = upza_base_mate_npc_fb;
+
+	doc = "UPZA mate NPC 05";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_39;  // head wound
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_06]
+{
+	specializes = upza_base_mate_npc_fg;
+
+	doc = "UPZA mate NPC 06";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_03;  // blond hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_07]
+{
+	specializes = upza_base_mate_npc_fb;
+
+	doc = "UPZA mate NPC 07";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_05;  // black hair goatie
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_08]
+{
+	specializes = upza_base_mate_npc_df;
+
+	doc = "UPZA mate NPC 08";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gan_df_skin_06;  // dark blond hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_09]
+{
+	specializes = upza_base_mate_npc_df;
+
+	doc = "UPZA mate NPC 09";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gan_df_skin_03;  // red hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_mate_npc_10]
+{
+	specializes = upza_base_mate_npc_df;
+
+	doc = "UPZA mate NPC 10";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gan_df_skin_02;  // brown hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
 	}
 }
