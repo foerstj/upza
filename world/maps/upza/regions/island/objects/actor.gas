@@ -18,3 +18,51 @@
 	  p position = 0,0,0,0x1eb2bcfc;
 	}
 }
+[t:mp_guard_02,n:0x079000a9]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = legionnaire_01;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_fun;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_forearms = gl_ga_bl_f_g_c_avg;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.390731,0,-0.920505;
+	  p position = 0.205244,0,0.859715,0x83236887;
+	}
+}
+[t:mp_guard_04,n:0x079000aa]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = legionnaire_02;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_fun;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_forearms = gl_ga_bl_f_g_c_avg;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 0.390476,0,0.366371,0x6e3e79f3;
+	}
+}

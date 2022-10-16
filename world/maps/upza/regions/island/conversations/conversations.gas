@@ -2,27 +2,21 @@
 {
 	[text*]
 	{
-		order = 0;
 		choice = shop;
-
+		order = 0;
 		screen_text = "Loola likes the Lift. Loola sells shiny baubles. Lift goes down filled with fearless parties, Lift comes up filled with shiny baubles. Loola laughs. Loola likes the Lift. I am Loola, Lady of the Lift. Want some shiny baubles?";
 	}
 	[text*]
 	{
-	    order = 1;
 		choice = shop;
-
+		order = 1;
 		screen_text = "Loola likes the Lift. So tell Loola. have the Maljin eaten everyone from the mainland yet? Loola thinks they will be more thorough than they were last time. Might as well buy some nicer baubles to die with when they come for you.";
 	}
-
 	[text*]
 	{
-
 		choice = shop;
-
 		screen_text = "They said there was no Lift. Loola likes the Lift. They said there was no escape. Loola runs fast. They said the Maljin would never come again. Loola laughs. Loola likes the lift. Couple more baubles from Loola?";
 	}
-
 }
 [conversation_loola_red]
 {
@@ -30,5 +24,63 @@
 	{
 		choice = shop;
 		screen_text = "Lift goes down red. Lift comes up red. Loola likes red.";
+	}
+}
+[legionnaire_01]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Ahoy, glad you made it! I'm afraid you were the last one. That makes us a dozen survivors.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+	  i order = 3;
+		screen_text = "Anyways, this island seems to be a nice place, and we have plenty of provisions. We're all good for now. Go see the others!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[legionnaire_02]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "This is indeed the Eastern Island! We weren't even sure it existed! The stone heads of legend are right up there!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "And the island does indeed have magical passages to the mainland. But they're dangerous - one of the mates has died trying out an elevator down into volcanic caverns. Be careful! Better to settle here a bit first.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "There's a legion tower right up there to the east. No idea who built it. The mates have set up camp there, naturally. Just don't use its elevator.
+And we have met someone... strange. A survivor from the mainland? She seems to have gone insane, rambling on about her lift, and trying to sell us 'shiny baubles'...";
+	  f scroll_rate = 10.000000;
 	}
 }
