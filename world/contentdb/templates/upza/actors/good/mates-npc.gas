@@ -309,3 +309,22 @@
 		screen_name = "2nd Legion Mate";
 	}
 }
+
+[t:template,n:upza_mate_npc_11]
+{
+	specializes = upza_base_mate_npc_fg;
+
+	doc = "UPZA mate NPC 11";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_08;  // dark blond hair colorful headband
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
