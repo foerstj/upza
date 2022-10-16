@@ -1623,26 +1623,6 @@
 	  p position = -4.20497,-1.85,-2.63806,0x897c15b3;
 	}
 }
-[t:lilialaniliel,n:0x06502223]
-{
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_loola;
-			* = conversation_loola_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.978148,0,0.207911;
-	  p position = -0.502121,-1.85,2.967,0x897c15b3;
-	}
-}
 [t:skeleton,n:0x06501f30]
 {
 	[placement]

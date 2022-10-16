@@ -1,0 +1,34 @@
+[conversation_loola]
+{
+	[text*]
+	{
+		order = 0;
+		choice = shop;
+
+		screen_text = "Loola likes the Lift. Loola sells shiny baubles. Lift goes down filled with fearless parties, Lift comes up filled with shiny baubles. Loola laughs. Loola likes the Lift. I am Loola, Lady of the Lift. Want some shiny baubles?";
+	}
+	[text*]
+	{
+	    order = 1;
+		choice = shop;
+
+		screen_text = "Loola likes the Lift. So tell Loola. have the Maljin eaten everyone from the mainland yet? Loola thinks they will be more thorough than they were last time. Might as well buy some nicer baubles to die with when they come for you.";
+	}
+
+	[text*]
+	{
+
+		choice = shop;
+
+		screen_text = "They said there was no Lift. Loola likes the Lift. They said there was no escape. Loola runs fast. They said the Maljin would never come again. Loola laughs. Loola likes the lift. Couple more baubles from Loola?";
+	}
+
+}
+[conversation_loola_red]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Lift goes down red. Lift comes up red. Loola likes red.";
+	}
+}

@@ -1,0 +1,20 @@
+[t:lilialaniliel,n:0x07902223]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_loola;
+			* = conversation_loola_red;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.182236,0,-0.983255;
+	  p position = 0,0,0,0x1eb2bcfc;
+	}
+}
