@@ -2,9 +2,9 @@
 :: TankCreator and gaspy are expected to be in sibling dirs.
 
 :: name of map
-set map=utraean-peninsula
+set map=upza
 :: name of map, case-sensitive
-set map_cs=Utraean Peninsula
+set map_cs=Utraean Peninsula - Zombie Apocalypse
 :: path of DSLOA documents dir (where Bits are)
 set doc_dsloa=%USERPROFILE%\Documents\Dungeon Siege LoA
 :: path of DS installation

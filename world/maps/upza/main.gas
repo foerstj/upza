@@ -1,12 +1,12 @@
 [t:map,n:map]
 {
-	description = "- The Eight Stones of Utrae -\nA campaign amidst the southwestern ruins of the Empire";
+	description = "A decade since the Utraean Peninsula was ravished by a zombie apocalypse, the 2nd Legion once more tries to set foot there.";
 	name = multiplayer_world;
     world_frustum_radius = 45;
 	world_frustum_height = 60;
 	world_interest_radius	= 4;
 	notes = none;
-	screen_name = "Utraean Peninsula (single-player)";
+	screen_name = "Utraean Peninsula: Zombie Apocalypse";
 	timeofday			 = 5h00m;
 	// multiplayer_only = true;
   b use_node_mesh_index = true;
