@@ -1,20 +1,14 @@
-[t:template,n:upza_mate_npc_01]
+[t:template,n:upza_base_mate_npc_fb]
 {
 	specializes = base_npc_fb_multiplayer;
 
 	category_name = "1W_character";
-	doc = "UPZA mate NPC 01";
+	doc = "UPZA mate NPC fb";
 
 	[aspect]
 	{
 		is_collidable = true;
-		[textures]
-		{
-			0 = b_c_gah_fb_skin_03;
-			1 = b_c_pos_a1_003;
-		}
 	}
-	[check_level] {}
 	[common]
 	{
 		screen_name = "2nd Legion Mate";
@@ -44,24 +38,39 @@
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 }
-[t:template,n:upza_mate_npc_02]
+
+[t:template,n:upza_mate_npc_01]
+{
+	specializes = upza_base_mate_npc_fb;
+
+	doc = "UPZA mate NPC 01";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_03;
+			1 = b_c_pos_a1_003;
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:upza_base_mate_npc_fg]
 {
 	specializes = base_npc_fg_multiplayer;
 
 	category_name = "1W_character";
-	doc = "UPZA mate NPC 02";
+	doc = "UPZA mate NPC fg";
 
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
 		is_collidable = true;
-		[textures]
-		{
-			0 = b_c_gah_fg_skin_22;
-			1 = b_c_pos_a1_059;
-		}
 	}
-	[check_level] {}
 	[common]
 	{
 		screen_name = "2nd Legion Mate";
@@ -75,7 +84,6 @@
 	}
 	[inventory]
 	{
-		custom_head = m_c_gah_fg_hlmt_head-02;
 		[equipment]
 		{
 			es_chest = bd_un_pl_f_g_c_fun;
@@ -90,5 +98,29 @@
     	actor_may_attack = true;
         actor_may_be_attacked = true;
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+}
+
+[t:template,n:upza_mate_npc_02]
+{
+	specializes = upza_base_mate_npc_fg;
+
+	doc = "UPZA mate NPC 02";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_22;
+			1 = b_c_pos_a1_059;
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+	[inventory]
+	{
+		custom_head = m_c_gah_fg_hlmt_head-02;
 	}
 }
