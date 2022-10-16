@@ -4,11 +4,10 @@ GoBody  m_Body$;
 Job		m_Job$;
 Goid	m_Target$;
 
-string red_convo$;
-		
 #include "k_job_c_mcp_fidget_utils" 
 
 property    string  red_convo$  = "conversation_red"   doc = "Conversation during turn_world_red";
+property    bool  face_player$  = true   doc = "Face player when starting to talk";
 
 
 startup state STARTUP$
@@ -29,8 +28,27 @@ event OnJobInit$( Job job$ )
 
 	m_Target$	= job$.GoalObject;
 
-	SetState Talk$;
+    if ( face_player$ )
+    {
+        SetState Face$;
+    }
+    else
+    {
+        SetState Talk$;
+    }
+}
 
+state Face$
+{
+	transition
+	{
+		-> Talk$:	OnWorldMessage( WE_MCP_FACING_LOCKEDON );
+	}
+
+	event OnEnterState$
+	{
+		MCPManager.MakeRequest( m_Go$.Goid, PL_FACE, m_Target$ );
+	}
 }
 
 state Talk$
@@ -56,7 +74,7 @@ state Talk$
 
 	event OnEnterState$
 	{
-		if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
+		if( !GameAuditor.GetDb.GetBool( "turn_world_red" ) )
 		{
 			m_Go$.Conversation.RSSelectConversation( red_convo$ );
 		}
@@ -74,6 +92,11 @@ state Exiting$
 {
 	event OnEnterState$
 	{
+        if ( face_player$ )
+        {
+            MCPManager.MakeRequest( m_Go$.Goid, PL_FACE );
+        }
+
 		m_Job$.MarkForDeletion();
 	}
 }
