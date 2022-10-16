@@ -6,7 +6,7 @@ A map for Dungeon Siege: Legends of Aranna, based on the original multi-player c
 
 ## Installation
 
-Put the dsmap file into the DSLOA folder of your Dungeon Siege installation.\
+Put the dsmap & dsres files into the DSLOA folder of your Dungeon Siege installation.\
 This map requires Dungeon Siege: Legends of Aranna.
 
 ## Compatibility
