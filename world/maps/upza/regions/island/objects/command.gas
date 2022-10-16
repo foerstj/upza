@@ -37,7 +37,21 @@
 	[placement]
 	{
 	  q orientation = 0,-0.0969496,0,0.995289;
-	  p position = -3.83696,4.76837e-007,0.77137,0x1eb2bcfc;
+	  p position = -1.60701,0,1.37696,0x1eb2bcfc;
+	}
+}
+[t:cmd_animation_command,n:0x0790026e]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1735160430;
+	  x client_scid = 0x0790025C;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.342548,0,0.9395;
+	  p position = 1.63923,-0.85,-2.8677,0x8a305a9b;
 	}
 }
 [t:cmd_camera_move,n:0x079003c3]
@@ -46,5 +60,19 @@
 	{
 	  q orientation = 0.707107,0,0,0.707107;
 	  p position = 0.698692,7.57794,-0.602858,0xf2044b7f;
+	}
+}
+[t:cmd_animation_command,n:0x07900265]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1819242347;
+	  x client_scid = 0x079001A9;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.964147,0,0.265369;
+	  p position = -1.87456,4,1.93804,0xbc53cb08;
 	}
 }

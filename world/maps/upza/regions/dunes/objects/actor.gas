@@ -1,3 +1,22 @@
+[t:upza_mate_npc_11,n:0x077000d0]
+{
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_fun;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_forearms = gl_ga_bl_f_g_c_avg;
+			es_shield_hand = sh_m_g_c_r_s_avg;
+			es_weapon_hand = sd_g_c_bl_1h_avg;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999647,0,-0.0265821;
+	  p position = -15.6484,7.9726,-47.9294,0x5a31357c;
+	}
+}
 [t:giant_lizard,n:0x077007da]
 {
 	[placement]
@@ -42,24 +61,5 @@
 	[placement]
 	{
 	  p position = -32.7276,6.97985,-32.0121,0x4f6fd237;
-	}
-}
-[t:upza_mate_npc_11,n:0x077000d0]
-{
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_un_pl_f_g_c_fun;
-			es_feet = bo_bo_ch_f_g_c_avg;
-			es_forearms = gl_ga_bl_f_g_c_avg;
-			es_shield_hand = sh_m_g_c_r_s_avg;
-			es_weapon_hand = sd_g_c_bl_1h_avg;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999647,0,-0.0265821;
-	  p position = -15.6484,7.9726,-47.9294,0x5a31357c;
 	}
 }

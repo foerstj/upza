@@ -142,7 +142,7 @@
 	{
     	actor_may_attack = true;
         actor_may_be_attacked = true;
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=look;
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;
 	}
 }
 [t:template,n:upza_base_mate_npc_df]
@@ -182,7 +182,7 @@
 	{
     	actor_may_attack = true;
         actor_may_be_attacked = true;
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;
 	}
 }
 
