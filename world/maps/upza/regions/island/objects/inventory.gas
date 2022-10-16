@@ -1,3 +1,35 @@
+[t:book_glb_lore_02,n:0x079000a6]
+{
+	[common]
+	{
+		screen_name = "Coastal Atlas - Utraean Peninsula";
+	}
+	[gui]
+	{
+		lore_key = lore_intro_coast;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.159964,0,0.987123;
+	  p position = -0.853596,0,0.217703,0xf42500ba;
+	}
+}
+[t:book_glb_lore,n:0x079000a1]
+{
+	[common]
+	{
+		screen_name = "Diary";
+	}
+	[gui]
+	{
+		lore_key = lore_intro_diary;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.829996,0,0.557769;
+	  p position = -1.32881,-3.8147e-006,-1.2293,0x7f25fb50;
+	}
+}
 [t:scroll_glb_map,n:0x07900c28]
 {
 	[aspect]
