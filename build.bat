@@ -31,7 +31,7 @@ if not "%mode%"=="light" (
 )
 ENDLOCAL
 popd
-%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "GPG 2002" -title "%map_cs%" -author "Johannes Förstner"
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "GPG 2002" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
 :: Cleanup

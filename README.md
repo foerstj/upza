@@ -1,13 +1,13 @@
 # Utraean Peninsula: Zombie Apocalypse
 
-A map for DS1, based on the original multi-player campaign.
+A map for Dungeon Siege: Legends of Aranna, based on the original multi-player campaign.
 
 *It has been a decade since the Utraean Peninsula was ravished by a zombie apocalypse. The courageous 2nd Legion once more tries to set foot there, and with ships and supplies provided by Ehb, they sail westward. They attempt to land on the coast of Meren, and only narrowly escape the attacking Undead, getting stranded on the Eastern Island - a mythical place said to have magical passages to the Peninsula...*
 
 ## Installation
 
-Put the dsmap file into the Maps folder of your Dungeon Siege installation.\
-This map requires Dungeon Siege 1.
+Put the dsmap file into the DSLOA folder of your Dungeon Siege installation.\
+This map requires Dungeon Siege: Legends of Aranna.
 
 ## Compatibility
 
