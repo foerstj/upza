@@ -4,6 +4,7 @@
 	{
 	  i animation = 1936290865;
 	  x client_scid = 0x0790024D;
+	  b initially_active = true;
 	}
 	[placement]
 	{
@@ -17,6 +18,7 @@
 	{
 	  i animation = 1936290865;
 	  x client_scid = 0x0790024E;
+	  b initially_active = true;
 	}
 	[placement]
 	{
@@ -30,5 +32,19 @@
 	{
 	  q orientation = 0.707107,0,0,0.707107;
 	  p position = 0.698692,7.57794,-0.602858,0xf2044b7f;
+	}
+}
+[t:cmd_animation_command,n:0x07900262]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1952541803;
+	  x client_scid = 0x0790024F;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0969496,0,0.995289;
+	  p position = -3.83696,4.76837e-007,0.77137,0x1eb2bcfc;
 	}
 }

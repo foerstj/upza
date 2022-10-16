@@ -6633,6 +6633,24 @@
 	  p position = -0.790527,0.1,-0.249802,0x98483c39;
 	}
 }
+[t:body_glb_knight_05,n:0x079001d0]
+{
+	[aspect]
+	{
+	  b draw_selection_indicator = false;
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Dead mate";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.443244,0,0.896401;
+	  p position = 0.0529067,0.15,0.263374,0xf2044b7f;
+	}
+}
 [t:bones_glb_body,n:0x079004fc]
 {
 	[placement]
@@ -30802,23 +30820,5 @@
 	{
 	  q orientation = 0,0.97437,0,0.224951;
 	  p position = 1.34924,1.90735e-006,1.14424,0x5ba0f1f7;
-	}
-}
-[t:body_glb_knight_05,n:0x079001d0]
-{
-	[aspect]
-	{
-	  b draw_selection_indicator = false;
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Dead mate";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.443244,0,0.896401;
-	  p position = 0.0529067,0.15,0.263374,0xf2044b7f;
 	}
 }
