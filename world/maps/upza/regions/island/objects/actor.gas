@@ -75,6 +75,7 @@
 		[conversations]
 		{
 			* = legionnaire_01;
+			* = zconversation_red;
 		}
 	}
 	[placement]
@@ -95,6 +96,10 @@
 			es_weapon_hand = meat_bone;
 		}
 	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.344663,0,0.938726;
@@ -113,6 +118,10 @@
 			es_weapon_hand = meat_bone;
 		}
 	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.223518,0,0.9747;
@@ -129,6 +138,10 @@
 }
 [t:upza_mate_npc_07,n:0x0790024f]
 {
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.716565,0,-0.69752;
@@ -205,6 +218,7 @@
 		[conversations]
 		{
 			* = legionnaire_02;
+			* = zconversation_red;
 		}
 	}
 	[placement]

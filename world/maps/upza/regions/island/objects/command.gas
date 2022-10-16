@@ -26,14 +26,6 @@
 	  p position = 3.37381,0,3.76321,0x0f5009e0;
 	}
 }
-[t:cmd_camera_move,n:0x079003c3]
-{
-	[placement]
-	{
-	  q orientation = 0.707107,0,0,0.707107;
-	  p position = 0.698692,7.57794,-0.602858,0xf2044b7f;
-	}
-}
 [t:cmd_animation_command,n:0x07900262]
 {
 	[cmd_animation_command]
@@ -46,5 +38,13 @@
 	{
 	  q orientation = 0,-0.0969496,0,0.995289;
 	  p position = -3.83696,4.76837e-007,0.77137,0x1eb2bcfc;
+	}
+}
+[t:cmd_camera_move,n:0x079003c3]
+{
+	[placement]
+	{
+	  q orientation = 0.707107,0,0,0.707107;
+	  p position = 0.698692,7.57794,-0.602858,0xf2044b7f;
 	}
 }

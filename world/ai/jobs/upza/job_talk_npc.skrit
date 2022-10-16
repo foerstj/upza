@@ -5,10 +5,34 @@ Job		m_Job$;
 Goid	m_Target$;
 
 #include "k_job_c_mcp_fidget_utils" 
+#include "k_job_c_talk_utils"
 
-property    string  red_convo$  = "conversation_red"   doc = "Conversation during turn_world_red";
-property    bool  face_player$  = true   doc = "Face player when starting to talk";
+property    string  red_convo$      = "conversation_red"    doc = "Conversation during turn_world_red";
+property    bool    face_player$    = true                  doc = "Face player when starting to talk";
+property    string  talk_anim$      = ""                    doc = "Animation during convo: talk or look";
 
+
+void animate$()
+{
+    if ( !StringTool.IsEmpty( talk_anim$ ) )
+    {
+        if ( StringTool.SameNoCase( talk_anim$, "talk" ) )
+        {
+            TryAnim$('talk');
+        }
+        if ( StringTool.SameNoCase( talk_anim$, "look" ) )
+        {
+            TryAnim$('look');
+        }
+    }
+    else
+    {
+        if ( m_Go$.Mind.ActorAutoFidgets )
+        {
+            StartFidgetIfRequired$();
+        }
+    }
+}
 
 startup state STARTUP$
 {
@@ -66,25 +90,19 @@ state Talk$
 
 	trigger OnWorldMessage$( WE_ANIM_DONE )
 	{
-		if( m_Go$.Mind.ActorAutoFidgets )
-		{
-			StartFidgetIfRequired$();
-		}
+        animate$();
 	}
 
 	event OnEnterState$
 	{
-		if( !GameAuditor.GetDb.GetBool( "turn_world_red" ) )
+		if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
 		{
 			m_Go$.Conversation.RSSelectConversation( red_convo$ );
 		}
 
 		m_Go$.Conversation.RSActivateDialogue();
 
-		if( m_Go$.Mind.ActorAutoFidgets )
-		{
-			StartFidgetIfRequired$();
-		}
+        animate$();
 	}
 }
 

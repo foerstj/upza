@@ -26,13 +26,6 @@
 		screen_text = "Lift goes down red. Lift comes up red. Loola likes red.";
 	}
 }
-[conversation_red]
-{
-	[text*]
-	{
-		screen_text = "The sky turned red! We're all gonna die!";
-	}
-}
 [legionnaire_01]
 {
 	[text*]
@@ -89,5 +82,12 @@
 		screen_text = "There's a legion tower right up there to the east. No idea who built it. The mates have set up camp there, naturally. Just don't use its elevator.
 And we have met someone... strange. A survivor from the mainland? She seems to have gone insane, rambling on about her lift, and trying to sell us 'shiny baubles'...";
 	  f scroll_rate = 10.000000;
+	}
+}
+[zconversation_red]
+{
+	[text*]
+	{
+		screen_text = "The sky turned red! We're all gonna die!";
 	}
 }
