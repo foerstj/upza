@@ -4,6 +4,10 @@
 	{
 	  b is_selectable = true;
 	}
+	[common]
+	{
+		screen_name = "Schnitzel";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -19,6 +23,10 @@
 	[aspect]
 	{
 	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Nilly";
 	}
 	[mind]
 	{
@@ -38,6 +46,10 @@
 	{
 	  b is_selectable = true;
 	}
+	[common]
+	{
+		screen_name = "Dilly";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -55,6 +67,10 @@
 	[aspect]
 	{
 	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Willy";
 	}
 	[mind]
 	{
@@ -86,6 +102,14 @@
 }
 [t:upza_mate_npc_05,n:0x0790024d]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = head_injury;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -108,6 +132,14 @@
 }
 [t:upza_mate_npc_06,n:0x0790024e]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = leg_intro_3;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -130,6 +162,18 @@
 }
 [t:upza_mate_npc_09,n:0x0790025d]
 {
+	[common]
+	{
+		screen_name = "Conner";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = leg_shop;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -147,6 +191,14 @@
 }
 [t:upza_mate_npc_07,n:0x0790024f]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = leg_loola;
+			* = zconversation_red;
+		}
+	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
@@ -179,6 +231,14 @@
 }
 [t:upza_mate_npc_10,n:0x0790025c]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = vc_ele;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -203,6 +263,14 @@
 }
 [t:upza_mate_npc_08,n:0x0790021c]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = tunnel;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -220,6 +288,14 @@
 }
 [t:upza_mate_npc_04,n:0x079001a9]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = staying;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -241,6 +317,14 @@
 }
 [t:upza_mate_npc_03,n:0x07900244]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = gnf_ele;
+			* = zconversation_red;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.291273,0,0.95664;

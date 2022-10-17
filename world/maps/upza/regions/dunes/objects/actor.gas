@@ -1,5 +1,17 @@
 [t:upza_mate_npc_11,n:0x077000d0]
 {
+	[common]
+	{
+		screen_name = "Libella";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = libella;
+			* = zconversation_red;
+		}
+	}
 	[inventory]
 	{
 		[equipment]
@@ -10,6 +22,10 @@
 			es_shield_hand = sh_m_g_c_r_s_avg;
 			es_weapon_hand = sd_g_c_bl_1h_avg;
 		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
 	}
 	[placement]
 	{

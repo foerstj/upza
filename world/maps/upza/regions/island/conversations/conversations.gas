@@ -26,6 +26,68 @@
 		screen_text = "Lift goes down red. Lift comes up red. Loola likes red.";
 	}
 }
+[gnf_ele]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Look, I found an elevator! It might well be a third magical passage to the peninsula. But you know what happened to Barney - wild horses couldn't drag me on that thing.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "You know what happened to Barney - wild horses couldn't drag me on that thing.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[head_injury]
+{
+	[text*]
+	{
+		choice = more;
+		screen_text = "Ow, my head!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[leg_intro_3]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Well ahoy there, glad to see you alive! Come sit down with us and have something to eat and drink...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Enjoy the meat while we still have something left. This is our mule - it got killed in the shipwreck and was washed ashore. Only a pig and three chicken survived. And they're hens all three of them, so we can't breed chicken here. Once our provisions are gone, I'm afraid it'll be fish and coconut for us...
+I hope we find a safe passage to the peninsula soon. This really seems to be the mythical Eastern Island. So let's hope for the best.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[leg_loola]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "We found this woman here. Her name is Loola. Apart from that, nobody has been able to get anything out of her. If you ask me, she's completely insane.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Where's your legion armor, were you sleeping when the ship ran aground? If Conner doesn't have something for you, maybe you can try buying something from that lady - good luck...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[leg_shop]
+{
+	[text*]
+	{
+		screen_text = "Ahoy mate, glad you made it! Sit down and have some food and drink!";
+	  f scroll_rate = 10.000000;
+	}
+}
 [legionnaire_01]
 {
 	[text*]
@@ -81,6 +143,61 @@
 	{
 		screen_text = "There's a legion tower right up there to the east. No idea who built it. The mates have set up camp there, naturally. Just don't use its elevator.
 And we have met someone... strange. A survivor from the mainland? She seems to have gone insane, rambling on about her lift, and trying to sell us 'shiny baubles'...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[staying]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Just look. Isn't it beautiful?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "We lost so many mates. The undead, the shipwreck... And have you heard? Barney just died trying to use some magical elevator...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "The world out there is full of horrors. But this island is calm and beautiful. Nothing will hurt us here.
+I'm never gonna leave this place again. I'm staying here.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[vc_ele]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Will our horrors never end? Look what happened to poor Barney! Guy's survived Meren and the shipwreck only to die trying to find a way off of this godforsaken island...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "Barney went down this elevator to see where it goes - well it goes directly to hell, that's where it goes! All I heard were explosions and screams like from my wildest nightmares, and a hideous smell arose from the shaft. Then the elevator came back up, and Barney was dead.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Whatever you do, don't go down there. It'll be better to stay stranded on this island forever.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[tunnel]
+{
+	[text*]
+	{
+		screen_text = "Ahoy, mate!
+This appears to be a magical tunnel to the peninsula. Unfortunately, it seems to lead to what's known as the Endless Desert.
+Libella has taken up guard on the other side. Go greet her if you want. But I sure hope we find another passage, because over there is nothing but sand.";
 	  f scroll_rate = 10.000000;
 	}
 }

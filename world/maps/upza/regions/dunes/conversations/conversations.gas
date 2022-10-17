@@ -1,1 +1,22 @@
-
+[libella]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Just look at these dunes, mate - just dunes after dunes after dunes...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "These dunes play tricks on your mind... I look out there and it feels like I'm looking at myself from the back... As if, if you walked just straight ahead, on and on, you'd somehow end up coming back here from the other side...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[zconversation_red]
+{
+	[text*]
+	{
+		screen_text = "The sky turned red! We're all gonna die!";
+	}
+}
