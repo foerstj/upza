@@ -76,7 +76,7 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	}
 	[text*]
 	{
-		screen_text = "Where's your legion armor, were you sleeping when the ship ran aground? If Conner doesn't have something for you, maybe you can try buying something from that lady - good luck...";
+		screen_text = "Where's your legion armor, were you sleeping when the ship ran aground? If Conner doesn't have something for you, maybe you can try buying something from this nutcase - good luck with that...";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -182,7 +182,7 @@ I'm never gonna leave this place again. I'm staying here.";
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "Barney went down this elevator to see where it goes - well it goes directly to hell, that's where it goes! All I heard were explosions and screams like from my wildest nightmares, and a hideous smell arose from the shaft. Then the elevator came back up, and Barney was dead.";
+		screen_text = "Barney went down this elevator to see where it goes - well it goes directly to hell, that's where! All I heard were explosions and screams like from my wildest nightmares, and a hideous smell arose from the shaft. Then the elevator came back up, and Barney was dead.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
