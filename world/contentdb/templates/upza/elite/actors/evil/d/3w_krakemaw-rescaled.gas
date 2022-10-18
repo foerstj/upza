@@ -1,0 +1,29 @@
+[t:template,n:3W_dsx_drake_death_two_boss_rescaled] { specializes = 3W_dsx_drake_death_two_boss_rescaled_base; }
+[t:template,n:3W_dsx_drake_death_two_boss_rescaled_base]
+{
+	// Level 15, Hard melee
+	category_name = "3W_evil_d";
+	doc = "3W_dsx_drake_death_two_base";
+	specializes = 3W_dsx_drake_death_two_base;
+	[aspect]
+	{
+	  f scale_base = 1.5;
+		life 			 	= 3510;
+		max_life 			= 3510;
+	}
+	[common]
+	{
+		screen_name = "Krakemaw the Putrid";
+		membership = monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_red(sgx)");
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+[dev,t:template,n:test_tree_mana_rescaled] { specializes = test_tree_mana_rescaled_base; }
+[dev,t:template,n:test_tree_mana_rescaled_base]
+{
+	specializes	= actor_ambient;
+	doc	= "test_tree_mana";
+
+	common:screen_name	= "mana tree";
+
+	[actor]
+	{
+		[skills]
+		{
+			* =	intelligence,	5, 5, 10;
+			* =	nature magic, 	5, 5, 10;
+		}
+	}
+
+	[aspect]
+	{
+		max_mana		= 1000;
+		mana			= 1000;
+
+		mana_recovery_unit	 = 5.0;
+		mana_recovery_period = 5.0;
+
+		is_collidable	 = true;
+		is_selectable	 = true;
+
+		model			 = m_i_glb_tree-03;
+		scale_base = 0.4;
+		textures:0		 = b_i_cav_gems-03-static;
+	}
+
+	[mind]
+	{
+		jat_brain				= world\ai\jobs\common\brain_mana_plant.skrit;
+	}
+
+	[body]
+	{
+		initial_chore		   = chore_default;
+
+		[chore_dictionary]
+		{
+			chore_prefix	   = "a_i_glb";
+
+			[chore_default]
+			{
+				skrit		   = infinite_loop;
+				anim_files:	00 = "tree-03-sway";
+			}
+		}
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+
+		[other]
+		{
+			il_active_primary_spell	= spell_mana_channel;
+		}
+	}
+}

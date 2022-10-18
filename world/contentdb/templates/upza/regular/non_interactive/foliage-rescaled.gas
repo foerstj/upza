@@ -1,0 +1,90 @@
+[t:template,n:cattail_grs_01_rescaled] { specializes = cattail_grs_01_rescaled_base; }
+[t:template,n:cattail_grs_01_rescaled_base]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_grs_cattail-01;
+		scale_base = 2;
+	}
+}
+
+[t:template,n:cattail_grs_02_rescaled] { specializes = cattail_grs_02_rescaled_base; }
+[t:template,n:cattail_grs_02_rescaled_base]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.15;
+		lodfi_upper = 0.6;
+		model = m_i_grs_cattail-02;
+		scale_base = 2;
+	}
+}
+
+[t:template,n:cattail_grs_03_rescaled] { specializes = cattail_grs_03_rescaled_base; }
+[t:template,n:cattail_grs_03_rescaled_base]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.65;
+		model = m_i_grs_cattail-03;
+		scale_base = 2;
+	}
+}
+
+[t:template,n:bush_jng_cabbage_01_rescaled] { specializes = bush_jng_cabbage_01_rescaled_base; }
+[t:template,n:bush_jng_cabbage_01_rescaled_base]
+{
+	category_name = "bushes";
+	doc = "jngl_hosta_lg_cabbage";
+	specializes = base_bush;
+	[aspect]
+	{
+		//display_cost = TBA;
+		cam_fade_alpha = 128;
+		ghost_alpha = 64;
+		//lodfi_lower = TBA;
+		//lodfi_upper = TBA;
+		model = m_i_jng_plant-05;
+		scale_base = 1.3;
+		bounding_volume_scale = 1.0;
+		[textures]
+		{
+			0 = b_i_jng_plant-01;
+		}
+	}
+}
+
+[t:template,n:bush_jng_frond_01_rescaled] { specializes = bush_jng_frond_01_rescaled_base; }
+[t:template,n:bush_jng_frond_01_rescaled_base]
+{
+	category_name = "bushes";
+	doc = "jngl_hosta_lg_frond";
+	specializes = base_bush;
+	[aspect]
+	{
+		//display_cost = TBA;
+		cam_fade_alpha = 128;
+		ghost_alpha = 64;
+		//lodfi_lower = TBA;
+		//lodfi_upper = TBA;
+		model = m_i_jng_plant-06;
+		scale_base = 1.3;
+		bounding_volume_scale = .75;
+		[textures]
+		{
+			0 = b_i_jng_plant-02;
+		}
+	}
+}

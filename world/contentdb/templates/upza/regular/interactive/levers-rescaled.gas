@@ -1,0 +1,128 @@
+[t:template,n:lever_glb_06_rescaled] { specializes = lever_glb_06_rescaled_base; }
+[t:template,n:lever_glb_06_rescaled_base]
+{
+	specializes 		= base_usable;
+	doc 				= "button_metal";
+    category_name       = "levers";
+
+	[aspect]
+	{
+		model 		= m_i_glb_switch-06;
+		material    = button_metal;
+		is_collidable				= true;
+		scale_base			= 2;
+	}
+
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= switch-06-close;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= switch-06-open;
+			}
+		}
+	}
+	[common] { screen_name = "Button"; }
+    [on_off_lever]
+	{
+		reset_time = 1.0000;
+	}
+}
+
+[t:template,n:lever_glb_06_message_rescaled] { specializes = lever_glb_06_message_rescaled_base; }
+[t:template,n:lever_glb_06_message_rescaled_base]
+{
+	specializes 		= base_usable;
+	doc 				= "button_metal";
+    category_name       = "levers";
+
+	[aspect]
+	{
+		model 		= m_i_glb_switch-06;
+		material    = button_metal;
+		is_collidable				= true;
+		scale_base			= 2;
+	}
+
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= switch-06-close;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= switch-06-open;
+			}
+		}
+	}
+	[common] { screen_name = "Button"; }
+    [messages]
+	{
+		[low_level]
+		{
+			screen_text = "You are not powerful enough to use this device.";
+		}
+	}
+	[on_off_lever]
+	{
+		reset_time = 1.0000;
+	}
+}
+
+[t:template,n:statue_cav_spin_02_rescaled] { specializes = statue_cav_spin_02_rescaled_base; }
+[t:template,n:statue_cav_spin_02_rescaled_base]
+{
+	specializes 		= base_usable;
+	doc 				= "statue_spin_mini";
+    category_name       = "levers";
+
+	[aspect]
+	{
+		model 				= m_i_cav_statue-spin-01;
+		material    		= stone_statue;
+		[textures] 			{0 = b_i_cav_statue-01;}
+		bounding_volume_scale		= 1.00000;
+		does_block_path = false;
+		scale_base = .3;
+	}
+
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_cav;
+
+			[chore_open]
+			{
+				skrit				= transition;
+				anim_files: 00		= statue-spin-01;
+			}
+			[chore_close]
+			{
+				skrit				= transition;
+				anim_files: 00		= statue-spin-01;
+			}
+		}
+	}
+	[common] { screen_name = "Statue"; }
+    [on_off_lever]
+	{
+		reset_time = 1.5000;
+	}
+}

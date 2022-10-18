@@ -1,0 +1,23 @@
+[t:template,n:frag_cav_boulder_02_rescaled] { specializes = frag_cav_boulder_02_rescaled_base; }
+[t:template,n:frag_cav_boulder_02_rescaled_base]
+{
+	doc = "frag_cav_boulder_02";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_swp_rock-03;
+        scale_base=0.35;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("rock_fall_dust");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+}
