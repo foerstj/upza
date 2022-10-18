@@ -122,8 +122,8 @@
 	}
 }
 
-[t:template,n:chicken_white_super_rescaled] { specializes = chicken_white_super_rescaled_base; }
-[t:template,n:chicken_white_super_rescaled_base]
+[t:template,n:3W_chicken_white_super_rescaled] { specializes = 3W_chicken_white_super_rescaled_base; }
+[t:template,n:3W_chicken_white_super_rescaled_base]
 {
 	category_name = "3W_evil_b";
 	doc = "3W_chicken_white_super";
