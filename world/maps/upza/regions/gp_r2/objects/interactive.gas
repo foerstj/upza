@@ -44,19 +44,19 @@
 	  p position = 0.0279083,-2.22398,-0.000885967,0x36c40b8e;
 	}
 }
-[t:lever_glb_06,n:0x09400046]
+[t:lever_glb_06_rescaled,n:0x09400046]
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x08700058;
 	  x on_scid = 0x08700058;
-	  f reset_time = 7;
-	  f reset_time_2 = 7;
+	  f reset_time = 7.000000;
+	  f reset_time_2 = 7.000000;
 	}
 	[placement]
 	{

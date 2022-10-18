@@ -14,8 +14,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x06501D9D;
 	  x on_scid = 0x06501D9D;
-	  f reset_time = 32;
-	  f reset_time_2 = 32;
+	  f reset_time = 32.000000;
+	  f reset_time_2 = 32.000000;
 	}
 	[placement]
 	{

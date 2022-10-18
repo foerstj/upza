@@ -114,22 +114,22 @@
 	  p position = 1.42584,-0.27592,-10.3313,0x432556a7;
 	}
 }
-[t:lever_glb_06_message,n:0x076009e5]
+[t:lever_glb_06_message_rescaled,n:0x076009e5]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1;
+	  f scale_multiplier = 0.500000;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x076000B1;
 	  x on_scid = 0x076000B1;
-	  f required_level = 50;
-	  f required_level_2 = 80;
-	  f required_level_3 = 106;
-	  f reset_time = 20;
-	  f reset_time_2 = 20;
+	  f required_level = 50.000000;
+	  f required_level_2 = 80.000000;
+	  f required_level_3 = 106.000000;
+	  f reset_time = 20.000000;
+	  f reset_time_2 = 20.000000;
 	}
 	[placement]
 	{

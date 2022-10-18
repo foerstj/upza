@@ -2,7 +2,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1;
+	  f use_range = 1.000000;
 	}
 	[door_basic]
 	{
@@ -40,7 +40,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1;
+	  f use_range = 1.000000;
 	}
 	[door_basic]
 	{
@@ -121,7 +121,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1;
+	  f use_range = 1.000000;
 	}
 	[door_basic]
 	{
@@ -164,7 +164,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1;
+	  f use_range = 1.000000;
 	}
 	[door_basic]
 	{
@@ -234,7 +234,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3;
+	  f use_range = 3.000000;
 	}
 	[common]
 	{
@@ -268,7 +268,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3;
+	  f use_range = 3.000000;
 	}
 	[common]
 	{
@@ -377,7 +377,7 @@
 		use_point_scids = 0x04d00221,0x04d00220,0x04d00222;
 	}
 }
-[t:statue_cav_spin_02,n:0x04d0060c]
+[t:statue_cav_spin_02_rescaled,n:0x04d0060c]
 {
 	[common]
 	{
@@ -388,8 +388,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x04D0061D;
 	  x on_scid = 0x04D0061D;
-	  f reset_time = 20;
-	  f reset_time_2 = 20;
+	  f reset_time = 20.000000;
+	  f reset_time_2 = 20.000000;
 	}
 	[placement]
 	{
@@ -398,22 +398,22 @@
 		use_point_scids = 0x04d0060e;
 	}
 }
-[t:lever_glb_06_message,n:0x04d0076c]
+[t:lever_glb_06_message_rescaled,n:0x04d0076c]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1;
+	  f scale_multiplier = 0.500000;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x04D00227;
 	  x on_scid = 0x04D00227;
-	  f required_level = 18;
-	  f required_level_2 = 64;
-	  f required_level_3 = 96;
-	  f reset_time = 20;
-	  f reset_time_2 = 20;
+	  f required_level = 18.000000;
+	  f required_level_2 = 64.000000;
+	  f required_level_3 = 96.000000;
+	  f reset_time = 20.000000;
+	  f reset_time_2 = 20.000000;
 	}
 	[placement]
 	{

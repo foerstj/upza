@@ -11,7 +11,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[on_off_lever]
 	{
@@ -34,11 +34,11 @@
 	  p position = -0.313137,0,3.08984,0x041c4a62;
 	}
 }
-[t:lever_glb_06,n:0x07b00059]
+[t:lever_glb_06_rescaled,n:0x07b00059]
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[on_off_lever]
 	{

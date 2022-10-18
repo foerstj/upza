@@ -209,7 +209,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[common]
 	{
@@ -268,7 +268,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[common]
 	{
@@ -328,7 +328,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[common]
 	{
@@ -375,7 +375,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2;
+	  f use_range = 2.000000;
 	}
 	[common]
 	{
@@ -405,22 +405,22 @@
 		use_point_scids = 0x0070080b,0x00700823;
 	}
 }
-[t:lever_glb_06_message,n:0x00700862]
+[t:lever_glb_06_message_rescaled,n:0x00700862]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1;
+	  f scale_multiplier = 0.500000;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x0070071B;
 	  x on_scid = 0x0070071B;
-	  f required_level = 42;
-	  f required_level_2 = 77;
-	  f required_level_3 = 103;
-	  f reset_time = 20;
-	  f reset_time_2 = 20;
+	  f required_level = 42.000000;
+	  f required_level_2 = 77.000000;
+	  f required_level_3 = 103.000000;
+	  f reset_time = 20.000000;
+	  f reset_time_2 = 20.000000;
 	}
 	[placement]
 	{

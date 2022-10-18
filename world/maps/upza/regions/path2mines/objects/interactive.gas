@@ -60,7 +60,7 @@
 	  p position = -1.09732,-0.177391,1.06451,0x78d5a4ac;
 	}
 }
-[t:statue_cav_spin_02,n:0x00200864]
+[t:statue_cav_spin_02_rescaled,n:0x00200864]
 {
 	[common]
 	{
@@ -71,8 +71,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00200953;
 	  x on_scid = 0x00200953;
-	  f reset_time = 25;
-	  f reset_time_2 = 25;
+	  f reset_time = 25.000000;
+	  f reset_time_2 = 25.000000;
 	}
 	[placement]
 	{
@@ -120,7 +120,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.15524;
+	  f scale_multiplier = 1.155240;
 	}
 	[placement]
 	{

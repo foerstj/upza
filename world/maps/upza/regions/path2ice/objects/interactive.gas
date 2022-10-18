@@ -20,12 +20,12 @@
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
-	  f off_message_delay = 1;
+	  f off_message_delay = 1.000000;
 	  x off_scid = 0x03500003;
-	  f on_message_delay = 1;
+	  f on_message_delay = 1.000000;
 	  x on_scid = 0x03500003;
-	  f reset_time = 5;
-	  f reset_time_2 = 5;
+	  f reset_time = 5.000000;
+	  f reset_time_2 = 5.000000;
 	}
 	[placement]
 	{
