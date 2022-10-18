@@ -20,6 +20,7 @@ This map is based on the *Utraean Peninsula remastered* project at https://githu
 Changes from there on:
 - Map renamed, obviously
 - Set up the Eastern Island as the initial starting location, with Loola there
+- Plant randomization (scale & orientation) on the island
 
 ## How to build
 
