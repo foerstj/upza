@@ -67,30 +67,11 @@
 	  p position = -0.881958,-2,2.68383,0x17f2a80d;
 	}
 }
-[t:mp_townfolk_m_02,n:0x03200cc8]
+[t:upza_zombie_elddim_townfolk,n:0x03200cc8]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Kale Louvren";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_kale;
-			* = conversation_kale_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -412,24 +393,11 @@
 	  p position = -2.39659,0,1.54615,0x973fe070;
 	}
 }
-[t:mp_townfolk_female_02,n:0x03200950]
+[t:upza_zombie_elddim_townfolk,n:0x03200950]
 {
 	[common]
 	{
 		screen_name = "Morelle Nein";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_morelle;
-			* = conversation_morelle_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -437,21 +405,11 @@
 	  p position = -1.40005,-3,-5.3508,0x48b898f3;
 	}
 }
-[t:townfolk_male_05,n:0x03200a43]
+[t:upza_zombie_elddim_townfolk,n:0x03200a43]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Urlan Warce";
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -459,30 +417,11 @@
 	  p position = 4.10901,-3.65,0.112269,0xd5a8597c;
 	}
 }
-[t:mp_townfolk_male_04,n:0x03200a1c]
+[t:upza_zombie_elddim_townfolk,n:0x03200a1c]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Serban Urtlan";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_sanje;
-			* = conversation_sanje_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -490,30 +429,11 @@
 	  p position = 6.23237,-2.7,6.51849,0xf9384d81;
 	}
 }
-[t:tarish,n:0x03200c4c]
+[t:upza_zombie_elddim_townfolk,n:0x03200c4c]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Berenthi Rukhil";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_berenthi;
-			* = conversation_berenthi_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -521,28 +441,11 @@
 	  p position = -1.94714,-2.7,-4.33685,0xf9384d81;
 	}
 }
-[t:mp_townfolk_female_05,n:0x03200c58]
+[t:upza_zombie_elddim_townfolk,n:0x03200c58]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Ivona Brell";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_belille;
-			* = conversation_belille_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -593,28 +496,11 @@
 		use_point_scids = 0x03200784;
 	}
 }
-[t:mp_townfolk_female_04,n:0x03200c5a]
+[t:upza_zombie_elddim_townfolk,n:0x03200c5a]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Olimpia Rav";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_thiette;
-			* = conversation_thiette_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -623,30 +509,11 @@
 		use_point_scids = 0x03200784,0x03200789;
 	}
 }
-[t:mp_townfolk_f_03,n:0x03200cb3]
+[t:upza_zombie_elddim_townfolk,n:0x03200cb3]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Celine Mearie";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_celine;
-			* = conversation_celine_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1278,25 +1145,11 @@
 	  p position = -4.66936,-3.1,-2.16154,0x46a39592;
 	}
 }
-[t:skartis,n:0x03200a1f]
+[t:upza_zombie_elddim_townfolk,n:0x03200a1f]
 {
 	[common]
 	{
-		dev_instance_text = "QUEST NPC";
 		screen_name = "Jornus Heald";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_jornus;
-			* = conversation_jornus_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1304,28 +1157,11 @@
 	  p position = 3.90717,0,-2.35019,0x2cbb5aeb;
 	}
 }
-[t:mp_gypsy_female_02,n:0x03200c52]
+[t:upza_zombie_elddim_townfolk,n:0x03200c52]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Regina Bassus";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_azutha;
-			* = conversation_azutha_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1333,45 +1169,22 @@
 	  p position = 3.44646,-3.65,-0.375794,0x5419dd1b;
 	}
 }
-[t:townfolk_m_04,n:0x03200cce]
+[t:upza_zombie_elddim_townfolk,n:0x03200cce]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Kavern Bassus";
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
 	  p position = -2.90918,-3.65,0.201412,0x5419dd1b;
 	}
 }
-[t:mp_townfolk_female_01,n:0x03200c5f]
+[t:upza_zombie_elddim_townfolk,n:0x03200c5f]
 {
 	[common]
 	{
 		screen_name = "Brienne Ehsa";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_eolin;
-			* = conversation_eolin_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1694,28 +1507,11 @@
 	  p position = -0.364182,0.133785,0.0410881,0x67f0a640;
 	}
 }
-[t:mp_farmer_male,n:0x03200c4b]
+[t:upza_zombie_elddim_townfolk,n:0x03200c4b]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Filt Orian";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_thiette;
-			* = conversation_thiette_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -2093,28 +1889,11 @@
 	  p position = -0.845757,0,-2.50714,0x2307d74c;
 	}
 }
-[t:mp_peasant_male_big,n:0x032004f4]
+[t:upza_zombie_elddim_townfolk_pudgy,n:0x032004f4]
 {
-	[aspect]
-	{
-	  b is_invincible = false;
-	}
 	[common]
 	{
 		screen_name = "Elias the Butcher";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_elias;
-			* = conversation_elias_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -2168,30 +1947,11 @@
 	  p position = 0.568759,0,-3.62565,0xf6224d12;
 	}
 }
-[t:mp_townfolk_male_04,n:0x03200c57]
+[t:upza_zombie_elddim_townfolk,n:0x03200c57]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	  b is_invincible = false;
-	}
 	[common]
 	{
-		dev_instance_text = "DIES";
 		screen_name = "Ivan Vallo";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_banik;
-			* = conversation_banik_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
