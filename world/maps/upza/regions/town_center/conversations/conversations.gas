@@ -144,26 +144,6 @@
        		button_1_value = d_0x03200da1;
 	}
 }
-[conversation_guard_swamp]	//needs to be moved to farmland_and_chapel
-{
-	[text*]
-	{                            //if you are level 23 or less
-
-		screen_text = "Hail traveller! You have no business coming through the swamp without a full Legion contingent! Only the most experienced warriors should venture this way.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x03200a29;
-	}
-}
-[conversation_guard_swamp_high]	//needs to be moved to farmland_and_chapel
-{
-	[text*]
-	{                            //if you 24 or higher
-
-		screen_text = "Hail traveller! You look to be a most distinguished adventurer. Safe travels on your journeys, and I hope the swamp creatures don't give you much trouble on the way to the town of Lang!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x03200a29;
-	}
-}
 [conversation_kelti]  //Elddim Townstone Quest
 {
 	[text*]     //No quests, no stone, no ring
