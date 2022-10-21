@@ -1638,27 +1638,42 @@
 	  p position = 2.74013,0,-3.27287,0xf6224d12;
 	}
 }
-[t:guard_captain_of_elddim,n:0x03200da1]
+[t:upza_zombie_elddim_guard_captain,n:0x03200da1]
 {
 	[common]
 	{
 		dev_instance_text = "QUEST NPC";
-	}
-	[conversation]
-	{
-		[conversations]
+		screen_name = "Guard Captain of Elddim";
+		[instance_triggers]
 		{
-			* = conversation_guard_captain_hub;
-			* = conversation_guard_captain_hub_generic;
-			* = conversation_guard_captain_hub_quest;
-			* = conversation_guard_captain_hub_quest_complete;
-			* = conversation_guard_captain_red;
-			* = zconversation_directions;
+			[*]
+			{
+				action* = change_quest_state("quest_zabar_hovart","active",0);
+				action* = change_quest_state("quest_zabar_hovart","active",1);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
-	[mind]
+	[inventory]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_guard_captain_el.skrit;
+		[equipment]
+		{
+			es_shield_hand = sh_w_g_c_r_m_avg;
+		}
+		[other]
+		{
+			il_main = book_glb_lore_hovart;
+		}
 	}
 	[placement]
 	{
