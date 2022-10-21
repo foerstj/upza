@@ -1,150 +1,5 @@
-//////////////////////////////
-//	 MAP_WORLD QUESTS FILE	//
-//////////////////////////////
-
-///////////////////////////////////////////////////////////////
-//
-//DOCUMENTATION:
-//
-// The first step to take is that we need to add chapters to the quests.gas.  The format of chapters is as follows:
-// 
-// 	[chapter_1]
-// 	{
-// 		// Name that will be seen in the listbox with the quests
-// 		screen_name = "Chapter 1: Stonebridge";
-// 
-// 		// Chapter image for the journal
-//		chapter_image = b_gui_ig_menu_chapter;
-//
-//		// Add [*] block for each "state" the chapter can be in.
-//		[*]
-//		{
-//			// Activation state
-//			order = 0; 
-//
-//	 		// Text that will serve as the "dialog" portion of the chapter.
-//	 		description = "";
-//	 
-//	 		// Sound file that plays the description text ( or something similar )
-//	 		sample = ;
-//		}
-//		[*]
-//		{
-//			// Activation state
-//			order = 1;
-//			
-//	 		// Text that will serve as the "dialog" portion of the chapter.
-//	 		description = "Long ago stuff happened, and it was bad.";
-//	 
-//	 		// Sound file that plays the description text ( or something similar )
-//	 		sample = s_e_bad_stuff;
-//		}
-//		
-// 	}
-// 
-// Once all the chapters have been added to quests.gas, the existing quests need to be in this format:
-// 
-// [quests]
-// {
-// 	[quest_for_gyorn]
-// 	{
-// 		// Chapter the quest belongs in.  Must be in the format of the fuel block name
-// 		// in the [chapters] definition.
-// 		chapter = chapter_1;
-// 
-// 		// Screen name used in the listbox 
-// 		screen_name = "Seek Gyorn in Stonebridge";
-// 
-// 		// Sound file to play when the quest is completed
-// 		victory_sample = s_e_level_up_quest;
-// 
-// 		// Image for the quest 
-// 		quest_image = b_gui_ig_mnu_quest;
-// 
-// 		// Quest completion skrit ( no .skrit extension necessary. )
-// 		skrit = get_award;
-// 
-// 		// Each one of these blocks counts as a speaker that has offered information
-// 		// about the quest.  Once their order is activated, it becomes available in
-// 		// the conversation listing.
-// 		[*]
-// 		{
-// 			// Order of the quest that is currently activated.
-// 			order = 0;
-// 
-// 			// Must this part of the quest be actived for the next order to work ( default is true )
-// 			required = true;
-// 
-// 			// Description put in the textbox when you click on the listbox name
-// 			description = "Find my buddy Gyorn.";
-//
-//			// Speaker name
-//			speaker = "Norick";
-// 
-// 			// Fuel address of the conversation that has the dialogue we want in it.
-// 			// quest_dialog = true must be set in the conversation [text*] block we want,
-// 			// or it will not work!!
-// 			address = fh_r1:conversations:conversation_norick;
-// 		}
-// 
-// 		[*]
-// 		{
-// 			order 1;
-// 			address = path2crypts:conversations:conversation_skartis;
-// 		}
-// 	}
-// 
-// 	// add the rest of the quests here...
-// }
-
-//////////////
-// CHAPTERS //
-//////////////
-//
-//[chapters]
-//{
-//	[chapter_1]
-//	{
-//		// Name that will be seen in the listbox with the quests
-//		screen_name = "The Townstones";
-//
-//		// Text that will serve as the "dialog" portion of the chapter.
-//		description = "Long ago...";
-//
-//		// Sound file that plays the description text ( or something similar )
-//		// sample = s_e_intro_nis;
-//
-//		// Chapter image for the journal
-//		// chapter_image = b_gui_ig_menu_chapter;
-//	}
-//
-//	// add more chapters here...
-//}
-
-////////////
-// QUESTS //
-////////////
-
-
 [quests]
 {
-
-//	// Test quest to see if I can do these. --Ruth
-//	[quest_red_tree]
-//	{
-////		chapter			= chapter_1;
-//		screen_name		= "The Red Tree"		
-//		victory_sample	= s_e_level_up_quest;
-
-//
-//		[*]
-//		{
-//			order		= 0;
-//			speaker		= "Eliar Helmsvor";
-//			description	= "Go touch the red tree.";
-//		}
-//	}
-
 
    	[quest_trella_rune]     //Mine_town rune quest
 	{	
@@ -647,6 +502,7 @@
 		}
 		
 	}
+
 	[quest_flooded_sanctuary]     //Redwood Gap wd_r1 quest
 	{	
 //		chapter			= chapter_1;
@@ -662,5 +518,6 @@
 		}
 		
 	}
+
 }
 
