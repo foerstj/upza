@@ -927,29 +927,11 @@
 	  p position = -0.484398,0,1.16044,0xd511ae72;
 	}
 }
-[t:blacksmith_zabar_treseck,n:0x03200c26]
+[t:upza_zombie_elddim_shop_smith,n:0x03200c26]
 {
-	[aspect]
-	{
-	  f scale_base = 1;
-	}
 	[common]
 	{
-		dev_instance_text = "QUEST NPC";
 		screen_name = "Zabar Treseck";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_blacksmith_zabar_treseck;
-			* = conversation_blacksmith_zabar_treseck_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{

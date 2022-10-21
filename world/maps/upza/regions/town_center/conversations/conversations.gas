@@ -5,51 +5,6 @@
 		screen_text = "There are a few routes to the town of Crystwind, but I suggest you follow the road east. You'll travel near the Iliarth River through Iliarth Valley, then across the deep gorge in Iliarth Divide, and into the Ancient Crypt to the south. If you can get past the undead, you'll find yourself emerging back outside in Hovart Marsh. It's a bit of a trek to Hovart's Folly, but the scenery is worth the journey. Once you clear your way through the Folly, it's a quick walk south through Elddim Glade to the Crystwind Mines. And the mines exit right into the town of Crystwind itself.";
 	}
 }
-
-[conversation_blacksmith_zabar_treseck]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;	
-		screen_text = "'Ello there youngling! Wot can ole Zabar do fer ye today? I don' recognize yer face, ye must be new in town. If yer lookin' fer work, the Guard Cap'n is lookin' fer an adventurous sort ta deal with ole Lord Hovart. Ye kin find 'im around the corner thar to the east, near the old 'UB platform.";
-       	activate_quest* = quest_zabar_hovart;
-       	button_1_text = "Directions";
-       	button_1_value = d_0x03200c26;
-       	quest_dialog = true;	
-       	 }
-
-	[text*]
-	{
-        	order = 1;
-		choice = shop;
-
-		screen_text = "If yer lookin' fer adventure, ye really should talk to the Cap'n. The Legion's always got itty bitty tasks fer anyone who's got the stomach for such shenanigans. If it's equipment yer wantin, I'm sure I kin git ye set up good in no time!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x03200c26;
-	}
-
-    [text*]
-	{
-
-		choice = shop;
-
-		screen_text = "Back again? Shop's always open, and there's always more Krug to fight, so take a look at my wares. We here in the middle lands are always well prepared for anything.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x03200c26;
-	}
-
-}
-[conversation_blacksmith_zabar_treseck_red]
-{
-	[text*]
-	{
-		choice = shop;
-		screen_text = "Wot's the world coming to? I seen the strangest critters running into the baker's shop. An' this red fog everywhere is makin' me all jumpy!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x03200c26;
-	}
-}
 [conversation_guard_captain_hub_quest]
 {
     [text*]
