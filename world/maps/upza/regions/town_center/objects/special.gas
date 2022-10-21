@@ -527,36 +527,6 @@
 	  p position = -3.95595,0,-1.00773,0x830c2125;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x03200cca]
-{
-	[common]
-	{
-		dev_instance_text = "QUEST";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x00800184,0f,"default","",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_first_message"), doc("[*one-shot check (trigger is one-shot)*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = true;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -3.93683,0,0.763907,0x3aeeb4f8;
-	}
-}
 [t:use_point,n:0x03200472]
 {
 	[placement]
@@ -4130,20 +4100,6 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = -1.71618,0,1.63382,0x23cb5dd2;
-	}
-}
-[t:check_quest,n:0x03200cf9]
-{
-	[check_quest]
-	{
-		quest_name = "quest_zabar_hovart";
-	  i quest_state = 1;
-	  x send_to_scid = 0x03200CCA;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.45619,0,-1.73791,0xf6224d12;
 	}
 }
 [t:trigger_fade_nodes_box,n:0x0320015f]
