@@ -31,16 +31,12 @@
        [*]
        {
           order         = 0;
-          speaker       = "Blacksmith Zabar Treseck";
-          description   = "Talk to the Guard Captain at the eastern road near the H.U.B. platform.";
-          address = town_center:conversations:conversation_blacksmith_zabar_treseck;
+          //description   = "Talk to the Guard Captain at the eastern road near the H.U.B. platform.";
        }
        [*]
        {
           order         = 1;
-          speaker       = "Guard Captain of Elddim";       	  
           description   = "Find the Gavel of Convening in the Ancient Crypt to the east.";
-          address = town_center:conversations:conversation_guard_captain_hub_quest;
        }
        [*]
        {
@@ -58,7 +54,7 @@
        {
           order         = 4;
           speaker       = "";
-          description   = "Give the Gavel of Convening to the Guard Captain of Crystwind and inform him that Lord Hovart is dead.";
+          description   = "Lord Hovart is dead.";
        }
 	}
 	
