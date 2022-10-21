@@ -42,25 +42,8 @@
 	  p position = -0.0238304,-2,0.870716,0x17f2a80d;
 	}
 }
-[t:mage_trianna_lelaine,n:0x03200c27]
+[t:upza_zombie_elddim_shop_mage,n:0x03200c27]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_mage_trianna_lelaine;
-			* = conversation_mage_trianna_lelaine_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.961262,0,-0.275637;

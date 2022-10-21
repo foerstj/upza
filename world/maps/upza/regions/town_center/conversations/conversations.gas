@@ -50,39 +50,6 @@
        	button_1_value = d_0x03200c26;
 	}
 }
-
-[conversation_mage_trianna_lelaine]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "Well, I suppose you'll be wanting to get patched up so you can run out and get yourself torn up by the Krug again. There are so many of them in these parts lately. Now if I was you, I'd learn myself some spells quick as a cat, and blast them all from afar.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x03200c27;
-	}
-	[text*]
-	{
-        
-		choice = shop;
-
-		screen_text = "Perhaps you'd like a few healing tonics to take the bite from your wounds? I hear that the dead walk again in the crypts to the east. Might be a good opportunity for a young mage to learn something new.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x03200c27;
-	}
-
-}
-[conversation_mage_trianna_lelaine_red]
-{
-	[text*]
-	{
-		choice = shop;
-		screen_text = "Come, child, let us pray for the safety of the town. Evil cannot invade the sanctuary of the Shrine of Passion.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x03200c27;
-	}
-}
 [conversation_guard_captain_hub_quest]
 {
     [text*]

@@ -300,7 +300,7 @@
 		{
 			//es_chest = bd_un_pl_f_g_c_avg;
 			//es_feet = bo_bo_ch_f_g_c_avg;
-			es_head = he_op_pl_avg;
+			//es_head = he_op_pl_avg;
 			es_shield_hand = bw_g_c_s_m_c_avg;
 		}
 	}
@@ -395,6 +395,158 @@
 			//es_head = he_op_pl_roman;
 			es_shield_hand = sh_w_g_c_r_m_avg;
 			es_weapon_hand = #sd_g_c_st_1h_avg:o_fin;
+		}
+	}
+}
+
+
+// SHOPS
+
+[t:template,n:upza_zombie_elddim_shop_mage] { specializes = upza_zombie_elddim_shop_mage_base; }
+[t:template,n:upza_zombie_elddim_shop_mage_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Mage Trianna Lelaine";
+	}
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo;  // but default texture
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from walking_corpse_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	12,0;
+			intelligence =  4,0;
+			dexterity =  	6,0;
+			melee =  		5,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 40;
+		life = 66;
+		max_life = 66;
+		mana = 6;
+		max_mana = 6;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 16;
+		damage_min = 14;
+	}
+	[defend] { defense=57; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.6;
+					il_main = #armor,f/40-45;
+	                il_main = #weapon/19-22;
+				}
+        		[oneof*]
+				{
+	                   chance = 0.002;
+	                   il_main = #weapon/-rare(1)/22-30;
+	                   il_main = #armor/-rare(1)/45-55;
+	            }
+				[gold*]
+				{
+					chance = 0.15;
+					max = 60;
+					min = 40;
+					min_pile = 11;
+					piles = 2 - 3;
+				}
+			}
+		}
+	}
+
+    // more loot: shop from original mage_trianna_lelaine
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0.8;
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/0-7;
+					max = 5;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = spell_resurrect;
+					il_main = spell_revive;
+					il_main = spell_healing_hands;
+					il_main = scroll_resurrect;
+					max = 1;
+					min = 1;
+				}
+			}
+			[misc]
+			{
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 5;
+					min = 3;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_medium = 1;
+			potion_health_small = 9;
+			potion_mana_medium = 1;
+			potion_mana_small = 9;
+			potion_rejuvenation_small = 3;
+			potion_rejuvenation_medium = 1;
+
+			spell_fireshot = 8;
+			spell_zap = 8;
 		}
 	}
 }
