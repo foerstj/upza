@@ -206,29 +206,11 @@
 	  p position = 1.4147,-2,-1.92945,0xba9131bc;
 	}
 }
-[t:mp_guard_ranged,n:0x03200c5d]
+[t:upza_zombie_elddim_guard_ranged,n:0x03200c5d]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
 	[common]
 	{
 		dev_instance_text = "Legionnaire #1";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_1;
-			* = conversation_guard_1_high;
-			* = conversation_guard_1_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -236,30 +218,12 @@
 	  p position = 1.92916,0,-0.315987,0xfa0cdb08;
 	}
 }
-[t:mp_guard_captain,n:0x03200d48]
+[t:upza_zombie_elddim_guard_captain,n:0x03200d48]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
 	[common]
 	{
 		dev_instance_text = "Legionnaire #2";
 		screen_name = "Guard";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_2;
-			* = conversation_guard_2_high;
-			* = conversation_guard_2_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -267,29 +231,11 @@
 	  p position = 3.20431,0,-1.67889,0xfa0cdb08;
 	}
 }
-[t:mp_guard_ranged,n:0x03200d6c]
+[t:upza_zombie_elddim_guard_ranged,n:0x03200d6c]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
 	[common]
 	{
 		dev_instance_text = "Legionnaire #5";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_5;
-			* = conversation_guard_5_high;
-			* = conversation_guard_5_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -297,39 +243,11 @@
 	  p position = 1.88881,-0.35,-2.57861,0x6ebc4223;
 	}
 }
-[t:mp_guard,n:0x03200c5e]
+[t:upza_zombie_elddim_guard,n:0x03200c5e]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 4;
-	  f high_level_2w = 55;
-	  f high_level_3w = 85;
-	  f low_level = 0;
-	  f low_level_2w = 54;
-	  f low_level_3w = 83;
-	}
 	[common]
 	{
 		dev_instance_text = "Legionnaire #3";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_3;
-			* = conversation_guard_3_high;
-			* = conversation_guard_3_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -453,25 +371,11 @@
 	  p position = 6.05573,-2.7,5.59518,0xf9384d81;
 	}
 }
-[t:mp_guard_captain,n:0x03200c59]
+[t:upza_zombie_elddim_guard_captain,n:0x03200c59]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-		model = m_c_gah_fb_pos_a3;
-	}
 	[common]
 	{
 		screen_name = "Legion Recruiter";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_recruiter;
-			* = conversation_guard_recruiter_red;
-			* = zconversation_directions;
-		}
 	}
 	[inventory]
 	{
@@ -484,10 +388,6 @@
 		{
 			il_shield = sh_w_g_c_r_m_avg;
 		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -528,40 +428,11 @@
 	  p position = -1.32541,1.95,3.82791,0xf144779e;
 	}
 }
-[t:mp_guard,n:0x03200c5b]
+[t:upza_zombie_elddim_guard,n:0x03200c5b]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 11;
-	  f high_level_2w = 61;
-	  f high_level_3w = 92;
-	  f low_level = 6;
-	  f low_level_2w = 57;
-	  f low_level_3w = 87;
-	}
 	[common]
 	{
 		dev_instance_text = "Legionnaire #4";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_4;
-			* = conversation_guard_4_high;
-			* = conversation_guard_4_low;
-			* = conversation_guard_4_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -569,40 +440,11 @@
 	  p position = -1.30663,0,1.77702,0xd05f7c27;
 	}
 }
-[t:mp_guard_ranged,n:0x03200d83]
+[t:upza_zombie_elddim_guard_ranged,n:0x03200d83]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 11;
-	  f high_level_2w = 61;
-	  f high_level_3w = 92;
-	  f low_level = 6;
-	  f low_level_2w = 57;
-	  f low_level_3w = 87;
-	}
 	[common]
 	{
 		dev_instance_text = "Legionnaire #6";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_6;
-			* = conversation_guard_6_high;
-			* = conversation_guard_6_low;
-			* = conversation_guard_6_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1215,39 +1057,11 @@
 	  p position = -0.359413,-1.04298,-1.74511,0x5d7f2384;
 	}
 }
-[t:mp_guard_04,n:0x03200b94]
+[t:upza_zombie_elddim_guard,n:0x03200b94]
 {
-	[aspect]
-	{
-		model = m_c_gah_fg_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 10000;
-	  f high_level_2w = 10000;
-	  f high_level_3w = 10000;
-	  f low_level = 2;
-	  f low_level_2w = 54;
-	  f low_level_3w = 83;
-	}
 	[common]
 	{
 		dev_instance_text = "GUARD #8";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_8;
-			* = conversation_guard_8_low;
-			* = conversation_guard_8_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1572,40 +1386,11 @@
 	  p position = 0.198237,-1,-2.85715,0x746d376f;
 	}
 }
-[t:mp_guard_05,n:0x03200a29]
+[t:upza_zombie_elddim_guard,n:0x03200a29]
 {
-	[aspect]
-	{
-		model = m_c_gah_fg_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 8;
-	  f high_level_2w = 59;
-	  f high_level_3w = 91;
-	  f low_level = 2;
-	  f low_level_2w = 54;
-	  f low_level_3w = 83;
-	}
 	[common]
 	{
 		dev_instance_text = "GUARD #7";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_7;
-			* = conversation_guard_7_high;
-			* = conversation_guard_7_low;
-			* = conversation_guard_7_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
