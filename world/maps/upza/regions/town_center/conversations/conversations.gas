@@ -5,67 +5,7 @@
 		screen_text = "There are a few routes to the town of Crystwind, but I suggest you follow the road east. You'll travel near the Iliarth River through Iliarth Valley, then across the deep gorge in Iliarth Divide, and into the Ancient Crypt to the south. If you can get past the undead, you'll find yourself emerging back outside in Hovart Marsh. It's a bit of a trek to Hovart's Folly, but the scenery is worth the journey. Once you clear your way through the Folly, it's a quick walk south through Elddim Glade to the Crystwind Mines. And the mines exit right into the town of Crystwind itself.";
 	}
 }
-[conversation_guard_captain_hub_quest]
-{
-    [text*]
-    {
-		// if quest is active
-		order = 0;
-		choice = more;
-		screen_text = "Zabar sent you, did he? I'm sure you've heard of Hovart's Folly, yes? No? Well, old Lord Hovart was once the master of these parts. He taxed everything that moved, down to our very gravestones, all to build an underground fortress for his bride-to-be. After the fortress was built, strange things started occurring. At first it was just a missing farmer or oxen every now and then, but then the disappearances became more frequent.";
-		button_2_text = "Directions";
-		button_2_value = d_0x03200da1;
-    }
-    [text*]
-    {
-		
-		screen_text = "We tried to protect the outlying farms, but we weren't prepared for an entire undead army. Seems Hovart's grand palace had become nothing more than a haunted, spider-infested mausoleum. I have in my possession a journal written by one of Lord Hovart's guardsmen, Relran. Guard Relran mentions an Artifact located in the Ancient Crypt to the east. He claims the Artifact is a Gavel of Convening that Hovart's vizier had created. Lord Hovart should be drawn to anyone who possesses the Gavel. You must find the Gavel of Convening, confront Lord Hovart, and destroy him.";
-		activate_quest* = quest_zabar_hovart,1;
-		button_1_text = "Directions";
-		button_1_value = d_0x03200da1;
-		quest_dialog = true;
-    }
-}
-[conversation_guard_captain_hub_generic]
-{
-    [text*]
-    {
-		screen_text = "That's all I know. Relran's journal is the best source we have. I pray that it is accurate. May Azunai's shield protect you on your quest. The entire town will be praying for your success.";
-		button_1_text = "Directions";
-		button_1_value = d_0x03200da1;
-    }
-}
 
-[conversation_guard_captain_hub]
-{
-		//if quest is inactive
-    [text*]
-    {
-		screen_text = "You look like the adventurous sort. If you're looking for a job, go get yourself suited up over at Zabar's. I'd be willing to talk to you after you purchase some decent equipment.";
-		button_1_text = "Directions";
-		button_1_value = d_0x03200da1;
-    }
-}
-[conversation_guard_captain_hub_quest_complete]
-{
-		//if quest is in stage 5
-    [text*]                              //Give reward
-    {
-		screen_text = "You have earned the gratitude and respect of the town of Elddim. You will be recorded in the history of the town as the savior to our people.";
-		complete_quest* = quest_zabar_hovart;
-		button_1_text = "Directions";
-		button_1_value = d_0x03200da1;
-    }
-}
-[conversation_guard_captain_red]
-{
-	[text*]
-	{
-		screen_text = "This could be a cover up for an invasion. Either get someplace safe or pick up a weapon and help us maintain vigilance!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x03200da1;
-	}
-}
 [conversation_kelti]  //Elddim Townstone Quest
 {
 	[text*]     //No quests, no stone, no ring
