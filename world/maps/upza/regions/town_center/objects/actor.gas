@@ -1,40 +1,8 @@
-[t:mp_townfolk_female_01,n:0x032007b5]
+[t:upza_zombie_elddim_priest,n:0x032007b5]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-		model = m_c_gah_fg_pos_a7;
-	}
 	[common]
 	{
 		screen_name = "Utraean Priestess Kelti";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_hub_complete;
-			* = conversation_kelti;
-			* = conversation_kelti_goto;
-			* = conversation_kelti_local;
-			* = conversation_kelti_quest;
-			* = conversation_kelti_red;
-			* = conversation_kelti_stone;
-			* = conversation_kelti_stone_ring;
-			* = zconversation_directions;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_ro_m_g_c_084;
-			es_feet = bo_bo_le_light;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_kelti.skrit;
 	}
 	[placement]
 	{
@@ -1669,7 +1637,7 @@
 		[equipment]
 		{
 			es_shield_hand = sh_w_g_c_r_m_avg;
-            es_weapon_hand = sd_g_c_sd_1h_avg;
+			es_weapon_hand = sd_g_c_sd_1h_avg;
 		}
 		[other]
 		{
