@@ -528,7 +528,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("quest_elddim","active",1);
+				action* = change_quest_state("quest_elddim","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_first_message"), doc("[*one-shot check (trigger is one-shot)*]");
 			  f delay = 0.000000;

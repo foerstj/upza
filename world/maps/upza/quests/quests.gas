@@ -67,9 +67,7 @@
         [*]
         {
             order         = 0;
-            speaker       = "Utraean Priestess Kelti";
             description   = "Gather all of the eight Townstones, representing all of the towns of the Circle, and bring them to Utraean High Priest Kavaren in Hiroth.";
-            address = town_center:conversations:conversation_kelti;
         }
         [*]
         {
@@ -132,15 +130,7 @@
         [*]
         {
             order         = 0;
-            speaker       = "Utraean Priestess Kelti";
             description   = "Find the Elddim Sunrise Stone in the Ancient Crypt to the east of Elddim.";
-            address = town_center:conversations:conversation_kelti;
-        }
-        [*]
-        {
-            order         = 1;   //when you find the stone
-            speaker       = "";
-            description   = "Return to Priestess Kelti in the town of Elddim.";
         }
     }
  
