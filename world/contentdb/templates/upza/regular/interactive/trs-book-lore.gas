@@ -1,0 +1,17 @@
+[t:template,n:upza_book_glb_lore_kavaren_letter_townstones]
+{
+	category_name = "lorebook";
+	doc = "Kavaren letter townstones";
+	specializes = base_book_lore;
+	[common]
+	{
+		screen_name = "Letter by Utraean High Priest Kavaren";
+		auto_expiration_class = never;
+	}
+	[gui]
+	{
+		can_sell = false;
+		inventory_icon = b_gui_ig_i_it_sealed_letter;
+		lore_key = lore_kavaren_letter_townstones;
+	}
+}
