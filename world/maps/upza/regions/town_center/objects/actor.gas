@@ -4,6 +4,13 @@
 	{
 		screen_name = "Utraean Priestess Kelti";
 	}
+    [inventory]
+    {
+        [other]
+        {
+            il_main = gen_ring_utraean;
+        }
+    }
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
