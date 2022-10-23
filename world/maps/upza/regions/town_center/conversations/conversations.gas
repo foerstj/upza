@@ -1,11 +1,3 @@
-[zconversation_directions]
-{
-	[text*]
-	{
-		screen_text = "There are a few routes to the town of Crystwind, but I suggest you follow the road east. You'll travel near the Iliarth River through Iliarth Valley, then across the deep gorge in Iliarth Divide, and into the Ancient Crypt to the south. If you can get past the undead, you'll find yourself emerging back outside in Hovart Marsh. It's a bit of a trek to Hovart's Folly, but the scenery is worth the journey. Once you clear your way through the Folly, it's a quick walk south through Elddim Glade to the Crystwind Mines. And the mines exit right into the town of Crystwind itself.";
-	}
-}
-
 [conversation_kelti]  //Elddim Townstone Quest
 {
 	[text*]     //No quests, no stone, no ring
@@ -15,16 +7,12 @@
         screen_text = "So, you are up to the task of aiding the Society, are you? I'm sure you've heard of the Townstones and how nearly all have been lost over the centuries, yes? Well, it's time for them to be found. The Society has called for the unification of the Townstones in Hiroth, and all must be present.";
         complete_quest* = goto_elddim;
         complete_quest* = goto_elddim_b;
-        button_2_text = "Directions";
-       	button_2_value = d_0x032007b5;
        
 	}
     [text*]
 	{
         screen_text = "The Elddim Sunrise Stone was last in the possession of my great grandmother, who served as the Legion Protectorate of the Crypts to the east. When old Lord Hovart betrayed us, she hid the stone somewhere in the tombs. He held her prisoner until she was old and gray, but she never revealed the secret. She died just hours after her release, and only had time enough to tell my mother that the stone was safely hidden.";
         activate_quest* = quest_elddim;
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
        	quest_dialog = true;
 	}
 }
@@ -33,21 +21,13 @@
     [text*]
 	{
         order = 0;
-
         screen_text = "You are welcome to peruse my shelves for anything which might be of use to you. If you are able to find the Elddim Townstone, I will give you my signet ring to help you on your journies.";
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
 	}
     [text*]
 	{
-
-
         screen_text = "The longer the Townstones remain scattered, the greater the danger for us all. May Azunai bless you and send you luck!";
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
 	}
 }
-
 [conversation_kelti_quest]
 {                   //local quest active AND stone
 	[text*]
@@ -55,22 +35,16 @@
         order = 0;
         choice = more;
         screen_text = "By the gods, you found it! We are lucky indeed to have one as resourceful as you! You have proved yourself to the Society, and are a stranger no more. If you would be willing to further aid the Circle, we would be much indebted to you. If you show my signet ring to others of my sect, they will know you are a friend.";
-        button_2_text = "Directions";
-       	button_2_value = d_0x032007b5;
-        }
+    }
     [text*]
 	{
         order = 1;
-
         screen_text = "Here is my ring. Our Townstone needs to be brought to High Priest Kavaren in Hiroth. However, I am certain we are not the only town who could use your help. Seek out Utraean Priest Sarden in Crystwind.";
         activate_quest* = goto_crystwind;
         activate_quest* = quest_townstones;
         complete_quest* = quest_elddim;
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
        	quest_dialog = true;
         //give signet ring
-
 	}
 }
 [conversation_kelti_goto]    //goto Crystwind quest active
@@ -78,11 +52,8 @@
     [text*]
 	{
         screen_text = "There is nothing more you can do to help us in Elddim.";
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
 	}
 }
-
 [conversation_kelti_stone]     //if you have the stone AND NO local quest AND no ring
 {
 	[text*]
@@ -90,39 +61,28 @@
         order = 0;
         choice = more;
         screen_text = "So, you are up to the task of aiding the Society, are you? I'm sure you've heard of the Townstones and how nearly all have been lost over the centuries, yes? Well, it's time for them to be found. The Circle has called for the unification of the Townstones in Hiroth, and all must be present.";
-        button_2_text = "Directions";
-       	button_2_value = d_0x032007b5;
 	}
     [text*]
 	{
         order = 1;
          choice = more;
         screen_text = "The Elddim Sunrise Stone was last in the possession of my great grandmother, who served as the Legion Protectorate of the Crypts to the east. When old Lord Hovart betrayed us, she hid the stone somewhere in the tombs. He held her prisoner until she was old and gray, but she never revealed the secret. She died just hours after her release, and only had time enough to tell my mother that the stone was safely hidden.";
-        button_2_text = "Directions";
-       	button_2_value = d_0x032007b5;
 	}
     [text*]
 	{
         order = 2;
         choice = more;
         screen_text = "You are welcome to peruse my shelves for anything which might be of use to you. If you are able to find the Elddim Townstone -- what, you already have the stone? By the stars, we are lucky indeed to have one as resourceful as you! If you would be willing to further aid the Society, we would be much indebted to you. If you show my signet ring to others of my sect, they will know you are a friend.";
-        button_2_text = "Directions";
-       	button_2_value = d_0x032007b5;
 	}
 
     [text*]
 	{
         order = 3;
-
         screen_text = "Here is my ring. Our Townstown needs to be brought to High Priest Kavaren in Hiroth. However, I am certain we are not the only town who could use your help. Seek out Utraean Priest Sarden in Crystwind.";
         activate_quest* = goto_crystwind;
         activate_quest* = quest_townstones;
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
        	quest_dialog = true;
-
         //give signet ring
-
 	}
 }
 [conversation_kelti_stone_ring]    //If you have the ring AND stone AND NO quest_elddim
@@ -132,19 +92,14 @@
         screen_text = "There is nothing more you can do to help us in Elddim; you may best serve the Society by helping Utraean Priest Sarden in Crystwind.";
         activate_quest* = goto_crystwind;
         activate_quest* = quest_townstones;
-        button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
        	quest_dialog = true;
 	}
 }
-
 [conversation_kelti_red]
 {
 	[text*]
 	{
 		screen_text = "No! This cannot be! High Priest Kavaren has thoroughly studied the Circle! Oh, what have we done?";
-		button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
 	}
 }
 [conversation_hub_complete]
@@ -152,7 +107,5 @@
 	[text*]
 	{
 		screen_text = "Your courage has saved us all. The Kingdom is forever in your debt. If there is ever anything the Society can do for you, please let me know.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x032007b5;
 	}
 }
