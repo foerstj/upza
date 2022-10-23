@@ -95,37 +95,6 @@
        }
     }
 
-    [goto_elddim]    //Goto Elddim Quest
-    {    
-//		chapter			= chapter_1;   
-		screen_name      = "Travel to Elddim";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_26;				// Image for the quest
-
-       [*]
-       {
-          order         = 0;
-          speaker       = "Utraean Society";
-          description   = "Speak with Utraean Priestess Kelti in Elddim.";
-          address 	= swamp_town:conversations:conversation_janeira;
-       }
-    }
- 
-    [goto_elddim_b]    //Goto Elddim Quest   from Hiroth
-    {       
-       screen_name      = "Journey to Elddim";
-       victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_26;				// Image for the quest
-
-       [*]
-       {
-          order         = 0;
-          speaker       = "Utraean High Priest Kavaren";
-          description   = "Speak with Utraean Priestess Kelti in Elddim.";
-          address = castle_town:conversations:conversation_kavaren_no_elddim;
-       }
-    }
-
     [quest_elddim]    //Elddim Townstone Quest
     {      
 //		chapter			= chapter_1; 
