@@ -17,7 +17,6 @@
 {
 	specializes = gen_bush_grass;
 
-	doc = "generator_bush_grass-krug_scout_zombie";
 	[generator_advanced_a2]
 	{
         child_template_name = krug_scout_zombie;
@@ -28,9 +27,18 @@
 {
 	specializes = gen_bush_grass;
 
-	doc = "generator_bush_grass-krug_grunt_zombie";
 	[generator_advanced_a2]
 	{
         child_template_name = krug_grunt_zombie;
+	}
+}
+
+[t:template,n:gen_bush_grass-krug_dog_zombie]
+{
+	specializes = gen_bush_grass;
+
+	[generator_advanced_a2]
+	{
+        child_template_name = krug_dog_zombie;
 	}
 }
