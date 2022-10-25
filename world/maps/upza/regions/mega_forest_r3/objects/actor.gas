@@ -978,20 +978,8 @@
 	  p position = -3.62826,-0.968362,-1.49231,0x65a31ece;
 	}
 }
-[t:dod_malley,n:0x06602745]
+[t:upza_zombie_gnf_shop_dod,n:0x06602745]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_dod;
-			* = conversation_dod_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
