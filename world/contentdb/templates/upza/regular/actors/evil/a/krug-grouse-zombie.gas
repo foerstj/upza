@@ -1,0 +1,226 @@
+[t:template,n:krug_grouse_base]  // = krug_grouse
+{
+	  category_name = "1W_evil_a";
+	  doc = "krug grouse";
+	  specializes = base_krug;
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 4, 0;
+			  intelligence = 3, 0;
+			  strength = 5, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 6;
+		  life = 12;
+		  mana = 6;
+		  max_life = 12;
+		  max_mana = 6;
+		  scale_base = 0.9;
+		  selection_indicator_scale = 0.85;
+		[textures]
+		{
+			  0 = b_c_eam_ksc;
+		}
+	}
+	[attack]
+	{
+		  damage_max = 3;
+		  damage_min = 2;
+	}
+
+	[body]
+	{
+		min_move_velocity = 2.500;
+		avg_move_velocity = 3.10;
+		max_move_velocity = 4.8;
+		[bone_translator]
+		{
+			  body_anterior  = bip01_head;
+			  body_mid       = Bip01_Spine3;
+			  body_posterior = bip01_pelvis;
+			  kill_bone      = Bip01_Spine3;
+			  shield_bone    = shield_grip;
+			  weapon_bone    = weapon_grip;
+		}
+		[chore_dictionary]
+		{
+			  chore_prefix = a_c_eam_kg_fs;
+			[chore_attack]
+			{
+				  chore_stances = 0,1;
+				  skrit = select_attack;
+				[anim_files]
+				{
+					  00 = at;
+					  01 = at-04;
+					  02 = at-02;
+					  03 = at-03;
+					  qffg = dff;
+				}
+			}
+			[chore_default]
+			{
+				  chore_stances = 0,1;
+				  skrit = infinite_loop;
+				[anim_files]
+				{
+					  00 = dfs;
+				}
+			}
+			[chore_die]
+			{
+				  chore_stances = 0,1;
+				  skrit = select_transition;
+				[anim_files]
+				{
+					  00 = di;
+					  01 = di-02;
+					  02 = di-03;
+					  03 = di-04;
+				}
+			}
+			[chore_fidget]
+			{
+				  chore_stances = 0,1;
+				  skrit = select_fidget;
+				[anim_files]
+				{
+					  00 = dsf;
+					  01 = dsf-02;
+					  02 = dsf-03;
+				}
+			}
+			[chore_magic]
+			{
+				  chore_stances = 0;
+				  skrit = select_attack;
+				[anim_files]
+				{
+					  00 = mg;
+				}
+			}
+			[chore_misc]
+			{
+				  chore_stances = 1;
+				  skrit = select_transition;
+				[anim_files]
+				{
+					  chrg = hit;
+				}
+			}
+			[chore_walk]
+			{
+				  chore_stances = 0,1;
+				  skrit = select_walk;
+				[anim_files]
+				{
+					  00 = rl;
+				}
+			}
+		}
+	}
+
+	[common]
+	{
+		  screen_name = "Krug Scout";
+		  membership = krug, party_krug_shaman, party_krug_scout_boss, monster;
+	}
+	[defend]
+	{
+		  defense = 9;
+	}
+
+	[inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				  es_weapon_hand = dg_g_c_1h_fun;
+			}
+    		[oneof*]
+			{
+				[all*]
+				{
+					[gold*]
+					{
+						  chance = 0.15;
+						  max = 16;
+						  min = 8;
+					}
+				}
+				[oneof*]
+				{
+					[all*]
+					{
+        				chance = 0.05;
+    	        	    il_main = #spell/0-2;
+					}
+					[all*]
+					{
+        				chance = 0.02;
+	        	   	    il_main = #bow/4-7;
+					}
+					[oneof*]
+					{
+        				chance = 0.12;
+	        	   	    il_main = #melee/4-7;
+       				    il_main = potion_health_small;
+					    il_main = potion_mana_small;
+    				}
+					[all*]
+					{
+        				chance = 0.03;
+	            	    il_main = #armor/1-6;
+					}
+				}
+
+			}
+		}
+	}
+	[mind]
+	{
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party		 = true;
+
+		actor_life_ratio_low_threshold = 0.5;
+		on_life_ratio_low_flee = true;
+		flee_distance = 21.0;
+	}
+}
+
+[t:template,n:krug_grouse_zombie_01] { specializes = krug_grouse_zombie_01_base; }
+[t:template,n:krug_grouse_zombie_01_base]
+{
+    specializes = krug_grouse_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_ksc-dk-01;
+    }
+    [common]
+    {
+        screen_name = "Zombie Krug Grouse";
+    }
+}
+
+[t:template,n:krug_grouse_zombie_02] { specializes = krug_grouse_zombie_02_base; }
+[t:template,n:krug_grouse_zombie_02_base]
+{
+    specializes = krug_grouse_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_ksc-dk-02;
+    }
+    [common]
+    {
+        screen_name = "Zombie Krug Grouse";
+    }
+}
+
+[t:template,n:krug_grouse_zombie] { specializes = krug_grouse_zombie_01_base; }
