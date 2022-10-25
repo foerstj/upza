@@ -1,0 +1,36 @@
+[t:template,n:gen_bush_grass]
+{
+	specializes = generator_base_generic_bush;
+	doc = "generator_bush_grass";
+
+	[aspect]
+	{
+	    [textures] { 0=b_i_grs_bush-rhod; }
+	}
+
+	[generator_advanced_a2]
+	{
+	}
+}
+
+[t:template,n:gen_bush_grass-krug_scout_zombie]
+{
+	specializes = gen_bush_grass;
+
+	doc = "generator_bush_grass-krug_scout_zombie";
+	[generator_advanced_a2]
+	{
+        child_template_name = krug_scout_zombie;
+	}
+}
+
+[t:template,n:gen_bush_grass-krug_grunt_zombie]
+{
+	specializes = gen_bush_grass;
+
+	doc = "generator_bush_grass-krug_grunt_zombie";
+	[generator_advanced_a2]
+	{
+        child_template_name = krug_grunt_zombie;
+	}
+}
