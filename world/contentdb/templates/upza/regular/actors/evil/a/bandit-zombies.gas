@@ -410,8 +410,16 @@
 	{
 		[textures]
 		{
-			0 = b_i_glb_frag-generic-02;
+			0 = b_i_glb_frag-generic;
 			1 = b_c_pos_a3_032;
+		}
+		[voice]
+		{
+			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
 		}
 	}
 	[common]
@@ -432,6 +440,14 @@
 			0 = b_i_glb_frag-generic-02;
 			1 = b_c_pos_a1_041;
 		}
+		[voice]
+		{
+			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
+		}
 	}
 	[common]
 	{
@@ -448,14 +464,26 @@
 	{
 		[textures]
 		{
-			0 = b_i_glb_frag-generic-02;
+			0 = b_i_glb_frag-generic;
 			1 = b_c_pos_a3_033;
+		}
+		[voice]
+		{
+			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
 		}
 	}
 	[common]
 	{
 		screen_name = "Zombie Bandit Archer";
 	}
+    [inventory]
+    {
+        custom_head=;
+    }
 }
 
 [t:template,n:bandit_boss_zombie] { specializes = bandit_boss_zombie_base; }
@@ -470,9 +498,21 @@
 			0 = b_i_glb_frag-generic-02;
 			1 = b_c_pos_a3_034;
 		}
+		[voice]
+		{
+			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
+		}
 	}
 	[common]
 	{
 		screen_name = "Zombie Bandit Boss";
 	}
+    [inventory]
+    {
+        custom_head=;
+    }
 }
