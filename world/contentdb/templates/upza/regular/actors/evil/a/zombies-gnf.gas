@@ -101,7 +101,7 @@
 	{
 		[equipment]
 		{
-			es_weapon_hand = ax_g_d_1h1b_avg;
+			es_weapon_hand = ax_g_d_1h1b_avg;  // hatchet
 			//es_feet = bo_bo_le_light;
 		}
     }
@@ -290,6 +290,291 @@
 			potion_mana_small = 4;
 			potion_rejuvenation_medium = 3;
 			potion_rejuvenation_small = 2;
+		}
+	}
+}
+
+
+[t:template,n:upza_zombie_gnf_shop_wyman] { specializes = upza_zombie_gnf_shop_wyman_base; }
+[t:template,n:upza_zombie_gnf_shop_wyman_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Mitromus Wyman";
+	}
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		textures:0 = b_c_edm_vines;  // but vines texture
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & no loot from dsx_golem_crystal_one
+	[actor]
+    {
+        [skills]
+        {
+            strength = 		90, 0;
+            intelligence = 	90, 0;
+            dexterity = 	90, 0;
+            melee =         90, 0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 2752;
+        life = 275;
+        max_life = 275;
+        mana = 275;
+        max_mana = 275;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_max = 100;
+        damage_min = 100;
+        reload_delay = 0;
+    }
+	[defend] { defense=275; }
+
+    // equipment from original mitromus_wyman
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = bw_g_c_s_l_c_avg;  // Long Bow, 65-93
+			//es_feet = bo_bo_le_light;
+		}
+    }
+
+    // more loot: shop from original mitromus_wyman
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/60-172;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/60-84;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/85-141;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/142-172;
+					max = 3;
+					min = 3;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/8-84;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/85-141;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/142-172;
+					max = 4;
+					min = 4;
+				}
+
+
+				[all*]
+				{
+					il_main = #helm/8-84;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/85-141;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/142-172;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/8-84;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/85-142;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/142-172;
+					max = 4;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/8-84;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/85-142;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/142-172;
+					max = 4;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/30-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/41-65;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/66-79;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #ranged/30-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/42-65;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/66-79;
+					max = 6;
+					min = 6;
+				}
+			}
+
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/10-28;
+					max = 25;
+					min = 25;
+				}
+				[all*]
+				{
+					il_main = #spell/0-9;
+					max = 5;
+					min = 5;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/37-66;
+					max = 4;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_small = 18;
+			potion_mana_small = 18;
+			potion_rejuvenation_small = 4;
+
+			scroll_resurrect = 2;
+            spell_resurrect = 2;
+            spell_revive = 2;
+            spell_healing_hands = 2;
+
+            spell_fireshot = 2;
+            spell_zap = 2;
 		}
 	}
 }

@@ -3863,20 +3863,8 @@
 	  p position = 2.33733,-3.03984e-006,-1.01077,0x2192c38a;
 	}
 }
-[t:mitromus_wyman,n:0x06501c30]
+[t:upza_zombie_gnf_shop_wyman,n:0x06501c30]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_mitromus;
-			* = conversation_mitromus_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.0958461,0,0.995396;
