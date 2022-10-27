@@ -366,6 +366,7 @@
     // equipment from original mitromus_wyman
 	[inventory]
 	{
+		selected_active_location = il_active_ranged_weapon;  // added
 		[equipment]
 		{
 			es_shield_hand = bw_g_c_s_l_c_avg;  // Long Bow, 65-93

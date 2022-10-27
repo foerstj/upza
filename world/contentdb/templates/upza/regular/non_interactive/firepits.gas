@@ -1,0 +1,16 @@
+[t:template,n:firepit_glb_03_unlit]
+{
+	specializes = base_light;
+
+	category_name = "lighting";
+	doc = "firepit with rocks";
+	[aspect]
+	{
+		does_block_path = true;
+		model = m_i_glb_firepit-03;
+		[textures]
+		{
+			0 = b_i_glb_firepit-02;
+		}
+	}
+}
