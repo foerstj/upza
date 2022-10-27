@@ -1486,11 +1486,22 @@
 	  p position = 1.68864,-1,-2.22729,0x5e890300;
 	}
 }
-[t:mule,n:0x03200bb7]
+[t:self_service_mule,n:0x03200bb7]
 {
 	[common]
 	{
 		screen_name = "Plodder";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x3200bb7;
 	}
 	[placement]
 	{
