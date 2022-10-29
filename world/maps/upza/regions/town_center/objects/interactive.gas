@@ -42,7 +42,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.3;
+	  f use_range = 0.300000;
 	}
 	[door_basic]
 	{
@@ -61,7 +61,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.3;
+	  f use_range = 0.300000;
 	}
 	[door_basic]
 	{
@@ -88,18 +88,6 @@
 	  p position = 16.4959,-3,-2.18333,0x17f2a80d;
 	}
 }
-[t:sign_glb_01,n:0x03200da7]
-{
-	[common]
-	{
-		screen_name = "Ancient Crypt, 112";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.991444,0,-0.130526;
-	  p position = 17.8986,-3.25368,0.54087,0x17f2a80d;
-	}
-}
 [t:sign_glb_blacksmith_right,n:0x032004e3]
 {
 	[common]
@@ -110,19 +98,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -3.1171,2.38419e-007,1.97389,0xbef689f4;
-	}
-}
-[t:sign_glb_01,n:0x03200da0]
-{
-	[common]
-	{
-		dev_instance_text = "sign_7";
-		screen_name = "Great Northern Forest";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 2.82841,-0.999999,-2.90012,0x56c360d9;
 	}
 }
 [t:door_glb_woodfence_left_01,n:0x0320042d]
@@ -146,15 +121,15 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.5;
+	  f scale_multiplier = 0.500000;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x03200CAE;
 	  x on_scid = 0x03200CAE;
-	  f reset_time = 20;
-	  f reset_time_2 = 20;
+	  f reset_time = 20.000000;
+	  f reset_time_2 = 20.000000;
 	}
 	[placement]
 	{
@@ -163,36 +138,11 @@
 		use_point_scids = 0x03200858, 0x03200859;
 	}
 }
-[t:sign_glb_01,n:0x032004f5]
-{
-	[common]
-	{
-		dev_instance_text = "sign_2";
-		screen_name = "Ancient Crypt, 102";
-	}
-	[placement]
-	{
-	  q orientation = 0,-1,0,-5.96046e-008;
-	  p position = 4.87894,1.95,2.95615,0xb7133259;
-	}
-}
-[t:sign_glb_01,n:0x03200d9e]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim";
-	}
-	[placement]
-	{
-	  q orientation = 0,-5.96046e-008,0,1;
-	  p position = 4.8337,1.94297,3.77332,0xb7133259;
-	}
-}
 [t:door_grs_peasant_left,n:0x03200bdb]
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -210,7 +160,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -228,7 +178,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -267,44 +217,6 @@
 	  p position = 13.3289,0.596196,0.60199,0xf9384d81;
 	}
 }
-[t:sign_glb_01,n:0x03200473]
-{
-	[common]
-	{
-		dev_instance_text = "sign_4";
-		screen_name = "Town of Crystwind, 48";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.07196,-0.214862,-1.54375,0x26d255b7;
-	}
-}
-[t:sign_glb_01,n:0x03200d86]
-{
-	[common]
-	{
-		dev_instance_text = "sign_4";
-		screen_name = "Crystwind Mines, 31";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.07196,0,-1.54375,0x26d255b7;
-	}
-}
-[t:sign_glb_01,n:0x03200d87]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.7049,-4.76837e-007,-1.56094,0x26d255b7;
-	}
-}
 [t:door_glb_woodfence_left_01,n:0x03200cfd]
 {
 	[placement]
@@ -322,49 +234,11 @@
 	  p position = 0.00971413,-0.336544,1.34202,0x4693b784;
 	}
 }
-[t:sign_glb_01,n:0x03200415]
-{
-	[common]
-	{
-		dev_instance_text = "sign_5";
-		screen_name = "Town of Crystwind, 48";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.42752,0.576647,0.625153,0x27142eaf;
-	}
-}
-[t:sign_glb_01,n:0x03200d9a]
-{
-	[common]
-	{
-		dev_instance_text = "sign_5";
-		screen_name = "Crystwind Mines, 31";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.42752,0.777387,0.625153,0x27142eaf;
-	}
-}
-[t:sign_glb_01,n:0x03200d9b]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,-0.707107;
-	  p position = -1.66096,0.777615,0.625244,0x27142eaf;
-	}
-}
 [t:door_grs_peasant_left,n:0x03200c05]
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -420,7 +294,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -438,7 +312,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -464,84 +338,11 @@
 	  p position = 5.44213,0.14069,1.76645,0x01f2fa60;
 	}
 }
-[t:sign_glb_01,n:0x0320050b]
-{
-	[common]
-	{
-		dev_instance_text = "sign_6";
-		screen_name = "Great Northern Forest";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.12808,-6.67572e-006,3.05448,0x88ef0238;
-	}
-}
-[t:sign_glb_01,n:0x0320050e]
-{
-	[common]
-	{
-		screen_name = "Ancient Crypt, 112";
-	}
-	[placement]
-	{
-	  p position = -2.5741,-0.277017,3.49575,0x88ef0238;
-	}
-}
-[t:sign_glb_01,n:0x03200d58]
-{
-	[common]
-	{
-		screen_name = " Crystwind Mines";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.04684,-5.66244e-006,3.03768,0x88ef0238;
-	}
-}
-[t:sign_glb_01,n:0x03200d84]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 72";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -2.59024,-0.270503,2.66212,0x88ef0238;
-	}
-}
-[t:sign_glb_01,n:0x03200d8e]
-{
-	[common]
-	{
-		dev_instance_text = "sign_8";
-		screen_name = "Town of Elddim";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.965926,0,-0.258819;
-	  p position = 1.25268,-1,-2.52849,0xaef26d1d;
-	}
-}
-[t:sign_glb_01,n:0x03200d8f]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 61";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.130526,0,-0.991446;
-	  p position = 1.09992,-1.27186,-1.75812,0xaef26d1d;
-	}
-}
 [t:door_grs_farmhouse,n:0x03200c04]
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -553,31 +354,6 @@
 	  q orientation = 0,-0.92388,0,-0.382683;
 	  p position = 1.19771,-2.25,-2.40384,0x0255a9d2;
 		use_point_scids = 0x03200c1a,0x03200c19;
-	}
-}
-[t:sign_glb_01,n:0x03200d89]
-{
-	[common]
-	{
-		dev_instance_text = "sign_9";
-		screen_name = "Town of Elddim";
-	}
-	[placement]
-	{
-	  q orientation = 0,-5.96046e-008,0,1;
-	  p position = 3.94864,-9.53674e-007,1.74071,0x00fe15db;
-	}
-}
-[t:sign_glb_01,n:0x03200d8a]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 63";
-	}
-	[placement]
-	{
-	  q orientation = 0,-1,0,-5.96046e-008;
-	  p position = 3.99556,0,0.722763,0x00fe15db;
 	}
 }
 [t:sign_grs_elddim,n:0x03200516]
@@ -592,7 +368,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -611,7 +387,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.5;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -630,8 +406,8 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1;
-	  f use_range = 0.5;
+	  f scale_multiplier = 1.100000;
+	  f use_range = 0.500000;
 	}
 	[door_basic]
 	{
@@ -645,36 +421,11 @@
 		use_point_scids = 0x03200c0f,0x03200c10;
 	}
 }
-[t:sign_glb_01,n:0x03200d91]
-{
-	[common]
-	{
-		dev_instance_text = "sign_10";
-		screen_name = "Town of Elddim";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-5.96046e-008;
-	  p position = 1.02873,-1,-1.27769,0xb54eced2;
-	}
-}
-[t:sign_glb_01,n:0x03200d92]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 63";
-	}
-	[placement]
-	{
-	  q orientation = 0,5.96046e-008,0,1;
-	  p position = 1.05391,-1,-1.26492,0xb54eced2;
-	}
-}
 [t:door_grs_peasant_left,n:0x03200bfa]
 {
 	[aspect]
 	{
-	  f use_range = 0.3;
+	  f use_range = 0.300000;
 	}
 	[door_basic]
 	{
@@ -700,24 +451,11 @@
 	  p position = -1.34744,0,-1.15608,0x64c427c6;
 	}
 }
-[t:sign_glb_01,n:0x03200d9d]
-{
-	[common]
-	{
-		dev_instance_text = "sign 11";
-		screen_name = "Ancient Crypt, 106";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,1.49012e-007;
-	  p position = 2.62429,-1,-2.40269,0xb32eb25a;
-	}
-}
 [t:door_grs_peasant_left,n:0x03200bfe]
 {
 	[aspect]
 	{
-	  f use_range = 0.3;
+	  f use_range = 0.300000;
 	}
 	[door_basic]
 	{
