@@ -1488,6 +1488,10 @@
 }
 [t:self_service_mule,n:0x03200bb7]
 {
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
 	[common]
 	{
 		screen_name = "Plodder";
