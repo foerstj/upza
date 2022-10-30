@@ -34,7 +34,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.700000;
+	  f scale_multiplier = 0.7;
 	}
 	[common]
 	{
@@ -50,7 +50,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.500000;
+	  f use_range = 0.5;
 	}
 	[door_basic]
 	{
@@ -69,7 +69,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.500000;
+	  f use_range = 0.5;
 	}
 	[door_basic]
 	{
@@ -88,7 +88,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.500000;
+	  f use_range = 0.5;
 	}
 	[door_basic]
 	{
@@ -177,18 +177,18 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.500000;
+	  f scale_multiplier = 0.5;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x00C00323;
 	  x on_scid = 0x00C00323;
-	  f required_level = 5.000000;
-	  f required_level_2 = 56.000000;
-	  f required_level_3 = 87.000000;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f required_level = 5;
+	  f required_level_2 = 56;
+	  f required_level_3 = 87;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{
@@ -238,8 +238,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00C001DE;
 	  x on_scid = 0x00C001DE;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{

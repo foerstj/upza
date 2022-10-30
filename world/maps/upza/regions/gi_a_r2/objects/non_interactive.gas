@@ -33,7 +33,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.020140;
+	  f scale_multiplier = 1.02014;
 	}
 	[placement]
 	{
@@ -45,7 +45,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.378820;
+	  f scale_multiplier = 1.37882;
 	}
 	[placement]
 	{
@@ -57,7 +57,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.963880;
+	  f scale_multiplier = 0.96388;
 	}
 	[placement]
 	{
@@ -69,7 +69,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.046750;
+	  f scale_multiplier = 1.04675;
 	}
 	[placement]
 	{
@@ -81,7 +81,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.476130;
+	  f scale_multiplier = 0.47613;
 	}
 	[placement]
 	{
@@ -101,7 +101,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.852560;
+	  f scale_multiplier = 0.85256;
 	}
 	[placement]
 	{
@@ -113,7 +113,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.889260;
+	  f scale_multiplier = 0.88926;
 	}
 	[placement]
 	{
@@ -125,7 +125,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.768280;
+	  f scale_multiplier = 0.76828;
 	}
 	[placement]
 	{
@@ -137,7 +137,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.267250;
+	  f scale_multiplier = 1.26725;
 	}
 	[placement]
 	{
@@ -149,7 +149,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.298370;
+	  f scale_multiplier = 1.29837;
 	}
 	[placement]
 	{
@@ -161,7 +161,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.698910;
+	  f scale_multiplier = 0.69891;
 	}
 	[placement]
 	{
@@ -173,7 +173,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.149160;
+	  f scale_multiplier = 1.14916;
 	}
 	[placement]
 	{
@@ -185,7 +185,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.971230;
+	  f scale_multiplier = 0.97123;
 	}
 	[placement]
 	{
@@ -197,7 +197,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.888920;
+	  f scale_multiplier = 0.88892;
 	}
 	[placement]
 	{
@@ -209,7 +209,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.853560;
+	  f scale_multiplier = 0.85356;
 	}
 	[placement]
 	{
@@ -221,7 +221,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.774020;
+	  f scale_multiplier = 0.77402;
 	}
 	[placement]
 	{
@@ -233,7 +233,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.612850;
+	  f scale_multiplier = 0.61285;
 	}
 	[placement]
 	{
@@ -511,6 +511,14 @@
 	  p position = -1.97092,-2.21587,0.0262222,0x5978667a;
 	}
 }
+[t:post_glb_01,n:0x08f001e5]
+{
+	[placement]
+	{
+	  q orientation = 0,-6.55651e-007,0,1;
+	  p position = -0.00548553,2,-1.91438,0x4da06a4e;
+	}
+}
 [t:fan_gob_01,n:0x08f0006d]
 {
 	[placement]
@@ -573,13 +581,5 @@
 	{
 	  q orientation = 0,-0.923879,0,-0.382684;
 	  p position = 1.22825,9.53674e-007,-1.16794,0xb2e8a2c2;
-	}
-}
-[t:post_glb_01,n:0x08f001e5]
-{
-	[placement]
-	{
-	  q orientation = 0,-6.55651e-007,0,1;
-	  p position = -0.00548553,2,-1.91438,0x4da06a4e;
 	}
 }

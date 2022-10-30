@@ -175,8 +175,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x01D001B9;
 	  x on_scid = 0x01D001B9;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{
@@ -215,7 +215,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2.000000;
+	  f use_range = 2;
 	}
 	[common]
 	{
@@ -340,7 +340,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 2.000000;
+	  f use_range = 2;
 	}
 	[common]
 	{

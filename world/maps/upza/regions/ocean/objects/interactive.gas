@@ -2,7 +2,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1.000000;
+	  f use_range = 1;
 	}
 	[door_basic]
 	{
@@ -40,7 +40,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1.000000;
+	  f use_range = 1;
 	}
 	[door_basic]
 	{
@@ -121,7 +121,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1.000000;
+	  f use_range = 1;
 	}
 	[door_basic]
 	{
@@ -164,7 +164,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 1.000000;
+	  f use_range = 1;
 	}
 	[door_basic]
 	{
@@ -234,7 +234,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3.000000;
+	  f use_range = 3;
 	}
 	[common]
 	{
@@ -268,7 +268,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 3.000000;
+	  f use_range = 3;
 	}
 	[common]
 	{
@@ -388,8 +388,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x04D0061D;
 	  x on_scid = 0x04D0061D;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{
@@ -402,18 +402,18 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.500000;
+	  f scale_multiplier = 0.5;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x04D00227;
 	  x on_scid = 0x04D00227;
-	  f required_level = 18.000000;
-	  f required_level_2 = 64.000000;
-	  f required_level_3 = 96.000000;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f required_level = 18;
+	  f required_level_2 = 64;
+	  f required_level_3 = 96;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{

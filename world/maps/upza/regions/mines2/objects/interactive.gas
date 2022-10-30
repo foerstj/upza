@@ -52,7 +52,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 2.000000;
+	  f scale_multiplier = 2;
 	}
 	[placement]
 	{
@@ -64,7 +64,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.400000;
+	  f scale_multiplier = 1.4;
 	}
 	[placement]
 	{
@@ -136,8 +136,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x035003EC;
 	  x on_scid = 0x035003EC;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{
@@ -352,12 +352,12 @@
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
-	  f off_message_delay = 1.000000;
+	  f off_message_delay = 1;
 	  x off_scid = 0x03500003;
-	  f on_message_delay = 1.000000;
+	  f on_message_delay = 1;
 	  x on_scid = 0x03500003;
-	  f reset_time = 5.000000;
-	  f reset_time_2 = 5.000000;
+	  f reset_time = 5;
+	  f reset_time_2 = 5;
 	}
 	[placement]
 	{
@@ -377,7 +377,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.700000;
+	  f use_range = 0.7;
 	}
 	[on_off_lever]
 	{
@@ -398,7 +398,7 @@
 {
 	[aspect]
 	{
-	  f use_range = 0.700000;
+	  f use_range = 0.7;
 	}
 	[on_off_lever]
 	{
@@ -424,12 +424,12 @@
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
-	  f off_message_delay = 1.000000;
+	  f off_message_delay = 1;
 	  x off_scid = 0x03500003;
-	  f on_message_delay = 1.000000;
+	  f on_message_delay = 1;
 	  x on_scid = 0x03500003;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{

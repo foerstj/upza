@@ -15,7 +15,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.800000;
+	  f scale_multiplier = 0.8;
 	}
 	[common]
 	{
@@ -31,8 +31,8 @@
 	[aspect]
 	{
 	  b interest_only = true;
-	  f lodfi_lower = 0.000000;
-	  f lodfi_upper = 0.000000;
+	  f lodfi_lower = 0;
+	  f lodfi_upper = 0;
 	}
 	[placement]
 	{
@@ -45,8 +45,8 @@
 	[aspect]
 	{
 	  b interest_only = true;
-	  f lodfi_lower = 0.000000;
-	  f lodfi_upper = 0.000000;
+	  f lodfi_lower = 0;
+	  f lodfi_upper = 0;
 	}
 	[placement]
 	{
@@ -71,8 +71,8 @@
 	[aspect]
 	{
 	  b interest_only = true;
-	  f lodfi_lower = 0.000000;
-	  f lodfi_upper = 0.000000;
+	  f lodfi_lower = 0;
+	  f lodfi_upper = 0;
 	}
 	[placement]
 	{
@@ -257,8 +257,8 @@
 	  x off_scid_2 = 0x0720022C;
 	  x on_scid = 0x07200573;
 	  x on_scid_2 = 0x0720022C;
-	  f reset_time = 10.000000;
-	  f reset_time_2 = 10.000000;
+	  f reset_time = 10;
+	  f reset_time_2 = 10;
 	}
 	[placement]
 	{
@@ -413,8 +413,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x07200696;
 	  x on_scid = 0x07200696;
-	  f reset_time = 30.000000;
-	  f reset_time_2 = 30.000000;
+	  f reset_time = 30;
+	  f reset_time_2 = 30;
 	}
 	[placement]
 	{
@@ -426,18 +426,18 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.500000;
+	  f scale_multiplier = 0.5;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x0720006A;
 	  x on_scid = 0x0720006A;
-	  f required_level = 46.000000;
-	  f required_level_2 = 79.000000;
-	  f required_level_3 = 105.000000;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f required_level = 46;
+	  f required_level_2 = 79;
+	  f required_level_3 = 105;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{
