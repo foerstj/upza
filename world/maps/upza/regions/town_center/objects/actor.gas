@@ -1021,11 +1021,28 @@
 	  p position = -0.985813,-1.9,7.71107,0x7ea1508c;
 	}
 }
-[t:lame_mare,n:0x03200bcd]
+[t:self_service_mule,n:0x03200bcd]
 {
+	[aspect]
+	{
+	  f max_life = 66.5;
+	  f max_mana = 109;
+		model = m_c_na_pm_pos_2;
+	}
 	[common]
 	{
-		screen_name = "Sasha";
+		screen_name = "Fodder";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x3200bcd;
 	}
 	[placement]
 	{
