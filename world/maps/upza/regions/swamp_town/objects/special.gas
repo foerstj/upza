@@ -1817,50 +1817,6 @@
 	  p position = 0.0307078,-0.599999,-1.1601,0x449fc183;
 	}
 }
-[t:tutorial_tip,n:0x04e00135]
-{
-	[common]
-	{
-		dev_instance_text = "DISPLACER TIP no-veteran no-elite";
-	}
-	[placement]
-	{
-	  p position = 1.97502,-0.6,0.969604,0x449fc183;
-	}
-	[tip]
-	{
-		tip = "tip_4";
-	}
-}
-[t:trigger_generic,n:0x04e0013e]
-{
-	[common]
-	{
-		dev_instance_text = "TIP TRIGGER no-veteran no-elite";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x04E00135,0f,"0x4002","every",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_unique_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.357832,-0.6,0.278473,0x449fc183;
-	}
-}
 [t:use_point,n:0x04e00a7d]
 {
 	[placement]

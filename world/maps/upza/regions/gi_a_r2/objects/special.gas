@@ -103,50 +103,6 @@
 		bool_variable = "teleporter_swamp_town_gi_a_r2_active";
 	}
 }
-[t:tutorial_tip,n:0x08f001c8]
-{
-	[common]
-	{
-		dev_instance_text = "DISPLACER TIP no-elite";
-	}
-	[placement]
-	{
-	  p position = -0.546622,0,-1.69299,0xbcd5361e;
-	}
-	[tip]
-	{
-		tip = "tip_5";
-	}
-}
-[t:trigger_generic,n:0x08f001c9]
-{
-	[common]
-	{
-		dev_instance_text = "TIP TRIGGER no-elite";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x08F001C8,0f,"0x4002","every",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_node(0xDB65ABDE,1,99,-1,"on_unique_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.666587,0,-1.61057,0xbcd5361e;
-	}
-}
 [t:trigger_generic,n:0x08f001c6]
 {
 	[common]

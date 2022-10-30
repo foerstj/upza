@@ -632,46 +632,6 @@
 	  p position = 20.2524,0.4,-5.78795,0xf81abfce;
 	}
 }
-[t:tutorial_tip,n:0x03200c4f]
-{
-	[placement]
-	{
-	  p position = 20.6536,0.65,-4.48061,0xf81abfce;
-	}
-	[tip]
-	{
-		tip = "tip_2";
-	}
-}
-[t:trigger_generic,n:0x03200c68]
-{
-	[common]
-	{
-		dev_instance_text = "TIP TRIGGER";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x03200C4F,0f,"16386","party_member_within_sphere",0), doc("[*labelled condition (party_member_within_sphere)*]");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(2.500000,"on_unique_enter"), doc("[*one-shot check (trigger is one-shot)*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 20.145,0.65,-2.84844,0xf81abfce;
-	}
-}
 [t:use_point,n:0x03200858]
 {
 	[placement]

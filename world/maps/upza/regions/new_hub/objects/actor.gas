@@ -1,11 +1,3 @@
-[t:swamp_witch_boss_02,n:0x07f000a5]
-{
-	[placement]
-	{
-	  q orientation = 0,0.936088,0,0.351766;
-	  p position = -0.318782,0.1,-1.28903,0x0bf53f4e;
-	}
-}
 [t:swamp_witch_reveal,n:0x07f0009f]
 {
 	[placement]
@@ -36,5 +28,13 @@
 	{
 	  q orientation = 0,-0.910142,0,0.414297;
 	  p position = 3.47746,-9.25,-3.33302,0xd14939a3;
+	}
+}
+[t:swamp_witch_boss_02,n:0x07f000a5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.936088,0,0.351766;
+	  p position = -0.318782,0.1,-1.28903,0x0bf53f4e;
 	}
 }

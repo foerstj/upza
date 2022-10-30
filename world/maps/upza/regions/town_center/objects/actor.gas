@@ -44,8 +44,8 @@
 	{
 		[other]
 		{
-			il_main = gen_ring_utraean;
 			il_main = upza_book_glb_lore_kavaren_letter_townstones;
+			il_main = gen_ring_utraean;
 		}
 	}
 	[placement]
@@ -875,18 +875,6 @@
 	  p position = -3.80679,-1.9,4.00254,0x7ea1508c;
 	}
 }
-[t:krug_dog_zombie,n:0x03200bc5]
-{
-	[common]
-	{
-		screen_name = "Yeehund";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.951056,0,-0.309017;
-	  p position = -0.426254,0,-2.38761,0x5e8b9591;
-	}
-}
 [t:phrak,n:0x032017b9]
 {
 	[placement]
@@ -1089,6 +1077,18 @@
 	[placement]
 	{
 	  p position = 2.03046,0,-0.136003,0x19a79f8c;
+	}
+}
+[t:krug_dog_zombie,n:0x03200bc5]
+{
+	[common]
+	{
+		screen_name = "Yeehund";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.951056,0,-0.309017;
+	  p position = -0.426254,0,-2.38761,0x5e8b9591;
 	}
 }
 [t:phrak,n:0x032017b7]

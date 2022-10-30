@@ -174,39 +174,13 @@
 	  p position = 0.176573,0.2,-0.0357599,0x4cfe9572;
 	}
 }
-[t:tutorial_tip,n:0x0840082c]
-{
-	[placement]
-	{
-	  p position = 0.0401335,-0.600614,-0.545361,0x007eeaa4;
-	}
-	[tip]
-	{
-		tip = "tip_4";
-	}
-}
 [t:trigger_generic,n:0x08400c46]
 {
 	[common]
 	{
-		dev_instance_text = "TIP ACTIVATOR, PLAYER LOCATION";
+		dev_instance_text = "PLAYER LOCATION";
 		[instance_triggers]
 		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x0840082C,0f,"16386","party_member_within_bounding_box",0), doc("[*labelled condition (party_member_within_bounding_box)*]");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_unique_enter"), doc("[*one-shot check (trigger is one-shot)*]");
-			  f delay = 1.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
 			[*]
 			{
 				action* = set_player_world_location("iliarth_valley");
