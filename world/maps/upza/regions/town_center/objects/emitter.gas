@@ -369,30 +369,6 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x03200785]
-{
-	[placement]
-	{
-	  p position = -6.61627,2,-1.99539,0x2c0b4ca2;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_gears_mill_sm";
-	}
-}
-[t:emt_sound,n:0x03200786]
-{
-	[placement]
-	{
-	  p position = -7.69293,2,-0.8689,0x2c0b4ca2;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_gears_mill_lg";
-	}
-}
 [t:emt_sound,n:0x03200b05]
 {
 	[placement]
