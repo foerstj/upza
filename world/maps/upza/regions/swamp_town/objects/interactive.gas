@@ -62,18 +62,18 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.500000;
+	  f scale_multiplier = 0.5;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x04E000E5;
 	  x on_scid = 0x04E000E5;
-	  f required_level = 25.000000;
-	  f required_level_2 = 67.000000;
-	  f required_level_3 = 99.000000;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f required_level = 25;
+	  f required_level_2 = 67;
+	  f required_level_3 = 99;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{
@@ -286,8 +286,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x04E002F8;
 	  x on_scid = 0x04E002F8;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{
@@ -306,8 +306,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x04E005BA;
 	  x on_scid = 0x04E005BA;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{
