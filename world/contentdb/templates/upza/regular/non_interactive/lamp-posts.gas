@@ -1,0 +1,21 @@
+[t:template,n:lamp_glb_post_03_unlit] { specializes = lamp_glb_post_03_unlit_base; }
+[t:template,n:lamp_glb_post_03_unlit_base]
+{
+    specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamppost_ornate unlit";
+	[aspect]
+	{
+		model = m_i_glb_lamp-post-03;
+		scale_base = 2;
+		[textures]
+		{
+			0 = b_i_glb_lamp-posts;
+		}
+	}
+	[common]
+	{
+		screen_name = "Lamp Post";
+	}
+}
