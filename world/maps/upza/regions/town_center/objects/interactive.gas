@@ -10,6 +10,38 @@
 	  p position = -4.19502,3.88949,0.841222,0x070316b2;
 	}
 }
+[t:candlestand_csl_02_lightable,n:0x03200434]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xF600BB20;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xF600BB20;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -8.86189,-1,5.05201,0x17f2a80d;
+	}
+}
+[t:candlestand_csl_02_lightable,n:0x03200435]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x6445DA0B;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x6445DA0B;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -10.099,-1.02769,0.631123,0x17f2a80d;
+	}
+}
 [t:bookcase_glb_gen_04,n:0x032007e2]
 {
 	[aspect]

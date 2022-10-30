@@ -1,0 +1,14 @@
+[t:template,n:candlestand_csl_02_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candlestick_floor lightable";
+	[aspect]
+	{
+		model = m_i_csl_candlestand-02;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "candle_fire2";
+	}
+}
