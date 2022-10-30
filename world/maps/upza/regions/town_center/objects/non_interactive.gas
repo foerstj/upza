@@ -6899,7 +6899,7 @@
 	  p position = -2.14584,-2.79016,-1.36144,0xd5a8597c;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x03200c36]
+[t:wood_glb_pile_fireplace,n:0x03200c36]
 {
 	[placement]
 	{
@@ -7881,12 +7881,8 @@
 	  p position = -7.88695,-4.65,5.46828,0x98240029;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x03200c35]
+[t:wood_glb_pile_fireplace,n:0x03200c35]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  p position = -2.77789,-3.64998,1.81718,0x98240029;
@@ -8203,12 +8199,8 @@
 	  p position = -1.52354,-2.45395,-4.53441,0x48b898f3;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x03200c38]
+[t:wood_glb_pile_fireplace,n:0x03200c38]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  p position = 2.74269,-3,1.51382,0x48b898f3;
@@ -8834,20 +8826,6 @@
 	{
 	  q orientation = 0,-0.803857,0,-0.594822;
 	  p position = 4.23362,-3.1,0.379192,0x46a39592;
-	}
-}
-[t:candle_glb_02,n:0x032007de]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	  b is_invincible = true;
-	  f scale_multiplier = 1.10321;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.986286,0,-0.165048;
-	  p position = 3.60437,-2.37842,-0.440926,0x46a39592;
 	}
 }
 [t:butterfly_mp,n:0x0320072d]
@@ -9537,24 +9515,8 @@
 	  p position = -8.63072,-4.65,4.86065,0x5419dd1b;
 	}
 }
-[t:candle_glb_02,n:0x032007dc]
+[t:wood_glb_pile_fireplace,n:0x03200c25]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.649448,0,0.760406;
-	  p position = 4.33395,-2.88653,-1.80669,0x5419dd1b;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x03200c25]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  p position = -2.8251,-3.65,1.51817,0x5419dd1b;
@@ -9863,12 +9825,8 @@
 	  p position = 3.33221,-2.34001,-1.6614,0x23777411;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x03200c24]
+[t:wood_glb_pile_fireplace,n:0x03200c24]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  p position = 2.8352,-3,1.6909,0x23777411;
@@ -25370,17 +25328,6 @@
 	  p position = -3.32655,-2.37641,-4.87413,0x2a09571b;
 	}
 }
-[t:candle_glb_02,n:0x03200436]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[placement]
-	{
-	  p position = 3.53045,-2.75282,-3.59449,0x2a09571b;
-	}
-}
 [t:bed_glb_03,n:0x03200437]
 {
 	[aspect]
@@ -25593,11 +25540,10 @@
 	  p position = 1.29606,-3.95,2.30797,0x2a09571b;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x03200460]
+[t:wood_glb_pile_fireplace,n:0x03200460]
 {
 	[aspect]
 	{
-	  b interest_only = true;
 	  f scale_multiplier = 1.02276;
 	}
 	[placement]
