@@ -1,0 +1,31 @@
+[t:template,n:mill_glb_gear_01_off]
+{
+	category_name = "node";
+	doc = "mill_glb_gear_01";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_grs_sbridge-gear1;
+	}
+}
+[t:template,n:mill_glb_gear_02_off]
+{
+	category_name = "node";
+	doc = "mill_glb_gear_02";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_grs_sbridge-gear2;
+	}
+}
+[t:template,n:mill_glb_vanes_off]
+{
+	category_name = "node";
+	doc = "mill_glb_vanes";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		model = m_i_grs_sbridge-millblades;
+	}
+}
