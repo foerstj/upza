@@ -6349,7 +6349,7 @@
 		[door*]
 		{
 		  i fardoor = 1;
-		  x farguid = 0xA7D7E6C1;
+		  x farguid = 0x22E2196F;
 		  i id = 2;
 		}
 	}
@@ -11938,6 +11938,43 @@
 		  i id = 6;
 		}
 	}
+	[t:snode,n:0x22e2196f]
+	{
+	  b bounds_camera = true;
+	  b camera_fade = false;
+	  x guid = 0x22E2196F;
+	  x mesh_guid = 0x032006A5;
+	  x nodelevel = 0xFFFFFFFF;
+	  x nodeobject = 0xFFFFFFFF;
+	  x nodesection = 0x00000001;
+	  b occludes_camera = true;
+	  b occludes_light = true;
+		texsetabbr = grs01;
+		[door*]
+		{
+		  i fardoor = 2;
+		  x farguid = 0x10F33168;
+		  i id = 1;
+		}
+		[door*]
+		{
+		  i fardoor = 1;
+		  x farguid = 0x66385B98;
+		  i id = 3;
+		}
+		[door*]
+		{
+		  i fardoor = 4;
+		  x farguid = 0x923F36F6;
+		  i id = 2;
+		}
+		[door*]
+		{
+		  i fardoor = 1;
+		  x farguid = 0x2A09571B;
+		  i id = 4;
+		}
+	}
 	[t:snode,n:0x2307d74c]
 	{
 	  b bounds_camera = true;
@@ -15039,7 +15076,7 @@
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0xA7D7E6C1;
+		  x farguid = 0x22E2196F;
 		  i id = 1;
 		}
 	}
@@ -34603,7 +34640,7 @@
 		[door*]
 		{
 		  i fardoor = 3;
-		  x farguid = 0xA7D7E6C1;
+		  x farguid = 0x22E2196F;
 		  i id = 1;
 		}
 	}
@@ -48657,7 +48694,7 @@
 		[door*]
 		{
 		  i fardoor = 2;
-		  x farguid = 0xA7D7E6C1;
+		  x farguid = 0x22E2196F;
 		  i id = 4;
 		}
 	}
@@ -56409,43 +56446,6 @@
 		  i fardoor = 6;
 		  x farguid = 0xB1F6A0DA;
 		  i id = 4;
-		}
-	}
-	[t:snode,n:0xa7d7e6c1]
-	{
-	  b bounds_camera = true;
-	  b camera_fade = false;
-	  x guid = 0xA7D7E6C1;
-	  x mesh_guid = 0x03200CC1;
-	  x nodelevel = 0xFFFFFFFF;
-	  x nodeobject = 0xFFFFFFFF;
-	  x nodesection = 0xFFFFFFFF;
-	  b occludes_camera = true;
-	  b occludes_light = true;
-		texsetabbr = grs01;
-		[door*]
-		{
-		  i fardoor = 1;
-		  x farguid = 0x66385B98;
-		  i id = 3;
-		}
-		[door*]
-		{
-		  i fardoor = 4;
-		  x farguid = 0x923F36F6;
-		  i id = 2;
-		}
-		[door*]
-		{
-		  i fardoor = 1;
-		  x farguid = 0x2A09571B;
-		  i id = 4;
-		}
-		[door*]
-		{
-		  i fardoor = 2;
-		  x farguid = 0x10F33168;
-		  i id = 1;
 		}
 	}
 	[t:snode,n:0xa80bddc6]
