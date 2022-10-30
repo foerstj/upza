@@ -1,0 +1,63 @@
+[t:template,n:base_lightable]
+{
+	specializes = interactive;
+
+	category_name = "lighting";
+	doc = "lightable";
+	[aspect]
+	{
+		does_block_path = TRUE;
+
+		is_selectable = TRUE;
+		draw_selection_indicator = FALSE;
+		rollover_highlight = TRUE;
+
+		is_usable = TRUE;
+		use_range = 3;
+
+		lodfi_lower = -1;
+		lodfi_upper = -1;
+	}
+	[common]
+	{
+		auto_expiration_class = immediate;
+		forced_expiration_class = immediate;
+	}
+	[generic_emitter_act]
+	{
+		//other_effect = "torch_firews";
+	}
+	[light_enable]
+	{
+		initially_active = FALSE;
+	}
+	[light_flicker]
+	{
+		initially_active = FALSE;
+		duration = 0;
+
+		flicker_frequency_min = 10;
+		flicker_frequency_max = 12;
+		magnitude = 0.15;
+	}
+	[msg_switch]
+	{
+	}
+}
+
+[t:template,n:torch_glb_stick_lightable] { specializes = torch_glb_stick_lightable_base; }
+[t:template,n:torch_glb_stick_lightable_base]
+{
+	specializes = base_lightable;
+
+	category_name = "lighting";
+	doc = "torch_tiki lightable";
+	[aspect]
+	{
+		model = m_i_glb_torch-stick;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "torch_firews";
+	}
+}
