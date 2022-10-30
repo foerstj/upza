@@ -44,8 +44,8 @@
 	{
 		[other]
 		{
-			il_main = upza_book_glb_lore_kavaren_letter_townstones;
 			il_main = gen_ring_utraean;
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
 		}
 	}
 	[placement]
@@ -559,6 +559,18 @@
 	{
 	  q orientation = 0,0.92388,0,0.382683;
 	  p position = -1.40005,-3,-5.3508,0x48b898f3;
+	}
+}
+[t:krug_dog_zombie,n:0x03200bc2]
+{
+	[common]
+	{
+		screen_name = "Scudling";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.983255,0,-0.182236;
+	  p position = -1.59946,-3.5,7.70924,0x46a39592;
 	}
 }
 [t:upza_zombie_elddim_shop_smith,n:0x03200c26]
@@ -1637,18 +1649,6 @@
 	{
 	  q orientation = 0,0.999657,0,-0.0261771;
 	  p position = -1.4879,1.90735e-006,1.3247,0xb83df5f7;
-	}
-}
-[t:krug_dog_zombie,n:0x03200bc2]
-{
-	[common]
-	{
-		screen_name = "Scudling";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.983255,0,-0.182236;
-	  p position = -1.59946,-3.5,7.70924,0x46a39592;
 	}
 }
 [t:krug_scavenger,n:0x03200d3c]
