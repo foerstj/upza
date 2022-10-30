@@ -105,14 +105,6 @@
 	  p position = 3.94716,-0.997598,-0.341944,0x78eb62a9;
 	}
 }
-[t:gen_bush_grass-krug_scavenger,n:0x032004ed]
-{
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,-0.382684;
-	  p position = 0.12281,0,-2.87408,0x62f7fd92;
-	}
-}
 [t:gen_bush_grass-krug_scavenger,n:0x032004b2]
 {
 	[placement]
@@ -137,63 +129,12 @@
 	  p position = -0.889664,0,-2.03013,0x320030f9;
 	}
 }
-[t:gen_bush_grass-krug_scavenger,n:0x032004e7]
+[t:gen_bush_grass-krug_scavenger,n:0x032004ed]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.382683,0,0.923879;
-	  p position = 0.864206,0,-2.57556,0x32473c1e;
-	}
-}
-[t:generator_bush_01,n:0x03200df9]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scout";
-	  x initial_command = 0x03200DFB;
-	  i max_alive_children = 2;
-	  i num_children_incubating = 2;
-	  f spawn_period = 1;
-	  x spawnpoint = 0x03200DFA;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.442289,0,0.896873;
-	  p position = 3.00845,0,2.71797,0x2bd761c9;
-	}
-}
-[t:generator_bush_01,n:0x03200e01]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scout";
-	  x initial_command = 0x03200E03;
-	  i max_alive_children = 2;
-	  i num_children_incubating = 2;
-	  f spawn_period = 1;
-	  x spawnpoint = 0x03200E02;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.896873,0,0.442289;
-	  p position = -0.713676,0,1.05589,0xb4c60c7c;
-	}
-}
-[t:generator_bush_01,n:0x03200dba]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scavenger";
-	  x initial_command = 0x03200D95;
-	  i max_alive_children = 2;
-	  i num_children_incubating = 4;
-	  f spawn_period = 40;
-	  x spawnpoint = 0x03200DBB;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.991445,0,-0.130526;
-	  p position = 1.93234,0,-1.53764,0x5aaef655;
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = 0.12281,0,-2.87408,0x62f7fd92;
 	}
 }
 [t:generator_bush_01,n:0x03200df6]
@@ -211,40 +152,6 @@
 	{
 	  q orientation = 0,-0.065403,0,0.997859;
 	  p position = -0.670929,0,2.25254,0x699ff114;
-	}
-}
-[t:generator_bush_01,n:0x03200dbe]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scavenger";
-	  x initial_command = 0x03200D97;
-	  i max_alive_children = 2;
-	  i num_children_incubating = 4;
-	  f spawn_period = 40;
-	  x spawnpoint = 0x03200DBF;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.866025,0,-0.5;
-	  p position = 2.46355,0,0.434189,0x29d85174;
-	}
-}
-[t:generator_bush_01,n:0x03200e0c]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scout";
-	  x initial_command = 0x03200E0E;
-	  i max_alive_children = 2;
-	  i num_children_incubating = 2;
-	  f spawn_period = 1;
-	  x spawnpoint = 0x03200E0D;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.793353,0,0.608761;
-	  p position = -3.97668,1,1.54398,0x38692345;
 	}
 }
 [t:generator_bush_01,n:0x03200df0]
@@ -279,6 +186,116 @@
 	{
 	  q orientation = 0,0.991445,0,-0.130526;
 	  p position = 0.827827,0,0.0404205,0xae91cd7b;
+	}
+}
+[t:generator_bush_01,n:0x03200dba]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scavenger";
+	  x initial_command = 0x03200D95;
+	  i max_alive_children = 2;
+	  i num_children_incubating = 4;
+	  f spawn_period = 40;
+	  x spawnpoint = 0x03200DBB;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,-0.130526;
+	  p position = 1.93234,0,-1.53764,0x5aaef655;
+	}
+}
+[t:generator_bush_01,n:0x03200df9]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scout";
+	  x initial_command = 0x03200DFB;
+	  i max_alive_children = 2;
+	  i num_children_incubating = 2;
+	  f spawn_period = 1;
+	  x spawnpoint = 0x03200DFA;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.442289,0,0.896873;
+	  p position = 3.00845,0,2.71797,0x2bd761c9;
+	}
+}
+[t:gen_bush_grass-krug_scavenger,n:0x032004e7]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.923879;
+	  p position = 0.864206,0,-2.57556,0x32473c1e;
+	}
+}
+[t:generator_bush_01,n:0x03200dfc]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scout";
+	  x initial_command = 0x03200DFE;
+	  i max_alive_children = 2;
+	  i num_children_incubating = 2;
+	  f spawn_period = 1;
+	  x spawnpoint = 0x03200DFD;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.130526,0,0.991445;
+	  p position = 2.56452,-0.454445,-0.90889,0xa45d9ae0;
+	}
+}
+[t:generator_bush_01,n:0x03200e01]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scout";
+	  x initial_command = 0x03200E03;
+	  i max_alive_children = 2;
+	  i num_children_incubating = 2;
+	  f spawn_period = 1;
+	  x spawnpoint = 0x03200E02;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.896873,0,0.442289;
+	  p position = -0.713676,0,1.05589,0xb4c60c7c;
+	}
+}
+[t:generator_bush_01,n:0x03200dbe]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scavenger";
+	  x initial_command = 0x03200D97;
+	  i max_alive_children = 2;
+	  i num_children_incubating = 4;
+	  f spawn_period = 40;
+	  x spawnpoint = 0x03200DBF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.866025,0,-0.5;
+	  p position = 2.46355,0,0.434189,0x29d85174;
+	}
+}
+[t:generator_bush_01,n:0x03200e0c]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scout";
+	  x initial_command = 0x03200E0E;
+	  i max_alive_children = 2;
+	  i num_children_incubating = 2;
+	  f spawn_period = 1;
+	  x spawnpoint = 0x03200E0D;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.793353,0,0.608761;
+	  p position = -3.97668,1,1.54398,0x38692345;
 	}
 }
 [t:generator_bush_01,n:0x03200de1]
@@ -459,48 +476,6 @@
 	  p position = 0.949661,0,0.395115,0xf292f62a;
 	}
 }
-[t:gen_bush_grass-krug_scavenger,n:0x03200489]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.828499,0,1.04014,0xc88268a2;
-	}
-}
-[t:generator_bush_01,n:0x03200e19]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scavenger";
-	  x initial_command = 0x03200E1B;
-	  i max_alive_children = 3;
-	  i num_children_incubating = 3;
-	  f spawn_period = 1;
-	  x spawnpoint = 0x03200E1A;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.659346,0,0.75184;
-	  p position = -4.92878,-4.65,5.55907,0x1939e1a6;
-	}
-}
-[t:generator_bush_01,n:0x03200e1d]
-{
-	[generator_advanced_a2]
-	{
-		child_template_name = "krug_scout";
-	  x initial_command = 0x03200E1F;
-	  i max_alive_children = 2;
-	  i num_children_incubating = 2;
-	  f spawn_period = 1;
-	  x spawnpoint = 0x03200E1E;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.997859,0,0.0654031;
-	  p position = -6.69088,-4.65,3.62904,0x1939e1a6;
-	}
-}
 [t:generator_bush_01,n:0x03200dc4]
 {
 	[generator_advanced_a2]
@@ -586,20 +561,45 @@
 	  p position = 2.75263,0,-1.45857,0xae5068f5;
 	}
 }
-[t:generator_bush_01,n:0x03200dfc]
+[t:gen_bush_grass-krug_scavenger,n:0x03200489]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.828499,0,1.04014,0xc88268a2;
+	}
+}
+[t:generator_bush_01,n:0x03200e19]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "krug_scavenger";
+	  x initial_command = 0x03200E1B;
+	  i max_alive_children = 3;
+	  i num_children_incubating = 3;
+	  f spawn_period = 1;
+	  x spawnpoint = 0x03200E1A;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.659346,0,0.75184;
+	  p position = -4.92878,-4.65,5.55907,0x1939e1a6;
+	}
+}
+[t:generator_bush_01,n:0x03200e1d]
 {
 	[generator_advanced_a2]
 	{
 		child_template_name = "krug_scout";
-	  x initial_command = 0x03200DFE;
+	  x initial_command = 0x03200E1F;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
 	  f spawn_period = 1;
-	  x spawnpoint = 0x03200DFD;
+	  x spawnpoint = 0x03200E1E;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.130526,0,0.991445;
-	  p position = 2.56452,-0.454445,-0.90889,0xa45d9ae0;
+	  q orientation = 0,0.997859,0,0.0654031;
+	  p position = -6.69088,-4.65,3.62904,0x1939e1a6;
 	}
 }

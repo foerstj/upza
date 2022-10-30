@@ -129,6 +129,66 @@
 		use_point_scids = 0x03200858, 0x03200859;
 	}
 }
+[t:door_glb_woodfence_left_01,n:0x03200cfd]
+{
+	[placement]
+	{
+	  q orientation = 0,-3.57628e-007,0,1;
+	  p position = -0.00460815,-0.95,1.01216,0xf3e5ffc9;
+		use_point_scids = 0x03200d02,0x03200d01;
+	}
+}
+[t:sign_grs_elddim,n:0x03200476]
+{
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.49012e-007;
+	  p position = 0.00971413,-0.336544,1.34202,0x4693b784;
+	}
+}
+[t:door_grs_peasant_right,n:0x03200bdf]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x032004F9;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707108,0,-0.707107;
+	  p position = 11.2432,-2.7,-0.106064,0xf9384d81;
+		use_point_scids = 0x03200c18,0x03200c17;
+	}
+}
+[t:sign_glb_inn_02,n:0x03200c4e]
+{
+	[common]
+	{
+		screen_name = "Golden Mug Tavern";
+	}
+	[placement]
+	{
+	  p position = 13.3289,0.596196,0.60199,0xf9384d81;
+	}
+}
+[t:door_grs_peasant_left,n:0x03200c0a]
+{
+	[aspect]
+	{
+	  f use_range = 0.5;
+	}
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x032001BF;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984808,0,-0.173648;
+	  p position = 1.34623,-3.65,-3.38316,0xd5a8597c;
+		use_point_scids = 0x03200c06,0x03200c03;
+	}
+}
 [t:door_grs_peasant_left,n:0x03200bdb]
 {
 	[aspect]
@@ -165,7 +225,45 @@
 		use_point_scids = 0x03200c08,0x03200c01;
 	}
 }
-[t:door_grs_peasant_left,n:0x03200c0a]
+[t:sign_glb_magic_left,n:0x03200477]
+{
+	[common]
+	{
+		screen_name = "Azunite Shrine of Passion";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.97237,0,0.233445;
+	  p position = -0.302471,-3.53426,-9.40536,0x46a39592;
+	}
+}
+[t:door_grs_peasant_left,n:0x03200be1]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x03200163;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.986286,0,-0.165047;
+	  p position = 4.97437,-3.1,-5.90658,0x46a39592;
+		use_point_scids = 0x03200c16,0x03200c15;
+	}
+}
+[t:sign_glb_blacksmith_right,n:0x032004e4]
+{
+	[common]
+	{
+		screen_name = "Zabar's Smithy";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.48793,0.395568,-3.90027,0x88e4e88a;
+	}
+}
+[t:door_grs_peasant_left,n:0x03200be7]
 {
 	[aspect]
 	{
@@ -173,56 +271,32 @@
 	}
 	[door_basic]
 	{
-	  x msg_scid_opening = 0x032001BF;
+	  x msg_scid_opening = 0x03200003;
 		msg_type_opening = we_trigger_activate;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.984808,0,-0.173648;
-	  p position = 1.34623,-3.65,-3.38316,0xd5a8597c;
-		use_point_scids = 0x03200c06,0x03200c03;
+	  q orientation = 0,-0.986286,0,0.165049;
+	  p position = 1.31889,-3.65,-3.50213,0x5419dd1b;
+		use_point_scids = 0x03200c12,0x03200c11;
 	}
 }
-[t:door_grs_peasant_right,n:0x03200bdf]
+[t:door_grs_peasant_left,n:0x03200c05]
 {
+	[aspect]
+	{
+	  f use_range = 0.5;
+	}
 	[door_basic]
 	{
-	  x msg_scid_opening = 0x032004F9;
+	  x msg_scid_opening = 0x032001C2;
 		msg_type_opening = we_trigger_activate;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.707108,0,-0.707107;
-	  p position = 11.2432,-2.7,-0.106064,0xf9384d81;
-		use_point_scids = 0x03200c18,0x03200c17;
-	}
-}
-[t:sign_glb_inn_02,n:0x03200c4e]
-{
-	[common]
-	{
-		screen_name = "Golden Mug Tavern";
-	}
-	[placement]
-	{
-	  p position = 13.3289,0.596196,0.60199,0xf9384d81;
-	}
-}
-[t:door_glb_woodfence_left_01,n:0x03200cfd]
-{
-	[placement]
-	{
-	  q orientation = 0,-3.57628e-007,0,1;
-	  p position = -0.00460815,-0.95,1.01216,0xf3e5ffc9;
-		use_point_scids = 0x03200d02,0x03200d01;
-	}
-}
-[t:sign_grs_elddim,n:0x03200476]
-{
-	[placement]
-	{
-	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = 0.00971413,-0.336544,1.34202,0x4693b784;
+	  q orientation = 0,0.992546,0,0.121869;
+	  p position = 0.947403,-3,-3.11549,0x23777411;
+		use_point_scids = 0x03200c07,0x03200c0c;
 	}
 }
 [t:door_grs_barn_right,n:0x03200be3]
@@ -308,80 +382,6 @@
 		use_point_scids = 0x03200c14,0x03200c13;
 	}
 }
-[t:sign_glb_magic_left,n:0x03200477]
-{
-	[common]
-	{
-		screen_name = "Azunite Shrine of Passion";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.97237,0,0.233445;
-	  p position = -0.302471,-3.53426,-9.40536,0x46a39592;
-	}
-}
-[t:door_grs_peasant_left,n:0x03200be1]
-{
-	[door_basic]
-	{
-	  x msg_scid_opening = 0x03200163;
-		msg_type_opening = we_trigger_activate;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.986286,0,-0.165047;
-	  p position = 4.97437,-3.1,-5.90658,0x46a39592;
-		use_point_scids = 0x03200c16,0x03200c15;
-	}
-}
-[t:door_grs_peasant_left,n:0x03200be7]
-{
-	[aspect]
-	{
-	  f use_range = 0.5;
-	}
-	[door_basic]
-	{
-	  x msg_scid_opening = 0x03200003;
-		msg_type_opening = we_trigger_activate;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.986286,0,0.165049;
-	  p position = 1.31889,-3.65,-3.50213,0x5419dd1b;
-		use_point_scids = 0x03200c12,0x03200c11;
-	}
-}
-[t:door_grs_peasant_left,n:0x03200c05]
-{
-	[aspect]
-	{
-	  f use_range = 0.5;
-	}
-	[door_basic]
-	{
-	  x msg_scid_opening = 0x032001C2;
-		msg_type_opening = we_trigger_activate;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.992546,0,0.121869;
-	  p position = 0.947403,-3,-3.11549,0x23777411;
-		use_point_scids = 0x03200c07,0x03200c0c;
-	}
-}
-[t:sign_glb_blacksmith_right,n:0x032004e4]
-{
-	[common]
-	{
-		screen_name = "Zabar's Smithy";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 2.48793,0.395568,-3.90027,0x88e4e88a;
-	}
-}
 [t:sign_glb_blacksmith_left,n:0x032004f3]
 {
 	[common]
@@ -392,6 +392,24 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 5.44213,0.14069,1.76645,0x01f2fa60;
+	}
+}
+[t:door_grs_farmhouse,n:0x03200c04]
+{
+	[aspect]
+	{
+	  f use_range = 0.5;
+	}
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x032001CB;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,-0.382683;
+	  p position = 1.19771,-2.25,-2.40384,0x0255a9d2;
+		use_point_scids = 0x03200c1a,0x03200c19;
 	}
 }
 [t:door_grs_peasant_left,n:0x03200bfa]
@@ -412,18 +430,6 @@
 		use_point_scids = 0x03200bf5,0x03200be5;
 	}
 }
-[t:sign_glb_magic_left,n:0x03200501]
-{
-	[common]
-	{
-		screen_name = "Azunite Shrine of Passion";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.93358,0,0.358367;
-	  p position = -1.34744,0,-1.15608,0x64c427c6;
-	}
-}
 [t:door_grs_peasant_left,n:0x03200bfe]
 {
 	[aspect]
@@ -442,21 +448,15 @@
 		use_point_scids = 0x03200bde,0x03200be0;
 	}
 }
-[t:door_grs_farmhouse,n:0x03200c04]
+[t:sign_glb_magic_left,n:0x03200501]
 {
-	[aspect]
+	[common]
 	{
-	  f use_range = 0.5;
-	}
-	[door_basic]
-	{
-	  x msg_scid_opening = 0x032001CB;
-		msg_type_opening = we_trigger_activate;
+		screen_name = "Azunite Shrine of Passion";
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.92388,0,-0.382683;
-	  p position = 1.19771,-2.25,-2.40384,0x0255a9d2;
-		use_point_scids = 0x03200c1a,0x03200c19;
+	  q orientation = 0,0.93358,0,0.358367;
+	  p position = -1.34744,0,-1.15608,0x64c427c6;
 	}
 }

@@ -14,22 +14,6 @@
 	  p position = -1.8536,-9.53674e-007,-3.82424,0xc4660a9d;
 	}
 }
-[t:chest_csl_06,n:0x03200493]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	  b is_invincible = true;
-	  b is_selectable = false;
-	  b rollover_highlight = false;
-	  f scale_multiplier = 0.950009;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.573576,0,-0.819152;
-	  p position = 4.71368,-3.65,-2.24864,0x98240029;
-	}
-}
 [t:cask_glb_ale,n:0x032002cf]
 {
 	[aspect]
@@ -147,12 +131,50 @@
 	  p position = -7.44189,-1.88914,-7.58477,0xf9384d81;
 	}
 }
-[t:barrel_glb_fh_r1,n:0x03200944]
+[t:chest_csl_06,n:0x03200493]
 {
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	  b rollover_highlight = false;
+	  f scale_multiplier = 0.950009;
+	}
 	[placement]
 	{
-	  q orientation = 0,0.981627,0,-0.190809;
-	  p position = 0.250267,-1.90735e-006,0.535767,0xf33d849f;
+	  q orientation = 0,0.573576,0,-0.819152;
+	  p position = 4.71368,-3.65,-2.24864,0x98240029;
+	}
+}
+[t:chest_csl_06,n:0x0320036e]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	  f scale_multiplier = 0.997053;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.829037,0,0.559194;
+	  p position = 4.33381,-2.1,2.9062,0x46a39592;
+	}
+}
+[t:chest_csl_06,n:0x03200370]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	  f scale_multiplier = 0.929907;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.814115,0,-0.580704;
+	  p position = 6.82296,-3.1,-4.21026,0x46a39592;
 	}
 }
 [t:crate_glb,n:0x03200321]
@@ -201,6 +223,14 @@
 	{
 	  q orientation = 0,-0.224951,0,0.97437;
 	  p position = 10.7033,-0.194636,7.51236,0x7ea1508c;
+	}
+}
+[t:barrel_glb_fh_r1,n:0x03200944]
+{
+	[placement]
+	{
+	  q orientation = 0,0.981627,0,-0.190809;
+	  p position = 0.250267,-1.90735e-006,0.535767,0xf33d849f;
 	}
 }
 [t:barrel_glb,n:0x0320030b]
@@ -377,35 +407,5 @@
 	{
 	  q orientation = 0,-0.275637,0,0.961262;
 	  p position = 0.890846,2,-3.93604,0x2c0b4ca2;
-	}
-}
-[t:chest_csl_06,n:0x0320036e]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	  b is_invincible = true;
-	  b is_selectable = false;
-	  f scale_multiplier = 0.997053;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.829037,0,0.559194;
-	  p position = 4.33381,-2.1,2.9062,0x46a39592;
-	}
-}
-[t:chest_csl_06,n:0x03200370]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	  b is_invincible = true;
-	  b is_selectable = false;
-	  f scale_multiplier = 0.929907;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.814115,0,-0.580704;
-	  p position = 6.82296,-3.1,-4.21026,0x46a39592;
 	}
 }
