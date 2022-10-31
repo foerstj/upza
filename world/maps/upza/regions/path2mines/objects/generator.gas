@@ -251,7 +251,7 @@
 {
 	[generator_advanced_a2]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  x initial_command = 0x002008B2;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
@@ -267,7 +267,7 @@
 {
 	[generator_advanced_a2]
 	{
-		child_template_name = "krug_throw";
+		child_template_name = "krug_throw_zombie";
 	  x initial_command = 0x00200601;
 	  i max_alive_children = 2;
 	  i num_children_incubating = 2;
@@ -291,7 +291,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -304,7 +304,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -317,7 +317,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -330,7 +330,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -343,7 +343,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -382,7 +382,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -395,7 +395,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -408,7 +408,7 @@
 {
 	[generator_basic]
 	{
-		child_template_name = "krug_throw";
+		child_template_name = "krug_throw_zombie";
 	  f spawn_period = 0.000000;
 	}
 	[placement]
@@ -421,7 +421,7 @@
 {
 	[generator_advanced_a2]
 	{
-		child_template_name = "krug_grunt";
+		child_template_name = "krug_grunt_zombie";
 	  x initial_command = 0x002005C9;
 	  i max_alive_children = 2;
 	  x spawnpoint = 0x002005C8;
@@ -829,7 +829,7 @@
 {
 	[generator_advanced_a2]
 	{
-		child_template_name = "krug_throw";
+		child_template_name = "krug_throw_zombie";
 	  x initial_command = 0x00200A4E;
 	  i max_alive_children = 3;
 	  i num_children_incubating = 3;
