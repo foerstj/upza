@@ -1,0 +1,82 @@
+[t:template,n:gen_tent_flap_glb-bandit_melee_zombie]
+{
+	specializes		= generator_base_glb_tent_flap;
+	doc 			= "gen_tent_flap_glb-bandit_melee_zombie";
+
+    [generator_advanced_a2]
+	{
+        Child_Template_Name = bandit_melee_zombie;
+	}
+}
+[t:template,n:gen_tent_flap_glb-bandit_ranged_zombie]
+{
+	specializes		= generator_base_glb_tent_flap;
+	doc 			= "gen_tent_flap_glb-bandit_ranged_zombie";
+
+    [generator_advanced_a2]
+	{
+        Child_Template_Name = bandit_ranged_zombie;
+	}
+}
+
+[t:template,n:gen_bush_grass-bandit_ranged_zombie]
+{
+	specializes = generator_base_generic_bush;
+	doc = "generator_bush_grass-bandit_ranged_zombie";
+
+	[aspect]
+	{
+	    [textures] { 0=b_i_grs_bush-rhod; }
+	}
+
+	[generator_advanced_a2]
+	{
+        Child_Template_Name = bandit_ranged_zombie;
+	}
+}
+[t:template,n:gen_bush_grass-bandit_melee_zombie]
+{
+	specializes = generator_base_generic_bush;
+	doc = "generator_bush_grass-bandit_melee_zombie";
+
+	[aspect]
+	{
+	    [textures] { 0=b_i_grs_bush-rhod; }
+	}
+
+	[generator_advanced_a2]
+	{
+        Child_Template_Name = bandit_melee_zombie;
+	}
+}
+
+[t:template,n:gen_bush_snow-bandit_ranged_zombie]
+{
+	specializes = generator_base_generic_bush;
+	doc = "generator_bush_snow-bandit_ranged_zombie";
+
+	[aspect]
+	{
+		[textures] { 0=b_i_ice_bush-rhod; }
+	}
+
+	[generator_advanced_a2]
+	{
+        Child_Template_Name = bandit_ranged_zombie;
+	}
+}
+[t:template,n:gen_bush_snow-bandit_melee_zombie]
+{
+	specializes = generator_base_generic_bush;
+	doc = "generator_bush_snow-bandit_melee_zombie";
+
+	[aspect]
+	{
+		[textures] { 0=b_i_ice_bush-rhod; }
+	}
+
+	[generator_advanced_a2]
+	{
+        Child_Template_Name = bandit_melee_zombie;
+	}
+}
