@@ -11389,18 +11389,6 @@
 	  p position = -2.24279,-4.52886,-4.07767,0x5419dd1b;
 	}
 }
-[t:foliage_grs_01,n:0x032007b7]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.9587;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.128295,0,0.991736;
-	  p position = 1.14418,0,1.36469,0xe27d65bd;
-	}
-}
 [t:wood_glb_pile_fireplace,n:0x03200c25]
 {
 	[placement]
@@ -25654,6 +25642,18 @@
 	{
 	  q orientation = 0,0.979736,0,-0.200293;
 	  p position = -2.46971,0,-1.49488,0xe27d65bd;
+	}
+}
+[t:foliage_grs_01,n:0x032007b7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.9587;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.128295,0,0.991736;
+	  p position = 1.14418,0,1.36469,0xe27d65bd;
 	}
 }
 [t:bush_grs_rhod_01,n:0x03200b77]
