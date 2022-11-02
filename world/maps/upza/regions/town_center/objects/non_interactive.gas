@@ -38,6 +38,22 @@
 	  p position = 1.13612,-1,-0.697188,0x3149e76b;
 	}
 }
+[t:tree_grs_pine_01_rescaled,n:0x032000bc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.995237;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.451087,0,0.89248;
+	  p position = -1.37822,0,1.8153,0xcaf63fcf;
+	}
+}
 [t:tree_grs_pine_01_rescaled,n:0x032000c7]
 {
 	[aspect]
@@ -8329,7 +8345,7 @@
 	  p position = -1.59604,-3.65,-1.63534,0xd5a8597c;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200c36]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200c36]
 {
 	[placement]
 	{
@@ -9455,7 +9471,7 @@
 	  p position = -7.8831,-4.65,5.47049,0x98240029;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200c35]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200c35]
 {
 	[placement]
 	{
@@ -9773,7 +9789,7 @@
 	  p position = -1.52354,-2.45395,-4.53441,0x48b898f3;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200c38]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200c38]
 {
 	[placement]
 	{
@@ -11389,7 +11405,7 @@
 	  p position = -2.24279,-4.52886,-4.07767,0x5419dd1b;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200c25]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200c25]
 {
 	[placement]
 	{
@@ -11911,7 +11927,7 @@
 	  p position = -5.68736,-5,-1.44561,0x23777411;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200c24]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200c24]
 {
 	[placement]
 	{
@@ -25417,22 +25433,6 @@
 	  p position = 1.39376,-1,-1.48923,0xad09ac26;
 	}
 }
-[t:tree_grs_pine_01_rescaled,n:0x032000bc]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.995237;
-	}
-	[common]
-	{
-		dev_instance_text = "gaspy plant_gen";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.451087,0,0.89248;
-	  p position = -1.37822,0,1.8153,0xcaf63fcf;
-	}
-}
 [t:tree_grs_apple_01,n:0x03200c9c]
 {
 	[aspect]
@@ -29257,7 +29257,7 @@
 	  p position = 5.84198,-0.476694,-0.498245,0x23b25ea4;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200375]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200375]
 {
 	[aspect]
 	{
@@ -29521,7 +29521,7 @@
 	  p position = 2.56765,-2.25,-0.0987708,0x0255a9d2;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200205]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200205]
 {
 	[aspect]
 	{
@@ -30891,7 +30891,7 @@
 	  p position = 1.29606,-3.95,2.30797,0x2a09571b;
 	}
 }
-[t:wood_glb_pile_fireplace,n:0x03200460]
+[t:wood_glb_pile_fireplace_burnt_unlit,n:0x03200460]
 {
 	[aspect]
 	{
