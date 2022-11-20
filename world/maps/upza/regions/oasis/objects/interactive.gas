@@ -118,18 +118,18 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.500000;
+	  f scale_multiplier = 0.5;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x076000B1;
 	  x on_scid = 0x076000B1;
-	  f required_level = 50.000000;
-	  f required_level_2 = 80.000000;
-	  f required_level_3 = 106.000000;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f required_level = 50;
+	  f required_level_2 = 80;
+	  f required_level_3 = 106;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{

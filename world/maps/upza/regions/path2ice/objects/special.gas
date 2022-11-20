@@ -231,6 +231,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -249,7 +250,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -423,9 +423,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 2.700000;
-	  f health_left = 725.200000;
-	  f health_regen = 0.167600;
+	  f heal_amount = 2.7;
+	  f health_left = 725.2;
+	  f health_regen = 0.1676;
 	}
 	[placement]
 	{
