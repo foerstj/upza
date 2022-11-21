@@ -290,7 +290,7 @@
 	}
 	[set_quest_bits]
 	{
-		bool_variable = "teleporter_snow_town_sf_r2_active";
+		bool_variable = "teleport_snow_town_sf_r2_active";
 	}
 }
 [t:trigger_generic,n:0x044002e9]
@@ -342,7 +342,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "teleporter_snow_town_sf_r2_active";
+		bool_variable = "teleport_snow_town_sf_r2_active";
 	  i level = 1;
 	  i object = -1;
 	  i region = 756040636;
