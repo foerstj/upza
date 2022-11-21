@@ -392,7 +392,6 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
-	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -410,27 +409,11 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,-0.707107;
-	  p position = 20.2472,0.65,-5.31503,0x0d62b522;
-	}
-}
-[t:trigger_generic,n:0x04e000e5]
-{
-	[common]
-	{
-		dev_instance_text = "PLAYER LOCATION";
-		[instance_triggers]
-		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x04E00A4D,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x04E001EA,0f,"default","every",0);
 			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-				condition* = party_member_within_node(0x5E970790,3,-1,-1,"wait_for_every_message");
+				condition* = party_member_within_bounding_box(5.000000,1.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -446,7 +429,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,-0.707107;
-	  p position = -0.0189323,2.4177,0.021019,0x33b8f42b;
+	  p position = 20.2472,0.65,-5.31503,0x0d62b522;
 	}
 }
 [t:use_point,n:0x04e000fc]
@@ -2438,5 +2421,34 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = -2.01707,0,-1.80515,0x958bd2c1;
+	}
+}
+[t:set_quest_bits,n:0x04e001ea]
+{
+	[placement]
+	{
+	  p position = 1.58333,0,0.62815,0x9bc74358;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_swamp_town_active";
+	}
+}
+[t:check_quest_bits,n:0x04e000e5]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_swamp_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = 1586956176;
+	  i section = 3;
+	  x send_to_scid = 0x04E00A4D;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -0.0189323,2.4177,0.021019,0x33b8f42b;
 	}
 }

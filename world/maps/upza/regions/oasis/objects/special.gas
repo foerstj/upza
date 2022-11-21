@@ -1439,6 +1439,7 @@
 			[*]
 			{
 				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
+				action* = send_world_message("we_req_activate",0x076000BD,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1485,35 +1486,6 @@
 	[placement]
 	{
 	  p position = 1.03578,0.1,0.415873,0x76b1bc12;
-	}
-}
-[t:trigger_generic,n:0x076000b1]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x076009FF,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-				condition* = party_member_within_node(0x9EA4ABB9,3,-1,-1,"wait_for_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0,2,0,0x76b1bc12;
 	}
 }
 [t:trigger_change_mood_box,n:0x076009aa]
@@ -2244,5 +2216,33 @@
 	[placement]
 	{
 	  p position = -2.055,-6.95,11.1566,0xbcab5d28;
+	}
+}
+[t:set_quest_bits,n:0x076000bd]
+{
+	[placement]
+	{
+	  p position = 16.3067,0.1,0.340879,0x28044fa7;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_oasis_active";
+	}
+}
+[t:check_quest_bits,n:0x076000b1]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_oasis_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1633375303;
+	  i section = 3;
+	  x send_to_scid = 0x076009FF;
+	}
+	[placement]
+	{
+	  p position = 0,2,0,0x76b1bc12;
 	}
 }

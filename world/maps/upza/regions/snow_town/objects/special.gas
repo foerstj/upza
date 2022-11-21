@@ -4,7 +4,6 @@
 	{
 		description = "PLAYER LOCATION";
 		dev_instance_text = "PLAYER LOCATION";
-	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -19,6 +18,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x02700264,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.000000,5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -42,36 +56,6 @@
 	[placement]
 	{
 	  p position = 1.05501,0.100001,0.478885,0xaaef999b;
-	}
-}
-[t:trigger_change_mood_box,n:0x02700769]
-{
-	[common]
-	{
-		dev_instance_text = "Check to see if someone is really on plate";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x0270035D,0f,"default","",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-				condition* = party_member_within_node(0xABA20100,3,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0,2,0,0xaaef999b;
 	}
 }
 [t:trigger_change_mood_box,n:0x0270059d]
@@ -3776,5 +3760,33 @@
 	[placement]
 	{
 	  p position = -1.5866,12,2.27553,0x06642f8f;
+	}
+}
+[t:set_quest_bits,n:0x02700264]
+{
+	[placement]
+	{
+	  p position = 16.5847,0.299999,-1.12066,0xf49c03ae;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_snow_town_active";
+	}
+}
+[t:check_quest_bits,n:0x02700769]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_snow_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1415446272;
+	  i section = 3;
+	  x send_to_scid = 0x0270035D;
+	}
+	[placement]
+	{
+	  p position = 0,2,0,0xaaef999b;
 	}
 }

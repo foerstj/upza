@@ -1235,7 +1235,6 @@
 	[common]
 	{
 		dev_instance_text = " PLAYER LOCATION";
-	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1250,6 +1249,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00C000DF,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(5.000000,1.500000,5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -1274,30 +1288,17 @@
 	  p position = 1.096,0.100003,0.353584,0xce51e64e;
 	}
 }
-[t:trigger_snd_msg_activate,n:0x00c00323]
+[t:check_quest_bits,n:0x00c00323]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "HUB ELEVATOR";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x00C00333,0f,"default","",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-				condition* = party_member_within_node(0xC2C0AFAB,4,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_mine_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1027559509;
+	  i section = 4;
+	  x send_to_scid = 0x00C00333;
 	}
 	[placement]
 	{
@@ -1825,5 +1826,16 @@
 	{
 	  q orientation = 0,0.95694,0,0.290285;
 	  p position = -0.801502,0,0.396683,0xcd4079f2;
+	}
+}
+[t:set_quest_bits,n:0x00c000df]
+{
+	[placement]
+	{
+	  p position = 16.7953,0.0999994,0.357346,0x4680aac1;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_mine_town_active";
 	}
 }

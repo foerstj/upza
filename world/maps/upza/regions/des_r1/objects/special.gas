@@ -2483,6 +2483,7 @@
 			[*]
 			{
 				action* = mood_change("multiplayer_world_des_r1_3");
+				action* = send_world_message("we_req_activate",0x0070058C,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,3.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2518,35 +2519,6 @@
 	  p position = 17.4933,0.3,-0.924538,0x781522ea;
 	}
 }
-[t:trigger_change_mood_box,n:0x0070071b]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x00700867,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-				condition* = party_member_within_node(0x83BB8C6B,3,-1,-1,"wait_for_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0,2,0,0x03063c2d;
-	}
-}
 [t:use_point,n:0x0070072d]
 {
 	[placement]
@@ -2559,5 +2531,33 @@
 	[placement]
 	{
 	  p position = 1.11665,0.1,0.581169,0x03063c2d;
+	}
+}
+[t:set_quest_bits,n:0x0070058c]
+{
+	[placement]
+	{
+	  p position = 17.3226,0.1,0.313007,0x781522ea;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_des_r1_active";
+	}
+}
+[t:check_quest_bits,n:0x0070071b]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_des_r1_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -2084860821;
+	  i section = 3;
+	  x send_to_scid = 0x00700867;
+	}
+	[placement]
+	{
+	  p position = 0,2,0,0x03063c2d;
 	}
 }

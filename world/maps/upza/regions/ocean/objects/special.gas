@@ -1111,7 +1111,6 @@
 {
 	[common]
 	{
-	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -1126,6 +1125,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00250,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(5.000000,1.000000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -2412,29 +2426,28 @@
 	  p position = -1.08075,0.0999997,0.517956,0x13127669;
 	}
 }
-[t:trigger_generic,n:0x04d00227]
+[t:set_quest_bits,n:0x04d00250]
 {
-	[common]
+	[placement]
 	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x04D0074F,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-				condition* = party_member_within_node(0xAAB30100,4,-1,-1,"wait_for_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+	  p position = 20.319,0.1,-6.52163,0xf68002e1;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_ocean_active";
+	}
+}
+[t:check_quest_bits,n:0x04d00227]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_ocean_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1431109376;
+	  i section = 4;
+	  x send_to_scid = 0x04D0074F;
 	}
 	[placement]
 	{

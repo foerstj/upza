@@ -28,30 +28,17 @@
 	  p position = -0.0455389,-7.4065,-0.00227618,0xd14939a3;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f0004f]
+[t:check_quest_bits,n:0x07f0004f]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F00050,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,7,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_des_r1_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 7;
+	  x send_to_scid = 0x07F00050;
 	}
 	[placement]
 	{
@@ -72,30 +59,17 @@
 	  p position = 1.15052,0.1,0.421865,0xfb248b43;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f0006e]
+[t:check_quest_bits,n:0x07f0006e]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F0003C,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,9,-1,-1,"wait_for_every_message"), doc("someone is one the plate[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_snow_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 9;
+	  x send_to_scid = 0x07F0003C;
 	}
 	[placement]
 	{
@@ -116,30 +90,17 @@
 	  p position = 1.18686,0.1,0.485522,0xb00ddb76;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f00048]
+[t:check_quest_bits,n:0x07f00048]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F00063,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,5,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_oasis_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 5;
+	  x send_to_scid = 0x07F00063;
 	}
 	[placement]
 	{
@@ -160,30 +121,17 @@
 	  p position = 1.06488,0.1,0.78013,0x3c74733a;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f0004a]
+[t:check_quest_bits,n:0x07f0004a]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F0003D,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,3,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_mine_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 3;
+	  x send_to_scid = 0x07F0003D;
 	}
 	[placement]
 	{
@@ -235,30 +183,17 @@
 	  p position = -1.1991,0.1,0.318698,0xa9cab56d;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f00054]
+[t:check_quest_bits,n:0x07f00054]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F00040,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,8,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_swamp_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 8;
+	  x send_to_scid = 0x07F00040;
 	}
 	[placement]
 	{
@@ -279,30 +214,17 @@
 	  p position = -1.15599,0.1,0.486596,0x0bf53f4e;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f0004d]
+[t:check_quest_bits,n:0x07f0004d]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F00052,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,6,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_castle_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 6;
+	  x send_to_scid = 0x07F00052;
 	}
 	[placement]
 	{
@@ -323,30 +245,17 @@
 	  p position = -1.2891,0.1,0.311231,0xeacf22f6;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f00047]
+[t:check_quest_bits,n:0x07f00047]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F00065,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,4,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_ocean_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 4;
+	  x send_to_scid = 0x07F00065;
 	}
 	[placement]
 	{
