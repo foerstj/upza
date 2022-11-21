@@ -204,30 +204,16 @@
 	  p position = 1.10681,0.1,0.704657,0x417efe22;
 	}
 }
-[t:trigger_rec_msg_activate,n:0x07f00049]
+[t:check_quest_bits,n:0x07f00049]
 {
-	[common]
+	[check_quest_bits]
 	{
-		dev_instance_text = "SCRIPTED EVENT";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07F00038,0f,"default","",0), doc("make sure party member is in node before activating elevator");
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message"), doc("someone pressed the button");
-				condition* = party_member_within_node(0x9E24A10A,2,-1,-1,"wait_for_every_message"), doc("[*message checker (trigger is non-pure )*]");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+		bool_variable = "teleport_hub_town_center_active";
+	  i level = -1;
+	  i object = -1;
+	  i region = -1641766646;
+	  i section = 2;
+	  x send_to_scid = 0x07F00038;
 	}
 	[placement]
 	{
