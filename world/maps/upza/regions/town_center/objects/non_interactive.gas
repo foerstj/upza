@@ -31790,16 +31790,15 @@
 	  p position = 4.55439,-3.65,0.527176,0x1939e1a6;
 	}
 }
-[t:body_glb_townsfolk_06,n:0x032004c1]
+[t:bones_glb_body,n:0x032004c1]
 {
 	[aspect]
 	{
-	  b interest_only = true;
 	  f scale_multiplier = 0.937545;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,-0.707107;
+	  q orientation = 0,0.382683,0,0.92388;
 	  p position = 2.90224,-3.6125,-1.0916,0x1939e1a6;
 	}
 }
