@@ -101,37 +101,3 @@
 		room_type			= rt_generic;
 	}
 }
-
-[mood_setting*]
-{
-	// This is the mood that you get when you teleport into the new_hub.
-	// Teleporting is the only way in.  =)
-	mood_name				= upza_new_hub_teleport;
-	transition_time			= 40.0f; // transition time extended after testing this in 8-player multiplayer games
-	interior				= true;
-
-	[frustum]
-	{
-		frustum_width		= 45.0f;
-		frustum_height		= 60.0f;
-	}
-	
-	[fog]
-	{
-		fog_near_dist		= 50.0f;
-		fog_far_dist		= 60.0f;
-		fog_lowdetail_near_dist		= 50.0f;
-		fog_lowdetail_far_dist		= 55.0f;
-		fog_color			= 0xFF000000;
-		fog_density			= 0.5f;
-	}
-
-	[rain] {} // empty [rain] block for lightning manipulation
-
-	[music]
-	{
-		ambient_track		= "";
-		standard_track		= "s_m_Farmhouse_03";  // s_m_Farmhouse_04
-		room_type			= rt_parkinglot;
-	}
-}
