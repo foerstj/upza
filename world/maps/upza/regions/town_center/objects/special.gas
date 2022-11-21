@@ -666,6 +666,7 @@
 	{
 		bool_variable = "teleport_hub_town_center_active";
 	  i level = -1;
+		map_name = "upza";
 	  i object = -1;
 	  i region = -710693671;
 	  i section = 4;
@@ -674,6 +675,17 @@
 	[placement]
 	{
 	  p position = 0,2,0,0x07c15973;
+	}
+}
+[t:set_quest_bits,n:0x0320027f]
+{
+	[placement]
+	{
+	  p position = -0.701088,0,-1.56354,0xfa0cdb08;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_town_center_active";
 	}
 }
 [t:trigger_change_mood_box,n:0x0320051c]
@@ -4309,16 +4321,5 @@
 	{
 	  q orientation = 0,1,0,-5.40167e-008;
 	  p position = 4.53401,1.2,0.00642395,0xfa409588;
-	}
-}
-[t:set_quest_bits,n:0x0320027f]
-{
-	[placement]
-	{
-	  p position = -0.701088,0,-1.56354,0xfa0cdb08;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_town_center_active";
 	}
 }
