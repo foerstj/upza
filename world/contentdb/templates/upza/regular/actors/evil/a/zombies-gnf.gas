@@ -107,6 +107,7 @@
     }
 
     // more loot: shop from original dod_malley
+    [actor] { drops_spellbook = true; }
 	[inventory]
 	{
 		[store_pcontent]
@@ -375,6 +376,7 @@
     }
 
     // more loot: shop from original mitromus_wyman
+    [actor] { drops_spellbook = true; }
 	[inventory]
 	{
 		[store_pcontent]

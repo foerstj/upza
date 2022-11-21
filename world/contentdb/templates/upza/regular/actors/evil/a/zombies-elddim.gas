@@ -486,6 +486,7 @@
 	}
 
     // more loot: shop from original mage_trianna_lelaine
+    [actor] { drops_spellbook = true; }
 	[inventory]
 	{
 		[store_pcontent]
