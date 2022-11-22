@@ -1,4 +1,4 @@
-[t:template,n:upza_base_bd_un_pl_f_g_c_leg]
+[t:template,n:upza_base_bd_un_leg]
 {
 	specializes = base_body_armor_plate;
 
@@ -7,7 +7,7 @@
 		is_pcontent_allowed = false;
 	  b allow_modifiers = false;
 		pcontent_special_type = unique;
-		screen_name = "Standard Plate";
+		screen_name = "2nd Legion Armor";
 	}
 	[defend]
 	{
@@ -22,47 +22,14 @@
 	}
 }
 
-[t:template,n:upza_bd_un_pl_f_g_c_leg_01]
+[t:template,n:bd_un_le_f_g_c_avg_upza_leg_01]
 {
-    specializes = upza_base_bd_un_pl_f_g_c_leg;
+    specializes = upza_base_bd_un_leg;
 
-    [defend]
+    [common]
     {
-        defense = 100;
+        screen_name = "2nd Legion Cadet Leather";
     }
-    [gui]
-    {
-        equip_requirements = strength:13;
-    }
-}
-
-[t:template,n:upza_bd_un_pl_f_g_c_leg_02]
-{
-    specializes = upza_base_bd_un_pl_f_g_c_leg;
-
-    [defend]
-    {
-        armor_style = 015;
-    }
-    [gui]
-    {
-        inventory_icon = b_gui_ig_i_a_pos_a3_015;
-    }
-
-    [defend]
-    {
-        defense = 120;
-    }
-    [gui]
-    {
-        equip_requirements = strength:14;
-    }
-}
-
-[t:template,n:upza_bd_un_pl_f_g_c_leg_03]
-{
-    specializes = upza_base_bd_un_pl_f_g_c_leg;
-
     [defend]
     {
         armor_style = 016;
@@ -72,12 +39,69 @@
         inventory_icon = b_gui_ig_i_a_pos_a3_016;
     }
 
+    // stats
     [defend]
     {
-        defense = 150;
+        defense = 10;
     }
     [gui]
     {
-        equip_requirements = strength:15;
+        // no equip_requirements
+    }
+}
+
+[t:template,n:bd_un_ch_r_g_c_avg_upza_leg_02]
+{
+    specializes = upza_base_bd_un_leg;
+
+    [common]
+    {
+        screen_name = "2nd Legion Archer Chain";
+    }
+    [defend]
+    {
+        armor_style = 015;
+    }
+    [gui]
+    {
+        inventory_icon = b_gui_ig_i_a_pos_a3_015;
+    }
+
+    // stats
+    [defend]
+    {
+        defense = 50;
+    }
+    [gui]
+    {
+        equip_requirements = dexterity:15;
+    }
+}
+
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03]
+{
+    specializes = upza_base_bd_un_leg;
+
+    [common]
+    {
+        screen_name = "2nd Legion Fighter Plate";
+    }
+	[defend]
+	{
+		armor_style = 014;
+	}
+	[gui]
+	{
+		inventory_icon = b_gui_ig_i_a_pos_a3_014;
+	}
+
+    // stats
+    [defend]
+    {
+        defense = 200;
+    }
+    [gui]
+    {
+        equip_requirements = strength:20;
     }
 }
