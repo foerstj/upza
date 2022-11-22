@@ -1,0 +1,134 @@
+[t:template,n:upza_mate_legion_shop_base]
+{
+    specializes = upza_mate_npc_09_base;
+
+    // basic shop stuff
+	[actor] { portrait_icon = b_gui_ig_i_ic_c_torg; }  // not super fitting tbh
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		use_range = 1;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+    }
+
+    // store content: some basics, backpacks, and of course legion stuff TODO
+    [inventory]
+    {
+        [store_pcontent]
+        {
+			full_ratio = 0;
+
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/4-5;
+					max = 4;
+					min = 2;
+				}
+				[all*]
+				{
+					il_main = #body/4-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #gloves/1-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #helm/1-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #boots/1-5;
+					max = 8;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/1-5;
+					max = 8;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/3-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #ranged/3-5;
+					max = 8;
+					min = 4;
+				}
+			}
+			[misc]
+			{
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 8;
+					min = 4;
+				}
+                [all*]
+                {
+                    il_main = DSX_backpack_empty;
+                    max = 4;
+                    min = 4;
+                }
+			}
+        }
+    }
+	[store]
+	{
+		[item_restock]
+		{
+			potion_health_small = 30;
+			potion_mana_small = 30;
+			potion_rejuvenation_small = 5;
+
+			scroll_resurrect = 10;
+            spell_resurrect = 10;
+            spell_revive = 10;
+            spell_healing_hands = 10;
+
+            spell_fireshot = 4;
+            spell_zap = 4;
+		}
+	}
+}
+
+[t:template,n:upza_mate_legion_shop]
+{
+    specializes = upza_mate_legion_shop_base;
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = upza_bd_un_pl_f_g_c_leg_02;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_forearms = gl_ga_bl_f_g_c_avg;
+		}
+	}
+}

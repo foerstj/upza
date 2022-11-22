@@ -162,7 +162,7 @@
 	  p position = -3.18704,0,-1.56598,0x9d201134;
 	}
 }
-[t:upza_mate_npc_09,n:0x0790025d]
+[t:upza_mate_legion_shop,n:0x0790025d]
 {
 	[common]
 	{
@@ -174,15 +174,6 @@
 		{
 			* = leg_shop;
 			* = zconversation_red;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = upza_bd_un_pl_f_g_c_leg_02;
-			es_feet = bo_bo_ch_f_g_c_avg;
-			es_forearms = gl_ga_bl_f_g_c_avg;
 		}
 	}
 	[placement]
