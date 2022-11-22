@@ -42,3 +42,15 @@
 		use_point_scids = 0x07900eea;
 	}
 }
+[t:sign_glb_01,n:0x07900283]
+{
+	[common]
+	{
+		screen_name = "Legion Camp";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.240873,0,-0.970557;
+	  p position = 0.608509,-4,-1.42796,0xe4039f5e;
+	}
+}
