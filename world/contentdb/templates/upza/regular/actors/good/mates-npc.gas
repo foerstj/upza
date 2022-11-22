@@ -180,7 +180,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_01]
+[t:template,n:upza_mate_npc_01] { specializes = upza_mate_npc_01_base; }
+[t:template,n:upza_mate_npc_01_base]
 {
 	specializes = upza_base_mate_npc_fb;
 
@@ -199,7 +200,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_02]
+[t:template,n:upza_mate_npc_02] { specializes = upza_mate_npc_02_base; }
+[t:template,n:upza_mate_npc_02_base]
 {
 	specializes = upza_base_mate_npc_fg;
 
@@ -218,7 +220,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_03]
+[t:template,n:upza_mate_npc_03] { specializes = upza_mate_npc_03_base; }
+[t:template,n:upza_mate_npc_03_base]
 {
 	specializes = upza_base_mate_npc_fb;
 
@@ -237,7 +240,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_04]
+[t:template,n:upza_mate_npc_04] { specializes = upza_mate_npc_04_base; }
+[t:template,n:upza_mate_npc_04_base]
 {
 	specializes = upza_base_mate_npc_fg;
 
@@ -256,7 +260,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_05]
+[t:template,n:upza_mate_npc_05] { specializes = upza_mate_npc_05_base; }
+[t:template,n:upza_mate_npc_05_base]
 {
 	specializes = upza_base_mate_npc_fb;
 
@@ -275,7 +280,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_06]
+[t:template,n:upza_mate_npc_06] { specializes = upza_mate_npc_06_base; }
+[t:template,n:upza_mate_npc_06_base]
 {
 	specializes = upza_base_mate_npc_fg;
 
@@ -294,7 +300,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_07]
+[t:template,n:upza_mate_npc_07] { specializes = upza_mate_npc_07_base; }
+[t:template,n:upza_mate_npc_07_base]
 {
 	specializes = upza_base_mate_npc_fb;
 
@@ -313,7 +320,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_08]
+[t:template,n:upza_mate_npc_08] { specializes = upza_mate_npc_08_base; }
+[t:template,n:upza_mate_npc_08_base]
 {
 	specializes = upza_base_mate_npc_df;
 
@@ -332,7 +340,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_09]
+[t:template,n:upza_mate_npc_09] { specializes = upza_mate_npc_09_base; }
+[t:template,n:upza_mate_npc_09_base]
 {
 	specializes = upza_base_mate_npc_df;
 
@@ -351,7 +360,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_10]
+[t:template,n:upza_mate_npc_10] { specializes = upza_mate_npc_10_base; }
+[t:template,n:upza_mate_npc_10_base]
 {
 	specializes = upza_base_mate_npc_df;
 
@@ -370,7 +380,8 @@
 	}
 }
 
-[t:template,n:upza_mate_npc_11]
+[t:template,n:upza_mate_npc_11] { specializes = upza_mate_npc_11_base; }
+[t:template,n:upza_mate_npc_11_base]
 {
 	specializes = upza_base_mate_npc_fg;
 
