@@ -7,6 +7,54 @@
 		use_point_scids = 0x01c00826;
 	}
 }
+[t:torch_glb_stick_lightable,n:0x01c005de]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xACE7DE90;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xACE7DE90;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999657,0,0.0261768;
+	  p position = -1.08315,0,-0.546109,0x8f3b6879;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x01c005e0]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x952E0AE9;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x952E0AE9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.258819,0,0.965926;
+	  p position = 2.42841,0,0.427765,0x9423ccd4;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x01c005e1]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x9E80015E;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x9E80015E;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.207911,0,-0.978148;
+	  p position = 2.17883,0,-1.56776,0x1f7a84ab;
+	}
+}
 [t:respawn_statue,n:0x01c00352]
 {
 	[placement]
@@ -14,105 +62,5 @@
 	  q orientation = 0,-0.398749,0,0.91706;
 	  p position = -1.87662,0,0.196434,0xe1272122;
 		use_point_scids = 0x01c00267;
-	}
-}
-[t:sign_glb_01,n:0x01c00821]
-{
-	[common]
-	{
-		dev_instance_text = "sign_1";
-		screen_name = "Town of Lang, 39";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.608761,0,-0.793353;
-	  p position = -0.978516,0,-1.09625,0xe6dac553;
-	}
-}
-[t:sign_glb_01,n:0x01c00836]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim, 30";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.181244,0,-1.03647,0xe6dac553;
-	}
-}
-[t:sign_glb_01,n:0x01c0081c]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 49";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.991445,0,-0.130526;
-	  p position = 0.236023,1.68607,3.50016,0x33740f06;
-	}
-}
-[t:sign_glb_01,n:0x01c0081b]
-{
-	[common]
-	{
-		dev_instance_text = "sign_4";
-		screen_name = "Town of Elddim, 20";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.608762,0,0.793353;
-	  p position = 3.82475,0,-1.94193,0xaeb0d726;
-	}
-}
-[t:sign_glb_01,n:0x01c002fb]
-{
-	[common]
-	{
-		dev_instance_text = "sign_3";
-		screen_name = "Town of Elddim, 20";
-	}
-	[placement]
-	{
-	  q orientation = 4.20238e-016,-5.97916e-008,-9.87606e-009,1;
-	  p position = 3.21976,0,-2.5109,0x7c5e9ace;
-	}
-}
-[t:sign_glb_01,n:0x01c0034a]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 53";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.7384e-007;
-	  p position = 3.40973,0,-3.2873,0x7c5e9ace;
-	}
-}
-[t:sign_glb_01,n:0x01c00abc]
-{
-	[common]
-	{
-		dev_instance_text = "sign_2";
-		screen_name = "Town of Lang, 46";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.5,0,-0.866026;
-	  p position = 3.30746,0,1.49318,0xf462097a;
-	}
-}
-[t:sign_glb_01,n:0x01c00adb]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim, 27";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.130526,0,-0.991444;
-	  p position = 2.44117,0,-1.9409,0x33d3a12b;
 	}
 }
