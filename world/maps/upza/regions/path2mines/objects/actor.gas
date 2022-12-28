@@ -93,27 +93,8 @@
 	  p position = 1.08719,0,-0.80176,0xc0240113;
 	}
 }
-[t:mp_dwarf_legionnaire_guard,n:0x00200951]
+[t:upza_zombie_elddim_guard_dwarf,n:0x00200951]
 {
-	[aspect]
-	{
-	  b is_collidable = false;
-		model = m_c_gan_df_pos_a3;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
