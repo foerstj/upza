@@ -1,0 +1,36 @@
+[t:template,n:upza_base_bo_un_leg]
+{
+	specializes = base_boot;
+
+    doc = "2nd legion boots";
+
+	[common]
+	{
+		is_pcontent_allowed = false;
+	  b allow_modifiers = false;
+		pcontent_special_type = unique;
+		screen_name = "2nd Legion Boots";
+	}
+}
+
+[t:template,n:bo_un_bo_le_upza_leg]
+{
+    specializes = upza_base_bo_un_leg;
+    
+    [common]
+    {
+        screen_name = "2nd Legion Light Boots";
+    }
+	[defend]
+	{
+		armor_style = 068;
+		armor_type = type1;
+	  f defense = 1.000000;
+	}
+	[gui]
+	{
+		inventory_height = 2;
+		inventory_icon = b_gui_ig_i_a_boot_068;
+		inventory_width = 1;
+	}
+}
