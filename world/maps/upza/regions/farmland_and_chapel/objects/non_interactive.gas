@@ -2194,14 +2194,6 @@
 	  p position = 1.80783,-0.429207,0.580597,0x1a29ec93;
 	}
 }
-[t:body_glb_krug_01,n:0x01c00b18]
-{
-	[placement]
-	{
-	  q orientation = 0,0.83147,0,0.55557;
-	  p position = -2.12975,0.725951,-2.27563,0x1a29ec93;
-	}
-}
 [t:bush_swp_03,n:0x01c007a0]
 {
 	[aspect]
@@ -2968,14 +2960,6 @@
 	{
 	  q orientation = 0,0.999956,0,0.00934;
 	  p position = -0.0244021,0.47668,2.3786,0xfa7476d6;
-	}
-}
-[t:body_glb_krug_01,n:0x01c00b17]
-{
-	[placement]
-	{
-	  q orientation = 0,0.83147,0,0.55557;
-	  p position = -3.67554,-1,-2.79132,0xfa7476d6;
 	}
 }
 [t:bush_swp_03,n:0x01c00792]
@@ -8252,10 +8236,6 @@
 	{
 	  f scale_multiplier = 0.94224;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.999653,0,0.026343;
@@ -8496,10 +8476,6 @@
 	{
 	  f scale_multiplier = 0.81457;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.984755,0,0.173945;
@@ -8536,10 +8512,6 @@
 	{
 	  f scale_multiplier = 1.02596;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.495499,0,-0.868609;
@@ -8551,10 +8523,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.88286;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -8616,10 +8584,6 @@
 	{
 	  f scale_multiplier = 1.11894;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.984698,0,0.17427;
@@ -8632,10 +8596,6 @@
 	{
 	  f scale_multiplier = 1.26599;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.798593,0,0.601872;
@@ -8647,10 +8607,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.00664;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -8863,7 +8819,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.184273,0,-0.982875;
-	  p position = -2.69575,0,0.140521,0x8f3b6879;
+	  p position = -3.04928,0,0.582299,0x8f3b6879;
 	}
 }
 [t:board_grs_1m,n:0x01c005db]
@@ -8987,7 +8943,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.829327,0,0.558763;
-	  p position = 1.28192,0,-0.0443191,0x1f7a84ab;
+	  p position = 0.754701,0,0.451309,0x1f7a84ab;
 	}
 }
 [t:tent_grs_camp,n:0x01c005e4]
@@ -9007,7 +8963,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.842663,0,-0.538441;
-	  p position = 2.50176,0,-1.46206,0x1f7a84ab;
+	  p position = 2.96736,0,0.998978,0x1f7a84ab;
 	}
 }
 [t:cage_glb_break,n:0x01c00a5c]
@@ -9027,7 +8983,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.999446,0,0.033278;
-	  p position = 1.58638,0,-1.80589,0x07668b46;
+	  p position = 1.34695,0,0.326999,0x07668b46;
 	}
 }
 [t:tree_grs_deciduous_sway_15,n:0x01c003b0]
@@ -14982,21 +14938,6 @@
 	  p position = 1.37584,1,3.53991,0x1b1f35aa;
 	}
 }
-[t:body_glb_peasant_male_big_01,n:0x01c00446]
-{
-	[placement]
-	{
-	  p position = -3.19998,0.944441,-0.946526,0x1b1f35aa;
-	}
-}
-[t:body_glb_krug_01,n:0x01c00447]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -3.8535,1,1.19503,0x1b1f35aa;
-	}
-}
 [t:tree_grs_deciduous_sway_05,n:0x01c00387]
 {
 	[aspect]
@@ -16085,22 +16026,6 @@
 	  p position = 1.1541,-1,-0.772179,0x1f6dd6a9;
 	}
 }
-[t:body_glb_dog_01,n:0x01c0086f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382684,0,0.92388;
-	  p position = -0.77681,0,0.488338,0xa8ac3b63;
-	}
-}
-[t:body_glb_farmer_02,n:0x01c00a53]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.991445,0,0.130526;
-	  p position = 0.565376,0,0.339497,0xa8ac3b63;
-	}
-}
 [t:tree_glb_sway_04,n:0x01c0041b]
 {
 	[aspect]
@@ -16707,10 +16632,6 @@
 	{
 	  f scale_multiplier = 0.9374;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.306732,0,-0.951796;
@@ -16722,10 +16643,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.98551;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -16775,10 +16692,6 @@
 	{
 	  f scale_multiplier = 0.95327;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.611132,0,0.791529;
@@ -16827,10 +16740,6 @@
 	{
 	  f scale_multiplier = 0.98647;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.470853,0,-0.882212;
@@ -16855,10 +16764,6 @@
 	{
 	  f scale_multiplier = 1.16815;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.565576,0,0.824696;
@@ -16870,10 +16775,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.20436;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -16922,10 +16823,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.83898;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -16987,10 +16884,6 @@
 	{
 	  f scale_multiplier = 0.71457;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.974905,0,-0.222621;
@@ -17014,10 +16907,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.11274;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -17795,10 +17684,6 @@
 	{
 	  f scale_multiplier = 0.99593;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.78058,0,0.625056;
@@ -17822,10 +17707,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.97404;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -17875,10 +17756,6 @@
 	{
 	  f scale_multiplier = 1.01081;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.665612,0,0.746298;
@@ -17915,10 +17792,6 @@
 	{
 	  f scale_multiplier = 0.95622;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.678428,0,-0.734667;
@@ -17931,10 +17804,6 @@
 	{
 	  f scale_multiplier = 1.13247;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.14018,0,0.990126;
@@ -17946,10 +17815,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.81294;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -17986,10 +17851,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.89615;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -18075,10 +17936,6 @@
 	{
 	  f scale_multiplier = 0.80997;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.055472,0,0.99846;
@@ -18090,10 +17947,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.98466;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -18154,10 +18007,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.28029;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -18231,10 +18080,6 @@
 	{
 	  f scale_multiplier = 0.99193;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.996123,0,-0.087975;
@@ -18307,10 +18152,6 @@
 	{
 	  f scale_multiplier = 1.07362;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.900163,0,-0.435553;
@@ -18354,10 +18195,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.858;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -18442,10 +18279,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07042;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -18675,10 +18508,6 @@
 	{
 	  f scale_multiplier = 0.98528;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.355026,0,0.934857;
@@ -18811,10 +18640,6 @@
 	{
 	  f scale_multiplier = 1.07369;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.865658,0,0.500635;
@@ -18826,10 +18651,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.07789;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -18927,10 +18748,6 @@
 	{
 	  f scale_multiplier = 1.01913;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.955938,0,0.293568;
@@ -18954,10 +18771,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.16751;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -19091,10 +18904,6 @@
 	{
 	  f scale_multiplier = 1.13221;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.08482,0,-0.996396;
@@ -19167,10 +18976,6 @@
 	{
 	  f scale_multiplier = 1.18959;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.725653,0,0.688061;
@@ -19207,10 +19012,6 @@
 	{
 	  f scale_multiplier = 0.76075;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.915913,0,0.401377;
@@ -19222,10 +19023,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.78353;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -19370,10 +19167,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.94345;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -24839,10 +24632,6 @@
 	{
 	  f scale_multiplier = 1.28672;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.932321,0,-0.361633;
@@ -25698,10 +25487,6 @@
 	{
 	  f scale_multiplier = 1.11215;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.074434,0,-0.997226;
@@ -25749,10 +25534,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.88618;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -25850,10 +25631,6 @@
 	{
 	  f scale_multiplier = 0.85009;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.386292,0,-0.922377;
@@ -25913,10 +25690,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.78514;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -26062,10 +25835,6 @@
 	{
 	  f scale_multiplier = 1.21391;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.422843,0,-0.906203;
@@ -26078,10 +25847,6 @@
 	{
 	  f scale_multiplier = 0.8741;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.859791,0,-0.510646;
@@ -26093,10 +25858,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.9627;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -26182,10 +25943,6 @@
 	{
 	  f scale_multiplier = 0.896;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.103871,0,0.994591;
@@ -26257,10 +26014,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.10358;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -26334,10 +26087,6 @@
 	{
 	  f scale_multiplier = 1.04233;
 	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.924004,0,-0.382383;
@@ -26349,10 +26098,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.83631;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
@@ -26401,10 +26146,6 @@
 	[aspect]
 	{
 	  f scale_multiplier = 1.14146;
-	}
-	[body]
-	{
-		terrain_movement_permissions = lf_none;
 	}
 	[placement]
 	{
