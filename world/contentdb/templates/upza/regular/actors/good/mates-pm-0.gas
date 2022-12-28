@@ -1,0 +1,62 @@
+[t:template,n:upza_base_mate_pm]
+{
+	specializes = base_pm_fb;
+
+	category_name = "1W_character";
+	doc = "pm mate";
+
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+    [mind]
+    {
+        jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?todo=provide_args;  // placeholder - provide args in object instances
+    }
+}
+
+[t:template,n:upza_mate_pm_0_base]
+{
+    specializes = upza_base_mate_pm;
+
+	[actor]
+    {
+		portrait_icon = b_gui_ig_i_ic_c_andiemus;
+        [skills]
+        { 
+			strength 		=   0, 0, 10;
+			dexterity 		=   0, 0, 10;
+			intelligence 	=  	0, 0, 10;
+        }
+    }	
+	[aspect]
+    {
+        [textures]
+        {
+			0 = b_c_gah_fb_skin_03;  // red hair
+            1 = b_c_pos_a1_005;  // brown underwear
+        }
+    }
+}
+
+[t:template,n:upza_mate_pm_0]
+{
+    specializes = upza_mate_pm_0_base;
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_forearms = gl_ga_bl_f_g_c_avg;
+		}
+        [other]
+        {
+            il_main = dg_g_d_1h_fun;  // knife
+            il_main = potion_health_small;
+            il_main = potion_health_small;
+            il_main = potion_mana_small;
+        }
+    }
+}

@@ -96,7 +96,7 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	  f scroll_rate = 10.000000;
     }
 }
-[legionnaire_01]
+[peter_join]
 {
 	[text*]
 	{
@@ -121,13 +121,57 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	}
 	[text*]
 	{
+        choice = potential_member;
 	  i order = 3;
-		screen_text = "Anyways, this island seems to be a nice place, and we have plenty of provisions. We're all good for now. Go see the others!";
+		screen_text = "Anyways, this island seems to be a nice place, and we have plenty of provisions. We're all good for now. Let's go see the others! Shall we go together?";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright.";
+        choice = potential_member;
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_rejoin]
+{
+	[text*]
+	{
+        choice = potential_member;
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_disband_rejoin]
+{
+	[text*]
+	{
+        choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
 	  f scroll_rate = 10.000000;
 	}
 }

@@ -109,15 +109,27 @@
 	  p position = 0.390476,0,0.366371,0x6e3e79f3;
 	}
 }
-[t:upza_mate_npc_01,n:0x079000a9]
+[t:upza_mate_pm_0,n:0x079000a9]
 {
+	[common]
+	{
+		screen_name = "Peter";
+	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = legionnaire_01;
-			* = zconversation_red;
+			* = peter_join;
+			* = peter_reject;
+			* = peter_rejoin;
+			* = peter_accept_have_money;
+			* = peter_disband;
+			* = peter_disband_rejoin;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x79000a9&namespace=peter;
 	}
 	[placement]
 	{
