@@ -18,6 +18,15 @@
           i order = 0;
         }
     }
+    [hub]
+    {
+        screen_name = "Decalibrated H.U.B.";
+        [*]
+        {
+            description = "Decalibrated H.U.B.";
+          i order = 0;
+        }
+    }
 }
 
 [quests]
@@ -528,4 +537,26 @@
 		}
 	}
 
+    [recalibrate_elddim]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Elddim";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Elddim H.U.B. teleporter";
+        }
+    }
+    [recalibrate_crystwind]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Crystwind";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Crystwind H.U.B. teleporter";
+        }
+    }
 }

@@ -1230,6 +1230,17 @@
 	  p position = 0.0636139,-1.16302,0.0171614,0x38565792;
 	}
 }
+[t:set_quest_bits,n:0x00c000df]
+{
+	[placement]
+	{
+	  p position = 16.7953,0.0999994,0.357346,0x4680aac1;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_mine_town_active";
+	}
+}
 [t:trigger_change_mood_box,n:0x00c000e3]
 {
 	[common]
@@ -1826,16 +1837,5 @@
 	{
 	  q orientation = 0,0.95694,0,0.290285;
 	  p position = -0.801502,0,0.396683,0xcd4079f2;
-	}
-}
-[t:set_quest_bits,n:0x00c000df]
-{
-	[placement]
-	{
-	  p position = 16.7953,0.0999994,0.357346,0x4680aac1;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_mine_town_active";
 	}
 }

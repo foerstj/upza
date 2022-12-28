@@ -1,5 +1,9 @@
 [t:elevator_instant_4s_1c,n:0x07f00050]
 {
+	[common]
+	{
+		dev_instance_text = "QUILLRABE HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 7;
@@ -39,6 +43,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x07f0003c]
 {
+	[common]
+	{
+		dev_instance_text = "FALLRAEN HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 15;
@@ -78,6 +86,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x07f00063]
 {
+	[common]
+	{
+		dev_instance_text = "GRESCAL HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 31;
@@ -117,6 +129,44 @@
 }
 [t:elevator_instant_4s_1c,n:0x07f0003d]
 {
+	[common]
+	{
+		dev_instance_text = "CRYSTWIND HUB";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("recalibrate_crystwind","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("recalibrate_crystwind","active",0);
+				action* = change_quest_state("recalibrate_crystwind","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 23;
@@ -158,7 +208,41 @@
 {
 	[common]
 	{
-		dev_instance_text = "ELEVATOR";
+		dev_instance_text = "ELDDIM HUB";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("recalibrate_elddim","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("recalibrate_elddim","active",0);
+				action* = change_quest_state("recalibrate_elddim","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[elevator_instant_4s_1c]
 	{
@@ -199,6 +283,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x07f00040]
 {
+	[common]
+	{
+		dev_instance_text = "LANG HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 11;
@@ -238,6 +326,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x07f00052]
 {
+	[common]
+	{
+		dev_instance_text = "HIROTH HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 3;
@@ -277,6 +369,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x07f00065]
 {
+	[common]
+	{
+		dev_instance_text = "MEREN HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 27;
