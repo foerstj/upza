@@ -121,7 +121,7 @@
 	}
 	[t:start_group,n:eastern_island]
 	{
-	  b default = true;
+	  b default = false;
 		description = "The Eastern Island, a mythical place said to have magical passages to the Peninsula";
 	  b dev_only = false;
 	  i id = 0;
@@ -236,7 +236,7 @@
 	}
 	[t:start_group,n:elddim]
 	{
-	  b default = false;
+	  b default = true;
 		description = "Elddim, the Center of the Kingdom";
 	  b dev_only = false;
 	  i id = 1;
