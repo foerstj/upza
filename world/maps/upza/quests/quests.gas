@@ -559,4 +559,70 @@
             description = "Recalibrate the Crystwind H.U.B. teleporter";
         }
     }
+    [recalibrate_fallraen]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Fallraen";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Fallraen H.U.B. teleporter";
+        }
+    }
+    [recalibrate_meren]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Meren";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Meren H.U.B. teleporter";
+        }
+    }
+    [recalibrate_lang]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Lang";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Lang H.U.B. teleporter";
+        }
+    }
+    [recalibrate_quillrabe]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Quillrabe";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Quillrabe H.U.B. teleporter";
+        }
+    }
+    [recalibrate_hiroth]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Hiroth";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Hiroth H.U.B. teleporter";
+        }
+    }
+    [recalibrate_grescal]
+    {
+        chapter = hub;
+        screen_name = "Recalibrate Grescal";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Recalibrate the Grescal H.U.B. teleporter";
+        }
+    }
 }
