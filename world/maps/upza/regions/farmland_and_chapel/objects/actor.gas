@@ -983,20 +983,20 @@
 	  p position = -2.02814,0,-0.52356,0x7a632637;
 	}
 }
-[t:krug_apprentice,n:0x01c00ae0]
-{
-	[placement]
-	{
-	  q orientation = 0,0.224951,0,-0.97437;
-	  p position = -3.92235,0,-0.262566,0x7c5e9ace;
-	}
-}
 [t:krug_scout_zombie,n:0x01c001e6]
 {
 	[placement]
 	{
 	  q orientation = 0,1,0,-6.10948e-007;
 	  p position = 0.731754,0,-2.91862,0x7c5e9ace;
+	}
+}
+[t:krug_apprentice,n:0x01c00ae0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.224951,0,-0.97437;
+	  p position = -3.92235,0,-0.262566,0x7c5e9ace;
 	}
 }
 [t:krug_scout_zombie,n:0x01c001e8]
