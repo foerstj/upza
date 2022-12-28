@@ -316,6 +316,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x072005f0]
 {
+	[common]
+	{
+		dev_instance_text = "HIROTH HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 9;

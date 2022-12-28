@@ -729,6 +729,17 @@
 	  p position = 20.1074,0.4,-5.95645,0xa931d4e8;
 	}
 }
+[t:set_quest_bits,n:0x07200109]
+{
+	[placement]
+	{
+	  p position = 0.0874734,-9.53674e-007,-1.50812,0x4d9807ef;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_castle_town_active";
+	}
+}
 [t:trigger_change_mood_box,n:0x07200465]
 {
 	[common]
@@ -2652,6 +2663,23 @@
 	  p position = -0.67939,0.2,0.480103,0xd83c8403;
 	}
 }
+[t:check_quest_bits,n:0x0720006a]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_castle_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1126009836;
+	  i section = 3;
+	  x send_to_scid = 0x072005F0;
+	}
+	[placement]
+	{
+	  p position = 0,2,0,0xe922cc14;
+	}
+}
 [t:use_point,n:0x072000de]
 {
 	[placement]
@@ -2678,33 +2706,5 @@
 	[placement]
 	{
 	  p position = -2.4872,-2.65,-2.17723,0x2dbbce58;
-	}
-}
-[t:set_quest_bits,n:0x07200109]
-{
-	[placement]
-	{
-	  p position = 0.0874734,-9.53674e-007,-1.50812,0x4d9807ef;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_castle_town_active";
-	}
-}
-[t:check_quest_bits,n:0x0720006a]
-{
-	[check_quest_bits]
-	{
-		bool_variable = "teleport_hub_castle_town_active";
-	  i level = -1;
-		map_name = "upza";
-	  i object = -1;
-	  i region = -1126009836;
-	  i section = 3;
-	  x send_to_scid = 0x072005F0;
-	}
-	[placement]
-	{
-	  p position = 0,2,0,0xe922cc14;
 	}
 }

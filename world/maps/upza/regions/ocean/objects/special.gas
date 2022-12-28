@@ -1107,6 +1107,17 @@
 	  p position = -1.89584,0,3.60837,0xac545aed;
 	}
 }
+[t:set_quest_bits,n:0x04d00250]
+{
+	[placement]
+	{
+	  p position = 20.319,0.1,-6.52163,0xf68002e1;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_ocean_active";
+	}
+}
 [t:trigger_change_mood_box,n:0x04d00642]
 {
 	[common]
@@ -2424,17 +2435,6 @@
 	[placement]
 	{
 	  p position = -1.08075,0.0999997,0.517956,0x13127669;
-	}
-}
-[t:set_quest_bits,n:0x04d00250]
-{
-	[placement]
-	{
-	  p position = 20.319,0.1,-6.52163,0xf68002e1;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_ocean_active";
 	}
 }
 [t:check_quest_bits,n:0x04d00227]

@@ -90,6 +90,10 @@
 }
 [t:elevator_instant_4s_1c,n:0x04d0074f]
 {
+	[common]
+	{
+		dev_instance_text = "MEREN HUB";
+	}
 	[elevator_instant_4s_1c]
 	{
 	  i connect_door_location1_level1 = 9;

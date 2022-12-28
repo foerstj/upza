@@ -387,6 +387,17 @@
 	  p position = -0.776964,0,-9.11787,0x87d176e3;
 	}
 }
+[t:set_quest_bits,n:0x04e001ea]
+{
+	[placement]
+	{
+	  p position = 1.58333,0,0.62815,0x9bc74358;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_swamp_town_active";
+	}
+}
 [t:trigger_generic,n:0x04e000d7]
 {
 	[common]
@@ -430,6 +441,24 @@
 	{
 	  q orientation = 0,-0.707107,0,-0.707107;
 	  p position = 20.2472,0.65,-5.31503,0x0d62b522;
+	}
+}
+[t:check_quest_bits,n:0x04e000e5]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_swamp_town_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = 1586956176;
+	  i section = 3;
+	  x send_to_scid = 0x04E00A4D;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -0.0189323,2.4177,0.021019,0x33b8f42b;
 	}
 }
 [t:use_point,n:0x04e000fc]
@@ -2421,34 +2450,5 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = -2.01707,0,-1.80515,0x958bd2c1;
-	}
-}
-[t:set_quest_bits,n:0x04e001ea]
-{
-	[placement]
-	{
-	  p position = 1.58333,0,0.62815,0x9bc74358;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_swamp_town_active";
-	}
-}
-[t:check_quest_bits,n:0x04e000e5]
-{
-	[check_quest_bits]
-	{
-		bool_variable = "teleport_hub_swamp_town_active";
-	  i level = -1;
-		map_name = "upza";
-	  i object = -1;
-	  i region = 1586956176;
-	  i section = 3;
-	  x send_to_scid = 0x04E00A4D;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,-0.707107;
-	  p position = -0.0189323,2.4177,0.021019,0x33b8f42b;
 	}
 }

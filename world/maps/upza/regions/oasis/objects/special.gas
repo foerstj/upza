@@ -1429,6 +1429,17 @@
 	  p position = 4.26162,-0.549957,4.89244,0x432556a7;
 	}
 }
+[t:set_quest_bits,n:0x076000bd]
+{
+	[placement]
+	{
+	  p position = 16.3067,0.1,0.340879,0x28044fa7;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_oasis_active";
+	}
+}
 [t:trigger_generic,n:0x076004aa]
 {
 	[common]
@@ -1486,6 +1497,23 @@
 	[placement]
 	{
 	  p position = 1.03578,0.1,0.415873,0x76b1bc12;
+	}
+}
+[t:check_quest_bits,n:0x076000b1]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_oasis_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1633375303;
+	  i section = 3;
+	  x send_to_scid = 0x076009FF;
+	}
+	[placement]
+	{
+	  p position = 0,2,0,0x76b1bc12;
 	}
 }
 [t:trigger_change_mood_box,n:0x076009aa]
@@ -2216,33 +2244,5 @@
 	[placement]
 	{
 	  p position = -2.055,-6.95,11.1566,0xbcab5d28;
-	}
-}
-[t:set_quest_bits,n:0x076000bd]
-{
-	[placement]
-	{
-	  p position = 16.3067,0.1,0.340879,0x28044fa7;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_oasis_active";
-	}
-}
-[t:check_quest_bits,n:0x076000b1]
-{
-	[check_quest_bits]
-	{
-		bool_variable = "teleport_hub_oasis_active";
-	  i level = -1;
-		map_name = "upza";
-	  i object = -1;
-	  i region = -1633375303;
-	  i section = 3;
-	  x send_to_scid = 0x076009FF;
-	}
-	[placement]
-	{
-	  p position = 0,2,0,0x76b1bc12;
 	}
 }

@@ -2386,6 +2386,17 @@
 	  p position = 2.21449,0.15,2.28363,0x7f79fef1;
 	}
 }
+[t:set_quest_bits,n:0x0070058c]
+{
+	[placement]
+	{
+	  p position = 17.3226,0.1,0.313007,0x781522ea;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_des_r1_active";
+	}
+}
 [t:trigger_change_mood_box,n:0x0070061a]
 {
 	[common]
@@ -2519,31 +2530,6 @@
 	  p position = 17.4933,0.3,-0.924538,0x781522ea;
 	}
 }
-[t:use_point,n:0x0070072d]
-{
-	[placement]
-	{
-	  p position = -0.510239,0.1,-1.01006,0x03063c2d;
-	}
-}
-[t:use_point,n:0x0070072e]
-{
-	[placement]
-	{
-	  p position = 1.11665,0.1,0.581169,0x03063c2d;
-	}
-}
-[t:set_quest_bits,n:0x0070058c]
-{
-	[placement]
-	{
-	  p position = 17.3226,0.1,0.313007,0x781522ea;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_des_r1_active";
-	}
-}
 [t:check_quest_bits,n:0x0070071b]
 {
 	[check_quest_bits]
@@ -2559,5 +2545,19 @@
 	[placement]
 	{
 	  p position = 0,2,0,0x03063c2d;
+	}
+}
+[t:use_point,n:0x0070072d]
+{
+	[placement]
+	{
+	  p position = -0.510239,0.1,-1.01006,0x03063c2d;
+	}
+}
+[t:use_point,n:0x0070072e]
+{
+	[placement]
+	{
+	  p position = 1.11665,0.1,0.581169,0x03063c2d;
 	}
 }
