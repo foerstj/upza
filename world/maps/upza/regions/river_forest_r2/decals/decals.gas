@@ -1176,4 +1176,64 @@
 		texture = Art\Bitmaps\Decals\b_d_grs01-path.%img%;
 	  f vertical_meters = 4.000000;
 	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.535185,1.000000,-1.314225,0x590995D5;
+	  f far_plane = 1.100000;
+	  x guid = 0x783F9C76;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = art\bitmaps\decals\b_d_grs01-path.raw;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.999951,-0.009355,-0.003351,0.000000,0.337278,-0.941405,0.009937,0.941359,0.337262;
+		decal_origin = 1.272065,-0.993898,-6.144058,0x8DD1D586;
+	  f far_plane = 1.100000;
+	  x guid = 0x61CD1356;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = art\bitmaps\decals\b_d_grs01-path.raw;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 1.653541,1.000000,1.275320,0xAEA9D215;
+	  f far_plane = 1.100000;
+	  x guid = 0x6E83B196;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = art\bitmaps\decals\b_d_grs01-a.raw;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.988759,-0.116902,-0.093220,0.000000,0.623467,-0.781850,0.149519,0.773061,0.616458;
+		decal_origin = -0.130495,2.688107,2.957651,0xA39A620C;
+	  f far_plane = 1.100000;
+	  x guid = 0x8F73FDF2;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = art\bitmaps\decals\b_d_grs01-a.raw;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 1.901705,1.000000,-0.960782,0xAEA9D215;
+	  f far_plane = 1.100000;
+	  x guid = 0xFE30C235;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = art\bitmaps\decals\b_d_grs01-a.raw;
+	  f vertical_meters = 4.000000;
+	}
 }
