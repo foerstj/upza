@@ -22,27 +22,8 @@
 	  p position = 3.82535,0,2.00697,0xa8552f60;
 	}
 }
-[t:mp_guard_02,n:0x01d0024d]
+[t:upza_zombie_elddim_guard,n:0x01d0024d]
 {
-	[aspect]
-	{
-	  b is_collidable = false;
-		model = m_c_gah_fb_pos_a3;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.382684,0,0.923879;
