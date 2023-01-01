@@ -14,32 +14,6 @@
 	  i stop_hour = 5;
 	}
 }
-[t:emt_sound,n:0x01d00253]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.350207,0,0.936672;
-	  p position = 0.578974,-21.1662,10.2121,0xbd16be3b;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
-[t:emt_sound,n:0x01d00288]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.350207,0,0.936672;
-	  p position = 0.360575,-0.300008,9.93217,0xbd16be3b;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "amb_wind_01b";
-	}
-}
 [t:emt_sound,n:0x01d0025d]
 {
 	[placement]
