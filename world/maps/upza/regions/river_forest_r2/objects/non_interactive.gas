@@ -154,14 +154,6 @@
 	  p position = -1.81489,0,-0.602751,0x75e810c5;
 	}
 }
-[t:post_glb_01,n:0x095011c0]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.130526,0,0.991445;
-	  p position = 0.00634706,0,-2.88757,0xb6ef7c5a;
-	}
-}
 [t:tree_grs_pine_04,n:0x095006cb]
 {
 	[aspect]
@@ -706,7 +698,7 @@
 	  p position = -3.0418,-3.65,0.328003,0x530c6b8b;
 	}
 }
-[t:table_glb_02,n:0x09501001]
+[t:table_csl_webbed_01,n:0x09501001]
 {
 	[aspect]
 	{
@@ -718,7 +710,7 @@
 	  p position = 3.72771,-3.65,0.526337,0x530c6b8b;
 	}
 }
-[t:chair_glb_06,n:0x09501002]
+[t:chair_csl_webbed_02,n:0x09501002]
 {
 	[aspect]
 	{
@@ -742,7 +734,7 @@
 	  p position = 4.48426,-3.65,-2.21817,0x530c6b8b;
 	}
 }
-[t:jars_glb,n:0x09501004]
+[t:jug_csl_broken_02,n:0x09501004]
 {
 	[aspect]
 	{
@@ -754,7 +746,7 @@
 	  p position = 4.49157,-1.65951,-2.70084,0x530c6b8b;
 	}
 }
-[t:mug_glb,n:0x09501006]
+[t:jug_csl_broken_01,n:0x09501006]
 {
 	[aspect]
 	{
@@ -763,18 +755,6 @@
 	[placement]
 	{
 	  p position = 4.85679,-2.62908,-1.64359,0x530c6b8b;
-	}
-}
-[t:bread_glb,n:0x09501007]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.5,0,0.866026;
-	  p position = 4.3135,-3.61112,-2.62787,0x530c6b8b;
 	}
 }
 [t:bowl_csl,n:0x09501008]
@@ -847,7 +827,7 @@
 	  p position = -3.81901,-3.65,-0.74295,0x530c6b8b;
 	}
 }
-[t:chair_glb_06,n:0x095015db]
+[t:chair_csl_webbed_02,n:0x095015db]
 {
 	[aspect]
 	{
@@ -859,7 +839,7 @@
 	  p position = 3.40116,-3.65,1.57162,0x530c6b8b;
 	}
 }
-[t:chair_glb_06,n:0x095015dc]
+[t:chair_csl_webbed_02,n:0x095015dc]
 {
 	[aspect]
 	{
@@ -3028,14 +3008,6 @@
 	{
 	  q orientation = 0,0.505104,0,-0.863059;
 	  p position = -3.1331,0,-3.05916,0x6f009b50;
-	}
-}
-[t:post_glb_01,n:0x09501210]
-{
-	[placement]
-	{
-	  q orientation = 0,0.258819,0,0.965926;
-	  p position = 0.366668,0,-0.356364,0xdbeca403;
 	}
 }
 [t:tree_grs_pine_01_rescaled,n:0x09500979]
@@ -15501,13 +15473,6 @@
 	  p position = -1.72785,0,2.60627,0x6f3e7a69;
 	}
 }
-[t:post_glb_01,n:0x09501067]
-{
-	[placement]
-	{
-	  p position = -1.73631,0,1.98987,0x9a9c05e9;
-	}
-}
 [t:tree_grs_pine_01_rescaled,n:0x0950091c]
 {
 	[aspect]
@@ -22233,14 +22198,6 @@
 	{
 	  q orientation = 0,0.755582,0,0.655054;
 	  p position = 1.86439,0,-1.04109,0x56082a17;
-	}
-}
-[t:post_glb_01,n:0x0950120b]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.130526,0,0.991445;
-	  p position = -0.16056,0,-0.0166807,0x274c8613;
 	}
 }
 [t:foliage_grs_01,n:0x09500dfe]
