@@ -5970,12 +5970,6 @@
 		}
 		[door*]
 		{
-		  i fardoor = 1;
-		  x farguid = 0x9A52DBCB;
-		  i id = 6;
-		}
-		[door*]
-		{
 		  i fardoor = 2;
 		  x farguid = 0x804E049B;
 		  i id = 2;
@@ -24028,25 +24022,6 @@
 		  i id = 2;
 		}
 	}
-	[t:snode,n:0x76be2271]
-	{
-	  b bounds_camera = false;
-	  b camera_fade = false;
-	  x guid = 0x76BE2271;
-	  x mesh_guid = 0x00200C5C;
-	  x nodelevel = 0x00000006;
-	  x nodeobject = 0x00000004;
-	  x nodesection = 0x00000001;
-	  b occludes_camera = true;
-	  b occludes_light = true;
-		texsetabbr = grs01;
-		[door*]
-		{
-		  i fardoor = 2;
-		  x farguid = 0xE6DF104D;
-		  i id = 1;
-		}
-	}
 	[t:snode,n:0x772576cf]
 	{
 	  b bounds_camera = true;
@@ -32972,25 +32947,6 @@
 		  i id = 1;
 		}
 	}
-	[t:snode,n:0x9a52dbcb]
-	{
-	  b bounds_camera = false;
-	  b camera_fade = false;
-	  x guid = 0x9A52DBCB;
-	  x mesh_guid = 0x00200C5C;
-	  x nodelevel = 0x00000004;
-	  x nodeobject = 0x00000005;
-	  x nodesection = 0x00000001;
-	  b occludes_camera = true;
-	  b occludes_light = true;
-		texsetabbr = grs01;
-		[door*]
-		{
-		  i fardoor = 6;
-		  x farguid = 0x216CF93F;
-		  i id = 1;
-		}
-	}
 	[t:snode,n:0x9a631c0a]
 	{
 	  b bounds_camera = true;
@@ -35175,25 +35131,6 @@
 		  i fardoor = 4;
 		  x farguid = 0xD13FDE0E;
 		  i id = 5;
-		}
-	}
-	[t:snode,n:0xa4a9b6c1]
-	{
-	  b bounds_camera = false;
-	  b camera_fade = false;
-	  x guid = 0xA4A9B6C1;
-	  x mesh_guid = 0x00200C5C;
-	  x nodelevel = 0x00000005;
-	  x nodeobject = 0x00000007;
-	  x nodesection = 0x00000001;
-	  b occludes_camera = false;
-	  b occludes_light = true;
-		texsetabbr = grs01;
-		[door*]
-		{
-		  i fardoor = 2;
-		  x farguid = 0xF86D9ED7;
-		  i id = 1;
 		}
 	}
 	[t:snode,n:0xa4c39ed9]
@@ -49919,12 +49856,6 @@
 		}
 		[door*]
 		{
-		  i fardoor = 1;
-		  x farguid = 0x76BE2271;
-		  i id = 2;
-		}
-		[door*]
-		{
 		  i fardoor = 10;
 		  x farguid = 0x7CDDD30E;
 		  i id = 4;
@@ -53652,12 +53583,6 @@
 		  i fardoor = 2;
 		  x farguid = 0x89D359B3;
 		  i id = 1;
-		}
-		[door*]
-		{
-		  i fardoor = 1;
-		  x farguid = 0xA4A9B6C1;
-		  i id = 2;
 		}
 		[door*]
 		{
