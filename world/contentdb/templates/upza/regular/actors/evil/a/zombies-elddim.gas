@@ -186,6 +186,20 @@
 	}
 }
 
+[t:template,n:upza_zombie_elddim_townfolk_burned]
+{
+    specializes = upza_zombie_elddim_townfolk_base;
+
+	[common]
+	{
+		screen_name = "Burned Farmer";
+	}
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_zo-05; }
+    }
+}
+
 
 // GUARDS
 
