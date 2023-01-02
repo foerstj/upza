@@ -32,8 +32,7 @@
 {
 	[door_basic]
 	{
-	  x msg_scid_opening = 0x08401485;
-		msg_type_opening = we_trigger_activate;
+	  b initially_open = true;
 	}
 	[placement]
 	{
