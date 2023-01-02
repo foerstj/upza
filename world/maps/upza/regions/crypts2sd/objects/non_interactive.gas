@@ -1279,13 +1279,6 @@
 	  p position = -0.732998,-0.85,-1.30499,0xd728f1d2;
 	}
 }
-[t:trough_grs_hay,n:0x085007bc]
-{
-	[placement]
-	{
-	  p position = 0.157402,-0.850003,0.993607,0xe00304f7;
-	}
-}
 [t:bush_des_04,n:0x0850079b]
 {
 	[aspect]
@@ -1847,7 +1840,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.934012,0,0.357241;
-	  p position = -3.85053,0,-0.0636449,0x7b32a630;
+	  p position = -3.57343,0,-0.0388718,0x7b32a630;
 	}
 }
 [t:bush_des_04,n:0x085007a0]
@@ -1872,13 +1865,6 @@
 	{
 	  q orientation = 0,0.918061,0,-0.39644;
 	  p position = 1.54202,0,-1.12442,0x7b32a630;
-	}
-}
-[t:trough_grs_water,n:0x085007bd]
-{
-	[placement]
-	{
-	  p position = -1.12201,-0.850005,0.977371,0x11a2149e;
 	}
 }
 [t:tree_des_pine_01,n:0x08500279]
@@ -19771,5 +19757,19 @@
 	{
 	  q orientation = 0,-0.999272,0,0.038139;
 	  p position = 2.09719,-3,3.24433,0x07a5fd47;
+	}
+}
+[t:trough_grs_empty,n:0x085007bc]
+{
+	[placement]
+	{
+	  p position = 0.157402,-0.850003,0.993607,0xe00304f7;
+	}
+}
+[t:trough_grs_empty,n:0x085007bd]
+{
+	[placement]
+	{
+	  p position = -1.12201,-0.850005,0.977371,0x11a2149e;
 	}
 }
