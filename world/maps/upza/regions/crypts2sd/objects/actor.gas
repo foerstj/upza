@@ -205,9 +205,10 @@
 }
 [t:lame_mare,n:0x085007ad]
 {
-	[aspect]
+	[common]
 	{
-	  f scale_multiplier = 1.13828;
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -1992,5 +1993,34 @@
 	[placement]
 	{
 	  p position = -0.438735,0,1.49238,0x69575ea5;
+	}
+}
+[t:self_service_mule,n:0x08500672]
+{
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Ole Shamble";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x8500672;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.477159,0,0.878817;
+	  p position = -0.764801,-0.849999,-1.16676,0x63762afd;
 	}
 }
