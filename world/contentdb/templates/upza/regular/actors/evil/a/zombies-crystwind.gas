@@ -1,0 +1,16 @@
+[t:template,n:upza_zombie_crystwind_townfolk_dwarf] { specializes = upza_zombie_crystwind_townfolk_dwarf_base; }
+[t:template,n:upza_zombie_crystwind_townfolk_dwarf_base]
+{
+    specializes = upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Miner";
+	}
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-muck-03;
+        textures:1 = b_c_edm_muck_zombie;
+    }
+}

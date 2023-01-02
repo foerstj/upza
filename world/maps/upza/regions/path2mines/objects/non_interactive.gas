@@ -7520,22 +7520,6 @@
 	  p position = 2.4502,-1.85,3.11024,0x67a7c1b0;
 	}
 }
-[t:upza_zombie_elddim_guard_captain,n:0x00200888]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.608762,0,0.793353;
-	  p position = -2.80434,-1.85,-4.18553,0x67a7c1b0;
-	}
-}
-[t:upza_zombie_elddim_guard,n:0x00200889]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.793354,0,0.608761;
-	  p position = -3.57584,-1.85,0.245575,0x67a7c1b0;
-	}
-}
 [t:bench_glb_01,n:0x00200848]
 {
 	[aspect]
@@ -7628,14 +7612,6 @@
 	{
 	  q orientation = 0,0.258819,0,0.965926;
 	  p position = -4.06876,-1.85,-2.2972,0xa45e4329;
-	}
-}
-[t:upza_zombie_elddim_guard_ranged,n:0x00200851]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.258819,0,0.965926;
-	  p position = -3.76682,-1.85,-2.80981,0xa45e4329;
 	}
 }
 [t:bench_glb_01,n:0x00200853]
@@ -18931,18 +18907,6 @@
 	  p position = -0.841652,0,3.79736,0x0494e70a;
 	}
 }
-[t:body_glb_dwarf_01,n:0x0020064d]
-{
-	[common]
-	{
-		screen_name = "Crystwind Mines";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.996195,0,0.087156;
-	  p position = -0.978096,0,1.00085,0x0494e70a;
-	}
-}
 [t:board_grs_3m,n:0x0020062c]
 {
 	[placement]
@@ -20492,29 +20456,6 @@
 	{
 	  q orientation = 0,0.258819,0,0.965926;
 	  p position = -0.11113,0,1.57395,0x159f3549;
-	}
-}
-[t:upza_zombie_elddim_guard,n:0x00200886]
-{
-	[placement]
-	{
-	  q orientation = 0,3.57628e-007,0,-1;
-	  p position = 0.742477,0,-1.3962,0x159f3549;
-	}
-}
-[t:upza_zombie_elddim_guard,n:0x00200887]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.382684,0,0.92388;
-	  p position = 1.1127,0,1.61835,0x159f3549;
-	}
-}
-[t:upza_zombie_elddim_guard_ranged,n:0x00200852]
-{
-	[placement]
-	{
-	  p position = -1.08857,0,0.642502,0x0cc9a194;
 	}
 }
 [t:bush_grs_rhod_01,n:0x0020043a]
