@@ -219,19 +219,8 @@
 	  p position = 1.08088,0,1.35574,0x4d0baf17;
 	}
 }
-[t:shair_tullen,n:0x009001fb]
+[t:upza_zombie_hovart_shop_shana,n:0x009001fb]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_shair_tullen;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.258819,0,0.965926;

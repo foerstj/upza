@@ -1,17 +1,11 @@
-[t:template,n:upza_zombie_hovart_shop_horty] { specializes = upza_zombie_hovart_shop_horty_base; }
-[t:template,n:upza_zombie_hovart_shop_horty_base]
+[t:template,n:upza_base_zombie_hovart_wcb1]
 {
     specializes = upza_base_zombie_thin;
-
-	[common]
-	{
-		screen_name = "Horty Olof";
-	}
 
     // look & behavior from walking_corpse_boss_01
     [aspect]
     {
-		textures:0 = b_c_edm_zo;  // but default texture
+		textures:0 = b_c_edm_zo-07;
     }
 	[common]
 	{
@@ -93,6 +87,21 @@
 			}
 		}
 	}
+}
+
+[t:template,n:upza_zombie_hovart_shop_horty] { specializes = upza_zombie_hovart_shop_horty_base; }
+[t:template,n:upza_zombie_hovart_shop_horty_base]
+{
+    specializes = upza_base_zombie_hovart_wcb1;
+
+	[common]
+	{
+		screen_name = "Horty Olof";
+	}
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo;  // default texture
+    }
 
     // more loot: shop from original horty_olof
     [actor] { drops_spellbook = true; }
@@ -241,6 +250,225 @@
 			potion_mana_small = 8;
 			potion_rejuvenation_small = 4;
 			potion_rejuvenation_medium = 1;
+		}
+	}
+}
+
+[t:template,n:upza_zombie_hovart_shop_shana] { specializes = upza_zombie_hovart_shop_shana_base; }
+[t:template,n:upza_zombie_hovart_shop_shana_base]
+{
+    specializes = upza_base_zombie_hovart_wcb1;
+
+	[common]
+	{
+		screen_name = "Shana Tullen";
+	}
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo-06;
+    }
+
+    // more loot: shop from original shair_tullen (sic!)
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/16-77;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/16-22;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/23-54;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/55-77;
+					max = 3;
+					min = 3;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/6-22;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/22-54;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/55-77;
+					max = 4;
+					min = 4;
+				}
+
+
+				[all*]
+				{
+					il_main = #helm/6-22;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/22-54;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/55-73;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/6-22;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/22-54;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/55-73;
+					max = 4;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/6-22;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/22-54;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/55-73;
+					max = 4;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/1-12;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/12-27;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/28-40;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #ranged/1-12;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/12-27;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/28-40;
+					max = 6;
+					min = 6;
+				}
+			}
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/3-12;
+					max = 25;
+					min = 25;
+				}
+				[all*]
+				{
+					il_main = #spell/0-2;
+					max = 5;
+					min = 5;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/12-22;
+					max = 4;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_small = 19;
+			potion_mana_small = 19;
+			potion_rejuvenation_small = 2;
+
+			scroll_resurrect = 2;
+            spell_resurrect = 2;
+            spell_revive = 2;
+            spell_healing_hands = 2;
+
+            spell_fireshot = 2;
+            spell_zap = 2;
 		}
 	}
 }

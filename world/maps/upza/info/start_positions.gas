@@ -121,10 +121,10 @@
 	}
 	[t:start_group,n:dev]
 	{
-	  b default = true;
+	  b default = false;
 		description = "dev";
 	  b dev_only = false;
-	  i id = 1698464;
+	  i id = 1337;
 		screen_name = "dev";
 		[start_position]
 		{
@@ -259,7 +259,7 @@
 	}
 	[t:start_group,n:elddim]
 	{
-	  b default = false;
+	  b default = true;
 		description = "Elddim, the Center of the Kingdom";
 	  b dev_only = false;
 	  i id = 1;
