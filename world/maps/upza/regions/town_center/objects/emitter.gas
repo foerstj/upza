@@ -38,13 +38,6 @@
 	  p position = -0.257843,3.1535,-8.22134,0xf9384d81;
 	}
 }
-[t:emitter_glb_smoke_01,n:0x03200c37]
-{
-	[placement]
-	{
-	  p position = -3.78125,3.47047,1.93908,0xd5a8597c;
-	}
-}
 [t:emt_sound,n:0x03200c73]
 {
 	[placement]
@@ -98,13 +91,6 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_waterfall";
-	}
-}
-[t:emitter_glb_smoke_01,n:0x03200c39]
-{
-	[placement]
-	{
-	  p position = 4.04753,3.76504,2.04757,0x48b898f3;
 	}
 }
 [t:emt_sound,n:0x03200c61]
