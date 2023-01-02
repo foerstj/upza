@@ -13,4 +13,61 @@
         textures:0 = b_c_eam_dfzo-muck-07b;
         textures:1 = b_c_edm_muck_zombie;
     }
+
+    // stats & loot from dsx_slime_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		8,0;
+            intelligence =	7,0;
+            dexterity =		8,0;
+            melee =		3,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 45;
+        life = 120;
+        max_life = 120;
+        mana = 6;
+        max_mana = 6;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_min = 15;
+        damage_max = 20;
+    }
+	[defend] { defense = 32; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 18;
+                    max = 35;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_small;
+                    il_main = potion_health_small;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/11-11;
+                    il_main = #armor/2-25;
+                    il_main = #*/11-11;
+                }
+            }
+        }
+    }
 }
