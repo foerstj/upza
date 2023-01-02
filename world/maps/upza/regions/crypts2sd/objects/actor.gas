@@ -203,6 +203,35 @@
 	  p position = -1.30233,0,1.3888,0x732d4f85;
 	}
 }
+[t:self_service_mule,n:0x08500672]
+{
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Ole Shamble";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x8500672;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.477159,0,0.878817;
+	  p position = -0.764801,-0.849999,-1.16676,0x63762afd;
+	}
+}
 [t:lame_mare,n:0x085007ad]
 {
 	[common]
@@ -216,16 +245,24 @@
 	  p position = -0.762852,-0.849999,-1.02627,0x63762afd;
 	}
 }
-[t:chicken_red,n:0x085007a7]
+[t:chicken_red,n:0x085007cf]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.258819,0,0.965926;
+	  p position = -0.528259,-0.85,-1.31833,0x151fd67f;
+	}
+}
+[t:chicken_red,n:0x085007a6]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.962356;
+	  f scale_multiplier = 1.12516;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.989016,0,-0.147809;
-	  p position = 1.25714,9.53674e-007,-1.36119,0xbc2755e3;
+	  q orientation = 0,0.870356,0,-0.492424;
+	  p position = 1.67911,9.53674e-007,-1.49846,0x7b32a630;
 	}
 }
 [t:chicken_red,n:0x085007a5]
@@ -268,32 +305,12 @@
 	  p position = -0.230184,0,-2.10556,0xe5566b3d;
 	}
 }
-[t:chicken_red,n:0x085007a6]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.12516;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.870356,0,-0.492424;
-	  p position = 1.67911,9.53674e-007,-1.49846,0x7b32a630;
-	}
-}
 [t:chicken_grey,n:0x085007cd]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.382684,0,0.92388;
 	  p position = -1.18135,8,5.96748,0x8f111b43;
-	}
-}
-[t:chicken_red,n:0x085007cf]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.258819,0,0.965926;
-	  p position = -0.528259,-0.85,-1.31833,0x151fd67f;
 	}
 }
 [t:krug_grunt_zombie,n:0x08500531]
@@ -1995,32 +2012,15 @@
 	  p position = -0.438735,0,1.49238,0x69575ea5;
 	}
 }
-[t:self_service_mule,n:0x08500672]
+[t:chicken_red,n:0x085007a7]
 {
 	[aspect]
 	{
-		model = m_c_na_pm_pos_2;
-	}
-	[common]
-	{
-		dev_instance_text = "SP";
-	  b is_multi_player = false;
-		screen_name = "Ole Shamble";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = self_service_mule_join;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x8500672;
+	  f scale_multiplier = 0.962356;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.477159,0,0.878817;
-	  p position = -0.764801,-0.849999,-1.16676,0x63762afd;
+	  q orientation = 0,0.989016,0,-0.147809;
+	  p position = 1.25714,9.53674e-007,-1.36119,0xbc2755e3;
 	}
 }
