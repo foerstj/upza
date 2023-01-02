@@ -20,16 +20,17 @@ This map is based on the *Utraean Peninsula remastered* project at https://githu
 Changes from there on:
 - Map renamed, obviously
 - Set up the Eastern Island as the initial starting location, with Loola there
-- Zombified NPCs in Elddim & GNF, leaving quests intact & dropping shop contents
+- Zombified NPCs in & around Elddim, leaving quests intact & dropping shop contents
 - Ruinated Elddim
-- Gave the Lost Witch and her arcane coven a new home in the H.U.B.
+- Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
-- Zombified enemies - Krug, Bandits, wolves...
-- Made mules in Elddim self-hireable
-- Removed signs in Elddim & GNF, good luck out there lol
+- Zombified enemies - Krug, Bandits, wolves, bears
+- Made mules in Elddim & at Horty Olof self-hireable
+- Removed signs, good luck out there lol
 - Removed all tutorial tips, you're on your own
 - Extinguished torches but made them lightable
+- Removed some bridges
 
 ## How to build
 
