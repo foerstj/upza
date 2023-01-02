@@ -7520,7 +7520,7 @@
 	  p position = 2.4502,-1.85,3.11024,0x67a7c1b0;
 	}
 }
-[t:body_glb_knight_01,n:0x00200888]
+[t:upza_zombie_elddim_guard_captain,n:0x00200888]
 {
 	[placement]
 	{
@@ -7528,12 +7528,8 @@
 	  p position = -2.80434,-1.85,-4.18553,0x67a7c1b0;
 	}
 }
-[t:body_glb_guard_04,n:0x00200889]
+[t:upza_zombie_elddim_guard,n:0x00200889]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.793354,0,0.608761;
@@ -7634,12 +7630,8 @@
 	  p position = -4.06876,-1.85,-2.2972,0xa45e4329;
 	}
 }
-[t:body_glb_guard_01,n:0x00200851]
+[t:upza_zombie_elddim_guard_ranged,n:0x00200851]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.258819,0,0.965926;
@@ -20502,36 +20494,24 @@
 	  p position = -0.11113,0,1.57395,0x159f3549;
 	}
 }
-[t:body_glb_guard_01,n:0x00200886]
+[t:upza_zombie_elddim_guard,n:0x00200886]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  q orientation = 0,3.57628e-007,0,-1;
 	  p position = 0.742477,0,-1.3962,0x159f3549;
 	}
 }
-[t:body_glb_guard_03,n:0x00200887]
+[t:upza_zombie_elddim_guard,n:0x00200887]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.382684,0,0.92388;
 	  p position = 1.1127,0,1.61835,0x159f3549;
 	}
 }
-[t:body_glb_guard_01,n:0x00200852]
+[t:upza_zombie_elddim_guard_ranged,n:0x00200852]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[placement]
 	{
 	  p position = -1.08857,0,0.642502,0x0cc9a194;
