@@ -46,30 +46,6 @@
 		use_point_scids = 0x00800102 , 0x008000fd;
 	}
 }
-[t:sign_glb_01,n:0x008001f0]
-{
-	[common]
-	{
-		screen_name = "Hovart Marsh, 24";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.84417,-0.1,0.0765103,0xb050b02a;
-	}
-}
-[t:sign_glb_01,n:0x008001f1]
-{
-	[common]
-	{
-		screen_name = "Illiarth Divide, 16";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,-0.707107;
-	  p position = -1.85028,-0.1,0.0691594,0xb050b02a;
-	}
-}
 [t:door_glb_crypt_01,n:0x00800013]
 {
 	[door_basic]
@@ -422,29 +398,5 @@
 	{
 	  p position = 0.0499739,-0.5,-4.38371,0x547f8fa1;
 		use_point_scids = 0x008000d6,0x008000d8;
-	}
-}
-[t:sign_glb_01,n:0x008001f2]
-{
-	[common]
-	{
-		screen_name = "Hovart Marsh, 22";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.00082,0,-0.413773,0x223c1b6c;
-	}
-}
-[t:sign_glb_01,n:0x008001f3]
-{
-	[common]
-	{
-		screen_name = "Illiarth Divide, 18";
-	}
-	[placement]
-	{
-	  q orientation = 0,2.98023e-007,0,-1;
-	  p position = 1.26435,9.53674e-007,-0.0513751,0x223c1b6c;
 	}
 }
