@@ -422,6 +422,7 @@
 		{
 			* = nicholas_accept_have_money;
 			* = nicholas_accept_no_money;
+			* = nicholas_before_condition;
 			* = nicholas_disband;
 			* = nicholas_disband_rejoin;
 			* = nicholas_join;
@@ -431,7 +432,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x7900244&namespace=nicholas;
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x7900244&namespace=nicholas&condition=found_gnf;
 	}
 	[placement]
 	{

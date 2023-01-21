@@ -121,6 +121,20 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  f scroll_rate = 10.000000;
 	}
 }
+[nicholas_before_condition]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Look, I found an elevator! It might well be a third magical passage to the peninsula. But you know what happened to Barney - I'm certainly not going first. After you, mate!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "You know what happened to Barney - I'm certainly not going first. After you, mate!";
+	  f scroll_rate = 10.000000;
+	}
+}
 [nicholas_disband]
 {
 	[text*]
