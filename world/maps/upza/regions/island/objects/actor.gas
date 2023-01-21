@@ -86,6 +86,10 @@
 }
 [t:upza_mate_npc_02,n:0x079000aa]
 {
+	[common]
+	{
+		screen_name = "Bettina";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -118,12 +122,12 @@
 	{
 		[conversations]
 		{
-			* = peter_join;
-			* = peter_reject;
-			* = peter_rejoin;
 			* = peter_accept_have_money;
 			* = peter_disband;
 			* = peter_disband_rejoin;
+			* = peter_join;
+			* = peter_reject;
+			* = peter_rejoin;
 		}
 	}
 	[mind]
@@ -138,6 +142,10 @@
 }
 [t:upza_mate_npc_05,n:0x0790024d]
 {
+	[common]
+	{
+		screen_name = "Torben";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -168,6 +176,10 @@
 }
 [t:upza_mate_npc_06,n:0x0790024e]
 {
+	[common]
+	{
+		screen_name = "Julia";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -218,6 +230,10 @@
 }
 [t:upza_mate_npc_07,n:0x0790024f]
 {
+	[common]
+	{
+		screen_name = "Mark";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -259,6 +275,10 @@
 }
 [t:upza_mate_npc_10,n:0x0790025c]
 {
+	[common]
+	{
+		screen_name = "Glorg";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -291,6 +311,10 @@
 }
 [t:upza_mate_npc_08,n:0x0790021c]
 {
+	[common]
+	{
+		screen_name = "Bernard";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -307,6 +331,10 @@
 }
 [t:upza_mate_npc_04,n:0x079001a9]
 {
+	[common]
+	{
+		screen_name = "Melanie";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -328,6 +356,10 @@
 }
 [t:upza_mate_npc_03,n:0x07900244]
 {
+	[common]
+	{
+		screen_name = "Nicholas";
+	}
 	[conversation]
 	{
 		[conversations]
