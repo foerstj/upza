@@ -153,6 +153,7 @@
 		[conversations]
 		{
 			* = peter_npc;
+			* = zconversation_red;
 		}
 	}
 	[placement]
@@ -411,6 +412,8 @@
 {
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Nicholas";
 	}
 	[conversation]
@@ -425,5 +428,32 @@
 	{
 	  q orientation = 0,-0.291273,0,0.95664;
 	  p position = 3.48167,0,-0.402218,0x46768b8c;
+	}
+}
+[t:upza_mate_pm_mrc1,n:0x07900288]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Nicholas";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = gnf_ele;
+			* = zconversation_red;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.291273,0,0.95664;
+	  p position = 3.62391,0,-0.560486,0x46768b8c;
 	}
 }
