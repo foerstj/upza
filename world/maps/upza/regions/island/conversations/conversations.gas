@@ -89,97 +89,10 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 		screen_text = "Ahoy mate, glad you made it! Sit down and have some food and drink!";
 	  f scroll_rate = 10.000000;
 	}
-    [text*]
-    {
+	[text*]
+	{
 		choice = shop;
 		screen_text = "I'm in charge of the equipment that we managed to save from the shipwreck. If you need anything, just let me know!";
-	  f scroll_rate = 10.000000;
-    }
-}
-[peter_join]
-{
-	[text*]
-	{
-		choice = more;
-	  i order = 0;
-		screen_text = "Ahoy, glad you made it! I'm afraid you were the last one. That makes us thirteen survivors, if I counted correctly.";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-		choice = more;
-	  i order = 1;
-		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-		choice = more;
-	  i order = 2;
-		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-        choice = potential_member;
-	  i order = 3;
-		screen_text = "Anyways, this island seems to be a nice place, and we have plenty of provisions. We're all good for now. Let's go see the others! Shall we go together?";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-        choice = potential_member;
-		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_reject]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, greet the others from me!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_rejoin]
-{
-	[text*]
-	{
-        choice = potential_member;
-		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_accept_no_money]
-{
-	[text*]
-	{
-		screen_text = "You have insufficient funds to add this companion to your group.";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_accept_have_money]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's go!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_disband]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's separate!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_disband_rejoin]
-{
-	[text*]
-	{
-        choice = potential_member;
-		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -206,6 +119,128 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  f scroll_rate = 10.000000;
 	}
 }
+[peter_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You have insufficient funds to add this companion to your group.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_join]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Ahoy, glad you made it! I'm afraid you were the last one. That makes us thirteen survivors, if I counted correctly.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+	  i order = 3;
+		screen_text = "Anyways, this island seems to be a nice place, and we have plenty of provisions. We're all good for now. Let's go see the others! Shall we go together?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_npc]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Ahoy, glad you made it! I'm afraid you were the last one. That makes us thirteen survivors, if I counted correctly.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+	  i order = 3;
+		screen_text = "Anyways, this island seems to be a nice place, and we have plenty of provisions. We're all good for now. Go see the others!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
+	  f scroll_rate = 10.000000;
+	}
+}
 [staying]
 {
 	[text*]
@@ -229,6 +264,16 @@ I'm never gonna leave this place again. I'm staying here.";
 	  f scroll_rate = 10.000000;
 	}
 }
+[tunnel]
+{
+	[text*]
+	{
+		screen_text = "Ahoy, mate!
+This appears to be a magical tunnel to the peninsula. Unfortunately, it seems to lead to what's known as the Endless Desert.
+Libella has taken up guard on the other side. Go greet her if you want. But I sure hope we find another passage, because over there is nothing but sand.";
+	  f scroll_rate = 10.000000;
+	}
+}
 [vc_ele]
 {
 	[text*]
@@ -248,16 +293,6 @@ I'm never gonna leave this place again. I'm staying here.";
 	[text*]
 	{
 		screen_text = "Whatever you do, don't go down there. It'll be better to stay stranded on this island forever.";
-	  f scroll_rate = 10.000000;
-	}
-}
-[tunnel]
-{
-	[text*]
-	{
-		screen_text = "Ahoy, mate!
-This appears to be a magical tunnel to the peninsula. Unfortunately, it seems to lead to what's known as the Endless Desert.
-Libella has taken up guard on the other side. Go greet her if you want. But I sure hope we find another passage, because over there is nothing but sand.";
 	  f scroll_rate = 10.000000;
 	}
 }

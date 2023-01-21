@@ -108,6 +108,8 @@
 {
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Peter";
 	}
 	[conversation]
@@ -131,6 +133,32 @@
 	{
 	  q orientation = 0,0.390731,0,-0.920505;
 	  p position = 0.205244,0,0.859715,0x83236887;
+	}
+}
+[t:upza_mate_pm_0,n:0x07900284]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Peter";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = peter_npc;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.390731,0,-0.920505;
+	  p position = 0.322552,0,0.808553,0x83236887;
 	}
 }
 [t:upza_mate_npc_05,n:0x0790024d]
