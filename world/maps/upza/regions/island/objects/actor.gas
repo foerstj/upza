@@ -96,9 +96,19 @@
 	{
 		[conversations]
 		{
-			* = legionnaire_02;
-			* = zconversation_red;
+			* = bettina_accept_have_money;
+			* = bettina_accept_no_money;
+			* = bettina_before_condition;
+			* = bettina_disband;
+			* = bettina_disband_rejoin;
+			* = bettina_join;
+			* = bettina_reject;
+			* = bettina_rejoin;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x79000aa&namespace=bettina&condition=found_gnf;
 	}
 	[placement]
 	{
@@ -481,6 +491,14 @@
 		dev_instance_text = "MP";
 	  b is_single_player = false;
 		screen_name = "Bettina";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = bettina_mp;
+			* = zconversation_red;
+		}
 	}
 	[placement]
 	{

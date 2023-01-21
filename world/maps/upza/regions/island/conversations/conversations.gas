@@ -82,7 +82,97 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	  f scroll_rate = 10.000000;
 	}
 }
-[legionnaire_02]
+[bettina_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_before_condition]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "This is indeed the Eastern Island! We weren't even sure it existed! The stone heads of legend are right up there!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "And the island does indeed have magical passages to the mainland. But they're dangerous - one of the mates has just died trying out an elevator that went down into volcanic caverns. Be careful! Better to settle here a bit first.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "There's a legion tower right up there to the east. No idea who built it. The mates have set up camp there, naturally. Just don't use its elevator.
+And we have met someone... strange. A survivor from the mainland? She seems to have gone insane, rambling on about her lift, and trying to sell us 'shiny baubles'...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "If you find a safe way to the Peninsula, tell me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "You have found a safe way to the Peninsula?
+Want me to come with you? A healer is always useful...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Want me to come with you? A healer is always useful...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_mp]
 {
 	[text*]
 	{

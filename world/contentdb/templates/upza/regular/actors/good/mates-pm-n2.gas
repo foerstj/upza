@@ -31,6 +31,7 @@
     aspect:gold_value = 100;
 	[inventory]
 	{
+		selected_active_location = il_active_primary_spell;
 		[equipment]
 		{
 			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
@@ -38,8 +39,8 @@
 		}
         [other]
         {
-            il_main = spell_zap;
-            il_main = spell_healing_hands;
+            il_active_primary_spell = spell_zap;
+            il_active_secondary_spell = spell_healing_hands;
             il_main = spell_transmute;
             il_main = scroll_resurrect;
             il_main = scroll_resurrect;
