@@ -26,20 +26,6 @@
 		screen_text = "Lift goes down red. Lift comes up red. Loola likes red.";
 	}
 }
-[gnf_ele]
-{
-	[text*]
-	{
-	  i order = 0;
-		screen_text = "Look, I found an elevator! It might well be a third magical passage to the peninsula. But you know what happened to Barney - wild horses couldn't drag me on that thing.";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-		screen_text = "You know what happened to Barney - wild horses couldn't drag me on that thing.";
-	  f scroll_rate = 10.000000;
-	}
-}
 [head_injury]
 {
 	[text*]
@@ -116,6 +102,79 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	{
 		screen_text = "There's a legion tower right up there to the east. No idea who built it. The mates have set up camp there, naturally. Just don't use its elevator.
 And we have met someone... strange. A survivor from the mainland? She seems to have gone insane, rambling on about her lift, and trying to sell us 'shiny baubles'...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "You have insufficient funds to add this companion to your group.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "TEST JOIN";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_npc]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Look, I found an elevator! It might well be a third magical passage to the peninsula. But you know what happened to Barney - wild horses couldn't drag me on that thing.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "You know what happened to Barney - wild horses couldn't drag me on that thing.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "TEST REJOIN";
 	  f scroll_rate = 10.000000;
 	}
 }

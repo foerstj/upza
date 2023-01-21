@@ -420,9 +420,18 @@
 	{
 		[conversations]
 		{
-			* = gnf_ele;
-			* = zconversation_red;
+			* = nicholas_accept_have_money;
+			* = nicholas_accept_no_money;
+			* = nicholas_disband;
+			* = nicholas_disband_rejoin;
+			* = nicholas_join;
+			* = nicholas_reject;
+			* = nicholas_rejoin;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x7900244&namespace=nicholas;
 	}
 	[placement]
 	{
@@ -447,7 +456,7 @@
 	{
 		[conversations]
 		{
-			* = gnf_ele;
+			* = nicholas_npc;
 			* = zconversation_red;
 		}
 	}
