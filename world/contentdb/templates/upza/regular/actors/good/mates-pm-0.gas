@@ -1,24 +1,6 @@
-[t:template,n:upza_base_mate_pm]
-{
-	specializes = base_pm_fb;
-
-	category_name = "1W_character";
-	doc = "pm mate";
-
-	[common]
-	{
-		screen_name = "2nd Legion Mate";
-	}
-    [mind]
-    {
-        //jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?todo=provide_args;  // placeholder - provide args in object instances
-		jat_talk = world\ai\jobs\common\job_talk.skrit;  // plain talk skrit as default for MP instances
-    }
-}
-
 [t:template,n:upza_mate_pm_0_base]
 {
-    specializes = upza_base_mate_pm;
+    specializes = upza_base_mate_pm_m;
 
 	[actor]
     {
