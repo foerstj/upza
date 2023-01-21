@@ -1,0 +1,51 @@
+[t:template,n:upza_mate_pm_n2_base]
+{
+    specializes = upza_base_mate_pm_f;
+
+	[actor]
+    {
+		portrait_icon = b_gui_ig_i_ic_c_lyssa;
+        [skills]
+        {
+			strength 		=   0.18, 0, 10;
+			dexterity 		=   0.36, 0, 10;
+			intelligence 	=  	1.46, 0, 10;
+            nature_magic = 2, 0, 0;
+            uber = 2, 0, 0;
+        }
+    }
+	[aspect]
+    {
+        [textures]
+        {
+			0 = b_c_gah_fg_skin_07;  // black hair
+            1 = b_c_pos_a1_005;  // brown underwear
+        }
+    }
+}
+
+[t:template,n:upza_mate_pm_n2]
+{
+    specializes = upza_mate_pm_n2_base;
+
+    aspect:gold_value = 100;
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+        [other]
+        {
+            il_main = spell_zap;
+            il_main = spell_healing_hands;
+            il_main = spell_transmute;
+            il_main = scroll_resurrect;
+            il_main = scroll_resurrect;
+            il_main = potion_health_small;
+            il_main = potion_mana_small;
+            il_main = potion_mana_small;
+        }
+    }
+}

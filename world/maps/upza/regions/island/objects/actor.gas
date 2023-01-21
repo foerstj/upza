@@ -84,10 +84,12 @@
 	  p position = 2.74763,0,-0.770456,0x046f18b7;
 	}
 }
-[t:upza_mate_npc_02,n:0x079000aa]
+[t:upza_mate_pm_n2,n:0x079000aa]
 {
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Bettina";
 	}
 	[conversation]
@@ -100,7 +102,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.92388,0,0.382683;
+	  q orientation = 0,0.92388,0,-0.382683;
 	  p position = 0.390476,0,0.366371,0x6e3e79f3;
 	}
 }
@@ -465,5 +467,24 @@
 	{
 	  q orientation = 0,-0.291273,0,0.95664;
 	  p position = 3.62391,0,-0.560486,0x46768b8c;
+	}
+}
+[t:upza_mate_pm_n2,n:0x07900295]
+{
+	[aspect]
+	{
+	  f max_life = 58.8;
+	  f max_mana = 55;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Bettina";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 0.513163,0,0.542862,0x6e3e79f3;
 	}
 }
