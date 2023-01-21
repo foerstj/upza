@@ -157,7 +157,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "TEST JOIN";
+		screen_text = "Are you sure this elevator is safe to use? Just some skeletons and Mucosa up there? Well, in that case I don't want to be a coward and stay here while you explore the Peninsula. I'm in!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -188,7 +188,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "TEST REJOIN";
+		screen_text = "Just some skeletons and Mucosa up there? Well, in that case I don't want to be a coward and stay here while you explore the Peninsula. I'm in!";
 	  f scroll_rate = 10.000000;
 	}
 }
