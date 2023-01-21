@@ -105,3 +105,21 @@
         equip_requirements = strength:20;
     }
 }
+
+[t:template,n:bd_un_ro_m_g_c_avg_upza_leg_01]
+{
+	specializes = bd_ro_un_m_g_c_eos_base;
+
+    [common]
+    {
+        screen_name = "2nd Legion Mage Robe";
+    }
+	[defend]
+	{
+	  f defense = 100;
+	}
+	[gui]
+	{
+		equip_requirements = intelligence:20;
+	}
+}
