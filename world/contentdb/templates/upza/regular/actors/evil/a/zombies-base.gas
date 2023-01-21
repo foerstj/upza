@@ -12,27 +12,34 @@
 			chore_prefix = a_c_ecm_sk_fs;
 			[chore_attack]
 			{
-				chore_stances = 0,1,2,3,4,5,6;
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
 				skrit = select_attack;
 				[anim_files]
 				{
 					00 = at;
+                    01 = at-02;  // ADDED
 					02 = at-03;
+                    03 = at-04;  // ADDED
 					04 = at-05;
 					05 = at-06;
 				}
 			}
 			[chore_default]
 			{
-				chore_stances = 0,1,2,3,4,5,6;
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
 				skrit = infinite_loop;
 				[anim_files] { 00=dfs; }
 			}
 			[chore_die]
 			{
-				chore_stances = 0,1,2,3,4,5,6;
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
 				skrit = select_transition;
-				[anim_files] { 00=di; }
+				[anim_files]
+                {
+                    00=di;
+                    01=di-02;  // ADDED
+                    02=di-03;  // ADDED
+                }
 			}
 			[chore_misc]
 			{
@@ -58,7 +65,7 @@
 			}
 			[chore_fidget]
 			{
-				chore_stances = 0,1,2,3,4,5,6;
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
 				skrit = select_fidget;
 				[anim_files]
 				{
@@ -69,9 +76,15 @@
 			}
 			[chore_walk]
 			{
-				chore_stances = 0,1,2,3,4,5,6;
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
 				skrit = select_walk;
-				[anim_files] { 00=wl; }
+				[anim_files]
+                {
+                    00=wl;
+                    01=wl-02;  // ADDED
+                    02=wl-03;  // ADDED
+                    03=wl-04;  // ADDED
+                }
 			}
 		}
 	}
