@@ -18,7 +18,7 @@
 		item_markup = 2;
     }
 
-    // store content: some basics, backpacks, and of course legion stuff TODO
+    // store content: some basics, backpacks, and of course legion stuff
     [inventory]
     {
         [store_pcontent]
@@ -42,6 +42,12 @@
                 [all*]
                 {
                     il_main = bd_un_pl_f_g_c_avg_upza_leg_03;
+					max = 8;
+					min = 4;
+                }
+                [all*]
+                {
+                    il_main = bd_un_ro_m_g_c_avg_upza_leg_01;
 					max = 8;
 					min = 4;
                 }
