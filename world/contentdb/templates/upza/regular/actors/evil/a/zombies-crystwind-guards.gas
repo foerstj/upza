@@ -1,0 +1,100 @@
+[t:template,n:upza_base_zombie_crystwind_guard]
+{
+    specializes = upza_base_zombie_dwarf;
+
+    [aspect]
+    {
+		model = m_c_gan_df_pos_a3;
+        textures:0 = b_c_eam_dfzo-muck-07;
+        textures:1 = b_c_pos_a3_014-rst;
+    }
+
+    // stats & loot from krug_grunt_boss_01 Futak the Trainer
+	[actor]
+	{
+		[skills]
+		{
+			dexterity = 8, 0;
+			intelligence = 6, 0;
+			melee = 4,  0;
+			strength = 10, 0;
+			ranged = 4,  0;  // ADDED for ranged guards
+		}
+	}
+	[aspect]
+	{
+		experience_value = 90;
+		life = 56;
+		mana = 8;
+		max_life = 56;
+		max_mana = 8;
+	}
+	[attack]
+	{
+		damage_max = 17;
+		damage_min = 15;
+	}
+	[defend]
+	{
+		defense = 90;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+    		[all*]
+			{
+				[gold*]
+				{
+					max = 40;
+					min = 20;
+					min_pile = 7;
+					piles = 1 - 2;
+				}
+				[all*]
+				{
+       		   	    il_main = sh_w_g_c_r_s_krohar;
+                }
+			}
+		}
+	}
+}
+
+[t:template,n:upza_zombie_crystwind_guard] { specializes = upza_zombie_crystwind_guard_base; }
+[t:template,n:upza_zombie_crystwind_guard_base]
+{
+    specializes = upza_base_zombie_crystwind_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = ax_g_d_2h1b_avg;  // Timber Axe, 3-6
+            // similarly weak as the "Chuck" 3-7 Futak the Trainer is wearing, but 2h1b like the "Field Axe" 58-74 from mp_dwarf_legionnaire_guard
+		}
+	}
+}
+
+[t:template,n:upza_zombie_crystwind_guard_ranged] { specializes = upza_zombie_crystwind_guard_ranged_base; }
+[t:template,n:upza_zombie_crystwind_guard_ranged_base]
+{
+    specializes = upza_base_zombie_crystwind_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = bw_g_c_s_m_c_avg;  // "Bow", 19-29 dex13, from mp_dwarf_legionnaire_archer
+		}
+	}
+}
