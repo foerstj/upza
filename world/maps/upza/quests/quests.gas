@@ -5,7 +5,7 @@
         screen_name = "Utraean Circle";
         [*]
         {
-            description = "Utraean Circle";
+            description = "Utraean Circle quests";
           i order = 0;
         }
     }
@@ -14,7 +14,7 @@
         screen_name = "Side Quests";
         [*]
         {
-            description = "Side Quests";
+            description = "Original side quests";
           i order = 0;
         }
     }
@@ -23,7 +23,16 @@
         screen_name = "Decalibrated H.U.B.";
         [*]
         {
-            description = "Decalibrated H.U.B.";
+            description = "Recalibrating the H.U.B. platforms";
+          i order = 0;
+        }
+    }
+    [stranded]
+    {
+        screen_name = "Stranded on Eastern Island";
+        [*]
+        {
+            description = "2nd Legion mates stranded on Eastern Island";
           i order = 0;
         }
     }
@@ -89,7 +98,7 @@
             description   = "Lord Hovart is dead.";
         }
 	}
-	
+
 	[quest_townstones]    //Epic Townstone Quest
     {
         chapter = utraean_circle;
@@ -140,7 +149,7 @@
             address 	= swamp_town:conversations:conversation_janeira;
         }
     }
- 
+
     [goto_elddim_b]    //Goto Elddim Quest   from Hiroth
     {
         chapter = utraean_circle;
@@ -170,7 +179,7 @@
             description   = "Find the Elddim Sunrise Stone in the Ancient Crypt to the east of Elddim.";
         }
     }
- 
+
     [goto_crystwind]    //Goto Crystwind Quest
     {
         chapter = utraean_circle;
@@ -186,7 +195,7 @@
             address = town_center:conversations:conversation_kelti_stone;
         }
     }
-  
+
     [goto_crystwind_b]    //Goto Crystwind Quest from hiroth
     {
         chapter = utraean_circle;
@@ -202,7 +211,7 @@
             address = castle_town:conversations:conversation_kavaren_no_crystwind;
         }
     }
-   
+
     [quest_crystwind]    //Crystwind Townstone Quest
     {
         chapter = utraean_circle;
@@ -224,7 +233,7 @@
             description   = "Return to Priest Sarden in the town of Crystwind.";
         }
     }
-  
+
     [goto_fallraen]    //Goto Fallraen Quest
     {
         chapter = utraean_circle;
@@ -240,7 +249,7 @@
             address = mine_town:conversations:conversation_sarden_goto;
         }
     }
-   
+
     [goto_fallraen_b]    //Goto Fallraen Quest    from hiroth
     {
         chapter = utraean_circle;
@@ -256,7 +265,7 @@
             address = castle_town:conversations:conversation_kavaren_no_fallraen;
         }
     }
-  
+
     [quest_fallraen]    //Fallraen Townstone Quest
     {
         chapter = utraean_circle;
@@ -278,7 +287,7 @@
             description   = "Return to Apprentice Flessan.";
         }
     }
-   
+
     [goto_meren]    //Goto meren Quest
     {
         chapter = utraean_circle;
@@ -294,7 +303,7 @@
             address = snow_town:conversations:conversation_flessan_goto;
         }
     }
-  
+
     [goto_meren_b]    //Goto meren Quest from hiroth
     {
         chapter = utraean_circle;
@@ -310,7 +319,7 @@
             address = castle_town:conversations:conversation_kavaren_no_meren;
         }
     }
-    
+
     [quest_meren]    //Meren Townstone Quest
     {
         chapter = utraean_circle;
@@ -348,7 +357,7 @@
             address = ocean:conversations:conversation_tas_goto;
         }
     }
-  
+
     [goto_lang_b]    //Goto Lang Quest  from hiroth
     {
         chapter = utraean_circle;
@@ -364,7 +373,7 @@
             address = castle_town:conversations:conversation_kavaren_no_lang;
         }
     }
-   
+
     [goto_quillrabe]    //Goto Quillrabe Quest
     {
         chapter = utraean_circle;
@@ -380,7 +389,7 @@
             address = swamp_town:conversations:conversation_janeira_goto;
         }
     }
-  
+
     [goto_quillrabe_b]    //Goto Quillrabe Quest from hiroth
     {
         chapter = utraean_circle;
@@ -396,7 +405,7 @@
             address = castle_town:conversations:conversation_kavaren_no_quillrabe;
         }
     }
-   
+
     [quest_quillrabe]    //Quillrabe Townstone Quest
     {
         chapter = utraean_circle;
@@ -418,7 +427,7 @@
             description   = "Return to Priest Ferdl.";
         }
     }
-   
+
     [goto_grescal]    //Goto Grescal Quest
     {
         chapter = utraean_circle;
@@ -488,7 +497,7 @@
             address = des_r1:conversations:conversation_ferdl_goto;
         }
     }
- 
+
     [goto_hiroth_b]    //Goto Hiroth Quest  from grescal
     {
         chapter = utraean_circle;
@@ -504,7 +513,7 @@
             address = oasis:conversations:conversation_kylira_goto;
         }
     }
-    
+
     [quest_fallraen_barracks]     //Fallraen id_r2 quest
 	{
         chapter = sides;
@@ -623,6 +632,25 @@
         {
             order = 0;
             description = "Recalibrate the Grescal H.U.B. teleporter from outside";
+        }
+    }
+
+    [find_gnf]
+    {
+        chapter = stranded;
+        screen_name = "Find a safe passage to the Peninsula";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Find a safe passage from the Eastern Island to the Utraean Peninsula";
+        }
+        [*]
+        {
+            // Only singleplayer will advance the quest to this message
+            order = 1;
+            required = false;
+            description = "You can now add more 2nd Legion mates to your group.";
         }
     }
 }

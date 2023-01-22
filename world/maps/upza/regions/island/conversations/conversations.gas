@@ -143,6 +143,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	{
 		screen_text = "If you find a safe way to the Peninsula, tell me!";
 	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
 	}
 }
 [bettina_join]
@@ -218,6 +219,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 0;
 		screen_text = "Look, I found an elevator! It might well be a third magical passage to the peninsula. But you know what happened to Barney - I'm certainly not going first. After you, mate!";
 	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
 	}
 	[text*]
 	{
@@ -337,6 +339,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 2;
 		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
 	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
 	}
 	[text*]
 	{
@@ -374,6 +377,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 2;
 		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
 	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
 	}
 	[text*]
 	{
