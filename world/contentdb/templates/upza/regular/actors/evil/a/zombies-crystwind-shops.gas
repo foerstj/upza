@@ -12,6 +12,27 @@
     {
 		textures:0 = b_c_edm_zo-07;  // from walking_corpse_boss_01
     }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("wraith_tracer","shield_grip");
+				action* = call_sfx_script("wraith_tracer","weapon_grip");
+			}
+			[*]
+			{
+				single_shot = true;
+				no_trig_bits = true;
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				action* = call_sfx_script("unique_light_orange(sgx)");
+			}
+		}
+	}
 
     // stats & loot from wraith_boss_01
     // like her shop content, this is on par with Iliarth Canyon, not Crystwind Mines!
@@ -38,27 +59,6 @@
 		attack_range = 0.5;
 		damage_max = 175;
 		damage_min = 155;
-	}
-	[common]
-	{
-		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
-		[template_triggers]
-		{
-			[*]
-			{
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-				single_shot = true;
-				action* = call_sfx_script("wraith_tracer","shield_grip");
-				action* = call_sfx_script("wraith_tracer","weapon_grip");
-			}
-			[*]
-			{
-				single_shot = true;
-				no_trig_bits = true;
-				condition* = receive_world_message("we_enemy_spotted");
-				action* = call_sfx_script("unique_ray_purple(sgx)");
-			}
-		}
 	}
    	[defend] { defense=720; }
    	[inventory]
@@ -280,7 +280,7 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 				no_trig_bits = true;
-				action* = call_sfx_script("unique_ray_yellow(sgx)");
+				action* = call_sfx_script("unique_light_orange(sgx)");  // EDITED
 			}
 		}
 	}

@@ -1,0 +1,31 @@
+[effect_script*]
+{
+	name	=unique_light_orange;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(3,1,0)color1(3,2,0)frequency(1)iradius(2)radius(4)";
+			sfx start #POP;
+			]];
+}
+[effect_script*]
+{
+	name	=unique_ray_orange;
+
+	script	=[[
+			sfx create cylinder #TARGET
+			"segments(10)alpha(.1)hp0(-6,-6,0)hp1(30,30,0)rp1(0,.6,.1)
+			rp0(0,1.3,.2)texture(b_sfx_lightray_01)spin(.2)color0(1,.3,0)";
+			
+				
+			sfx start #POP;
+			
+			sfx create cylinder #TARGET
+			"segments(10)alpha(.1)hp0(-6,-6,0)hp1(30,30,0)rp1(0,.5,.1)
+			rp0(0,1,.2)texture(b_sfx_lightray_01)spin(-.3)color0(1,.6,.4)";
+			
+				
+			sfx start #POP;
+			
+			]];
+}
