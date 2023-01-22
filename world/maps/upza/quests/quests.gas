@@ -395,14 +395,7 @@
 		[*]
 		{
 			order		= 0;                                  //order of quest parts
-			speaker     = "Trella Lauron";                   // The name of the speaker
 			description = "Find the Diamond Runestone in the ruins near the town of Crystwind.";
-            address = mine_town:conversations:conversation_trella;
-		}
-		[*]
-		{
-			order		= 1;
-			description = "Bring the Diamond Runestone to Trella Lauron in the town of Crystwind for a reward.";
 		}
 	}
 
