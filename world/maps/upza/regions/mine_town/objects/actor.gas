@@ -55,21 +55,8 @@
 	  p position = 0.413684,-1.5,1.24525,0xe4ac454a;
 	}
 }
-[t:conjuror_orkin_umberdeep,n:0x00c003c1]
+[t:upza_zombie_crystwind_shop_mage,n:0x00c003c1]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_orkin;
-			* = conversation_orkin_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
@@ -300,21 +287,8 @@
 	  p position = -1.08059,-2,0.418256,0xbd469bbb;
 	}
 }
-[t:smith_jerena_strongblade,n:0x00c003d0]
+[t:upza_zombie_crystwind_shop_smith,n:0x00c003d0]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_jerena;
-			* = conversation_jerena_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.923879,0,-0.382685;

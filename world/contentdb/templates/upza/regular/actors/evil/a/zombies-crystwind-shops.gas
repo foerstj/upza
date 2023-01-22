@@ -1,0 +1,21 @@
+[t:template,n:upza_zombie_crystwind_shop_smith] { specializes = upza_zombie_crystwind_shop_smith_base; }
+[t:template,n:upza_zombie_crystwind_shop_smith_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Smith Jerena Strongblade";
+	}
+}
+
+[t:template,n:upza_zombie_crystwind_shop_mage] { specializes = upza_zombie_crystwind_shop_mage_base; }
+[t:template,n:upza_zombie_crystwind_shop_mage_base]
+{
+    specializes = upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Conjuror Orkin Umberdeep";
+	}
+}

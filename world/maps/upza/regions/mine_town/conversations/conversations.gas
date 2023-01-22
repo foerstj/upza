@@ -6,81 +6,6 @@
 	}
 }
 
-[conversation_jerena]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "Everyone knows women make better fighters, so you better believe I can smith a blade stronger than a man can break. Besides that, I get my ores from a special source, so they temper better than the rot you'll find elsewhere.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x00c003d0;
-	}
-	[text*]
-	{
-        order = 1;
-		choice = shop;
-
-		screen_text = "There you go staring at me again. Perhaps beating some Krug up in the mines would put some manners back in your head? I suppose I'll sell you what you need, manners or no.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x00c003d0;
-	}
-
-    [text*]
-	{
-
-		choice = shop;
-
-		screen_text = "Plenty of goods for all, so wait your turn and we'll all get along just fine. I don't specialize in rocks, so you'll have to talk to someone else if that's what you want.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x00c003d0;
-	}
-
-}
-
-[conversation_jerena_red]
-{
-    [text*]
-    {
-        choice = shop;
-        screen_text = "Pshaw! You want to shop when the land is dying?";
-        button_1_text = "Directions";
-       		button_1_value = d_0x00c003d0;
-    }
-}
-
-[conversation_orkin]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "It's a strange world we live in; seems everyone's on edge. My dog bit me this morning, but I swear the spell I charmed him with was still as strong as the day it was cast. You're welcome to any of the potions or spells I possess, but I don't deal in stones, so please don't ask.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x00c003c1;
-	}
-	[text*]
-	{
-		choice = shop;
-
-		screen_text = "Back again, are you? Hopefully none the worse for wear. I heard Droog have been sighted down the river to the southwest. We haven't seen them this far west even in the best of times. If you're thinking of venturing that way, best keep your eyes open and your head clear.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x00c003c1;
-	}
-
-}
-[conversation_orkin_red]
-{
-    [text*]
-    {
-        choice = shop;
-        screen_text = "This is madness! Something evil is afoot, I tell you!";
-        button_1_text = "Directions";
-       		button_1_value = d_0x00c003c1;
-    }
-}
 [conversation_captain_hovart_gavel]
 {
 	[text*]
@@ -126,27 +51,6 @@
        		button_1_value = d_0x00c0036e;
     }
 }
-/*[conversation_captain_go]
-{
-    [text*] // if quest_mines is active -- NA unless quest occurs here
-    {
-
-        screen_text = "There's not much you can do sitting around here in town. Follow the tracks through the East gate, and turn south when you reach the grinding machine.";
-        button_1_text = "Directions";
-       		button_1_value = d_0x00c0036e;
-    }
-}*/
-/*[conversation_captain_mines_complete]
-{
-    [text*] // if quest_mines is complete -- NA unless quest occurs here
-    {
-
-        screen_text = "The mines are safe again? Lovely! The boys will be so pleased to go back to work. Maybe now I'll be able to give the Legion men a bit of a furlough too.";
-        button_1_text = "Directions";
-       		button_1_value = d_0x00c0036e;
-    }
-} */
-
 [conversation_captain_hovart]
 {
 	[text*]              //if you DO NOT have the gavel but you are on step 4 of the hovart quest
