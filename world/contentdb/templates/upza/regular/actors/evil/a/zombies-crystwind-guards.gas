@@ -98,3 +98,95 @@
 		}
 	}
 }
+
+[t:template,n:upza_base_zombie_crystwind_guard_captain]
+{
+    specializes = upza_base_zombie_dwarf;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-muck-07;
+        textures:1 = b_c_edm_muck_zombie;
+    }
+
+    // stats & loot from lord_hovart
+	[actor]
+	{
+		[skills]
+		{
+			strength =  15, 0;
+			intelligence =  6, 0;
+			dexterity =  11, 0;
+			melee =  10,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 100;
+		life = 190;
+		max_life = 190;
+		mana = 92;
+		max_mana = 92;
+	}
+	[attack]
+	{
+		damage_max = 22;
+		damage_min = 18;
+	}
+	[defend] { defense=29; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				[all*]
+				{
+       				chance = 0.05;
+            	    il_main = #spell/1-4;
+				}
+				[oneof*]
+				{
+					chance = 0.30;
+					il_main = #weapon/8-11;
+					il_main = #armor/10-51;
+   				    il_main = potion_health_small;
+				    il_main = potion_mana_small;
+	    		}
+    			[gold*]
+				{
+					max = 80;
+					min = 60;
+				}
+    			[gold*]
+				{
+                    // ADDED - originally hovart quest reward
+					max = 500;
+					min = 500;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:upza_zombie_crystwind_guard_captain] { specializes = upza_zombie_crystwind_guard_captain_base; }
+[t:template,n:upza_zombie_crystwind_guard_captain_base]
+{
+    specializes = upza_base_zombie_crystwind_guard_captain;
+
+	[common]
+	{
+		screen_name = "Guard Captain of Crystwind";
+	}
+
+    // equipment from lord_hovart, not guard_captain_of_crystwind
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = ax_g_c_1h2b_avg;
+			es_shield_hand = #shield/-no_mod/50-70;
+			es_chest = bd_un_ch_r_g_c_avg_upza_leg_03_rst;  // EDITED was gen_bd_un_bl_f_g_c_blood;
+		}
+	}
+}
