@@ -15,6 +15,52 @@
 	[common]
 	{
 		dev_instance_text = "QUEST NPC";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("goto_crystwind","completed",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("quest_townstones","active",0);
+				action* = change_quest_state("quest_crystwind","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+		}
+		[other]
+		{
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
+            il_main = emitter_sarden_reward_mp;
+		}
 	}
 	[placement]
 	{
@@ -108,6 +154,25 @@
 	{
 		dev_instance_text = "QUEST NPC";
 		screen_name = "Trella Lauron";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_crystwind","active",0);
+				action* = change_quest_state("quest_crystwind","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{

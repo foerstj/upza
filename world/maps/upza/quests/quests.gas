@@ -133,15 +133,7 @@
         [*]
         {
             order         = 0;
-            speaker       = "Utraean Priest Sarden";
-            description   = "Speak to the townspeople of Crystwind about the Crystwind Hammer Stone.";
-            address = mine_town:conversations:conversation_sarden_quest;
-        }
-        [*]
-        {
-            order         = 1;   //when you find the stone
-            speaker       = "";
-            description   = "Return to Priest Sarden in the town of Crystwind.";
+            description   = "Search the townspeople of Crystwind for the Crystwind Hammer Stone.";
         }
     }
 
