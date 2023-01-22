@@ -72,33 +72,12 @@
 {
     [text*]
     {
-
         screen_text = "Ooooh, my head! How's a man supposed to think clearly with this... this soup making everything all muddled?";
         button_1_text = "Directions";
        		button_1_value = d_0x00c0036e;
     }
 }
 
-[conversation_karn]
-{
-	[text*]
-	{
-
-		screen_text = "You want to talk about stones? If this dry weather keeps up, even the mossy ruins to the west will crumble to dust. Seems the eastern grasslands turn browner every day. What with the mines producing fewer crystals all the time, it won't be long before there'll be no more 'cryst' in Crystwind.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x00c003d2;
-	}
-}
-[conversation_karn_red]
-{
-    [text*]
-    {
-
-        screen_text = "Those magic meddlers have really done it now.";
-        button_1_text = "Directions";
-       		button_1_value = d_0x00c003d2;
-    }
-}
 [conversation_trella]
 {
 	[text*]
@@ -136,7 +115,6 @@
 		button_2_text = "Directions";
        		button_2_value = d_0x00c00349;
 	}
-
     [text*]
 	{
         order = 1;
@@ -156,8 +134,6 @@
 {
 	[text*]                    //if you have rune_trella , quest_crystwind is active and quest_trella_rune is complete
 	{
-
-
 		screen_text = "By Azunai's shield, you found the diamond rune stone! I do appreciate your help with this. Perhaps you would accept this Hammer Stone as a token of my gratitude? I found it under a pile of sacks in the mines. It might have some value to someone.";
         complete_quest* = quest_trella_rune;
         button_1_text = "Directions";
@@ -172,14 +148,12 @@
         button_1_text = "Directions";
        		button_1_value = d_0x00c00349;
     }
-
 }
 [conversation_trella_quest_complete_crystwind]
 {
 	[text*]               //if quest_crystwind is active AND you have the rune_trella
 	{
 		order = 0;
-
 		screen_text = "By Azunai's shield, you found the diamond rune stone! I do appreciate your help with this. Perhaps you would accept this Hammer Stone as a token of my gratitude? I found it under a pile of sacks in the mines. Sarden certainly seems interested in it, though anybody can tell it's nothing more than a primitive knick-knack.";
         complete_quest* = quest_trella_rune;
         button_1_text = "Directions";
@@ -202,11 +176,9 @@
 		button_2_text = "Directions";
        	button_2_value = d_0x00c00349;
 	}
-
 	[text*]
 	{
         order = 1;              //rune should be removed here and reward given
-
 		screen_text = "My colleagues in Hiroth will be most excited to finally have a rune in their possession. I thank you, stranger. I will not forget your generosity.";
 		button_1_text = "Directions";
        	button_1_value = d_0x00c00349;
@@ -232,7 +204,6 @@
 	[text*]
 	{
         order = 1;              //rune_trella should be removed here and crystwind stone given
-
 		screen_text = "My colleagues in Hiroth will be most excited to finally have a rune in their possession. I thank you, stranger. I will not forget your generosity.";
 		button_1_text = "Directions";
        	button_1_value = d_0x00c00349;
@@ -244,7 +215,7 @@
        	button_1_value = d_0x00c00349;
     }
 }
- [conversation_trella_red]
+[conversation_trella_red]
 {
     [text*]
     {
@@ -255,50 +226,6 @@
     }
 }
 
-[conversation_guld]     
-{
-
-    [text*]
-	{
-		screen_text = "I'd almost prefer to work in the mines rather than be Jerena's shop boy. Almost. If I had some old Hammer Stone, I'd be in the mines now. If they weren't overrun with Krug and all. And if there was any gold left to mine. Dwarves weren't meant to work outdoors. Blast it all.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003bb;
-	}
-}
-[conversation_guld_red]
-{
-    [text*]
-    {
-
-        screen_text = "That's it! I'm moving to Elddim...unless they are affected by this dratted stench too...";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c003bb;
-    }
-}
-
-
-
-[conversation_orla]    
-{
-
-    [text*]
-	{
-
-		screen_text = "I grew up on a farm in the Iliarth Valley, where the grass grew taller than a man's head. They say it was once like that here, but there's less rain each year. Soon it'll be as barren as the desert to the southeast of here. Only ancient stones have I seen there, but those were as big as houses!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0036c;
-	}
-}
-[conversation_orla_red]
-{
-    [text*]
-    {
-
-        screen_text = "Those idiots in Hiroth wiped out the sun!";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c0036c;
-    }
-}
 [conversation_sarden]
 {
 	[text*]             //no ring
@@ -309,7 +236,6 @@
 		button_2_text = "Directions";
        	button_2_value = d_0x00c00377;
 	}
-
     [text*]
 	{
         order = 1;
@@ -320,7 +246,6 @@
 	}
      [text*]
 	{
-
 		screen_text = "If Priestess Kelti deems you trustworthy, I may have something for you later.";
 		button_1_text = "Directions";
        	button_1_value = d_0x00c00377;
@@ -349,14 +274,12 @@
      [text*]
 	{
         order = 2;
-
 		screen_text = "I'm getting ahead of myself; our Townstone is missing. We kept the Crystwind Hammer Stone hidden by passing it down amongst our families every few years. Only a few ever knew where it might be found at one time. However, a few years ago, there was a terrible sickness that swept through the town. No one remaining knows who had the Townstone last, or where it can be found. With the constant Krug invasions in the mines, I've not had a chance to do much searching. If you could track it down and return it to me, I would be most grateful.";
         activate_quest* = quest_crystwind;
         activate_quest* = quest_townstones;
         button_1_text = "Directions";
        	button_1_value = d_0x00c00377;
 	}
-
 }
 [conversation_sarden_quest]
 {                            //have ring and local quest
@@ -388,7 +311,6 @@
         button_1_text = "Directions";
        	button_1_value = d_0x00c00377;
 	}
-
 }
 [conversation_sarden_stone]
 {
@@ -402,7 +324,6 @@
         button_2_text = "Directions";
        	button_2_value = d_0x00c00377;
 	}
-
     [text*]
 	{
         order = 1;
@@ -432,7 +353,6 @@
        	button_1_value = d_0x00c00377;
 	}
 }
-
 [conversation_sarden_red]
 {
     [text*]
@@ -447,365 +367,8 @@
 {
 	[text*]
 	{
-		
 		screen_text = "You have done well, friend! Mayhaps you will have a career in the Society someday, eh?";
 		button_1_text = "Directions";
        		button_1_value = d_0x00c00377;
 	}
 }
-
-[conversation_kamb]
-{
-	[text*]
-	{
-        order = 0;
-        
-		screen_text = "Thar's only two types o' dwarves in this tavern: those who drink thar ale in the mornin', an' those who drink it in the evenin'. Even those southeastern folk from the town of Fallraen stopped by me bar before the road was closed.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003d7;
-	}
-	[text*]
-	{
-               
-		screen_text = "I found a rock in me stew las' week if'n that's what yer after. But I threw it in that ole rubbish pile behind the smithery. I s'pose Guld 'as already carted it off ta the slag heap in the mines.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003d7;
-	}
-}
-[conversation_kamb_red]
-{
-    [text*]
-    {
-
-        screen_text = "All this fire in the air is leachin' inta everythin' sealed or no. Mebbe you'd like some of our red ale then, eh?";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c003d7;
-    }
-}
-[conversation_cindra]
-{
-	[text*]
-	{
-
-		screen_text = "I heard the road south to Quillrabe has been blockaded by the Droog. What do you think they're in such a tiffy about this time?";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0033a;
-	}
-	[text*]
-	{
-
-		screen_text = "My son used to collect rocks, but I tossed them all in a tailing pile in the mines when he left to join the Legion.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0033a;
-	}
-
-}
-[conversation_cindra_red]
-{
-    [text*]
-    {
-
-        screen_text = "If the drought and Krug weren't enough, now the air's bloody too. Where is Azunai in a time like this?";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c0033a;
-    }
-}
-[conversation_jarl]
-{
-
-    [text*]
-	{
-		order = 0;
-		screen_text = "The drought is making everyone's tempers on edge, even the Droog. It's said the Iliarth River to the south is the shallowest it's ever been, and the Falls are just a trickle. No wonder the Krug took shelter in the mines -- at least it's still cool underground.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003cd;
-	}
-	[text*]
-	{
-
-		screen_text = "When I was a wee laddie, I used to skip stones along the shores of the Iliarth River. I used to love manning the rickety old platform along the river road to the south.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003cd;
-	}
-}
-[conversation_jarl_red]
-{
-    [text*]
-    {
-
-        screen_text = "Och, Cindra and I tried to get in to see Orkin and Priest Sarden this morning, but everyone else was there too. Seems the tavern is the only safe place in town.";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c003cd;
-    }
-}
-[conversation_tavern_guard]
-{
-
-    [text*]
-	{
-
-		screen_text = "It's hot work minding the gates. Wot with all the dust and Krug shamen constantly lofting fireballs at us, I don't think I'll ever git the stink out of my armor. Wot I wouldn't give fer a trip east to Fallraen.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003d4;
-	}
-}
-[conversation_tavern_guard_red]
-{
-
-    [text*]
-	{
-
-		screen_text = "Do ye think them Krug are skeered by this muck too?";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c003d4;
-	}
-}
-
-[conversation_guard_west_gate]
-{
-	[text*]		//level 12 - 13
-	{
-
-		screen_text = "We're here to keep the town safe an' nothin' more, but you look like someone who kin take care o' yerself without our help.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0032a;
-	}
-
-}
-[conversation_guard_west_gate_low]
-{
-	[text*] //level 11 or lower
-	{
-
-		screen_text = "Beware, traveller, you appear too inexperienced to survive for long away from the safety of Crystwind.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0032a;
-	}
-}
-[conversation_guard_west_gate_high]
-{
-	[text*]	//level 14+
-	{
-
-		screen_text = "An adventurer as experienced as yourself shouldn't waste time exploring this area. You'll be swatting everything that moves as if they were nothing more than pesky houseflies!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0032a;
-	}
-}
-[conversation_guard_west_gate_red]
-{
-    [text*]	
-    {
-
-        screen_text = "Thar's THINGS moving in the fog, I swear it! Dinna be going too far away from us if'n ye value yer neck!";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c0032a;
-    }
-}
-[conversation_archer_west_gate]    
-{
-	[text*]	//level 12 - 13
-	{
-
-		screen_text = "We've lost three Legionnaires this week alone. You may still be able to make it to Elddim or even Fallraen through the mines if you're able to dodge the Krug.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00329;
-	}
-	
-
-}
-[conversation_archer_west_gate_low]
-{
-	[text*]	//level 11 or lower
-	{
-
-		screen_text = "Beware, traveller, you appear too inexperienced to survive for long away from the safety of Crystwind.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00329;
-	}
-}
-[conversation_archer_west_gate_high]
-{
-	[text*]	//level 14+
-	{
-
-		screen_text = "An adventurer as experienced as yourself shouldn't waste time exploring this area. You'll be swatting everything that moves as if they were nothing more than pesky houseflies!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00329;
-	}
-}
-[conversation_archer_west_gate_red]
-{
-    [text*]
-    {
-
-        screen_text = "Me mate's a bit on the jumpy side, as ye can see. But I'll give ye some advice -- go git yerself a nice draught of Kamb's fine ale, and ye'll be singing yer bloody head off in no time, fog or no fog.";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c00329;
-    }
-}
-[conversation_guard_south_gate]     
-{
-	
-     [text*]	//12 - 13
-	{
-
-		screen_text = "I've been with the Legion going on three years now. Someday I'd like to build a river boat and travel up and down the Iliarth, selling herbs and small miracles. You can see the Iliarth yourself if you travel south along the road.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0032b;
-	}
-}
-[conversation_guard_south_gate_low]
-{
-	[text*]	// 11 or lower
-	{
-
-		screen_text = "Beware, traveller, you appear too inexperienced to survive for long away from the safety of Crystwind.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0032b;
-	}
-}
-[conversation_guard_south_gate_high]
-{
-	[text*]	//14+
-	{
-
-		screen_text = "An adventurer as experienced as yourself shouldn't waste time exploring this area. You'll be swatting everything that moves as if they were nothing more than pesky houseflies!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0032b;
-	}
-}
-[conversation_guard_south_gate_red]
-{
-    [text*]
-    {
-
-        screen_text = "I've heard of a red tide, but never a red wind!";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c0032b;
-    }
-}
-[conversation_archer_south_gate]
-{
-	[text*]	//12 - 13
-	{
-
-		screen_text = "Our scouts were able to push through to Elddim by following the Iliarth upriver. It wasn't easy, mind you.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00328;
-	}
-
-
-}
-[conversation_archer_south_gate_low]
-{
-	[text*]	//11 or lower
-	{
-
-		screen_text = "Beware, traveller, you appear too inexperienced to survive for long away from the safety of Crystwind.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00328;
-	}
-}
-[conversation_archer_south_gate_high]
-{
-	[text*]	//14+
-	{
-
-		screen_text = "An adventurer as experienced as yourself shouldn't waste time exploring this area. You'll be swatting everything that moves as if they were nothing more than pesky houseflies!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00328;
-	}
-}
-[conversation_archer_south_gate_red]
-{
-    [text*]
-    {
-
-        screen_text = "I'm almost out of arrows -- I suggest you get someplace safe unless you want to end up stuffed into a Krug cook pot somewhere.";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c00328;
-    }
-}
-[conversation_guard_north_entrance]
-{
-	[text*]	//12 - 13
-	{
-
-		screen_text = "You've the mark of Azunai upon you. Why bother traveling through the mines when you can just take the H.U.B. wherever you want to go? I suppose young folks like you prefer more of a challenge, though.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0034a;
-	}
-
-}
-[conversation_guard_north_entrance_low]
-{
-	[text*]	//11 or lower
-	{
-
-		screen_text = "Beware, traveller, you appear too inexperienced to survive for long away from the safety of Crystwind.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0034a;
-	}
-}
-[conversation_guard_north_entrance_high]
-{
-	[text*]	//14+
-	{
-
-		screen_text = "An adventurer as experienced as yourself shouldn't waste time exploring this area. You'll be swatting everything that moves as if they were nothing more than pesky houseflies!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c0034a;
-	}
-}
-[conversation_guard_north_entrance_red]
-{
-    [text*]
-    {
-
-        screen_text = "Auugh, they're coming to get me!";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c0034a;
-    }
-}
-[conversation_guard_east_entrance]
-{
-	[text*]	//13 - 15
-	{
-
-		screen_text = "The tunnels to the town of Fallraen are overrun with Krug, but you look like the sort of adventurer who can handle a bit of a beating and can push through.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x00c00352;
-	}
-}
-[conversation_guard_east_entrance_low]
-{
-	[text*]	//12 or lower
-	{
-
-		screen_text = "Beware, traveler, you appear too inexperienced to survive for long away from the safety of Crystwind.";
-		button_1_text = "Directions";
-       	button_1_value = d_d_0x00c00352;
-	}
-}
-[conversation_guard_east_entrance_high]
-{
-	[text*]	//16+
-	{
-
-		screen_text = "An adventurer as experienced as yourself shouldn't waste time exploring this area. You'll be swatting everything that moves as if they were nothing more than pesky houseflies!";
-		button_1_text = "Directions";
-       	button_1_value = d_d_0x00c00352;
-	}
-}
-[conversation_guard_east_entrance_red]
-{
-    [text*]
-    {
-
-        screen_text = "I'd welcome a Krug party with open arms right now! Anything to avoid fighting off more of them Maljin. Those creatures are... are abominations!";
-        button_1_text = "Directions";
-       	button_1_value = d_0x00c00352;
-    }
-}
-
