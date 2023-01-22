@@ -1,0 +1,284 @@
+[t:template,n:upza_base_zombie_elddim_guard]
+{
+    specializes = upza_base_zombie_thin;
+
+    // look from dsx_slime_zombie
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_slime_zombie; }
+    }
+
+    // stats & loot from dsx_slime_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		8,0;
+            intelligence =	7,0;
+            dexterity =		8,0;
+            melee =		3,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 45;
+        life = 120;
+        max_life = 120;
+        mana = 6;
+        max_mana = 6;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_min = 15;
+        damage_max = 20;
+    }
+	[defend] { defense = 32; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 18;
+                    max = 35;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_small;
+                    il_main = potion_health_small;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/11-11;
+                    il_main = #armor/2-25;
+                    il_main = #*/11-11;
+                }
+            }
+        }
+    }
+}
+
+[t:template,n:upza_zombie_elddim_guard] { specializes = upza_zombie_elddim_guard_base; }
+[t:template,n:upza_zombie_elddim_guard_base]
+{
+    specializes = upza_base_zombie_elddim_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = sh_m_g_c_r_s_avg;  // from mp_guard
+			es_weapon_hand = ss_g_c_gl_1h_fun;  // Tarnished Gladius, 3-11
+		}
+	}
+}
+
+[t:template,n:upza_zombie_elddim_guard_ranged] { specializes = upza_zombie_elddim_guard_ranged_base; }
+[t:template,n:upza_zombie_elddim_guard_ranged_base]
+{
+    specializes = upza_base_zombie_elddim_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_shield_hand = bw_g_c_s_m_c_avg;  // Bow, 19-29, from mp_guard_ranged
+		}
+	}
+}
+
+[t:template,n:upza_base_zombie_elddim_guard_captain]
+{
+    specializes = upza_base_zombie_pudgy;
+
+    // look from dsx_muck_zombie
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_muck_zombie; }
+    }
+
+    // stats & loot from dsx_muck_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		 9,0;
+            intelligence =	8,0;
+            dexterity =		 7,0;
+            melee =		 3,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 48;
+        life = 140;
+        max_life = 140;
+        mana = 6;
+        max_mana = 6;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_max = 25;
+        damage_min = 18;
+    }
+	[defend] { defense = 37; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 18;
+                    max = 35;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_small;
+                    il_main = potion_health_small;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/11-11;
+                    il_main = #armor/2-25;
+                    il_main = #*/11-11;
+                }
+            }
+        }	
+    }
+}
+
+[t:template,n:upza_zombie_elddim_guard_captain] { specializes = upza_zombie_elddim_guard_captain_base; }
+[t:template,n:upza_zombie_elddim_guard_captain_base]
+{
+    specializes = upza_base_zombie_elddim_guard_captain;
+
+	[common]
+	{
+		screen_name = "Legionnaire Captain";
+	}
+
+    // equipment from mp_guard_captain
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = sh_w_g_c_r_m_avg;  // from mp_guard_captain
+			es_weapon_hand = ss_g_c_gl_1h_low;  // Crusted Gladius, 8-15
+		}
+	}
+}
+
+[t:template,n:upza_base_zombie_elddim_guard_dwarf]
+{
+    specializes = upza_base_zombie_dwarf;
+
+    [aspect]
+    {
+		model = m_c_gan_df_pos_a3;
+        textures:0 = b_c_eam_dfzo-muck-03;
+        textures:1 = b_c_pos_a3_014-rst;
+    }
+
+    // stats & loot from dsx_slime_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		8,0;
+            intelligence =	7,0;
+            dexterity =		8,0;
+            melee =		3,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 45;
+        life = 120;
+        max_life = 120;
+        mana = 6;
+        max_mana = 6;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_min = 15;
+        damage_max = 20;
+    }
+	[defend] { defense = 32; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 18;
+                    max = 35;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_small;
+                    il_main = potion_health_small;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/11-11;
+                    il_main = #armor/2-25;
+                    il_main = #*/11-11;
+                }
+            }
+        }
+    }
+}
+
+[t:template,n:upza_zombie_elddim_guard_dwarf] { specializes = upza_zombie_elddim_guard_dwarf_base; }
+[t:template,n:upza_zombie_elddim_guard_dwarf_base]
+{
+    specializes = upza_base_zombie_elddim_guard_dwarf;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			//es_weapon_hand = ax_g_d_2h2b_avg;  // Forest Axe, two-handed, 8-12
+			es_weapon_hand = ax_d_o_2h1b_avg;  // Heft Axe, two-handed, 13-17
+		}
+	}
+}

@@ -1,0 +1,199 @@
+[t:template,n:upza_zombie_elddim_townfolk] { specializes = upza_zombie_elddim_townfolk_base; }
+[t:template,n:upza_zombie_elddim_townfolk_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // look & behavior from walking_corpse
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_zo-02; }
+    }
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from walking_corpse
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	9,0;
+			intelligence =  	3,0;
+			dexterity =  	4,0;
+			melee =  		3,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 22;
+		life = 36;
+		max_life = 36;
+		mana = 6;
+		max_mana = 6;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 13;
+		damage_min = 9;
+	}
+	[defend] { defense=41; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+       				chance = 0.02;
+            	    il_main = #spell/2-6;
+				}
+				[oneof*]
+				{
+					chance = 0.17;
+					il_main = #*/14-20;
+					il_main = #armor/8-41;
+	                il_main = #weapon/14-20;
+				}
+        		[oneof*]
+				{
+	                   chance = 0.002;
+	                   il_main = #weapon/-rare(1)/20-27;
+	                   il_main = #armor/-rare(1)/20-45;
+	            }
+				[oneof*]
+				{
+					chance = 0.20;
+    			    il_main = potion_health_small;
+				    il_main = potion_mana_small;
+				}
+				[gold*]
+				{
+					chance = 0.15;
+					max = 30;
+					min = 10;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:upza_zombie_elddim_townfolk_pudgy] { specializes = upza_zombie_elddim_townfolk_pudgy_base; }
+[t:template,n:upza_zombie_elddim_townfolk_pudgy_base]
+{
+    specializes = upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // behavior from walking_corpse, edited
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+
+        // from base_zombie_03
+		jat_attack_object_melee 			= world\ai\jobs\common\job_attack_object_melee.skrit
+			?run_chance 					= 1.0;
+	}
+
+    // stats & loot from walking_corpse
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	9,0;
+			intelligence =  	3,0;
+			dexterity =  	4,0;
+			melee =  		3,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 22;
+		life = 36;
+		max_life = 36;
+		mana = 6;
+		max_mana = 6;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 13;
+		damage_min = 9;
+	}
+	[defend] { defense=41; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+       				chance = 0.02;
+            	    il_main = #spell/2-6;
+				}
+				[oneof*]
+				{
+					chance = 0.17;
+					il_main = #*/14-20;
+					il_main = #armor/8-41;
+	                il_main = #weapon/14-20;
+				}
+        		[oneof*]
+				{
+	                   chance = 0.002;
+	                   il_main = #weapon/-rare(1)/20-27;
+	                   il_main = #armor/-rare(1)/20-45;
+	            }
+				[oneof*]
+				{
+					chance = 0.20;
+    			    il_main = potion_health_small;
+				    il_main = potion_mana_small;
+				}
+				[gold*]
+				{
+					chance = 0.15;
+					max = 30;
+					min = 10;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:upza_zombie_elddim_townfolk_burned]
+{
+    specializes = upza_zombie_elddim_townfolk_base;
+
+	[common]
+	{
+		screen_name = "Burned Farmer";
+	}
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_zo-05; }
+    }
+}
