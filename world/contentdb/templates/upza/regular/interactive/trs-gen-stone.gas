@@ -1,0 +1,20 @@
+[t:template,n:gen_stone_glb_crystwind_01]
+{
+	doc = "generator_townstone_crystwind";
+	specializes = base_stone_glb;
+	[aspect]
+	{
+		model = m_i_glb_stone-crystwind;
+		is_selectable = false;
+		is_visible = false;
+		force_no_render = true;
+	}
+	[common]
+	{
+		screen_name = "Crystwind Stone";
+	}
+	[generator_multiple_mp]
+	{
+		child_template_name = stone_glb_crystwind_01;
+	}
+}
