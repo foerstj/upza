@@ -150,22 +150,6 @@
         }
     }
 
-    [goto_elddim_b]    //Goto Elddim Quest   from Hiroth
-    {
-        chapter = utraean_circle;
-        screen_name      = "Journey to Elddim";
-        victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_26;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Speak with Utraean Priestess Kelti in Elddim.";
-            address = castle_town:conversations:conversation_kavaren_no_elddim;
-        }
-    }
-
     [quest_elddim]    //Elddim Townstone Quest
     {
         chapter = utraean_circle;
@@ -193,22 +177,6 @@
             speaker       = "Utraean Priestess Kelti";
             description   = "Show the Utraean Signet Ring to Utraean Priest Sarden in the town of Crystwind.";
             address = town_center:conversations:conversation_kelti_stone;
-        }
-    }
-
-    [goto_crystwind_b]    //Goto Crystwind Quest from hiroth
-    {
-        chapter = utraean_circle;
-		screen_name      = "Journey to Crystwind";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_28;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Show the Utraean Signet Ring to Utraean Priest Sarden in the town of Crystwind.";
-            address = castle_town:conversations:conversation_kavaren_no_crystwind;
         }
     }
 
@@ -250,22 +218,6 @@
         }
     }
 
-    [goto_fallraen_b]    //Goto Fallraen Quest    from hiroth
-    {
-        chapter = utraean_circle;
-		screen_name      = "Journey to Fallraen";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_30;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Show the Utraean Signet Ring to Utraean Apprentice Flessan in the town of Fallraen.";
-            address = castle_town:conversations:conversation_kavaren_no_fallraen;
-        }
-    }
-
     [quest_fallraen]    //Fallraen Townstone Quest
     {
         chapter = utraean_circle;
@@ -301,22 +253,6 @@
             speaker       = "Utraean Apprentice Flessan";
             description   = "Show the Utraean Signet Ring to Utraean Priest Tas in the town of Meren.";
             address = snow_town:conversations:conversation_flessan_goto;
-        }
-    }
-
-    [goto_meren_b]    //Goto meren Quest from hiroth
-    {
-        chapter = utraean_circle;
-		screen_name      = "Journey to Meren";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_32;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Show the Utraean Signet Ring to Utraean Priest Tas in the town of Meren.";
-            address = castle_town:conversations:conversation_kavaren_no_meren;
         }
     }
 
@@ -358,22 +294,6 @@
         }
     }
 
-    [goto_lang_b]    //Goto Lang Quest  from hiroth
-    {
-        chapter = utraean_circle;
-		screen_name      = "Journey to Lang";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_34;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Show the Utraean Signet Ring to Utraean Priestess Janeira in the town of Lang.";
-            address = castle_town:conversations:conversation_kavaren_no_lang;
-        }
-    }
-
     [goto_quillrabe]    //Goto Quillrabe Quest
     {
         chapter = utraean_circle;
@@ -387,22 +307,6 @@
             speaker       = "Utraean Priestess Janeira";
             description   = "Show the Utraean Signet Ring to Utraean Priest Ferdl in the town of Quillrabe.";
             address = swamp_town:conversations:conversation_janeira_goto;
-        }
-    }
-
-    [goto_quillrabe_b]    //Goto Quillrabe Quest from hiroth
-    {
-        chapter = utraean_circle;
-		screen_name      = "Journey to Quillrabe";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_35;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Show the Utraean Signet Ring to Utraean Priest Ferdl in the town of Quillrabe.";
-            address = castle_town:conversations:conversation_kavaren_no_quillrabe;
         }
     }
 
@@ -441,22 +345,6 @@
             speaker       = "Utrean Priest Kavaren";
             description   = "Show the Utraean Signet Ring to Utraean Priestess Kylira in the town of Grescal.";
             address = des_r1:conversations:conversation_ferdl_stone;
-        }
-    }
-
-    [goto_grescal_b]    //Goto Grescal from Hiroth
-    {
-        chapter = utraean_circle;
-		screen_name      = "Journey to Grescal";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_38;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Show the Utraean Signet Ring to Utraean Priestess Kylira in the town of Grescal.";
-            address = castle_town:conversations:conversation_kavaren_no_grescal;
         }
     }
 

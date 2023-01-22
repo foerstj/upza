@@ -118,7 +118,6 @@
         choice = more;
 		screen_text = "If this drought keeps up, there will not be much here other than dust and blowing sand. That's why we must succeed in assembling the Circle in Hiroth. I have dreamt of a vast reservoir of water hidden beneath the land. I am certain the Utraeans stockpiled it just for times like these. When the Circle is complete, we will finally be able to use it, and the town of Grescal will be saved.";
         complete_quest* = goto_grescal;
-        complete_quest* = goto_grescal_b;
         button_2_text = "Directions";
        		button_2_value = d_0x076004cd;
 	}
@@ -180,7 +179,6 @@
         order = 0;
         choice = more;
 		screen_text = "You have the Palm Stone! The gods favor you, my child. I am glad we will no longer fear for our safety with the ruined temple so close. I was certain our fate would be sealed, even if the Circle was completed and the vast reservoir I dreamt about beneath the land was opened for our use. I give you my heartfelt thanks.";
-        complete_quest* = goto_grescal_b;
         complete_quest* = goto_grescal;
         	button_2_text = "Directions";
        		button_2_value = d_0x076004cd;

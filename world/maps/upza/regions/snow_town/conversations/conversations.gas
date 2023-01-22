@@ -127,7 +127,6 @@
         	choice = more;
 		screen_text = "You are the one Priestess Kelti sent? Oh, thank the stars! It's been a terrible month, let me tell you!";
         	complete_quest* = goto_fallraen;
-        	complete_quest* = goto_fallraen_b;
         	button_2_text = "Directions";
        		button_2_value = d_0x027007d0;
 	}
@@ -189,7 +188,6 @@
         choice = more;
 		screen_text = "You are the one Priestess Kelti sent? Oh, thank the stars! It's been a terrible month, let me tell you!";
         	complete_quest* = goto_fallraen;
-        	complete_quest* = goto_fallraen_b;
         	button_2_text = "Directions";
        		button_2_value = d_0x027007d0;
 	}

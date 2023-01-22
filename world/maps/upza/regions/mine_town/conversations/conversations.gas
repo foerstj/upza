@@ -39,7 +39,6 @@
         choice = more;
 		screen_text = "Ahh, Priestess Kelti speaks highly of you. We here in Crystwind could also use your help, if you have the time. Without our Townstone, no one in the Society will be able to experience the wonders that lay ahead.";
         complete_quest* = goto_crystwind;
-        complete_quest* = goto_crystwind_b;
         button_2_text = "Directions";
        	button_2_value = d_0x00c00377;
 	}
@@ -100,7 +99,6 @@
         choice = more;
 		screen_text = "By the gods, friend, you have found the Crystwind Hammer Stone! I did not truly think we would ever succeed in testing my theory... But thanks to you, perhaps it really will happen as I'm hoping!";
         complete_quest* = goto_crystwind;
-        complete_quest* = goto_crystwind_b;
         button_2_text = "Directions";
        	button_2_value = d_0x00c00377;
 	}

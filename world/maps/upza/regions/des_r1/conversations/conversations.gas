@@ -120,7 +120,6 @@
         choice = more;
 		screen_text = "Um, you are the one High Priestess Kelti has anointed, I see. Er, well, I want to see the Circle united just like everyone else, but, um, I'm afraid that won't be possible. We, uh, that is, Quillrabe, used to have a terrible problem with the dragons preying on townspeople. We finally put an end to the rampage by offering tribute: the Dragon Queen could take whatever she wanted, if she and her drakes would leave us in peace.";
         complete_quest* = goto_quillrabe;
-        complete_quest* = goto_quillrabe_b;
         	button_2_text = "Directions";
        		button_2_value = d_0x0070087f;
 	}
@@ -180,7 +179,6 @@
         choice = more;              //give reward here
 		screen_text = "By the stars, this cannot be! I...er, I see with my own two eyes that you have the Quillrabe Mask Stone, but, I... How did you... I'm... I'm speechless! No, no, please do not tell me how you managed to rescue our Townstone and free us from the Dragon Queen's wrath. The very thought of venturing into that cave makes me feel ill. Um, we are indebted to you forever more. Never can, er, repay you... Take this trifle as thanks?";
         	complete_quest* = goto_quillrabe;
-        	complete_quest* = goto_quillrabe_b;
         	button_2_text = "Directions";
        		button_2_value = d_0x0070087f;
 	}

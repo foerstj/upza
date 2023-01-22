@@ -116,7 +116,6 @@
         choice = more;
 		screen_text = "Ahh, Priestess Kelti spoke to me in my dreams about you. That fool, Priest Lagreth of Fallraen, tried and failed to steal the Lang Mosquito Stone for his own uses. I hear a band of Furoks rewarded him well for his shenanigans. Ha! The old goat seems to think all will be milk and honey once the Circle is built, but mark my words, the man is too senile to remember even what month it is. I have tried to warn the Society, but they do not listen to old witches like they should.";
         complete_quest* = goto_lang;
-        complete_quest* = goto_lang_b;
         	button_2_text = "Directions";
        		button_2_value = d_0x04e003ff;
 	}

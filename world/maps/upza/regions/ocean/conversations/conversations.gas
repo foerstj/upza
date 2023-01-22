@@ -117,7 +117,6 @@
         choice = more;
 		screen_text = "Have you ever looked at the sky on a clear night? The stars are beautiful...deep and lustrous like a newly polished blade. I know why all that's left of the Utraeans are dusty ruins and unknown artifacts. They went there, to the sky, to start a new life... And they left their keys behind for those wise enough to follow them.";
         complete_quest* = goto_meren;
-        complete_quest* = goto_meren_b;
         	button_2_text = "Directions";
        		button_2_value = d_0x04d005a5;
 	}
@@ -172,7 +171,6 @@
         order = 0;
         choice = more;
 		screen_text = "Have you ever looked at the sky on a clear night? The stars are beautiful...deep and lustrous like a newly polished blade. I know why all that's left of the Utraeans are dusty ruins and unknown artifacts. They went there, to the sky, to start a new life... And they left their keys behind for those wise enough to follow them.";
-        complete_quest* = goto_meren_b;
         complete_quest* = goto_meren;
         	button_2_text = "Directions";
        		button_2_value = d_0x04d005a5;
