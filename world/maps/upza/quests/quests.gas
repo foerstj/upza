@@ -40,64 +40,7 @@
 
 [quests]
 {
-
-   	[quest_trella_rune]     //Mine_town rune quest
-	{
-        chapter = utraean_circle;
-		screen_name		= "The Diamond Runestone";		//name in quest log
-		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
-		quest_image = b_gui_ig_mnu_jnl_quest_23;				// Image for the quest
-
-		[*]
-		{
-			order		= 0;                                  //order of quest parts
-			speaker     = "Trella Lauron";                   // The name of the speaker
-			description = "Find the Diamond Runestone in the ruins near the town of Crystwind.";
-            address = mine_town:conversations:conversation_trella;
-		}
-		[*]
-		{
-			order		= 1;
-			description = "Bring the Diamond Runestone to Trella Lauron in the town of Crystwind for a reward.";
-		}
-	}
-
-    [quest_zabar_hovart]    //Elddim Lord Hovart Quest
-    {
-        chapter = sides;
-		screen_name      = "Hovart's Folly";
-		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_24;				// Image for the quest
-
-        [*]
-        {
-            order         = 0;
-            //description   = "Talk to the Guard Captain at the eastern road near the H.U.B. platform.";
-        }
-        [*]
-        {
-            order         = 1;
-            description   = "Find the Gavel of Convening in the Ancient Crypt to the east.";
-        }
-        [*]
-        {
-            order         = 2;
-            speaker       = "";
-            description   = "Take the Gavel of Convening into the underground stronghold known as Hovart's Folly.";
-        }
-        [*]
-        {
-            order         = 3;
-            speaker       = "";
-            description   = "Destroy Lord Hovart and his undead minions.";
-        }
-        [*]
-        {
-            order         = 4;
-            speaker       = "";
-            description   = "Lord Hovart is dead.";
-        }
-	}
+    // Utraean Circle
 
 	[quest_townstones]    //Epic Townstone Quest
     {
@@ -402,6 +345,67 @@
         }
     }
 
+
+    // Side Quests
+
+    [quest_zabar_hovart]    //Elddim Lord Hovart Quest
+    {
+        chapter = sides;
+		screen_name      = "Hovart's Folly";
+		victory_sample   =   s_e_level_up_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_24;				// Image for the quest
+
+        [*]
+        {
+            order         = 0;
+            //description   = "Talk to the Guard Captain at the eastern road near the H.U.B. platform.";
+        }
+        [*]
+        {
+            order         = 1;
+            description   = "Find the Gavel of Convening in the Ancient Crypt to the east.";
+        }
+        [*]
+        {
+            order         = 2;
+            speaker       = "";
+            description   = "Take the Gavel of Convening into the underground stronghold known as Hovart's Folly.";
+        }
+        [*]
+        {
+            order         = 3;
+            speaker       = "";
+            description   = "Destroy Lord Hovart and his undead minions.";
+        }
+        [*]
+        {
+            order         = 4;
+            speaker       = "";
+            description   = "Lord Hovart is dead.";
+        }
+	}
+
+   	[quest_trella_rune]     //Mine_town rune quest
+	{
+        chapter = sides;
+		screen_name		= "The Diamond Runestone";		//name in quest log
+		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
+		quest_image = b_gui_ig_mnu_jnl_quest_23;				// Image for the quest
+
+		[*]
+		{
+			order		= 0;                                  //order of quest parts
+			speaker     = "Trella Lauron";                   // The name of the speaker
+			description = "Find the Diamond Runestone in the ruins near the town of Crystwind.";
+            address = mine_town:conversations:conversation_trella;
+		}
+		[*]
+		{
+			order		= 1;
+			description = "Bring the Diamond Runestone to Trella Lauron in the town of Crystwind for a reward.";
+		}
+	}
+
     [quest_fallraen_barracks]     //Fallraen id_r2 quest
 	{
         chapter = sides;
@@ -433,6 +437,9 @@
             address = of_r1:conversations:conversation_keeper;
 		}
 	}
+
+
+    // Decalibrated H.U.B.
 
     [recalibrate_elddim]
     {
@@ -522,6 +529,9 @@
             description = "Recalibrate the Grescal H.U.B. teleporter from outside";
         }
     }
+
+
+    // Stranded on Eastern Island
 
     [find_gnf]
     {
