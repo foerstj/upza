@@ -10,30 +10,11 @@
 	  p position = 1.84631,0,1.76224,0xc73af851;
 	}
 }
-[t:utraean_priest_sarden,n:0x00c00377]
+[t:upza_zombie_crystwind_priest,n:0x00c00377]
 {
 	[common]
 	{
 		dev_instance_text = "QUEST NPC";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_sarden;
-			* = conversation_sarden_all_complete;
-			* = conversation_sarden_complete;
-			* = conversation_sarden_goto;
-			* = conversation_sarden_quest;
-			* = conversation_sarden_red;
-			* = conversation_sarden_ring;
-			* = conversation_sarden_stone;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_sarden.skrit;
 	}
 	[placement]
 	{

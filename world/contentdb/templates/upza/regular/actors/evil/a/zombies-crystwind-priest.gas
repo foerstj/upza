@@ -1,0 +1,47 @@
+[t:template,n:upza_zombie_crystwind_priest]
+{
+    specializes = upza_zombie_crystwind_townfolk_dwarf_base;
+
+	[aspect]
+	{
+		model = m_c_gan_df_pos_a7;
+		[textures]
+		{
+            0 = b_c_eam_dfzo-muck-03;
+			1 = b_c_pos_a7_014;
+		}
+	}
+	[common]
+	{
+		screen_name = "Utraean Priest Sarden";
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			//es_chest = bd_ra_ro_m_g_c_084;
+			es_feet = bo_bo_le_light;
+		}
+        [pcontent]
+        {
+			[all*]
+			{
+    	        il_main = emitter_sarden_reward_mp;
+			}
+        }
+	}
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_orange(sgx)");
+			}
+		}
+	}
+}
