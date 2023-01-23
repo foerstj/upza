@@ -4,11 +4,11 @@
 	{
 		child_template_name = "rock_beast";
 	  x initial_command = 0x001000D9;
-	  f spawn_period = 0.100000;
+	  f spawn_period = 0.1;
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.67179,-2e-06,-3.32693,0xE4F4C4A2;
+	  p position = -2.67179,-2e-006,-3.32693,0xe4f4c4a2;
 	}
 }
