@@ -1,3 +1,11 @@
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x0010020f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.529921,0,0.848047;
+	  p position = -3.47584,-2,-4.32424,0x98565081;
+	}
+}
 [t:krug_shaman,n:0x001002f1]
 {
 	[placement]
@@ -115,6 +123,14 @@
 	  p position = 2.37791,1.89935,0.0520859,0xe2fa75ba;
 	}
 }
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x0010028a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.147809,0,0.989016;
+	  p position = -1.5096,-0.0500011,2.85513,0x303eeb56;
+	}
+}
 [t:mine_worm,n:0x00100247]
 {
 	[placement]
@@ -225,6 +241,14 @@
 	  p position = -0.335011,0,1.21159,0xfe5bd0b2;
 	}
 }
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x0010020e]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.848047,0,0.529921;
+	  p position = -0.905756,0,-1.49505,0xfe5bd0b2;
+	}
+}
 [t:krug_throw_zombie,n:0x001002e9]
 {
 	[placement]
@@ -249,6 +273,14 @@
 	  p position = -1.47355,0,1.62099,0x74e6b2a0;
 	}
 }
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x0010020d]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.224949,0,0.974371;
+	  p position = 0.978872,0,-1.47579,0x90435837;
+	}
+}
 [t:dwarf_worker,n:0x001000a4]
 {
 	[mind]
@@ -259,6 +291,14 @@
 	{
 	  q orientation = 0,0.42357,0,0.905864;
 	  p position = 0.0782788,-0.05,-0.798221,0x760d6132;
+	}
+}
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x0010020c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.529921,0,0.848047;
+	  p position = -0.288965,0,0.0444821,0xef944a72;
 	}
 }
 [t:krug_throw_zombie,n:0x001001c3]
@@ -274,6 +314,18 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 0.439655,4.76837e-007,1.34842,0x550e7378;
+	}
+}
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x001000f7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0571;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.882947,0,0.469473;
+	  p position = 3.10144,0,1.85737,0x914a302b;
 	}
 }
 [t:krug_shaman,n:0x001001a8]
@@ -370,6 +422,14 @@
 	{
 	  q orientation = 0,-0.19509,0,0.980785;
 	  p position = -0.556625,0.05,3.60194,0x7acc4d86;
+	}
+}
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x00100049]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -2.78406,-2,0.676819,0xe435d061;
 	}
 }
 [t:krug_raider,n:0x00100240]
@@ -912,6 +972,14 @@
 	  p position = -0.399359,-0.05,0.934058,0x2c54f3e0;
 	}
 }
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x00100211]
+{
+	[placement]
+	{
+	  q orientation = 0,0.529921,0,0.848047;
+	  p position = -0.278071,-0.05,-1.60666,0x745ba35e;
+	}
+}
 [t:krug_raider,n:0x0010029d]
 {
 	[placement]
@@ -1142,6 +1210,14 @@
 	  p position = -0.229552,0,1.59309,0xb594ceeb;
 	}
 }
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x00100289]
+{
+	[placement]
+	{
+	  q orientation = 0,0.906308,0,0.422618;
+	  p position = 1.82646,-0.05,-1.51924,0xec51fbe0;
+	}
+}
 [t:darkling_reveal,n:0x0010027a]
 {
 	[placement]
@@ -1156,6 +1232,14 @@
 	{
 	  q orientation = 0,-0.19509,0,0.980785;
 	  p position = 0.44669,-0.05,1.33182,0x48b621de;
+	}
+}
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x00100288]
+{
+	[placement]
+	{
+	  q orientation = 0,0.857167,0,-0.515038;
+	  p position = -1.87099,-0.0500011,-0.261955,0x48b621de;
 	}
 }
 [t:darkling_reveal,n:0x00100272]
@@ -1202,5 +1286,13 @@
 	[placement]
 	{
 	  p position = 1.39359,-0.05,-2.86526,0xbe393b33;
+	}
+}
+[t:upza_zombie_crystwind_townfolk_dwarf,n:0x00100210]
+{
+	[placement]
+	{
+	  q orientation = 0,0.529921,0,0.848047;
+	  p position = -0.403229,-7.15,-0.819814,0xe8aca30a;
 	}
 }
