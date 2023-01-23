@@ -1589,22 +1589,6 @@
 	  p position = 2.28525,0.0265169,-1.35396,0xdd3388ab;
 	}
 }
-[t:body_glb_krug_02,n:0x0350013e]
-{
-	[placement]
-	{
-	  q orientation = 0,0.258819,0,0.965926;
-	  p position = -2.34934,0,-0.102715,0xe413d61d;
-	}
-}
-[t:body_glb_krug_10,n:0x03500141]
-{
-	[placement]
-	{
-	  q orientation = 0,0.999048,0,-0.0436195;
-	  p position = -2.68849,0,-1.51518,0xd130354d;
-	}
-}
 [t:debris_cav_02,n:0x03500302]
 {
 	[aspect]
@@ -2875,14 +2859,6 @@
 	  p position = -0.625072,0.264961,1.19427,0x0f0d0bed;
 	}
 }
-[t:body_glb_krug_11,n:0x03500140]
-{
-	[placement]
-	{
-	  q orientation = 0,0.798636,0,0.601815;
-	  p position = -0.641644,0,-0.860985,0xc0f083e6;
-	}
-}
 [t:debris_cav_02,n:0x0350030d]
 {
 	[aspect]
@@ -3111,18 +3087,6 @@
 	  p position = -1.79726,-9.05991e-006,-2.86246,0x7bfa5270;
 	}
 }
-[t:body_glb_krug_06,n:0x03500081]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.04272;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.861629,0,0.507538;
-	  p position = 1.41753,0,2.89767,0x7bfa5270;
-	}
-}
 [t:debris_cav_02,n:0x03500027]
 {
 	[aspect]
@@ -3339,18 +3303,6 @@
 	  p position = 3.36256,0,-3.9551,0x32683e54;
 	}
 }
-[t:body_glb_krug_07,n:0x03500080]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.05162;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.814116,0,0.580703;
-	  p position = 1.60515,0,3.02429,0x32683e54;
-	}
-}
 [t:rocks_cav_01,n:0x03500084]
 {
 	[aspect]
@@ -3547,30 +3499,6 @@
 	  p position = -2.26129,0,-0.223915,0x0016eaa8;
 	}
 }
-[t:body_glb_krug_07,n:0x0350001c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.03565;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999848,0,0.0174523;
-	  p position = 1.90289,-1.65,-11.4361,0x0ba613e3;
-	}
-}
-[t:body_glb_krug_08,n:0x0350001d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00313;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.97437,0,0.224951;
-	  p position = -2.81755,-1.66893e-006,-1.36923,0x443cc90f;
-	}
-}
 [t:debris_cav_02,n:0x03500020]
 {
 	[aspect]
@@ -3649,18 +3577,6 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = -1.99051,-0.720725,-0.762875,0x800b6c2c;
-	}
-}
-[t:body_glb_krug_05,n:0x0350001f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.904648;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.156434,0,-0.987688;
-	  p position = -1.98639,0,-0.0970306,0xee470d9f;
 	}
 }
 [t:torch_glb_holder_03,n:0x035002df]

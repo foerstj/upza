@@ -952,6 +952,14 @@
 	  p position = 3.03338,0,-1.35677,0xe413d61d;
 	}
 }
+[t:krug_guard,n:0x0350013e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.258819,0,0.965926;
+	  p position = -2.34934,0,-0.102715,0xe413d61d;
+	}
+}
 [t:krug_raider,n:0x03500148]
 {
 	[placement]
@@ -966,6 +974,14 @@
 	{
 	  q orientation = 0,0.995805,0,-0.0915017;
 	  p position = 1.03312,-2.00001,-1.98299,0x48d55776;
+	}
+}
+[t:krug_throw,n:0x03500141]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999048,0,-0.0436195;
+	  p position = -2.68849,0,-1.51518,0xd130354d;
 	}
 }
 [t:krug_throw_zombie,n:0x03500153]
@@ -1797,6 +1813,14 @@
 	  p position = -0.0598755,-0.05,3.41321,0x9ff48e6a;
 	}
 }
+[t:krug_throw,n:0x03500140]
+{
+	[placement]
+	{
+	  q orientation = 0,0.798636,0,0.601815;
+	  p position = -0.641644,0,-0.860985,0xc0f083e6;
+	}
+}
 [t:krug_throw_zombie,n:0x0350014a]
 {
 	[placement]
@@ -1889,6 +1913,18 @@
 	{
 	  q orientation = 0,0.833886,0,0.551937;
 	  p position = 1.41087,-1.96318,-0.77739,0x00963382;
+	}
+}
+[t:krug_grouse,n:0x03500081]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04272;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.861629,0,0.507538;
+	  p position = 1.41753,0,2.89767,0x7bfa5270;
 	}
 }
 [t:darkling,n:0x03500227]
@@ -2131,6 +2167,18 @@
 	  p position = 1.08631,-1.98941,-1.81999,0xa7e32249;
 	}
 }
+[t:krug_grouse,n:0x03500080]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05162;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.814116,0,0.580703;
+	  p position = 1.60515,0,3.02429,0x32683e54;
+	}
+}
 [t:mine_worm,n:0x0350025f]
 {
 	[placement]
@@ -2227,6 +2275,18 @@
 	  p position = 0.305298,0,1.45802,0x0016eaa8;
 	}
 }
+[t:krug_grouse,n:0x0350001c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03565;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,0.0174523;
+	  p position = 1.90289,-1.65,-11.4361,0x0ba613e3;
+	}
+}
 [t:rock_beast,n:0x03500163]
 {
 	[placement]
@@ -2249,6 +2309,18 @@
 	{
 	  q orientation = 0,0.980785,0,0.19509;
 	  p position = -4.80313,-1.65,-10.7227,0x0ba613e3;
+	}
+}
+[t:krug_grunt,n:0x0350001d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00313;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.97437,0,0.224951;
+	  p position = -2.81755,-1.66893e-006,-1.36923,0x443cc90f;
 	}
 }
 [t:rock_beast,n:0x03500166]
@@ -2376,6 +2448,18 @@
 	{
 	  q orientation = 0,0.241921,0,-0.970296;
 	  p position = -0.369003,0,-1.4873,0x14437980;
+	}
+}
+[t:krug_scout,n:0x0350001f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.904648;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.156434,0,-0.987688;
+	  p position = -1.98639,0,-0.0970306,0xee470d9f;
 	}
 }
 [t:scorpion,n:0x035001ab]
