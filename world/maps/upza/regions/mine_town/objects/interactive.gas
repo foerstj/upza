@@ -1,5 +1,9 @@
 [t:door_cav_01,n:0x00c00374]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
@@ -54,6 +58,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x00C0000F;
 		msg_type_opening = we_trigger_activate;
 	  x second_door = 0x00C003CA;
@@ -73,6 +78,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x00C0000F;
 		msg_type_opening = we_trigger_activate;
 	  x second_door = 0x00C003C9;
