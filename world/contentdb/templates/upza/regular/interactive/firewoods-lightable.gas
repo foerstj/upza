@@ -1,0 +1,19 @@
+[t:template,n:wood_glb_pile_fireplace_burnt_lightable] { specializes = wood_glb_pile_fireplace_burnt_lightable_base; }
+[t:template,n:wood_glb_pile_fireplace_burnt_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "fireplace_logs_stacked lightable";
+	[aspect]
+	{
+		model = m_i_glb_woodpile-02;
+		[textures]
+		{
+			0 = b_i_glb_woodpile-burnt;
+		}
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "fireplace_fire";
+	}
+}

@@ -102,6 +102,32 @@
 		use_point_scids = 0x00c003c2,0x00c003c3;
 	}
 }
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x00c0001d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.933853;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x051987A1;
+	}
+	[light_flicker]
+	{
+	  f magnitude = 0;
+	  x siege_light = 0x051987A1;
+	}
+	[msg_forward]
+	{
+	  f delay = 2;
+	  x send_to_scid = 0x00C00083;
+	}
+	[placement]
+	{
+	  q orientation = 0,4.12869e-006,0,1;
+	  p position = 1.62028,-1.48088,0.740729,0xbd469bbb;
+	}
+}
 [t:door_cav_01,n:0x00c00384]
 {
 	[door_basic]

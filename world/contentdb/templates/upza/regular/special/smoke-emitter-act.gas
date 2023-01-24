@@ -1,0 +1,9 @@
+[t:template,n:emitter_glb_smoke_01_act]
+{
+    specializes = emt_generic_act;
+
+	[generic_emitter_act]
+    {
+        other_effect = "smoke_emitter";
+    }
+}
