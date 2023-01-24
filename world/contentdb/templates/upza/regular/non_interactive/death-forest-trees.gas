@@ -1,0 +1,30 @@
+[t:template,n:upza_tree_glb_pine_12m_dead_01]
+{
+	category_name = "trees";
+	doc = "grs_pine_12m_webbed_lots";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-01;
+		textures:0 = b_i_glb_tree-pine-dead-01;
+		//scale_base = 0.75;
+	}
+}
+[t:template,n:upza_tree_glb_pine_12m_dead_04]
+{
+	category_name = "trees";
+	doc = "grs_pine_12m_webbed_some_green";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-04;
+		textures:0 = b_i_glb_tree-pine-dead-04;
+		//scale_base = 0.75;
+	}
+}
