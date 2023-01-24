@@ -44,19 +44,3 @@
 	{
 	}
 }
-
-[t:template,n:torch_glb_stick_lightable] { specializes = torch_glb_stick_lightable_base; }
-[t:template,n:torch_glb_stick_lightable_base]
-{
-	specializes = base_lightable;
-
-	doc = "torch_tiki lightable";
-	[aspect]
-	{
-		model = m_i_glb_torch-stick;
-	}
-	[generic_emitter_act]
-	{
-		other_effect = "torch_firews";
-	}
-}
