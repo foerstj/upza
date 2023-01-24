@@ -387,18 +387,6 @@
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 3.513062,-2.650000,-3.168671,0xAF2A83CA;
-	  f far_plane = 1.100000;
-	  x guid = 0x77190FF4;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_burnt-wood-a.%img%;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
 		decal_origin = 4.462698,-2.650000,-1.342502,0xAF2A83CA;
 	  f far_plane = 1.100000;
 	  x guid = 0xFF47EB6D;
@@ -442,6 +430,54 @@
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
 		texture = Art\Bitmaps\Decals\b_d_dust-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.513062,-2.650000,-3.168671,0xAF2A83CA;
+	  f far_plane = 1.100000;
+	  x guid = 0x77190FF4;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_burnt-wood-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.340305,0.000000,0.940315,0.000000,1.000000,0.000000,-0.940315,0.000000,-0.340305;
+		decal_origin = 3.644363,-2.800679,-2.727837,0xAF2A83CA;
+	  f far_plane = 1.100000;
+	  x guid = 0x72B403ED;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_burnt-wood-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.937222,0.000000,-0.348734,0.000000,1.000000,0.000000,0.348734,0.000000,-0.937222;
+		decal_origin = 3.468124,-3.145174,-3.082003,0xAF2A83CA;
+	  f far_plane = 1.100000;
+	  x guid = 0xD329F9A0;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_burnt-wood-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.937222,0.000000,-0.348734,0.000000,1.000000,0.000000,0.348734,0.000000,-0.937222;
+		decal_origin = 3.007897,-0.994048,-2.888281,0xAF2A83CA;
+	  f far_plane = 1.100000;
+	  x guid = 0x7DCFFF95;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_burnt-wood-a.%img%;
 	  f vertical_meters = 4.000000;
 	}
 	[t:decal,n:*]
@@ -1222,42 +1258,6 @@
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;
 		texture = Art\Bitmaps\Decals\b_d_grs01-a.%img%;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = -0.340305,0.000000,0.940315,0.000000,1.000000,0.000000,-0.940315,0.000000,-0.340305;
-		decal_origin = 3.644363,-2.800679,-2.727837,0xAF2A83CA;
-	  f far_plane = 1.100000;
-	  x guid = 0x72B403ED;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_burnt-wood-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = -0.937222,0.000000,-0.348734,0.000000,1.000000,0.000000,0.348734,0.000000,-0.937222;
-		decal_origin = 3.468124,-3.145174,-3.082003,0xAF2A83CA;
-	  f far_plane = 1.100000;
-	  x guid = 0xD329F9A0;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_burnt-wood-a.raw;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = -0.937222,0.000000,-0.348734,0.000000,1.000000,0.000000,0.348734,0.000000,-0.937222;
-		decal_origin = 3.007897,-0.994048,-2.888281,0xAF2A83CA;
-	  f far_plane = 1.100000;
-	  x guid = 0x7DCFFF95;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = art\bitmaps\decals\b_d_burnt-wood-a.raw;
 	  f vertical_meters = 4.000000;
 	}
 }

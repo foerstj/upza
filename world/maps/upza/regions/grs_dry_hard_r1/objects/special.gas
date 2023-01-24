@@ -201,9 +201,9 @@
 {
 	[fountain]
 	{
-	  f heal_amount = 3.600000;
-	  f health_left = 468.000000;
-	  f health_regen = 0.192740;
+	  f heal_amount = 3.6;
+	  f health_left = 468;
+	  f health_regen = 0.19274;
 	}
 	[placement]
 	{
@@ -572,6 +572,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -590,7 +591,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
