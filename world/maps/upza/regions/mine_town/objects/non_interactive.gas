@@ -5575,7 +5575,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.505786,0,-0.862659;
+	  q orientation = 0,-0.505786,0,0.862659;
 	  p position = -3.37926,0,2.14066,0x38779ead;
 	}
 }
@@ -5636,19 +5636,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.813656,0,0.581347;
-	  p position = 0.49459,-0.85,-0.181064,0xc2d2a7a1;
-	}
-}
-[t:tree_grs_deciduous_sway_03,n:0x00c00288]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.23847;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.023221,0,-0.99973;
-	  p position = -3.93628,-0.85,-1.53621,0xc2d2a7a1;
+	  p position = -1.77057,-0.85,-0.0724716,0x8322ce5a;
 	}
 }
 [t:bush_grs_rhod_01,n:0x00c001e5]
@@ -5672,7 +5660,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.974832,0,0.222941;
-	  p position = -0.805659,0,1.04006,0x1280b928;
+	  p position = -1.37147,0,1.97803,0x1280b928;
 	}
 }
 [t:bush_grs_rhod_01,n:0x00c001ea]
@@ -7847,7 +7835,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.93451,0,0.355937;
-	  p position = 0.206359,-0.85,0.511985,0x3db975d1;
+	  p position = -0.698135,-0.85,0.215851,0x37bb2695;
 	}
 }
 [t:bush_grs_rhod_01,n:0x00c0016a]
@@ -7858,8 +7846,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.676908,0,-0.736067;
-	  p position = 0.327689,-0.85,-1.40353,0x4b1755cf;
+	  q orientation = 0,-0.676908,0,0.736067;
+	  p position = 0.32769,-0.85,-1.40353,0x4b1755cf;
 	}
 }
 [t:tree_glb_sway_05_rescaled,n:0x00c00254]
@@ -7872,7 +7860,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.583224,0,-0.812311;
-	  p position = -1.80575,0,-1.73039,0x46f69aa1;
+	  p position = -1.58414,0,-1.27253,0x46f69aa1;
 	}
 }
 [t:tree_grs_deciduous_sway_03,n:0x00c00300]
@@ -8162,7 +8150,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.966508,0,-0.256637;
-	  p position = -0.866159,-0.85,-0.764547,0x5deb03a8;
+	  p position = -0.329199,-0.85,-0.519428,0xf90863ea;
 	}
 }
 [t:bush_grs_rhod_01,n:0x00c003db]
@@ -8173,8 +8161,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.338919,0,-0.940815;
-	  p position = -1.44954,-0.85,-1.50967,0x5deb03a8;
+	  q orientation = 0,-0.338919,0,0.940815;
+	  p position = 1.07606,-0.85,0.3339,0xf90863ea;
 	}
 }
 [t:tree_grs_deciduous_05,n:0x00c00112]
@@ -8782,5 +8770,17 @@
 	{
 	  q orientation = 0,0.714624,0,-0.699509;
 	  p position = -2.38577,-0.644176,1.04816,0x4fee08b9;
+	}
+}
+[t:tree_grs_deciduous_sway_03,n:0x00c00288]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23847;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.023221,0,0.99973;
+	  p position = 1.99803,-0.85,-1.6717,0xf3443a45;
 	}
 }
