@@ -1,0 +1,19 @@
+[t:template,n:firepit_glb_03_lightable] { specializes = firepit_glb_03_lightable_base; }
+[t:template,n:firepit_glb_03_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "firepit with rocks lightable";
+	[aspect]
+	{
+		model = m_i_glb_firepit-03;
+		[textures]
+		{
+			0 = b_i_glb_firepit-02;
+		}
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "fireplace_fire";
+	}
+}
