@@ -217,7 +217,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -372,7 +372,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -400,7 +400,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_tavern");
+				action* = mood_change("upza_mine_town_tavern");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -641,7 +641,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(9.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -685,7 +685,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(8.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -875,7 +875,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1037,7 +1037,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,1.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1531,7 +1531,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(27.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1788,7 +1788,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_mine_town_1");
+				action* = mood_change("upza_mine_town_1");
 				action* = fade_nodes(0xAAA80400,1,-1,-1,"in"), doc("fade fury den");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(15.000000,1.000000,1.000000,"on_every_enter");
