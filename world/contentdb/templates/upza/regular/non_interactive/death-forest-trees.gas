@@ -1,8 +1,10 @@
-[t:template,n:upza_tree_glb_pine_12m_dead_01]
+[t:template,n:upza_tree_glb_pine_12m_dead_01] { specializes = upza_tree_glb_pine_12m_dead_01_base; }
+[t:template,n:upza_tree_glb_pine_12m_dead_01_base]
 {
+	specializes = base_tree;
+
 	category_name = "trees";
 	doc = "grs_pine_12m_webbed_lots";
-	specializes = base_tree;
 	[aspect]
 	{
 		lodfi_lower = 0.1;
@@ -13,11 +15,14 @@
 		//scale_base = 0.75;
 	}
 }
-[t:template,n:upza_tree_glb_pine_12m_dead_04]
+
+[t:template,n:upza_tree_glb_pine_12m_dead_04] { specializes = upza_tree_glb_pine_12m_dead_04_base; }
+[t:template,n:upza_tree_glb_pine_12m_dead_04_base]
 {
+	specializes = base_tree;
+
 	category_name = "trees";
 	doc = "grs_pine_12m_webbed_some_green";
-	specializes = base_tree;
 	[aspect]
 	{
 		lodfi_lower = 0.1;

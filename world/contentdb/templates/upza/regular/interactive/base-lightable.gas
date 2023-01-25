@@ -43,6 +43,9 @@
 	[msg_switch]
 	{
 	}
+
+    // Added for UPZA lightables
+    // msg_forward to forward WE_REQ_ACTIVATE to e.g. smoke emitter and/or sound emitter
     [msg_forward]
     {
     }
