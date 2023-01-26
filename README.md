@@ -20,8 +20,8 @@ This map is based on the *Utraean Peninsula remastered* project at https://githu
 Changes from there on:
 - Map renamed, obviously
 - Set up the Eastern Island as the initial starting location, with Loola there
-- Zombified NPCs in & around Elddim, leaving quests intact & dropping shop contents
-- Ruinated Elddim
+- Zombified NPCs in Elddim & Crystwind areas, leaving quests intact & dropping shop contents
+- Ruinated Elddim & Crystwind
 - Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
