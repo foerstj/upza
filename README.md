@@ -43,4 +43,6 @@ GasPy repo: https://github.com/foerstj/gaspy
 
 ## Attribution
 
+- Legion Robe by Tristanzz
+
 The original map was created by Gas-Powered Games.
