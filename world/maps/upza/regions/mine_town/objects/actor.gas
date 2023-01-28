@@ -1,3 +1,11 @@
+[t:skeleton_mercenary,n:0x00c00451]
+{
+	[placement]
+	{
+	  q orientation = 0,0.798866,0,0.601509;
+	  p position = 0.421816,-7.62939e-006,1.64117,0xbd228793;
+	}
+}
 [t:upza_zombie_crystwind_townfolk_dwarf,n:0x00c003bb]
 {
 	[common]
@@ -92,6 +100,22 @@
 	  p position = 1.19621,0,-0.158249,0xa3fd68b6;
 	}
 }
+[t:skeleton_mercenary_archer,n:0x00c0044f]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.9515,0,0.307649;
+	  p position = -3.19648,-7.62939e-006,-0.879903,0xa3fd68b6;
+	}
+}
+[t:skeleton_mercenary,n:0x00c00450]
+{
+	[placement]
+	{
+	  q orientation = 0,0.750784,0,0.660547;
+	  p position = -1.52172,0,-1.71499,0xb90cf32e;
+	}
+}
 [t:upza_zombie_crystwind_townfolk,n:0x00c0033a]
 {
 	[common]
@@ -148,12 +172,28 @@
 	  p position = 1.51528,-1.5,0.66601,0x7f90c19e;
 	}
 }
+[t:skeleton_mercenary_archer,n:0x00c00437]
+{
+	[placement]
+	{
+	  q orientation = 0,0.749899,0,0.661552;
+	  p position = -0.514782,0,1.93818,0xfbc4ee0b;
+	}
+}
 [t:krug_dog_skeleton,n:0x00c003fd]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.508873,0,0.860842;
 	  p position = -2.39064,0,-0.398438,0xc07dec4b;
+	}
+}
+[t:skeleton_mercenary,n:0x00c00452]
+{
+	[placement]
+	{
+	  q orientation = 0,0.709983,0,0.704219;
+	  p position = -1.20482,0,-0.790892,0xf6094ba4;
 	}
 }
 [t:upza_zombie_crystwind_guard_captain,n:0x00c0036e]
@@ -219,6 +259,30 @@
 	  p position = 0.125552,-2.00001,0.368065,0xbd469bbb;
 	}
 }
+[t:skeleton_mercenary_archer,n:0x00c0043f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.992302,0,0.123843;
+	  p position = 1.87481,-1.99999,1.01234,0x625f3091;
+	}
+}
+[t:skeleton_mercenary,n:0x00c00453]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.953068,0,0.302756;
+	  p position = -5.96367,-2.00001,-2.07233,0x625f3091;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x00c00443]
+{
+	[placement]
+	{
+	  q orientation = 0,0.979716,0,0.200389;
+	  p position = -1.64387,0,2.36782,0x4fd2558f;
+	}
+}
 [t:krug_dog_skeleton,n:0x00c003ff]
 {
 	[placement]
@@ -239,6 +303,14 @@
 	  p position = -3.37679,0.050441,3.17742,0xcf6d940e;
 	}
 }
+[t:skeleton_mercenary_archer,n:0x00c00436]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.848947,0,0.528478;
+	  p position = -0.576419,-0.0499992,3.93999,0xcf6d940e;
+	}
+}
 [t:upza_zombie_crystwind_townfolk,n:0x00c0036c]
 {
 	[common]
@@ -249,6 +321,14 @@
 	{
 	  q orientation = 0,0.92388,0,-0.382684;
 	  p position = 1.77368,0,2.32065,0xf2a212d8;
+	}
+}
+[t:skeleton_mercenary,n:0x00c00454]
+{
+	[placement]
+	{
+	  q orientation = 0,0.223064,0,0.974804;
+	  p position = -3.4871,-7.62939e-006,2.23065,0xf2a212d8;
 	}
 }
 [t:krug_dog_skeleton,n:0x00c00400]
@@ -301,6 +381,14 @@
 	{
 	  q orientation = 0,-0.190809,0,0.981627;
 	  p position = 0.982069,-6,0.0946159,0x5cdc5789;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x00c003f5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0614911,0,0.998108;
+	  p position = -1.05705,-6,-1.57787,0x5cdc5789;
 	}
 }
 [t:skeleton_mercenary_reveal_02,n:0x00c00383]
@@ -603,6 +691,14 @@
 	{
 	  q orientation = 0,0.996195,0,0.0871556;
 	  p position = 0.0111694,0,1.11167,0x781c926d;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x00c0044e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.90707,0,0.420979;
+	  p position = 1.77732,0,-0.532032,0x623bec61;
 	}
 }
 [t:upza_zombie_crystwind_guard_ranged,n:0x00c00329]
