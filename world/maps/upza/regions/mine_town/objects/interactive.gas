@@ -201,9 +201,6 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00C00323;
 	  x on_scid = 0x00C00323;
-	  f required_level = 5;
-	  f required_level_2 = 56;
-	  f required_level_3 = 87;
 	  f reset_time = 20;
 	  f reset_time_2 = 20;
 	}
