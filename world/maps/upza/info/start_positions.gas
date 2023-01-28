@@ -2,7 +2,7 @@
 {
 	[t:start_group,n:crystwind]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Crystwind, Dwarven Mining Village";
 	  b dev_only = false;
 	  i id = 2;
@@ -121,7 +121,7 @@
 	}
 	[t:start_group,n:eastern_island]
 	{
-	  b default = false;
+	  b default = true;
 		description = "The Eastern Island, a mythical place said to have magical passages to the Peninsula";
 	  b dev_only = false;
 	  i id = 0;
