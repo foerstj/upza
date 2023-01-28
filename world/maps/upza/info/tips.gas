@@ -1,3 +1,14 @@
 [world_tips]
 {
+	[t:tip,n:tip_crystwind]
+	{
+		order = 1;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "Crystwind is overrun by skeleton mercenaries! Better to bypass the town through the mines.";
+			texture = b_gui_ig_mnu_tip_compass;
+		}
+	}
 }
