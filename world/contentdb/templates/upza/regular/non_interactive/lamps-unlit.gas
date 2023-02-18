@@ -1,0 +1,15 @@
+[t:template,n:lamp_glb_wall_01_unlit]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_wall_mono";
+	[aspect]
+	{
+		model = m_i_glb_wall-lamp-01;
+	}
+	[common]
+	{
+		screen_name = "Lamp";
+	}
+}
