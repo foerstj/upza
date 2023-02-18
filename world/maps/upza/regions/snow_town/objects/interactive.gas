@@ -143,31 +143,6 @@
 	  p position = -1.38435,-3.48337,-2.78699,0x8c5d049b;
 	}
 }
-[t:sign_ice_01,n:0x02700761]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 208";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.130526,0,0.991445;
-	  p position = -0.966141,-0.218849,-3.36262,0x83bfeb54;
-	}
-}
-[t:sign_ice_01,n:0x02700766]
-{
-	[common]
-	{
-		dev_instance_text = "sign_2";
-		screen_name = "Town of Fallraen, 14";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.608762,0,0.793353;
-	  p position = -0.539536,0,-3.14246,0x83bfeb54;
-	}
-}
 [t:lever_cav_stone_01,n:0x027008a1]
 {
 	[on_off_lever]
@@ -196,30 +171,6 @@
 	  q orientation = -0.5,-0.5,-0.5,0.5;
 	  p position = 0.0351105,-0.6,3.35394,0xdd8694b5;
 		use_point_scids = 0x027008a5,0x027008a7,0x027008a8;
-	}
-}
-[t:sign_ice_01,n:0x027004b9]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 217";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -2.78774,-2.86102e-006,0.292667,0x0099451d;
-	}
-}
-[t:sign_ice_01,n:0x027005e7]
-{
-	[common]
-	{
-		screen_name = "Town of Fallraen";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.16673,-0.338711,0.0313492,0x0099451d;
 	}
 }
 [t:door_ice_gate,n:0x02700306]
@@ -348,18 +299,6 @@
 		use_point_scids = 0x02700785,0x02700784,0x02700786;
 	}
 }
-[t:sign_ice_01,n:0x0270085a]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 229";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,1.19209e-007;
-	  p position = -1.75814,15.95,1.81493,0xbc728d4d;
-	}
-}
 [t:sign_glb_blacksmith_left,n:0x027005ce]
 {
 	[common]
@@ -372,30 +311,6 @@
 	  p position = 0.442101,2.86102e-006,-0.576361,0xa3f17332;
 	}
 }
-[t:sign_ice_01,n:0x0270077c]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 226";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,8.9407e-008;
-	  p position = 1.30028,-0.350002,1.19245,0xf5358dc0;
-	}
-}
-[t:sign_ice_01,n:0x02700890]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 228";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.515037,0,0.857168;
-	  p position = 3.55369,-1.90735e-006,-0.775547,0x5a7db413;
-	}
-}
 [t:sign_glb_magic_right,n:0x02700440]
 {
 	[common]
@@ -406,18 +321,6 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.60636,1.90735e-006,-1.26039,0x42bc523c;
-	}
-}
-[t:sign_ice_01,n:0x02700860]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 227";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.981627,0,-0.190809;
-	  p position = -1.67094,0,-1.8644,0x78d54c58;
 	}
 }
 [t:lever_glb_04,n:0x0270011c]
@@ -466,18 +369,6 @@
 	  p position = 1.50339,-2.88472,-0.688278,0x35b5304d;
 	}
 }
-[t:sign_ice_01,n:0x0270088e]
-{
-	[common]
-	{
-		screen_name = "Town of Meren, 230";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-5.96046e-008;
-	  p position = -1.88937,15.95,1.49841,0xf634c922;
-	}
-}
 [t:door_ice_gate,n:0x02700303]
 {
 	[door_basic]
@@ -510,32 +401,6 @@
 	  q orientation = 0,-1,0,-1.60478e-007;
 	  p position = 0.0241673,-6,0.802109,0x3e77f432;
 		use_point_scids = 0x02700259,0x02700301;
-	}
-}
-[t:sign_ice_01,n:0x027002c8]
-{
-	[common]
-	{
-		dev_instance_text = "sign_1";
-		screen_name = "Town of Crystwind, 107";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.936672,0,-0.350208;
-	  p position = -2.64881,-0.190669,-1.5,0xb1138da2;
-	}
-}
-[t:sign_ice_01,n:0x0270077b]
-{
-	[common]
-	{
-		dev_instance_text = "sign_1";
-		screen_name = "Town of Fallraen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.01216,4.76837e-007,-1.3451,0xb1138da2;
 	}
 }
 [t:statue_cav_spin_02_rescaled,n:0x027008a0]
