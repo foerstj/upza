@@ -9,7 +9,7 @@ Goid	m_Target$;
 
 property    string  red_convo$      = "conversation_red"    doc = "Conversation during turn_world_red";
 property    bool    face_player$    = true                  doc = "Face player when starting to talk";
-property    string  talk_anim$      = ""                    doc = "Animation during convo: talk or look";
+property    string  talk_anim$      = "talk"                doc = "Animation during convo: talk or look, or empty string";
 
 
 void animate$()

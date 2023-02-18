@@ -265,14 +265,20 @@
 	{
 		[conversations]
 		{
-			* = julia;
-			* = zconversation_red;
+			* = julia_accept_have_money;
+			* = julia_accept_no_money;
+			* = julia_before_condition;
+			* = julia_disband;
+			* = julia_disband_rejoin;
+			* = julia_join;
+			* = julia_reject;
+			* = julia_rejoin;
 		}
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?face_player=false&talk_anim=;
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x790024e&namespace=julia&condition=found_gnf&face_player=false&talk_anim=;
 	}
 	[placement]
 	{
