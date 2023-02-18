@@ -105,27 +105,6 @@
 		  f z = 5.992966;
 		}
 	}
-	[t:point,n:light_0x3db7eadc]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFF804040;
-	  b draw_shadow = true;
-	  f inner_radius = 2.000000;
-	  f intensity = 1.000000;
-	  b occlude_geometry = true;
-	  b on_timer = false;
-	  f outer_radius = 8.000000;
-		[position]
-		{
-		  x node = 0x9595CD3E;
-		  f x = -1.986378;
-		  f y = 15.174881;
-		  f z = 1.937889;
-		}
-	}
 	[t:point,n:light_0x61455b3d]
 	{
 	  b active = true;
@@ -257,69 +236,6 @@
 		  f x = 0.158647;
 		  f y = 4.523248;
 		  f z = -0.942413;
-		}
-	}
-	[t:point,n:light_0xc58f72ee]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFF804040;
-	  b draw_shadow = true;
-	  f inner_radius = 2.000000;
-	  f intensity = 1.000000;
-	  b occlude_geometry = true;
-	  b on_timer = false;
-	  f outer_radius = 8.000000;
-		[position]
-		{
-		  x node = 0xF20D1A6C;
-		  f x = 3.094780;
-		  f y = 3.174886;
-		  f z = -0.650878;
-		}
-	}
-	[t:point,n:light_0xc8f7bb49]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFFDAAF03;
-	  b draw_shadow = true;
-	  f inner_radius = 2.000000;
-	  f intensity = 0.700000;
-	  b occlude_geometry = true;
-	  b on_timer = false;
-	  f outer_radius = 4.000000;
-		[position]
-		{
-		  x node = 0x98CC870A;
-		  f x = -2.436207;
-		  f y = -3.884200;
-		  f z = -5.969887;
-		}
-	}
-	[t:point,n:light_0xe881491a]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFF804040;
-	  b draw_shadow = true;
-	  f inner_radius = 2.000000;
-	  f intensity = 1.000000;
-	  b occlude_geometry = true;
-	  b on_timer = false;
-	  f outer_radius = 8.000000;
-		[position]
-		{
-		  x node = 0x4294D38E;
-		  f x = 0.327850;
-		  f y = 2.824855;
-		  f z = -1.737732;
 		}
 	}
 	[t:point,n:light_0xf82de5c8]
