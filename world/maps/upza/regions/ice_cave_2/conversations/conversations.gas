@@ -1,6 +1,37 @@
-
-
-[conversation_lagreth]
+[lagreth_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Thank you so much. Let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hello there, so happy to see you again! Shall we go together once more?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_join]
 {
 	[text*]
 	{
@@ -17,15 +48,70 @@
     [text*]
 	{
         order = 2;
+        choice = more;
 		screen_text = "You know the rest and to you I am indubitably grateful. You just let me know if there is ever anything I can do to help you with. In fact, since you are so adept at vivifying stupid old historians, maybe you'd be willing to take the Fallraen Townstone to Lang yourself? I'm not so spry as I used to be, and I really shouldn't stay away from Apprentice Flessen for so long. The magicatorium is likely burnt to the ground by now from his fumblings. If you'd check on him, and then continue on to Lang, the Society will reward you well, I'm sure. I'm just going to rest up for a bit before heading back.";
 	}
     [text*]
 	{
-
+        order = 3;
+        choice = more;
+		screen_text = "...WHAT? A zombie apocalypse, you say? Here on the Utraean Peninsula?
+...Fallraen empty and overrun by Furoks? How long have I been lying frozen here?
+...Oh my goodness.";
+	}
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Say, um. I might not be particularly useful in the weakened state I find myself in, but... I'm all alone now and afraid of ending up as Furok dinner. Would you be so kind as to let me join your band of heroes?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_reject]
+{
+	[text*]
+	{
+		screen_text = "Pssh, alright. I may be newly reborn, but I can still use my own two legs. Don't fret over an old man who's head is filled with cobwebs. I'll make it back in my own time.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Please take me with you? The Furoks will have me for breakfast!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[lagreth_mp]
+{
+	[text*]
+	{
+        order = 0;
+        choice = more;
+		screen_text = "Blasted spirits alive! My friend, you have saved me from an eternity of cold. I cannot fathom the magnitude of your bravery in saving me so precipitously. Do you have any idea how fortunate it is that you happened to come across me when you did? These are perilous times, and the call to action is strong!";
+	}
+    [text*]
+	{
+        order = 1;
+        choice = more;
+		screen_text = "Serves me right, I suppose. I couldn't take any more of that dimwitted apprentice of mine, Flessen, so I set off for parts unknown - That is, to Lang, if it hasn't sunk into the stinking swamp by now. You understand, I'm sure, the lengths to which one will travel in the name of duty and honor. Anyhow, I set off with the Fallraen Snowflake stone, so as to gather the Lang Mosquito stone and carry them both to the Circle in Hiroth. All the Society's Townstones must be assembled to access the Ancient Armory, you know. I suppose I took a wrong turn somehwere in this dratted ice field, and ended up face to face with a horde of toothy bumbles.";
+	}
+    [text*]
+	{
+        order = 2;
+        choice = more;
+		screen_text = "You know the rest and to you I am indubitably grateful. You just let me know if there is ever anything I can do to help you with. In fact, since you are so adept at vivifying stupid old historians, maybe you'd be willing to take the Fallraen Townstone to Lang yourself? I'm not so spry as I used to be, and I really shouldn't stay away from Apprentice Flessen for so long. The magicatorium is likely burnt to the ground by now from his fumblings. If you'd check on him, and then continue on to Lang, the Society will reward you well, I'm sure. I'm just going to rest up for a bit before heading back.";
+	}
+    [text*]
+	{
+        order = 3;
+		screen_text = "...WHAT? A zombie apocalypse, you say? Here on the Utraean Peninsula?
+...Fallraen empty and overrun by Furoks? How long have I been lying frozen here?
+...Oh my goodness.";
+	}
+    [text*]
+	{
 		screen_text = "Yes yes, I may be newly reborn, but I can still use my own two legs. Don't fret over an old man who's head is filled with cobwebs. I'll make it back in my own time.";
 	}
 }
-
-
-
-

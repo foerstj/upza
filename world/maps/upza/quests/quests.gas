@@ -167,12 +167,6 @@
             description   = "Find Utraean Priest Lagreth and the Fallraen Snowflake Stone to the North.";
             address = snow_town:conversations:conversation_flessan_quest;
         }
-        [*]
-        {
-            order         = 1;   //when you find the stone
-            speaker       = "";
-            description   = "Return to Apprentice Flessan.";
-        }
     }
 
     [goto_meren]    //Goto meren Quest

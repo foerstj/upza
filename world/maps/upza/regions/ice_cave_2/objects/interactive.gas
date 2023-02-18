@@ -10,14 +10,14 @@
 	[placement]
 	{
 	  q orientation = 0,-0.748956,0,0.66262;
-	  p position = -1.92966,0.0,0.497965,0x1CDB2678;
+	  p position = -1.92966,0,0.497965,0x1cdb2678;
 	}
 }
 [t:respawn_statue,n:0x04f000a6]
 {
 	[placement]
 	{
-	  p position = -1.62369,-0.215532,1.12164,0xB3B4BADE;
+	  p position = -1.62369,-0.215532,1.12164,0xb3b4bade;
 		use_point_scids = 0x04f000aa;
 	}
 }
@@ -26,7 +26,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.382684,0,0.92388;
-	  p position = -1.44444,0.0,-1.20931,0xEEAF8BE8;
+	  p position = -1.44444,0,-1.20931,0xeeaf8be8;
 		use_point_scids = 0x04f000d8;
 	}
 }
