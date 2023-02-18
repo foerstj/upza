@@ -239,13 +239,33 @@
 {
 	[common]
 	{
+		dev_instance_text = "SP COMPANION";
+	  b is_multi_player = false;
 		screen_name = "Julia";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x07900261,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
 	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = leg_intro_3;
+			* = julia;
 			* = zconversation_red;
 		}
 	}
@@ -495,5 +515,37 @@
 	{
 	  q orientation = 0,-0.291273,0,0.95664;
 	  p position = 3.62391,0,-0.560486,0x46768b8c;
+	}
+}
+[t:upza_mate_pm_m4,n:0x07900296]
+{
+	[aspect]
+	{
+	  f max_life = 117.6;
+	  f max_mana = 36;
+	}
+	[common]
+	{
+		dev_instance_text = "MP NPC";
+	  b is_single_player = false;
+		screen_name = "Julia";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = julia_mp;
+			* = zconversation_red;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?face_player=false&talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.223518,0,0.9747;
+	  p position = -3.21693,0,-1.57031,0x9d201134;
 	}
 }

@@ -35,7 +35,16 @@
 	  f scroll_rate = 10.000000;
 	}
 }
-[leg_intro_3]
+[julia]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Companion?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[julia_mp]
 {
 	[text*]
 	{
