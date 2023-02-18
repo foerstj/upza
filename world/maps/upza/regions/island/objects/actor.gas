@@ -116,6 +116,33 @@
 	  p position = 0.390476,0,0.366371,0x6e3e79f3;
 	}
 }
+[t:upza_mate_pm_n2,n:0x07900295]
+{
+	[aspect]
+	{
+	  f max_life = 58.8;
+	  f max_mana = 55;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Bettina";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = bettina_mp;
+			* = zconversation_red;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 0.513163,0,0.542862,0x6e3e79f3;
+	}
+}
 [t:upza_mate_pm_0,n:0x079000a9]
 {
 	[common]
@@ -208,7 +235,7 @@
 	  p position = -2.44578,0,-1.50356,0x9d201134;
 	}
 }
-[t:upza_mate_npc_06,n:0x0790024e]
+[t:upza_mate_pm_m4,n:0x0790024e]
 {
 	[common]
 	{
@@ -220,15 +247,6 @@
 		{
 			* = leg_intro_3;
 			* = zconversation_red;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
-			es_feet = bo_un_bo_le_upza_leg;
-			es_weapon_hand = meat_bone;
 		}
 	}
 	[mind]
@@ -477,32 +495,5 @@
 	{
 	  q orientation = 0,-0.291273,0,0.95664;
 	  p position = 3.62391,0,-0.560486,0x46768b8c;
-	}
-}
-[t:upza_mate_pm_n2,n:0x07900295]
-{
-	[aspect]
-	{
-	  f max_life = 58.8;
-	  f max_mana = 55;
-	}
-	[common]
-	{
-		dev_instance_text = "MP";
-	  b is_single_player = false;
-		screen_name = "Bettina";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = bettina_mp;
-			* = zconversation_red;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,-0.382683;
-	  p position = 0.513163,0,0.542862,0x6e3e79f3;
 	}
 }
