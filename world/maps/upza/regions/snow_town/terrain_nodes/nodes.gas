@@ -1,9 +1,13 @@
 [t:terrain_nodes,n:siege_node_list]
 {
+  x actor_ambient_color = 0xFFFFFFFF;
+  f actor_ambient_intensity = 0.200000;
 	ambience = 0.400000;
-	ambient_intensity = 0.200000;
+  x ambient_color = 0xFFFFFFFF;
+  f ambient_intensity = 0.200000;
 	environment_map = b_em_sphere;
-	object_ambient_intensity = 0.200000;
+  x object_ambient_color = 0xFFFFFFFF;
+  f object_ambient_intensity = 0.200000;
   x targetnode = 0xCC154D7C;
 	[t:snode,n:0x000f8e70]
 	{
