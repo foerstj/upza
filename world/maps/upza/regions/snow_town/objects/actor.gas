@@ -1218,33 +1218,6 @@
 	  p position = 0.990811,0,0.502541,0x97a90520;
 	}
 }
-[t:barracks_guard,n:0x02700891]
-{
-	[aspect]
-	{
-	  b is_collidable = false;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_id;
-			* = conversation_guard_id_complete;
-			* = conversation_guard_id_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\actors\good\job_talk_guard_barracks.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,-5.66244e-007,0,1;
-	  p position = 2.05574,0,0.990299,0x3564b43c;
-	}
-}
 [t:klaw,n:0x027002bd]
 {
 	[placement]

@@ -12,6 +12,10 @@
 			0 = b_i_glb_firepit-02;
 		}
 	}
+    [common]
+    {
+        screen_name = "Firepit";
+    }
 	[generic_emitter_act]
 	{
 		other_effect = "fireplace_fire";

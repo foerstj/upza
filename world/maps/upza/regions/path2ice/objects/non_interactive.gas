@@ -170,6 +170,14 @@
 	  p position = 1.21779,2.09822,-8.51782,0xb999491e;
 	}
 }
+[t:body_ice_02,n:0x04c00589]
+{
+	[placement]
+	{
+	  q orientation = 0,0.309016,0,-0.951056;
+	  p position = -5.63111,1.85,-3.7825,0xb999491e;
+	}
+}
 [t:bush_ice_rhod_01,n:0x04c00138]
 {
 	[aspect]
@@ -2466,6 +2474,14 @@
 	  p position = 2.69202,0,-0.89687,0x4c0d7117;
 	}
 }
+[t:body_ice_01,n:0x04c00450]
+{
+	[placement]
+	{
+	  q orientation = 0,0.990268,0,-0.139173;
+	  p position = 1.68551,0,-0.2272,0xb7e7d208;
+	}
+}
 [t:hidestand_grs,n:0x04c00451]
 {
 	[placement]
@@ -2480,18 +2496,6 @@
 	{
 	  q orientation = 0,0.317305,0,0.948323;
 	  p position = -0.98407,0,0.437668,0xb7e7d208;
-	}
-}
-[t:firepit_glb_03,n:0x04c00491]
-{
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x4D8C75EC;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.979925,0,0.199368;
-	  p position = 2.68479,0,-1.31297,0xb7e7d208;
 	}
 }
 [t:tree_ice_pine_04,n:0x04c00248]

@@ -541,6 +541,13 @@
 	  p position = 1.66486,1.53935,10.4055,0x0e8099da;
 	}
 }
+[t:statue_csl_broken_01,n:0x0270006f]
+{
+	[placement]
+	{
+	  p position = 0.841564,-1.5,0.044632,0x0e8099da;
+	}
+}
 [t:jug_csl_broken_02,n:0x02700071]
 {
 	[aspect]
@@ -17696,6 +17703,13 @@
 	  p position = -0.0135707,0,-1.42989,0x82f4ec15;
 	}
 }
+[t:body_ice_02,n:0x02700891]
+{
+	[placement]
+	{
+	  p position = 2.05574,0,0.990299,0x3564b43c;
+	}
+}
 [t:tree_ice_pine_01_rescaled,n:0x027002ef]
 {
 	[aspect]
@@ -19485,12 +19499,5 @@
 	[placement]
 	{
 	  p position = 2.10913,-0.572045,-4.06953,0x8a2b94b4;
-	}
-}
-[t:statue_csl_broken_01,n:0x0270006f]
-{
-	[placement]
-	{
-	  p position = 0.841564,-1.5,0.044632,0x0e8099da;
 	}
 }

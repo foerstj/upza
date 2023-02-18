@@ -1,29 +1,3 @@
-[t:mp_guard_ranged,n:0x04c00589]
-{
-	[aspect]
-	{
-	  b is_collidable = false;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.891006,0,-0.453991;
-	  p position = -4.09236,1.85,-3.69776,0xb999491e;
-	}
-}
 [t:braak_magic_reveal,n:0x04c005be]
 {
 	[placement]
@@ -178,35 +152,6 @@
 	{
 	  q orientation = 0,0.992546,0,-0.121869;
 	  p position = 0.466984,0,-3.13588,0x571c606a;
-	}
-}
-[t:jessa_alberd,n:0x04c00450]
-{
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_jessa;
-			* = conversation_jessa_red;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_ra_ro_m_d_c_009;
-			es_feet = bo_bo_le_light;
-			es_weapon_hand = meat_bone;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.968148,0,0.25038;
-	  p position = 1.68551,0,-0.2272,0xb7e7d208;
 	}
 }
 [t:klaw,n:0x04c003fc]
