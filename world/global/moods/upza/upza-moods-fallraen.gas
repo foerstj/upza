@@ -51,9 +51,9 @@
 		room_type			= rt_generic;
 	}
 }
+// No snow for building interiors
 [mood_setting*]
 {
-	// No snow for building interiors
 	mood_name				= upza_snow_town_2;
 	transition_time			= 0.0f;
 	interior				= false;
@@ -99,9 +99,10 @@
 		room_type			= rt_generic;
 	}
 }
+// Longer transition (and different music) for the middle of the region and entry on the snowless side
+// Used south of town
 [mood_setting*]
 {
-	// Longer transition (and different music) for the middle of the region and entry on the snowless side
 	mood_name				= upza_snow_town_3;
 	transition_time			= 5.0f;
 	interior				= false;
@@ -153,9 +154,10 @@
 		room_type			= rt_generic;
 	}
 }
+// quick transition for dungeon
+// unused
 [mood_setting*]
 {
-	// quick transition for dungeon
 	mood_name				= upza_snow_town_3b;
 	transition_time			= 0.5f;
 	interior				= false;
@@ -207,9 +209,10 @@
 		room_type			= rt_generic;
 	}
 }
+// Dungeon (barracks) entry/exit
+// transition to greater neardist.
 [mood_setting*]
 {
-	// transition to greater neardist.
 	mood_name				= upza_snow_town_3c;
 	transition_time			= 4.0f;
 	interior				= false;
@@ -308,9 +311,9 @@
 		room_type			= rt_generic;
 	}
 }
+// Long transition time to go out of snow_town towards the ice caves
 [mood_setting*]
 {
-	// Long transition time to go out of snow_town towards the ice caves
 	mood_name				= upza_snow_town_4;
 	transition_time			= 15.0f;
 	interior				= false;
@@ -362,9 +365,9 @@
 		room_type			= rt_generic;
 	}
 }
+// Long transition time to go from ice caves to snow_town
 [mood_setting*]
 {
-	// Long transition time to go from ice caves to snow_town
 	mood_name				= upza_snow_town_5;
 	transition_time			= 15.0f;
 	interior				= false;
@@ -416,9 +419,9 @@
 		room_type			= rt_generic;
 	}
 }
+// Mood for coming out of the houses where snow = 150
 [mood_setting*]
 {
-	// Mood for coming out of the houses where snow = 150
 	mood_name				= upza_snow_town_6;
 	transition_time			= 2.0f;
 	interior				= false;
@@ -570,9 +573,10 @@
 		room_type			= rt_generic;
 	}
 }
+
+// This is the mood used when entering the region via the teleporter (inside town)
 [mood_setting*]
 {
-	// This is the mood used when entering the region via the teleporter
 	mood_name				= upza_snow_town_teleport;
 	transition_time			= 22.0f;
 	interior				= false;
@@ -620,13 +624,13 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_06";
+		standard_track		= "s_m_Glacern_07";  // EDITED was 06
 		room_type			= rt_generic;
 	}
 }
+// This is for entry via the small teleporter (outside town)
 [mood_setting*]
 {
-	// This is for entry via the small teleporter
 	mood_name				= upza_snow_town_teleport_2;
 	transition_time			= 20.0f;
 	interior				= false;
@@ -674,7 +678,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_07";  // EDITED was s_m_Glacern_01
+		standard_track		= "s_m_Glacern_01";
 		room_type			= rt_generic;
 	}
 }
