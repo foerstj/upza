@@ -36,6 +36,15 @@
           i order = 0;
         }
     }
+    [misc]
+    {
+        screen_name = "Misc. Quests";
+        [*]
+        {
+            description = "Added miscellaneous quests";
+          i order = 0;
+        }
+    }
 }
 
 [quests]
@@ -520,7 +529,7 @@
         [*]
         {
             order = 0;
-            description = "Find a safe passage from the Eastern Island to the Utraean Peninsula";
+            description = "Find a safe passage from the Eastern Island to the Utraean Peninsula.";
         }
         [*]
         {
@@ -528,6 +537,21 @@
             order = 1;
             required = false;
             description = "You can now add more 2nd Legion mates to your group.";
+        }
+    }
+
+
+    // Misc added quests
+
+    [clear_quarry]
+    {
+        chapter = misc;
+        screen_name = "Clear Dornek's Quarry";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Clear Dornek's Quarry to find a way to Lang.";
         }
     }
 }
