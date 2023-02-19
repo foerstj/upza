@@ -21,3 +21,24 @@
 		other_effect = "fireplace_fire";
 	}
 }
+
+[t:template,n:fire_grs_campfire_lightable] { specializes = fire_grs_campfire_lightable_base; }
+[t:template,n:fire_grs_campfire_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "campfire lightable";
+	[aspect]
+	{
+		does_block_path = true;
+		model = m_i_grs_campfire;
+	}
+    [common]
+    {
+        screen_name = "Firepit";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "fireplace_fire";
+	}
+}

@@ -105,6 +105,22 @@
 		use_point_scids = 0x02700241,0x0270023f;
 	}
 }
+[t:fire_grs_campfire_lightable,n:0x02700112]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x62DAADA4;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x62DAADA4;
+	}
+	[placement]
+	{
+	  p position = -2.06487,-1,1.89311,0xe0488034;
+		use_point_scids = 0x0270022C,0x0270022D,0x0270022E;
+	}
+}
 [t:door_ice_peasant_left,n:0x0270024f]
 {
 	[door_basic]
@@ -128,6 +144,27 @@
 	[placement]
 	{
 	  p position = -3.3963,-2.76392,-9.62666,0xe0488034;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x027000bd]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xA8FD5F32;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xA8FD5F32;
+	}
+	[msg_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x0270005F;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.199368,0,0.979925;
+	  p position = -4.44004,-3.5,2.95338,0x8c5d049b;
 	}
 }
 [t:door_ice_peasant_left,n:0x0270024d]
@@ -224,6 +261,48 @@
 	  q orientation = -0.0262506,-0.601242,-0.0348357,0.797876;
 	  p position = -3.22097,1.52152,1.21473,0x214e9b0c;
 		use_point_scids = 0x02700785,0x02700787;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x02700085]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x61455B3D;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x61455B3D;
+	}
+	[msg_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x027000AC;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0367012,-5.15,-0.610298,0x98cc870a;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x02700175]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x61B4F99B;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x61B4F99B;
+	}
+	[msg_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x027000AD;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.601815,0,0.798635;
+	  p position = 0.457249,-3.15,2.12345,0x98cc870a;
 	}
 }
 [t:door_ice_peasant_right,n:0x0270024a]
@@ -359,6 +438,27 @@
 	  q orientation = -0.0686579,-0.294611,-0.0212986,0.95291;
 	  p position = -1.46303,12.4895,2.51945,0x30310dca;
 		use_point_scids = 0x02700244,0x02700246,0x02700247;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x027000b7]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x805622A6;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x805622A6;
+	}
+	[msg_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x027000AB;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.199368,0,0.979925;
+	  p position = 2.9472,-2.95,4.05543,0x35b5304d;
 	}
 }
 [t:door_ice_peasant_left,n:0x0270024e]

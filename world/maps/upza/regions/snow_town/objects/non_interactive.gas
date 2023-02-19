@@ -2192,21 +2192,6 @@
 	  p position = 3.78867,-0.000951767,-2.78622,0xe0488034;
 	}
 }
-[t:fire_grs_campfire,n:0x02700112]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x62DAADA4;
-	}
-	[placement]
-	{
-	  p position = -2.06487,-1,1.89311,0xe0488034;
-	}
-}
 [t:stool_glb_01,n:0x02700114]
 {
 	[aspect]
@@ -3844,22 +3829,6 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -5.02979,-3.5,1.7632,0x8c5d049b;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x027000bd]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xA8FD5F32;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.199368,0,0.979925;
-	  p position = -4.44004,-3.5,2.95338,0x8c5d049b;
 	}
 }
 [t:bush_ice_rhod_01,n:0x02700155]
@@ -9448,22 +9417,6 @@
 	  p position = 1.80329,0.041729,3.83525,0x6c045caf;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x02700085]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x61455B3D;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.0367012,-5.15,-0.610298,0x98cc870a;
-	}
-}
 [t:bellow_glb,n:0x0270008c]
 {
 	[aspect]
@@ -9647,18 +9600,6 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = 3.28571,-3.15,2.4935,0x98cc870a;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x02700175]
-{
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x61B4F99B;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.601815,0,0.798635;
-	  p position = 0.457249,-3.15,2.12345,0x98cc870a;
 	}
 }
 [t:lamp_glb_wall_01_unlit,n:0x027002a5]
@@ -13051,22 +12992,6 @@
 	{
 	  q orientation = 0,-0.707107,0,-0.707106;
 	  p position = 3.92892,-2.16358,0.803368,0x35b5304d;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x027000b7]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x805622A6;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.199368,0,0.979925;
-	  p position = 2.9472,-2.95,4.05543,0x35b5304d;
 	}
 }
 [t:bush_ice_rhod_01,n:0x0270038d]
