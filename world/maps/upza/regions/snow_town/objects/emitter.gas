@@ -524,14 +524,6 @@
 	  p position = -5.2,9.05,2.45,0x8a2b94b4;
 	}
 }
-[t:emitter_glb_smoke_01_act,n:0x02700256]
-{
-	[placement]
-	{
-	  q orientation = -7.23022e-016,-0.707107,-7.23022e-016,0.707107;
-	  p position = -4.6,3.8,1.7,0x3bbbe85e;
-	}
-}
 [t:emitter_glb_smoke_01_act,n:0x02700257]
 {
 	[placement]
@@ -546,5 +538,13 @@
 	{
 	  q orientation = -7.23022e-016,-0.707107,-7.23022e-016,0.707107;
 	  p position = -3.7,9.05,2.45,0x8a2b94b4;
+	}
+}
+[t:emitter_glb_smoke_01_act,n:0x02700256]
+{
+	[placement]
+	{
+	  q orientation = -7.23022e-016,-0.707107,-7.23022e-016,0.707107;
+	  p position = -4.6,3.8,1.7,0x3bbbe85e;
 	}
 }
