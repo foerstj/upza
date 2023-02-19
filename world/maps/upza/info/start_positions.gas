@@ -119,6 +119,29 @@
 			}
 		}
 	}
+	[t:start_group,n:dev]
+	{
+	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698464;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.681382,0.000002,0.049563,0x1586984A;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x1586984A;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
 	[t:start_group,n:eastern_island]
 	{
 	  b default = false;
@@ -355,7 +378,7 @@
 	}
 	[t:start_group,n:fallraen]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Fallraen, High Alpine Town";
 	  b dev_only = false;
 	  i id = 3;
