@@ -11,4 +11,15 @@
 			texture = b_gui_ig_mnu_tip_compass;
 		}
 	}
+	[t:tip,n:tip_quarry]
+	{
+		order = 1;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "The Lungers in the Crystal Caverns have become very strong! Better to reach Lang first via Dornek's Quarry and the Sulfur Tunnels.";
+			texture = b_gui_ig_mnu_tip_compass;
+		}
+	}
 }
