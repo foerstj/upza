@@ -1,0 +1,50 @@
+[t:template,n:spell_dark_lunger_zap_base]  // = spell_dark_lunger_zap
+{
+	category_name = "magic";
+	doc = "Dark Lunger Zap";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		 damage_min = 72;
+		 damage_max = 78;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("dark_lunger_zap");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+	[magic]
+	{
+		cast_range = 12;
+		cast_reload_delay = 1;
+		cast_sub_animation = 1;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_instant_hit] {}
+}
+
+[t:template,n:spell_upza_darker_caster_zap]
+{
+    specializes = spell_dark_lunger_zap_base;
+
+    // damage doubled, cast_reload_delay halved - analogous to difference in spears of dark_slinger and water_slinger
+	[attack]
+	{
+		damage_min = 144;
+		damage_max = 156;
+	}
+    [magic]
+    {
+		cast_reload_delay = 0.5;
+    }
+}

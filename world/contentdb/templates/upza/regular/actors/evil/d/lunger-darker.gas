@@ -98,6 +98,65 @@
 [t:template,n:upza_darker_lunger]
 {
     specializes = dark_lunger_base;
+
+    aspect:scale_base = 1.1;
+
+    // stats & loot from water_lunger
+	[actor]
+	{
+		[skills]
+		{
+			strength =  15, 0;
+			intelligence =  7, 0;
+			dexterity =  16, 0;
+            melee =  31,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 10600;
+		life = 640;
+        max_life = 640;
+        mana = 26;
+        max_mana = 26;
+	}
+	[attack]
+	{
+		damage_max = 145;
+		damage_min = 125;
+	}
+	[defend] { defense=360; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/55-103;
+					il_main = #armor/48-235;
+                	il_main = #nmagic/23-38;
+                	il_main = #cmagic/25-38;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/96-122;
+	                il_main = #armor/-rare(1)/199-262;
+                    il_main = #*/-rare(1)/96-122;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/96-122;
+	                il_main = #armor/-unique(2)/199-262;
+                    il_main = #*/-unique(2)/96-122;
+	            }
+			}
+        }
+	}
 }
 
 
@@ -212,6 +271,62 @@
 [t:template,n:upza_darker_lunger_boss_01]
 {
     specializes = dark_lunger_boss_01_base;
+
+    aspect:scale_base = 1.1;
+
+    // stats & loot from water_lunger_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =  16, 0;
+			intelligence =  7, 0;
+			dexterity =  17, 0;
+            melee =  34,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 22600;
+		life = 1257;
+        max_life = 1257;
+        mana = 26;
+        max_mana = 26;
+	}
+	[attack]
+	{
+		damage_max = 145;
+		damage_min = 125;
+	}
+	[defend] { defense=514; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/103-130;
+					il_main = #armor/250-300;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/122-143;
+	                il_main = #armor/-rare(1)/293-321;
+                    il_main = #*/-rare(1)/122-143;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/122-143;
+	                il_main = #armor/-unique(2)/293-321
+                    il_main = #*/-unique(2)/122-143;
+	            }
+			}
+        }
+	}
 }
 
 
@@ -332,6 +447,71 @@
 [t:template,n:upza_darker_slinger]
 {
     specializes = dark_slinger_base;
+
+    aspect:scale_base = 1.1;
+
+    // spear of water_slinger
+	[inventory]
+	{
+		[other] { il_active_primary_spell = spell_water_slinger_spear; }
+	}
+
+    // stats & loot from water_slinger
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	13, 0;
+			intelligence =  7, 0;
+			dexterity =  	16, 0;
+            ranged =  		31,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 7000;
+		life = 130;
+        max_life = 130;
+        mana = 26;
+        max_mana = 26;
+	}
+	[attack]
+	{
+		damage_max = 108;
+		damage_min = 104;
+	}
+	[defend] { defense=330; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/55-103;
+					il_main = #armor/48-235;
+                	il_main = #nmagic/23-38;
+                	il_main = #cmagic/25-38;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/89-112;
+	                il_main = #armor/-rare(1)/201-262;
+                    il_main = #*/-rare(1)/89-112;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/89-112;
+	                il_main = #armor/-unique(2)/201-262;
+                    il_main = #*/-unique(2)/89-112;
+	            }
+        	}
+		}
+	}
 }
 
 
@@ -452,4 +632,69 @@
 [t:template,n:upza_darker_caster]
 {
     specializes = dark_caster_base;
+
+    aspect:scale_base = 1.1;
+
+    // stronger spell
+	[inventory]
+	{
+		[other] { il_active_primary_spell = spell_upza_darker_caster_zap; }
+	}
+
+    // stats & loot from water_slinger, adapted
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	13, 0;
+			intelligence =  16, 0;  // EDITED - swapped with dex
+			dexterity =  	7, 0;  // EDITED - swapped with int
+            nature_magic =  		31,  0;  // EDITED - was ranged
+		}
+	}
+	[aspect]
+	{
+		experience_value = 7000;
+		life = 130;
+        max_life = 130;
+        mana = 26;
+        max_mana = 26;
+	}
+	[attack]
+	{
+		damage_max = 108;
+		damage_min = 104;
+	}
+	[defend] { defense=330; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/55-103;
+					il_main = #armor/48-235;
+                	il_main = #nmagic/23-38;
+                	il_main = #cmagic/25-38;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/89-112;
+	                il_main = #armor/-rare(1)/201-262;
+                    il_main = #*/-rare(1)/89-112;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/89-112;
+	                il_main = #armor/-unique(2)/201-262;
+                    il_main = #*/-unique(2)/89-112;
+	            }
+        	}
+		}
+	}
 }

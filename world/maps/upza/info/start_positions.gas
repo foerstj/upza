@@ -121,7 +121,7 @@
 	}
 	[t:start_group,n:dev]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 1698464;
@@ -378,7 +378,7 @@
 	}
 	[t:start_group,n:fallraen]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Fallraen, High Alpine Town";
 	  b dev_only = false;
 	  i id = 3;
