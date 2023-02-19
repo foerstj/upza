@@ -1,0 +1,103 @@
+[mood_setting*]
+{
+	mood_name				= upza_town_center_1;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF646464;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_Farmhouse_02";  // s_m_BesiegedTown_01
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= upza_town_center_tavern;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF646464;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";  // s_e_env_tavern
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_Farmhouse_02";  // s_m_BesiegedTown_01
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the mood for entering town_center via the hub teleporter
+	mood_name				= upza_town_center_teleport;
+	transition_time			= 22.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF646464;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.0f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_Farmhouse_02";  // s_m_BesiegedTown_01
+		room_type			= rt_generic;
+	}
+}
