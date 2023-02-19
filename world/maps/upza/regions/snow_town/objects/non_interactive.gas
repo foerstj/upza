@@ -2707,6 +2707,30 @@
 	  p position = 6.83293,-9.53674e-007,-1.95995,0xe0488034;
 	}
 }
+[t:upza_bones_glb_body_readable,n:0x02700731]
+{
+	[common]
+	{
+		screen_name = "Verla Oreen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.68751,9.53674e-007,7.63596,0xe0488034;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x02700732]
+{
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 0.203789,2.38419e-007,7.79069,0xe0488034;
+	}
+}
 [t:tree_ice_dead_01,n:0x02700864]
 {
 	[aspect]
@@ -20922,29 +20946,5 @@
 	[placement]
 	{
 	  p position = -10.3641,-1.4,4.73339,0x8a2b94b4;
-	}
-}
-[t:upza_bones_glb_body_readable,n:0x02700732]
-{
-	[common]
-	{
-		screen_name = "Legionnaire Guard";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = 0.203789,2.38419e-007,7.79069,0xe0488034;
-	}
-}
-[t:upza_bones_glb_body_readable,n:0x02700731]
-{
-	[common]
-	{
-		screen_name = "Verla Oreen";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.68751,9.53674e-007,7.63596,0xe0488034;
 	}
 }

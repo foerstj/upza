@@ -1,6 +1,6 @@
-[mood_setting*]
+[mood_setting*]  // north (outside town)
 {
-	mood_name				= upza_snow_town_1;
+	mood_name				= upza_snow_town_north;
 	transition_time			= 2.0f;
 	interior				= false;
 
@@ -47,14 +47,14 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_07";  // EDITED was s_m_Glacern_01
+		standard_track		= "s_m_Glacern_01";
 		room_type			= rt_generic;
 	}
 }
 // No snow for building interiors
-[mood_setting*]
+[mood_setting*]  // indoor
 {
-	mood_name				= upza_snow_town_2;
+	mood_name				= upza_snow_town_indoor;
 	transition_time			= 0.0f;
 	interior				= false;
 
@@ -99,11 +99,9 @@
 		room_type			= rt_generic;
 	}
 }
-// Longer transition (and different music) for the middle of the region and entry on the snowless side
-// Used south of town
-[mood_setting*]
+[mood_setting*]  // south (outside town)
 {
-	mood_name				= upza_snow_town_3;
+	mood_name				= upza_snow_town_south;
 	transition_time			= 5.0f;
 	interior				= false;
 
@@ -154,66 +152,9 @@
 		room_type			= rt_generic;
 	}
 }
-// quick transition for dungeon
-// unused
-[mood_setting*]
+[mood_setting*]  // barracks entry/exit (south, outside town)
 {
-	mood_name				= upza_snow_town_3b;
-	transition_time			= 0.5f;
-	interior				= false;
-
-	[frustum]
-	{
-		frustum_width		= 45.0f;
-		frustum_height		= 60.0f;
-	}
-
-	[sun]
-	{
-		00h00m:color = 0xFF000000;
-		05h00m:color = 0xFF1A1A00;
-		06h00m:color = 0xFF66330D;
-		07h00m:color = 0xFFB39A40;
-		08h00m:color = 0xFFB3B3B3;
-		10h00m:color = 0xFFF0F0FF;
-		12h00m:color = 0xFFFFFFFF;
-		19h00m:color = 0xFFB39A9A;
-		20h00m:color = 0xFF66334D;
-		21h00m:color = 0xFF330D40;
-		22h00m:color = 0xFF000000;
-		23h00m:color = 0xFF000000;
-	}
-
-	[fog]
-	{
-		fog_near_dist		= 20.0f;
-		fog_far_dist		= 40.0f;
-		fog_lowdetail_near_dist		= 10.0f;
-		fog_lowdetail_far_dist		= 35.0f;
-		fog_color			= 0xFFc0c0c8;
-		fog_density			= 0.5f;
-	}
-
-	// Snowing a bit, to soften the transition
-	[snow]
-	{
-		snow_density		= 100;
-	}
-
-	[rain] {} // empty [rain] block for lightning manipulation
-
-	[music]
-	{
-		ambient_track		= "";
-		standard_track		= "s_m_Glacern_06";
-		room_type			= rt_generic;
-	}
-}
-// Dungeon (barracks) entry/exit
-// transition to greater neardist.
-[mood_setting*]
-{
-	mood_name				= upza_snow_town_3c;
+	mood_name				= upza_snow_town_south_dgn;
 	transition_time			= 4.0f;
 	interior				= false;
 
@@ -264,7 +205,60 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // entry (south, inside town)
+{
+	mood_name				= upza_snow_town_entry;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFFc0c0c8;
+		fog_density			= 0.5f;
+	}
+
+	// Snowing a bit, to soften the transition
+	[snow]
+	{
+		snow_density		= 100;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_track		= "s_m_Glacern_07";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]  // tavern
 {
 	mood_name				= upza_snow_town_tavern;
 	transition_time			= 0.0f;
@@ -312,9 +306,9 @@
 	}
 }
 // Long transition time to go out of snow_town towards the ice caves
-[mood_setting*]
+[mood_setting*]  // exit tx (used only once, as middle ground between 5 and north)
 {
-	mood_name				= upza_snow_town_4;
+	mood_name				= upza_snow_town_exit_tx;
 	transition_time			= 15.0f;
 	interior				= false;
 
@@ -361,12 +355,12 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_07";  // EDITED was s_m_Glacern_01
+		standard_track		= "s_m_Glacern_01";
 		room_type			= rt_generic;
 	}
 }
 // Long transition time to go from ice caves to snow_town
-[mood_setting*]
+[mood_setting*]  // 5
 {
 	mood_name				= upza_snow_town_5;
 	transition_time			= 15.0f;
@@ -420,7 +414,7 @@
 	}
 }
 // Mood for coming out of the houses where snow = 150
-[mood_setting*]
+[mood_setting*]  // 6
 {
 	mood_name				= upza_snow_town_6;
 	transition_time			= 2.0f;
@@ -469,11 +463,11 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_07";  // EDITED was s_m_Glacern_01
+		standard_track		= "s_m_Glacern_01";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // 7 (when entering stable)
 {
 	mood_name				= upza_snow_town_7;
 	transition_time			= 1.0f;
@@ -516,11 +510,11 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_07";  // EDITED was s_m_Glacern_01
+		standard_track		= "s_m_Glacern_01";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // 8 (when leaving stable)
 {
 	mood_name				= upza_snow_town_8;
 	transition_time			= 1.0f;
@@ -569,13 +563,13 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_Glacern_07";  // EDITED was s_m_Glacern_01
+		standard_track		= "s_m_Glacern_01";
 		room_type			= rt_generic;
 	}
 }
 
 // This is the mood used when entering the region via the teleporter (inside town)
-[mood_setting*]
+[mood_setting*]  // teleport
 {
 	mood_name				= upza_snow_town_teleport;
 	transition_time			= 22.0f;
@@ -629,7 +623,7 @@
 	}
 }
 // This is for entry via the small teleporter (outside town)
-[mood_setting*]
+[mood_setting*]  // teleport 2
 {
 	mood_name				= upza_snow_town_teleport_2;
 	transition_time			= 20.0f;
