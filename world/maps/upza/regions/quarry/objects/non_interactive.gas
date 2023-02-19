@@ -2774,18 +2774,6 @@
 	  p position = -1.10987,0,-0.82663,0x0e1e2dd5;
 	}
 }
-[t:firepit_glb_03,n:0x00300306]
-{
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x7985D21A;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 1.56484,0,0.420723,0xdc3ee394;
-	}
-}
 [t:rocks_cav_01,n:0x003001f7]
 {
 	[aspect]
@@ -7176,18 +7164,6 @@
 	{
 	  q orientation = 0,0.615662,0,0.788011;
 	  p position = 1.41891,0,-0.726101,0x86aac010;
-	}
-}
-[t:fire_grs_campfire,n:0x00300112]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.950977;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-8.10251e-008;
-	  p position = 2.47112,0,0.531193,0x86aac010;
 	}
 }
 [t:wood_ice_piece,n:0x0030011a]
