@@ -978,6 +978,7 @@
 {
 	[common]
 	{
+	  b is_single_player = false;
 		screen_name = "Scudding";
 	}
 	[placement]
@@ -990,12 +991,73 @@
 {
 	[common]
 	{
+	  b is_single_player = false;
 		screen_name = "Princess";
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.258819,0,0.965926;
 	  p position = 2.01536,-1.25,2.21877,0xf50c5ee6;
+	}
+}
+[t:self_service_mule,n:0x02701240]
+{
+	[aspect]
+	{
+	  f max_life = 66.5;
+	  f max_mana = 109;
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+		screen_name = "Scudding";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x2701240;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-2.08616e-007;
+	  p position = -1.61995,-1.25,-2.78505,0xf50c5ee6;
+	}
+}
+[t:self_service_mule,n:0x02701331]
+{
+	[aspect]
+	{
+	  f max_life = 66.5;
+	  f max_mana = 109;
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+	  b is_multi_player = false;
+		screen_name = "Princess";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x2701331;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.258819,0,0.965926;
+	  p position = 2.12881,-1.25,2.25381,0xf50c5ee6;
 	}
 }
 [t:mp_guard_ranged,n:0x02700720]
