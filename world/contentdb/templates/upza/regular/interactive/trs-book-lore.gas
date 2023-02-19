@@ -33,3 +33,20 @@
 		lore_key = lore_dornek_diary;
 	}
 }
+
+[t:template,n:upza_book_glb_lore_flessan_diary_lagreth]
+{
+	specializes = base_book_lore;
+
+	category_name = "lorebook";
+	doc = "Flessan diary";
+	[common]
+	{
+		screen_name = "Apprentice Flessan's Diary";
+		auto_expiration_class = never;
+	}
+	[gui]
+	{
+		lore_key = lore_flessan_diary;
+	}
+}
