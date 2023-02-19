@@ -1,3 +1,11 @@
+[t:body_ice_04,n:0x02700722]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 0.16044,0,3.60779,0xcc154d7c;
+	}
+}
 [t:bush_ice_rhod_01,n:0x0270018e]
 {
 	[aspect]
@@ -80,6 +88,14 @@
 	{
 	  q orientation = 0,0.923879,0,-0.382684;
 	  p position = 23.1205,0.0999949,1.10086,0xf49c03ae;
+	}
+}
+[t:body_ice_01,n:0x02700723]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -1.36364,0,1.29782,0xce9a367c;
 	}
 }
 [t:bush_ice_rhod_01,n:0x02700225]
@@ -912,6 +928,18 @@
 	  p position = -1.16285,-1.48463,-8.46728,0x0e8099da;
 	}
 }
+[t:upza_bones_glb_body_readable,n:0x027002be]
+{
+	[common]
+	{
+		screen_name = "Magician Killean Herne";
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.49012e-007;
+	  p position = 0.208251,-0.5,6.16679,0x0e8099da;
+	}
+}
 [t:tree_ice_pine_04,n:0x02700626]
 {
 	[aspect]
@@ -1200,6 +1228,18 @@
 	  p position = 7.75205,-4.41322,9.38668,0x0e8099da;
 	}
 }
+[t:upza_bones_glb_body_readable,n:0x027007d0]
+{
+	[common]
+	{
+		screen_name = "Utraean Apprentice Flessan";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.0116,-0.5,5.20676,0x0e8099da;
+	}
+}
 [t:tree_ice_dead_01,n:0x0270085c]
 {
 	[aspect]
@@ -1378,6 +1418,14 @@
 	{
 	  q orientation = 0,0.272379,0,-0.96219;
 	  p position = 1.7869,0,-1.65296,0x74409b19;
+	}
+}
+[t:body_csl_corpse_07,n:0x02700721]
+{
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 0.295411,12,-0.989124,0xbeeaeb41;
 	}
 }
 [t:tree_ice_dead_01,n:0x0270085b]
@@ -2575,6 +2623,18 @@
 	  p position = -2.06718,-2.29536,-9.24953,0xe0488034;
 	}
 }
+[t:upza_bones_glb_body_readable,n:0x027005f0]
+{
+	[common]
+	{
+		screen_name = "Lars Kimer";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 7.98569,-4.76837e-007,-1.73657,0xe0488034;
+	}
+}
 [t:tree_ice_pine_04,n:0x0270063c]
 {
 	[aspect]
@@ -2621,6 +2681,30 @@
 	{
 	  q orientation = 0,0.324026,0,0.946048;
 	  p position = -0.0979424,-2.52513,-6.4816,0xe0488034;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x02700718]
+{
+	[common]
+	{
+		screen_name = "Kymian Trelave";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 6.77423,0,-0.841473,0xe0488034;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x0270072c]
+{
+	[common]
+	{
+		screen_name = "Larimer Mord";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 6.83293,-9.53674e-007,-1.95995,0xe0488034;
 	}
 }
 [t:tree_ice_dead_01,n:0x02700864]
@@ -4269,6 +4353,30 @@
 	{
 	  q orientation = 0,0.105376,0,0.994432;
 	  p position = 6.85067,-4.48719,0.275764,0x8c5d049b;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x02700743]
+{
+	[common]
+	{
+		screen_name = "Billib Borub";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.902585,0,-0.430511;
+	  p position = 2.02381,-3.5,-1.60368,0x8c5d049b;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x02700748]
+{
+	[common]
+	{
+		screen_name = "Marli Meswar";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.991323,-3.5,-1.78806,0x8c5d049b;
 	}
 }
 [t:cup_glb,n:0x0270074c]
@@ -9761,6 +9869,14 @@
 	  p position = 2.29809,0,-2.71228,0x0ee099d9;
 	}
 }
+[t:body_ice_01,n:0x02700780]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.861629,0,0.507538;
+	  p position = 1.36056,0,-0.44035,0x0ee099d9;
+	}
+}
 [t:tree_ice_pine_02,n:0x02700170]
 {
 	[aspect]
@@ -9885,8 +10001,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.483994,0,-0.875072;
-	  p position = -3.22409,0,0.181577,0x72aee864;
+	  q orientation = 0,-0.483994,0,0.875071;
+	  p position = -3.22409,0,0.181576,0x72aee864;
 	}
 }
 [t:tree_ice_pine_04,n:0x02700618]
@@ -9983,6 +10099,14 @@
 	{
 	  q orientation = 0,0.164399,0,-0.986394;
 	  p position = -1.43486,12,1.67799,0x19ae8ad0;
+	}
+}
+[t:body_csl_corpse_07,n:0x0270071f]
+{
+	[placement]
+	{
+	  q orientation = 0,-5.96046e-007,0,1;
+	  p position = 1.56393,12,0.1119,0x214e9b0c;
 	}
 }
 [t:bush_ice_rhod_01,n:0x027001ce]
@@ -10200,6 +10324,17 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -4.81096,-5.00623,0.691158,0x98cc870a;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x027002c0]
+{
+	[common]
+	{
+		screen_name = "Smithy Liorne";
+	}
+	[placement]
+	{
+	  p position = -1.6538,-5.15,-6.74612,0x98cc870a;
 	}
 }
 [t:table_csl_01,n:0x0270030f]
@@ -13474,6 +13609,14 @@
 	  p position = 2.69978,0,0.439498,0xb07a853d;
 	}
 }
+[t:body_csl_corpse_07,n:0x02700720]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.592308,12,1.10259,0x30310dca;
+	}
+}
 [t:bush_ice_rhod_01,n:0x02700414]
 {
 	[aspect]
@@ -14156,6 +14299,18 @@
 	{
 	  q orientation = 0,0.904929,0,0.425563;
 	  p position = 6.15556,-4.65278,4.35962,0x35b5304d;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x02700725]
+{
+	[common]
+	{
+		screen_name = "Lorun Jelter";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.182235,0,0.983255;
+	  p position = -1.2671,-2.38227,4.16664,0x35b5304d;
 	}
 }
 [t:bush_ice_rhod_01,n:0x02700394]
@@ -19247,6 +19402,14 @@
 	  p position = -3.31609,-1.2,0.997231,0x2c32078b;
 	}
 }
+[t:body_ice_03,n:0x02700781]
+{
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,-0.130526;
+	  p position = 0.939758,16.0694,-4.10714,0x30b6475e;
+	}
+}
 [t:bush_ice_rhod_01,n:0x02700393]
 {
 	[aspect]
@@ -20738,35 +20901,50 @@
 	  p position = 2.10913,-0.572045,-4.06953,0x8a2b94b4;
 	}
 }
-[t:body_ice_03,n:0x02700781]
+[t:upza_bones_glb_body_readable,n:0x0270073b]
 {
-	[placement]
+	[common]
 	{
-	  q orientation = 0,0.991445,0,-0.130526;
-	  p position = 0.939758,16.0694,-4.10714,0x30b6475e;
+		screen_name = "Hilmer Deprix";
 	}
-}
-[t:body_ice_04,n:0x02700722]
-{
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
-	  p position = 0.16044,0,3.60779,0xcc154d7c;
+	  p position = -10.8678,-1.4,5.26608,0x8a2b94b4;
 	}
 }
-[t:body_ice_01,n:0x02700723]
+[t:upza_bones_glb_body_readable,n:0x0270073f]
 {
+	[common]
+	{
+		screen_name = "Mella Deprix";
+	}
 	[placement]
 	{
-	  q orientation = 0,0.92388,0,0.382683;
-	  p position = -1.36364,0,1.29782,0xce9a367c;
+	  p position = -10.3641,-1.4,4.73339,0x8a2b94b4;
 	}
 }
-[t:body_ice_01,n:0x02700780]
+[t:upza_bones_glb_body_readable,n:0x02700732]
 {
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
 	[placement]
 	{
-	  q orientation = 0,-0.861629,0,0.507538;
-	  p position = 1.36056,0,-0.44035,0x0ee099d9;
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 0.203789,2.38419e-007,7.79069,0xe0488034;
+	}
+}
+[t:upza_bones_glb_body_readable,n:0x02700731]
+{
+	[common]
+	{
+		screen_name = "Verla Oreen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.68751,9.53674e-007,7.63596,0xe0488034;
 	}
 }

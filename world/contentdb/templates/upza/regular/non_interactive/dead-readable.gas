@@ -1,0 +1,33 @@
+[t:template,n:upza_base_dead_readable]
+{
+	specializes = non_interactive_nonblocking;
+
+	category_name = "dead";
+	[aspect]
+	{
+		is_selectable = true;
+		draw_selection_indicator = false;
+		lodfi_lower = 0;
+		lodfi_upper = 0;
+	}
+    [common]
+    {
+        screen_name = "Dead";
+		rollover_display = true;
+    }
+}
+
+[t:template,n:upza_bones_glb_body_readable]
+{
+	specializes = upza_base_dead_readable;
+
+	doc = "bones_body";
+	[aspect]
+	{
+		model = m_i_glb_bones-body;
+	}
+    [common]
+    {
+        screen_name = "Bones";
+    }
+}
