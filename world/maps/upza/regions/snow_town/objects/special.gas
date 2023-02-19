@@ -94,7 +94,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -379,7 +379,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -409,7 +409,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_2");
+				action* = mood_change("upza_snow_town_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -470,7 +470,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -531,7 +531,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -561,7 +561,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_5");
+				action* = mood_change("upza_snow_town_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -591,7 +591,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_3");
+				action* = mood_change("upza_snow_town_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -895,7 +895,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -925,7 +925,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_tavern");
+				action* = mood_change("upza_snow_town_tavern");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1049,7 +1049,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1079,7 +1079,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_2");
+				action* = mood_change("upza_snow_town_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1108,7 +1108,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1153,7 +1153,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(6.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1197,7 +1197,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1241,7 +1241,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1330,7 +1330,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(6.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1375,7 +1375,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1463,7 +1463,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1772,7 +1772,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_4");
+				action* = mood_change("upza_snow_town_4");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,14.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1908,7 +1908,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2115,7 +2115,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2144,7 +2144,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_2");
+				action* = mood_change("upza_snow_town_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2188,7 +2188,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2218,7 +2218,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_2");
+				action* = mood_change("upza_snow_town_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2297,7 +2297,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2358,7 +2358,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_5");
+				action* = mood_change("upza_snow_town_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2388,7 +2388,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_3");
+				action* = mood_change("upza_snow_town_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2449,7 +2449,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2479,7 +2479,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2509,7 +2509,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_5");
+				action* = mood_change("upza_snow_town_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,6.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2586,7 +2586,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2691,8 +2691,8 @@
 			}
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_7"), group(1);
-				action* = mood_change("multiplayer_world_snow_town_8"), group(2);
+				action* = mood_change("upza_snow_town_7"), group(1);
+				action* = mood_change("upza_snow_town_8"), group(2);
 				action* = fade_nodes(0xABA20100,1,2,-1,"out:black"), group(1);
 				action* = fade_nodes(0xABA20100,1,2,-1,"in"), group(2);
 			  b can_self_destruct = true;
@@ -2901,7 +2901,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_6");
+				action* = mood_change("upza_snow_town_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,1.600000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2931,7 +2931,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_2");
+				action* = mood_change("upza_snow_town_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.000000,1.600000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3102,7 +3102,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_3");
+				action* = mood_change("upza_snow_town_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3132,7 +3132,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_3c");
+				action* = mood_change("upza_snow_town_3c");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3162,7 +3162,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_3");
+				action* = mood_change("upza_snow_town_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(10.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3314,7 +3314,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_3c");
+				action* = mood_change("upza_snow_town_3c");
 				action* = fade_nodes(0x3C6B9BED,1,-1,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,1.000000,2.500000,"on_every_enter");
@@ -3618,7 +3618,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(6.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -3661,7 +3661,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_snow_town_1");
+				action* = mood_change("upza_snow_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;

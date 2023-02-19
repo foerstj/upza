@@ -1,6 +1,6 @@
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_snow_town_1;
+	mood_name				= upza_snow_town_1;
 	transition_time			= 2.0f;
 	interior				= false;
 
@@ -54,7 +54,7 @@
 [mood_setting*]
 {
 	// No snow for building interiors
-	mood_name				= multiplayer_world_snow_town_2;
+	mood_name				= upza_snow_town_2;
 	transition_time			= 0.0f;
 	interior				= false;
 
@@ -102,7 +102,7 @@
 [mood_setting*]
 {
 	// Longer transition (and different music) for the middle of the region and entry on the snowless side
-	mood_name				= multiplayer_world_snow_town_3;
+	mood_name				= upza_snow_town_3;
 	transition_time			= 5.0f;
 	interior				= false;
 
@@ -156,7 +156,7 @@
 [mood_setting*]
 {
 	// quick transition for dungeon
-	mood_name				= multiplayer_world_snow_town_3b;
+	mood_name				= upza_snow_town_3b;
 	transition_time			= 0.5f;
 	interior				= false;
 
@@ -210,7 +210,7 @@
 [mood_setting*]
 {
 	// transition to greater neardist.
-	mood_name				= multiplayer_world_snow_town_3c;
+	mood_name				= upza_snow_town_3c;
 	transition_time			= 4.0f;
 	interior				= false;
 
@@ -263,7 +263,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_snow_town_tavern;
+	mood_name				= upza_snow_town_tavern;
 	transition_time			= 0.0f;
 	interior				= false;
 
@@ -311,7 +311,7 @@
 [mood_setting*]
 {
 	// Long transition time to go out of snow_town towards the ice caves
-	mood_name				= multiplayer_world_snow_town_4;
+	mood_name				= upza_snow_town_4;
 	transition_time			= 15.0f;
 	interior				= false;
 
@@ -365,7 +365,7 @@
 [mood_setting*]
 {
 	// Long transition time to go from ice caves to snow_town
-	mood_name				= multiplayer_world_snow_town_5;
+	mood_name				= upza_snow_town_5;
 	transition_time			= 15.0f;
 	interior				= false;
 
@@ -419,7 +419,7 @@
 [mood_setting*]
 {
 	// Mood for coming out of the houses where snow = 150
-	mood_name				= multiplayer_world_snow_town_6;
+	mood_name				= upza_snow_town_6;
 	transition_time			= 2.0f;
 	interior				= false;
 
@@ -472,7 +472,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_snow_town_7;
+	mood_name				= upza_snow_town_7;
 	transition_time			= 1.0f;
 	interior				= false;
 
@@ -519,7 +519,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_snow_town_8;
+	mood_name				= upza_snow_town_8;
 	transition_time			= 1.0f;
 	interior				= false;
 
@@ -573,7 +573,7 @@
 [mood_setting*]
 {
 	// This is the mood used when entering the region via the teleporter
-	mood_name				= multiplayer_world_snow_town_teleport;
+	mood_name				= upza_snow_town_teleport;
 	transition_time			= 22.0f;
 	interior				= false;
 
@@ -627,7 +627,7 @@
 [mood_setting*]
 {
 	// This is for entry via the small teleporter
-	mood_name				= multiplayer_world_snow_town_teleport_2;
+	mood_name				= upza_snow_town_teleport_2;
 	transition_time			= 20.0f;
 	interior				= false;
 
