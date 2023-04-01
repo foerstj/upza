@@ -135,7 +135,90 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	  f scroll_rate = 10.000000;
 	}
 }
-[leg_loola]
+[mark_before_condition]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "We found this woman here. Her name is Loola. Apart from that, nobody has been able to get anything out of her. If you ask me, she's completely insane.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "Where's your legion armor, were you sleeping when the ship ran aground? If Conner doesn't have something for you, maybe you can try buying something from this nutcase - good luck with that...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "If you find a safe way to the Peninsula, do tell me!";
+	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
+	}
+}
+[mark_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "You have found a safe way to the Peninsula?
+Let's go together then! And conquer the Utraean Peninsula once more for the 2nd Legion!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Let's go together - and conquer the Utraean Peninsula once more for the 2nd Legion!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mark_mp]
 {
 	[text*]
 	{
@@ -515,7 +598,85 @@ I'm never gonna leave this place again. I'm staying here.";
 	  f scroll_rate = 10.000000;
 	}
 }
-[tunnel]
+[bernard_before_condition]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Ahoy, mate!
+This appears to be a magical tunnel to the peninsula. Unfortunately, it seems to lead to what's known as the Endless Desert.
+Libella has taken up guard on the other side. Go greet her if you want. But I sure hope we find another passage, because over there is nothing but sand.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "If you find a safer way to the Peninsula, do tell me!";
+	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
+	}
+}
+[bernard_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "You have found a safer way to the Peninsula?
+Want me to come with you? Let's burn some Zombie asses!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Want me to come with you? Let's burn some Zombie asses!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bernard_mp]
 {
 	[text*]
 	{

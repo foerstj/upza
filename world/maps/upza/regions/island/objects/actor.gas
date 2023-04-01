@@ -358,7 +358,57 @@
 	{
 		[conversations]
 		{
-			* = leg_loola;
+			* = mark_accept_have_money;
+			* = mark_accept_no_money;
+			* = mark_before_condition;
+			* = mark_disband;
+			* = mark_disband_rejoin;
+			* = mark_join;
+			* = mark_reject;
+			* = mark_rejoin;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_avg_upza_leg_03;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_main = he_un_op_pl_upza_leg_02;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x790024f&namespace=mark&condition=found_gnf;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999909,0,0.0134669;
+	  p position = -0.800026,0,1.16122,0x1eb2bcfc;
+	}
+}
+[t:upza_mate_pm_m32,n:0x079002ac]
+{
+	[aspect]
+	{
+	  f max_life = 735;
+	  f max_mana = 132;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Mark";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mark_mp;
 			* = zconversation_red;
 		}
 	}
@@ -382,7 +432,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.999909,0,0.0134669;
-	  p position = -0.800026,0,1.16122,0x1eb2bcfc;
+	  p position = -0.753742,0,1.29641,0x1eb2bcfc;
 	}
 }
 [t:lilialaniliel,n:0x07902223]
@@ -453,14 +503,51 @@
 	{
 		[conversations]
 		{
-			* = tunnel;
+			* = bernard_accept_have_money;
+			* = bernard_accept_no_money;
+			* = bernard_before_condition;
+			* = bernard_disband;
+			* = bernard_disband_rejoin;
+			* = bernard_join;
+			* = bernard_reject;
+			* = bernard_rejoin;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?oid=0x790021c&namespace=bernard&condition=found_gnf;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.955073,0,0.29637;
+	  p position = -2.53448,-1.90199,-5.41195,0xeda9933a;
+	}
+}
+[t:upza_mate_pm_c16,n:0x079002ab]
+{
+	[aspect]
+	{
+	  f max_life = 235.2;
+	  f max_mana = 315;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Bernard";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = bernard_mp;
 			* = zconversation_red;
 		}
 	}
 	[placement]
 	{
 	  q orientation = 0,0.955073,0,0.29637;
-	  p position = -2.53448,-1.90199,-5.41195,0xeda9933a;
+	  p position = -2.62355,-1.87876,-5.27255,0xeda9933a;
 	}
 }
 [t:upza_mate_npc_04,n:0x079001a9]
@@ -553,76 +640,5 @@
 	{
 	  q orientation = 0,-0.291273,0,0.95664;
 	  p position = 3.62391,0,-0.560486,0x46768b8c;
-	}
-}
-[t:upza_mate_pm_c16,n:0x079002ab]
-{
-	[aspect]
-	{
-	  f max_life = 235.2;
-	  f max_mana = 315;
-	}
-	[common]
-	{
-		dev_instance_text = "MP";
-	  b is_single_player = false;
-		screen_name = "Bernard";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = tunnel;
-			* = zconversation_red;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.955073,0,0.29637;
-	  p position = -2.62355,-1.87876,-5.27255,0xeda9933a;
-	}
-}
-[t:upza_mate_pm_m32,n:0x079002ac]
-{
-	[aspect]
-	{
-	  f max_life = 735;
-	  f max_mana = 132;
-	}
-	[common]
-	{
-		dev_instance_text = "MP";
-	  b is_single_player = false;
-		screen_name = "Mark";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = leg_loola;
-			* = zconversation_red;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_un_pl_f_g_c_avg_upza_leg_03;
-			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_main = he_un_op_pl_upza_leg_02;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?face_player=false&talk_anim=talk;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.999909,0,0.0134669;
-	  p position = -0.753742,0,1.29641,0x1eb2bcfc;
 	}
 }

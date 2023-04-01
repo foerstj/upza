@@ -1,4 +1,87 @@
-[libella]
+[libella_before_condition]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Just look at these dunes, mate - just dunes after dunes after dunes...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "These dunes play tricks on your mind... I look out there and it feels like I'm looking at myself from the back... As if, if you walked just straight ahead, on and on, you'd somehow end up coming back here from the other side...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "If you find a safer way to the Peninsula, do tell me!";
+	  f scroll_rate = 10.000000;
+        activate_quest* = find_gnf;
+	}
+}
+[libella_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "You have found a safer way to the Peninsula?
+Want me to come with you? Let's pierce some Zombie skulls!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Want me to come with you? Let's pierce some Zombie skulls!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[libella_mp]
 {
 	[text*]
 	{
