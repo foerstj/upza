@@ -1,0 +1,42 @@
+[t:template,n:upza_mate_pm_r8_base]
+{
+    specializes = upza_base_mate_pm_f;
+
+	[actor]
+    {
+		portrait_icon = b_gui_ig_i_ic_c_upza_mate_11;
+        [skills]
+        {
+			strength 		=   2.00, 0, 10;
+			dexterity 		=   4.96, 0, 10;
+			intelligence 	=  	1.04, 0, 10;
+            ranged = 8, 0, 0;
+            uber = 8, 0, 0;
+        }
+    }
+	[aspect]
+    {
+        [textures]
+        {
+			0 = b_c_gah_fg_skin_08;  // dark blond hair colorful headband
+            1 = b_c_pos_a1_005;  // brown underwear
+        }
+    }
+}
+
+[t:template,n:upza_mate_pm_r8]
+{
+    specializes = upza_mate_pm_r8_base;
+
+    aspect:gold_value = 99999;
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_chest = bd_un_ch_r_g_c_avg_upza_leg_02;
+			es_feet = bo_un_bo_le_upza_leg;
+			es_shield_hand = bw_g_c_s_m_c_avg;
+		}
+    }
+}

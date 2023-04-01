@@ -1,4 +1,4 @@
-[t:upza_mate_npc_11,n:0x077000d0]
+[t:upza_mate_pm_r8,n:0x077000d0]
 {
 	[common]
 	{
@@ -10,16 +10,6 @@
 		{
 			* = libella;
 			* = zconversation_red;
-		}
-	}
-	[inventory]
-	{
-		selected_active_location = il_active_ranged_weapon;
-		[equipment]
-		{
-			es_chest = bd_un_ch_r_g_c_avg_upza_leg_02;
-			es_feet = bo_un_bo_le_upza_leg;
-			es_shield_hand = bw_g_c_s_m_c_avg;
 		}
 	}
 	[mind]
