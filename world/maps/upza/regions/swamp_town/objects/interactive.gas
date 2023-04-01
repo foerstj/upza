@@ -1,3 +1,19 @@
+[t:torch_swp_stick_01_lightable,n:0x04e002df]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x0CDBB11F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x0CDBB11F;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.507538,0,0.861629;
+	  p position = -2.43934,0.3,-3.89613,0xdd09d219;
+	}
+}
 [t:sign_glb_magicshop_01,n:0x04e00a69]
 {
 	[common]
@@ -6,7 +22,23 @@
 	}
 	[placement]
 	{
-	  p position = -1.27779,0.3,-3.73527,0xDD09D219;
+	  p position = -1.27779,0.3,-3.73527,0xdd09d219;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002de]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xC048D0AC;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xC048D0AC;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.573576,0,-0.819152;
+	  p position = 3.87447,0.294782,-2.55854,0x4218a083;
 	}
 }
 [t:door_swp_breakable,n:0x04e003af]
@@ -35,47 +67,99 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-2.68221e-007;
-	  p position = 1.89486,-0.263514,-2.09261,0x3F5C7D75;
+	  p position = 1.89486,-0.263514,-2.09261,0x3f5c7d75;
 		use_point_scids = 0x04e0030e;
 	}
 }
-[t:sign_swp_01,n:0x04e00a67]
+[t:torch_swp_stick_01_lightable,n:0x04e00380]
 {
-	[common]
+	[light_enable]
 	{
-		screen_name = "Town of Quillrabe, 359";
+	  x siege_light = 0xBD622638;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xBD622638;
 	}
 	[placement]
 	{
-	  q orientation = 0,-1,0,-3.8743e-007;
-	  p position = 1.58791,0.923827,1.0451,0x03743E71;
+	  q orientation = 0,-0.507538,0,0.861629;
+	  p position = 1.54257,1.04483,1.8849,0xe6d81fee;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002e1]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xE2D562F6;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xE2D562F6;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.771625,0,0.636078;
+	  p position = -1.50849,0.93298,3.12448,0x5c70d71a;
 	}
 }
 [t:sign_swp_lang,n:0x04e00a88]
 {
 	[placement]
 	{
-	  p position = 2.75136,1.73532,0.981192,0xB62BF45C;
+	  p position = 2.75136,1.73532,0.981192,0xb62bf45c;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002e8]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x1B56EE8F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x1B56EE8F;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.852641,0,0.522498;
+	  p position = -2.97303,4.76837e-007,1.93154,0x39c1b195;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002e7]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x3F01B299;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x3F01B299;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,0.292372;
+	  p position = 17.4142,0.1,-5.54758,0x0d62b522;
 	}
 }
 [t:lever_glb_06_message_rescaled,n:0x04e00a4e]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.500000;
+	  f scale_multiplier = 0.5;
 	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
 	  x off_scid = 0x04E000E5;
 	  x on_scid = 0x04E000E5;
-	  f reset_time = 20.000000;
-	  f reset_time_2 = 20.000000;
+	  f reset_time = 20;
+	  f reset_time_2 = 20;
 	}
 	[placement]
 	{
 	  q orientation = -0.707107,0,0,0.707107;
-	  p position = -0.0208549,1.16187,0.0216675,0x33B8F42B;
+	  p position = -0.0208549,1.16187,0.0216675,0x33b8f42b;
 		use_point_scids = 0x04e000fc, 0x04e00111;
 	}
 }
@@ -84,78 +168,96 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-2.08616e-007;
-	  p position = 0.0910988,-1.34935,-2.52313,0x79FBC20C;
+	  p position = 0.0910988,-1.34935,-2.52313,0x79fbc20c;
 		use_point_scids = 0x04e002f9,0x04e00308;
 	}
 }
-[t:sign_swp_01,n:0x04e00a7b]
+[t:torch_swp_stick_01_lightable,n:0x04e002ef]
 {
-	[common]
+	[light_enable]
 	{
-		screen_name = "Town of Quillrabe, 390";
+	  x siege_light = 0xAAA344AA;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xAAA344AA;
 	}
 	[placement]
 	{
-	  q orientation = -0.19509,2.68221e-007,1.30385e-007,-0.980785;
-	  p position = -3.61308,1.0,2.94665,0x70D8D15F;
+	  q orientation = 0,0.996195,0,-0.087156;
+	  p position = -0.24408,0.919228,1.46672,0xcc05e8a8;
 	}
 }
-[t:sign_swp_01,n:0x04e00a58]
+[t:torch_swp_stick_01_lightable,n:0x04e002e2]
 {
-	[common]
+	[light_enable]
 	{
-		screen_name = "Town of Lang, 7";
+	  x siege_light = 0xF50FE220;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xF50FE220;
 	}
 	[placement]
 	{
-	  q orientation = 0,-7.7486e-007,0,1;
-	  p position = 1.35506,1.0,2.01869,0xA3A1BC0E;
+	  q orientation = 0,0.777146,0,0.62932;
+	  p position = 1.99359,0.668062,3.38019,0x32f477fe;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002e6]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xE4EF8049;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xE4EF8049;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,-0.292372;
+	  p position = 1.76737,0.576866,1.83969,0x7a6931a0;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002d9]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xBD653CB2;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xBD653CB2;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,-0.292372;
+	  p position = -2.77899,-0.823134,-3.66133,0x305c3731;
 	}
 }
 [t:door_swp_breakable,n:0x04e003b1]
 {
 	[placement]
 	{
-	  p position = 0.798214,-1.25,-2.4639,0xF509E6CA;
+	  p position = 0.798214,-1.25,-2.4639,0xf509e6ca;
 		use_point_scids = 0x04e0030f;
 	}
 }
-[t:sign_swp_01,n:0x04e00a60]
+[t:torch_swp_stick_01_lightable,n:0x04e002ea]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_2";
-		screen_name = "Town of Lang";
+	  x siege_light = 0x5E19ACC4;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x5E19ACC4;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = 1.19739,0.485281,2.97723,0xCA8E0146;
-	}
-}
-[t:sign_swp_01,n:0x04e00a55]
-{
-	[common]
-	{
-		dev_instance_text = "sign_3";
-		screen_name = "Town of Lang";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,1.04308e-007;
-	  p position = 1.43047,0.986677,1.72643,0xEB2CFAD8;
-	}
-}
-[t:sign_swp_01,n:0x04e00a56]
-{
-	[common]
-	{
-		screen_name = "Town of Elddim, 73";
-	}
-	[placement]
-	{
-	  q orientation = 0,-1.49012e-008,0,1;
-	  p position = 1.4339,1.0349,1.99561,0xEB2CFAD8;
+	  q orientation = 0,0.573576,0,-0.819152;
+	  p position = 1.41145,0.452335,1.82116,0x37f899ba;
 	}
 }
 [t:door_swp_right_01,n:0x04e001ce]
@@ -163,7 +265,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-2.08616e-007;
-	  p position = 1.20072,-0.356958,-2.06362,0x9F4DD34E;
+	  p position = 1.20072,-0.356958,-2.06362,0x9f4dd34e;
 		use_point_scids = 0x04e00311,0x04e00312;
 	}
 }
@@ -172,20 +274,55 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.83765,2.64287,0.136582,0xD1493CCD;
+	  p position = 0.83765,2.64287,0.136582,0xd1493ccd;
 	}
 }
-[t:sign_swp_01,n:0x04e00a5e]
+[t:torch_swp_stick_01_lightable,n:0x04e00134]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_4";
-		screen_name = "Town of Lang, 13";
+	  x siege_light = 0x94EC0B51;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x94EC0B51;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.793353,0,0.608761;
-	  p position = 0.271614,0.958864,3.93166,0xF804B4C1;
+	  q orientation = 0,-0.573576,0,0.819152;
+	  p position = 3.33131,0.301188,0.602375,0x0f2d2606;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002ec]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x3663F53C;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x3663F53C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.737277,0,-0.67559;
+	  p position = 2.99171,0.524353,1.08176,0x3f319d00;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002eb]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x743F59CF;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x743F59CF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.66262,0,0.748956;
+	  p position = -3.28293,0.501297,1.00362,0xddca7d94;
 	}
 }
 [t:door_swp_right_01,n:0x04e001d2]
@@ -193,8 +330,55 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-2.08616e-007;
-	  p position = 0.601458,-2.06646,-2.53457,0x1D07BA5F;
+	  p position = 0.601458,-2.06646,-2.53457,0x1d07ba5f;
 		use_point_scids = 0x04e0030b,0x04e0030c;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002ed]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x4F52B36C;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x4F52B36C;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999962,0,0.008726;
+	  p position = -3.71486,-2.39969,-3.18953,0x1d07ba5f;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e001c8]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x0D0A8A35;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x0D0A8A35;
+	}
+	[placement]
+	{
+	  p position = 2.24696,-0.0500002,3.88453,0x33c710ac;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002e0]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x1A9304AF;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x1A9304AF;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.061048,0,-0.998135;
+	  p position = -5.04511,-1e-006,-1.43225,0x33c710ac;
 	}
 }
 [t:sign_glb_blacksmith_03,n:0x04e00a6a]
@@ -205,20 +389,87 @@
 	}
 	[placement]
 	{
-	  p position = 1.04852,-0.0500019,-0.588153,0x33C710AC;
+	  p position = 1.04852,-0.0500019,-0.588153,0x33c710ac;
 	}
 }
-[t:sign_swp_01,n:0x04e00a53]
+[t:torch_swp_stick_01_lightable,n:0x04e002e9]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_6";
-		screen_name = "Town of Lang, 6";
+	  x siege_light = 0x767136C3;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x767136C3;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.92388,0,0.382683;
-	  p position = -3.47078,0.83515,2.41112,0xD51E7004;
+	  q orientation = 0,0.999962,0,-0.008727;
+	  p position = 1.32281,0.903545,2.97731,0x810177c7;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e001d3]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x96FB2F45;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x96FB2F45;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995396,0,-0.0958461;
+	  p position = 3.01701,0.504412,-0.540894,0x239a9a4c;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002f5]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xE6F9F288;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xE6F9F288;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995396,0,-0.0958461;
+	  p position = -3.64847,0.504411,-3.92522,0x239a9a4c;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002e3]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x7B18440A;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x7B18440A;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.91706,0,0.398749;
+	  p position = -2.10492,0.691219,2.40694,0x06b4c335;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e000fb]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x62BF4B44;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x62BF4B44;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.91706,0,0.398749;
+	  p position = 2.91898,0.691219,2.45258,0x95d404cc;
 	}
 }
 [t:lever_glb_07,n:0x04e00a80]
@@ -232,7 +483,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = 1.34862,-2.38419e-07,2.39881,0x9E341D35;
+	  p position = 1.34862,-2.38419e-007,2.39881,0x9e341d35;
 		use_point_scids = 0x04e00a5c,0x04e00a7c;
 	}
 }
@@ -247,7 +498,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.0891418,-0.599999,3.36461,0x449FC183;
+	  p position = 0.0891418,-0.599999,3.36461,0x449fc183;
 		use_point_scids = 0x04e00a5c,0x04e00a7d,0x04e00a7e;
 	}
 }
@@ -256,20 +507,40 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-2.08616e-007;
-	  p position = 0.485449,-0.866181,-2.12354,0xE2FBC6D4;
+	  p position = 0.485449,-0.866181,-2.12354,0xe2fbc6d4;
 		use_point_scids = 0x04e00a4c , 0x04e00a46;
 	}
 }
-[t:sign_swp_01,n:0x04e00a79]
+[t:torch_swp_stick_01_lightable,n:0x04e002e4]
 {
-	[common]
+	[light_enable]
 	{
-		screen_name = "Town of Quillrabe, 392";
+	  x siege_light = 0xC33CBA82;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xC33CBA82;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.999999,0,-3.8743e-007;
-	  p position = -0.967178,1.02422,1.41466,0x34F6EC22;
+	  q orientation = 0,0.902585,0,0.430511;
+	  p position = -1.38863,1.41957,3.25615,0xbe0e773a;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x04e002f6]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x6B156FFD;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x6B156FFD;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995396,0,-0.0958461;
+	  p position = 0.116543,0.504413,-0.89077,0x22eaff3e;
 	}
 }
 [t:statue_cav_spin_02_rescaled,n:0x04e00384]
@@ -283,12 +554,12 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x04E002F8;
 	  x on_scid = 0x04E002F8;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{
-	  p position = -0.000168324,0.2,-0.0444069,0xAB816774;
+	  p position = -0.000168324,0.2,-0.0444069,0xab816774;
 		use_point_scids = 0x04e003a3;
 	}
 }
@@ -303,62 +574,28 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x04E005BA;
 	  x on_scid = 0x04E005BA;
-	  f reset_time = 25.000000;
-	  f reset_time_2 = 25.000000;
+	  f reset_time = 25;
+	  f reset_time_2 = 25;
 	}
 	[placement]
 	{
-	  p position = 0.00988477,0.2,0.0291356,0x833E8C9E;
+	  p position = 0.00988477,0.2,0.0291356,0x833e8c9e;
 		use_point_scids = 0x04e003b5;
 	}
 }
-[t:sign_swp_01,n:0x04e00a50]
+[t:torch_swp_stick_01_lightable,n:0x04e000da]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_5";
-		screen_name = "Town of Elddim, 67";
+	  x siege_light = 0xF05FF3DE;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xF05FF3DE;
 	}
 	[placement]
 	{
-	  q orientation = 0,-1,0,-8.9407e-008;
-	  p position = 0.028183,1.14307,1.81711,0x39C3AFFE;
-	}
-}
-[t:sign_swp_01,n:0x04e00a51]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 10";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.12632,1.53085,1.9557,0x39C3AFFE;
-	}
-}
-[t:sign_swp_01,n:0x04e0012f]
-{
-	[common]
-	{
-		screen_name = "Town of Lang, 6";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.83147,0,0.55557;
-	  p position = 3.27333,0.786631,3.85127,0xAC246B7E;
-	}
-}
-[t:sign_swp_01,n:0x04e00a5b]
-{
-	[common]
-	{
-		dev_instance_text = "sign_1";
-		screen_name = "Town of Lang, 4";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.333807,0,0.942642;
-	  p position = 3.29027,0.0,-1.44305,0x574E71C5;
+	  q orientation = 0,-0.573576,0,0.819152;
+	  p position = 1.33305,0.301188,0.864218,0x43d36553;
 	}
 }
