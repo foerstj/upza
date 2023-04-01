@@ -923,18 +923,6 @@
 	  p position = 1.92331,0.5,0.868404,0xf0f75771;
 	}
 }
-[t:body_glb_zombie_02,n:0x04e00056]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.02013;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.300706,0,-0.953717;
-	  p position = 0.108932,-62182.9,0.592108,0x3f5c7d75;
-	}
-}
 [t:bed_glb_fort_02,n:0x04e00057]
 {
 	[aspect]
@@ -946,19 +934,6 @@
 	{
 	  q orientation = 0,0.087155,0,-0.996195;
 	  p position = -0.168815,-0.249997,1.59938,0x3f5c7d75;
-	}
-}
-[t:body_glb_zombie_02,n:0x04e00059]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	  f scale_multiplier = 0.904306;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.008726,0,-0.999962;
-	  p position = -0.184311,0.177876,1.5796,0x3f5c7d75;
 	}
 }
 [t:bones_csl_skulls_02,n:0x04e0005c]
@@ -10501,19 +10476,6 @@
 	{
 	  q orientation = 0,-0.0523356,0,0.998629;
 	  p position = 1.37507,-1.25,0.690781,0xf509e6ca;
-	}
-}
-[t:body_glb_zombie_01,n:0x04e0004f]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	  f scale_multiplier = 0.938232;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.258819,0,-0.965926;
-	  p position = -1.50264,-1.25,1.27931,0xf509e6ca;
 	}
 }
 [t:egg_csl_sacks_spider_03,n:0x04e00051]
