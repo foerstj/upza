@@ -1,0 +1,48 @@
+[t:template,n:upza_mate_pm_c16_base]
+{
+    specializes = upza_base_mate_pm_df;
+
+	[actor]
+    {
+		portrait_icon = b_gui_ig_i_ic_c_upza_mate_08;
+        [skills]
+        {
+			strength 		=   2.08, 0, 10;
+			dexterity 		=   2.72, 0, 10;
+			intelligence 	=  11.20, 0, 10;
+            combat_magic = 16, 0, 0;
+            uber = 16, 0, 0;
+        }
+    }
+	[aspect]
+    {
+        [textures]
+        {
+			0 = b_c_gan_df_skin_06;  // dark blond hair
+            1 = b_c_pos_a1_005;  // brown underwear
+        }
+    }
+}
+
+[t:template,n:upza_mate_pm_c16]
+{
+    specializes = upza_mate_pm_c16_base;
+
+    aspect:gold_value = 999999;
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+        [other]
+        {
+            il_active_primary_spell = spell_explosive_powder;
+            il_main = potion_health_large;
+            il_main = potion_mana_large;
+            il_main = potion_mana_large;
+        }
+    }
+}

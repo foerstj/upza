@@ -11,7 +11,6 @@
 	}
     [mind]
     {
-        //jat_talk = world\ai\jobs\upza\job_talk_companion.skrit?todo=provide_args;  // placeholder - provide args in object instances
 		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
     }
 }
@@ -25,6 +24,25 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate";
+	}
+    [mind]
+    {
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
+    }
+}
+[t:template,n:upza_base_mate_pm_df]
+{
+	specializes = base_pm_dwarf;
+
+	category_name = "1W_character";
+	doc = "pm mate (dwarf)";
+
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+	[conversation]
+	{
 	}
     [mind]
     {

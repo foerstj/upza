@@ -1,3 +1,17 @@
+[t:cmd_animation_command,n:0x079002aa]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1936290865;
+	  x client_scid = 0x07900296;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.366691,0,0.930343;
+	  p position = 1.72437,0,1.64253,0xf7f04cf6;
+	}
+}
 [t:cmd_animation_command,n:0x07900260]
 {
 	[cmd_animation_command]
@@ -75,19 +89,5 @@
 	{
 	  q orientation = 0,0.964147,0,0.265369;
 	  p position = -1.87456,4,1.93804,0xbc53cb08;
-	}
-}
-[t:cmd_animation_command,n:0x079002aa]
-{
-	[cmd_animation_command]
-	{
-	  i animation = 1936290865;
-	  x client_scid = 0x07900296;
-	  b initially_active = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.366691,0,0.930343;
-	  p position = 1.72437,0,1.64253,0xf7f04cf6;
 	}
 }

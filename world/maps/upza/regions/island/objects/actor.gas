@@ -314,6 +314,38 @@
 	  p position = 0.159394,9.53674e-007,-1.82738,0x9d201134;
 	}
 }
+[t:upza_mate_pm_m4,n:0x07900296]
+{
+	[aspect]
+	{
+	  f max_life = 117.6;
+	  f max_mana = 36;
+	}
+	[common]
+	{
+		dev_instance_text = "MP NPC";
+	  b is_single_player = false;
+		screen_name = "Julia";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = julia_mp;
+			* = zconversation_red;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?face_player=false&talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.223518,0,0.9747;
+	  p position = -3.21693,0,-1.57031,0x9d201134;
+	}
+}
 [t:upza_mate_npc_07,n:0x0790024f]
 {
 	[common]
@@ -403,7 +435,7 @@
 	  p position = 2.41479,-0.85,-3.21107,0x8a305a9b;
 	}
 }
-[t:upza_mate_npc_08,n:0x0790021c]
+[t:upza_mate_pm_c16,n:0x0790021c]
 {
 	[common]
 	{
@@ -415,14 +447,6 @@
 		{
 			* = tunnel;
 			* = zconversation_red;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
-			es_feet = bo_un_bo_le_upza_leg;
 		}
 	}
 	[placement]
@@ -521,37 +545,5 @@
 	{
 	  q orientation = 0,-0.291273,0,0.95664;
 	  p position = 3.62391,0,-0.560486,0x46768b8c;
-	}
-}
-[t:upza_mate_pm_m4,n:0x07900296]
-{
-	[aspect]
-	{
-	  f max_life = 117.6;
-	  f max_mana = 36;
-	}
-	[common]
-	{
-		dev_instance_text = "MP NPC";
-	  b is_single_player = false;
-		screen_name = "Julia";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = julia_mp;
-			* = zconversation_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?face_player=false&talk_anim=;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.223518,0,0.9747;
-	  p position = -3.21693,0,-1.57031,0x9d201134;
 	}
 }
