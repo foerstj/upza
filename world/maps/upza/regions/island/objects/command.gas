@@ -91,3 +91,17 @@
 	  p position = -1.87456,4,1.93804,0xbc53cb08;
 	}
 }
+[t:cmd_animation_command,n:0x079002af]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1952541803;
+	  x client_scid = 0x079002AC;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0969496,0,0.995289;
+	  p position = -1.51136,0,1.57042,0x1eb2bcfc;
+	}
+}

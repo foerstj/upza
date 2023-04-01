@@ -2,6 +2,8 @@
 {
 	[common]
 	{
+		dev_instance_text = "SP Companion";
+	  b is_multi_player = false;
 		screen_name = "Libella";
 	}
 	[conversation]
@@ -67,5 +69,37 @@
 	[placement]
 	{
 	  p position = -32.7276,6.97985,-32.0121,0x4f6fd237;
+	}
+}
+[t:upza_mate_pm_r8,n:0x077000d2]
+{
+	[aspect]
+	{
+	  f max_life = 156.8;
+	  f max_mana = 73;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Libella";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = libella;
+			* = zconversation_red;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?face_player=false&talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999647,0,-0.0265821;
+	  p position = -15.7082,8.05025,-47.6867,0x5a31357c;
 	}
 }
