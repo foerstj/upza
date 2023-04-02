@@ -1470,6 +1470,27 @@
 		  f z = 0.900460;
 		}
 	}
+	[t:point,n:light_0x1b8e34e1]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFFFFF80;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0x6BD41B60;
+		  f x = 0.375961;
+		  f y = 1.782864;
+		  f z = 0.244202;
+		}
+	}
 	[t:point,n:light_0x1b984d9a]
 	{
 	  b active = true;
@@ -5754,6 +5775,69 @@
 		  f z = 0.461754;
 		}
 	}
+	[t:point,n:light_0x68dce0e0]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFF00FFFF;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0xBE663F6B;
+		  f x = 1.765106;
+		  f y = 3.801010;
+		  f z = 1.020652;
+		}
+	}
+	[t:point,n:light_0x68e19df8]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFF00FFFF;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0x67034F15;
+		  f x = -2.116012;
+		  f y = 7.812229;
+		  f z = -3.838957;
+		}
+	}
+	[t:point,n:light_0x68e37e45]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFFFFF80;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0xBB0ED3AD;
+		  f x = -0.412964;
+		  f y = 1.779671;
+		  f z = 1.509490;
+		}
+	}
 	[t:point,n:light_0x69229f38]
 	{
 	  b active = true;
@@ -8352,7 +8436,7 @@
 	  f outer_radius = 3.000000;
 		[position]
 		{
-		  x node = 0xC9FB0C6F;
+		  x node = 0xB731201B;
 		  f x = 2.368117;
 		  f y = -5.197903;
 		  f z = -3.842407;

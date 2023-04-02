@@ -1399,24 +1399,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.317305,0,0.948323;
+	  q orientation = 0,0.894934,0,0.446197;
 	  p position = -0.786529,0,1.87987,0x7cd27cec;
-	}
-}
-[t:upza_goblin_npc_grunt,n:0x07500173]
-{
-	[placement]
-	{
-	  q orientation = 0,0.951056,0,0.309016;
-	  p position = 1.13776,0,1.00081,0x7cd27cec;
-	}
-}
-[t:upza_goblin_npc_grunt,n:0x0750015c]
-{
-	[placement]
-	{
-	  q orientation = 0,0.719339,0,0.694659;
-	  p position = 0.479347,0,-1.91006,0xa3710167;
 	}
 }
 [t:upza_copter,n:0x075002bb]
@@ -2516,5 +2500,21 @@
 	{
 	  q orientation = 0,0.350207,0,0.936672;
 	  p position = 0.802773,0,-0.243805,0x059d53e9;
+	}
+}
+[t:upza_goblin_shop_mage,n:0x07500181]
+{
+	[placement]
+	{
+	  q orientation = 0,0.57173,0,0.820442;
+	  p position = 0.995025,6,1.15295,0xbed6ea70;
+	}
+}
+[t:upza_goblin_shop_smith,n:0x0750018b]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.479067,0,0.877778;
+	  p position = 0.923289,0,-1.54747,0x6bd41b60;
 	}
 }

@@ -1611,13 +1611,6 @@
 	  p position = -0.0807949,-0.8,-2.65831,0xda552a2c;
 	}
 }
-[t:use_point,n:0x07500150]
-{
-	[placement]
-	{
-	  p position = 0.161438,2,1.24557,0x3dce96be;
-	}
-}
 [t:trigger_generic,n:0x075002b9]
 {
 	[common]
@@ -2500,5 +2493,49 @@
 	{
 	  q orientation = 0,0.996917,0,-0.0784593;
 	  p position = 1.92262,0,1.57362,0x0e988655;
+	}
+}
+[t:trigger_generic,n:0x07500208]
+{
+	[common]
+	{
+		dev_instance_text = "STARTPOS";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_gi_a_2");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("goblin_warrens");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.102142,0,0.0158005,0x7cd27cec;
 	}
 }
