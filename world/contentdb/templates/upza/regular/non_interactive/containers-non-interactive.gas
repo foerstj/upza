@@ -1,0 +1,56 @@
+[t:template,n:barrel_glb_ni]
+{
+	specializes		= base_container_barrel;
+	doc				= "barrel non-interactive";
+	category_name	= "container";
+
+	aspect:model	= m_i_glb_barrel;
+    aspect:is_selectable = false;
+}
+
+[t:template,n:crate_glb_ni]
+{
+	specializes		= base_container_wood;
+	doc				= "crate non-interactive";
+	category_name	= "container";
+
+	aspect:model	= m_i_glb_crate;
+    aspect:is_selectable = false;
+}
+
+[t:template,n:crate_grs_01_ni]
+{
+	specializes		= base_container_wood;
+	doc				= "crate_rustic non-interactive";
+    category_name	= "container";
+
+	[aspect]
+	{
+		model	= m_i_glb_crate-krug;
+		[textures]	{0=b_i_glb_crate-krug;}
+        is_selectable = false;
+	}
+}
+
+[t:template,n:crate_grs_03_ni]
+{
+	specializes		= base_container_wood;
+	doc				= "crate_stained non-interactive";
+	category_name	= "container";
+	[aspect]
+	{
+		model	= m_i_glb_crate-krug;
+		[textures]	{0=b_i_glb_crate-02;}
+        is_selectable = false;
+	}
+}
+
+[t:template,n:footlocker_glb_01_ni]
+{
+	specializes 		= base_container_wood;
+	doc 				= "chest_footlocker non-interactive";
+    category_name       = "container";
+
+	aspect:model 		= m_i_glb_footlocker-01;
+    aspect:is_selectable = false;
+}
