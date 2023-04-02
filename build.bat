@@ -24,6 +24,8 @@ echo %mode%
 pushd %gaspy%
 venv\Scripts\python -m build.check_player_world_locations %map%
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_lore %map%
+if %errorlevel% neq 0 pause
 venv\Scripts\python -m build.check_moods %map%
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m build.check_quests %map%
@@ -32,11 +34,21 @@ venv\Scripts\python -m build.check_dupe_node_ids %map%
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m build.check_tips %map%
 if %errorlevel% neq 0 pause
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
+  venv\Scripts\python -m build.check_cam_blocks %map%
+  if !errorlevel! neq 0 pause
+)
+endlocal
 popd
 
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
+::robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
+robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
+for %%r in (gi_a gi_a_r2) do (
+  robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
+)
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
 if %errorlevel% neq 0 pause
@@ -47,7 +59,7 @@ if not "%mode%"=="light" (
 )
 ENDLOCAL
 popd
-%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "GPG 2002" -title "%map_cs%" -author "Johannes Förstner"
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
 :: Compile resource file
