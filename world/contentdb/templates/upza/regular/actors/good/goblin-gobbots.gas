@@ -1,0 +1,367 @@
+[t:template,n:gobbot_minigun_base]  // = gobbot_minigun
+{
+	category_name = "1W_evil_d";
+	doc = "gobbot_minigun";
+	specializes = base_gobbot;
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  15,0;
+			intelligence 	=  8, 0;
+			dexterity 		=  9, 0;
+            combat_magic	=  20,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 4200;
+		life = 660;
+        max_life = 660;
+        mana = 14;
+        max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 169;
+		damage_min = 122;
+	}
+	[common]
+	{
+		screen_name="Gobbot Gunner";
+	}
+
+	[defend] { defense=320; }
+
+	[inventory]
+	{
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+
+		[pcontent]
+		{
+			[oneof*]
+			{
+				ES_WEAPON_HAND = minigun_dragon;
+			}
+			[oneof*]
+			{
+				[oneof*]
+				{
+				   chance = 0.05;
+				   il_main = potion_health_medium;
+				   il_main = potion_mana_medium;
+				}
+				[oneof*]
+				{
+       				chance = 0.02;
+               		il_main = #nmagic/5-18;
+               		il_main = #cmagic/5-18;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/85-90;
+					il_main = #armor/41-210;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/88-98;
+	                il_main = #armor/-rare(1)/267-299;
+                    il_main = #*/-rare(1)/88-98;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/88-98;
+	                il_main = #armor/-unique(2)/267-299;
+                    il_main = #*/-unique(2)/88-98;
+	            }
+			}
+		}
+	}
+}
+
+[t:template,n:upza_gobbot_minigun]
+{
+    specializes = gobbot_minigun_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:gobbot_flamethrower_base]  // = gobbot_flamethrower
+{
+	category_name = "1W_evil_d";
+	doc = "gobbot_flamethrower";
+	specializes = base_gobbot;
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  15,0;
+			intelligence 	=  8, 0;
+			dexterity 		=  9, 0;
+            combat_magic	=  20,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 4200;
+		life = 660;
+        max_life = 660;
+        mana = 14;
+        max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 169;
+		damage_min = 122;
+	}
+	[defend] { defense=320; }
+
+	[common]
+	{
+		screen_name="Gobbot Igniter";
+	}
+
+	[inventory]
+	{
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+
+		[pcontent]
+		{
+			[oneof*]
+			{
+				ES_WEAPON_HAND = minigun_flamethrower;
+			}
+			[oneof*]
+			{
+				[oneof*]
+				{
+				   chance = 0.05;
+				   il_main = potion_health_medium;
+				   il_main = potion_mana_medium;
+				}
+				[oneof*]
+				{
+       				chance = 0.02;
+               		il_main = #nmagic/5-18;
+               		il_main = #cmagic/5-18;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/85-90;
+					il_main = #armor/39-197;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/88-98;
+	                il_main = #armor/-rare(1)/267-299;
+                    il_main = #*/-rare(1)/88-98;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/88-98;
+	                il_main = #armor/-unique(2)/267-299;
+                    il_main = #*/-unique(2)/88-98;
+	            }
+			}
+		}
+	}
+}
+
+[t:template,n:upza_gobbot_flamethrower]
+{
+    specializes = gobbot_flamethrower_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:gobbot_lightning_base]  // = gobbot_lightning
+{
+	category_name = "1W_evil_d";
+	doc = "gobbot_lightning";
+	specializes = base_gobbot;
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  15,0;
+			intelligence 	=  8, 0;
+			dexterity 		=  9, 0;
+            combat_magic	=  20,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 4200;
+		life = 660;
+        max_life = 660;
+        mana = 14;
+        max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 169;
+		damage_min = 122;
+	}
+	[defend] { defense=320; }
+
+	[common]
+	{
+		screen_name="Gobbot Shocker";
+	}
+
+	[inventory]
+	{
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+
+		[pcontent]
+		{
+			[oneof*]
+			{
+				ES_WEAPON_HAND = minigun_lightning;
+			}
+			[oneof*]
+			{
+				[oneof*]
+				{
+				   chance = 0.05;
+				   il_main = potion_health_medium;
+				   il_main = potion_mana_medium;
+				}
+				[oneof*]
+				{
+       				chance = 0.02;
+               		il_main = #nmagic/5-18;
+               		il_main = #cmagic/5-18;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/85-90;
+					il_main = #armor/39-197;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/88-98;
+	                il_main = #armor/-rare(1)/267-299;
+                    il_main = #*/-rare(1)/88-98;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/88-98;
+	                il_main = #armor/-unique(2)/267-299;
+                    il_main = #*/-unique(2)/88-98;
+	            }
+			}
+		}
+	}
+}
+
+[t:template,n:upza_gobbot_lightning]
+{
+    specializes = gobbot_lightning_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:gobbot_grenade_base]  // = gobbot_grenade
+{
+	category_name = "1W_evil_d";
+	doc = "gobbot_grenade";
+	specializes = base_gobbot;
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  15,0;
+			intelligence 	=  8, 0;
+			dexterity 		=  9, 0;
+            combat_magic	=  20,0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 4200;
+		life = 660;
+        max_life = 660;
+        mana = 14;
+        max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 169;
+		damage_min = 122;
+	}
+	[defend] { defense=320; }
+
+  	[common]
+	{
+		screen_name="Gobbot Grenadier";
+	}
+
+
+	[inventory]
+	{
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+
+		[pcontent]
+		{
+			[oneof*]
+			{
+				ES_WEAPON_HAND = minigun_grenade_launcher;
+			}
+			[oneof*]
+			{
+				[oneof*]
+				{
+				   chance = 0.05;
+				   il_main = potion_health_medium;
+				   il_main = potion_mana_medium;
+				}
+				[oneof*]
+				{
+       				chance = 0.02;
+               		il_main = #nmagic/5-18;
+               		il_main = #cmagic/5-18;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/85-90;
+					il_main = #armor/39-197;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/88-98;
+	                il_main = #armor/-rare(1)/267-299;
+                    il_main = #*/-rare(1)/88-98;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/88-98;
+	                il_main = #armor/-unique(2)/267-299;
+                    il_main = #*/-unique(2)/88-98;
+	            }
+			}
+		}
+    }
+}
+
+[t:template,n:upza_gobbot_grenade]
+{
+    specializes = gobbot_grenade_base;
+    actor:alignment = aa_good;
+}
