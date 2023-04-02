@@ -84,6 +84,7 @@
 	}
 }
 
+// drop-in for the goblin grunt
 [t:template,n:upza_goblin_npc_grunt] { specializes = upza_goblin_npc_grunt_base; }
 [t:template,n:upza_goblin_npc_grunt_base]
 {
@@ -123,10 +124,10 @@
 	[defend] { defense=140; }
 	[inventory]
 	{
-    	[pcontent]
-		{
-            [oneof*] { es_weapon_hand = hm_g_c_1h1m_low; }
-		}
+        [equipment]
+        {
+            es_weapon_hand = hm_g_c_1h1m_low;
+        }
     }
 	[mind]
 	{
@@ -140,6 +141,31 @@
 	}
 }
 
+// a proper NPC with convo etc
+[t:template,n:upza_goblin_npc]
+{
+    specializes = upza_goblin_npc_grunt_base;
+
+    [conversation]
+    {
+    }
+    [inventory]
+    {
+        [equipment]
+        {
+            // remove hammer
+        }
+    }
+	[mind]
+    {
+        actor_may_attack = false;
+        actor_may_be_attacked = false;
+        jat_fidget = world\ai\jobs\common\job_fidget.skrit;  // no walking around
+        jat_talk = world\ai\jobs\common\job_talk.skrit;
+    }
+}
+
+// drop-in for the goblin guard
 [t:template,n:upza_goblin_npc_guard] { specializes = upza_goblin_npc_guard_base; }
 [t:template,n:upza_goblin_npc_guard_base]
 {

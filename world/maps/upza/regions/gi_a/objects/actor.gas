@@ -1363,6 +1363,29 @@
 	  p position = 0.336746,0,0.778564,0xe4f2f557;
 	}
 }
+[t:upza_goblin_shop_smith,n:0x0750018b]
+{
+	[common]
+	{
+		screen_name = "Grork";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.479067,0,0.877778;
+	  p position = 0.923289,0,-1.54747,0x6bd41b60;
+	}
+}
 [t:upza_blaster,n:0x07500380]
 {
 	[placement]
@@ -1395,8 +1418,23 @@
 	  p position = 0.0170135,-6,0.0651245,0x198c1fad;
 	}
 }
-[t:upza_goblin_npc_grunt,n:0x07500165]
+[t:upza_goblin_npc,n:0x07500165]
 {
+	[common]
+	{
+		screen_name = "Buing";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guide;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.894934,0,0.446197;
@@ -1424,6 +1462,29 @@
 	{
 	  q orientation = 0,-4.76837e-007,0,1;
 	  p position = -1.77713,0,1.99808,0x823691d2;
+	}
+}
+[t:upza_goblin_shop_mage,n:0x07500181]
+{
+	[common]
+	{
+		screen_name = "Crats";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.57173,0,0.820442;
+	  p position = 0.995025,6,1.15295,0xbed6ea70;
 	}
 }
 [t:upza_goblin_npc_guard,n:0x0750038a]
@@ -2500,21 +2561,5 @@
 	{
 	  q orientation = 0,0.350207,0,0.936672;
 	  p position = 0.802773,0,-0.243805,0x059d53e9;
-	}
-}
-[t:upza_goblin_shop_mage,n:0x07500181]
-{
-	[placement]
-	{
-	  q orientation = 0,0.57173,0,0.820442;
-	  p position = 0.995025,6,1.15295,0xbed6ea70;
-	}
-}
-[t:upza_goblin_shop_smith,n:0x0750018b]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.479067,0,0.877778;
-	  p position = 0.923289,0,-1.54747,0x6bd41b60;
 	}
 }

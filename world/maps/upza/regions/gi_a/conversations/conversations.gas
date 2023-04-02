@@ -1,0 +1,17 @@
+[shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "yo shop?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[guide]
+{
+	[text*]
+	{
+		screen_text = "Get your guide!";
+	  f scroll_rate = 10.000000;
+	}
+}
