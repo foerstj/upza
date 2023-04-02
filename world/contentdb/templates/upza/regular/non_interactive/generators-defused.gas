@@ -1,0 +1,33 @@
+[t:template,n:gen_explode_box1_defused]
+{
+	specializes		= generator;
+    
+    [aspect]
+    {
+	    model         = m_i_gob_box-shipping-01;
+   		textures:0 	= b_i_gob_box-shipping-01;
+        scale_base	= 1.5;
+    }
+}
+[t:template,n:gen_explode_box2_defused]
+{
+	specializes		= generator;
+    
+    [aspect]
+    {
+	    model         	= m_i_gob_box-shipping-01;
+   		textures:0		= b_i_gob_box-shipping-02;
+        scale_base	= 1.2;
+    }
+}
+[t:template,n:gen_explode_box3_defused]
+{
+	specializes		= generator;
+    
+    [aspect]
+    {
+	    model         	= m_i_gob_box-shipping-02;
+   		textures:0		= b_i_gob_box-shipping-03;
+        scale_base	= 0.9;
+    }
+}
