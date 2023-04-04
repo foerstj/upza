@@ -1373,12 +1373,14 @@
 	{
 		[conversations]
 		{
-			* = shop;
+			* = shop_smith;
+            * = shop_smith_red;
+            * = zconversation_directions;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1429,11 +1431,13 @@
 		[conversations]
 		{
 			* = guide;
+            * = guide_red;
+            * = zconversation_directions;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1474,12 +1478,14 @@
 	{
 		[conversations]
 		{
-			* = shop;
+			* = shop_mage;
+            * = shop_mage_red;
+            * = zconversation_directions;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit;
+		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{

@@ -1,17 +1,74 @@
-[shop]
+[shop_smith]
 {
 	[text*]
 	{
 		choice = shop;
-		screen_text = "yo shop?";
+		screen_text = "Yo! Smith Shop?";
 	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x0750018b;
 	}
 }
+[shop_smith_red]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Red!!! Shop?";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x0750018b;
+	}
+}
+
+[shop_mage]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Yo! Mage Shop?";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500181;
+	}
+}
+[shop_mage_red]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Red!!! Mage Shop?";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500181;
+	}
+}
+
 [guide]
 {
 	[text*]
 	{
 		screen_text = "Get your guide!";
 	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500165;
 	}
+}
+[guide_red]
+{
+	[text*]
+	{
+		screen_text = "Red!!! Get your guide!";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500165;
+	}
+}
+
+[zconversation_directions]
+{
+    [text*]
+    {
+        screen_text = "Los direcciones";
+    }
 }
