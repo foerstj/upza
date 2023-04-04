@@ -1,9 +1,50 @@
+[guard_entrance]
+{
+    [text*]
+    {
+        screen_text = "Hello hello! Alive Humans! Very good!
+Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank you!";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500135;
+    }
+}
+[guard_entrance_red]
+{
+    [text*]
+    {
+        screen_text = "Aaah air is red! What it means??
+Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank you!";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500135;
+    }
+}
+
 [shop_smith]
 {
 	[text*]
 	{
+		order = 0;
 		choice = shop;
-		screen_text = "Yo! Smith Shop?";
+		screen_text = "Stars, it's a regular menagerie today! The Warrens haven't seen this much business in ages, I tell you. It helps that we serve all kinds; I just ask that you not leave any body parts behind. Not all customers take kindly to that, y'know.";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x0750018b;
+	}
+	[text*]
+	{
+		order = 1;
+		choice = shop;
+		screen_text = "It's your lucky day! A nice zombie chap brought in a shipment of genuine Quillrabe leather today, and I've already got some lovely pieces ready to go. Of course, if you're planning to venture south towards Quillrabe itself, the leather is far cheaper, but I assure you, it'll be nowhere near the quality of mine.";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x0750018b;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Still haven't explored all of Lang's charms? Well, if I were you, I'd buy something soon and get out before even your feet go to spore. Everything does, sooner or later. Even if you're... a Traveler.";
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x0750018b;
@@ -14,7 +55,7 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Red!!! Shop?";
+		screen_text = "I hear the skies have turned red up there? I bet you enjoy the change of weather!";
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x0750018b;
@@ -25,8 +66,17 @@
 {
 	[text*]
 	{
+		order = 0;
 		choice = shop;
-		screen_text = "Yo! Mage Shop?";
+		screen_text = "Come closer, Human. Now, you'll be looking for a fortune, or perhaps a premonition? Well, I'll tell you this; there are great things in store for you to the south, if you're willing to take the risk. I've seen... visions... of the horrors emerging from the Fury Den. Perhaps you are the one to clean them out once and for all?";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500181;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Scouts are... concerned about those caves. Perhaps it is time to move on to less... infested waters. Well, my herbs and unguents will help you choose your way. My mixtures may not be so pure as those found in Elddim, but that's a long walk east through treacherous swamp. But it's your health at stake, so what will it be?";
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x07500181;
@@ -37,7 +87,7 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Red!!! Mage Shop?";
+		screen_text = "Buing has been cackling to himself ever since the sky turned red!";
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x07500181;
@@ -65,10 +115,34 @@
 	}
 }
 
+[guard_exit]
+{
+    [text*]
+    {
+        screen_text = "Hello hello! Alive Humans! Very good!
+Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank you!";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x075000ad;
+    }
+}
+[guard_exit_red]
+{
+    [text*]
+    {
+        screen_text = "Aaah air is red! What it means??
+Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank you!";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x075000ad;
+    }
+}
+
 [zconversation_directions]
 {
     [text*]
     {
-        screen_text = "Los direcciones";
+        screen_text = "The town of Quillrabe is a nice sight for those who like sunshine. You can follow the signs to the exit of The Warrens into the Redwood Gap, or walk southwards from Lang. The way goes through the Redwood Gap and then through the Fury Den.
+However, we've had reports that the Wraiths in this Den have become a lot stronger since the Zombie Apocalypse, so it might be advisable for you to take the route down the Iliarth from Crystwind or Elddim.";
     }
 }

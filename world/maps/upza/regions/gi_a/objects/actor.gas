@@ -574,6 +574,22 @@
 	  p position = -2.50282,4,-0.487198,0x8eaadc72;
 	}
 }
+[t:upza_goblin_npc_guard_char,n:0x075000ad]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guard_exit;
+			* = guard_exit_red;
+			* = zconversation_directions;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.0630949,6,0.643822,0x92922cec;
+	}
+}
 [t:upza_blaster,n:0x075000d3]
 {
 	[placement]
@@ -608,13 +624,6 @@
 	[placement]
 	{
 	  p position = -0.576763,0,1.91803,0x83cf0d5d;
-	}
-}
-[t:upza_goblin_npc_guard,n:0x075000ad]
-{
-	[placement]
-	{
-	  p position = -1.02587,0,1.03201,0x5c0d32a4;
 	}
 }
 [t:upza_goblin_npc_guard,n:0x075000a5]
@@ -1374,8 +1383,8 @@
 		[conversations]
 		{
 			* = shop_smith;
-            * = shop_smith_red;
-            * = zconversation_directions;
+			* = shop_smith_red;
+			* = zconversation_directions;
 		}
 	}
 	[mind]
@@ -1420,7 +1429,7 @@
 	  p position = 0.0170135,-6,0.0651245,0x198c1fad;
 	}
 }
-[t:upza_goblin_npc,n:0x07500165]
+[t:upza_goblin_npc_grunt_char,n:0x07500165]
 {
 	[common]
 	{
@@ -1431,8 +1440,8 @@
 		[conversations]
 		{
 			* = guide;
-            * = guide_red;
-            * = zconversation_directions;
+			* = guide_red;
+			* = zconversation_directions;
 		}
 	}
 	[mind]
@@ -1479,8 +1488,8 @@
 		[conversations]
 		{
 			* = shop_mage;
-            * = shop_mage_red;
-            * = zconversation_directions;
+			* = shop_mage_red;
+			* = zconversation_directions;
 		}
 	}
 	[mind]
@@ -2420,6 +2429,23 @@
 	  p position = 0.1209,-6,0.0272446,0x6bae0f41;
 	}
 }
+[t:upza_goblin_npc_guard_char,n:0x07500135]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guard_entrance;
+			* = guard_entrance_red;
+			* = zconversation_directions;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.75471,0,0.656059;
+	  p position = 1.8896,0,-0.130935,0x90c3e13f;
+	}
+}
 [t:upza_kill_bot,n:0x075001e0]
 {
 	[placement]
@@ -2432,14 +2458,6 @@
 	[placement]
 	{
 	  p position = -1.13911,0,0.11433,0x218a6e5e;
-	}
-}
-[t:upza_goblin_npc_guard,n:0x07500135]
-{
-	[placement]
-	{
-	  q orientation = 0,0.997564,0,-0.0697566;
-	  p position = -1.72828,6,-0.446346,0xb51abd23;
 	}
 }
 [t:upza_goblin_npc_grunt,n:0x07500137]

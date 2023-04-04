@@ -141,8 +141,8 @@
 	}
 }
 
-// a proper NPC with convo etc
-[t:template,n:upza_goblin_npc]
+// a proper character with convo etc
+[t:template,n:upza_goblin_npc_grunt_char]
 {
     specializes = upza_goblin_npc_grunt_base;
 
@@ -239,3 +239,26 @@
 	}
 }
 
+// a proper character with convo etc
+[t:template,n:upza_goblin_npc_guard_char]
+{
+    specializes = upza_goblin_npc_guard_base;
+
+    [conversation]
+    {
+    }
+    [inventory]
+    {
+        [equipment]
+        {
+            // remove weapon
+        }
+    }
+	[mind]
+    {
+        actor_may_attack = false;
+        actor_may_be_attacked = false;
+        jat_fidget = world\ai\jobs\common\job_fidget.skrit;  // no walking around
+        jat_talk = world\ai\jobs\common\job_talk.skrit;
+    }
+}
