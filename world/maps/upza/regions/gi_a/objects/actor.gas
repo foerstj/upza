@@ -582,7 +582,14 @@
 		{
 			* = guard_exit;
 			* = guard_exit_red;
-			* = zconversation_directions;
+		}
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_weapon_hand = minigun_flamethrower;
 		}
 	}
 	[mind]
@@ -591,6 +598,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,1,0,-1.66939e-007;
 	  p position = -0.0630949,6,0.643822,0x92922cec;
 	}
 }
@@ -620,28 +628,31 @@
 {
 	[placement]
 	{
-	  p position = -1.6372,0,0.171387,0x83cf0d5d;
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = 1.20306,4,1.98845,0xff9be8ea;
 	}
 }
 [t:upza_goblin_npc_grunt,n:0x07500091]
 {
 	[placement]
 	{
-	  p position = -0.576763,0,1.91803,0x83cf0d5d;
+	  q orientation = 0,1,0,2.98023e-007;
+	  p position = 0.142761,4,0.241806,0xff9be8ea;
 	}
 }
 [t:upza_goblin_npc_guard,n:0x075000a5]
 {
 	[placement]
 	{
-	  p position = 0.459518,6,1.37662,0x0bc7eb19;
+	  q orientation = 0,1,0,0;
+	  p position = 1.10649,0,0.783218,0x25c68764;
 	}
 }
 [t:upza_goblin_npc_guard,n:0x075000c0]
 {
 	[placement]
 	{
-	  p position = -1.33293,2,1.97023,0x1028953f;
+	  p position = -1.76694,4,2.13007,0x10d1bef1;
 	}
 }
 [t:upza_gobbot_grenade,n:0x075000f6]
@@ -1448,6 +1459,13 @@
 			* = zconversation_directions;
 		}
 	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_g_c_dsx_pcane;
+		}
+	}
 	[mind]
 	{
 		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
@@ -1462,8 +1480,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.998629,0,0.0523358;
-	  p position = -2.50489,6,-3.57587,0x67034f15;
+	  q orientation = 0,-0.0523357,0,0.998629;
+	  p position = -0.178375,0,-0.966461,0x9ea90756;
 	}
 }
 [t:upza_blaster,n:0x07500381]
@@ -2441,7 +2459,14 @@
 		{
 			* = guard_entrance;
 			* = guard_entrance_red;
-			* = zconversation_directions;
+		}
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_weapon_hand = minigun_lightning;
 		}
 	}
 	[mind]

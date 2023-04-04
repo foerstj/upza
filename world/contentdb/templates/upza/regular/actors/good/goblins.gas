@@ -146,6 +146,7 @@
 {
     specializes = upza_goblin_npc_grunt_base;
 
+	category_name = "1W_character";
     [conversation]
     {
     }
@@ -171,7 +172,7 @@
 {
 	specializes = base_goblin_npc;
 
-	category_name = "1W_character";
+	category_name = "1W_townsperson";
 	doc = "Goblin NPC Guard";
 
     // from goblin_guard (loot omitted)
@@ -244,12 +245,13 @@
 {
     specializes = upza_goblin_npc_guard_base;
 
+	category_name = "1W_character";
     [conversation]
     {
     }
     [inventory]
     {
-        [equipment]
+        [pcontent]
         {
             // remove weapon
         }
