@@ -466,34 +466,6 @@
 	  p position = 0.0557632,2,-1.87648,0x8d98071e;
 	}
 }
-[t:trigger_change_mood_box,n:0x08f0010a]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_gi_a_2");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(10.000000,2.000000,0.250000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.25449,0,-0.566589,0xb5af27a2;
-	}
-}
 [t:trigger_change_mood_box,n:0x08f00116]
 {
 	[common]

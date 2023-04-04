@@ -609,6 +609,14 @@
 	  p position = -0.538109,2,0.441055,0x06e1737c;
 	}
 }
+[t:upza_goblin_npc_guard,n:0x075000a5]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.10649,0,0.783218,0x25c68764;
+	}
+}
 [t:upza_blaster,n:0x075000f3]
 {
 	[placement]
@@ -638,14 +646,6 @@
 	{
 	  q orientation = 0,1,0,2.98023e-007;
 	  p position = 0.142761,4,0.241806,0xff9be8ea;
-	}
-}
-[t:upza_goblin_npc_guard,n:0x075000a5]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 1.10649,0,0.783218,0x25c68764;
 	}
 }
 [t:upza_goblin_npc_guard,n:0x075000c0]
@@ -1476,14 +1476,6 @@
 	  p position = -0.786529,0,1.87987,0x7cd27cec;
 	}
 }
-[t:upza_copter,n:0x075002bb]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.0523357,0,0.998629;
-	  p position = -0.178375,0,-0.966461,0x9ea90756;
-	}
-}
 [t:upza_blaster,n:0x07500381]
 {
 	[placement]
@@ -1497,6 +1489,14 @@
 	{
 	  q orientation = 0,-4.76837e-007,0,1;
 	  p position = -1.77713,0,1.99808,0x823691d2;
+	}
+}
+[t:upza_copter,n:0x075002bb]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.0523357,0,0.998629;
+	  p position = -0.178375,0,-0.966461,0x9ea90756;
 	}
 }
 [t:upza_goblin_shop_mage,n:0x07500181]
