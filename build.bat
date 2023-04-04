@@ -46,7 +46,7 @@ popd
 rmdir /S /Q "%tmp%\Bits"
 ::robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
-for %%r in (gi_a gi_a_r2) do (
+for %%r in (gi_a gi_a_r2 swamp2gi swamp_town of_r1) do (
   robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
 )
 pushd %gaspy%

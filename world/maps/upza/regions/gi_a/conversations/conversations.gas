@@ -98,7 +98,19 @@ Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank
 {
 	[text*]
 	{
-		screen_text = "Get your guide!";
+        order = 0;
+        choice = more;
+		screen_text = "Welcome to The Warrens, Legionnaires! It's been a long time since we've seen Humans alive and well...
+You come from outside the Peninsula, you say? That explains it, then. We Goblins here have managed to stay alive so far, through a strict regimen: hiding, distancing, hygiene, spells, immediate cremation, and most importantly our Robots and Gobbots, that keep the Zombies away from us. We won't be able to continue like this forever though, so we are really glad to see you. I hope you can change things for the better...
+There's an evil force behind all of this, mark my words. Perhaps the Droog know more about it; we've lost contact with Quillrabe, of course, but they're a hardy people and might well have survived.";
+	  f scroll_rate = 10.000000;
+		button_2_text = "Directions";
+        button_2_value = d_0x07500165;
+	}
+	[text*]
+	{
+		screen_text = "You want to go to Meren? Avenge your captain? Well, prepare to fight him, because he'll have joined the ranks of the Undead.
+To reach Meren from here, get back out into the Lang Mire. Walk straight east until you find the path up to Mount Utrae. You'll have to climb over the mountain to reach the Cloud Forest on the other side.";
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x07500165;
@@ -108,7 +120,7 @@ Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank
 {
 	[text*]
 	{
-		screen_text = "Red!!! Get your guide!";
+		screen_text = "Red sky and the air smells like brimstone! What new horror is this??";
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x07500165;
@@ -142,7 +154,7 @@ Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank
 {
     [text*]
     {
-        screen_text = "The town of Quillrabe is a nice sight for those who like sunshine. You can follow the signs to the exit of The Warrens into the Redwood Gap, or walk southwards from Lang. The way goes through the Redwood Gap and then through the Fury Den.
-However, we've had reports that the Wraiths in this Den have become a lot stronger since the Zombie Apocalypse, so it might be advisable for you to take the route down the Iliarth from Crystwind or Elddim.";
+        screen_text = "The sun-tanned town of Quillrabe is a dreary sight after the beauty of the Lang Mire. You can follow the signs to the exit of The Warrens into the Redwood Gap, or walk southwards from Lang. The way goes through the Redwood Gap and then through the Fury Den.
+However, we've had reports that the Wraiths in the Fury Den have become a lot stronger since the Zombie Apocalypse, so it might be advisable for you to take the route down the Iliarth from Crystwind or Elddim.";
     }
 }

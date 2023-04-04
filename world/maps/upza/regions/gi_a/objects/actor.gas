@@ -585,6 +585,10 @@
 			* = zconversation_directions;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
+	}
 	[placement]
 	{
 	  p position = -0.0630949,6,0.643822,0x92922cec;
@@ -2439,6 +2443,10 @@
 			* = guard_entrance_red;
 			* = zconversation_directions;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
