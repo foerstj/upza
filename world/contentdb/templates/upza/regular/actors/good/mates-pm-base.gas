@@ -11,7 +11,7 @@
 	}
     [mind]
     {
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
     }
 }
 [t:template,n:upza_base_mate_pm_f]
@@ -27,7 +27,7 @@
 	}
     [mind]
     {
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
     }
 }
 [t:template,n:upza_base_mate_pm_df]
@@ -46,6 +46,6 @@
 	}
     [mind]
     {
-		jat_talk = world\ai\jobs\upza\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=talk;  // NPC talk skrit as default for MP instances
     }
 }
