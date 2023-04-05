@@ -1,21 +1,8 @@
-[t:mp_gypsy_female_01,n:0x04e001f8]
+[t:upza_zombie_lang_townfolk,n:0x04e001f8]
 {
 	[common]
 	{
 		screen_name = "Izabela Graz";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_zroecha;
-			* = conversation_zroecha_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -31,26 +18,11 @@
 	  p position = 0.586995,0,1.45551,0x3fbef206;
 	}
 }
-[t:mp_gypsy_female_02,n:0x04e002c7]
+[t:upza_zombie_lang_townfolk,n:0x04e002c7]
 {
 	[common]
 	{
 		screen_name = "Marika Ninim";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_marika;
-			* = conversation_marika_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -65,20 +37,11 @@
 	  p position = -0.205152,0,-0.703745,0x0fa321cf;
 	}
 }
-[t:wise_woman_ninale,n:0x04e0009f]
+[t:upza_zombie_lang_townfolk,n:0x04e0009f]
 {
-	[conversation]
+	[common]
 	{
-		[conversations]
-		{
-			* = conversation_ninale;
-			* = conversation_ninale_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
+		screen_name = "Wise Woman Ninale Sesus";
 	}
 	[placement]
 	{
@@ -127,26 +90,11 @@
 	  p position = 2.13276,0.3,-0.663787,0xdd09d219;
 	}
 }
-[t:mp_gypsy_male_01,n:0x04e002cb]
+[t:upza_zombie_lang_townfolk,n:0x04e002cb]
 {
 	[common]
 	{
 		screen_name = "Karkk Boli";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_karkk;
-			* = conversation_karkk_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1309,26 +1257,11 @@
 	  p position = -1.76651,-1,-3.08915,0xcaa22f16;
 	}
 }
-[t:mp_gypsy_male_03,n:0x04e002d4]
+[t:upza_zombie_lang_townfolk,n:0x04e002d4]
 {
 	[common]
 	{
 		screen_name = "Tarvik Garonious";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_tarvik;
-			* = conversation_tarvik_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1336,26 +1269,11 @@
 	  p position = -0.711155,-1.95,1.98689,0x1d07ba5f;
 	}
 }
-[t:mp_peasant_female_01,n:0x04e002d5]
+[t:upza_zombie_lang_townfolk,n:0x04e002d5]
 {
 	[common]
 	{
 		screen_name = "Filia Garonious";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_filia;
-			* = conversation_filia_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1370,20 +1288,11 @@
 	  p position = 0.072417,0,-1.97463,0x00d39ae9;
 	}
 }
-[t:tanner_rumben,n:0x04e000d0]
+[t:upza_zombie_lang_townfolk,n:0x04e000d0]
 {
-	[conversation]
+	[common]
 	{
-		[conversations]
-		{
-			* = conversation_rumben;
-			* = conversation_rumben_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
+		screen_name = "Tanner Rumben";
 	}
 	[placement]
 	{
@@ -1487,26 +1396,11 @@
 	  p position = -2.32923,1,3.10759,0xe0ad45d7;
 	}
 }
-[t:mp_gypsy_male_02,n:0x04e002cd]
+[t:upza_zombie_lang_townfolk,n:0x04e002cd]
 {
 	[common]
 	{
 		screen_name = "Darnov Grod";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_darnov;
-			* = conversation_darnov_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
