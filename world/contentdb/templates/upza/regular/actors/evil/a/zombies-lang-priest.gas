@@ -1,14 +1,102 @@
-[t:template,n:upza_zombie_lang_priest]
+[t:template,n:swamp_witch_boss_01_base]  // = swamp_witch_boss_01
 {
-    specializes = upza_zombie_lang_townfolk_base;
+	category_name = "1W_evil_d";
+	doc = "Swamp Witch boss";
+	specializes = swamp_witch_base;
 
-    [aspect]
-    {
-		textures:0 = b_c_edm_zo-05;  // unused texture
-    }
+	[actor]
+	{
+		[skills]
+		{
+			strength =  9, 0;
+			intelligence =  20, 0;
+			dexterity =  10, 0;
+			combat_magic =  22,  0;
+		}
+	}
+	[aspect]
+	{
+		textures:0 = b_c_edm_sw-02;
+		experience_value = 3050;
+		life = 350;
+		max_life = 350;
+		mana = 56;
+		max_mana = 56;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 109;
+		damage_min = 99;
+	}
 	[common]
 	{
+		screen_name="Skank Witch";
 		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;				
+				action* = call_sfx_script("unique_ray_purple(sgx)");
+			}
+		}
+	}
+	[generator_in_object]
+	{
+		child_template_name = swamp_switch_skeleton;
+		spawn_event = WE_KILLED;
+		spawn_chance = 1.0;
+	}
+
+    [defend] { defense=187; }
+	[inventory]
+	{
+		[pcontent]
+		{
+            [oneof*]
+			{
+				[all*]
+				{
+					il_main = #*/73-80;
+					il_main = #armor/235-255;
+                    il_main = #body,ro/202-260;
+				}
+	            [oneof*]
+				{
+		        	chance = 0.004;
+		            il_main = #weapon/-rare(1)/78-89;
+		            il_main = #armor/-rare(1)/253-272;
+	                il_main = #*/-rare(1)/78-89;
+	            }
+				[oneof*]
+				{
+	            	chance = 0.002;
+		            il_main = #weapon/-unique(2)/78-89;
+		            il_main = #armor/-unique(2)/253-272;
+	                il_main = #*/-unique(2)/78-89;
+		        }
+            }
+		}
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell=spell_ice_mage_balls;
+			il_spell_1=spell_swamp_witch_summon;
+		}
+	}
+
+}
+
+[t:template,n:upza_zombie_lang_priest] { specializes = upza_zombie_lang_priest_base; }
+[t:template,n:upza_zombie_lang_priest_base]
+{
+    specializes = swamp_witch_boss_01_base;
+
+	[common]
+	{
 		[template_triggers]
 		{
 			[*]
@@ -18,6 +106,19 @@
 				no_trig_bits = true;
 				action* = call_sfx_script("unique_ray_green(sgx)");
 			}
+		}
+	}
+	[inventory]
+	{
+		[other]
+		{
+            // from base
+			il_active_primary_spell=spell_ice_mage_balls;
+			il_spell_1=spell_swamp_witch_summon;
+
+            // added
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
+			il_main = gen_stone_glb_lang_01;
 		}
 	}
 }
