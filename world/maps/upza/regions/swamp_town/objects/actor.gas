@@ -410,40 +410,11 @@
 	  p position = -1.30004,2e-006,-0.797964,0x8a760956;
 	}
 }
-[t:mp_guard_05,n:0x04e000fd]
+[t:upza_zombie_lang_guard,n:0x04e000fd]
 {
-	[aspect]
-	{
-		model = m_c_gah_fg_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 23;
-	  f high_level_2w = 66;
-	  f high_level_3w = 98;
-	  f low_level = 19;
-	  f low_level_2w = 65;
-	  f low_level_3w = 97;
-	}
 	[common]
 	{
 		dev_instance_text = "NORTH";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_n;
-			* = conversation_guard_n_high;
-			* = conversation_guard_n_low;
-			* = conversation_guard_n_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -451,89 +422,27 @@
 	  p position = 2.7785,3.57628e-007,-0.185913,0xa94b3f3f;
 	}
 }
-[t:mp_guard,n:0x04e002d1]
+[t:upza_zombie_lang_guard,n:0x04e002d1]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_2;
-			* = conversation_guard_2_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.233445,0,0.97237;
 	  p position = 3.81933,0,0.597622,0x9bc74358;
 	}
 }
-[t:mp_guard_ranged,n:0x04e002d0]
+[t:upza_zombie_lang_guard_ranged,n:0x04e002d0]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_3;
-			* = conversation_guard_3_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,-0.382684;
 	  p position = 23.9941,0.1,-5.49889,0x0d62b522;
 	}
 }
-[t:mp_guard_03,n:0x04e002ee]
+[t:upza_zombie_lang_guard,n:0x04e002ee]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 33;
-	  f high_level_2w = 73;
-	  f high_level_3w = 102;
-	  f low_level = 27;
-	  f low_level_2w = 70;
-	  f low_level_3w = 100;
-	}
 	[common]
 	{
 		dev_instance_text = "SOUTHWEST";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_sw;
-			* = conversation_guard_sw_high;
-			* = conversation_guard_sw_low;
-			* = conversation_guard_sw_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1300,65 +1209,19 @@
 	  p position = 0.968784,-0.0500005,5.02593,0x33c710ac;
 	}
 }
-[t:mp_guard,n:0x04e002d2]
+[t:upza_zombie_lang_guard,n:0x04e002d2]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_1;
-			* = conversation_guard_1_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.948324,0,0.317304;
 	  p position = -3.95683,-0.05,-2.03315,0x33c710ac;
 	}
 }
-[t:mp_guard_02,n:0x04e00313]
+[t:upza_zombie_lang_guard,n:0x04e00313]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 29;
-	  f high_level_2w = 71;
-	  f high_level_3w = 101;
-	  f low_level = 22;
-	  f low_level_2w = 66;
-	  f low_level_3w = 98;
-	}
 	[common]
 	{
 		dev_instance_text = "EAST";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_e;
-			* = conversation_guard_e_high;
-			* = conversation_guard_e_low;
-			* = conversation_guard_e_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -1408,40 +1271,11 @@
 	  p position = -0.154126,-0.872686,1.67096,0xe2fbc6d4;
 	}
 }
-[t:mp_guard_04,n:0x04e002e5]
+[t:upza_zombie_lang_guard,n:0x04e002e5]
 {
-	[aspect]
-	{
-		model = m_c_gah_fg_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 42;
-	  f high_level_2w = 78;
-	  f high_level_3w = 106;
-	  f low_level = 34;
-	  f low_level_2w = 74;
-	  f low_level_3w = 104;
-	}
 	[common]
 	{
 		dev_instance_text = "SOUTH";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_s;
-			* = conversation_guard_s_high;
-			* = conversation_guard_s_low;
-			* = conversation_guard_s_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
