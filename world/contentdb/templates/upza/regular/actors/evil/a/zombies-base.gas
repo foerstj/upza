@@ -61,6 +61,9 @@
 					wak4 = a_c_ecm_sk_fs4_rv;
 					wak5 = a_c_ecm_sk_fs5_rv;
 					wak6 = a_c_ecm_sk_fs6_rv;
+                    // ADDED from base_zombie
+					slep = a_c_ecm_sk_fs0_ds-02;
+					wake = a_c_ecm_sk_fs0_rv;
 				}
 			}
 			[chore_fidget]
@@ -73,6 +76,13 @@
 					01 = dff-02;
 					02 = dff-03;
 				}
+			}
+			[chore_magic]
+			{
+                // ADDED from base_zombie
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at-02; }
 			}
 			[chore_walk]
 			{
