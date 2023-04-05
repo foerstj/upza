@@ -6,80 +6,6 @@
 	}
 }
 
-[conversation_rumben]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "Stars, it's a regular menagerie today! Lang hasn't seen this much business in ages, I tell you. It helps that we serve all kinds; I just ask that you not leave any body parts behind. Not all customers take kindly to that, y'know.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e000d0;
-	}
-	[text*]
-	{
-        order = 1;
-		choice = shop;
-
-		screen_text = "It's your lucky day! A nice zombie chap brought in a shipment of genuine Quillrabe leather today, and I've already got some lovely pieces ready to go. Of course, if you're planning to venture south towards Quillrabe itself, the leather is far cheaper, but I assure you, it'll be nowhere near the quality of mine.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e000d0;
-	}
-
-    [text*]
-	{
-
-		choice = shop;
-
-		screen_text = "Still haven't explored all of Lang's charms? Well, if I were you, I'd buy something soon and get out before even your feet go to spore. Everything does, sooner or later. Even if you're... a Traveler.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e000d0;
-	}
-
-}
-[conversation_rumben_red]
-{
-	[text*]
-	{
-		screen_text = "Red's a far cry from green, at least! I kind of enjoy the change of weather!";
-		choice = shop;
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e000d0;
-	}
-}
-
-[conversation_ninale]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "Come inside, my child. Now, you'll be looking for a fortune, or perhaps a premonition? Well, I'll tell you this; there are great things in store for you to the north, if you're willing to take the risk. I've seen... visions... of the horrors emerging from the sulfurous caves. Perhaps you are the one to clean them out once and for all?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e0009f;
-	}
-	[text*]
-	{
-		choice = shop;
-
-		screen_text = "Travelers are... concerned about those caves. Perhaps it is time to move on to less... infested waters. Well, my herbs and unguents will help you choose your way. My mixtures may not be so pure as those found in Elddim, but that's a long walk east through treacherous swamp. But it's your health at stake, so what will it be?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e0009f;
-	}
-
-}
-[conversation_ninale_red]
-{
-	[text*]
-	{
-		screen_text = "Janeira has been cackling to herself ever since the sky turned red!";
-		choice = shop;
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e0009f;
-	}
-}
 [conversation_janeira]
 {
 	[text*]             //no ring
@@ -139,8 +65,6 @@
 
 
 }
-
-
 [conversation_janeira_stone]
 {
     [text*]
@@ -197,103 +121,6 @@
 	}
 }
 
-[conversation_zroecha]
-{
-	[text*]
-	{
-
-		screen_text = "Blasted mosquitoes! At least they're not oversized like the bugs coming out of the Southern Forest. Even the undead won't go that way these days.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e001f8;
-	}
-}
-[conversation_zroecha_red]
-{
-	[text*]
-	{
-		screen_text = "I've lived in the swamp all of my life, and never seen the sky any other color than green. What could this mean?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e001f8;
-	}
-}
-[conversation_marika]
-{
-	
-	[text*]
-	{
-        
-		screen_text = "If you head out into the swamp, look closely at the trees; they don't all get their food from sunlight, if you know what I mean.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002c7;
-	}
-	
-}
-[conversation_marika_red]
-{
-	[text*]
-	{
-		screen_text = "I hear a name whispered on this otherwordly wind...Can you hear it too?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002c7;
-	}
-}
-[conversation_karkk]
-{
-	
-	[text*]
-	{
-		screen_text = "I just got chased by a fish the size of a whale into that old abandoned mine shaft in Redwood Gap! Luckily, I managed to grab hold of a beam as I fell in. The sounds coming from that pit were not natural. I hate to think what it was.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002cb;
-	}
-}
-[conversation_karkk_red]
-{
-	[text*]
-	{
-		screen_text = "That old witch Janeira is at the root of this mess, I tell you! We never had any troubles before she came here.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002cb;
-	}
-}
-[conversation_tarvik]
-{
-	
-	[text*]
-	{
-		screen_text = "If you head south into Redwood Gap, stay away from the cave to the east. It may look like an abandoned mine shaft, but no one who enters ever returns.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002d4;
-	}
-}
-[conversation_tarvik_red]
-{
-	[text*]
-	{
-		screen_text = "Even wandering alone for eternity in the Pit of Despair would be better than choking on this foul air!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002d4;
-	}
-}
-[conversation_filia]
-{
-	
-	[text*]
-	{
-		screen_text = "My brother left to explore that abandoned mining cave to the south in Redwood Gap. It's been six months, and he still hasn't returned! Seems all those warning signs weren't enough to knock some common sense into his head.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002d5;
-	}
-}
-[conversation_filia_red]
-{
-	[text*]
-	{
-		screen_text = "We should drive those witches Janeira and Ninale out of town, Travelers or no, they will destroy us all!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002d5;
-	}
-}
 [conversation_guard_1]
 {
 	[text*]
@@ -349,25 +176,6 @@
 		screen_text = "I thought the swamp gas stank. I'd pay a week's wages just to have a full breath of it now that the sky rains death. The stench of brimstone is worse!";
 		button_1_text = "Directions";
        		button_1_value = d_0x04e002d0;
-	}
-}
-[conversation_darnov]
-{
-	
-	[text*]
-	{
-		screen_text = "Whichever way you go, you're sure to run into a coven of swamp witches. I tried leaving my broom outside to see if they would find it and fly away, but no luck so far.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002cd;
-	}
-}
-[conversation_darnov_red]
-{
-	[text*]
-	{
-		screen_text = "I am lucky if I can hold down a loaf of bread with these awful smells upon the wind.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x04e002cd;
 	}
 }
 
@@ -530,4 +338,3 @@
 		
 	}
 }
-
