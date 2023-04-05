@@ -22,6 +22,21 @@
 	  p position = -3.2032,-1.43051e-006,1.42996,0x3fbef206;
 	}
 }
+[t:lamp_glb_table_lightable,n:0x04e001bd]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x663F235E;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x663F235E;
+	}
+	[placement]
+	{
+	  p position = 0.52563,0.300001,1.44429,0xdd09d219;
+	}
+}
 [t:torch_swp_stick_01_lightable,n:0x04e002df]
 {
 	[light_enable]

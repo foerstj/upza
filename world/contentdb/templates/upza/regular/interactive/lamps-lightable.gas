@@ -1,0 +1,18 @@
+[t:template,n:lamp_glb_table_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "lamp table lightable";
+	[aspect]
+	{
+		model = m_i_glb_lamp-table;
+	}
+	[common]
+	{
+		screen_name = "Table Lamp";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "candle_fire1";
+	}
+}
