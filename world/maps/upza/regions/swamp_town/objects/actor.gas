@@ -49,40 +49,53 @@
 	  p position = 1.27647,0.3,0.643462,0xdd09d219;
 	}
 }
-[t:mp_townfolk_female_01,n:0x04e003ff]
+[t:upza_zombie_lang_priest,n:0x04e003ff]
 {
-	[aspect]
-	{
-		model = m_c_gah_fg_pos_a7;
-	}
 	[common]
 	{
 		screen_name = "Utraean Priestess Janeira";
-	}
-	[conversation]
-	{
-		[conversations]
+		[instance_triggers]
 		{
-			* = conversation_janeira;
-			* = conversation_janeira_all_complete;
-			* = conversation_janeira_goto;
-			* = conversation_janeira_red;
-			* = conversation_janeira_ring;
-			* = conversation_janeira_stone;
-			* = zconversation_directions;
+			[*]
+			{
+				action* = change_quest_state("goto_lang","completed",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("quest_townstones","active",0);
+				action* = change_quest_state("quest_lang","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[inventory]
 	{
-		[equipment]
+		[other]
 		{
-			es_chest = bd_ro_m_g_c_084;
-			es_feet = bo_bo_le_light;
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
+            il_main = gen_stone_glb_lang_01;
 		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_janeira.skrit;
 	}
 	[placement]
 	{

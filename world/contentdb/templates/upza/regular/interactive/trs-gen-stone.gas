@@ -18,3 +18,24 @@
 		child_template_name = stone_glb_crystwind_01;
 	}
 }
+
+[t:template,n:gen_stone_glb_lang_01]
+{
+	doc = "generator_townstone_lang";
+	specializes = base_stone_glb;
+	[aspect]
+	{
+		model = m_i_glb_stone-lang;
+		is_selectable = false;
+		is_visible = false;
+		force_no_render = true;
+	}
+	[common]
+	{
+		screen_name = "Lang Stone";
+	}
+	[generator_multiple_mp]
+	{
+		child_template_name = stone_glb_lang_01;
+	}
+}
