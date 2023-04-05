@@ -7,7 +7,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(18.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -926,7 +926,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 				action* = fade_nodes(0x7749F270,1,-1,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.200000,2.000000,0.500000,"on_every_enter");
@@ -1016,7 +1016,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,20.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1061,7 +1061,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1106,7 +1106,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1304,7 +1304,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1333,7 +1333,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1362,7 +1362,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,15.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1391,7 +1391,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1420,7 +1420,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,5.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1959,7 +1959,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1988,7 +1988,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(6.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2108,7 +2108,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_swamp_town_1");
+				action* = mood_change("upza_swamp_town_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
