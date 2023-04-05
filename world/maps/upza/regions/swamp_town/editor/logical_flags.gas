@@ -1182,6 +1182,15 @@
 			* = lf_dirt;
 		}
 	}
+	[t:lf_snode,n:0x1487bbbd]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0x149d3e57]
 	{
 		[t:lf_lnode,n:0]
@@ -2505,6 +2514,15 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0x29ea642d]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0x29f5cfc2]
 	{
 		[t:lf_lnode,n:0]
@@ -3140,18 +3158,6 @@
 		[t:lf_lnode,n:0]
 		{
 			* = lf_human_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
-		{
-		}
-	}
-	[t:lf_snode,n:0x33c710ac]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
 			* = lf_dirt;
 		}
 		[t:lf_lnode,n:1]
@@ -3945,17 +3951,6 @@
 		{
 			* = lf_human_player;
 			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
-		{
-		}
-	}
-	[t:lf_snode,n:0x4218a083]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
 			* = lf_dirt;
 		}
 		[t:lf_lnode,n:1]
@@ -8379,6 +8374,15 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0x8d2483c2]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0x8d4bb28d]
 	{
 		[t:lf_lnode,n:0]
@@ -8536,6 +8540,15 @@
 		}
 		[t:lf_lnode,n:2]
 		{
+		}
+	}
+	[t:lf_snode,n:0x903e44a2]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
 		}
 	}
 	[t:lf_snode,n:0x907399af]
@@ -10019,6 +10032,15 @@
 		}
 		[t:lf_lnode,n:1]
 		{
+		}
+	}
+	[t:lf_snode,n:0xa8dfab88]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
 		}
 	}
 	[t:lf_snode,n:0xa8fc267b]
@@ -11552,6 +11574,15 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0xc60ae2f5]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
 	[t:lf_snode,n:0xc7050f5b]
 	{
 		[t:lf_lnode,n:0]
@@ -12609,17 +12640,6 @@
 		{
 			* = lf_human_player;
 			* = lf_computer_player;
-			* = lf_dirt;
-		}
-		[t:lf_lnode,n:1]
-		{
-		}
-	}
-	[t:lf_snode,n:0xdd09d219]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
 			* = lf_dirt;
 		}
 		[t:lf_lnode,n:1]

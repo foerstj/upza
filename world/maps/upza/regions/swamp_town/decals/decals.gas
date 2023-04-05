@@ -12,4 +12,76 @@
 		texture = Art\Bitmaps\Decals\b_d_scorch.%img%;
 	  f vertical_meters = 4.000000;
 	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -1.000000,-0.000000,-0.000000,0.000000,-0.000000,-1.000000,0.000000,-1.000000,0.000000;
+		decal_origin = 0.065139,2.597144,0.115509,0x8D2483C2;
+	  f far_plane = 4.400000;
+	  x guid = 0x1C60A14C;
+	  f horizontal_meters = 16.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_dirt-a.%img%;
+	  f vertical_meters = 16.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.000001,1.000000,-0.000000,0.000000,-0.000000,-1.000000,-1.000000,-0.000001,-0.000000;
+		decal_origin = -3.936687,2.475778,-0.201315,0xC60AE2F5;
+	  f far_plane = 4.400000;
+	  x guid = 0xFCF67B8D;
+	  f horizontal_meters = 16.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_dirt-a.%img%;
+	  f vertical_meters = 16.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.707107,0.707107,-0.000000,0.000000,-0.000000,-1.000000,-0.707107,0.707106,-0.000000;
+		decal_origin = -3.980094,0.585268,1.399257,0x29EA642D;
+	  f far_plane = 1.100000;
+	  x guid = 0xF2F59BCB;
+	  f horizontal_meters = 16.000004;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_dirt-a.%img%;
+	  f vertical_meters = 16.000004;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.707107,0.707107,0.000000,0.000000,-0.000000,-1.000000,-0.707107,0.707107,-0.000000;
+		decal_origin = -3.722695,0.571738,1.722802,0x903E44A2;
+	  f far_plane = 1.100000;
+	  x guid = 0x6522FE9F;
+	  f horizontal_meters = 16.000004;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_dirt-a.%img%;
+	  f vertical_meters = 16.000004;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.076690,2.508182,-0.028822,0x1487BBBD;
+	  f far_plane = 4.400000;
+	  x guid = 0x3803F06F;
+	  f horizontal_meters = 16.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_dirt-a.%img%;
+	  f vertical_meters = 16.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 1.000000,-0.000000,0.000000,-0.000000,0.000000,-1.000000,0.000000,1.000000,0.000000;
+		decal_origin = -0.187076,0.556896,-3.847162,0xA8DFAB88;
+	  f far_plane = 1.100000;
+	  x guid = 0x9F4195D1;
+	  f horizontal_meters = 16.000004;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_dirt-a.%img%;
+	  f vertical_meters = 16.000004;
+	}
 }

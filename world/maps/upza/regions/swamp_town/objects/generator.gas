@@ -22,6 +22,21 @@
 	  p position = -0.932251,0.94954,3.34021,0x9c8d8cde;
 	}
 }
+[t:gen_bush_swamp-swamp_slinger,n:0x04e000ef]
+{
+	[placement]
+	{
+	  p position = -1.7576,0.387099,0.943878,0x17fef344;
+	}
+}
+[t:gen_bush_swamp-swamp_slinger,n:0x04e000f0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.55557,0,0.83147;
+	  p position = -3.757,0.354141,0.708282,0x17fef344;
+	}
+}
 [t:gen_bush_swamp-swamp_slinger,n:0x04e0023f]
 {
 	[placement]
@@ -36,20 +51,5 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 1.38542,0,0.694283,0xa9ab3da6;
-	}
-}
-[t:gen_bush_swamp-swamp_slinger,n:0x04e000ef]
-{
-	[placement]
-	{
-	  p position = -1.7576,0.387099,0.943878,0x17fef344;
-	}
-}
-[t:gen_bush_swamp-swamp_slinger,n:0x04e000f0]
-{
-	[placement]
-	{
-	  q orientation = 0,0.55557,0,0.83147;
-	  p position = -3.757,0.354141,0.708282,0x17fef344;
 	}
 }
