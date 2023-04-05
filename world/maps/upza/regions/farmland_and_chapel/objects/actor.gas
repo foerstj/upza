@@ -1325,38 +1325,8 @@
 	  p position = 1.05243,0.0839754,-0.875694,0xbc0b6abb;
 	}
 }
-[t:mp_guard_03,n:0x01c00269]
+[t:upza_zombie_lang_guard,n:0x01c00269]
 {
-	[aspect]
-	{
-	  b is_collidable = false;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 27;
-	  f high_level_2w = 70;
-	  f high_level_3w = 100;
-	  f low_level = 22;
-	  f low_level_2w = 66;
-	  f low_level_3w = 98;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_high;
-			* = conversation_guard_low;
-			* = conversation_guard_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
