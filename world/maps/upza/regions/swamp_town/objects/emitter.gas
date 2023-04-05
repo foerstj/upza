@@ -1,4 +1,4 @@
-[t:emitter_glb_smoke_01,n:0x04e00166]
+[t:emitter_glb_smoke_01_act,n:0x04e00166]
 {
 	[placement]
 	{
@@ -116,14 +116,6 @@
 	{
 	  q orientation = 0,0.930418,0,0.366501;
 	  p position = -0.258209,0.395398,-0.115328,0x22ff6fec;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x04e000c9]
-{
-	[placement]
-	{
-	  q orientation = 0,0.97437,0,0.224951;
-	  p position = -1.78111,4.29887,2.47885,0x79fbc20c;
 	}
 }
 [t:emt_sound,n:0x04e00a3f]
@@ -278,14 +270,6 @@
 	  f repeat_rate = 1;
 	}
 }
-[t:emitter_glb_smoke_01,n:0x04e000c7]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.833886,0,0.551937;
-	  p position = 2.55586,6.17827,4.9776,0x1b5f9e48;
-	}
-}
 [t:emt_generic,n:0x04e00353]
 {
 	[generic_emitter]
@@ -393,7 +377,7 @@
 	  f repeat_rate = 1;
 	}
 }
-[t:emitter_glb_smoke_01,n:0x04e000c6]
+[t:emitter_glb_smoke_01_act,n:0x04e000c6]
 {
 	[placement]
 	{
@@ -413,14 +397,6 @@
 		event_sound = "amb_crickets";
 	  f max_repeat_rate = 60;
 	  f repeat_rate = 1;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x04e000c8]
-{
-	[placement]
-	{
-	  q orientation = 0,0.999848,0,0.017452;
-	  p position = 2.27436,3.68368,2.53533,0xe2fbc6d4;
 	}
 }
 [t:emt_sound,n:0x04e000e6]

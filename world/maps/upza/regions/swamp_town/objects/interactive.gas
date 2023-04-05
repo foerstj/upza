@@ -1,3 +1,27 @@
+[t:firepit_glb_03_lightable,n:0x04e001f5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x35315D66;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x35315D66;
+	}
+	[msg_forward]
+	{
+	  x send_to_scid = 0x04E00166;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.2032,-1.43051e-006,1.42996,0x3fbef206;
+	}
+}
 [t:torch_swp_stick_01_lightable,n:0x04e002df]
 {
 	[light_enable]
@@ -323,6 +347,31 @@
 	{
 	  q orientation = 0,0.66262,0,0.748956;
 	  p position = -3.28293,0.501297,1.00362,0xddca7d94;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x04e00035]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x3E7B2C03;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x3E7B2C03;
+	}
+	[msg_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x04E000C6;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.147809,0,-0.989016;
+	  p position = -1.77907,-1.75361,1.14748,0x1d07ba5f;
 	}
 }
 [t:door_swp_right_01,n:0x04e001d2]
