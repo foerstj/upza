@@ -22,14 +22,15 @@ Changes from there on:
 - Set up the Eastern Island as the initial starting location, with Loola there
 - Zombified NPCs in Elddim & Crystwind areas, leaving quests intact & dropping shop contents
 - Depopulated Fallraen, overrun by Furoks
-- Ruinated Elddim, Crystwind & Fallraen
+- Zombified NPCs in Lang, pacified Goblins, moved Lang shop contents to Goblins
+- Ruinated Elddim, Crystwind, Fallraen & Lang
 - Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
 - Zombified enemies - Krug, Bandits, wolves, bears
 - Made mules in Elddim, at Horty Olof & in Fallraen self-hireable
 - Removed signs, good luck out there lol
-- Removed all tutorial tips, you're on your own
+- Removed original tutorial tips, you're on your own
 - Extinguished torches & campfires but made them lightable
 - Removed some bridges
 
