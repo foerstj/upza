@@ -250,7 +250,7 @@ Let's go together then! And conquer the Utraean Peninsula once more for the 2nd 
 	}
 }
 
-[bettina_before_condition]
+[bettina_first]
 {
 	[text*]
 	{
@@ -274,6 +274,9 @@ Let's go together then! And conquer the Utraean Peninsula once more for the 2nd 
 And we have met someone... strange. A survivor from the mainland? She seems to have gone insane, rambling on about her lift, and trying to sell us 'shiny baubles'...";
 	  f scroll_rate = 10.000000;
 	}
+}
+[bettina_before_condition]
+{
 	[text*]
 	{
 		screen_text = "If you find a safe way to the Peninsula, tell me!";
