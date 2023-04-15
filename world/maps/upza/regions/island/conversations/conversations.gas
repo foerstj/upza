@@ -249,39 +249,7 @@ Let's go together then! And conquer the Utraean Peninsula once more for the 2nd 
 	  f scroll_rate = 10.000000;
 	}
 }
-[bettina_accept_have_money]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's go!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[bettina_accept_no_money]
-{
-	[text*]
-	{
-		screen_text = "[You have insufficient funds to add this companion to your group.]";
-	  f scroll_rate = 10.000000;
-	}
-}
-[bettina_disband]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's separate!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[bettina_disband_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
-	  f scroll_rate = 10.000000;
-	}
-}
+
 [bettina_before_condition]
 {
 	[text*]
@@ -340,6 +308,39 @@ Want me to come with you? A healer is always useful...";
 	  f scroll_rate = 10.000000;
 	}
 }
+[bettina_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
 [bettina_mp]
 {
 	[text*]
@@ -363,6 +364,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [nicholas_accept_have_money]
 {
 	[text*]
