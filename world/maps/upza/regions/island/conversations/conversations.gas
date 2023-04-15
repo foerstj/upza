@@ -26,6 +26,7 @@
 		screen_text = "Lift goes down red. Lift comes up red. Loola likes red.";
 	}
 }
+
 [head_injury]
 {
 	[text*]
@@ -35,39 +36,7 @@
 	  f scroll_rate = 10.000000;
 	}
 }
-[julia_accept_have_money]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's go!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[julia_accept_no_money]
-{
-	[text*]
-	{
-		screen_text = "[You have insufficient funds to add this companion to your group.]";
-	  f scroll_rate = 10.000000;
-	}
-}
-[julia_disband]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's separate!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[julia_disband_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
-	  f scroll_rate = 10.000000;
-	}
-}
+
 [julia_before_condition]
 {
 	[text*]
@@ -102,6 +71,15 @@ Want me to come with you? Let's smash some Zombie skulls!";
 	  f scroll_rate = 10.000000;
 	}
 }
+[julia_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Want me to come with you? Let's smash some Zombie skulls!";
+	  f scroll_rate = 10.000000;
+	}
+}
 [julia_reject]
 {
 	[text*]
@@ -110,12 +88,36 @@ Want me to come with you? Let's smash some Zombie skulls!";
 	  f scroll_rate = 10.000000;
 	}
 }
-[julia_rejoin]
+[julia_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[julia_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[julia_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[julia_disband_rejoin]
 {
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Want me to come with you? Let's smash some Zombie skulls!";
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -135,6 +137,7 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [mark_before_condition]
 {
 	[text*]
@@ -233,6 +236,7 @@ Let's go together then! And conquer the Utraean Peninsula once more for the 2nd 
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [leg_shop]
 {
 	[text*]
@@ -294,20 +298,20 @@ Want me to come with you? A healer is always useful...";
 	  f scroll_rate = 10.000000;
 	}
 }
-[bettina_reject]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, greet the others from me!";
-	  f scroll_rate = 10.000000;
-	}
-}
 [bettina_rejoin]
 {
 	[text*]
 	{
 		choice = potential_member;
 		screen_text = "Want me to come with you? A healer is always useful...";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bettina_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -368,22 +372,6 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	}
 }
 
-[nicholas_accept_have_money]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's go!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[nicholas_accept_no_money]
-{
-	[text*]
-	{
-		screen_text = "[You have insufficient funds to add this companion to your group.]";
-	  f scroll_rate = 10.000000;
-	}
-}
 [nicholas_before_condition]
 {
 	[text*]
@@ -396,6 +384,48 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	[text*]
 	{
 		screen_text = "You know what happened to Barney - I'm certainly not going first. After you, mate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Are you sure this elevator is safe to use? Just some skeletons and Mucosa up there? Well, in that case I don't want to be a coward and stay here while you explore the Peninsula. I'm in!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Just some skeletons and Mucosa up there? Well, in that case I don't want to be a coward and stay here while you explore the Peninsula. I'm in!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[nicholas_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -416,15 +446,6 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  f scroll_rate = 10.000000;
 	}
 }
-[nicholas_join]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Are you sure this elevator is safe to use? Just some skeletons and Mucosa up there? Well, in that case I don't want to be a coward and stay here while you explore the Peninsula. I'm in!";
-	  f scroll_rate = 10.000000;
-	}
-}
 [nicholas_mp]
 {
 	[text*]
@@ -439,56 +460,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  f scroll_rate = 10.000000;
 	}
 }
-[nicholas_reject]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, greet the others from me!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[nicholas_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Just some skeletons and Mucosa up there? Well, in that case I don't want to be a coward and stay here while you explore the Peninsula. I'm in!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_accept_have_money]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's go!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_accept_no_money]
-{
-	[text*]
-	{
-		screen_text = "[You have insufficient funds to add this companion to your group.]";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_disband]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, let's separate!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_disband_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
-	  f scroll_rate = 10.000000;
-	}
-}
+
 [peter_join]
 {
 	[text*]
@@ -524,6 +496,56 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	{
 		choice = potential_member;
 		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_reject]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, greet the others from me!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_accept_no_money]
+{
+	[text*]
+	{
+		screen_text = "[You have insufficient funds to add this companion to your group.]";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_disband]
+{
+	[text*]
+	{
+		screen_text = "Alright mate, let's separate!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[peter_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Ahoy mate, nice to see you again! Shall we go together again?";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -563,23 +585,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  f scroll_rate = 10.000000;
 	}
 }
-[peter_reject]
-{
-	[text*]
-	{
-		screen_text = "Alright mate, greet the others from me!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[peter_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Our chief officer's dead, and our captain as well - we're free men now. This island seems nice and we have plenty of provisions. We'll be alright. Shall we go see the others together?";
-	  f scroll_rate = 10.000000;
-	}
-}
+
 [staying]
 {
 	[text*]
@@ -603,6 +609,7 @@ I'm never gonna leave this place again. I'm staying here.";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [bernard_before_condition]
 {
 	[text*]
@@ -691,6 +698,7 @@ Libella has taken up guard on the other side. Go greet her if you want. But I su
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [vc_ele]
 {
 	[text*]
@@ -713,6 +721,7 @@ Libella has taken up guard on the other side. Go greet her if you want. But I su
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [zconversation_red]
 {
 	[text*]

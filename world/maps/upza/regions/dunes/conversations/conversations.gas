@@ -1,4 +1,4 @@
-[libella_before_condition]
+[libella_first]
 {
 	[text*]
 	{
@@ -14,6 +14,9 @@
 		screen_text = "These dunes play tricks on your mind... I look out there and it feels like I'm looking at myself from the back... As if, if you walked just straight ahead, on and on, you'd somehow end up coming back here from the other side...";
 	  f scroll_rate = 10.000000;
 	}
+}
+[libella_before_condition]
+{
 	[text*]
 	{
 		screen_text = "If you find a safer way to the Peninsula, do tell me!";
@@ -96,6 +99,7 @@ Want me to come with you? Let's pierce some Zombie skulls!";
 	  f scroll_rate = 10.000000;
 	}
 }
+
 [zconversation_red]
 {
 	[text*]
