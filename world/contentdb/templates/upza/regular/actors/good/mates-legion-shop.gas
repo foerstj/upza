@@ -139,6 +139,7 @@
 	{
 		[item_restock]
 		{
+            // potions
 			potion_health_small = 10;
 			potion_health_medium = 10;
 			potion_health_large = 10;
@@ -149,11 +150,29 @@
 			potion_rejuvenation_medium = 2;
 			potion_rejuvenation_large = 1;
 
+            // resurrect
 			scroll_resurrect = 8;
             spell_resurrect = 8;
-            spell_revive = 8;
+            spell_full_resurrect = 4;
+            spell_revive = 4;
+            spell_shargs_revive = 4;
+            // heal
             spell_healing_hands = 8;
+            spell_healing_wind = 8;
+            spell_major_heal = 8;
+            spell_orb_healing = 4;
+            spell_battle_healing = 4;
+            spell_reconstitution = 4;
+            spell_nurture = 4;
 
+            // any other useful stuff like transmutation
+            spell_transmute = 8;
+            spell_create_healthpotion = 4;
+            spell_transmogrification = 4;
+            spell_transmuteall = 4;
+            spell_summon_helper = 4;
+
+            // beginner attack spells
             spell_fireshot = 8;
             spell_zap = 8;
 		}
