@@ -45,3 +45,24 @@
 		other_effect = "torch_firews3";
 	}
 }
+
+[t:template,n:lamp_glb_post_lightable] { specializes = lamp_glb_post_lightable_base; }
+[t:template,n:lamp_glb_post_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "lamp post lightable";
+	[aspect]
+	{
+		model = m_i_glb_lamp-post;
+		scale_base = 2;
+	}
+	[common]
+	{
+		screen_name = "Lamp Post";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "torch_firews2";
+	}
+}
