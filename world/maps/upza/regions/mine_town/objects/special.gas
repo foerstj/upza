@@ -1020,7 +1020,7 @@
 			{
 				action* = send_world_message("we_req_activate",0x00C00457,0f,"16386","party_member_within_bounding_box",0);
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_unique_enter");
+				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_first_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -1028,7 +1028,7 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
-			  b single_shot = false;
+			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
@@ -1195,7 +1195,7 @@
 			{
 				action* = send_world_message("we_req_activate",0x00C00455,0f,"16386","party_member_within_bounding_box",0);
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_unique_enter");
+				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_first_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -1203,7 +1203,7 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
-			  b single_shot = false;
+			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
