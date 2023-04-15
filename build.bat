@@ -46,7 +46,7 @@ popd
 rmdir /S /Q "%tmp%\Bits"
 ::robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
-for %%r in (island hades dunes2island mega_forest mega_forest_r2 mega_forest_r3) do (
+for %%r in (island hades dunes2island dunes2hades mega_forest mega_forest_r2 mega_forest_r3) do (
   robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
 )
 pushd %gaspy%

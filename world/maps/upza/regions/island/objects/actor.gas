@@ -271,6 +271,7 @@
 			* = julia_before_condition;
 			* = julia_disband;
 			* = julia_disband_rejoin;
+			* = julia_first;
 			* = julia_join;
 			* = julia_reject;
 			* = julia_rejoin;
@@ -279,7 +280,7 @@
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?oid=0x790024e&namespace=julia&condition=found_gnf&face_player=false&talk_anim=;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?oid=0x790024e&namespace=julia&condition=found_gnf&face_player=false&talk_anim=&first=2;
 	}
 	[placement]
 	{
@@ -382,6 +383,7 @@
 			* = mark_before_condition;
 			* = mark_disband;
 			* = mark_disband_rejoin;
+			* = mark_first;
 			* = mark_join;
 			* = mark_reject;
 			* = mark_rejoin;
@@ -390,7 +392,7 @@
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?oid=0x790024f&namespace=mark&condition=found_gnf&face_player=false&talk_anim=;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?oid=0x790024f&namespace=mark&condition=found_gnf&face_player=false&talk_anim=&first=2;
 	}
 	[placement]
 	{
@@ -515,6 +517,7 @@
 			* = bernard_before_condition;
 			* = bernard_disband;
 			* = bernard_disband_rejoin;
+			* = bernard_first;
 			* = bernard_join;
 			* = bernard_reject;
 			* = bernard_rejoin;
@@ -522,7 +525,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?oid=0x790021c&namespace=bernard&condition=found_gnf;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?oid=0x790021c&namespace=bernard&condition=found_gnf&first=1;
 	}
 	[placement]
 	{

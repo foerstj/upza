@@ -37,7 +37,7 @@
 	}
 }
 
-[julia_before_condition]
+[julia_first]
 {
 	[text*]
 	{
@@ -54,6 +54,9 @@
 I hope we find a safe passage to the peninsula soon. This really seems to be the mythical Eastern Island. So let's hope for the best.";
 	  f scroll_rate = 10.000000;
 	}
+}
+[julia_before_condition]
+{
 	[text*]
 	{
 		screen_text = "If you find a safe way to the Peninsula, tell me!";
@@ -138,7 +141,7 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	}
 }
 
-[mark_before_condition]
+[mark_first]
 {
 	[text*]
 	{
@@ -154,6 +157,9 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 		screen_text = "Where's your legion armor, were you sleeping when the ship ran aground? If Conner doesn't have something for you, maybe you can try buying something from this nutcase - good luck with that...";
 	  f scroll_rate = 10.000000;
 	}
+}
+[mark_before_condition]
+{
 	[text*]
 	{
 		screen_text = "If you find a safe way to the Peninsula, do tell me!";
@@ -610,7 +616,7 @@ I'm never gonna leave this place again. I'm staying here.";
 	}
 }
 
-[bernard_before_condition]
+[bernard_first]
 {
 	[text*]
 	{
@@ -621,6 +627,9 @@ This appears to be a magical tunnel to the peninsula. Unfortunately, it seems to
 Libella has taken up guard on the other side. Go greet her if you want. But I sure hope we find another passage, because over there is nothing but sand.";
 	  f scroll_rate = 10.000000;
 	}
+}
+[bernard_before_condition]
+{
 	[text*]
 	{
 		screen_text = "If you find a safer way to the Peninsula, do tell me!";
