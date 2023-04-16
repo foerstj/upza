@@ -125,17 +125,6 @@
 	  p position = 0.343912,-3,0.545259,0x1beb0f66;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x04d0019d]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[placement]
-	{
-	  p position = 2.69182,-3,1.77266,0x1beb0f66;
-	}
-}
 [t:bush_grs_rhod_01,n:0x04d003d4]
 {
 	[aspect]
@@ -2138,17 +2127,6 @@
 	{
 	  q orientation = 0,-0.573576,0,0.819152;
 	  p position = 5.39101,-3.6125,-0.0091486,0xfb5c9c7f;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x04d0019c]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[placement]
-	{
-	  p position = -2.61959,-3.6125,1.58008,0xfb5c9c7f;
 	}
 }
 [t:bush_grs_rhod_01,n:0x04d003b7]
@@ -10050,21 +10028,6 @@
 	  p position = -3.4584,-3.65,-0.131737,0x6db5a4cb;
 	}
 }
-[t:wood_glb_pile_fireplace_burnt,n:0x04d0019f]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x417D235B;
-	}
-	[placement]
-	{
-	  p position = -2.66372,-3.65,1.47744,0x6db5a4cb;
-	}
-}
 [t:stand_csl_03,n:0x04d001a1]
 {
 	[aspect]
@@ -10797,21 +10760,6 @@
 	{
 	  q orientation = 0,0.819153,0,0.573576;
 	  p position = 1.00917,-3.65,0.139921,0x986a4bc2;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt,n:0x04d00379]
-{
-	[aspect]
-	{
-	  b interest_only = true;
-	}
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xCA3DB5FD;
-	}
-	[placement]
-	{
-	  p position = -2.85523,-3.65,1.64228,0x986a4bc2;
 	}
 }
 [t:log_glb_04,n:0x04d000ea]
