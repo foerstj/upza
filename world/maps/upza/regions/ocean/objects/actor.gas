@@ -54,6 +54,39 @@
 	  p position = -2.21999,0,1.59266,0x0de87ea0;
 	}
 }
+[t:upza_mate_zombie_03,n:0x04d00567]
+{
+	[common]
+	{
+		screen_name = "Tyoovard";
+	}
+	[placement]
+	{
+	  p position = -0.343678,0,-1.94765,0x83babb8b;
+	}
+}
+[t:upza_mate_zombie_02,n:0x04d0052d]
+{
+	[common]
+	{
+		screen_name = "Budura";
+	}
+	[placement]
+	{
+	  p position = -0.0572834,0,1.63327,0x1431d8d2;
+	}
+}
+[t:upza_mate_zombie_01,n:0x04d0052c]
+{
+	[common]
+	{
+		screen_name = "Pally";
+	}
+	[placement]
+	{
+	  p position = -1.22066,0,0.638208,0x1da29dc1;
+	}
+}
 [t:upza_zombie_meren_townfolk_pudgy,n:0x04d005c6]
 {
 	[common]
@@ -270,6 +303,17 @@
 	  p position = 0.414093,0,-2.45509,0xebbaf89e;
 	}
 }
+[t:upza_mate_zombie_07,n:0x04d0056c]
+{
+	[common]
+	{
+		screen_name = "Meks";
+	}
+	[placement]
+	{
+	  p position = 2.88879,0,-0.804125,0x94317f35;
+	}
+}
 [t:upza_zombie_meren_townfolk_pudgy,n:0x04d00595]
 {
 	[common]
@@ -286,6 +330,7 @@
 {
 	[common]
 	{
+		screen_name = "Captain Oury";
 		[instance_triggers]
 		{
 			[*]
@@ -325,6 +370,61 @@
 	{
 	  q orientation = 0,-0.965303,0,0.261134;
 	  p position = -0.766647,0,-1.80497,0x8c4b51ad;
+	}
+}
+[t:upza_mate_zombie_09,n:0x04d0056e]
+{
+	[common]
+	{
+		screen_name = "Fincus";
+	}
+	[placement]
+	{
+	  p position = 1.2745,3.8147e-006,0.617399,0x8c4b51ad;
+	}
+}
+[t:upza_mate_zombie_11,n:0x04d00571]
+{
+	[common]
+	{
+		screen_name = "Kazara";
+	}
+	[placement]
+	{
+	  p position = -0.966208,0,-0.417852,0x8c4b51ad;
+	}
+}
+[t:upza_mate_zombie_08,n:0x04d0056d]
+{
+	[common]
+	{
+		screen_name = "Bollogg";
+	}
+	[placement]
+	{
+	  p position = -0.0138893,0,-1.9753,0x8b5edb65;
+	}
+}
+[t:upza_mate_zombie_04,n:0x04d00568]
+{
+	[common]
+	{
+		screen_name = "Daisy";
+	}
+	[placement]
+	{
+	  p position = 1.17912,0,0.903168,0x5cf8262e;
+	}
+}
+[t:upza_mate_zombie_06,n:0x04d0056b]
+{
+	[common]
+	{
+		screen_name = "Fennra";
+	}
+	[placement]
+	{
+	  p position = 3.52633,-1,-0.721512,0xec7023ad;
 	}
 }
 [t:spiked_maw,n:0x04d0063b]
@@ -1110,80 +1210,25 @@
 	  p position = 2.54655,0,1.3193,0x4763bfcd;
 	}
 }
-[t:upza_mate_zombie_01,n:0x04d0052c]
-{
-	[placement]
-	{
-	  p position = -1.22066,0,0.638208,0x1da29dc1;
-	}
-}
-[t:upza_mate_zombie_02,n:0x04d0052d]
-{
-	[placement]
-	{
-	  p position = -0.0572834,0,1.63327,0x1431d8d2;
-	}
-}
-[t:upza_mate_zombie_03,n:0x04d00567]
-{
-	[placement]
-	{
-	  p position = -0.343678,0,-1.94765,0x83babb8b;
-	}
-}
-[t:upza_mate_zombie_04,n:0x04d00568]
-{
-	[placement]
-	{
-	  p position = 1.17912,0,0.903168,0x5cf8262e;
-	}
-}
 [t:upza_mate_zombie_05,n:0x04d0056a]
 {
+	[common]
+	{
+		screen_name = "Grindzold";
+	}
 	[placement]
 	{
 	  p position = -2.93101,0,-1.51572,0xa06dd0ea;
 	}
 }
-[t:upza_mate_zombie_06,n:0x04d0056b]
-{
-	[placement]
-	{
-	  p position = 3.52633,-1,-0.721512,0xec7023ad;
-	}
-}
-[t:upza_mate_zombie_07,n:0x04d0056c]
-{
-	[placement]
-	{
-	  p position = 2.88879,0,-0.804125,0x94317f35;
-	}
-}
-[t:upza_mate_zombie_08,n:0x04d0056d]
-{
-	[placement]
-	{
-	  p position = -0.0138893,0,-1.9753,0x8b5edb65;
-	}
-}
-[t:upza_mate_zombie_09,n:0x04d0056e]
-{
-	[placement]
-	{
-	  p position = 1.2745,3.8147e-006,0.617399,0x8c4b51ad;
-	}
-}
 [t:upza_mate_zombie_10,n:0x04d0056f]
 {
+	[common]
+	{
+		screen_name = "Kendrian";
+	}
 	[placement]
 	{
 	  p position = 1.10437,0,-1.52943,0xa06dd0ea;
-	}
-}
-[t:upza_mate_zombie_11,n:0x04d00571]
-{
-	[placement]
-	{
-	  p position = -0.966208,0,-0.417852,0x8c4b51ad;
 	}
 }
