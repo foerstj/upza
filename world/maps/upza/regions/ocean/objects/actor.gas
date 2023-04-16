@@ -722,12 +722,43 @@
 	}
 	[common]
 	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 		screen_name = "Beauty";
 	}
 	[placement]
 	{
+	  q orientation = 0,0.981627,0,-0.190809;
+	  p position = -1.94342,-0.849981,-1.87963,0xb9038dfb;
+	}
+}
+[t:self_service_mule,n:0x04d00259]
+{
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Beauty";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x4d00259;
+	}
+	[placement]
+	{
 	  q orientation = 0,-0.559193,0,0.829038;
-	  p position = -1.7382,-0.849981,-1.9446,0x79647623;
+	  p position = -1.75948,-0.849981,-1.95447,0x79647623;
 	}
 }
 [t:blacksmith_wern_silverforge,n:0x04d004cb]
@@ -780,7 +811,36 @@
 	  p position = -1.77773,-0.85,-1.67045,0x951e9074;
 	}
 }
-[t:mule,n:0x04d00200]
+[t:self_service_mule,n:0x04d00200]
+{
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Beast";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x4d00200;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.284016,0,0.95882;
+	  p position = 1.12518,-0.949973,-1.47675,0xafbdaa34;
+	}
+}
+[t:mule,n:0x04d0026a]
 {
 	[aspect]
 	{
@@ -788,12 +848,14 @@
 	}
 	[common]
 	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 		screen_name = "Beast";
 	}
 	[placement]
 	{
 	  q orientation = 0,0.284016,0,0.95882;
-	  p position = 1.12518,-0.949973,-1.47675,0xafbdaa34;
+	  p position = 1.14326,-0.949973,-1.56867,0xafbdaa34;
 	}
 }
 [t:spiked_maw,n:0x04d00654]
