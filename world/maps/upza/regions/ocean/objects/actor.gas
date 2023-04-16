@@ -126,24 +126,11 @@
 	  p position = 1.11326,-1.15,0.522339,0x11cd281d;
 	}
 }
-[t:azunite_priestess_lilyaire_prieve,n:0x04d004cc]
+[t:upza_zombie_meren_shop_mage,n:0x04d004cc]
 {
 	[common]
 	{
 		screen_name = "Historian Lily Prieve";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_lilyaire;
-			* = conversation_lilyaire_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -700,24 +687,11 @@
 	  p position = -1.75948,-0.849981,-1.95447,0x79647623;
 	}
 }
-[t:blacksmith_wern_silverforge,n:0x04d004cb]
+[t:upza_zombie_meren_shop_smith,n:0x04d004cb]
 {
 	[common]
 	{
 		screen_name = "Wern Silverforge";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_wern;
-			* = conversation_wern_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{

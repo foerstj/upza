@@ -1,0 +1,440 @@
+[t:template,n:upza_zombie_meren_shop_mage] { specializes = upza_zombie_meren_shop_mage_base; }
+[t:template,n:upza_zombie_meren_shop_mage_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Historian Lily Prieve";
+	}
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo;  // but default texture
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_blue(sgx)");  // blue for Meren
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from bandit_melee_boss_01 (Rogue Bandit)
+	[actor]
+	{
+		[skills]
+		{
+			strength =   16, 0;
+			intelligence =  11, 0;
+			dexterity =   13, 0;
+			melee =  19,  0;
+		}
+	}
+	[aspect]
+	{
+		life = 420;
+		max_life = 420;
+		mana = 20;
+		max_mana = 20;
+   		experience_value = 2230;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 65;
+		damage_min = 60;
+	}
+   	[defend] { defense=305; }
+	[inventory]
+	{
+
+		[pcontent]
+		{
+			[all*]
+			{
+				es_feet = bo_bo_le_light;
+                es_weapon_hand = sd_g_c_gl_1h_avg;
+			}
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/66-70;
+					il_main = #armor/200-250;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/75-89;
+	                il_main = #armor/-rare(1)/226-287;
+                    il_main = #*/-rare(1)/75-89;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/75-89;
+	                il_main = #armor/-unique(2)/226-287;
+                    il_main = #*/-unique(2)/75-89;
+	            }
+				[gold*]
+				{
+					max = 3488;
+					min = 2560;
+					min_pile = 397;
+					piles = 2 - 4;
+				}
+			}
+		}
+	}
+
+    // more loot: shop from original azunite_priestess_lilyaire_prieve
+    [actor] { drops_spellbook = true; }
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0.08;
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/10-28;
+					max = 40;
+					min = 40;
+				}
+				[all*]
+				{
+					il_main = #spell/0-9;
+					max = 10;
+					min = 10;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/41-80;
+					max = 6;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 5;
+					min = 5;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+
+		[item_restock]
+		{
+			potion_health_small = 10;
+			potion_health_medium = 20;
+			potion_mana_small = 10;
+			potion_mana_medium = 20;
+			potion_rejuvenation_small = 2;
+			potion_rejuvenation_medium = 4;
+
+			scroll_resurrect = 10;
+            spell_resurrect = 10;
+            spell_revive = 10;
+            spell_healing_hands = 10;
+
+            spell_fireshot = 4;
+            spell_zap = 4;
+		}
+	}
+}
+
+[t:template,n:upza_zombie_meren_shop_smith] { specializes = upza_zombie_meren_shop_smith_base; }
+[t:template,n:upza_zombie_meren_shop_smith_base]
+{
+    specializes = upza_base_zombie_dwarf;
+
+	common:screen_name = "Wern Silverforge";
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		[textures]
+		{
+            0 = b_i_glb_frag-generic-02;
+			1 = b_c_pos_a1_032;  // wern silverforge
+		}
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_blue(sgx)");  // blue for Meren
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from bandit_melee_boss_01 (Rogue Bandit)
+	[actor]
+	{
+		[skills]
+		{
+			strength =   16, 0;
+			intelligence =  11, 0;
+			dexterity =   13, 0;
+			melee =  19,  0;
+		}
+	}
+	[aspect]
+	{
+		life = 420;
+		max_life = 420;
+		mana = 20;
+		max_mana = 20;
+   		experience_value = 2230;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 65;
+		damage_min = 60;
+	}
+   	[defend] { defense=305; }
+	[inventory]
+	{
+
+		[pcontent]
+		{
+			[all*]
+			{
+				es_feet = bo_bo_le_light;
+                es_weapon_hand = sd_g_c_gl_1h_avg;
+			}
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/66-70;
+					il_main = #armor/200-250;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/75-89;
+	                il_main = #armor/-rare(1)/226-287;
+                    il_main = #*/-rare(1)/75-89;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/75-89;
+	                il_main = #armor/-unique(2)/226-287;
+                    il_main = #*/-unique(2)/75-89;
+	            }
+				[gold*]
+				{
+					max = 3488;
+					min = 2560;
+					min_pile = 397;
+					piles = 2 - 4;
+				}
+			}
+		}
+	}
+
+    // more loot: shop from original blacksmith_wern_silverforge
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/60-172;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/60-84;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/85-141;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #body/142-172;
+					max = 5;
+					min = 5;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/8-84;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #gloves/85-141;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #gloves/142-172;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #helm/8-84;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #helm/85-141;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #helm/142-172;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #boots/8-84;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #boots/85-141;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #boots/142-172;
+					max = 6;
+					min = 6;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/8-84;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #shield/85-141;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #shield/142-172;
+					max = 6;
+					min = 6;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/30-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/41-65;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #melee/66-79;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/30-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/41-65;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #ranged/66-79;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
