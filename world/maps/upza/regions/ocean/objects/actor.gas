@@ -282,7 +282,7 @@
 	  p position = -0.640778,-8.34465e-007,1.82784,0x9d70b93b;
 	}
 }
-[t:troll_forest_boss_01,n:0x04d0052b]
+[t:upza_mate_zombie_captain,n:0x04d0052b]
 {
 	[common]
 	{
@@ -702,6 +702,18 @@
 	  p position = -1.75948,-0.849981,-1.95447,0x79647623;
 	}
 }
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005fe]
+{
+	[common]
+	{
+		screen_name = "Eliar Helmsvor";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.430511,0,0.902585;
+	  p position = 2.26258,-3.65,-0.120829,0x986a4bc2;
+	}
+}
 [t:upza_zombie_meren_shop_smith,n:0x04d004cb]
 {
 	[placement]
@@ -748,18 +760,6 @@
 	{
 	  q orientation = 0,-0.790717,0,0.612182;
 	  p position = 0.599038,0,-1.51795,0x3097f50a;
-	}
-}
-[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005fe]
-{
-	[common]
-	{
-		screen_name = "Eliar Helmsvor";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.430511,0,0.902585;
-	  p position = 2.26258,-3.65,-0.120829,0x986a4bc2;
 	}
 }
 [t:self_service_mule,n:0x04d00200]
