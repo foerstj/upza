@@ -1,4 +1,4 @@
-[mood_setting*]
+[mood_setting*] // 1
 {
 	mood_name				= upza_ocean_1;
 	transition_time			= 6.0f;
@@ -36,7 +36,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*] // 2
 {
 	mood_name				= upza_ocean_2;
 	transition_time			= 6.0f;
@@ -78,7 +78,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*] // 3
 {
 	mood_name				= upza_ocean_3;
 	transition_time			= 6.0f;
@@ -117,7 +117,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*] // 3_2
 {
 	mood_name				= upza_ocean_3_2;
 	transition_time			= 1.0f;
@@ -156,7 +156,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*] // 4 - beginning of cloud forest
 {
 	mood_name				= upza_ocean_4;
 	transition_time			= 6.0f;
@@ -198,7 +198,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*] // tavern
 {
 	mood_name				= upza_ocean_tavern;
 	transition_time			= 1.5f;
@@ -236,9 +236,8 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]	// tavern_2 - To be used on exit from building, to quickly transition to mood ocean_1 
 {
-	// To be used on exit from building, to quickly transition to mood ocean_1 
 	mood_name				= upza_ocean_tavern_2;
 	transition_time			= 1.0f;
 	interior				= false;
@@ -275,9 +274,8 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]	// 5 - For use inside buildings
 {
-	// For use inside buildings
 	mood_name				= upza_ocean_5;
 	transition_time			= 1.0f;
 	interior				= false;
@@ -314,9 +312,8 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]	// teleport - This is the mood for entry via the hub
 {
-	// This is the mood for entry via the hub
 	mood_name				= upza_ocean_teleport;
 	transition_time			= 22.0f;
 	interior				= false;
@@ -353,9 +350,8 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]	// teleport_2 -  This is for entry via the small teleporter
 {
-	// This is for entry via the small teleporter
 	mood_name				= upza_ocean_teleport_2;
 	transition_time			= 20.0f;
 	interior				= false;
