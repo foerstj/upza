@@ -7,6 +7,7 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+		membership = monster, party_bandit_ranged, bandit;
 		[template_triggers]
 		{
 			[*]
@@ -30,6 +31,18 @@
 			es_feet = bo_un_bo_le_upza_leg;
 		}
 	}
+	[mind]
+	{
+		com_channels = dyn_party, bandit;
+		com_range = 8.0;
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+    }
 }
 [t:template,n:upza_base_mate_zombie_fg]
 {
@@ -40,6 +53,7 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+		membership = monster, party_bandit_ranged, bandit;
 		[template_triggers]
 		{
 			[*]
@@ -63,6 +77,18 @@
 			es_feet = bo_un_bo_le_upza_leg;
 		}
 	}
+	[mind]
+	{
+		com_channels = dyn_party, bandit;
+		com_range = 8.0;
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+    }
 }
 [t:template,n:upza_base_mate_zombie_df]
 {
@@ -73,6 +99,7 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+		membership = monster, party_bandit_ranged, bandit;
 		[template_triggers]
 		{
 			[*]
@@ -96,6 +123,18 @@
 			es_feet = bo_un_bo_le_upza_leg;
 		}
 	}
+	[mind]
+	{
+		com_channels = dyn_party, bandit;
+		com_range = 8.0;
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+    }
 }
 
 [t:template,n:upza_mate_zombie_01] { specializes = upza_mate_zombie_01_base; }
@@ -346,5 +385,18 @@
 				action* = call_sfx_script("unique_ray_red(sgx)");
 			}
 		}
+	}
+   	[mind]
+   	{
+		jat_brain							= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party			= true
+			&actor_creates_own_party			= true
+			&form_party_on_friend_entered_ICZ	= true
+			&party_template						= "party_bandit_ranged";
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
 	}
 }
