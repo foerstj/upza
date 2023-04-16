@@ -208,12 +208,6 @@
             description   = "Find the Meren Fish Stone in the Temple of the Stars in the Cloud Forest to the South.";
             address = ocean:conversations:conversation_tas_quest;
         }
-        [*]
-        {
-            order         = 1;   //when you find the stone
-            speaker       = "";
-            description   = "Return to Priest Tas.";
-        }
     }
 
     [goto_lang]    //Goto Lang Quest

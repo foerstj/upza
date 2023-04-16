@@ -128,48 +128,60 @@
 }
 [t:upza_zombie_meren_shop_mage,n:0x04d004cc]
 {
-	[common]
-	{
-		screen_name = "Historian Lily Prieve";
-	}
 	[placement]
 	{
 	  q orientation = 0,0.923879,0,-0.382684;
 	  p position = 0.236053,-3.6125,1.26058,0xfb5c9c7f;
 	}
 }
-[t:mp_townfolk_male_05,n:0x04d005a5]
+[t:upza_zombie_meren_priest,n:0x04d005a5]
 {
+    [actor] { drops_spellbook = true; }
 	[common]
 	{
 		screen_name = "Utraean Priest Tas";
-	}
-	[conversation]
-	{
-		[conversations]
+		[instance_triggers]
 		{
-			* = conversation_flessan_all_complete;
-			* = conversation_tas;
-			* = conversation_tas_complete;
-			* = conversation_tas_goto;
-			* = conversation_tas_quest;
-			* = conversation_tas_red;
-			* = conversation_tas_ring;
-			* = conversation_tas_stone;
-			* = zconversation_directions;
+			[*]
+			{
+				action* = change_quest_state("goto_meren","completed",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("quest_townstones","active",0);
+				action* = change_quest_state("quest_meren","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[inventory]
 	{
-		[equipment]
+		[other]
 		{
-			es_chest = bd_ra_ro_m_g_c_084;
-			es_feet = bo_bo_le_light;
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
+			il_main = book_glb_magic_tas;
 		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_tas.skrit;
 	}
 	[placement]
 	{
@@ -689,10 +701,6 @@
 }
 [t:upza_zombie_meren_shop_smith,n:0x04d004cb]
 {
-	[common]
-	{
-		screen_name = "Wern Silverforge";
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.92388,0,0.382683;
