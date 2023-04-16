@@ -530,53 +530,19 @@
 	  p position = 3.06224,0,0.622193,0xb3b6d9e6;
 	}
 }
-[t:mp_guard_ranged,n:0x04d00635]
+[t:upza_zombie_meren_guard_ranged,n:0x04d00635]
 {
-	[aspect]
-	{
-	  b is_collidable = false;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 23;
-	  f high_level_2w = 66;
-	  f high_level_3w = 98;
-	  f low_level = 18;
-	  f low_level_2w = 65;
-	  f low_level_3w = 97;
-	}
 	[common]
 	{
 		dev_instance_text = "RANGER_CAVES";
 		screen_name = "Ranger";
 	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_ranger_caves;
-			* = conversation_ranger_caves_high;
-			* = conversation_ranger_caves_low;
-			* = conversation_ranger_caves_red;
-			* = zconversation_directions;
-		}
-	}
 	[inventory]
 	{
 		[equipment]
 		{
-			es_chest = bd_ro_m_g_c_071;
-			es_feet = bo_bo_ch_f_g_c_avg;
-			es_head = he_op_pl_avg;
 			es_shield_hand = bw_g_c_s_m_c_avg;
 		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -943,47 +909,19 @@
 	  p position = -5.73512,-0.0499992,-1.4437,0xdff3d71d;
 	}
 }
-[t:mp_guard_05,n:0x04d00633]
+[t:upza_zombie_meren_guard_ranged,n:0x04d00633]
 {
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 25;
-	  f high_level_2w = 69;
-	  f high_level_3w = 99;
-	  f low_level = 18;
-	  f low_level_2w = 65;
-	  f low_level_3w = 97;
-	}
 	[common]
 	{
 		dev_instance_text = "RANGER_LIFT";
 		screen_name = "Ranger";
 	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_ranger_lift;
-			* = conversation_ranger_lift_high;
-			* = conversation_ranger_lift_low;
-			* = conversation_ranger_lift_red;
-			* = zconversation_directions;
-		}
-	}
 	[inventory]
 	{
-		selected_active_location = il_active_ranged_weapon;
 		[equipment]
 		{
-			es_chest = bd_ba_r_g_o_fin;
-			es_forearms = gl_ga_bl_f_g_c_avg;
 			es_shield_hand = bw_g_d_s_l_c_avg;
 		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{

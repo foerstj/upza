@@ -1,0 +1,99 @@
+[t:template,n:upza_base_zombie_meren_guard]
+{
+    specializes = upza_base_zombie_thin;
+
+    // look from dsx_slime_zombie
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_slime_zombie; }
+    }
+
+    // stats & loot from bandit_melee_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =   16, 0;
+			intelligence =  11, 0;
+			dexterity =   13, 0;
+			melee =  19,  0;
+            ranged = 19,  0;  // ADDED for ranged guards
+		}
+	}
+	[aspect]
+    {
+		life = 420;
+		max_life = 420;
+		mana = 20;
+		max_mana = 20;
+   		experience_value = 2230;
+    }
+	[attack]
+    {
+		attack_range = 0.5;
+		damage_max = 65;
+		damage_min = 60;
+    }
+   	[defend] { defense=305; }
+	[inventory]
+	{
+
+		[pcontent]
+		{
+			[all*]
+			{
+				es_feet = bo_bo_le_light;
+                es_weapon_hand = sd_g_c_gl_1h_avg;
+			}
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/66-70;
+					il_main = #armor/200-250;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/75-89;
+	                il_main = #armor/-rare(1)/226-287;
+                    il_main = #*/-rare(1)/75-89;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/75-89;
+	                il_main = #armor/-unique(2)/226-287;
+                    il_main = #*/-unique(2)/75-89;
+	            }
+				[gold*]
+				{
+					max = 3488;
+					min = 2560;
+					min_pile = 397;
+					piles = 2 - 4;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:upza_zombie_meren_guard_ranged] { specializes = upza_zombie_meren_guard_ranged_base; }
+[t:template,n:upza_zombie_meren_guard_ranged_base]
+{
+    specializes = upza_base_zombie_meren_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_shield_hand = #bow/-no_mod/40-50;  // nvm both are equipped anyways
+		}
+	}
+}
