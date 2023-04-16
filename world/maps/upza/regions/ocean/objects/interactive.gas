@@ -27,6 +27,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x04D003E7;
 		msg_type_opening = we_trigger_activate;
 	}
@@ -105,6 +106,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x04D003E3;
 		msg_type_opening = we_trigger_activate;
 	}
@@ -194,6 +196,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x04D003DF;
 		msg_type_opening = we_trigger_activate;
 	}
@@ -285,6 +288,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x04D003E2;
 		msg_type_opening = we_trigger_activate;
 	}
