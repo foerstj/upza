@@ -93,7 +93,26 @@
 		selected_active_location = il_active_ranged_weapon;
 		[equipment]
 		{
-			es_shield_hand = #bow/-no_mod/40-50;  // nvm both are equipped anyways
+			es_shield_hand = #bow/-no_mod/40-50;  // nvm they are equipped anyways
+		}
+	}
+}
+
+[t:template,n:upza_zombie_meren_guard] { specializes = upza_zombie_meren_guard_base; }
+[t:template,n:upza_zombie_meren_guard_base]
+{
+    specializes = upza_base_zombie_meren_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = #sword/-no_mod/40-50;  // nvm they are equipped anyways
 		}
 	}
 }
