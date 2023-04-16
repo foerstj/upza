@@ -7,6 +7,16 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
 	}
 	[guts_manager]
 	{
@@ -30,6 +40,16 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
 	}
 	[guts_manager]
 	{
@@ -53,6 +73,16 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
 	}
 	[guts_manager]
 	{
@@ -305,5 +335,16 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie Captain";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+				action* = call_sfx_script("unique_ray_red(sgx)");
+			}
+		}
 	}
 }
