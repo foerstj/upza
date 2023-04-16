@@ -195,19 +195,8 @@
 	  p position = 0.76282,-17.7,-3.8961,0x80dade1d;
 	}
 }
-[t:verrus,n:0x09601acf]
+[t:upza_zombie_cf_shop_verrus,n:0x09601acf]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_verrus;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.258819,0,0.965926;

@@ -652,20 +652,8 @@
 	  p position = -3.74178,0,-0.822435,0x06c12c58;
 	}
 }
-[t:endar_gareth,n:0x0930098b]
+[t:upza_zombie_cf_shop_endar,n:0x0930098b]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_endar;
-			* = conversation_endar_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.986286,0,-0.165048;
