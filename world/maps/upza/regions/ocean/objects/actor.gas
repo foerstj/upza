@@ -408,6 +408,51 @@
 	  p position = -0.640778,-8.34465e-007,1.82784,0x9d70b93b;
 	}
 }
+[t:troll_forest_boss_01,n:0x04d0052b]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_ocean_1");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+				condition* = party_member_within_sphere(20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = mood_change("upza_ocean_captain");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.965303,0,0.261134;
+	  p position = -0.766647,0,-1.80497,0x8c4b51ad;
+	}
+}
 [t:spiked_maw,n:0x04d0063b]
 {
 	[placement]

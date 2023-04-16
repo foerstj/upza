@@ -389,3 +389,43 @@
 		room_type			= rt_generic;
 	}
 }
+
+// OWN
+[mood_setting*] // captain
+{
+	mood_name				= upza_ocean_captain;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF404040;  // darker than 0xFF646484
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		//standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_fortkroth_03";  // Gresh music
+		room_type			= rt_generic;
+	}
+}
