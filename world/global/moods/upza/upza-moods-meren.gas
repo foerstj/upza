@@ -1,6 +1,6 @@
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_ocean_1;
+	mood_name				= upza_ocean_1;
 	transition_time			= 6.0f;
 	interior				= false;
 
@@ -38,7 +38,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_ocean_2;
+	mood_name				= upza_ocean_2;
 	transition_time			= 6.0f;
 	interior				= false;
 
@@ -80,7 +80,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_ocean_3;
+	mood_name				= upza_ocean_3;
 	transition_time			= 6.0f;
 	interior				= false;
 
@@ -119,7 +119,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_ocean_3_2;
+	mood_name				= upza_ocean_3_2;
 	transition_time			= 1.0f;
 	interior				= false;
 
@@ -158,7 +158,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_ocean_4;
+	mood_name				= upza_ocean_4;
 	transition_time			= 6.0f;
 	interior				= false;
 
@@ -200,7 +200,7 @@
 }
 [mood_setting*]
 {
-	mood_name				= multiplayer_world_ocean_tavern;
+	mood_name				= upza_ocean_tavern;
 	transition_time			= 1.5f;
 	interior				= false;
 
@@ -239,7 +239,7 @@
 [mood_setting*]
 {
 	// To be used on exit from building, to quickly transition to mood ocean_1 
-	mood_name				= multiplayer_world_ocean_tavern_2;
+	mood_name				= upza_ocean_tavern_2;
 	transition_time			= 1.0f;
 	interior				= false;
 
@@ -278,7 +278,7 @@
 [mood_setting*]
 {
 	// For use inside buildings
-	mood_name				= multiplayer_world_ocean_5;
+	mood_name				= upza_ocean_5;
 	transition_time			= 1.0f;
 	interior				= false;
 
@@ -317,7 +317,7 @@
 [mood_setting*]
 {
 	// This is the mood for entry via the hub
-	mood_name				= multiplayer_world_ocean_teleport;
+	mood_name				= upza_ocean_teleport;
 	transition_time			= 22.0f;
 	interior				= false;
 
@@ -356,7 +356,7 @@
 [mood_setting*]
 {
 	// This is for entry via the small teleporter
-	mood_name				= multiplayer_world_ocean_teleport_2;
+	mood_name				= upza_ocean_teleport_2;
 	transition_time			= 20.0f;
 	interior				= false;
 

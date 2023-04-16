@@ -113,7 +113,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_5");
+				action* = mood_change("upza_ocean_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -142,7 +142,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern_2");
+				action* = mood_change("upza_ocean_tavern_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -264,7 +264,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern");
+				action* = mood_change("upza_ocean_tavern");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -292,7 +292,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern_2");
+				action* = mood_change("upza_ocean_tavern_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -469,7 +469,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern_2");
+				action* = mood_change("upza_ocean_tavern_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -498,7 +498,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern");
+				action* = mood_change("upza_ocean_tavern");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -663,7 +663,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_5");
+				action* = mood_change("upza_ocean_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -692,7 +692,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern_2");
+				action* = mood_change("upza_ocean_tavern_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,0.500000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -811,7 +811,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_2");
+				action* = mood_change("upza_ocean_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(14.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -840,7 +840,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(14.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -870,7 +870,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_3_2");
+				action* = mood_change("upza_ocean_3_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.500000,1.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -974,7 +974,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_3");
+				action* = mood_change("upza_ocean_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(12.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1003,7 +1003,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_2");
+				action* = mood_change("upza_ocean_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(12.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1032,7 +1032,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(7.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1061,7 +1061,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_2");
+				action* = mood_change("upza_ocean_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(7.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1129,7 +1129,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1288,7 +1288,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern_2");
+				action* = mood_change("upza_ocean_tavern_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1317,7 +1317,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_5");
+				action* = mood_change("upza_ocean_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1526,7 +1526,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_tavern_2");
+				action* = mood_change("upza_ocean_tavern_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1555,7 +1555,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_5");
+				action* = mood_change("upza_ocean_5");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,1.000000,1.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1584,7 +1584,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1628,7 +1628,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1672,7 +1672,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1716,7 +1716,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1776,7 +1776,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1820,7 +1820,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1864,7 +1864,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1975,7 +1975,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_3");
+				action* = mood_change("upza_ocean_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2034,7 +2034,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_1");
+				action* = mood_change("upza_ocean_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,1.000000,5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2078,7 +2078,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_3");
+				action* = mood_change("upza_ocean_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2107,7 +2107,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_2");
+				action* = mood_change("upza_ocean_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.000000,0.700000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2223,7 +2223,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_4");
+				action* = mood_change("upza_ocean_4");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(22.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -2268,7 +2268,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_ocean_3");
+				action* = mood_change("upza_ocean_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(22.000000,1.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
