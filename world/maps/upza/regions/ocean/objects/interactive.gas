@@ -16,6 +16,7 @@
 	[placement]
 	{
 	  p position = 2.69182,-3,1.77266,0x1beb0f66;
+		use_point_scids = 0x04d00242;
 	}
 }
 [t:door_grs_peasant_left,n:0x04d003dd]
@@ -43,6 +44,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0x4EB34A12;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0x4EB34A12;
 	}
@@ -79,6 +84,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0x97D3DE3D;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0x97D3DE3D;
 	}
@@ -124,6 +133,7 @@
 	[placement]
 	{
 	  p position = -2.61959,-3.6125,1.58008,0xfb5c9c7f;
+		use_point_scids = 0x04d0024e;
 	}
 }
 [t:sign_glb_magicshop_01,n:0x04d004cf]
@@ -148,6 +158,10 @@
 	{
 	  x siege_light = 0x51043A03;
 	}
+	[light_flicker]
+	{
+	  x siege_light = 0x51043A03;
+	}
 	[placement]
 	{
 	  p position = -3.16482,7.62939e-006,-3.51534,0x6e043c22;
@@ -160,6 +174,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0x1C223305;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0x1C223305;
 	}
@@ -186,6 +204,27 @@
 		use_point_scids = 0x04d00598, 0x04d0059a;
 	}
 }
+[t:wood_glb_pile_fireplace_burnt_lightable,n:0x04d0019f]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x417D235B;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x417D235B;
+	}
+	[msg_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x04D004BD;
+	}
+	[placement]
+	{
+	  p position = -2.63812,-3.75,1.51374,0x6db5a4cb;
+		use_point_scids = 0x04d00251;
+	}
+}
 [t:sign_glb_blacksmith_03,n:0x04d005b4]
 {
 	[common]
@@ -208,6 +247,10 @@
 	{
 	  x siege_light = 0xE09AA970;
 	}
+	[light_flicker]
+	{
+	  x siege_light = 0xE09AA970;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -221,6 +264,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0xE8928FF4;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0xE8928FF4;
 	}
@@ -266,6 +313,7 @@
 	[placement]
 	{
 	  p position = -2.85523,-3.65,1.64228,0x986a4bc2;
+		use_point_scids = 0x04d0024f;
 	}
 }
 [t:lamp_glb_post_lightable,n:0x04d00120]
@@ -275,6 +323,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0x64144573;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0x64144573;
 	}
@@ -319,6 +371,10 @@
 	{
 	  x siege_light = 0x3AA085FA;
 	}
+	[light_flicker]
+	{
+	  x siege_light = 0x3AA085FA;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -330,6 +386,14 @@
 	[aspect]
 	{
 	  f scale_multiplier = 0.8;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x5C7FD17A;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x5C7FD17A;
 	}
 	[placement]
 	{
@@ -361,6 +425,10 @@
 	{
 	  x siege_light = 0x0B5EFA05;
 	}
+	[light_flicker]
+	{
+	  x siege_light = 0x0B5EFA05;
+	}
 	[placement]
 	{
 	  p position = -3.67602,0,1.19983,0x1d633dcd;
@@ -373,6 +441,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0x7389AC0E;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0x7389AC0E;
 	}
@@ -460,6 +532,10 @@
 	{
 	  x siege_light = 0xCF66B16B;
 	}
+	[light_flicker]
+	{
+	  x siege_light = 0xCF66B16B;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -476,6 +552,10 @@
 	{
 	  x siege_light = 0x38901415;
 	}
+	[light_flicker]
+	{
+	  x siege_light = 0x38901415;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -489,6 +569,10 @@
 	  f scale_multiplier = 0.8;
 	}
 	[light_enable]
+	{
+	  x siege_light = 0x3E6FEC44;
+	}
+	[light_flicker]
 	{
 	  x siege_light = 0x3E6FEC44;
 	}
@@ -532,26 +616,6 @@
 	  q orientation = 0,1,0,0;
 	  p position = 0.000602722,0.199387,-0.0143566,0x1c82b51d;
 		use_point_scids = 0x04d0060e;
-	}
-}
-[t:wood_glb_pile_fireplace_burnt_lightable,n:0x04d0019f]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x417D235B;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x417D235B;
-	}
-	[msg_forward]
-	{
-	  f delay = 1;
-	  x send_to_scid = 0x04D004BD;
-	}
-	[placement]
-	{
-	  p position = -3.51372,-4.05,1.32744,0x94b2c44b;
 	}
 }
 [t:lever_glb_06_message_rescaled,n:0x04d0076c]
