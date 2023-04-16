@@ -14,24 +14,11 @@
 	  p position = -0.860793,0,-1.08957,0xadc1bceb;
 	}
 }
-[t:mp_townfolk_female_02,n:0x04d005f0]
+[t:upza_zombie_meren_townfolk,n:0x04d005f0]
 {
 	[common]
 	{
 		screen_name = "Julla Binsen";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_julla;
-			* = conversation_julla_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -39,24 +26,11 @@
 	  p position = 2.16759,-3,0.23044,0x1beb0f66;
 	}
 }
-[t:mp_townfolk_female_05,n:0x04d005fa]
+[t:upza_zombie_meren_townfolk,n:0x04d005fa]
 {
 	[common]
 	{
 		screen_name = "Cathilla Binsen";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_cathilla;
-			* = conversation_cathilla_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -80,24 +54,11 @@
 	  p position = -2.21999,0,1.59266,0x0de87ea0;
 	}
 }
-[t:mp_gypsy_male_01,n:0x04d005c6]
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005c6]
 {
 	[common]
 	{
 		screen_name = "Salomo Jugarr";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_salomo;
-			* = conversation_salomo_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -105,24 +66,11 @@
 	  p position = 0.228971,0.0375032,-1.53613,0x3e5fa173;
 	}
 }
-[t:mp_townfolk_female_04,n:0x04d005b6]
+[t:upza_zombie_meren_townfolk,n:0x04d005b6]
 {
 	[common]
 	{
 		screen_name = "Griselde Helran";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_grisanbar;
-			* = conversation_grisanbar_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -130,24 +78,11 @@
 	  p position = 2.26192,-1.85,0.989798,0x815eab0d;
 	}
 }
-[t:mp_townfolk_male_02,n:0x04d005c2]
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005c2]
 {
 	[common]
 	{
 		screen_name = "Oktavian Meliam";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_oktavian;
-			* = conversation_oktavian_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -155,24 +90,11 @@
 	  p position = 0.75909,-1.85,4.09099,0x815eab0d;
 	}
 }
-[t:mp_townfolk_female_03,n:0x04d00764]
+[t:upza_zombie_meren_townfolk,n:0x04d00764]
 {
 	[common]
 	{
 		screen_name = "Lirrit Orion";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_almai;
-			* = conversation_almai_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -180,24 +102,11 @@
 	  p position = -0.419523,-1.15,1.91068,0x11cd281d;
 	}
 }
-[t:mp_townfolk_female_01,n:0x04d00765]
+[t:upza_zombie_meren_townfolk,n:0x04d00765]
 {
 	[common]
 	{
 		screen_name = "Mira Coran";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_mira;
-			* = conversation_mira_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -205,24 +114,11 @@
 	  p position = -1.12448,-1.15,1.0655,0x11cd281d;
 	}
 }
-[t:mp_townfolk_m_02,n:0x04d00766]
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d00766]
 {
 	[common]
 	{
 		screen_name = "Scud Geviche";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_scud;
-			* = conversation_scud_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -372,24 +268,11 @@
 	  p position = 0.414093,0,-2.45509,0xebbaf89e;
 	}
 }
-[t:mp_village_idiot,n:0x04d00595]
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d00595]
 {
 	[common]
 	{
 		screen_name = "Beltak Ratslayer";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_beltak;
-			* = conversation_beltak_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -916,24 +799,11 @@
 	  p position = 0.599038,0,-1.51795,0x3097f50a;
 	}
 }
-[t:mp_farmer_male_old,n:0x04d005fe]
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005fe]
 {
 	[common]
 	{
 		screen_name = "Eliar Helmsvor";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_eliar;
-			* = conversation_eliar_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{

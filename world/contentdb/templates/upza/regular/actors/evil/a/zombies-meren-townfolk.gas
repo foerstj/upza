@@ -1,0 +1,107 @@
+[t:template,n:upza_zombie_meren_townfolk] { specializes = upza_zombie_meren_townfolk_base; }
+[t:template,n:upza_zombie_meren_townfolk_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // look & behavior from walking_corpse
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_zo-02; }
+    }
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from hell_boar
+	[actor]
+	{
+		[skills]
+		{
+			strength =  17, 0;
+			intelligence =  6, 0;
+			dexterity =  12, 0;
+            melee =  8,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 764;
+		life = 315;
+        max_life = 315;
+        mana = 8;
+		max_mana = 8;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 62;
+		damage_min = 60;
+	}
+   	[defend] { defense=170; }
+}
+
+[t:template,n:upza_zombie_meren_townfolk_pudgy] { specializes = upza_zombie_meren_townfolk_pudgy_base; }
+[t:template,n:upza_zombie_meren_townfolk_pudgy_base]
+{
+    specializes = upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // behavior from walking_corpse, edited
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+
+        // from base_zombie_03
+		jat_attack_object_melee 			= world\ai\jobs\common\job_attack_object_melee.skrit
+			?run_chance 					= 1.0;
+	}
+
+    // stats & loot from hell_boar
+	[actor]
+	{
+		[skills]
+		{
+			strength =  17, 0;
+			intelligence =  6, 0;
+			dexterity =  12, 0;
+            melee =  8,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 764;
+		life = 315;
+        max_life = 315;
+        mana = 8;
+		max_mana = 8;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 62;
+		damage_min = 60;
+	}
+   	[defend] { defense=170; }
+}
