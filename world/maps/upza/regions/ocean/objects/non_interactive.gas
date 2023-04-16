@@ -1362,6 +1362,7 @@
 {
 	[aspect]
 	{
+	  b does_block_path = false;
 	  b interest_only = true;
 	}
 	[placement]
@@ -2115,6 +2116,10 @@
 }
 [t:table_csl_webbed_01,n:0x04d00755]
 {
+	[aspect]
+	{
+	  b does_block_path = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
