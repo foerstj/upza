@@ -22,19 +22,21 @@ echo %mode%
 
 :: pre-build checks
 pushd %gaspy%
-venv\Scripts\python -m build.check_player_world_locations %map%
-if %errorlevel% neq 0 pause
-venv\Scripts\python -m build.check_lore %map%
-if %errorlevel% neq 0 pause
-venv\Scripts\python -m build.check_moods %map%
-if %errorlevel% neq 0 pause
-venv\Scripts\python -m build.check_quests %map%
-if %errorlevel% neq 0 pause
-venv\Scripts\python -m build.check_dupe_node_ids %map%
-if %errorlevel% neq 0 pause
-venv\Scripts\python -m build.check_tips %map%
-if %errorlevel% neq 0 pause
 setlocal EnableDelayedExpansion
+if not "%mode%"=="light" (
+  venv\Scripts\python -m build.check_player_world_locations %map%
+  if %errorlevel% neq 0 pause
+  venv\Scripts\python -m build.check_lore %map%
+  if %errorlevel% neq 0 pause
+  venv\Scripts\python -m build.check_moods %map%
+  if %errorlevel% neq 0 pause
+  venv\Scripts\python -m build.check_quests %map%
+  if %errorlevel% neq 0 pause
+  venv\Scripts\python -m build.check_dupe_node_ids %map%
+  if %errorlevel% neq 0 pause
+  venv\Scripts\python -m build.check_tips %map%
+  if %errorlevel% neq 0 pause
+)
 if "%mode%"=="release" (
   venv\Scripts\python -m build.check_cam_blocks %map%
   if !errorlevel! neq 0 pause
@@ -44,20 +46,21 @@ popd
 
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
-::robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
+::robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
+robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
 ::for %%r in (island hades dunes2island dunes2hades mega_forest mega_forest_r2 mega_forest_r3) do (
-::  robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
-::)
+for %%r in (ocean dark_forest_r2 sr_r5) do (
+  robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
+)
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
 if %errorlevel% neq 0 pause
-SETLOCAL EnableDelayedExpansion
-if not "%mode%"=="light" (
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
   venv\Scripts\python -m build.add_world_levels %map% "%tmp%\Bits" "%doc_dsloa%\Bits"
   if !errorlevel! neq 0 pause
 )
-ENDLOCAL
+endlocal
 popd
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
