@@ -1,0 +1,395 @@
+[mood_setting*]
+{
+	mood_name				= multiplayer_world_ocean_1;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= multiplayer_world_ocean_2;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF747484;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 50.0f;
+		lightning			= false;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.0f;
+		wind_direction		= 0.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= multiplayer_world_ocean_3;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF505552;
+		fog_density			= 0.5f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+   	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= multiplayer_world_ocean_3_2;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF505552;
+		fog_density			= 0.5f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+   	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= multiplayer_world_ocean_4;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF303830;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 150.0f;
+		lightning			= false;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 0.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_TempleRuins_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= multiplayer_world_ocean_tavern;
+	transition_time			= 1.5f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "s_e_env_tavern";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// To be used on exit from building, to quickly transition to mood ocean_1 
+	mood_name				= multiplayer_world_ocean_tavern_2;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// For use inside buildings
+	mood_name				= multiplayer_world_ocean_5;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the mood for entry via the hub
+	mood_name				= multiplayer_world_ocean_teleport;
+	transition_time			= 22.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is for entry via the small teleporter
+	mood_name				= multiplayer_world_ocean_teleport_2;
+	transition_time			= 20.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF505552;
+		fog_density			= 0.5f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+   	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
