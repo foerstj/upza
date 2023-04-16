@@ -416,10 +416,10 @@
 		{
 			[*]
 			{
-				action* = mood_change("upza_ocean_1");
+				action* = mood_change("upza_ocean_captain_defeated");
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_killed",0,"on_every_message");
-				condition* = party_member_within_sphere(20.000000,"on_every_enter");
+				condition* = party_member_within_sphere(20.000000,"wait_for_every_message");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -434,7 +434,7 @@
 			{
 				action* = mood_change("upza_ocean_captain");
 			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+				condition* = party_member_within_sphere(16.000000,"on_first_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -442,7 +442,7 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
-			  b single_shot = false;
+			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
