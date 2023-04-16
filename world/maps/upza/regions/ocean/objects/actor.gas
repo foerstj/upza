@@ -136,7 +136,10 @@
 }
 [t:upza_zombie_meren_priest,n:0x04d005a5]
 {
-    [actor] { drops_spellbook = true; }
+	[actor]
+	{
+	  b drops_spellbook = true;
+	}
 	[common]
 	{
 		screen_name = "Utraean Priest Tas";
@@ -755,8 +758,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.942641,0,-0.333807;
-	  p position = -1.77773,-0.85,-1.67045,0x951e9074;
+	  q orientation = 0,-0.430511,0,0.902585;
+	  p position = 2.26258,-3.65,-0.120829,0x986a4bc2;
 	}
 }
 [t:self_service_mule,n:0x04d00200]
