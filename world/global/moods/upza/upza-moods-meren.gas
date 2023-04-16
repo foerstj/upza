@@ -1,4 +1,4 @@
-[mood_setting*] // 1
+[mood_setting*] // 1 - town, beach, startpos
 {
 	mood_name				= upza_ocean_1;
 	transition_time			= 6.0f;
@@ -32,11 +32,11 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay	= 5.0f;
-		standard_track		= "s_m_BesiegedTown_02";
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*] // 2
+[mood_setting*] // 2 - northern middle area
 {
 	mood_name				= upza_ocean_2;
 	transition_time			= 6.0f;
@@ -78,7 +78,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*] // 3
+[mood_setting*] // 3 - upper area
 {
 	mood_name				= upza_ocean_3;
 	transition_time			= 6.0f;
@@ -117,7 +117,7 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*] // 3_2
+[mood_setting*] // 3_2 - upper area, transition from crystal caverns
 {
 	mood_name				= upza_ocean_3_2;
 	transition_time			= 1.0f;
@@ -230,9 +230,9 @@
 
 	[music]
 	{
-		ambient_track		= "s_e_env_tavern";
+		// ambient_track		= "s_e_env_tavern";
 		standard_repeat_delay	= 5.0f;
-		standard_track		= "s_m_BesiegedTown_02";
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
 		room_type			= rt_generic;
 	}
 }
@@ -270,7 +270,7 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay	= 5.0f;
-		standard_track		= "s_m_BesiegedTown_02";
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
 		room_type			= rt_generic;
 	}
 }
@@ -308,7 +308,7 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay	= 5.0f;
-		standard_track		= "s_m_BesiegedTown_02";
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
 		room_type			= rt_generic;
 	}
 }
@@ -346,7 +346,7 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay	= 10.0f;
-		standard_track		= "s_m_BesiegedTown_02";
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
 		room_type			= rt_generic;
 	}
 }
