@@ -59,6 +59,24 @@
 	[common]
 	{
 		screen_name = "Tyoovard";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -80,6 +98,24 @@
 	[common]
 	{
 		screen_name = "Budura";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -101,6 +137,24 @@
 	[common]
 	{
 		screen_name = "Pally";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -338,6 +392,24 @@
 	[common]
 	{
 		screen_name = "Meks";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -375,10 +447,9 @@
 		{
 			[*]
 			{
-				action* = mood_change("upza_ocean_captain_defeated");
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_killed",0,"on_every_message");
-				condition* = party_member_within_sphere(20.000000,"wait_for_every_message");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -387,21 +458,6 @@
 			  f reset_duration = 0.000000;
 			  b single_player = true;
 			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = mood_change("upza_ocean_captain");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(16.000000,"on_first_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
@@ -427,6 +483,24 @@
 	[common]
 	{
 		screen_name = "Fincus";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -448,6 +522,24 @@
 	[common]
 	{
 		screen_name = "Kazara";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -469,6 +561,24 @@
 	[common]
 	{
 		screen_name = "Bollogg";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -477,10 +587,7 @@
 		{
 			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
 			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_active_primary_spell = spell_iceblast;
+			es_spellbook = book_glb_magic_01;
 		}
 	}
 	[placement]
@@ -493,6 +600,24 @@
 	[common]
 	{
 		screen_name = "Daisy";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -514,6 +639,24 @@
 	[common]
 	{
 		screen_name = "Fennra";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -522,10 +665,7 @@
 		{
 			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
 			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_active_primary_spell = spell_fireball;
+			es_spellbook = book_glb_magic_01;
 		}
 	}
 	[placement]
@@ -1321,6 +1461,24 @@
 	[common]
 	{
 		screen_name = "Grindzold";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{
@@ -1329,10 +1487,7 @@
 		{
 			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
 			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_active_primary_spell = spell_fireball;
+			es_spellbook = book_glb_magic_01;
 		}
 	}
 	[placement]
@@ -1345,6 +1500,24 @@
 	[common]
 	{
 		screen_name = "Kendrian";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00577,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[inventory]
 	{

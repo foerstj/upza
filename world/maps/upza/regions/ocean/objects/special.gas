@@ -772,6 +772,90 @@
 	  p position = -0.00757217,-0.404982,-0.0164261,0x744c06d4;
 	}
 }
+[t:trigger_change_mood_box,n:0x04d00569]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_ocean_captain");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.200764,1.90735e-006,-0.58368,0x8c4b51ad;
+	}
+}
+[t:accumulate_trigger,n:0x04d00577]
+{
+	[generic_accumtrigger]
+	{
+	  i num_til_send = 12;
+	  x send_to_scid = 0x04D00579;
+	}
+	[placement]
+	{
+	  p position = 0.198402,0,0.390109,0x8c4b51ad;
+	}
+}
+[t:trigger_change_mood_box,n:0x04d00579]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_trigger_deactivate",0x04D00569,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = mood_change("upza_ocean_captain_defeated"), delay(1);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+				condition* = party_member_within_sphere(20.000000,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.192973,0,1.40926,0x8c4b51ad;
+	}
+}
 [t:trigger_change_mood_box,n:0x04d00599]
 {
 	[common]
