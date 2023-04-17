@@ -43,6 +43,71 @@
 			&meander		= true
 			&still			= false;
     }
+
+    // Stats & loot from skeleton_mercenary_archer
+	[actor]
+	{
+		[skills]
+		{
+			strength =  16, 0;
+			intelligence =  9, 0;
+			dexterity =  11, 0;
+			ranged =  36,  0;
+			melee =   37,  0;  // ADDED for melee
+		}
+	}
+	[aspect]
+	{
+		experience_value = 12000;
+		life = 525;
+		max_life = 525;
+		mana = 14;
+		max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 119;
+		damage_min = 100;
+	}
+	[defend] { defense=312; }
+    [inventory]
+    {
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/89-105;
+					il_main = #armor/53-260;
+        	        il_main = #nmagic/15-29;
+            	    il_main = #cmagic/15-28;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/95-113;
+	                il_main = #armor/-rare(1)/258-282;
+                    il_main = #*/-rare(1)/95-113;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/95-113;
+	                il_main = #armor/-unique(2)/258-282;
+                    il_main = #*/-unique(2)/95-113;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 14050;
+					min = 11800;
+				}
+			}
+		}
+	}
 }
 [t:template,n:upza_base_mate_zombie_fg]
 {
@@ -89,6 +154,71 @@
 			&meander		= true
 			&still			= false;
     }
+
+    // Stats & loot from skeleton_mercenary_archer
+	[actor]
+	{
+		[skills]
+		{
+			strength =  16, 0;
+			intelligence =  9, 0;
+			dexterity =  11, 0;
+			ranged =  36,  0;
+			melee =   37,  0;  // ADDED for melee
+		}
+	}
+	[aspect]
+	{
+		experience_value = 12000;
+		life = 525;
+		max_life = 525;
+		mana = 14;
+		max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 119;
+		damage_min = 100;
+	}
+	[defend] { defense=312; }
+    [inventory]
+    {
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/89-105;
+					il_main = #armor/53-260;
+        	        il_main = #nmagic/15-29;
+            	    il_main = #cmagic/15-28;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/95-113;
+	                il_main = #armor/-rare(1)/258-282;
+                    il_main = #*/-rare(1)/95-113;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/95-113;
+	                il_main = #armor/-unique(2)/258-282;
+                    il_main = #*/-unique(2)/95-113;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 14050;
+					min = 11800;
+				}
+			}
+		}
+	}
 }
 [t:template,n:upza_base_mate_zombie_df]
 {
@@ -135,6 +265,71 @@
 			&meander		= true
 			&still			= false;
     }
+
+    // Stats & loot from skeleton_mercenary_archer
+	[actor]
+	{
+		[skills]
+		{
+			strength =  16, 0;
+			intelligence =  9, 0;
+			dexterity =  11, 0;
+			ranged =  36,  0;
+			melee =   37,  0;  // ADDED for melee
+		}
+	}
+	[aspect]
+	{
+		experience_value = 12000;
+		life = 525;
+		max_life = 525;
+		mana = 14;
+		max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 119;
+		damage_min = 100;
+	}
+	[defend] { defense=312; }
+    [inventory]
+    {
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/89-105;
+					il_main = #armor/53-260;
+        	        il_main = #nmagic/15-29;
+            	    il_main = #cmagic/15-28;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/95-113;
+	                il_main = #armor/-rare(1)/258-282;
+                    il_main = #*/-rare(1)/95-113;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/95-113;
+	                il_main = #armor/-unique(2)/258-282;
+                    il_main = #*/-unique(2)/95-113;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 14050;
+					min = 11800;
+				}
+			}
+		}
+	}
 }
 
 [t:template,n:upza_mate_zombie_01] { specializes = upza_mate_zombie_01_base; }
@@ -398,5 +593,67 @@
 			&interest		= interest
 			&meander		= true
 			&still			= false;
+	}
+
+    // Stats & loot from skeleton_mercenary_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	19, 0;
+			intelligence =  13, 0;
+			dexterity =  	15, 0;
+			melee =  		40,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 42420;
+		life = 924;
+		max_life = 924;
+		mana = 10;
+		max_mana = 10;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 145;
+		damage_min = 115;
+	}
+	[defend] { defense=567; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/115-140;
+					il_main = #armor/380-430;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/138-150;
+	                il_main = #armor/-rare(1)/412-442;
+                    il_main = #*/-rare(1)/138-150;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/138-150;
+	                il_main = #armor/-unique(2)/412-442;
+                    il_main = #*/-unique(2)/138-150;
+	            }
+				[gold*]
+				{
+					max = 27104;
+					min = 21003;
+					min_pile = 2110;
+					piles = 4 - 6;
+				}
+			}
+		}
 	}
 }
