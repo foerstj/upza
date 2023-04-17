@@ -27,12 +27,12 @@
           i order = 0;
         }
     }
-    [stranded]
+    [upza]
     {
-        screen_name = "Stranded on Eastern Island";
+        screen_name = "Utraean Peninsula: Zombie Apocalypse";
         [*]
         {
-            description = "2nd Legion mates stranded on Eastern Island";
+            description = "Main quests of UPZA";
           i order = 0;
         }
     }
@@ -513,11 +513,11 @@
     }
 
 
-    // Stranded on Eastern Island
+    // UPZA
 
     [find_gnf]
     {
-        chapter = stranded;
+        chapter = upza;
         screen_name = "Find a safe passage to the Peninsula";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -531,6 +531,23 @@
             order = 1;
             required = false;
             description = "You can now add more 2nd Legion mates to your group.";
+        }
+    }
+
+    [zombie_mates]
+    {
+        chapter = upza;
+        screen_name = "Lost Mates";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Find your Captain and 2nd Legion Mates lost in Meren.";
+        }
+        [*]
+        {
+            order = 1;
+            description = "Release your Captain and 2nd Legion Mates from the Undead.";
         }
     }
 

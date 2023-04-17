@@ -776,11 +776,14 @@
 {
 	[common]
 	{
+		dev_instance_text = "MOOD+QUEST";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("upza_ocean_captain");
+				action* = change_quest_state("zombie_mates","active",0);
+				action* = change_quest_state("zombie_mates","active",1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(16.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -816,11 +819,15 @@
 {
 	[common]
 	{
+		dev_instance_text = "MOOD+QUEST";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = send_world_message("we_trigger_deactivate",0x04D00569,0f,"default","every",0);
+				action* = change_quest_state("zombie_mates","active",0);
+				action* = change_quest_state("zombie_mates","active",1);
+				action* = change_quest_state("zombie_mates","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;

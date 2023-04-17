@@ -482,6 +482,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 1;
 		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
 	  f scroll_rate = 10.000000;
+        activate_quest* = zombie_mates;
 	}
 	[text*]
 	{
@@ -570,6 +571,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 1;
 		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
 	  f scroll_rate = 10.000000;
+        activate_quest* = zombie_mates;
 	}
 	[text*]
 	{
