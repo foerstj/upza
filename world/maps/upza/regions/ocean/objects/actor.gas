@@ -556,7 +556,7 @@
 	  p position = -0.966208,0,-0.417852,0x8c4b51ad;
 	}
 }
-[t:upza_mate_zombie_08,n:0x04d0056d]
+[t:upza_mate_zombie_08_equipped,n:0x04d0056d]
 {
 	[common]
 	{
@@ -578,19 +578,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-		selected_active_location = il_active_primary_spell;
-		[equipment]
-		{
-			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
-			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_active_primary_spell = spell_iceblast;
 		}
 	}
 	[placement]
@@ -637,7 +624,7 @@
 	  p position = 1.17912,0,0.903168,0x5cf8262e;
 	}
 }
-[t:upza_mate_zombie_06,n:0x04d0056b]
+[t:upza_mate_zombie_06_equipped,n:0x04d0056b]
 {
 	[common]
 	{
@@ -659,19 +646,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-		selected_active_location = il_active_primary_spell;
-		[equipment]
-		{
-			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
-			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_active_primary_spell = spell_fireball;
 		}
 	}
 	[placement]
@@ -1462,7 +1436,7 @@
 	  p position = 2.54655,0,1.3193,0x4763bfcd;
 	}
 }
-[t:upza_mate_zombie_05,n:0x04d0056a]
+[t:upza_mate_zombie_05_equipped,n:0x04d0056a]
 {
 	[common]
 	{
@@ -1484,19 +1458,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-		selected_active_location = il_active_primary_spell;
-		[equipment]
-		{
-			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
-			es_feet = bo_un_bo_le_upza_leg;
-		}
-		[other]
-		{
-			il_active_primary_spell = spell_fireball;
 		}
 	}
 	[placement]

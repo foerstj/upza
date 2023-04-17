@@ -446,6 +446,24 @@
 		screen_name = "2nd Legion Mate Zombie";
 	}
 }
+[t:template,n:upza_mate_zombie_05_equipped]
+{
+    specializes = upza_mate_zombie_05_base;
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_fireball;
+		}
+	}
+}
 
 [t:template,n:upza_mate_zombie_06] { specializes = upza_mate_zombie_06_base; }
 [t:template,n:upza_mate_zombie_06_base]
@@ -464,6 +482,24 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+[t:template,n:upza_mate_zombie_06_equipped]
+{
+    specializes = upza_mate_zombie_06_base;
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_fireball;
+		}
 	}
 }
 
@@ -504,6 +540,24 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+[t:template,n:upza_mate_zombie_08_equipped]
+{
+    specializes = upza_mate_zombie_08_base;
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_iceblast;
+		}
 	}
 }
 
