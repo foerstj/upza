@@ -44,16 +44,19 @@
 			&still			= false;
     }
 
-    // Stats & loot from skeleton_mercenary_archer
+    // Stats & loot from skeleton_mercenary_archer - EDITED
 	[actor]
 	{
 		[skills]
 		{
+            // all the same for simplicity
 			strength =  16, 0;
-			intelligence =  9, 0;
-			dexterity =  11, 0;
+			intelligence =  16, 0;
+			dexterity =  16, 0;
 			ranged =  36,  0;
-			melee =   37,  0;  // ADDED for melee
+			melee =   36,  0;
+			combat_magic =   36,  0;
+			nature_magic =   36,  0;
 		}
 	}
 	[aspect]
@@ -61,8 +64,9 @@
 		experience_value = 12000;
 		life = 525;
 		max_life = 525;
-		mana = 14;
-		max_mana = 14;
+        // max out for simplicity
+		mana = 4230;  // was 14
+		max_mana = 4230;  // was 14
 	}
 	[attack]
 	{
@@ -155,16 +159,19 @@
 			&still			= false;
     }
 
-    // Stats & loot from skeleton_mercenary_archer
+    // Stats & loot from skeleton_mercenary_archer - EDITED
 	[actor]
 	{
 		[skills]
 		{
+            // all the same for simplicity
 			strength =  16, 0;
-			intelligence =  9, 0;
-			dexterity =  11, 0;
+			intelligence =  16, 0;
+			dexterity =  16, 0;
 			ranged =  36,  0;
-			melee =   37,  0;  // ADDED for melee
+			melee =   36,  0;
+			combat_magic =   36,  0;
+			nature_magic =   36,  0;
 		}
 	}
 	[aspect]
@@ -172,8 +179,9 @@
 		experience_value = 12000;
 		life = 525;
 		max_life = 525;
-		mana = 14;
-		max_mana = 14;
+        // max out for simplicity
+		mana = 4230;  // was 14
+		max_mana = 4230;  // was 14
 	}
 	[attack]
 	{
@@ -266,16 +274,19 @@
 			&still			= false;
     }
 
-    // Stats & loot from skeleton_mercenary_archer
+    // Stats & loot from skeleton_mercenary_archer - EDITED
 	[actor]
 	{
 		[skills]
 		{
+            // all the same for simplicity
 			strength =  16, 0;
-			intelligence =  9, 0;
-			dexterity =  11, 0;
+			intelligence =  16, 0;
+			dexterity =  16, 0;
 			ranged =  36,  0;
-			melee =   37,  0;  // ADDED for melee
+			melee =   36,  0;
+			combat_magic =   36,  0;
+			nature_magic =   36,  0;
 		}
 	}
 	[aspect]
@@ -283,8 +294,9 @@
 		experience_value = 12000;
 		life = 525;
 		max_life = 525;
-		mana = 14;
-		max_mana = 14;
+        // max out for simplicity
+		mana = 4230;  // was 14
+		max_mana = 4230;  // was 14
 	}
 	[attack]
 	{
