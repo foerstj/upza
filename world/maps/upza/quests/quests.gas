@@ -551,6 +551,24 @@
         }
     }
 
+    [the_reaper]
+    {
+        chapter = upza;
+        screen_name = "The Reaper";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Find and eliminate the cause of the Zombie Apocalypse.";
+        }
+        [*]
+        {
+            order = 1;
+            required = false;
+            description = "Find and eliminate the cause of the Zombie Apocalypse; maybe the Droog know more.";
+        }
+    }
+
 
     // Misc added quests
 
