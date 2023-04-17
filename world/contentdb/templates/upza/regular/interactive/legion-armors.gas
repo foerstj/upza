@@ -106,7 +106,8 @@
     }
 }
 
-[t:template,n:bd_un_ro_m_g_c_avg_upza_leg_01]
+// declare as _le_ (leather) because pcontent pricing for _ro_ (robes) is especially expensive (see pcontent.skrit)
+[t:template,n:bd_un_le_m_g_c_avg_upza_leg_01]
 {
 	specializes = bd_ro_un_m_g_c_eos_base;
 
