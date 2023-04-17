@@ -110,6 +110,7 @@ To reach Meren from here, get back out into the Lang Mire. Walk straight east un
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x07500165;
+        activate_quest* = zombie_mates;
 	}
 }
 [guide_red]
