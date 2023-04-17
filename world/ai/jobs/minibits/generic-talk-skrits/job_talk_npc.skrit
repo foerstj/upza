@@ -120,7 +120,7 @@ state Talk$
 			// which will give directions to nearby landmarks
 			m_Go$.Conversation.RSSelectConversation( "zconversation_directions" ); //needs to alphabetically sort after all other conversations
 		}
-		else if( !GameAuditor.GetDb.GetBool( "turn_world_red" ) )
+		else if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
 		{
 			m_Go$.Conversation.RSSelectConversation( red_con$ );
 		}
