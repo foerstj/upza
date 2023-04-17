@@ -299,8 +299,8 @@
 	{
 		[other]
 		{
-			il_main = upza_book_glb_lore_kavaren_letter_townstones;
 			il_main = book_glb_magic_tas;
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
 		}
 	}
 	[placement]
@@ -587,7 +587,10 @@
 		{
 			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
 			es_feet = bo_un_bo_le_upza_leg;
-			es_spellbook = book_glb_magic_01;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_iceblast;
 		}
 	}
 	[placement]
@@ -665,7 +668,10 @@
 		{
 			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
 			es_feet = bo_un_bo_le_upza_leg;
-			es_spellbook = book_glb_magic_01;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_fireball;
 		}
 	}
 	[placement]
@@ -1487,7 +1493,10 @@
 		{
 			es_chest = bd_un_ro_m_g_c_avg_upza_leg_01;
 			es_feet = bo_un_bo_le_upza_leg;
-			es_spellbook = book_glb_magic_01;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_fireball;
 		}
 	}
 	[placement]
