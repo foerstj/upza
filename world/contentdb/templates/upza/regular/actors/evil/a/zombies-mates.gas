@@ -668,6 +668,7 @@
 			?actor_joins_existing_party			= true
 			&actor_creates_own_party			= true
 			&form_party_on_friend_entered_ICZ	= true
+			&form_party_on_friend_entered_OCZ	= true
 			&party_template						= "party_bandit_ranged";
 		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
 			?curious		= 0.75
