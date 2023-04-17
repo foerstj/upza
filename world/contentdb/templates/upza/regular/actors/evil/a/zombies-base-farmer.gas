@@ -302,16 +302,16 @@
 		break_sound = s_e_meat_explosion;
 		[break_particulate]
 		{
-			frag_glb_generic_darker_03 = 1;
-			frag_glb_generic_darker_04 = 1;
-			frag_glb_generic_darker_05 = 1;
-			frag_glb_generic_darker_06 = 1;
-			frag_glb_generic_darker_07 = 1;
-			frag_glb_generic_darker_08 = 1;
-			frag_glb_generic_darker_09 = 1;
-			frag_glb_generic_darker_10 = 1;
-			frag_glb_generic_darker_11 = 1;
-			frag_glb_generic_darker_12 = 1;
+			frag_glb_generic_03 = 1;
+			frag_glb_generic_04 = 1;
+			frag_glb_generic_05 = 1;
+			frag_glb_generic_06 = 1;
+			frag_glb_generic_07 = 1;
+			frag_glb_generic_08 = 1;
+			frag_glb_generic_09 = 1;
+			frag_glb_generic_10 = 1;
+			frag_glb_generic_11 = 1;
+			frag_glb_generic_12 = 1;
 		}
 	}
 }
@@ -335,11 +335,12 @@
     {
         [voice]
 		{
-			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
-			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
-			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
-			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
-			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
+            // EDITED
+			[die] 			{ priority = high;	* = s_e_die_zombie_farmgirl_SED;	}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_farmgirl_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_zombie_farmgirl_SED;	}
+			[hit_glance]	{ priority = low;	* = s_e_hit_zombie_farmgirl_SED;	}
+			[hit_solid]		{ priority = low;	* = s_e_hit_zombie_farmgirl_SED;	}
 		}
     }
 	[mind]
@@ -363,16 +364,16 @@
 		break_sound = s_e_meat_explosion;
 		[break_particulate]
 		{
-			frag_glb_generic_darker_03 = 1;
-			frag_glb_generic_darker_04 = 1;
-			frag_glb_generic_darker_05 = 1;
-			frag_glb_generic_darker_06 = 1;
-			frag_glb_generic_darker_07 = 1;
-			frag_glb_generic_darker_08 = 1;
-			frag_glb_generic_darker_09 = 1;
-			frag_glb_generic_darker_10 = 1;
-			frag_glb_generic_darker_11 = 1;
-			frag_glb_generic_darker_12 = 1;
+			frag_glb_generic_03 = 1;
+			frag_glb_generic_04 = 1;
+			frag_glb_generic_05 = 1;
+			frag_glb_generic_06 = 1;
+			frag_glb_generic_07 = 1;
+			frag_glb_generic_08 = 1;
+			frag_glb_generic_09 = 1;
+			frag_glb_generic_10 = 1;
+			frag_glb_generic_11 = 1;
+			frag_glb_generic_12 = 1;
 		}
 	}
 }
