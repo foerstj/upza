@@ -1,3 +1,35 @@
+[t:cmd_alignment_changer,n:0x04d00573]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_life_state = false;
+	  b change_selection = false;
+	  i start_state = 1;
+	  x target_actor = 0x04D00259;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.09795,-0.85,-1.38684,0x79647623;
+	}
+}
+[t:cmd_alignment_changer,n:0x04d0057e]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_life_state = false;
+	  b change_selection = false;
+	  i start_state = 1;
+	  x target_actor = 0x04D00200;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.72166,-0.95,-1.69124,0xafbdaa34;
+	}
+}
 [t:animate_elevator,n:0x04d0022a]
 {
 	[nodal_tex_anim]

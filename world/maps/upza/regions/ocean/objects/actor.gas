@@ -983,6 +983,10 @@
 }
 [t:mule,n:0x04d00201]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
 	  f scale_multiplier = 1.43841;
@@ -1001,6 +1005,10 @@
 }
 [t:self_service_mule,n:0x04d00259]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
 		model = m_c_na_pm_pos_2;
@@ -1010,6 +1018,24 @@
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
 		screen_name = "Beauty";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D00573,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[conversation]
 	{
@@ -1025,7 +1051,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.559193,0,0.829038;
-	  p position = -1.75948,-0.849981,-1.95447,0x79647623;
+	  p position = -1.76193,-0.85,-1.88573,0x79647623;
 	}
 }
 [t:upza_zombie_meren_townfolk_pudgy,n:0x04d005fe]
@@ -1036,8 +1062,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.430511,0,0.902585;
-	  p position = 2.26258,-3.65,-0.120829,0x986a4bc2;
+	  q orientation = 0,0.942641,0,-0.333807;
+	  p position = -1.02673,-0.85,-0.380411,0x951e9074;
 	}
 }
 [t:upza_zombie_meren_shop_smith,n:0x04d004cb]
@@ -1090,6 +1116,10 @@
 }
 [t:self_service_mule,n:0x04d00200]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
 		model = m_c_na_pm_pos_2;
@@ -1099,6 +1129,24 @@
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
 		screen_name = "Beast";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x04D0057E,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[conversation]
 	{
@@ -1119,6 +1167,10 @@
 }
 [t:mule,n:0x04d0026a]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
 	  f scale_multiplier = 1.14067;
