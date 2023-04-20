@@ -7,7 +7,7 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
-		membership = monster, party_bandit_ranged, bandit;
+		membership = monster,party_bandit_ranged,bandit,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
 		[template_triggers]
 		{
 			[*]
@@ -123,7 +123,7 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
-		membership = monster, party_bandit_ranged, bandit;
+		membership = monster,party_bandit_ranged,bandit,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
 		[template_triggers]
 		{
 			[*]
@@ -239,7 +239,7 @@
 	[common]
 	{
 		screen_name = "2nd Legion Mate Zombie";
-		membership = monster, party_bandit_ranged, bandit;
+		membership = monster,party_bandit_ranged,bandit,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
 		[template_triggers]
 		{
 			[*]
