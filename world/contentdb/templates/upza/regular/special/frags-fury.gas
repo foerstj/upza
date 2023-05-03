@@ -1,8 +1,19 @@
-[t:template,n:frag_glb_upza_fury_01] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-01; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_02] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-02; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_03] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-03; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_04] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-04; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_05] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-05; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_06] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-06; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_07] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-07; textures:0 = b_c_ebb_fy-02; } }
-[t:template,n:frag_glb_upza_fury_08] { specializes = fragment; [aspect] { model = m_i_glb_frag-fury-08; textures:0 = b_c_ebb_fy-02; } }
+[t:template,n:frag_glb_base_upza_fury] { specializes = fragment; aspect:textures:0 = b_c_ebb_fy-02; }
+[t:template,n:frag_glb_upza_fury_01] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-01; } }
+[t:template,n:frag_glb_upza_fury_02] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-02; } }
+[t:template,n:frag_glb_upza_fury_03] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-03; } }
+[t:template,n:frag_glb_upza_fury_04] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-04; } }
+[t:template,n:frag_glb_upza_fury_05] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-05; } }
+[t:template,n:frag_glb_upza_fury_06] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-06; } }
+[t:template,n:frag_glb_upza_fury_07] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-07; } }
+[t:template,n:frag_glb_upza_fury_08] { specializes = frag_glb_base_upza_fury; [aspect] { model = m_i_glb_frag-fury-08; } }
+
+[t:template,n:frag_glb_base_upza_fury_lesser] { specializes = frag_glb_base_upza_fury; aspect:scale_base = 0.25; }
+[t:template,n:frag_glb_upza_fury_lesser_01] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-01; } }
+[t:template,n:frag_glb_upza_fury_lesser_02] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-02; } }
+[t:template,n:frag_glb_upza_fury_lesser_03] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-03; } }
+[t:template,n:frag_glb_upza_fury_lesser_04] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-04; } }
+[t:template,n:frag_glb_upza_fury_lesser_05] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-05; } }
+[t:template,n:frag_glb_upza_fury_lesser_06] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-06; } }
+[t:template,n:frag_glb_upza_fury_lesser_07] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-07; } }
+[t:template,n:frag_glb_upza_fury_lesser_08] { specializes = frag_glb_base_upza_fury_lesser; [aspect] { model = m_i_glb_frag-fury-08; } }
