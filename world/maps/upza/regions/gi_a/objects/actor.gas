@@ -1409,7 +1409,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.479067,0,0.877778;
-	  p position = 0.923289,0,-1.54747,0x6bd41b60;
+	  p position = 0.924118,0,-1.88873,0x6bd41b60;
 	}
 }
 [t:upza_goblin_shop_miniguns,n:0x07500204]
@@ -1434,7 +1434,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.83867,0,0.544639;
-	  p position = -0.297127,0,1.25919,0x6bd41b60;
+	  p position = 1.01817,0,-0.637146,0x6bd41b60;
 	}
 }
 [t:upza_blaster,n:0x07500380]
@@ -1547,6 +1547,31 @@
 	{
 	  q orientation = 0,0.57173,0,0.820442;
 	  p position = 0.995025,6,1.15295,0xbed6ea70;
+	}
+}
+[t:upza_goblin_shop_jewelry,n:0x07500205]
+{
+	[common]
+	{
+		screen_name = "Shmats";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop_jewelry;
+			* = shop_jewelry_red;
+			* = zconversation_directions;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.66913,0,0.743145;
+	  p position = -1.04216,2,1.68922,0x3dce96be;
 	}
 }
 [t:upza_goblin_npc_guard,n:0x0750038a]
@@ -2643,30 +2668,5 @@
 	{
 	  q orientation = 0,0.350207,0,0.936672;
 	  p position = 0.802773,0,-0.243805,0x059d53e9;
-	}
-}
-[t:upza_goblin_shop_jewelry,n:0x07500205]
-{
-	[common]
-	{
-		screen_name = "Shmats";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = shop_jewelry;
-			* = shop_jewelry_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.66913,0,0.743145;
-	  p position = -1.04216,2,1.68922,0x3dce96be;
 	}
 }

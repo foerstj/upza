@@ -22,3 +22,99 @@
 	  p position = 0.00659173,0.580471,-1.08145,0x6bd41b60;
 	}
 }
+[t:minigun_flamethrower,n:0x07500207]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0.506115,-0.493809,0.493809,0.506115;
+	  p position = 1.95705,0.309772,-0.230286,0x6bd41b60;
+	}
+}
+[t:minigun_lightning,n:0x07500209]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = -0.0674418,0.703883,-0.703883,-0.0674418;
+	  p position = 1.67584,0.275345,0.127289,0x6bd41b60;
+	}
+}
+[t:minigun_lightning,n:0x0750020d]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0.690273,-0.153371,0.153371,0.690274;
+	  p position = 1.94955,0.275345,0.122681,0x6bd41b60;
+	}
+}
+[t:amulet_common,n:0x07500213]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.868398,0,0.495867;
+	  p position = -3.76855,6.62712,-3.78494,0x67034f15;
+	}
+}
+[t:amulet_common,n:0x07500212]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.762098,0,0.647462;
+	  p position = 1.98979,6.62712,1.71245,0xbed6ea70;
+	}
+}
+[t:ring_common,n:0x0750020f]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.958729,0,-0.284322;
+	  p position = 1.88211,2.62712,1.71612,0xbe663f6b;
+	}
+}
+[t:ring_common,n:0x07500210]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.672733,0,0.739885;
+	  p position = 1.97914,2.62712,1.87383,0xbe663f6b;
+	}
+}
+[t:ring_common,n:0x07500211]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.890365,0,0.455247;
+	  p position = 1.85916,2.62712,1.94759,0xbe663f6b;
+	}
+}
