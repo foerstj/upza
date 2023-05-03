@@ -1412,6 +1412,31 @@
 	  p position = 0.923289,0,-1.54747,0x6bd41b60;
 	}
 }
+[t:upza_goblin_shop_miniguns,n:0x07500204]
+{
+	[common]
+	{
+		screen_name = "Frork";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop_miniguns;
+			* = shop_miniguns_red;
+			* = zconversation_directions;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.83867,0,0.544639;
+	  p position = -0.297127,0,1.25919,0x6bd41b60;
+	}
+}
 [t:upza_blaster,n:0x07500380]
 {
 	[placement]

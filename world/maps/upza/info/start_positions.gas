@@ -121,7 +121,7 @@
 	}
 	[t:start_group,n:eastern_island]
 	{
-	  b default = true;
+	  b default = false;
 		description = "The Eastern Island, a mythical place said to have magical passages to the Peninsula";
 	  b dev_only = false;
 	  i id = 0;
@@ -474,7 +474,7 @@
 	}
 	[t:start_group,n:goblin_warrens]
 	{
-	  b default = false;
+	  b default = true;
 		description = "Goblin Warrens below the Lang Mire";
 	  b dev_only = false;
 	  i id = 6;

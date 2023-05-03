@@ -270,3 +270,28 @@
 		item_markup = 2;
 	}
 }
+
+[t:template,n:upza_goblin_shop_miniguns] { specializes = upza_goblin_shop_miniguns_base; }
+[t:template,n:upza_goblin_shop_miniguns_base]
+{
+    specializes = base_goblin_shop;
+
+    [inventory]
+    {
+		[store_pcontent]
+		{
+			full_ratio = 0;
+            [weapons]
+            {
+				[all*] { min = 2; max = 6; il_main = minigun_dragon; }
+				[all*] { min = 2; max = 6; il_main = minigun_flamethrower; }
+				[all*] { min = 2; max = 6; il_main = minigun_lightning; }
+				[all*] { min = 2; max = 6; il_main = minigun_grenade_launcher; }
+            }
+        }
+    }
+	[store]
+	{
+		item_markup = 2;
+	}
+}

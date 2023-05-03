@@ -90,6 +90,38 @@ Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank
 	}
 }
 
+[shop_miniguns]
+{
+	[text*]
+	{
+		order = 0;
+		choice = shop;
+		screen_text = "Everyone knows Goblins make better engineers, so you better believe I can build a minigun stronger than a man can break. Besides that, I get my parts from a special source, so they temper better than the rot you'll find elsewhere.";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500204;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "There you go staring at me again. Perhaps beating some Zombies up in the mire would put some manners back in your head? I suppose I'll sell you what you need, manners or no.";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500204;
+	}
+}
+[shop_miniguns_red]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Pshaw! You want to shop when the land is dying?";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500204;
+	}
+}
+
 [guide]
 {
 	[text*]
