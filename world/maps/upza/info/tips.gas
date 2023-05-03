@@ -22,4 +22,15 @@
 			texture = b_gui_ig_mnu_tip_compass;
 		}
 	}
+	[t:tip,n:tip_redwood_gap]
+	{
+		order = 1;
+		style = bullets_1;
+
+		[text_1]
+		{
+			screen_name = "The Redwood Gap bridge is broken! Quillrabe can be reached from Crystwind.";
+			texture = b_gui_ig_mnu_tip_compass;
+		}
+	}
 }
