@@ -474,7 +474,7 @@
 	}
 	[t:start_group,n:goblin_warrens]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Goblin Warrens below the Lang Mire";
 	  b dev_only = false;
 	  i id = 6;
@@ -831,7 +831,7 @@
 	}
 	[t:start_group,n:lang]
 	{
-	  b default = false;
+	  b default = true;
 		description = "Lang, Swampy Bayou Outpost";
 	  b dev_only = false;
 	  i id = 5;
