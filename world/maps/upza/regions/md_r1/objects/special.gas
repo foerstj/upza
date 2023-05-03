@@ -10,6 +10,7 @@
 	[common]
 	{
 		dev_instance_text = "FADE and Mood";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -28,7 +29,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -300,6 +300,7 @@
 	[common]
 	{
 		dev_instance_text = "FADEand MOOD";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -318,7 +319,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
