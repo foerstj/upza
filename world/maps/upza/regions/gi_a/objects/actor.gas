@@ -2645,3 +2645,28 @@
 	  p position = 0.802773,0,-0.243805,0x059d53e9;
 	}
 }
+[t:upza_goblin_shop_jewelry,n:0x07500205]
+{
+	[common]
+	{
+		screen_name = "Shmats";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop_jewelry;
+			* = shop_jewelry_red;
+			* = zconversation_directions;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.66913,0,0.743145;
+	  p position = -1.04216,2,1.68922,0x3dce96be;
+	}
+}

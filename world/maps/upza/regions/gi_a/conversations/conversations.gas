@@ -122,6 +122,38 @@ Sorry we don't speak no Humanish. Please find Buing. He talk to you. Okay? Thank
 	}
 }
 
+[shop_jewelry]
+{
+	[text*]
+	{
+		order = 0;
+		choice = shop;
+		screen_text = "It's a strange world we live in; seems everyone's on edge. My killbot pinched me this morning, but I swear the routines I programmed it with was still as functional as the day it was booted. You're welcome to any of the rings or amulets I possess, but I don't deal in stones, so please don't ask.";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500205;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Back again, are you? Hopefully none the worse for wear. I heard Furies have been sighted out in the Redwood Gap. We haven't seen them this far out even in the best of times. If you're thinking of venturing that way, best keep your eyes open and your head clear.";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500205;
+	}
+}
+[shop_jewelry_red]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "This is madness! Something evil is afoot, I tell you!";
+	  f scroll_rate = 10.000000;
+		button_1_text = "Directions";
+        button_1_value = d_0x07500205;
+	}
+}
+
 [guide]
 {
 	[text*]

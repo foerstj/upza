@@ -295,3 +295,32 @@
 		item_markup = 2;
 	}
 }
+
+[t:template,n:upza_goblin_shop_jewelry] { specializes = upza_goblin_shop_jewelry_base; }
+[t:template,n:upza_goblin_shop_jewelry_base]
+{
+    specializes = base_goblin_shop;
+
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[misc]
+			{
+				[all*] { min = 8; max = 8; il_main = #ring/0-50; }
+				[all*] { min = 8; max = 8; il_main = #ring/50-100; }
+				[all*] { min = 8; max = 8; il_main = #ring/100-150; }
+				[all*] { min = 4; max = 4; il_main = #ring/150-200; }
+				[all*] { min = 8; max = 8; il_main = #amulet/0-50; }
+				[all*] { min = 8; max = 8; il_main = #amulet/50-100; }
+				[all*] { min = 8; max = 8; il_main = #amulet/100-150; }
+				[all*] { min = 4; max = 4; il_main = #amulet/150-200; }
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
