@@ -296,6 +296,14 @@
 	  p position = -1.61082,-1e-006,-3.24573,0xa310374b;
 	}
 }
+[t:bones_cav_fury_body_01,n:0x045000df]
+{
+	[placement]
+	{
+	  q orientation = 0,0.83147,0,0.55557;
+	  p position = -2.85595,0,0.982666,0xa310374b;
+	}
+}
 [t:bones_glb_arm,n:0x0450003c]
 {
 	[placement]
@@ -577,6 +585,14 @@
 	  p position = -2.29919,-1e-006,2.45664,0x2677a3dd;
 	}
 }
+[t:bones_cav_fury_body_01,n:0x045000e0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.887011,0,0.461748;
+	  p position = 0.35788,0,-0.947128,0x2677a3dd;
+	}
+}
 [t:bones_csl_skulls_01,n:0x0450002e]
 {
 	[placement]
@@ -590,21 +606,5 @@
 	{
 	  q orientation = 0,-0.173648,0,0.984808;
 	  p position = -2.34964,4e-006,1.28922,0x67d6ac09;
-	}
-}
-[t:bones_cav_fury_body_01,n:0x045000df]
-{
-	[placement]
-	{
-	  q orientation = 0,0.83147,0,0.55557;
-	  p position = -2.85595,0,0.982666,0xa310374b;
-	}
-}
-[t:bones_cav_fury_body_01,n:0x045000e0]
-{
-	[placement]
-	{
-	  q orientation = 0,0.887011,0,0.461748;
-	  p position = 0.35788,0,-0.947128,0x2677a3dd;
 	}
 }
