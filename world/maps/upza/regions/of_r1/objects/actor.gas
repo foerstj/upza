@@ -881,20 +881,8 @@
 	  p position = -3.34575,0,-1.37546,0xf2f7d557;
 	}
 }
-[t:rhod_emell,n:0x05a00915]
+[t:upza_zombie_rwg_shop_rhod,n:0x05a00915]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_rhod;
-			* = conversation_rhod_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,1,0,4.76837e-007;
