@@ -4265,33 +4265,6 @@
 	  p position = 3.2079,0,-2.54265,0xd747e843;
 	}
 }
-[t:bed_glb_sleeping_bag,n:0x00500471]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = 0.171472,0,0.393021,0xd747e843;
-	}
-}
-[t:tent_glb_merchant,n:0x005005a9]
-{
-	[placement]
-	{
-	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = 2.41359,0,2.59761,0xd747e843;
-	}
-}
-[t:firepit_glb_03,n:0x005005c6]
-{
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0x590041DF;
-	}
-	[placement]
-	{
-	  p position = -1.84556,0,-0.310685,0xd747e843;
-	}
-}
 [t:bench_glb_02,n:0x005005ca]
 {
 	[placement]

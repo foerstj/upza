@@ -452,3 +452,18 @@
 		use_point_scids = 0x005003f8;
 	}
 }
+[t:firepit_glb_03_lightable,n:0x005005c6]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x590041DF;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x590041DF;
+	}
+	[placement]
+	{
+	  p position = -1.84556,0,-0.310685,0xd747e843;
+	}
+}
