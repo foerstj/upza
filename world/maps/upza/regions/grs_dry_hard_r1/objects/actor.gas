@@ -583,21 +583,8 @@
 	  p position = -0.460251,0,-0.924127,0xdb836716;
 	}
 }
-[t:sar_vinien,n:0x0050053f]
+[t:upza_zombie_iliarth_shop_sar,n:0x0050053f]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_sar_vinien;
-			* = conversation_sar_vinien_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;

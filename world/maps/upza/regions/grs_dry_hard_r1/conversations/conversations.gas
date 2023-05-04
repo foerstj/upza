@@ -6,34 +6,6 @@
 	}
 }
 
-[conversation_sar_vinien]
-{
-	[text*]
-	{
-		
-		choice = shop;
-		button_1_text = "Directions";
-       	button_1_value = d_0x0050053F;
-
-		screen_text = "The Droog around here are unusually aggressive these days. I'm afraid I'll end up dead, or worse, bankrupt! I was supposed to deliver a letter to Quillrabe by last night, but the trip down the river has been perilous to say the least. I've picked up a few items on my journey, would ye be interested in looking them over?";
-	}
-	
-
-}
-[conversation_sar_vinien_red]
-{
-	[text*]
-	{
-		
-		choice = shop;
-		button_1_text = "Directions";
-       	button_1_value = d_0x0050053F;
-
-		screen_text = "Blech! The air stinks worse than a giant lizard's breath, and this red haze has me seeing double.";
-	}
-	
-
-}
 [conversation_guard]
 {
 	[text*]	//47 - 49
