@@ -1,0 +1,89 @@
+[t:template,n:upza_base_zombie_rwg_guard]
+{
+    specializes = upza_base_zombie_pudgy;
+
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_pu-nt; }
+    }
+
+    // stats & loot from cyclops
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	24, 0;
+			intelligence =  10, 0;
+			dexterity =  	11, 0;
+            melee =  		24,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 12446;
+		life = 1240;
+		max_life = 1240;
+		mana = 18;
+		max_mana = 18;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 95;
+		damage_min = 85;
+		reload_delay = 0;
+	}
+    [defend] { defense=255; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.5;
+					il_main = #*/75-103;
+					il_main = #armor/46-235;
+                	il_main = #nmagic/15-30;
+                	il_main = #cmagic/15-30;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/90-110;
+	                il_main = #armor/-rare(1)/289-343;
+                    il_main = #*/-rare(1)/90-110;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/90-110;
+	                il_main = #armor/-unique(2)/289-343;
+                    il_main = #*/-unique(2)/90-110;
+	            }
+			}
+        }
+	}
+}
+
+[t:template,n:upza_zombie_rwg_guard] { specializes = upza_zombie_rwg_guard_base; }
+[t:template,n:upza_zombie_rwg_guard_base]
+{
+    specializes = upza_base_zombie_rwg_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+            // from skeleton_mercenary
+			es_weapon_hand = sd_g_c_st_1h_avg;
+            es_shield_hand = #shield/-no_mod/150-180;
+		}
+	}
+}
