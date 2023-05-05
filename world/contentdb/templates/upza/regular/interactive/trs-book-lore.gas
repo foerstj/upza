@@ -50,3 +50,20 @@
 		lore_key = lore_flessan_diary;
 	}
 }
+
+[t:template,n:upza_book_glb_lore_sanctuary_keeper_diary]
+{
+	specializes = base_book_lore;
+
+	category_name = "lorebook";
+	doc = "Sanctuary Keeper diary";
+	[common]
+	{
+		screen_name = "Diary of the Sanctuary Keeper";
+		auto_expiration_class = never;
+	}
+	[gui]
+	{
+		lore_key = lore_sanctuary_keeper_diary;
+	}
+}
