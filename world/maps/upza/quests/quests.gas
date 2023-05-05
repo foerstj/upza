@@ -400,7 +400,6 @@
 			order		= 0;                                  //order of quest parts
 			speaker     = "Barracks Guard";                   // The name of the speaker
 			description = "Investigate the Fallraen Barracks south of Fallraen and kill any creatures found inside.";		// This is the line that appears underneath the speaker name
-            address = snow_town:conversations:conversation_guard_id;
 		}
 	}
 
@@ -415,8 +414,7 @@
 		{
 			order		= 0;                                  //order of quest parts
 			speaker     = "Sanctuary Keeper";                   // The name of the speaker
-			description = "Aid the Sanctuary Keeper by clearing the Flooded Sanctuary of creatures.";
-            address = of_r1:conversations:conversation_keeper;
+			description = "Honor the Sanctuary Keeper by clearing the Flooded Sanctuary of creatures.";
 		}
 	}
 
