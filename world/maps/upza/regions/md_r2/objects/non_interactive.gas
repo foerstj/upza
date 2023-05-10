@@ -92,3 +92,27 @@
 	  p position = 0.676163,-2,-1.09899,0x8268f28c;
 	}
 }
+[t:candlestand_csl_03,n:0x08d000c2]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x7BEFBE2A;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832158,0,0.554538;
+	  p position = -1.59056,8,3.64654,0xae750cb0;
+	}
+}
+[t:candlestand_csl_03,n:0x08d000c4]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x53769219;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832158,0,0.554538;
+	  p position = 2.68698,-2,1.72132,0x8268f28c;
+	}
+}
