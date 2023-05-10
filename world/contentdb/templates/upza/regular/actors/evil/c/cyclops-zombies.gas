@@ -84,11 +84,11 @@
         textures:0 = b_c_ecm_cy-zo;
 		[voice]
 		{
-			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
-			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
-			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
-			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
-			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
+			[die] 			{ priority = high;	* = s_e_die_zombie_cyclops_SED;		}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_cyclops_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_zombie_cyclops_SED;		}
+			[hit_glance]	{ priority = low;	* = s_e_hit_zombie_cyclops_SED;		}
+			[hit_solid]		{ priority = low;	* = s_e_hit_zombie_cyclops_SED;		}
 		}
     }
 	[common]
