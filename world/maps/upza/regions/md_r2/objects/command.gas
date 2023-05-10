@@ -212,3 +212,17 @@
 	  p position = -0.0561714,8,-1.07584,0xae750cb0;
 	}
 }
+[t:cmd_selection_toggle,n:0x08d000c3]
+{
+	[cmd_selection_toggle]
+	{
+	  x object_scid = 0x08D000BF;
+		selection_off_msg = we_req_deactivate;
+		selection_on_msg = we_req_activate;
+	  i start_state = 1;
+	}
+	[placement]
+	{
+	  p position = 1.8333,-2,0.700607,0x8268f28c;
+	}
+}

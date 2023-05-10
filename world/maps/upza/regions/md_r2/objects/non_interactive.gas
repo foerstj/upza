@@ -80,3 +80,15 @@
 		use_point_scids = 0x08d00074;
 	}
 }
+[t:candlestand_csl_03,n:0x08d000c0]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0x09EBF6A8;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832158,0,0.554538;
+	  p position = 0.676163,-2,-1.09899,0x8268f28c;
+	}
+}
