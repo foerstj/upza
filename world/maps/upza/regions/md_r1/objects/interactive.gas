@@ -51,6 +51,14 @@
 		use_point_scids = 0x08c000eb;
 	}
 }
+[t:coil_gob_02,n:0x08c000b4]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.0431966,0,0.999067;
+	  p position = 1.33189,-2,-1.69324,0xea9db668;
+	}
+}
 [t:lever_glb_07,n:0x08c0005c]
 {
 	[on_off_lever]
@@ -64,14 +72,6 @@
 	  q orientation = 0,-0.707107,0,0.707106;
 	  p position = 2.17483,-1.5,-0.57818,0x7c1715f4;
 		use_point_scids = 0x08c0005d, 0x08c00043;
-	}
-}
-[t:coil_gob_02,n:0x08c000b4]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.0431966,0,0.999067;
-	  p position = 1.33189,-2,-1.69324,0xea9db668;
 	}
 }
 [t:firepit_glb_03_lightable,n:0x08c000d6]
