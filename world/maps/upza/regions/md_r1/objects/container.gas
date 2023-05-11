@@ -24,3 +24,83 @@
 	  p position = -3.66134,-2,0.80626,0xede0ab04;
 	}
 }
+[t:barrel_gob_01,n:0x08c0009e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.802367,0,0.596831;
+	  p position = -1.44102,-2,-2.94834,0x321074fe;
+	}
+}
+[t:barrel_gob_02,n:0x08c0009f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.739714,0,0.672921;
+	  p position = -1.97078,-2,-1.82711,0x321074fe;
+	}
+}
+[t:barrel_gob_03,n:0x08c000a0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.764925,0,0.644119;
+	  p position = 1.07877,-2,-2.05883,0x4c2241b2;
+	}
+}
+[t:cask_glb_ale,n:0x08c000a1]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.242173,0,0.970233;
+	  p position = 1.5812,-2,-3.09557,0x4c2241b2;
+	}
+}
+[t:chest_gob_01,n:0x08c000a2]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = -1.49012e-008,-0.933521,-4.47035e-008,0.358521;
+	  p position = -1.31463,-2,-1.57859,0x4c2241b2;
+	}
+}
+[t:crate_gob_02,n:0x08c000a3]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.990817,0,0.135209;
+	  p position = 0.676594,-2,-2.36707,0x321074fe;
+	}
+}
+[t:crate_gob_01,n:0x08c000a4]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.297666,0,0.95467;
+	  p position = 0.55514,-0.888432,-2.40156,0x321074fe;
+	}
+}

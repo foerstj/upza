@@ -66,3 +66,27 @@
 		use_point_scids = 0x08c0005d, 0x08c00043;
 	}
 }
+[t:coil_gob_02,n:0x08c000b4]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.0431966,0,0.999067;
+	  p position = 1.33189,-2,-1.69324,0xea9db668;
+	}
+}
+[t:firepit_glb_03_lightable,n:0x08c000d6]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xA426400F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xA426400F;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.582353,0,0.812936;
+	  p position = 1.69228,-1.99999,-1.89887,0x5bd40f52;
+	}
+}
