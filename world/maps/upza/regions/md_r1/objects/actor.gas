@@ -1,0 +1,202 @@
+[t:upza_goblin_npc_grunt_char,n:0x08c0007b]
+{
+	[common]
+	{
+		screen_name = "Eelex";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = goblin;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_g_c_dsx_pcane;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995123,0,-0.0986382;
+	  p position = -0.226416,-2,-0.566988,0x0b398720;
+	}
+}
+[t:chicken_white,n:0x08c0007c]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.645335,0,0.7639;
+	  p position = 1.92423,-2,4.83961,0xa3421e53;
+	}
+}
+[t:chicken_white,n:0x08c0007d]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99857,0,0.0534668;
+	  p position = 1.47516,-2,5.64571,0xe42d6e9c;
+	}
+}
+[t:chicken_white,n:0x08c0007e]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.265383,0,0.964143;
+	  p position = 2.69714,-2,2.98889,0xa3421e53;
+	}
+}
+[t:chicken_white,n:0x08c0007f]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99622,0,0.0868662;
+	  p position = 1.15455,-2,3.8757,0xa3421e53;
+	}
+}
+[t:chicken_white,n:0x08c00080]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.943583,0,0.331137;
+	  p position = 2.97707,-2,1.55449,0x793500fe;
+	}
+}
+[t:chicken_white,n:0x08c00081]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.82409,0,0.56646;
+	  p position = 2.32969,-2,-0.563507,0x793500fe;
+	}
+}
+[t:chicken_white,n:0x08c00082]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.200582,0,0.979677;
+	  p position = 0.80491,-2,5.84706,0xa3421e53;
+	}
+}
+[t:chicken_white,n:0x08c00083]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953908,0,0.300099;
+	  p position = 1.21367,-2,0.561255,0x6afe05ec;
+	}
+}
+[t:chicken_white,n:0x08c00084]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.65627,0,0.754525;
+	  p position = 6.71539,-2,5.53591,0xe42d6e9c;
+	}
+}
+[t:chicken_white,n:0x08c00085]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.674258,0,0.738496;
+	  p position = 0.05516,-2,0.976637,0x793500fe;
+	}
+}
+[t:groveller,n:0x08c00086]
+{
+	[placement]
+	{
+	  q orientation = 0,0.860809,0,0.508928;
+	  p position = 0.103307,-2,1.75158,0xd2ebf8b0;
+	}
+}
+[t:groveller,n:0x08c00087]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.856683,0,0.515841;
+	  p position = 1.04034,8.58307e-006,-1.9447,0x22a3da28;
+	}
+}
+[t:groveller,n:0x08c00088]
+{
+	[placement]
+	{
+	  q orientation = 0,0.889645,0,-0.456652;
+	  p position = 1.91265,-1.99999,-0.435718,0xd2ebf8b0;
+	}
+}
+[t:groveller,n:0x08c00089]
+{
+	[placement]
+	{
+	  q orientation = 0,0.99126,0,-0.131918;
+	  p position = 1.82771,-2,2.36911,0xd2ebf8b0;
+	}
+}
+[t:groveller,n:0x08c0008a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.62161,0,0.783327;
+	  p position = 0.847982,-2,2.62966,0xd2ebf8b0;
+	}
+}
+[t:groveller,n:0x08c0008b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.362476,0,0.931993;
+	  p position = 2.22423,-2,4.99682,0xd2ebf8b0;
+	}
+}
+[t:groveller,n:0x08c0008c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.597996,0,0.801499;
+	  p position = 1.26577,-2,5.10606,0xd2ebf8b0;
+	}
+}
