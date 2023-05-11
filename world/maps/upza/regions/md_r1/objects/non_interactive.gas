@@ -62,8 +62,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.863225,0,0.50482;
-	  p position = 0.771552,-2,0.537045,0xe42d6e9c;
+	  q orientation = 0,0.863223,0,0.50482;
+	  p position = 4.28641,-2,-0.085179,0xe42d6e9c;
 	}
 }
 [t:pupod_01,n:0x08c0008e]
@@ -112,5 +112,29 @@
 	{
 	  q orientation = 0,0.924887,0,-0.380242;
 	  p position = 1.56826,-2,-1.52215,0x18442eb3;
+	}
+}
+[t:lamp_gob_floor_01,n:0x08c00095]
+{
+	[placement]
+	{
+	  q orientation = 0,0.812074,0,0.583554;
+	  p position = 1.21945,-2,1.94634,0xe42d6e9c;
+	}
+}
+[t:lamp_gob_floor_01,n:0x08c00096]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.763514,0,0.64579;
+	  p position = 2.89441,-2,4.21122,0x5bd40f52;
+	}
+}
+[t:lamp_gob_floor_01,n:0x08c00097]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.685253,0,0.728305;
+	  p position = 3.22002,-2,-0.543349,0x32b8be91;
 	}
 }

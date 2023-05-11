@@ -15,8 +15,12 @@
 	{
 		[equipment]
 		{
-			es_weapon_hand = st_g_c_dsx_pcane;
+			es_weapon_hand = shovel;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
 	}
 	[placement]
 	{
