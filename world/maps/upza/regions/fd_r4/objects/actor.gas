@@ -169,6 +169,14 @@
 	  p position = 1.52596,-2,-1.10477,0x225f1461;
 	}
 }
+[t:upza_fury_lesser,n:0x045000ba]
+{
+	[placement]
+	{
+	  q orientation = 0,0.989105,0,-0.147213;
+	  p position = -3.38334,0,1.0504,0xd8792a10;
+	}
+}
 [t:wraith_mage,n:0x04500111]
 {
 	[placement]
@@ -433,6 +441,14 @@
 	  p position = -2.01884,0,-1.27843,0x769d3fa3;
 	}
 }
+[t:upza_fury,n:0x045000b9]
+{
+	[placement]
+	{
+	  q orientation = 0,0.951051,0,0.309035;
+	  p position = -1.58824,3.8147e-006,-2.21782,0x726c24b4;
+	}
+}
 [t:wraith,n:0x045001a1]
 {
 	[placement]
@@ -547,6 +563,14 @@
 	  p position = 1.57722,-2.05,-3.29663,0xa41177e9;
 	}
 }
+[t:upza_fury_lesser,n:0x045000b8]
+{
+	[placement]
+	{
+	  q orientation = 0,0.984125,0,0.177475;
+	  p position = 1.03918,1.90735e-006,-9.36669,0x4685b938;
+	}
+}
 [t:wraith,n:0x04500162]
 {
 	[placement]
@@ -598,6 +622,14 @@
 	{
 	  q orientation = 0,0.19509,0,0.980785;
 	  p position = -1.33464,0,-1.43872,0xd071fd5b;
+	}
+}
+[t:upza_fury,n:0x045000b7]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.364399,0,0.931243;
+	  p position = 2.98291,0,1.82403,0x79c04d63;
 	}
 }
 [t:wraith_archer,n:0x04500160]
@@ -1277,6 +1309,14 @@
 	  p position = -0.550949,0,-0.0405884,0x61ea909a;
 	}
 }
+[t:upza_fury_lesser,n:0x045000b6]
+{
+	[placement]
+	{
+	  q orientation = 0,0.642934,0,0.765921;
+	  p position = -0.497803,0,2.0002,0x2677a3dd;
+	}
+}
 [t:wraith,n:0x04500142]
 {
 	[placement]
@@ -1323,45 +1363,5 @@
 	{
 	  q orientation = 0,1,0,2.98023e-007;
 	  p position = 1.36745,0,0.68368,0x5ec29b86;
-	}
-}
-[t:upza_fury_lesser,n:0x045000b6]
-{
-	[placement]
-	{
-	  q orientation = 0,0.642934,0,0.765921;
-	  p position = -0.497803,0,2.0002,0x2677a3dd;
-	}
-}
-[t:upza_fury,n:0x045000b7]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.364399,0,0.931243;
-	  p position = 2.98291,0,1.82403,0x79c04d63;
-	}
-}
-[t:upza_fury_lesser,n:0x045000b8]
-{
-	[placement]
-	{
-	  q orientation = 0,0.984125,0,0.177475;
-	  p position = 1.03918,1.90735e-006,-9.36669,0x4685b938;
-	}
-}
-[t:upza_fury,n:0x045000b9]
-{
-	[placement]
-	{
-	  q orientation = 0,0.951051,0,0.309035;
-	  p position = -1.58824,3.8147e-006,-2.21782,0x726c24b4;
-	}
-}
-[t:upza_fury_lesser,n:0x045000ba]
-{
-	[placement]
-	{
-	  q orientation = 0,0.989105,0,-0.147213;
-	  p position = -3.38334,0,1.0504,0xd8792a10;
 	}
 }
