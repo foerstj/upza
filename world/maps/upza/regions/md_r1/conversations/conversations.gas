@@ -2,7 +2,25 @@
 {
 	[text*]
 	{
-		screen_text = "Ey YO!";
+		choice = more;
+	  i order = 0;
+		screen_text = "Stay away from me, Zombie! Or I'll feed your rotting corpse to the Pupods!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "You won't fool me, Zombie. You might have conquered the surface, but the Pit of Yr will always be Goblin homeland! This is my kingdom now!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "The Pit of Yr was once the largest Goblin city on the Utraean Peninsula. Its history dates back to the days of the Utraean Empire. This was a place of wealth and splendor, a hub of knowledge and productivity.
+When the Utraeans left, whither nobody knows, wars broke out among the remaining inhabitants of the Peninsula. Goblins might well have emerged victorious, had they not also started wars among each other. The Pit was fortified, chiefly against the attacks from the Warrens, under the Lang Mire. Its last great ruler, King Yr, became obsessed with making the Pit unconquerable, and so when he managed to negotiate a cease-fire with the Warrens, he built the Pit into an ever more complicated maze. The Dwarven worker slaves soon dubbed the place the Pit of Despair, and the name stuck with them. Yr went completely insane and never stopped building, even when the wars continued and the kingdom's funds dried up. Those who could fled the kingdom, most of them deserting to the Warrens. King Yr is said to have gone lost in the maze, never to be seen again.
+
+For hundreds of years, the Pit of Yr remained abandoned. Few archaeologists or adventurers ventured down here, and fewer still found the way out again, none without having gone mad.
+But I, Eelex, have now conquered it! And while on the surface the hordes of the Reaper are walking, down here I am safe, and I claim the Pit as the ancestral homeland of the Goblins! I am king of the Pit now! The Pit shall henceforth be known as the Pit of Eelex, and shall rise to greatness again!";
 	  f scroll_rate = 10.000000;
 	}
 }
