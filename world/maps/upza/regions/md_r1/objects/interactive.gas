@@ -53,6 +53,12 @@
 }
 [t:coil_gob_02,n:0x08c000b4]
 {
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.0431966,0,0.999067;
