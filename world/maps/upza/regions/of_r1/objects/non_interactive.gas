@@ -25560,18 +25560,6 @@
 	  p position = -0.326734,0,-0.949499,0x54314d6f;
 	}
 }
-[t:fern_grs_03,n:0x05a00973]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.81712;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.627073,0,0.77896;
-	  p position = 0.197662,0,-3.49963,0x5cd43f5f;
-	}
-}
 [t:gpg_bush_glb_rhod_dead_01,n:0x05a00294]
 {
 	[aspect]
@@ -25663,6 +25651,18 @@
 	{
 	  q orientation = 0,0.300096,0,0.953909;
 	  p position = -0.131685,0,0.948439,0x5cd43f5f;
+	}
+}
+[t:fern_grs_03,n:0x05a00973]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.81712;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.627073,0,0.77896;
+	  p position = 0.197662,0,-3.49963,0x5cd43f5f;
 	}
 }
 [t:tree_grs_sequoia_01,n:0x05a0024c]
