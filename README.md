@@ -23,17 +23,19 @@ Changes from there on:
 - Added zombified 2nd Legion mates in Meren
 - Zombified NPCs in Elddim, Crystwind & Meren areas, leaving quests intact & dropping shop contents
 - Depopulated Fallraen, overrun by Furoks
-- Zombified NPCs in Lang, pacified Goblins, moved Lang shop contents to Goblins
+- Zombified NPCs in Lang, pacified Goblins, moved Lang shop contents to Goblins, added further Goblin shops
 - Ruinated towns from Elddim to Lang
 - Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
-- Zombified enemies - Krug, Bandits, wolves, bears
+- Zombified enemies - Krug, Bandits, Cyclops, wolves, bears
 - Made mules in Elddim, at Horty Olof, in Fallraen & Meren self-hireable
 - Removed signs, good luck out there lol
 - Removed original tutorial tips, you're on your own
 - Extinguished torches & campfires but made them lightable
 - Removed some bridges
+- Added a mad archaeologist in the Pit of Despair
+- Spread moldy Furies into the Redwood Gap
 
 ## How to build
 
