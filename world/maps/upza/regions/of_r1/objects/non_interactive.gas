@@ -48828,14 +48828,6 @@
 	  p position = 1.6314,0,-0.418086,0xe3d6e495;
 	}
 }
-[t:body_glb_gremal_01,n:0x05a000fe]
-{
-	[placement]
-	{
-	  q orientation = 0.303313,-0.867184,-0.133552,0.371691;
-	  p position = 2.26566,-0.100002,0.714588,0x8474fe20;
-	}
-}
 [t:mushroom_glb_02,n:0x05a009ee]
 {
 	[aspect]
@@ -51854,5 +51846,21 @@
 	[placement]
 	{
 	  p position = -0.608795,-0.5,-0.958069,0x793b986c;
+	}
+}
+[t:bones_csl_skulls_03,n:0x05a00a80]
+{
+	[placement]
+	{
+	  q orientation = 0,0.972793,0,0.231674;
+	  p position = 1.83649,0,0.734893,0x8474fe20;
+	}
+}
+[t:bones_csl_skulls_04,n:0x05a00a81]
+{
+	[placement]
+	{
+	  q orientation = 0,0.952543,0,0.304404;
+	  p position = 1.5676,0,1.00864,0x8474fe20;
 	}
 }
