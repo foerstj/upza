@@ -25568,8 +25568,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.77896,0,0.627073;
-	  p position = 0.782957,0,-1.73479,0xb4f31ce8;
+	  q orientation = 0,-0.627073,0,0.77896;
+	  p position = 0.197662,0,-3.49963,0x5cd43f5f;
 	}
 }
 [t:gpg_bush_glb_rhod_dead_01,n:0x05a00294]
@@ -25650,7 +25650,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.865126,0,-0.501555;
-	  p position = -2.39922,0,-3.36591,0x5cd43f5f;
+	  p position = -2.00685,0,-1.90903,0x5cd43f5f;
 	}
 }
 [t:foliage_grs_01,n:0x05a00873]
@@ -48912,6 +48912,22 @@
 	  p position = 2.14446,0,1.18386,0x8474fe20;
 	}
 }
+[t:bones_csl_skulls_03,n:0x05a00a80]
+{
+	[placement]
+	{
+	  q orientation = 0,0.972793,0,0.231674;
+	  p position = 1.83649,0,0.734893,0x8474fe20;
+	}
+}
+[t:bones_csl_skulls_04,n:0x05a00a81]
+{
+	[placement]
+	{
+	  q orientation = 0,0.952543,0,0.304404;
+	  p position = 1.5676,0,1.00864,0x8474fe20;
+	}
+}
 [t:mushroom_glb_02,n:0x05a009f1]
 {
 	[aspect]
@@ -51846,21 +51862,5 @@
 	[placement]
 	{
 	  p position = -0.608795,-0.5,-0.958069,0x793b986c;
-	}
-}
-[t:bones_csl_skulls_03,n:0x05a00a80]
-{
-	[placement]
-	{
-	  q orientation = 0,0.972793,0,0.231674;
-	  p position = 1.83649,0,0.734893,0x8474fe20;
-	}
-}
-[t:bones_csl_skulls_04,n:0x05a00a81]
-{
-	[placement]
-	{
-	  q orientation = 0,0.952543,0,0.304404;
-	  p position = 1.5676,0,1.00864,0x8474fe20;
 	}
 }
