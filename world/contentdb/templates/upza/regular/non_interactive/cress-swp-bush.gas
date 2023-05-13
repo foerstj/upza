@@ -1,0 +1,15 @@
+[t:template,n:bush_swp_03_base]  // = bush_swp_03
+{
+	category_name = "foliage";
+	doc = "swp_grndcvr_trefoils";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_swp_bush-03;
+	}
+}
+
+// Template alias for use as water plant
+[t:template,n:cress_swp_03] { specializes = bush_swp_03_base; }
