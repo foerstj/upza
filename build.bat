@@ -46,13 +46,14 @@ popd
 
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
-::robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
-robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
-::for %%r in (island hades dunes2island dunes2hades mega_forest mega_forest_r2 mega_forest_r3) do (
-::for %%r in (sno_r1 sr_r5 ocean dark_forest_r2 dark_forest df2ds) do (
-::for %%r in (gi_a gi_a_r2) do (
-for %%r in (md_r1 md_r2 of_r1) do (
-  robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
+if not "%mode%"=="light" (
+  robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore
+)
+if "%mode%"=="light" (
+  robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
+  for %%r in (of_r1 md_r1 md_r2 wd_r1 fd_r4 grs_dry_hard_r1 river_canyon grs2des) do (
+    robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
+  )
 )
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"

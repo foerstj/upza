@@ -54,7 +54,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.960258,0,-0.279115;
-	  p position = -1.74712,0,9.60468,0x2fe0c8b5;
+	  p position = 1.3072,0,10.1411,0x2fe0c8b5;
 	}
 }
 [t:tree_swp_07,n:0x05a00736]
@@ -66,7 +66,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.742285,0,0.670084;
-	  p position = 2.09738,0.499996,-2.46152,0xadc5cfbe;
+	  p position = 3.95063,0,-0.73572,0xadc5cfbe;
 	}
 }
 [t:bush_swp_06,n:0x05a00665]
@@ -1796,7 +1796,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.228743,0,-0.973487;
-	  p position = 4.3554,0,-7.51973,0xd7184eb8;
+	  p position = 4.35724,0,-8.37654,0xd7184eb8;
 	}
 }
 [t:tree_swp_08,n:0x05a006f9]
@@ -1844,7 +1844,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.721807,0,0.692094;
-	  p position = 9.28449,0,-6.10947,0xd7184eb8;
+	  p position = 9.34991,0,-8.27614,0xd7184eb8;
 	}
 }
 [t:tree_swp_07,n:0x05a00733]
@@ -16887,8 +16887,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.471264,0,0.881992;
-	  p position = -0.145089,0.702264,0.555244,0x1c31678e;
+	  q orientation = 0,0.956897,0,0.290429;
+	  p position = -3.52921,-0.966372,-0.986999,0x393708b5;
 	}
 }
 [t:bush_grs_rhod_01,n:0x05a002a2]
@@ -25701,7 +25701,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.521856,0,0.853034;
-	  p position = 3.20404,0,1.62201,0x139bc6e1;
+	  p position = -0.370529,0,0.0998536,0x139bc6e1;
 	}
 }
 [t:bush_grs_rhod_01,n:0x05a00293]
@@ -26013,7 +26013,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.650722,0,0.759316;
-	  p position = 0.927831,0,1.76726,0x95bf6e76;
+	  p position = 0.690331,0,0.746673,0x95bf6e76;
 	}
 }
 [t:tree_glb_pine_sequoia_01_rescaled,n:0x05a00432]
@@ -40587,6 +40587,18 @@
 	  p position = -3.84924,0,1.32598,0x843a0d9d;
 	}
 }
+[t:tree_grs_sequoia_01,n:0x05a00f40]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.29138;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.300629,0,0.953741;
+	  p position = 0.652344,0,1.93016,0xe046517f;
+	}
+}
 [t:mushroom_glb_03,n:0x05a01186]
 {
 	[aspect]
@@ -40597,18 +40609,6 @@
 	{
 	  q orientation = 0,0.977466,0,-0.211095;
 	  p position = 0.639469,-1,-0.0786784,0x4db0d4b6;
-	}
-}
-[t:tree_grs_sequoia_01,n:0x05a00f40]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.29138;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.300629,0,-0.953741;
-	  p position = -0.225549,-0.883332,-2.74417,0x63489f17;
 	}
 }
 [t:flowers_grs_04,n:0x05a01073]
