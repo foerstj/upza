@@ -22,7 +22,8 @@
 	}
 }
 
-[t:template,n:bd_un_le_f_g_c_avg_upza_leg_01]
+[t:template,n:bd_un_le_f_g_c_avg_upza_leg_01] { specializes = bd_un_le_f_g_c_avg_upza_leg_01_base; }
+[t:template,n:bd_un_le_f_g_c_avg_upza_leg_01_base]
 {
     specializes = upza_base_bd_un_leg;
 
@@ -50,7 +51,8 @@
     }
 }
 
-[t:template,n:bd_un_ch_r_g_c_avg_upza_leg_02]
+[t:template,n:bd_un_ch_r_g_c_avg_upza_leg_02] { specializes = bd_un_ch_r_g_c_avg_upza_leg_02_base; }
+[t:template,n:bd_un_ch_r_g_c_avg_upza_leg_02_base]
 {
     specializes = upza_base_bd_un_leg;
 
@@ -78,7 +80,8 @@
     }
 }
 
-[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03]
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03] { specializes = bd_un_pl_f_g_c_avg_upza_leg_03_base; }
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03_base]
 {
     specializes = upza_base_bd_un_leg;
 
@@ -107,7 +110,8 @@
 }
 
 // declare as _le_ (leather) because pcontent pricing for _ro_ (robes) is especially expensive (see pcontent.skrit)
-[t:template,n:bd_un_le_m_g_c_avg_upza_leg_01]
+[t:template,n:bd_un_le_m_g_c_avg_upza_leg_01] { specializes = bd_un_le_m_g_c_avg_upza_leg_01_base; }
+[t:template,n:bd_un_le_m_g_c_avg_upza_leg_01_base]
 {
 	specializes = bd_ro_un_m_g_c_eos_base;
 
@@ -125,7 +129,8 @@
 	}
 }
 
-[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03_rst]
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03_rst] { specializes = bd_un_pl_f_g_c_avg_upza_leg_03_rst_base; }
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03_rst_base]
 {
     specializes = upza_base_bd_un_leg;
 
