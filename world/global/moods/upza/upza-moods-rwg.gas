@@ -1,0 +1,32 @@
+[mood_setting*]	
+{
+	mood_name				= upza_md_r1_eelex;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 45.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 40.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 90.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_goblininventor_02";
+		room_type			= rt_arena;
+	}
+}
