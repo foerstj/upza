@@ -13,3 +13,49 @@
 		screen_name = "Lamp";
 	}
 }
+
+[t:template,n:lamp_glb_oil_01_unlit]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_wall_oil";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-01;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+	}
+}
+[t:template,n:lamp_glb_oil_02_unlit]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_wall_oil_ornate";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-02;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+	}
+}
+[t:template,n:lamp_glb_oil_03_unlit]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lamp_floor_oil";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-03;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+	}
+}
