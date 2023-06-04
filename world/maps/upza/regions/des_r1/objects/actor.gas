@@ -2012,30 +2012,11 @@
 	  p position = -2.44128,0,1.06126,0xdd4b229e;
 	}
 }
-[t:mp_guard_03,n:0x007006ff]
+[t:upza_zombie_iliarth_guard,n:0x007006ff]
 {
-	[aspect]
-	{
-	  b is_collidable = false;
-		model = m_c_gah_fb_pos_a3;
-	}
 	[common]
 	{
 		dev_instance_text = "ELEVATOR";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard_elevator;
-			* = conversation_guard_elevator_red;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
