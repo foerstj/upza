@@ -7,6 +7,53 @@
 		use_point_scids = 0x007006e8;
 	}
 }
+[t:torch_swp_stick_01_lightable,n:0x007008e0]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x542D98AB;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x542D98AB;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-8.94069e-008;
+	  p position = -2.75144,2,-2.58108,0x20ccc319;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008e2]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x7CB9C971;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x7CB9C971;
+	}
+	[placement]
+	{
+	  p position = 1.91773,2,2.92106,0x150dfe5e;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008e1]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x9A3352A8;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x9A3352A8;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.205257,3.8147e-006,3.80135,0x1a5300ea;
+	}
+}
 [t:sign_glb_generalstore_01,n:0x0070086b]
 {
 	[common]
@@ -53,6 +100,36 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -15.6604,-13.7466,-23.4274,0xa4b0ed47;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008de]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x03C3978D;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x03C3978D;
+	}
+	[placement]
+	{
+	  p position = 2.56158,0,-3.7746,0x7711a54c;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008df]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xC07FC427;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xC07FC427;
+	}
+	[placement]
+	{
+	  p position = 3.88916,0,-2.83661,0x4a90726a;
 	}
 }
 [t:sign_glb_magicshop_01,n:0x0070086a]
@@ -132,6 +209,51 @@
 	{
 	  q orientation = 0,1,0,5.96046e-008;
 	  p position = 24.7132,-16.4068,-24.8799,0x8f2adf84;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008dd]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xC0F03725;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xC0F03725;
+	}
+	[placement]
+	{
+	  p position = 0.684868,0,1.81113,0x0762af32;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008dc]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xD6AA7FA5;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xD6AA7FA5;
+	}
+	[placement]
+	{
+	  p position = -1.10881,0,-3.50629,0x42289bbd;
+	}
+}
+[t:torch_swp_stick_01_lightable,n:0x007008db]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x72A47328;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x72A47328;
+	}
+	[placement]
+	{
+	  p position = 0.591499,-3.8147e-006,0.425796,0x7baee7f5;
 	}
 }
 [t:sign_glb_blacksmith_right,n:0x00700a1c]
