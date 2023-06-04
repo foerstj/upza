@@ -90,12 +90,108 @@
 	  p position = 1.29031,0,-0.712013,0xfb9cbe95;
 	}
 }
+[t:skeleton_archer,n:0x00d0018c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.26912;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.566406,0,0.824126;
+	  p position = 2.47311,0,-3.41192,0x2b5ff021;
+	}
+}
+[t:skeleton_archer,n:0x00d0018d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03591;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981627,0,0.190809;
+	  p position = 3.16481,0,-1.6646,0x2b5ff021;
+	}
+}
+[t:skeleton_archer,n:0x00d0018e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.78225;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.713251,0,0.700909;
+	  p position = 2.83496,1.90735e-006,2.517,0x2b5ff021;
+	}
+}
+[t:skeleton_archer,n:0x00d0018f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17945;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.83867,0,-0.544639;
+	  p position = -0.169449,-1.90735e-006,1.44564,0x2b5ff021;
+	}
+}
+[t:skeleton,n:0x00d00191]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.21195;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.544639,0,0.838671;
+	  p position = 0.983543,1.90735e-006,-1.93864,0x2b5ff021;
+	}
+}
+[t:skeleton,n:0x00d00192]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.97161;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.21644,0,0.976296;
+	  p position = -2.01553,-1.90735e-006,1.0716,0x2b5ff021;
+	}
+}
+[t:skeleton,n:0x00d00193]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1637;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.997564,0,0.0697563;
+	  p position = -1.80861,-1.90735e-006,-0.523598,0x2b5ff021;
+	}
+}
 [t:sand_ripper,n:0x00d002a3]
 {
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -3.46798,0,-3.76309,0x2b5ff021;
+	}
+}
+[t:skeleton,n:0x00d00190]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07489;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.139173,0,0.990268;
+	  p position = 0.653931,-4,-1.94815,0x6b062b23;
 	}
 }
 [t:braak_desert,n:0x00d00207]
@@ -143,5 +239,21 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = 3.092,0,-0.814827,0xcf29bdfa;
+	}
+}
+[t:skeleton,n:0x00d000c9]
+{
+	[placement]
+	{
+	  q orientation = 0,0.945518,0,-0.325568;
+	  p position = -4.51208,-4,-3.48513,0x9e9a581f;
+	}
+}
+[t:skeleton_archer,n:0x00d000ca]
+{
+	[placement]
+	{
+	  q orientation = 0,0.930418,0,0.366501;
+	  p position = -16.3701,-4,-19.1924,0x9e9a581f;
 	}
 }
