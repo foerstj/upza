@@ -1,0 +1,113 @@
+[t:template,n:droog_grunt_boss_01_base]  // = droog_grunt_boss_01
+{
+	category_name = "1W_evil_a";
+	doc = "droog grunt boss 01";
+	specializes = droog_grunt_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength     = 35, 0;
+			intelligence = 13, 0;
+			dexterity    = 23, 0;
+			melee        = 43, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 61210;
+		life             = 1448;
+		max_life         = 1448;
+		mana             = 26;
+		max_mana         = 26;
+		[textures] { 0=b_c_eam_dgg-02; }
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 70;
+		damage_min = 50;
+	}
+	[common]
+	{
+		screen_name="Droog Captain";
+		membership=monster,droog,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_yellow(sgx)");
+			}
+		}
+	}
+	[defend] { defense=630; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				[oneof*]
+				{
+    				es_weapon_hand = sd_un_droog_1h_avg;
+				}
+			}
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/115-130;
+					il_main = #armor/370-410;
+				}
+
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/138-159;
+	                il_main = #armor/-rare(1)/290-350;
+                    il_main = #*/-rare(1)/138-159;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/138-159;
+	                il_main = #armor/-unique(2)/290-350;
+                    il_main = #*/-unique(2)/138-159;
+	            }
+				[gold*]
+				{
+					max = 29891;
+					min = 24678;
+					min_pile = 3641;
+					piles = 2 - 5;
+				}
+			}
+		}
+    }
+    [mind]
+    {
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party		 = true
+			&form_party_on_friend_entered_OCZ	= true
+			&form_party_on_friend_entered_ICZ	= true
+			&party_template					 = "party_droog";
+	}
+}
+
+[t:template,n:droog_grunt_zombie_boss_01] { specializes = droog_grunt_zombie_boss_01_base; }
+[t:template,n:droog_grunt_zombie_boss_01_base]
+{
+    specializes = droog_grunt_boss_01_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_edm_pu-nt;
+    }
+    [common]
+    {
+        screen_name = "Zombie Droog Captain";
+    }
+}

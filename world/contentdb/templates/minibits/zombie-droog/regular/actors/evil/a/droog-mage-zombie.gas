@@ -1,0 +1,73 @@
+[t:template,n:droog_mage_zombie] { specializes = droog_mage_zombie_base; }
+[t:template,n:droog_mage_zombie_base]
+{
+	specializes = droog_mage_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_edm_pu-nt;
+		[voice]
+		{
+			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_ground_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_glance]	{ priority = low;	* = s_e_hit_dead_SED;			}
+			[hit_solid]		{ priority = low;	* = s_e_hit_dead_SED;			}
+		}
+    }
+    [common]
+    {
+        screen_name = "Zombie Droog Mage";
+    }
+}
+
+[t:template,n:droog_mage_zombie_reveal]
+{
+	specializes = droog_mage_zombie_base;
+
+	[mind]
+	{
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true;
+		sight_origin_height = 1;
+		actor_auto_fidgets = false;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("droog_reveal");
+				condition* = receive_world_message("we_enemy_spotted");
+			}
+		}
+	}
+}
+
+[t:template,n:droog_mage_zombie_reveal_act]
+{
+	specializes = droog_mage_zombie_base;
+
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?activate					= true
+			&invisible					= true;
+    	sight_origin_height = 1;
+    	actor_auto_fidgets = false;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("droog_reveal");
+				condition* = receive_world_message("we_req_activate");
+			}
+		}
+	}
+}
