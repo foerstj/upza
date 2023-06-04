@@ -1,12 +1,6 @@
-[t:template,n:upza_zombie_iliarth_shop_sar] { specializes = upza_zombie_iliarth_shop_sar_base; }
-[t:template,n:upza_zombie_iliarth_shop_sar_base]
+[t:template,n:upza_zombie_iliarth_shop_base]
 {
     specializes = upza_base_zombie_thin;
-
-	[common]
-	{
-		screen_name = "Sar Vinien";
-	}
 
     [aspect]
     {
@@ -88,6 +82,17 @@
 				}
 			}
 		}
+	}
+}
+
+[t:template,n:upza_zombie_iliarth_shop_sar] { specializes = upza_zombie_iliarth_shop_sar_base; }
+[t:template,n:upza_zombie_iliarth_shop_sar_base]
+{
+    specializes = upza_zombie_iliarth_shop_base;
+
+	[common]
+	{
+		screen_name = "Sar Vinien";
 	}
 
     // original shop content from sar_vinien
@@ -289,6 +294,228 @@
 			potion_mana_large = 8;
 			potion_rejuvenation_small = 2;
 			potion_rejuvenation_medium = 2;
+			potion_rejuvenation_large = 2;
+
+			scroll_resurrect = 2;
+            spell_resurrect = 2;
+            spell_revive = 2;
+            spell_healing_hands = 2;
+
+            spell_fireshot = 2;
+            spell_zap = 2;
+		}
+	}
+}
+
+[t:template,n:upza_zombie_iliarth_shop_nalin] { specializes = upza_zombie_iliarth_shop_nalin_base; }
+[t:template,n:upza_zombie_iliarth_shop_nalin_base]
+{
+    specializes = upza_zombie_iliarth_shop_base;
+
+	[common]
+	{
+		screen_name = "Nalin Starbringer";
+	}
+
+    // original shop content from nalin_starbringer
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/216-347;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/216-252;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/253-310;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/311-347;
+					max = 3;
+					min = 3;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/29-252;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/253-310;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/311-347;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #helm/29-252;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/253-310;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/311-347;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/29-252;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/253-310;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/311-347;
+					max = 4;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/29-252;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/253-310;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/311-347;
+					max = 4;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/98-113;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/114-139;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/140-155;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/98-113;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/114-139;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/140-155;
+					max = 6;
+					min = 6;
+				}
+			}
+
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/35-56;
+					max = 25;
+					min = 25;
+				}
+				[all*]
+				{
+					il_main = #spell/0-34;
+					max = 5;
+					min = 5;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/68-133;
+					max = 4;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_small = 3;
+			potion_health_medium = 6;
+			potion_health_large = 9;
+			potion_mana_small = 3;
+			potion_mana_medium = 6;
+			potion_mana_large = 9;
+			potion_rejuvenation_small = 1;
+			potion_rejuvenation_medium = 1;
 			potion_rejuvenation_large = 2;
 
 			scroll_resurrect = 2;

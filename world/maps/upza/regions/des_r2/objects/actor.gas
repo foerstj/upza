@@ -475,20 +475,8 @@
 	  p position = -0.69738,0,1.97269,0x8868a58e;
 	}
 }
-[t:nalin_starbringer,n:0x090000ea]
+[t:upza_zombie_iliarth_shop_nalin,n:0x090000ea]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_nalin;
-			* = conversation_nalin_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.939692,0,-0.34202;
