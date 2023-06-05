@@ -203,6 +203,18 @@
 	  p position = 5.55424,0.549997,17.7898,0xa8eb1594;
 	}
 }
+[t:barrier_breakable_01,n:0x007005a9]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 27.3558,-17.4685,-19.4082,0x8f2adf84;
+	}
+}
 [t:sign_des_quillrabe,n:0x00700794]
 {
 	[placement]
@@ -254,6 +266,18 @@
 	[placement]
 	{
 	  p position = 0.591499,-3.8147e-006,0.425796,0x7baee7f5;
+	}
+}
+[t:barrier_breakable_01,n:0x0070059c]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 3.66345,0.55,2.80424,0x02c2b97b;
 	}
 }
 [t:sign_glb_blacksmith_right,n:0x00700a1c]
