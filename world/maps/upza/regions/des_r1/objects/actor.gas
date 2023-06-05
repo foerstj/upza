@@ -1168,12 +1168,36 @@
 	  p position = 0.609432,0,-1.87688,0x5a5cd526;
 	}
 }
+[t:giant_lizard,n:0x0070098c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = 0.0714722,0,2.78699,0x848ee73f;
+	}
+}
 [t:giant_lizard,n:0x0070098b]
 {
 	[placement]
 	{
 	  q orientation = 0,1,0,-5.36442e-007;
 	  p position = 2.90039,0,-0.0887146,0xd0965388;
+	}
+}
+[t:soul_stinger,n:0x00700738]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,2.68221e-007;
+	  p position = 0.950867,0,1.28838,0xfd970ba4;
+	}
+}
+[t:soul_stinger,n:0x00700739]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382682,0,0.92388;
+	  p position = 2.79379,0,2.85075,0xfd970ba4;
 	}
 }
 [t:droog_villager,n:0x0070058f]
@@ -1252,14 +1276,6 @@
 	  p position = -31.4123,0.55,20.1124,0x5e776aad;
 	}
 }
-[t:giant_lizard,n:0x0070098c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707106,0,0.707107;
-	  p position = 0.0714722,0,2.78699,0x848ee73f;
-	}
-}
 [t:mp_npc_droog_01,n:0x007007e1]
 {
 	[common]
@@ -1299,14 +1315,6 @@
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
 	  p position = 36.6342,0.549999,7.0938,0xd639fb8b;
-	}
-}
-[t:droog_villager,n:0x0070051b]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = 29.498,-17.45,-10.1474,0x1a1aeca3;
 	}
 }
 [t:mp_gypsy_female_02,n:0x00700797]
@@ -1443,6 +1451,28 @@
 	{
 	  q orientation = 0,-1,0,5.66244e-007;
 	  p position = 23.254,-11.45,-23.8944,0x8f2adf84;
+	}
+}
+[t:droog_archer,n:0x007005b4]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[placement]
+	{
+	  p position = 27.3373,-17.45,-14.1477,0x8f2adf84;
+	}
+}
+[t:droog_archer,n:0x007005b5]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[placement]
+	{
+	  p position = 25.6392,-17.45,-15.4384,0x8f2adf84;
 	}
 }
 [t:mp_dwarf_legionnaire_guard,n:0x007006d0]
@@ -1666,14 +1696,6 @@
 	  p position = -1.90047,0,-0.565864,0x7baee7f5;
 	}
 }
-[t:soul_stinger,n:0x00700739]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382682,0,0.92388;
-	  p position = 2.79379,0,2.85075,0xfd970ba4;
-	}
-}
 [t:droog_archer,n:0x007005ae]
 {
 	[actor]
@@ -1705,6 +1727,17 @@
 	[placement]
 	{
 	  p position = 0.948797,-9.53674e-007,3.52346,0x081cded5;
+	}
+}
+[t:droog_mage,n:0x007005b3]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[placement]
+	{
+	  p position = 1.22022,0,-1.49136,0x081cded5;
 	}
 }
 [t:mp_guard_05,n:0x007006d1]
@@ -1748,12 +1781,15 @@
 	  p position = 1.40257,0,0.906357,0x081cded5;
 	}
 }
-[t:soul_stinger,n:0x00700738]
+[t:droog_grunt,n:0x007005b2]
 {
+	[actor]
+	{
+		alignment = aa_good;
+	}
 	[placement]
 	{
-	  q orientation = 0,1,0,2.68221e-007;
-	  p position = 0.950867,0,1.28838,0xfd970ba4;
+	  p position = -0.32328,0,-1.40204,0xfe50c0ed;
 	}
 }
 [t:droog_archer_zombie,n:0x00700a32]
@@ -2607,7 +2643,7 @@
 	  p position = -1.14687,0,0.483172,0xbbeec238;
 	}
 }
-[t:droog_grunt,n:0x007005b2]
+[t:droog_grunt,n:0x007005b7]
 {
 	[actor]
 	{
@@ -2615,10 +2651,11 @@
 	}
 	[placement]
 	{
-	  p position = -0.32328,0,-1.40204,0xfe50c0ed;
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 29.4738,-17.45,-14.3334,0x8f2adf84;
 	}
 }
-[t:droog_mage,n:0x007005b3]
+[t:droog_grunt,n:0x007005b8]
 {
 	[actor]
 	{
@@ -2626,21 +2663,27 @@
 	}
 	[placement]
 	{
-	  p position = 1.22022,0,-1.49136,0x081cded5;
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 25.3588,-17.45,-16.6053,0x8f2adf84;
 	}
 }
-[t:droog_archer,n:0x007005b4]
+[t:droog_archer,n:0x007005b9]
 {
 	[actor]
 	{
 		alignment = aa_good;
 	}
+	[aspect]
+	{
+	  f scale_multiplier = 1.1;
+	}
 	[placement]
 	{
-	  p position = 27.3572,-17.45,-14.1388,0x8f2adf84;
+	  q orientation = 0,-1,0,5.66244e-007;
+	  p position = 18.1173,-11.4694,-24.0275,0x20ce0af4;
 	}
 }
-[t:droog_archer,n:0x007005b5]
+[t:droog_mage,n:0x007005ba]
 {
 	[actor]
 	{
@@ -2648,6 +2691,39 @@
 	}
 	[placement]
 	{
-	  p position = 25.6392,-17.45,-15.4384,0x8f2adf84;
+	  p position = 29.4299,-17.45,-10.5961,0x1a1aeca3;
+	}
+}
+[t:droog_grunt,n:0x007005bb]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[placement]
+	{
+	  p position = -2.18805,0,0.112869,0x081cded5;
+	}
+}
+[t:droog_archer,n:0x007005bc]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[placement]
+	{
+	  p position = -1.89173,0,-1.97016,0xe8866543;
+	}
+}
+[t:droog_archer,n:0x007005bd]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[placement]
+	{
+	  p position = 2.22968,0,-2.83012,0xe8866543;
 	}
 }

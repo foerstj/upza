@@ -12965,6 +12965,18 @@
 	  p position = 26.5658,-17.65,-25.0956,0x8f2adf84;
 	}
 }
+[t:barrier_glb_02,n:0x007005a7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.3;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = 26.6026,-17.65,-25.5802,0x8f2adf84;
+	}
+}
 [t:barrier_glb_02,n:0x007005a8]
 {
 	[aspect]
@@ -14304,18 +14316,6 @@
 	{
 	  q orientation = 0,0.988087,0,0.153898;
 	  p position = 3.69579,0.400011,5.70605,0x180e062f;
-	}
-}
-[t:barrier_glb_02,n:0x007005a7]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.3;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707106,0,0.707107;
-	  p position = 26.6026,-17.65,-25.5802,0x8f2adf84;
 	}
 }
 [t:brazier_glb_brass_01,n:0x0070081f]

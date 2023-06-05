@@ -11,6 +11,73 @@
 	  p position = 37.1439,0.549999,6.40635,0xd639fb8b;
 	}
 }
+[t:cmd_ai_t_attack_object,n:0x007005b6]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x00700990;
+	  x target2 = 0x00700596;
+	}
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x007005B6,0f,"default","every",0), doc("self-activate");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(30.000000,10.000000,20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.763244,0,-0.959503,0xfe50c0ed;
+	}
+}
+[t:cmd_ai_t_attack_object,n:0x007005b1]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x00700A34;
+	  x target2 = 0x0070059C;
+	}
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x007005B1,0f,"default","every",0), doc("self-activate");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,10.000000,20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.45905,0.55,3.97613,0x02c2b97b;
+	}
+}
 [t:animate_elevator,n:0x007004eb]
 {
 	[nodal_tex_anim]
@@ -59,29 +126,5 @@
 	[placement]
 	{
 	  p position = 1.62044,9.53674e-007,-0.864822,0xca72fd1f;
-	}
-}
-[t:cmd_ai_t_attack_object,n:0x007005b1]
-{
-	[cmd_ai_dojob]
-	{
-	  x target1 = 0x00700A34;
-	  x target2 = 0x0070059C;
-	}
-	[placement]
-	{
-	  p position = 1.45905,0.55,3.97613,0x02c2b97b;
-	}
-}
-[t:cmd_ai_t_attack_object,n:0x007005b6]
-{
-	[cmd_ai_dojob]
-	{
-	  x target1 = 0x00700990;
-	  x target2 = 0x00700596;
-	}
-	[placement]
-	{
-	  p position = 0.770747,15.8814,3.45913,0x9c9a6aeb;
 	}
 }
