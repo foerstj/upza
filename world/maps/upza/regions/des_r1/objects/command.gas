@@ -61,3 +61,27 @@
 	  p position = 1.62044,9.53674e-007,-0.864822,0xca72fd1f;
 	}
 }
+[t:cmd_ai_t_attack_object,n:0x007005b1]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x00700A34;
+	  x target2 = 0x0070059C;
+	}
+	[placement]
+	{
+	  p position = 1.45905,0.55,3.97613,0x02c2b97b;
+	}
+}
+[t:cmd_ai_t_attack_object,n:0x007005b6]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x00700990;
+	  x target2 = 0x00700596;
+	}
+	[placement]
+	{
+	  p position = 0.770747,15.8814,3.45913,0x9c9a6aeb;
+	}
+}
