@@ -104,10 +104,14 @@
 
     [aspect]
     {
-        textures:0 = b_c_eam_dg-zo;
+        textures:0 = b_c_eam_dgg-02-zo;
     }
     [common]
     {
         screen_name = "Zombie Droog Captain";
+    }
+    [guts_manager]
+    {
+        effect_name = green_blood;
     }
 }

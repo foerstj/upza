@@ -5,7 +5,7 @@
 
     [aspect]
     {
-        textures:0 = b_c_eam_dg-zo;
+        textures:0 = b_c_eam_dgm-zo;
 		[voice]
 		{
 			[die] 			{ priority = high;	* = s_e_die_dead_SED;			}
@@ -19,6 +19,17 @@
     {
         screen_name = "Zombie Droog Mage";
     }
+    [guts_manager]
+    {
+        effect_name = green_blood;
+    }
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = spell_droog_zombie_starburst;
+		}
+	}
 }
 
 [t:template,n:droog_mage_zombie_reveal]
