@@ -20330,3 +20330,50 @@
 	  p position = 0.112199,0,-0.457072,0x78e51ffd;
 	}
 }
+[t:barrier_glb_01,n:0x0070059b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.3;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -1.70161,15.5321,2.12823,0x9c9a6aeb;
+	}
+}
+[t:barrier_glb_01,n:0x007005aa]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.3;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.79462e-007;
+	  p position = -0.427284,0,1.30888,0xfe50c0ed;
+	}
+}
+[t:barrier_glb_02,n:0x007005ac]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.3;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.83818,0,1.70355,0xfe50c0ed;
+	}
+}
+[t:barrier_glb_02,n:0x007005ad]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.3;
+	}
+	[placement]
+	{
+	  p position = -2.7509,15.8288,0.800705,0x9c9a6aeb;
+	}
+}

@@ -1119,59 +1119,63 @@
 {
 	[placement]
 	{
-	  p position = -6.56139,1.85,3.94691,0x51e2d7ab;
+	  p position = -4.37014,1.85,-3.50857,0x54ccef51;
 	}
 }
 [t:droog_archer_zombie,n:0x00700a31]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.7298,0,-1.98047,0x4f26b663;
+	  q orientation = 0,-1.78814e-007,0,1;
+	  p position = 2.21018,-1.81199,-3.18527,0x02f8fb6a;
 	}
 }
 [t:droog_archer_zombie,n:0x00700a32]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.78923,0,1.94178,0x78a5226a;
+	  q orientation = 0,-4.47035e-007,0,1;
+	  p position = -3.86753,0.3,-0.244743,0x180e062f;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a33]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.68546,0,2.1559,0x78a5226a;
+	  q orientation = 0,-4.47035e-007,0,1;
+	  p position = -3.65338,0.276095,3.22993,0x180e062f;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a34]
 {
 	[placement]
 	{
-	  p position = -0.532181,0,3.64589,0x78a5226a;
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = -2.16333,0.722798,1.07667,0x180e062f;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a36]
 {
 	[placement]
 	{
-	  p position = -0.755624,0,-1.40436,0x78a5226a;
+	  q orientation = 0,1,0,2.38418e-007;
+	  p position = 1.30011,0,1.21371,0x28131e74;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a37]
 {
 	[placement]
 	{
-	  p position = 1.2198,0,-0.441862,0x78a5226a;
+	  q orientation = 0,1,0,2.38418e-007;
+	  p position = -0.675316,0,0.251209,0x28131e74;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a38]
 {
 	[placement]
 	{
-	  p position = 1.91301,0,-1.65573,0x78a5226a;
+	  q orientation = 0,1,0,2.38419e-007;
+	  p position = -1.36852,0,1.46508,0x28131e74;
 	}
 }
 [t:soul_stinger,n:0x0070073d]
@@ -1231,16 +1235,16 @@
 {
 	[placement]
 	{
-	  q orientation = 0,1,0,-5.96046e-008;
-	  p position = 1.43602,0,1.8613,0x1635d12c;
+	  q orientation = 0,-8.94069e-008,0,1;
+	  p position = 7.47816,-4,-0.811691,0x87f229a7;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a3d]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.18534,0,3.61547,0x1635d12c;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.90047,0,-0.565864,0x7baee7f5;
 	}
 }
 [t:droog_grunt_zombie_reveal,n:0x00700a3c]
@@ -1371,8 +1375,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.85397,0,-0.342041,0xf167f201;
+	  q orientation = 0,-0.182235,0,0.983255;
+	  p position = 1.40257,0,0.906357,0x081cded5;
 	}
 }
 [t:giant_lizard,n:0x0070098c]
@@ -1394,14 +1398,16 @@
 {
 	[placement]
 	{
-	  p position = 3.46413,0,0.376984,0xe5c96572;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.748588,-0.549853,-1.60177,0x87f229a7;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700a3b]
 {
 	[placement]
 	{
-	  p position = 1.58475,0,-0.878494,0xe5c96572;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.506889,0.502498,0.277611,0x87f229a7;
 	}
 }
 [t:mp_npc_droog_01,n:0x007007e1]
@@ -1706,7 +1712,8 @@
 {
 	[placement]
 	{
-	  p position = -1.55789,0,-0.511749,0xe93b7956;
+	  q orientation = 0,-2.38418e-007,0,1;
+	  p position = 0.910072,0,2.48363,0x83b41829;
 	}
 }
 [t:soul_stinger,n:0x00700739]
@@ -1721,37 +1728,40 @@
 {
 	[placement]
 	{
-	  p position = 2.47803,0,0.50251,0x2c0a2687;
+	  q orientation = 0,-2.38418e-007,0,1;
+	  p position = -3.05401,0,3.49793,0x83b41829;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700996]
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.26738,0,2.04846,0xe8866543;
+	  q orientation = 0,1,0,-5.36442e-007;
+	  p position = 3.5805,0,-3.72803,0x42289bbd;
 	}
 }
 [t:droog_mage_zombie,n:0x00700998]
 {
 	[placement]
 	{
-	  p position = 1.72079,0,0.884563,0xe8866543;
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = 1.5834,0,-1.28381,0x83b41829;
 	}
 }
 [t:droog_mage_zombie,n:0x00700997]
 {
 	[placement]
 	{
-	  q orientation = 0,1,0,0;
-	  p position = -0.471054,0,-1.22822,0xfe50c0ed;
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 0.760254,0,0.533539,0x42289bbd;
 	}
 }
 [t:droog_grunt_zombie,n:0x00700993]
 {
 	[placement]
 	{
-	  p position = 3.8484,-1.90735e-006,0.214479,0x8d353fb7;
+	  q orientation = 0,-2.68221e-007,0,1;
+	  p position = -1.68364,0,-2.79018,0x83b41829;
 	}
 }
 [t:soul_stinger,n:0x00700738]
