@@ -45,10 +45,23 @@
 	  p position = -0.763244,0,-0.959503,0xfe50c0ed;
 	}
 }
+[t:cmd_ai_t_attack_object,n:0x00700594]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x00700A34;
+	  x target2 = 0x007005A9;
+	}
+	[placement]
+	{
+	  p position = 1.70423,0.563841,2.6263,0x02c2b97b;
+	}
+}
 [t:cmd_ai_t_attack_object,n:0x007005b1]
 {
 	[cmd_ai_dojob]
 	{
+	  x next_scid = 0x00700594;
 	  x target1 = 0x00700A34;
 	  x target2 = 0x0070059C;
 	}
