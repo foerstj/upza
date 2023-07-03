@@ -565,6 +565,11 @@
             required = false;
             description = "Find and eliminate the cause of the Zombie Apocalypse; maybe the Droog know more.";
         }
+        [*]
+        {
+            order = 2;
+            description = "Find and banish the Reaper in Castle Hiroth.";
+        }
     }
 
 

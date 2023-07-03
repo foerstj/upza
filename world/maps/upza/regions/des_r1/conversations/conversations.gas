@@ -72,130 +72,112 @@
 	}
 }
 
-[conversation_ferdl]
+// First convo, explaining the cause of the Zombie Apocalypse, introducing the Reaper
+[conversation_ferdl_first]
 {
-    [text*]             //no ring
-	{
-        order = 0;
-        choice = more;
-		screen_text = "Oh, it's you. Look, I don't have Orellean's silly little book, and I've never seen it either. You can tell that -- what? Oh, you're not one of his lackeys? What do you want, then?";
-		button_2_text = "Directions";
-       	button_2_value = d_0x0070087f;
-	}
     [text*]
-	{
-		screen_text = "Erm, I'm sorry, but Priestess Kelti of Elddim is the only one of the Society who hires strangers. Why don't you go talk to her.";
-        activate_quest* = goto_elddim;
-        button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-	}
-}
-[conversation_ferdl_goto]
-{
-	[text*]     //active goto hiroth_a quest
-	{
-		screen_text = "High Priest Kavaren will show you the Circle when you arrive in, er, Hiroth.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-		quest_dialog = true;
-	}
-}
-[conversation_ferdl_ring]
-{
-	[text*]     //have ring, no quest_quillrabe
-	{
+    {
         order = 0;
+        screen_text = "You are looking at the last survivor of the Utraean Historical Society and the Azunite Priesthood of the Utraean Peninsula. I saw High Priest Kavaren die when we...";
         choice = more;
-		screen_text = "Um, you are the one High Priestess Kelti has anointed, I see. Er, well, I want to see the Circle united just like everyone else, but, um, I'm afraid that won't be possible. We, uh, that is, Quillrabe, used to have a terrible problem with the dragons preying on townspeople. We finally put an end to the rampage by offering tribute: the Dragon Queen could take whatever she wanted, if she and her drakes would leave us in peace.";
-        complete_quest* = goto_quillrabe;
-       	button_2_text = "Directions";
-       	button_2_value = d_0x0070087f;
-	}
+    }
     [text*]
-	{
+    {
         order = 1;
-        choice = more;
-		screen_text = "The Dragon Queen looked over our meager possessions and flamed three more of our warriors. We were forced to bring the Quillrabe Mask Stone out of hiding! She, uh, the Dragon Queen, took one look at the Stone, and refused to consider any other payment. She flew off with it in her talons, and we haven't seen it since.";
-		button_2_text = "Directions";
-       	button_2_value = d_0x0070087f;
-	}
+        screen_text = "Oh the horror of that fateful night! Ever since the queen had died in Hiroth, things were getting worse in the kingdom. Kavaren had long pushed for the unification of the Circle, but as the situation in Hiroth was deteriorating and the townstones remained lost, he summoned us, Priestess Kylira of Grescal and myself, for one last desperate attempt to resurrect the queen.\nIn our hurry, something must have gone terribly wrong. Maybe it was some ancient Utraean magic interfering with our own; they were known to meddle in otherworldly realms. When we had cast the final spell, there was a flash of pale green light, and Death himself stood right before us! As we stood petrified, he devoured the queen's corpse, then turned to us. He killed Kavaren with a single blow of his scythe. Kylira and I ran for our lives; she fell to the undead when she arrived in Grescal.\nThis was the night the undead hordes swept across the Peninsula. It took them less than a week to conquer the former kingdom. I saw it all in my visions.";
+        choice = more;  // talk skrit leads to next convo depending on quests. -> _quest_both, _react_reaperdone, or _react_maljindone
+    }
+}
+// Convo if neither Reaper nor Townstone quest is already fulfilled
+[conversation_ferdl_quest_both]
+{
     [text*]
-	{
-        order = 2;
-		screen_text = "You can, um, try to steal it from her, but more than likely you'll just end up getting turned to, uh, cinders like all the others. If you did find it, and the Circle was built, we'd finally have control of those winged, er, rats! Why else would the Dragon Queen care so much for, um, something so insignificant, if it didn't affect her in some way?";
-        activate_quest* = quest_quillrabe;
+    {
+        order = 0;
+        screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
+        activate_quest* = the_reaper;
+        activate_quest* = the_reaper,2;
+        choice = more;
+    }
+    [text*]
+    {
+        order = 1;
+        screen_text = "What hope is there left? How can Man challenge Death?\nThis peninsula is drenched in ancient Utraean magic we never understood. Kavaren's hope was to learn more about it, or even control it, by solving the puzzle the Utraeans left: completing the Circle of the eight Townstones. Doing so might grant you power over the Reaper; it may as well unleash yet another demon. Arguably it can't get much worse than now. Do what you think is right.\n\nThe Quillrabe Townstone? Oh that one is in possession of the Dragon Queen, I'm afraid.";
         activate_quest* = quest_townstones;
-       	button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-	}
+        activate_quest* = quest_quillrabe;
+    }
+    [text*]
+    {
+        // when talking to him again
+        screen_text = "Yeah, the whole thing is pretty much hopeless. Go out to find the Townstones, or confront the Reaper right away, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
+    }
 }
-[conversation_ferdl_quest]
-{
-	[text*]           //have ring AND quest_quillrabe
-	{
-		screen_text = "The Dragon Queen lives in a vast network of catacombs to the south. Beware, though, her drakes are never far from her side.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-		quest_dialog = true;
-	}
-}
-[conversation_ferdl_complete]
+// Reaction to Reaper done
+[conversation_ferdl_react_reaperdone]
 {
     [text*]
-	{                        //ring and townstone and active local quest
-        order = 0;           //GIVE REWARD HERE
-        choice = more;
-		screen_text = "What? You again? Uh, you're alive! You failed, did you? No?! By the stars, this cannot be! I...er, I see with my own two eyes that you have the Quillrabe Mask Stone, but, I... How did you... I'm... I'm speechless! No, no, please do not tell me how you managed to, uh, rescue our Townstone and free us from the Dragon Queen's wrath. The very thought of venturing into that cave makes me feel ill. Um, we are indebted to you forever more. Never can, er, repay you... Take this trifle as thanks?";
-		button_2_text = "Directions";
-       	button_2_value = d_0x0070087f;
-	}
-    [text*]
-	{
-		screen_text = "I'm sure we can, er, handle whatever drakes may come seeking revenge. When you get that Stone in place, then they'll have something to fear. So, uh, you could go to Hiroth and let High Priest Kavaren know about, um, your success here. The dragons plagued them a bit as well, back when our queen, may the gods bless her soul, held court in Castle Hiroth. You can even get there through the dragon catacombs now that it's, er, passable.";
-        activate_quest* = goto_hiroth_a;
-        complete_quest* = quest_quillrabe;
-       	button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-	}
-}
-[conversation_ferdl_stone]
-{
-    [text*]     //have ring, stone, AND NO local quest
-	{
+    {
         order = 0;
-        choice = more;              //give reward here
-		screen_text = "By the stars, this cannot be! I...er, I see with my own two eyes that you have the Quillrabe Mask Stone, but, I... How did you... I'm... I'm speechless! No, no, please do not tell me how you managed to rescue our Townstone and free us from the Dragon Queen's wrath. The very thought of venturing into that cave makes me feel ill. Um, we are indebted to you forever more. Never can, er, repay you... Take this trifle as thanks?";
-        complete_quest* = goto_quillrabe;
-       	button_2_text = "Directions";
-       	button_2_value = d_0x0070087f;
-	}
-    [text*]
-	{
-        order = 1;
-		screen_text = "I'm sure we can, er, handle whatever drakes may come seeking revenge. When you get that Stone in place, then they'll have something to fear... Heh heh, oh yes, no longer will the people of Quillrabe live in fear. So, uh, you could go to Hiroth and let High Priest Kavaren know about, um, your success here. The dragons plagued them a bit as well, back when the queen, may the gods bless her soul, held court in Castle Hiroth. You can even get there through the dragon catacombs now that it's, er, passable.";
-       	activate_quest* = goto_hiroth_a;
-       	button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-		quest_dialog = true;
-	}
+        screen_text = "Am I hearing right? You have banished the Reaper back into his own realm? This is amazing news! We shall survive!\nWe shall clear the Peninsula from the Undead, and build a kingdom here once more! But this will be a monumental task...";
+        choice = more;  // -> _quest_townstones or _react_maljindone or _alldone
+    }
 }
+// Convo when Reaper is done, and Townstones are todo
+[conversation_ferdl_quest_townstones]
+{
+    [text*]
+    {
+        order = 1;
+        screen_text = "It would be advisable to have the power of the ancient Utraeans under our control. We finally have to solve the puzzle the ancient Utraeans left us - we have to complete the Circle of the eight Townstones. I beseech you to venture out and find them, and bring them all together at the Utraean Circle in Hiroth.\n\nThe Mask Stone of Quillrabe is in the possession of the Dragon Queen. I never dreamt of daring to recover it, but to someone who has confronted the Reaper, the Dragon Queen sure is doable as well?";
+        activate_quest* = quest_townstones;
+        activate_quest* = quest_quillrabe;
+    }
+    [text*]
+    {
+        // when talking to him again
+        screen_text = "Go out to find the Townstones, and complete the Utraean Circle in Hiroth, so that we may gain strength and wisdom for rebuilding what the Reaper has destroyed.";
+    }
+}
+// Convo while sky is red during Maljin dungeon (no matter the Reaper status)
 [conversation_ferdl_red]
 {
-	[text*]
-	{
-		screen_text = "Uhm, er, what? This is, ah, not supposed to happen! Oh dear, I, um, fear for us all! The Droog will, er, not take kindly to this surprise. Best leave while you, um, still can!";
-		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-	}
+    [text*]
+    {
+		screen_text = "The sky turned red! We're all gonna die!";
+    }
 }
-[conversation_ferdl_all_complete]
+// Reaction to Townstones/Maljin done
+[conversation_ferdl_react_maljindone]
 {
-	[text*]
-	{
-		screen_text = "I must thank you, friend. I did not, uh, believe I would survive another night with the, er, Droog, so suspicious. You have my, um, gratitude.";
-		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-	}
+    [text*]
+    {
+        screen_text = "So you managed to banish the demonic force of the Maljin with the help of the Tenstone? Praised be Azunai the Defender!\nWell now, I'm a priest, a mage, and a historian, and I never thought I'd say this - but maybe we should stop dabbling in ancient Utraean magicks.";
+        choice = more;  // -> _quest_reaperonly or _alldone
+    }
+}
+// Convo if Reaper is todo, but Townstones are done
+[conversation_ferdl_quest_reaperonly]
+{
+    [text*]
+    {
+        order = 0;
+        screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
+        activate_quest* = the_reaper;
+        activate_quest* = the_reaper,2;
+    }
+    [text*]
+    {
+        // when talking to him again
+        screen_text = "Yeah, the whole thing is pretty much hopeless. Go out to confront the Reaper, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
+    }
+}
+// Convo if both Reaper and Townstones are done
+[conversation_ferdl_alldone]
+{
+    [text*]
+    {
+        screen_text = "Finally, we are freed - both from the Reaper, and our delusions of obtaining the power of the Utraeans. We shall set forth to settle the Peninsula anew, Man and Droog, Goblin and Dwarf. We shall invite pioneers, Legionnaires, Travelers. A new kingdom will rise. I am finally having new visions. The way will be long, but the future of the Utraean Peninsula looks bright.";
+    }
 }
 
 [conversation_calbyllon]
