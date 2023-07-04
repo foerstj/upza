@@ -8,6 +8,8 @@ Goid		m_Target$;
 #include "k_job_c_talk_utils"
 
 
+property    string  namespace$  = "conversation_ferdl"   doc = "Namespace for conversations and flags";
+property    int     first$      = 0             doc = "If there is a first conversation: number of convo items";
 property    bool    face_player$    = true                  doc = "Face player when starting to talk";
 property    string  talk_anim$      = "talk"                doc = "Animation during convo, like talk or look, or empty string";
 property    bool    face_back$      = false                 doc = "Face back when talk is finished";
@@ -110,9 +112,7 @@ state Talk$
 
 	event OnEnterState$
 	{
-		string red_con$ = MakeStringF( "%s_red", m_Go$.GetConversation.GetSelectedConversation );
 		string directionsBool$ = MakeStringF( "d_0x%08x", m_Go$.Scid );
-
 		if( GameAuditor.GetDb.GetBool( directionsBool$ ) )
 		{
 			GameAuditor.GetDb.SetBool( directionsBool$, false );
@@ -122,8 +122,22 @@ state Talk$
 		}
 		else if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
 		{
-			m_Go$.Conversation.RSSelectConversation( red_con$ );
+			m_Go$.Conversation.RSSelectConversation( MakeStringF( "%s_red", namespace$ ) );
 		}
+        else
+        {
+            int numFirstConvoItems$ = GameAuditor.GetDb.GetInt( MakeStringF( "%s_talked_to", namespace$ ) );
+            if ( first$ > numFirstConvoItems$ )
+            {
+                GameAuditor.GetDb.SetInt( MakeStringF( "%s_talked_to", namespace$ ), numFirstConvoItems$ + 1 );
+                m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_first", namespace$ ) );
+            }
+            else
+            {
+                // should never happen
+                m_Go$.GetConversation.RSSelectConversation( "zconversation_directions" );
+            }
+        }
 
 		m_Go$.GetConversation.RSActivateDialogue();
 
