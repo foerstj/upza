@@ -98,28 +98,22 @@ string decide_convo$()
     if( GameAuditor.GetDb.GetBool( directionsBool$ ) )
     {
         GameAuditor.GetDb.SetBool( directionsBool$, false );
-        // In multiplayer world, there will be a regionally global conversation (one for each region, instead of each actor)
-        // which will give directions to nearby landmarks
-        return "zconversation_directions"; //needs to alphabetically sort after all other conversations
+        return "zconversation_directions";
     }
-    else if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
+    if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
     {
         return MakeStringF( "%s_red", namespace$ );
     }
-    else
+
+    int numFirstConvoItems$ = GameAuditor.GetDb.GetInt( MakeStringF( "%s_talked_to", namespace$ ) );
+    if ( first$ > numFirstConvoItems$ )
     {
-        int numFirstConvoItems$ = GameAuditor.GetDb.GetInt( MakeStringF( "%s_talked_to", namespace$ ) );
-        if ( first$ > numFirstConvoItems$ )
-        {
-            GameAuditor.GetDb.SetInt( MakeStringF( "%s_talked_to", namespace$ ), numFirstConvoItems$ + 1 );
-            return MakeStringF( "%s_first", namespace$ );
-        }
-        else
-        {
-            // should never happen
-            return "zconversation_directions";
-        }
+        GameAuditor.GetDb.SetInt( MakeStringF( "%s_talked_to", namespace$ ), numFirstConvoItems$ + 1 );
+        return MakeStringF( "%s_first", namespace$ );
     }
+
+    // should never happen
+    return "zconversation_directions";
 }
 
 state Talk$
