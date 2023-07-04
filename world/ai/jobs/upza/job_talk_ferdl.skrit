@@ -112,6 +112,36 @@ string decide_convo$()
         return MakeStringF( "%s_first", namespace$ );
     }
 
+    bool isReaperDone$ = Victory.IsQuestCompleted( "the_reaper" );
+    bool isMaljinDone$ = Victory.IsQuestCompleted( "quest_townstones" );
+    if ( isReaperDone$ && !GameAuditor.GetDb.GetBool( MakeStringF( "%s_reacted_reaperdone", namespace$ ) ) )
+    {
+        GameAuditor.GetDb.SetBool( MakeStringF( "%s_reacted_reaperdone", namespace$ ), true );
+        return MakeStringF( "%s_react_reaperdone", namespace$ );
+    }
+    if ( isMaljinDone$ && !GameAuditor.GetDb.GetBool( MakeStringF( "%s_reacted_maljindone", namespace$ ) ) )
+    {
+        GameAuditor.GetDb.SetBool( MakeStringF( "%s_reacted_maljindone", namespace$ ), true );
+        return MakeStringF( "%s_react_maljindone", namespace$ );
+    }
+
+    if ( !isReaperDone$ && !isMaljinDone$ )
+    {
+        return MakeStringF( "%s_quest_both", namespace$ );
+    }
+    else if ( isReaperDone$ && !isMaljinDone$ )
+    {
+        return MakeStringF( "%s_quest_townstones", namespace$ );
+    }
+    else if ( !isReaperDone$ && isMaljinDone$ )
+    {
+        return MakeStringF( "%s_quest_reaperonly", namespace$ );
+    }
+    else if ( isReaperDone$ && isMaljinDone$ )
+    {
+        return MakeStringF( "%s_alldone", namespace$ );
+    }
+
     // should never happen
     return "zconversation_directions";
 }
