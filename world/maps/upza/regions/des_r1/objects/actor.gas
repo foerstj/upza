@@ -1275,20 +1275,20 @@
 	{
 		[conversations]
 		{
-			* = conversation_ferdl;
-			* = conversation_ferdl_all_complete;
-			* = conversation_ferdl_complete;
-			* = conversation_ferdl_goto;
-			* = conversation_ferdl_quest;
+			* = conversation_ferdl_first;
+			* = conversation_ferdl_quest_both;
+			* = conversation_ferdl_react_reaperdone;
+			* = conversation_ferdl_quest_townstones;
+			* = conversation_ferdl_react_maljindone;
+			* = conversation_ferdl_quest_reaperonly;
+			* = conversation_ferdl_alldone;
 			* = conversation_ferdl_red;
-			* = conversation_ferdl_ring;
-			* = conversation_ferdl_stone;
 			* = zconversation_directions;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_ferdl.skrit;
+		jat_talk = world\ai\jobs\upza\job_talk_ferdl.skrit;
 	}
 	[placement]
 	{
