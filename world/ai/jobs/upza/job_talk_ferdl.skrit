@@ -92,6 +92,36 @@ state Face$
 	}
 }
 
+string decide_convo$()
+{
+    string directionsBool$ = MakeStringF( "d_0x%08x", m_Go$.Scid );
+    if( GameAuditor.GetDb.GetBool( directionsBool$ ) )
+    {
+        GameAuditor.GetDb.SetBool( directionsBool$, false );
+        // In multiplayer world, there will be a regionally global conversation (one for each region, instead of each actor)
+        // which will give directions to nearby landmarks
+        return "zconversation_directions"; //needs to alphabetically sort after all other conversations
+    }
+    else if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
+    {
+        return MakeStringF( "%s_red", namespace$ );
+    }
+    else
+    {
+        int numFirstConvoItems$ = GameAuditor.GetDb.GetInt( MakeStringF( "%s_talked_to", namespace$ ) );
+        if ( first$ > numFirstConvoItems$ )
+        {
+            GameAuditor.GetDb.SetInt( MakeStringF( "%s_talked_to", namespace$ ), numFirstConvoItems$ + 1 );
+            return MakeStringF( "%s_first", namespace$ );
+        }
+        else
+        {
+            // should never happen
+            return "zconversation_directions";
+        }
+    }
+}
+
 state Talk$
 {
 	transition
@@ -112,35 +142,10 @@ state Talk$
 
 	event OnEnterState$
 	{
-		string directionsBool$ = MakeStringF( "d_0x%08x", m_Go$.Scid );
-		if( GameAuditor.GetDb.GetBool( directionsBool$ ) )
-		{
-			GameAuditor.GetDb.SetBool( directionsBool$, false );
-			// In multiplayer world, there will be a regionally global conversation (one for each region, instead of each actor)
-			// which will give directions to nearby landmarks
-			m_Go$.Conversation.RSSelectConversation( "zconversation_directions" ); //needs to alphabetically sort after all other conversations
-		}
-		else if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
-		{
-			m_Go$.Conversation.RSSelectConversation( MakeStringF( "%s_red", namespace$ ) );
-		}
-        else
-        {
-            int numFirstConvoItems$ = GameAuditor.GetDb.GetInt( MakeStringF( "%s_talked_to", namespace$ ) );
-            if ( first$ > numFirstConvoItems$ )
-            {
-                GameAuditor.GetDb.SetInt( MakeStringF( "%s_talked_to", namespace$ ), numFirstConvoItems$ + 1 );
-                m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_first", namespace$ ) );
-            }
-            else
-            {
-                // should never happen
-                m_Go$.GetConversation.RSSelectConversation( "zconversation_directions" );
-            }
-        }
+        string convo$ = decide_convo$();
 
+        m_Go$.Conversation.RSSelectConversation( convo$ );
 		m_Go$.GetConversation.RSActivateDialogue();
-
         animate$();
 	}
 }
