@@ -7,7 +7,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("quest_quillrabe","active",1);
+				action* = change_quest_state("quest_quillrabe","completed",1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,2.000000,8.000000,"while_inside"), doc("[*converted to one-shot*]");
 				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_quillrabe_01"), doc("[*converted to one-shot*]");
@@ -65,7 +65,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("quest_quillrabe","active",1);
+				action* = change_quest_state("quest_quillrabe","completed",1);
 			  b can_self_destruct = true;
 				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_quillrabe_01");
 				condition* = party_member_within_bounding_box(7.000000,0.500000,5.000000,"while_inside");

@@ -252,15 +252,8 @@
         [*]
         {
             order         = 0;
-            speaker       = "Utraean Priest Ferdl";
+            speaker       = "Utraean High Priest Ferdl";
             description   = "Find the Quillrabe Mask Stone in the Dragon Catacombs south of town.";
-            address = des_r1:conversations:conversation_ferdl_quest;
-        }
-        [*]
-        {
-            order         = 1;   //when you find the stone
-            speaker       = "";
-            description   = "Return to Priest Ferdl.";
         }
     }
 
