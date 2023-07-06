@@ -25,10 +25,11 @@ Changes from there on:
 - Depopulated Fallraen, overrun by Furoks
 - Zombified NPCs in Lang, pacified Goblins, moved Lang shop contents to Goblins, added further Goblin shops
 - Ruinated towns from Elddim to Lang
+- Besieged Quillrabe, promoted Ferdl
 - Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
-- Zombified enemies - Krug, Bandits, Cyclops, wolves, bears
+- Zombified enemies - Krug, Bandits, Cyclops, Droog, wolves, bears, drakes
 - Made mules in Elddim, at Horty Olof, in Fallraen & Meren self-hireable
 - Removed signs, good luck out there lol
 - Removed original tutorial tips, you're on your own
@@ -49,5 +50,7 @@ GasPy repo: https://github.com/foerstj/gaspy
 ## Attribution
 
 - Legion Robe by Tristanzz
+- Zombie wolves & bears by Eksevis
+- Webbed plants from Yesterhaven
 
 The original map was created by Gas-Powered Games.
