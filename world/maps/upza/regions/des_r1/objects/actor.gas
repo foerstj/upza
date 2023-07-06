@@ -1275,13 +1275,13 @@
 	{
 		[conversations]
 		{
+			* = conversation_ferdl_alldone;
 			* = conversation_ferdl_first;
 			* = conversation_ferdl_quest_both;
-			* = conversation_ferdl_react_reaperdone;
+			* = conversation_ferdl_quest_reaperonly;
 			* = conversation_ferdl_quest_townstones;
 			* = conversation_ferdl_react_maljindone;
-			* = conversation_ferdl_quest_reaperonly;
-			* = conversation_ferdl_alldone;
+			* = conversation_ferdl_react_reaperdone;
 			* = conversation_ferdl_red;
 			* = zconversation_directions;
 		}

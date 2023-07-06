@@ -92,13 +92,15 @@ state Face$
 	}
 }
 
+string directionsConvo$ = "zconversation_directions";
+
 string decide_convo$()
 {
     string directionsBool$ = MakeStringF( "d_0x%08x", m_Go$.Scid );
     if( GameAuditor.GetDb.GetBool( directionsBool$ ) )
     {
         GameAuditor.GetDb.SetBool( directionsBool$, false );
-        return "zconversation_directions";
+        return directionsConvo$;
     }
     if( GameAuditor.GetDb.GetBool( "turn_world_red" ) )
     {
@@ -143,7 +145,7 @@ string decide_convo$()
     }
 
     // should never happen
-    return "zconversation_directions";
+    return directionsConvo$;
 }
 
 state Talk$
