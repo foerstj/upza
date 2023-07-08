@@ -1,3 +1,34 @@
+[t:torch_glb_stick_lightable,n:0x07600024]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xA0572855;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xA0572855;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 5.60544,-1.4,11.0508,0x362fca78;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x0760002b]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x241B8E78;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x241B8E78;
+	}
+	[placement]
+	{
+	  p position = 12.9258,-1.60366,9.01411,0x362fca78;
+	}
+}
 [t:sign_glb_magic_right,n:0x0760005f]
 {
 	[common]
@@ -10,12 +41,171 @@
 	  p position = 0.258278,-0.434768,22.1177,0x362fca78;
 	}
 }
+[t:torch_swp_stick_02_lightable,n:0x0760099e]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x6067BC3E;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x6067BC3E;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.777146,0,0.629321;
+	  p position = 15.1081,-1.45,18.6674,0x362fca78;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x0760099f]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x71F631F8;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x71F631F8;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.833886,0,0.551937;
+	  p position = 14.2512,-1.45,17.9819,0x362fca78;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a0]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x57A92978;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x57A92978;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.814116,0,0.580703;
+	  p position = 14.9326,-1.45001,21.6361,0x362fca78;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a1]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x83D561AB;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x83D561AB;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.887011,0,0.461748;
+	  p position = 13.7774,-1.45001,22.174,0x362fca78;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a2]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x80B3FA60;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x80B3FA60;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.25038,0,0.968148;
+	  p position = 12.7388,-1.45001,22.6474,0x362fca78;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a3]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xA9971745;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xA9971745;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0958451,0,0.995396;
+	  p position = 13.3837,-1.45,17.3438,0x362fca78;
+	}
+}
 [t:sign_glb_blacksmith_03,n:0x07600a10]
 {
 	[placement]
 	{
 	  q orientation = 0,0.803857,0,0.594823;
 	  p position = 15.2648,-1.45001,22.8282,0x362fca78;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x07600022]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x4986CF70;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x4986CF70;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 11.8383,-1.37935,26.5553,0x87926434;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x07600023]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x631D610E;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x631D610E;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 20.636,-0.776701,1.01966,0x87926434;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x07600026]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x5BAC047F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x5BAC047F;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 17.5919,-1.10001,15.1969,0x87926434;
+	}
+}
+[t:torch_glb_stick_lightable,n:0x0760002a]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x36D734E9;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x36D734E9;
+	}
+	[placement]
+	{
+	  p position = 31.8072,-1.1709,28.3152,0x87926434;
 	}
 }
 [t:sign_glb_blacksmith_left,n:0x0760005c]
@@ -30,6 +220,102 @@
 	  p position = 23.0666,-0.518131,24.0954,0x87926434;
 	}
 }
+[t:torch_swp_stick_02_lightable,n:0x07600994]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x43358890;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x43358890;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.622515,0,0.782608;
+	  p position = 10.7507,-1.1,16.54,0x87926434;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x07600995]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xDE03369D;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xDE03369D;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 14.271,-1.1,16.8148,0x87926434;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x07600999]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xED47AEF9;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xED47AEF9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.66262,0,0.748956;
+	  p position = 14.9761,-1.1,17.4447,0x87926434;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x0760099b]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x6A7739C6;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x6A7739C6;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.913546,0,0.406736;
+	  p position = 15.404,-1.1,18.1308,0x87926434;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x0760099c]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xB034FF92;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xB034FF92;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.649448,0,0.760406;
+	  p position = 10.0891,-1.1,17.3243,0x87926434;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x0760099d]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xC8673964;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xC8673964;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.587785,0,0.809017;
+	  p position = 9.61227,-1.1,17.9971,0x87926434;
+	}
+}
 [t:sign_glb_magicshop_01,n:0x07600a0b]
 {
 	[common]
@@ -42,76 +328,123 @@
 	  p position = 16.1213,-1.1,16.4501,0x87926434;
 	}
 }
-[t:sign_glb_01,n:0x07600a07]
+[t:torch_swp_stick_02_lightable,n:0x076009c2]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_5";
-		screen_name = "Town of Grescal, 10";
+	  x siege_light = 0xD249170F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xD249170F;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.130527,0,0.991445;
-	  p position = -3.58131,0,0.339966,0x5bd5775f;
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 12.4378,4.63956,6.95235,0x3ab9b5cd;
 	}
 }
-[t:sign_glb_01,n:0x07600a05]
+[t:torch_glb_stick_lightable,n:0x07600027]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_6";
-		screen_name = "Town of Grescal, 17";
+	  x siege_light = 0x63EE45D5;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x63EE45D5;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.5,0,0.866026;
-	  p position = 3.67503,0,-1.79608,0x16f4951b;
+	  p position = 1.07974,5.72078,-45.4071,0x11d1603b;
 	}
 }
-[t:sign_glb_01,n:0x07600a03]
+[t:torch_swp_stick_02_lightable,n:0x076004d8]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_2";
-		screen_name = "Town of Grescal, 15";
+	  x siege_light = 0x6D8B1D3F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x6D8B1D3F;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.130527,0,0.991445;
-	  p position = -1.80439,0,-0.947266,0x793b97fd;
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = -38.5122,5.61036,-19.1773,0xcb1fa62b;
 	}
 }
-[t:sign_glb_01,n:0x07600a01]
+[t:torch_swp_stick_02_lightable,n:0x076009c1]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_3";
-		screen_name = "Town of Grescal, 16";
+	  x siege_light = 0x9E480115;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x9E480115;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.258819,0,0.965926;
-	  p position = 2.67612,1.90735e-006,1.21794,0xd50993d2;
-	}
-}
-[t:sign_glb_01,n:0x076006c0]
-{
-	[common]
-	{
-		dev_instance_text = "sign_4";
-		screen_name = "Town of Grescal, 16";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.608762,0,0.793354;
-	  p position = -2.42252,-4.76837e-007,-1.48479,0x48114033;
+	  q orientation = 0,0.25038,0,-0.968148;
+	  p position = -26.0089,6.6727,-20.5636,0xcb1fa62b;
 	}
 }
 [t:sign_des_grescal,n:0x0760005a]
 {
 	[placement]
 	{
-	  p position = 1.42584,-0.27592,-10.3313,0x432556a7;
+	  q orientation = 0.700678,-0.0430044,-0.0188859,-0.711929;
+	  p position = 1.4273,-1.35387,-10.3426,0x432556a7;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009c3]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xCFBCA01A;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xCFBCA01A;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.25038,0,0.968148;
+	  p position = -7.64561,-0.92571,-9.37794,0x432556a7;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009c4]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xB57B193B;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xB57B193B;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 20.1135,0.1,1.1079,0x28044fa7;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009c5]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xBD572941;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xBD572941;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 16.2245,0.1,-3.07808,0x28044fa7;
 	}
 }
 [t:lever_glb_06_message_rescaled,n:0x076009e5]
@@ -135,42 +468,19 @@
 		use_point_scids = 0x07600064, 0x07600092;
 	}
 }
-[t:sign_glb_01,n:0x07600a09]
+[t:torch_swp_stick_02_lightable,n:0x076004d9]
 {
-	[common]
+	[light_enable]
 	{
-		dev_instance_text = "sign_7";
-		screen_name = "Town of Grescal, 13";
+	  x siege_light = 0x15E07D65;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x15E07D65;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.258819,0,0.965926;
-	  p position = -0.659653,4.76837e-007,-1.8985,0x4d5d4210;
-	}
-}
-[t:sign_glb_01,n:0x076009fe]
-{
-	[common]
-	{
-		dev_instance_text = "sign_8";
-		screen_name = "Town of Grescal, 15";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.430511,0,0.902586;
-	  p position = 2.00789,0.896912,2.43765,0xd44bc688;
-	}
-}
-[t:sign_glb_01,n:0x076006ad]
-{
-	[common]
-	{
-		dev_instance_text = "sign_1";
-		screen_name = "Town of Grescal";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.956305,0,0.292372;
-	  p position = -5.4145,0.799999,-12.1956,0xa6c36ff3;
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 4.80737,0.861181,-14.951,0xa6c36ff3;
 	}
 }
