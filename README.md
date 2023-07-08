@@ -21,16 +21,16 @@ Changes from there on:
 - Map renamed, obviously
 - Set up the Eastern Island as the initial starting location, with Loola there
 - Added zombified 2nd Legion mates in Meren
-- Zombified NPCs in Elddim, Crystwind & Meren areas, leaving quests intact & dropping shop contents
+- Zombified NPCs in Elddim, Crystwind, Meren & Grescal areas, leaving quests intact & dropping shop contents
 - Depopulated Fallraen, overrun by Furoks
 - Zombified NPCs in Lang, pacified Goblins, moved Lang shop contents to Goblins, added further Goblin shops
-- Ruinated towns from Elddim to Lang
+- Ruinated towns from Elddim to Lang, & Grescal
 - Besieged Quillrabe, promoted Ferdl
 - Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
 - Zombified enemies - Krug, Bandits, Cyclops, Droog, wolves, bears, drakes
-- Made mules in Elddim, at Horty Olof, in Fallraen & Meren self-hireable
+- Made mules in Elddim, at Horty Olof, in Fallraen, Meren & Grescal self-hireable
 - Removed signs, good luck out there lol
 - Removed original tutorial tips, you're on your own
 - Extinguished torches & campfires but made them lightable
