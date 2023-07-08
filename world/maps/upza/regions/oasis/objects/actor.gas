@@ -19,6 +19,63 @@
 	  p position = 21.0577,-1.45,17.7659,0x362fca78;
 	}
 }
+[t:self_service_mule,n:0x076000cb]
+{
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Adna";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x76000cb;
+	}
+	[placement]
+	{
+	  p position = 14.8275,-1.45,13.9889,0x362fca78;
+	}
+}
+[t:self_service_mule,n:0x076000cc]
+{
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Falla";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x76000cc;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 13.0131,-1.45,14.8705,0x362fca78;
+	}
+}
 [t:gikk,n:0x0760017d]
 {
 	[placement]
@@ -30,6 +87,8 @@
 {
 	[common]
 	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 		screen_name = "Adna";
 	}
 	[placement]
@@ -41,6 +100,8 @@
 {
 	[common]
 	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
 		screen_name = "Falla";
 	}
 	[placement]

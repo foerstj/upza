@@ -380,3 +380,13 @@
        		button_1_value = d_0x076001c3;
 	}
 }
+
+[self_service_mule_join]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "[Would you like to add this mule to your group?]";
+	  f scroll_rate = 10.000000;
+	}
+}
