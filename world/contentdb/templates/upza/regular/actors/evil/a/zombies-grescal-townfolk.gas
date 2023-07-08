@@ -109,6 +109,10 @@
 			[enemy_spotted]	{ priority = high; * = s_e_call_mummy_SED; }
 		}
     }
+	[guts_manager]
+	{
+		effect_name = ;  // dry zombie doesn't spill blood
+	}
 
     // stats & loot from lava_imp_01
 	[actor]
