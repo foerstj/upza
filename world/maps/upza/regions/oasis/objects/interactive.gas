@@ -41,6 +41,22 @@
 	  p position = 0.258278,-0.434768,22.1177,0x362fca78;
 	}
 }
+[t:firepit_glb_03_lightable,n:0x07600181]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xEBAAA346;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xEBAAA346;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,5.66244e-007;
+	  p position = 22.5061,-0.929241,17.5054,0x362fca78;
+	}
+}
 [t:torch_swp_stick_02_lightable,n:0x0760099e]
 {
 	[light_enable]
