@@ -1,0 +1,262 @@
+[t:template,n:upza_zombie_grescal_shop_smith] { specializes = upza_zombie_grescal_shop_smith_base; }
+[t:template,n:upza_zombie_grescal_shop_smith_base]
+{
+    specializes = upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Master Smith Sultrin";
+	}
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo-07;  // this texture actually fits on the pudgy model, not the thin one!
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_yellow(sgx)");  // grescal = yellow
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from maljin_melee
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		37, 0;
+			intelligence = 	14, 0;
+			dexterity = 	38, 0;
+			melee =  		30, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 87000;
+		life = 1420;
+		max_life = 1420;
+		mana = 1114;
+		max_mana = 1114;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 215;
+		damage_min = 160;
+	}
+	[defend] { defense = 650; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/84-128;
+					il_main = #armor/160-297;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/128-140;
+	                il_main = #armor/-rare(1)/350-400;
+                    il_main = #*/-rare(1)/128-140;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/128-140;
+	                il_main = #armor/-unique(2)/350-400;
+                    il_main = #*/-unique(2)/128-140;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 25024;
+					min = 20483;
+				}
+			}
+         }
+	}
+
+    // more loot: shop from original master_smith_sultrin
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/216-347;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/216-252;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/253-310;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #body/311-347;
+					max = 5;
+					min = 5;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/29-252;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #gloves/253-310;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #gloves/311-347;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #helm/29-252;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #helm/253-310;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #helm/311-347;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #boots/29-252;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #boots/253-310;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #boots/311-347;
+					max = 6;
+					min = 6;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/29-252;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #shield/253-310;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #shield/311-347;
+					max = 6;
+					min = 6;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/98-113;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/114-139;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #melee/140-155;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/98-113;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/114-139;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #ranged/140-155;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}

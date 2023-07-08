@@ -6,49 +6,6 @@
 		screen_text = "You want directions? Ha! Grescal is surrounded by desert; you can't go anywhere from here and expect to survive the elements. If you really want to leave, go through the Basilicus. You can find the portal to it on the western edge of the village.";
 	}
 }
-[conversation_sultrin]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "I've been crafting out here in Grescal going on thirty years. It's quiet, all right, but that's what we prefer. You won't find anyone who'd spend any length of time here who isn't a bit of a hermit. You're welcome to take a look at my wares if you like.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000b6;
-	}
-	[text*]
-	{
-        order = 1;
-		choice = shop;
-
-		screen_text = "Still in town, are you? You'll burn your feet on the sand if you stay in one place for too long. You'll find my boots will keep you cool. Just don't head into the dunes if you value your sanity, eh?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000b6;
-	}
-
-    [text*]
-	{
-
-		choice = shop;
-
-		screen_text = "I can see you're no fool. If you head north to the edge of the village and then east, you'll come across what's left of a ruined Utraean temple. It's said to be haunted, so take care if you venture near it.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000b6;
-	}
-
-}
-[conversation_sultrin_red]
-{
-	[text*]
-	{
-
-		screen_text = "Must be one fierce sandstorm to turn the sky so red!";
-		choice = shop;
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000b6;
-	}
-}
 
 [conversation_vielle]
 {

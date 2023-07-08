@@ -1,18 +1,5 @@
-[t:master_smith_sultrin,n:0x076000b6]
+[t:upza_zombie_grescal_shop_smith,n:0x076000b6]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_sultrin;
-			* = conversation_sultrin_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.45399,0,-0.891007;
