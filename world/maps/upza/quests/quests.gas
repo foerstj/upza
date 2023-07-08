@@ -285,13 +285,6 @@
             order         = 0;
             speaker       = "Utraean Priestess Kylira";
             description   = "Find the Grescal Palm Stone in the Ancient Ruins to the Northeast";
-            address = oasis:conversations:conversation_kylira_quest;
-        }
-        [*]
-        {
-            order         = 1;   //when you find the stone
-            speaker       = "";
-            description   = "Return to Priestess Kylira.";
         }
     }
 
