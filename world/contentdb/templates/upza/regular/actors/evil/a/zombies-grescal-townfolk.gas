@@ -86,6 +86,73 @@
 	}
 }
 
+[t:template,n:upza_zombie_grescal_townfolk_dwarf] { specializes = upza_zombie_grescal_townfolk_dwarf_base; }
+[t:template,n:upza_zombie_grescal_townfolk_dwarf_base]
+{
+    specializes = upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-dry-05;
+        textures:1 = b_c_pos_a1_032;
+    }
+
+    // stats & loot from lava_imp_01
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		37, 0;
+			intelligence = 	12, 0;
+			dexterity = 	16, 0;
+			melee =  		40, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 87000;
+		life = 920;
+		max_life = 920;
+		mana = 14;
+		max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 200;
+		damage_min = 160;
+	}
+	[defend] { defense=500; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.35;
+					il_main = #*/120-150;
+	                il_main = #spell/45-58;
+   				    il_main = potion_health_large;
+				    il_main = potion_mana_large;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+					max = 23678;
+					min = 19456;
+				}
+			}
+         }
+	}
+}
+
 [t:template,n:upza_zombie_grescal_townfolk_dunes] { specializes = upza_zombie_grescal_townfolk_dunes_base; }
 [t:template,n:upza_zombie_grescal_townfolk_dunes_base]
 {

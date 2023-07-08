@@ -239,27 +239,6 @@
 
 }
 
-[conversation_damog]
-{
-	[text*]
-	{
-
-		screen_text = "I've traveled extensively through these parts, and I can tell you all that's out there is empty rolling dunes that go on forever. ";
-		button_1_text = "Directions";
-       		button_1_value = d_0x0760068d;
-	}
-}
-[conversation_damog_red]
-{
-	[text*]
-	{
-
-		screen_text = "I live way out here at the edge of the world to escape from the catastrophes caused by ignoramuses. Apparently this isn't far enough.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x0760068d;
-	}
-}
-
 [self_service_mule_join]
 {
 	[text*]
