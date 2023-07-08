@@ -239,67 +239,6 @@
 
 }
 
-
-[conversation_reena]
-{
-	[text*]
-	{
-
-		screen_text = "Welcome to Grescal, capital of the sandy nether lands! It's a great place to be if you've got nowhere else to go. And even if you do have somewhere else to be, you'll never get there from here. Heh heh heh.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001bd;
-	}
-}
-[conversation_reena_red]
-{
-	[text*]
-	{
-
-		screen_text = "I knew I should have escaped to Meren when I had the chance. Now I'm stuck in the hottest place in the Utraean Peninsula, and the air reeks of brimstone to boot!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001bd;
-	}
-}
-[conversation_trissa]
-{
-	[text*]
-	{
-
-		screen_text = "It's said there are ancient pyramids far to the southeast, somewhere in the Endless Desert.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001bc;
-	}
-}
-[conversation_trissa_red]
-{
-	[text*]
-	{
-
-		screen_text = "Ohh, my head is splitting! I'm not sure which is worse, the smell or the lightning.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001bc;
-	}
-}
-[conversation_calixtica]
-{
-	[text*]
-	{
-
-		screen_text = "I had a strange dream last night. I was lost in the Endless Desert and came upon two huge pyramids! I entered the first and found myself in a dim hallway that seemed to go on forever. I must have been nearing the end, because I heard seagulls and waves lapping at a shore... I saw sunlight at the end of the tunnel, growing brighter and brighter... and then I awoke.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076006fa;
-	}
-}
-[conversation_calixtica_red]
-{
-	[text*]
-	{
-
-		screen_text = "I am going to find that place in my dreams by the sea where the air is cool, even if it kills me! No one can be expected to stay here with the air so foul!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076006fa;
-	}
-}
 [conversation_damog]
 {
 	[text*]
@@ -318,66 +257,6 @@
 		screen_text = "I live way out here at the edge of the world to escape from the catastrophes caused by ignoramuses. Apparently this isn't far enough.";
 		button_1_text = "Directions";
        		button_1_value = d_0x0760068d;
-	}
-}
-[conversation_birutir]
-{
-	[text*]
-	{
-
-		screen_text = "It's said that you can reach the town of Hiroth far to the west of here, but who would be fool enough to set out into the desert for a trip that takes weeks of travel? One good sandstorm, and you're a goner.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076006de;
-	}
-}
-[conversation_birutir_red]
-{
-	[text*]
-	{
-
-		screen_text = "I heard a rumor that one of the Lost Pyramids leads into the fiery depths of the earth! If it's anything like the air up here now, I don't want to ever see it!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076006de;
-	}
-}
-[conversation_wylie]
-{
-	[text*]
-	{
-
-		screen_text = "Them Gikk are good eatin.' Easy to catch and they taste like chicken!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001c1;
-	}
-}
-[conversation_wylie_red]
-{
-	[text*]
-	{
-
-		screen_text = "Bloody stinkin' 'ell. Why can't the weather be normal here for once?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001c1;
-	}
-}
-[conversation_alwyn]
-{
-	[text*]
-	{
-
-		screen_text = "I spent a few months lost in the endless dunes. Somehow I reached the Mesa Desert and its towering cliffs, and while they were amazing to see, they were just as lifeless as the dunes.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001c3;
-	}
-}
-[conversation_alwyn_red]
-{
-	[text*]
-	{
-
-		screen_text = "What's the world coming to?";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076001c3;
 	}
 }
 

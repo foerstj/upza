@@ -110,24 +110,11 @@
 	  p position = 13.158,-1.45,14.7751,0x362fca78;
 	}
 }
-[t:mp_gypsy_female_01,n:0x076001bc]
+[t:upza_zombie_grescal_townfolk,n:0x076001bc]
 {
 	[common]
 	{
 		screen_name = "Tess Kerram";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_trissa;
-			* = conversation_trissa_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -135,24 +122,11 @@
 	  p position = 6.92024,-1.4,7.57157,0x362fca78;
 	}
 }
-[t:mp_gypsy_female_02,n:0x076001bd]
+[t:upza_zombie_grescal_townfolk,n:0x076001bd]
 {
 	[common]
 	{
 		screen_name = "Reena Scudling";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_reena;
-			* = conversation_reena_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -181,24 +155,11 @@
 	  p position = 10.6208,-1.1,12.3596,0x87926434;
 	}
 }
-[t:mp_gypsy_male_01,n:0x076001c1]
+[t:upza_zombie_grescal_townfolk,n:0x076001c1]
 {
 	[common]
 	{
 		screen_name = "Wylie Talbot";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_wylie;
-			* = conversation_wylie_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -206,24 +167,11 @@
 	  p position = 22.6486,-1.1,11.6347,0x87926434;
 	}
 }
-[t:mp_gypsy_male_02,n:0x076001c3]
+[t:upza_zombie_grescal_townfolk,n:0x076001c3]
 {
 	[common]
 	{
 		screen_name = "Alwyn Gheldrick";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_alwyn;
-			* = conversation_alwyn_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -288,24 +236,11 @@
 	  p position = 16.1617,-0.680037,24.4435,0x87926434;
 	}
 }
-[t:mp_townfolk_male_06,n:0x076006de]
+[t:upza_zombie_grescal_townfolk,n:0x076006de]
 {
 	[common]
 	{
 		screen_name = "Brae Eldric";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_birutir;
-			* = conversation_birutir_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -313,24 +248,11 @@
 	  p position = 16.673,-0.793771,23.1409,0x87926434;
 	}
 }
-[t:mp_townfolk_female_09,n:0x076006fa]
+[t:upza_zombie_grescal_townfolk,n:0x076006fa]
 {
 	[common]
 	{
 		screen_name = "Calixtica d'Orly";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_calixtica;
-			* = conversation_calixtica_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
