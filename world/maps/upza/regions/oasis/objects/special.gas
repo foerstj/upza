@@ -43,366 +43,6 @@
 	  p position = -17.0257,5.28965,-19.8237,0xf4f70836;
 	}
 }
-[t:trigger_fade_nodes_box,n:0x07600655]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(3.350000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_6;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -5.95084,3.04379,-14.0565,0xdf88e1c2;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x07600656]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x9EA4ABB9,1,6,-1,"out:black"), group(1);
-				action* = fade_nodes(0x9EA4ABB9,1,6,-1,"in"), group(2);
-			  b can_self_destruct = true;
-				condition* = party_member_entered_trigger_group("oasis_house_6","on_every_enter"), group(1);
-				condition* = party_member_left_trigger_group("oasis_house_6","on_every_leave"), group(2);
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -5.41979,3.09352,-12.907,0xdf88e1c2;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x07600657]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(1.000000,0.500000,1.200000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_6;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.992546,0,0.121869;
-	  p position = -6.96869,2.90425,-10.6403,0xdf88e1c2;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x07600658]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(3.350000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_7;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 6.09864,2.95984,-14.1202,0xdf88e1c2;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x07600659]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x9EA4ABB9,1,7,-1,"out:black"), group(1);
-				action* = fade_nodes(0x9EA4ABB9,1,7,-1,"in"), group(2);
-			  b can_self_destruct = true;
-				condition* = party_member_entered_trigger_group("oasis_house_7","on_every_enter"), group(1);
-				condition* = party_member_left_trigger_group("oasis_house_7","on_every_leave"), group(2);
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 6.57674,3.06359,-13.305,0xdf88e1c2;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x0760065a]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(1.000000,0.500000,1.200000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_7;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.615662,0,0.788011;
-	  p position = 2.95913,2.79827,-14.8554,0xdf88e1c2;
-	}
-}
-[t:trigger_generic,n:0x0760065b]
-{
-	[common]
-	{
-		dev_instance_text = "FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(4.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_8;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 6.11474,3.25945,-1.75921,0xdf88e1c2;
-	}
-}
-[t:trigger_generic,n:0x0760065c]
-{
-	[common]
-	{
-		dev_instance_text = "fade";
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(4.300000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_8;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 6.42295,3.21828,-3.10131,0xdf88e1c2;
-	}
-}
-[t:trigger_generic,n:0x0760065d]
-{
-	[common]
-	{
-		dev_instance_text = "FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(4.300000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_8;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 5.65894,3.40039,0.0025959,0xdf88e1c2;
-	}
-}
-[t:trigger_generic,n:0x0760065e]
-{
-	[common]
-	{
-		dev_instance_text = "FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,0.500000,1.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = oasis_house_8;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 1.87692,3.18479,-1.3479,0xdf88e1c2;
-	}
-}
-[t:trigger_fade_nodes_box,n:0x07600660]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x9EA4ABB9,1,8,-1,"out:black"), group(1);
-				action* = fade_nodes(0x9EA4ABB9,1,8,-1,"in"), group(2);
-			  b can_self_destruct = true;
-				condition* = party_member_entered_trigger_group("oasis_house_8","on_every_enter"), group(1);
-				condition* = party_member_left_trigger_group("oasis_house_8","on_every_leave"), group(2);
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 2.60552,0,0.707491,0xeaa5eb73;
-	}
-}
-[t:trigger_change_mood_box,n:0x07600a14]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION, FADE";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_oasis_1");
-				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(13.000000,3.000000,24.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("grescal");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(13.000000,3.000000,24.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-5.36442e-007;
-	  p position = -3.49334,2.68389,-1.5961,0xdf88e1c2;
-	}
-}
 [t:trigger_change_mood_box,n:0x076009b3]
 {
 	[common]
@@ -813,7 +453,188 @@
 	  p position = 12.0112,-1.1,13.5369,0x87926434;
 	}
 }
-[t:trigger_change_mood_box,n:0x076009a4]
+[t:trigger_change_mood_box,n:0x07600a14]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION, FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_oasis_1");
+				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(13.000000,3.000000,24.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("grescal");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(13.000000,3.000000,24.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.36442e-007;
+	  p position = -3.49334,2.68389,-1.5961,0xdf88e1c2;
+	}
+}
+[t:trigger_change_mood_box,n:0x0760008a]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_dunes_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(33.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(33.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 5.89068,1.75429,10.44,0x432556a7;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009ab]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_oasis_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(25.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("grescal");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(25.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 4.26162,-0.549957,4.89244,0x432556a7;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009a8]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_oasis_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("grescal");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.979925,0,-0.199369;
+	  p position = -21.5576,5.95419,9.68714,0xcb1fa62b;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009aa]
 {
 	[common]
 	{
@@ -855,10 +676,10 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 14.5082,5.36281,-12.0932,0x3ab9b5cd;
+	  p position = 12.5032,5.45369,-28.2692,0x8f2a1861;
 	}
 }
-[t:trigger_change_mood_box,n:0x076009a6]
+[t:trigger_change_mood_box,n:0x076009ac]
 {
 	[common]
 	{
@@ -867,9 +688,9 @@
 		{
 			[*]
 			{
-				action* = mood_change("upza_oasis_1");
+				action* = mood_change("multiplayer_world_dunes_1");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(32.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -882,9 +703,9 @@
 			}
 			[*]
 			{
-				action* = set_player_world_location("grescal");
+				action* = set_player_world_location("endless_dunes");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(32.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -900,7 +721,128 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707106,0,0.707107;
-	  p position = -1.23051,3.64628,-19.9323,0x3ab9b5cd;
+	  p position = 5.2227,6.21243,-26.0374,0x8f2a1861;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009a9]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_oasis_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("grescal");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382684,0,0.92388;
+	  p position = -4.96181,-2.22755,0.626102,0xf2faf339;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009ae]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_dunes_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(36.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(36.000000,10.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382684,0,0.92388;
+	  p position = -2.09392,-3.4076,-12.12,0xf2faf339;
+	}
+}
+[t:trigger_generic,n:0x076004b0]
+{
+	[common]
+	{
+		dev_instance_text = " PLAYER LOCATION";
+	  b is_single_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,1.000000,16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.130526,0,0.991445;
+	  p position = -1.85593,-0.999985,-0.94989,0x02a11481;
 	}
 }
 [t:trigger_change_mood_box,n:0x07600060]
@@ -1083,440 +1025,7 @@
 	  p position = -44.3759,6.17416,-21.7402,0x11d1603b;
 	}
 }
-[t:trigger_generic,n:0x076004b0]
-{
-	[common]
-	{
-		dev_instance_text = " PLAYER LOCATION";
-	  b is_single_player = false;
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = set_player_world_location("endless_dunes");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(1.000000,1.000000,16.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.130526,0,0.991445;
-	  p position = -1.85593,-0.999985,-0.94989,0x02a11481;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009a9]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_oasis_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("grescal");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382684,0,0.92388;
-	  p position = -4.96181,-2.22755,0.626102,0xf2faf339;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009ae]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_dunes_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(36.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("endless_dunes");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(36.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382684,0,0.92388;
-	  p position = -2.09392,-3.4076,-12.12,0xf2faf339;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009a5]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_oasis_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(22.000000,2.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("grescal");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(22.000000,2.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -21.831,4.40959,-35.3827,0xd27e9035;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009af]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_dunes_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(32.000000,6.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("endless_dunes");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(32.000000,6.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -28.5591,4.67299,-22.4133,0xd27e9035;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009a8]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_oasis_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("grescal");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.979925,0,-0.199369;
-	  p position = -21.5576,5.95419,9.68714,0xcb1fa62b;
-	}
-}
-[t:trigger_change_mood_box,n:0x0760008a]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("multiplayer_world_dunes_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(33.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("endless_dunes");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(33.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = 5.89068,1.75429,10.44,0x432556a7;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009ab]
-{
-	[common]
-	{
-		dev_instance_text = "MOOD, PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_oasis_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(25.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("grescal");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(25.000000,10.000000,0.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = 4.26162,-0.549957,4.89244,0x432556a7;
-	}
-}
-[t:set_quest_bits,n:0x076000bd]
-{
-	[placement]
-	{
-	  p position = 16.3067,0.1,0.340879,0x28044fa7;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "teleport_hub_oasis_active";
-	}
-}
-[t:trigger_generic,n:0x076004aa]
-{
-	[common]
-	{
-		dev_instance_text = "PLAYER LOCATION";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
-				action* = send_world_message("we_req_activate",0x076000BD,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(6.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = set_player_world_location("grescal");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(6.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 17.6677,0.0999987,-0.222141,0x28044fa7;
-	}
-}
-[t:use_point,n:0x07600064]
-{
-	[placement]
-	{
-	  p position = -0.515963,0.1,-1.13281,0x76b1bc12;
-	}
-}
-[t:use_point,n:0x07600092]
-{
-	[placement]
-	{
-	  p position = 1.03578,0.1,0.415873,0x76b1bc12;
-	}
-}
-[t:check_quest_bits,n:0x076000b1]
-{
-	[check_quest_bits]
-	{
-		bool_variable = "teleport_hub_oasis_active";
-	  i level = -1;
-		map_name = "upza";
-	  i object = -1;
-	  i region = -1633375303;
-	  i section = 3;
-	  x send_to_scid = 0x076009FF;
-	}
-	[placement]
-	{
-	  p position = 0,2,0,0x76b1bc12;
-	}
-}
-[t:trigger_change_mood_box,n:0x076009aa]
+[t:trigger_change_mood_box,n:0x076009a4]
 {
 	[common]
 	{
@@ -1558,10 +1067,10 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 12.5032,5.45369,-28.2692,0x8f2a1861;
+	  p position = 14.5082,5.36281,-12.0932,0x3ab9b5cd;
 	}
 }
-[t:trigger_change_mood_box,n:0x076009ac]
+[t:trigger_change_mood_box,n:0x076009a6]
 {
 	[common]
 	{
@@ -1570,9 +1079,9 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_dunes_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(32.000000,10.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -1585,9 +1094,9 @@
 			}
 			[*]
 			{
-				action* = set_player_world_location("endless_dunes");
+				action* = set_player_world_location("grescal");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(32.000000,10.000000,0.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -1603,65 +1112,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707106,0,0.707107;
-	  p position = 5.2227,6.21243,-26.0374,0x8f2a1861;
-	}
-}
-[t:trigger_health_shrine,n:0x07600956]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07600957,0f,"16386","party_member_within_sphere",0), doc("[*labelled condition (party_member_within_sphere)*]");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(1.300000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.100000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = when_false send_world_message("we_req_deactivate",0x07600957,0f,"default","",0);
-				action* = send_world_message("we_req_activate",0x07600958,0f,"default","",0);
-				action* = when_false send_world_message("we_req_deactivate",0x07600958,0f,"default","",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(1.300000,"while_inside");
-			  f delay = 0.000000;
-			  b flip_flop = true;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.102249,-1.25837,-0.0345154,0x87d40866;
-	}
-}
-[t:life_shrine,n:0x07600957]
-{
-	[fountain]
-	{
-	  f heal_amount = 10.8;
-	  f health_left = 2508.8;
-	  f health_regen = 0.808;
-	}
-	[placement]
-	{
-	  p position = -0.168289,-0.483817,-0.0690002,0x87d40866;
+	  p position = -1.23051,3.64628,-19.9323,0x3ab9b5cd;
 	}
 }
 [t:trigger_change_mood_box,n:0x07600065]
@@ -1752,6 +1203,96 @@
 	{
 	  q orientation = 0,0.707107,0,0.707106;
 	  p position = 22.4629,0.1614,1.15315,0x0ffb6e89;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009a5]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_oasis_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(22.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("grescal");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(22.000000,2.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -21.831,4.40959,-35.3827,0xd27e9035;
+	}
+}
+[t:trigger_change_mood_box,n:0x076009af]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD, PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("multiplayer_world_dunes_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(32.000000,6.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("endless_dunes");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(32.000000,6.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -28.5591,4.67299,-22.4133,0xd27e9035;
 	}
 }
 [t:trigger_change_mood_box,n:0x07600066]
@@ -2049,6 +1590,64 @@
 	  p position = -0.912529,0.0859141,19.3866,0xc6ff7998;
 	}
 }
+[t:trigger_health_shrine,n:0x07600956]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x07600957,0f,"16386","party_member_within_sphere",0), doc("[*labelled condition (party_member_within_sphere)*]");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(1.300000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.100000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = when_false send_world_message("we_req_deactivate",0x07600957,0f,"default","",0);
+				action* = send_world_message("we_req_activate",0x07600958,0f,"default","",0);
+				action* = when_false send_world_message("we_req_deactivate",0x07600958,0f,"default","",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(1.300000,"while_inside");
+			  f delay = 0.000000;
+			  b flip_flop = true;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.102249,-1.25837,-0.0345154,0x87d40866;
+	}
+}
+[t:life_shrine,n:0x07600957]
+{
+	[fountain]
+	{
+	  f heal_amount = 10.8;
+	  f health_left = 2508.8;
+	  f health_regen = 0.808;
+	}
+	[placement]
+	{
+	  p position = -0.168289,-0.483817,-0.0690002,0x87d40866;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x0760008d]
 {
 	[common]
@@ -2244,5 +1843,92 @@
 	[placement]
 	{
 	  p position = -2.055,-6.95,11.1566,0xbcab5d28;
+	}
+}
+[t:set_quest_bits,n:0x076000bd]
+{
+	[placement]
+	{
+	  p position = 16.3067,0.1,0.340879,0x28044fa7;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "teleport_hub_oasis_active";
+	}
+}
+[t:trigger_generic,n:0x076004aa]
+{
+	[common]
+	{
+		dev_instance_text = "PLAYER LOCATION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
+				action* = send_world_message("we_req_activate",0x076000BD,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("grescal");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 17.6677,0.0999987,-0.222141,0x28044fa7;
+	}
+}
+[t:use_point,n:0x07600064]
+{
+	[placement]
+	{
+	  p position = -0.515963,0.1,-1.13281,0x76b1bc12;
+	}
+}
+[t:use_point,n:0x07600092]
+{
+	[placement]
+	{
+	  p position = 1.03578,0.1,0.415873,0x76b1bc12;
+	}
+}
+[t:check_quest_bits,n:0x076000b1]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "teleport_hub_oasis_active";
+	  i level = -1;
+		map_name = "upza";
+	  i object = -1;
+	  i region = -1633375303;
+	  i section = 3;
+	  x send_to_scid = 0x076009FF;
+	}
+	[placement]
+	{
+	  p position = 0,2,0,0x76b1bc12;
 	}
 }

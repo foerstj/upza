@@ -1,182 +1,3 @@
-[t:upza_zombie_grescal_shop_smith,n:0x076000b6]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.45399,0,0.891007;
-	  p position = 7.03384,3.25,-4.26379,0xdf88e1c2;
-	}
-}
-[t:self_service_mule,n:0x076000cb]
-{
-	[actor]
-	{
-		alignment = aa_neutral;
-	}
-	[aspect]
-	{
-		model = m_c_na_pm_pos_2;
-	}
-	[common]
-	{
-		dev_instance_text = "SP";
-	  b is_multi_player = false;
-		screen_name = "Adna";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x076000CD,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_selected",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = self_service_mule_join;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x76000cb;
-	}
-	[placement]
-	{
-	  p position = -1.19638,0,-0.0407734,0x9dfd1e90;
-	}
-}
-[t:self_service_mule,n:0x076000cc]
-{
-	[actor]
-	{
-		alignment = aa_neutral;
-	}
-	[aspect]
-	{
-		model = m_c_na_pm_pos_2;
-	}
-	[common]
-	{
-		dev_instance_text = "SP";
-	  b is_multi_player = false;
-		screen_name = "Falla";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x076000D0,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_selected",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = self_service_mule_join;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x76000cc;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -3.01074,0,0.840824,0x9dfd1e90;
-	}
-}
-[t:gikk,n:0x0760017d]
-{
-	[placement]
-	{
-	  p position = 3.74532,3.11308,-19.2654,0xdf88e1c2;
-	}
-}
-[t:mule,n:0x07600180]
-{
-	[common]
-	{
-		dev_instance_text = "MP";
-	  b is_single_player = false;
-		screen_name = "Adna";
-	}
-	[placement]
-	{
-	  p position = -1.30938,0,0.0565243,0x9dfd1e90;
-	}
-}
-[t:mule,n:0x076001ac]
-{
-	[common]
-	{
-		dev_instance_text = "MP";
-	  b is_single_player = false;
-		screen_name = "Falla";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -2.86584,0,0.745419,0x9dfd1e90;
-	}
-}
-[t:upza_zombie_grescal_townfolk,n:0x076001bc]
-{
-	[common]
-	{
-		screen_name = "Tess Kerram";
-	}
-	[placement]
-	{
-	  q orientation = 0,-6.55651e-007,0,1;
-	  p position = -7.1036,2.69393,-14.4581,0xdf88e1c2;
-	}
-}
-[t:upza_zombie_grescal_townfolk,n:0x076001bd]
-{
-	[common]
-	{
-		screen_name = "Reena Scudling";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = 5.71384,2.3975,-15.6067,0xdf88e1c2;
-	}
-}
-[t:krug_dog_skeleton,n:0x0760074a]
-{
-	[common]
-	{
-		screen_name = "Scudhund";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.333806,0,0.942642;
-	  p position = -3.48864,2.97019,-10.2573,0xdf88e1c2;
-	}
-}
 [t:upza_zombie_grescal_shop_mage,n:0x076000ba]
 {
 	[placement]
@@ -310,11 +131,183 @@
 	  p position = 18.0082,-0.428928,24.5558,0x87926434;
 	}
 }
-[t:gikk,n:0x0760017c]
+[t:upza_zombie_grescal_shop_smith,n:0x076000b6]
 {
 	[placement]
 	{
-	  p position = 9.92432,3.45189,-9.73923,0x3ab9b5cd;
+	  q orientation = 0,-0.45399,0,0.891007;
+	  p position = 7.03384,3.25,-4.26379,0xdf88e1c2;
+	}
+}
+[t:gikk,n:0x0760017d]
+{
+	[placement]
+	{
+	  p position = 3.74532,3.11308,-19.2654,0xdf88e1c2;
+	}
+}
+[t:upza_zombie_grescal_townfolk,n:0x076001bc]
+{
+	[common]
+	{
+		screen_name = "Tess Kerram";
+	}
+	[placement]
+	{
+	  q orientation = 0,-6.55651e-007,0,1;
+	  p position = -7.1036,2.69393,-14.4581,0xdf88e1c2;
+	}
+}
+[t:upza_zombie_grescal_townfolk,n:0x076001bd]
+{
+	[common]
+	{
+		screen_name = "Reena Scudling";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 5.71384,2.3975,-15.6067,0xdf88e1c2;
+	}
+}
+[t:krug_dog_skeleton,n:0x0760074a]
+{
+	[common]
+	{
+		screen_name = "Scudhund";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.333806,0,0.942642;
+	  p position = -3.48864,2.97019,-10.2573,0xdf88e1c2;
+	}
+}
+[t:self_service_mule,n:0x076000cb]
+{
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Adna";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x076000CD,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x76000cb;
+	}
+	[placement]
+	{
+	  p position = -1.19638,0,-0.0407734,0x9dfd1e90;
+	}
+}
+[t:self_service_mule,n:0x076000cc]
+{
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
+	[aspect]
+	{
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		screen_name = "Falla";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x076000D0,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x76000cc;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -3.01074,0,0.840824,0x9dfd1e90;
+	}
+}
+[t:mule,n:0x07600180]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Adna";
+	}
+	[placement]
+	{
+	  p position = -1.30938,0,0.0565243,0x9dfd1e90;
+	}
+}
+[t:mule,n:0x076001ac]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Falla";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -2.86584,0,0.745419,0x9dfd1e90;
 	}
 }
 [t:gikk,n:0x0760017e]
@@ -341,6 +334,22 @@
 	  p position = -40.2894,6.28618,-1.22914,0xcb1fa62b;
 	}
 }
+[t:impaler,n:0x07600996]
+{
+	[placement]
+	{
+	  q orientation = 0,0.19509,0,0.980785;
+	  p position = -25.4364,5.02177,-37.6629,0x7dbea029;
+	}
+}
+[t:impaler,n:0x07600997]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.923879;
+	  p position = -23.4058,3.60594,-33.9502,0x7dbea029;
+	}
+}
 [t:giant_lizard,n:0x07600998]
 {
 	[placement]
@@ -356,19 +365,10 @@
 	  p position = -44.7516,6.34621,-15.6673,0x673d13f3;
 	}
 }
-[t:impaler,n:0x07600996]
+[t:gikk,n:0x0760017c]
 {
 	[placement]
 	{
-	  q orientation = 0,0.19509,0,0.980785;
-	  p position = -25.4364,5.02177,-37.6629,0x7dbea029;
-	}
-}
-[t:impaler,n:0x07600997]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.923879;
-	  p position = -23.4058,3.60594,-33.9502,0x7dbea029;
+	  p position = 9.92432,3.45189,-9.73923,0x3ab9b5cd;
 	}
 }

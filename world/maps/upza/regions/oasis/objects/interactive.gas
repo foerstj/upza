@@ -1,166 +1,3 @@
-[t:torch_glb_stick_lightable,n:0x07600024]
-{
-	[light_enable]
-	{
-	  x siege_light = 0xA0572855;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0xA0572855;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -8.41839,2.89539,-10.9789,0xdf88e1c2;
-	}
-}
-[t:torch_glb_stick_lightable,n:0x0760002b]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x241B8E78;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x241B8E78;
-	}
-	[placement]
-	{
-	  p position = -1.09804,3.08313,-13.0156,0xdf88e1c2;
-	}
-}
-[t:sign_glb_magic_right,n:0x0760005f]
-{
-	[common]
-	{
-		screen_name = "Vielle's Herbs & Spells";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.981627,0,-0.190809;
-	  p position = -13.7656,4.56666,0.0879765,0xdf88e1c2;
-	}
-}
-[t:firepit_glb_03_lightable,n:0x07600181]
-{
-	[light_enable]
-	{
-	  x siege_light = 0xEBAAA346;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0xEBAAA346;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,5.96046e-007;
-	  p position = 8.48225,3.75807,-4.52428,0xdf88e1c2;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x0760099e]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x6067BC3E;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x6067BC3E;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.777146,0,0.629321;
-	  p position = -0.915775,0,0.637701,0xeaa5eb73;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x0760099f]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x71F631F8;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x71F631F8;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.833886,0,0.551937;
-	  p position = -1.77267,0,-0.0477924,0xeaa5eb73;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x076009a0]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x57A92978;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x57A92978;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.814116,0,0.580703;
-	  p position = 0.908726,3.03704,-0.393606,0xdf88e1c2;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x076009a1]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x83D561AB;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x83D561AB;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.887011,0,0.461748;
-	  p position = -0.246435,2.90466,0.144289,0xdf88e1c2;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x076009a2]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x80B3FA60;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x80B3FA60;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.25038,0,0.968148;
-	  p position = -1.28504,2.9142,0.617693,0xdf88e1c2;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x076009a3]
-{
-	[light_enable]
-	{
-	  x siege_light = 0xA9971745;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0xA9971745;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.0958452,0,0.995396;
-	  p position = -2.64014,0,-0.685886,0xeaa5eb73;
-	}
-}
-[t:sign_glb_blacksmith_03,n:0x07600a10]
-{
-	[placement]
-	{
-	  q orientation = 0,0.803857,0,0.594823;
-	  p position = 1.24093,3.05296,0.798494,0xdf88e1c2;
-	}
-}
 [t:torch_glb_stick_lightable,n:0x07600022]
 {
 	[light_enable]
@@ -344,35 +181,191 @@
 	  p position = 16.1213,-1.1,16.4501,0x87926434;
 	}
 }
-[t:torch_swp_stick_02_lightable,n:0x076009c2]
+[t:torch_glb_stick_lightable,n:0x07600024]
 {
 	[light_enable]
 	{
-	  x siege_light = 0xD249170F;
+	  x siege_light = 0xA0572855;
 	}
 	[light_flicker]
 	{
-	  x siege_light = 0xD249170F;
+	  x siege_light = 0xA0572855;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.507538,0,0.861629;
-	  p position = 12.4378,4.63956,6.95235,0x3ab9b5cd;
+	  q orientation = 0,1,0,0;
+	  p position = -8.41839,2.89539,-10.9789,0xdf88e1c2;
 	}
 }
-[t:torch_glb_stick_lightable,n:0x07600027]
+[t:torch_glb_stick_lightable,n:0x0760002b]
 {
 	[light_enable]
 	{
-	  x siege_light = 0x63EE45D5;
+	  x siege_light = 0x241B8E78;
 	}
 	[light_flicker]
 	{
-	  x siege_light = 0x63EE45D5;
+	  x siege_light = 0x241B8E78;
 	}
 	[placement]
 	{
-	  p position = 1.07974,5.72078,-45.4071,0x11d1603b;
+	  p position = -1.09804,3.08313,-13.0156,0xdf88e1c2;
+	}
+}
+[t:sign_glb_magic_right,n:0x0760005f]
+{
+	[common]
+	{
+		screen_name = "Vielle's Herbs & Spells";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981627,0,-0.190809;
+	  p position = -13.7656,4.56666,0.0879765,0xdf88e1c2;
+	}
+}
+[t:firepit_glb_03_lightable,n:0x07600181]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xEBAAA346;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xEBAAA346;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,5.96046e-007;
+	  p position = 8.48225,3.75807,-4.52428,0xdf88e1c2;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a0]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x57A92978;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x57A92978;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.814116,0,0.580703;
+	  p position = 0.908726,3.03704,-0.393606,0xdf88e1c2;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a1]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x83D561AB;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x83D561AB;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.887011,0,0.461748;
+	  p position = -0.246435,2.90466,0.144289,0xdf88e1c2;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a2]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x80B3FA60;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x80B3FA60;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.25038,0,0.968148;
+	  p position = -1.28504,2.9142,0.617693,0xdf88e1c2;
+	}
+}
+[t:sign_glb_blacksmith_03,n:0x07600a10]
+{
+	[placement]
+	{
+	  q orientation = 0,0.803857,0,0.594823;
+	  p position = 1.24093,3.05296,0.798494,0xdf88e1c2;
+	}
+}
+[t:sign_des_grescal,n:0x0760005a]
+{
+	[placement]
+	{
+	  q orientation = 0.700678,-0.0430044,-0.0188859,-0.711929;
+	  p position = 1.4273,-1.35387,-10.3426,0x432556a7;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009c3]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xCFBCA01A;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xCFBCA01A;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.25038,0,0.968148;
+	  p position = -7.64561,-0.92571,-9.37794,0x432556a7;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x0760099e]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x6067BC3E;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x6067BC3E;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.777146,0,0.629321;
+	  p position = -0.915775,0,0.637701,0xeaa5eb73;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x0760099f]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x71F631F8;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x71F631F8;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.833886,0,0.551937;
+	  p position = -1.77267,0,-0.0477924,0xeaa5eb73;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009a3]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xA9971745;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xA9971745;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0958452,0,0.995396;
+	  p position = -2.64014,0,-0.685886,0xeaa5eb73;
 	}
 }
 [t:torch_swp_stick_02_lightable,n:0x076004d8]
@@ -407,28 +400,51 @@
 	  p position = -26.0089,6.6727,-20.5636,0xcb1fa62b;
 	}
 }
-[t:sign_des_grescal,n:0x0760005a]
-{
-	[placement]
-	{
-	  q orientation = 0.700678,-0.0430044,-0.0188859,-0.711929;
-	  p position = 1.4273,-1.35387,-10.3426,0x432556a7;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x076009c3]
+[t:torch_glb_stick_lightable,n:0x07600027]
 {
 	[light_enable]
 	{
-	  x siege_light = 0xCFBCA01A;
+	  x siege_light = 0x63EE45D5;
 	}
 	[light_flicker]
 	{
-	  x siege_light = 0xCFBCA01A;
+	  x siege_light = 0x63EE45D5;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.25038,0,0.968148;
-	  p position = -7.64561,-0.92571,-9.37794,0x432556a7;
+	  p position = 1.07974,5.72078,-45.4071,0x11d1603b;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076009c2]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xD249170F;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xD249170F;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 12.4378,4.63956,6.95235,0x3ab9b5cd;
+	}
+}
+[t:torch_swp_stick_02_lightable,n:0x076004d9]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x15E07D65;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x15E07D65;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = 4.80737,0.861181,-14.951,0xa6c36ff3;
 	}
 }
 [t:torch_swp_stick_02_lightable,n:0x076009c4]
@@ -482,21 +498,5 @@
 	  q orientation = -0.653281,0.270598,0.270598,0.653281;
 	  p position = -0.00576019,1.15453,0.00335121,0x76b1bc12;
 		use_point_scids = 0x07600064, 0x07600092;
-	}
-}
-[t:torch_swp_stick_02_lightable,n:0x076004d9]
-{
-	[light_enable]
-	{
-	  x siege_light = 0x15E07D65;
-	}
-	[light_flicker]
-	{
-	  x siege_light = 0x15E07D65;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.507538,0,0.861629;
-	  p position = 4.80737,0.861181,-14.951,0xa6c36ff3;
 	}
 }
