@@ -1054,18 +1054,6 @@
 	  p position = -1.76193,-0.85,-1.88573,0x79647623;
 	}
 }
-[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005fe]
-{
-	[common]
-	{
-		screen_name = "Eliar Helmsvor";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.942641,0,-0.333807;
-	  p position = -1.02673,-0.85,-0.380411,0x951e9074;
-	}
-}
 [t:upza_zombie_meren_shop_smith,n:0x04d004cb]
 {
 	[placement]
@@ -1112,6 +1100,18 @@
 	{
 	  q orientation = 0,-0.790717,0,0.612182;
 	  p position = 0.599038,0,-1.51795,0x3097f50a;
+	}
+}
+[t:upza_zombie_meren_townfolk_pudgy,n:0x04d005fe]
+{
+	[common]
+	{
+		screen_name = "Eliar Helmsvor";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.942641,0,-0.333807;
+	  p position = -1.02673,-0.85,-0.380411,0x951e9074;
 	}
 }
 [t:self_service_mule,n:0x04d00200]

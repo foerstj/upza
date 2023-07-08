@@ -1,0 +1,30 @@
+[t:cmd_alignment_changer,n:0x076000cd]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_life_state = false;
+	  b change_selection = false;
+	  i start_state = 1;
+	  x target_actor = 0x076000CB;
+	}
+	[placement]
+	{
+	  p position = 15.5358,-1.45,13.4526,0x362fca78;
+	}
+}
+[t:cmd_alignment_changer,n:0x076000d0]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_life_state = false;
+	  b change_selection = false;
+	  i start_state = 1;
+	  x target_actor = 0x076000CC;
+	}
+	[placement]
+	{
+	  p position = 12.2201,-1.45001,15.3922,0x362fca78;
+	}
+}

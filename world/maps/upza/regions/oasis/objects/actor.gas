@@ -8,6 +8,10 @@
 }
 [t:self_service_mule,n:0x076000cb]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
 		model = m_c_na_pm_pos_2;
@@ -17,6 +21,24 @@
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
 		screen_name = "Adna";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x076000CD,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[conversation]
 	{
@@ -36,6 +58,10 @@
 }
 [t:self_service_mule,n:0x076000cc]
 {
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
 	[aspect]
 	{
 		model = m_c_na_pm_pos_2;
@@ -45,6 +71,24 @@
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
 		screen_name = "Falla";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x076000D0,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[conversation]
 	{
