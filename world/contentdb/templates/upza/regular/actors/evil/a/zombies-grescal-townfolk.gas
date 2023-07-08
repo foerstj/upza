@@ -100,6 +100,14 @@
     {
         textures:0 = b_c_eam_dfzo-dry-05;
         textures:1 = b_c_pos_a1_032;
+
+        // mummy sound
+		material = leather;
+		[voice]
+		{
+			[die]			{ priority = high;	* = s_e_die_dead_SED;		}
+			[enemy_spotted]	{ priority = high; * = s_e_call_mummy_SED; }
+		}
     }
 
     // stats & loot from lava_imp_01

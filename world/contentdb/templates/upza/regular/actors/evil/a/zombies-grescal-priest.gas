@@ -2,6 +2,11 @@
 {
     specializes = upza_zombie_grescal_townfolk_base;
 
+   	[mind]
+	{
+		jat_startup = jat_none;  // no hiding in sand
+    }
+
     [aspect]
     {
 		textures:0 = b_i_csl_corpse-dry;
