@@ -121,6 +121,18 @@
 	  p position = 19.7377,-1.45,6.42303,0x362fca78;
 	}
 }
+[t:krug_dog_skeleton,n:0x0760074a]
+{
+	[common]
+	{
+		screen_name = "Scudhund";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.333806,0,0.942641;
+	  p position = 10.5352,-1.40113,11.7724,0x362fca78;
+	}
+}
 [t:upza_zombie_grescal_shop_mage,n:0x076000ba]
 {
 	[placement]
@@ -151,6 +163,18 @@
 	{
 	  q orientation = 0,1,0,6.55651e-007;
 	  p position = 23.4644,-1.1,13.0887,0x87926434;
+	}
+}
+[t:krug_dog_skeleton,n:0x076001f9]
+{
+	[common]
+	{
+		screen_name = "Sharif";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707106;
+	  p position = 9.35841,-1.1,18.9207,0x87926434;
 	}
 }
 [t:upza_zombie_grescal_priest,n:0x076004cd]
