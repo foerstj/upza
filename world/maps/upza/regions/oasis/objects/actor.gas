@@ -153,31 +153,52 @@
 	  p position = 23.4644,-1.1,13.0887,0x87926434;
 	}
 }
-[t:utraean_priestess_kylira,n:0x076004cd]
+[t:upza_zombie_grescal_priest,n:0x076004cd]
 {
 	[common]
 	{
-		dev_instance_text = "QUEST NPC";
-	}
-	[conversation]
-	{
-		[conversations]
+		screen_name = "Utraean Priestess Kylira";
+		[instance_triggers]
 		{
-			* = conversation_kylira;
-			* = conversation_kylira_all7;
-			* = conversation_kylira_all_complete;
-			* = conversation_kylira_complete;
-			* = conversation_kylira_goto;
-			* = conversation_kylira_quest;
-			* = conversation_kylira_red;
-			* = conversation_kylira_ring;
-			* = conversation_kylira_stone;
-			* = zconversation_directions;
+			[*]
+			{
+				action* = change_quest_state("goto_grescal","completed",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("quest_townstones","active",0);
+				action* = change_quest_state("quest_grescal","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
-	[mind]
+	[inventory]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_kylira.skrit;
+		[other]
+		{
+			il_main = upza_book_glb_lore_kavaren_letter_townstones;
+		}
 	}
 	[placement]
 	{
