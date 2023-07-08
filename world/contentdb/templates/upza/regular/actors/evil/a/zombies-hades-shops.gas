@@ -1,0 +1,312 @@
+[t:template,n:upza_zombie_hades_shop_loern] { specializes = upza_zombie_hades_shop_loern_base; }
+[t:template,n:upza_zombie_hades_shop_loern_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Loern Ignus";
+	}
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo-05;  // but burnt texture
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_yellow(sgx)");  // grescal = yellow
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from mad_jailer
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	40, 0;
+			intelligence =  13, 0;
+			dexterity =  	16, 0;
+			melee =  		65, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 150000;
+		life = 3400;
+		max_life = 3400;
+		mana = 90;
+		max_mana = 90;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 115;
+		damage_min = 95;
+	}
+	[defend] { defense=510; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+			[all*]
+			{
+				[all*]
+				{
+					il_main = #*/115-138;
+	                il_main = #armor/65-322;
+				}
+				[oneof*]
+				{
+	            	chance = 0.01;
+	                il_main = #weapon/-rare(1)/140-155;
+	                il_main = #armor/-rare(1)/490-505;
+                    il_main = #*/-rare(1)/140-155;
+                }
+				[oneof*]
+				{
+	                il_main = #weapon/-unique(2)/140-155;
+	                il_main = #armor/-unique(2)/490-505;
+                    il_main = #*/-unique(2)/140-155;
+	            }
+				[gold*]
+				{
+					max = 42780;
+					min = 34567;
+				}
+			}
+        }
+	}
+
+    // more loot: shop from original loen_ignae
+    [actor] { drops_spellbook = true; }
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/247-378;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/247-284;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/285-341;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/342-378;
+					max = 3;
+					min = 3;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/33-284;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/285-341;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/342-378;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #helm/33-284;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/285-341;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/342-378;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/33-284;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/285-341;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/342-378;
+					max = 4;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/33-284;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/285-341;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/342-378;
+					max = 4;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/111-127;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/128-152;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/153-169;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/111-127;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/128-152;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/153-169;
+					max = 6;
+					min = 6;
+				}
+			}
+
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/40-61;
+					max = 25;
+					min = 25;
+				}
+				[all*]
+				{
+					il_main = #spell/0-39;
+					max = 5;
+					min = 5;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/82-155;
+					max = 4;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+
+		[item_restock]
+		{
+			potion_health_small = 3;
+			potion_health_medium = 6;
+			potion_health_large = 8;
+			potion_mana_small = 3;
+			potion_mana_medium = 6;
+			potion_mana_large = 8;
+			potion_rejuvenation_small = 2;
+			potion_rejuvenation_medium = 2;
+			potion_rejuvenation_large = 2;
+
+			scroll_resurrect = 2;
+            spell_resurrect = 2;
+            spell_revive = 2;
+            spell_healing_hands = 2;
+
+            spell_fireshot = 2;
+            spell_zap = 2;
+		}
+	}
+}

@@ -2396,19 +2396,8 @@
 	  p position = 0.257829,0,1.39023,0xbb3ef57f;
 	}
 }
-[t:loen_ignae,n:0x07b00377]
+[t:upza_zombie_hades_shop_loern,n:0x07b00377]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_loen_ignae;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.991445,0,-0.130526;
