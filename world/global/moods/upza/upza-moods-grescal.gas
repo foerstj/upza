@@ -1,0 +1,64 @@
+[mood_setting*]  // 1
+{
+	mood_name				= upza_oasis_1;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff886850;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_FortKroth_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]  // teleport
+{
+	mood_name				= upza_oasis_teleport;
+	transition_time			= 22.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff886850;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_FortKroth_03";
+		room_type			= rt_generic;
+	}
+}

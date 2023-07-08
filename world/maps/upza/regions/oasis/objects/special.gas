@@ -366,7 +366,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(13.000000,3.000000,24.000000,"on_every_enter");
@@ -457,7 +457,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 				action* = fade_nodes(0xA6495190,1,-1,-1,"out:black"), doc("dunes2hades");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(13.000000,3.000000,24.000000,"on_every_enter");
@@ -822,7 +822,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -867,7 +867,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1123,7 +1123,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1213,7 +1213,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(22.000000,2.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1303,7 +1303,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1393,7 +1393,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(25.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1525,7 +1525,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("multiplayer_world_oasis_1");
+				action* = mood_change("upza_oasis_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,10.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
