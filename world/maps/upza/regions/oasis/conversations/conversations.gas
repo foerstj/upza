@@ -7,39 +7,6 @@
 	}
 }
 
-[conversation_vielle]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "I bet Sultrin's already filled your head with tales of woe about the southern dunes. And he's right - you won't get very far without a goodly supply of my healing elixirs.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000ba;
-	}
-	[text*]
-	{
-		choice = shop;
-
-		screen_text = "You look the sort who'd be interested in seeking the lost pyramids. They're out there, you know. It's said they contain long lost magics and hold unbelievable power.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000ba;
-	}
-
-}
-[conversation_vielle_red]
-{
-	[text*]
-	{
-
-		screen_text = "This is no sandstorm -- there's something unnatural at work here!";
-		choice = shop;
-		button_1_text = "Directions";
-       		button_1_value = d_0x076000ba;
-	}
-}
-
 [conversation_kylira]
 {
 	[text*]             //no ring

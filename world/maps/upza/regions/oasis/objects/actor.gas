@@ -121,21 +121,8 @@
 	  p position = 19.7377,-1.45,6.42303,0x362fca78;
 	}
 }
-[t:sorceress_vielle,n:0x076000ba]
+[t:upza_zombie_grescal_shop_mage,n:0x076000ba]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_vielle;
-			* = conversation_vielle_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.21644,0,0.976296;
