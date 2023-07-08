@@ -1,0 +1,111 @@
+[t:template,n:upza_zombie_grescal_townfolk] { specializes = upza_zombie_grescal_townfolk_base; }
+[t:template,n:upza_zombie_grescal_townfolk_base]
+{
+    specializes = upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // look & behavior from dsx_mummy
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_mummy; }
+		material = leather;
+		[voice]
+		{
+			[die]			{ priority = high;	* = s_e_die_dead_SED;		}
+			[enemy_spotted]	{ priority = high; * = s_e_call_mummy_SED; }
+		}
+    }
+   	[mind]
+	{
+		jat_startup						= world\ai\jobs\common\job_startup_reveal.skrit;
+		actor_auto_fidgets					= false;
+		on_enemy_spotted_alert_friends				= true;
+   		on_job_reached_travel_distance_abort_attack 		= true;
+		sight_origin_height					= 1;
+		melee_engage_range					= 9;
+		personal_space_range					= 0.7;
+		ranged_engage_range					= 9.0;
+		sight_range						= 9.0;
+
+		com_channels = dyn_party, zombie;
+		com_range = 5.0;
+	}
+
+    // stats & loot from lava_imp_01
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		37, 0;
+			intelligence = 	12, 0;
+			dexterity = 	16, 0;
+			melee =  		40, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 87000;
+		life = 920;
+		max_life = 920;
+		mana = 14;
+		max_mana = 14;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 200;
+		damage_min = 160;
+	}
+	[defend] { defense=500; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.35;
+					il_main = #*/120-150;
+	                il_main = #spell/45-58;
+   				    il_main = potion_health_large;
+				    il_main = potion_mana_large;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+					max = 23678;
+					min = 19456;
+				}
+			}
+         }
+	}
+}
+
+[t:template,n:upza_zombie_grescal_townfolk_dunes] { specializes = upza_zombie_grescal_townfolk_dunes_base; }
+[t:template,n:upza_zombie_grescal_townfolk_dunes_base]
+{
+    specializes = upza_zombie_grescal_townfolk_base;
+
+	[common]
+	{
+		screen_name = "Dry Corpse";
+	}
+    [aspect]
+    {
+		[textures] { 0=b_i_csl_corpse-dry; }
+    }
+}
+[t:template,n:upza_zombie_grescal_townfolk_dunes_ar]
+{
+	specializes = upza_zombie_grescal_townfolk_dunes_base;
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+}
