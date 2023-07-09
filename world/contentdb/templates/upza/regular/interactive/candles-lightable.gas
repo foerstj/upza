@@ -12,3 +12,19 @@
 		other_effect = "candle_fire2";
 	}
 }
+
+[t:template,n:candle_glb_skull_02_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candle_skull_lg lightable";
+	[aspect]
+	{
+		model = m_i_glb_skull-candle-01;
+		scale_base = 2;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "skull_candle_fire2";
+	}
+}
