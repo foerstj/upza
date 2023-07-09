@@ -42,3 +42,28 @@
 		other_effect = "fireplace_fire";
 	}
 }
+
+
+[t:template,n:brazier_glb_brass_01_lightable]
+{
+	specializes = base_lightable;
+
+	doc = "brazier lightable";
+	[aspect]
+	{
+		does_block_path = true;
+		model = m_i_glb_brazier-01;
+		[textures]
+		{
+			0 = b_i_glb_brazier-01;
+		}
+	}
+    [common]
+    {
+        screen_name = "Brazier";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "brazier_fire";
+	}
+}
