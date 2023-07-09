@@ -94,28 +94,11 @@
 	  p position = 2.97538,-1.5,-4.66496,0xed8ca792;
 	}
 }
-[t:mp_peasant_male_01,n:0x0720058d]
+[t:upza_zombie_hiroth_townfolk,n:0x0720058d]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Jamas Trind";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_jamas;
-			* = conversation_jamas_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -123,28 +106,11 @@
 	  p position = -4.9568,-1.5,-0.464973,0xed8ca792;
 	}
 }
-[t:mp_farmer_male_old,n:0x0720058e]
+[t:upza_zombie_hiroth_townfolk,n:0x0720058e]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Barten Viloril";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_barten;
-			* = conversation_barten_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -152,29 +118,11 @@
 	  p position = -6.15657,-1.5,0.137741,0xed8ca792;
 	}
 }
-[t:mp_townfolk_female_07,n:0x07200592]
+[t:upza_zombie_hiroth_townfolk,n:0x07200592]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Alandriel Galas";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_alandriel;
-			* = conversation_alandriel_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -182,12 +130,8 @@
 	  p position = 2.89916,-1.5,-6.16228,0xed8ca792;
 	}
 }
-[t:townfolk_m_03,n:0x072005e3]
+[t:upza_zombie_hiroth_townfolk,n:0x072005e3]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Innkeeper";
@@ -314,33 +258,11 @@
 	  p position = -4.58181,-3.0874,-2.29668,0x1fae5173;
 	}
 }
-[t:mp_townfolk_female_03,n:0x0720055c]
+[t:upza_zombie_hiroth_townfolk,n:0x0720055c]
 {
 	[common]
 	{
 		screen_name = "Jirna Kellen";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_jirna;
-			* = conversation_jirna_red;
-			* = zconversation_directions;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_le_r_g_c_avg;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -539,24 +461,11 @@
 	  p position = -0.976124,0,-0.0664673,0x8bd4a00b;
 	}
 }
-[t:mp_townfolk_male_02,n:0x07200534]
+[t:upza_zombie_hiroth_townfolk,n:0x07200534]
 {
 	[common]
 	{
 		screen_name = "Rittren Holden";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_rittren;
-			* = conversation_rittren_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -564,24 +473,11 @@
 	  p position = -2.82953,-9.53674e-007,-0.947868,0x8ddbf4df;
 	}
 }
-[t:mp_townfolk_female_08,n:0x07200565]
+[t:upza_zombie_hiroth_townfolk,n:0x07200565]
 {
 	[common]
 	{
 		screen_name = "Lillian Zane";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_lillian;
-			* = conversation_lillian_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -655,37 +551,11 @@
 	  p position = -7.72357,-2.65,-4.51319,0x2dbbce58;
 	}
 }
-[t:mp_townfolk_female_06,n:0x0720055a]
+[t:upza_zombie_hiroth_townfolk,n:0x0720055a]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Keely Faern";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_keely;
-			* = conversation_keely_red;
-			* = zconversation_directions;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_le_f_g_c_low;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
@@ -693,30 +563,11 @@
 	  p position = -7.17538,-2.66976,-6.09458,0x2dbbce58;
 	}
 }
-[t:mp_village_idiot,n:0x0720055b]
+[t:upza_zombie_hiroth_townfolk,n:0x0720055b]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Kamber Gane";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_kamber;
-			* = conversation_kamber_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_face = jat_none;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
