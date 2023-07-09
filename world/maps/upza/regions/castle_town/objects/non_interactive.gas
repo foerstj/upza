@@ -556,7 +556,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.923879,0,-0.382684;
+	  q orientation = 0,1,0,-6.78395e-007;
 	  p position = -10.6055,1.19458,-6.25505,0xed8ca792;
 	}
 }
@@ -569,7 +569,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
+	  q orientation = 0,-5.86846e-007,0,1;
 	  p position = -10.6842,1.19458,-5.57997,0xed8ca792;
 	}
 }
@@ -669,7 +669,7 @@
 	}
 	[placement]
 	{
-	  p position = -8.85865,0.0725062,-7.14272,0xed8ca792;
+	  p position = -9.05353,-1.5,-6.43139,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x07200098]
@@ -680,8 +680,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = -8.19437,0.78706,-7.06773,0xed8ca792;
+	  q orientation = 0,0.707106,0,-0.707107;
+	  p position = -8.51421,-1.5,-7.23668,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x07200099]
@@ -693,7 +693,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
-	  p position = -8.7041,0.78706,-7.21017,0xed8ca792;
+	  p position = -8.37625,-1.5,-6.84778,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x0720009a]
@@ -705,7 +705,7 @@
 	[placement]
 	{
 	  q orientation = 0,1.19209e-007,0,1;
-	  p position = -8.39275,0.78706,-7.36244,0xed8ca792;
+	  p position = -8.16972,-1.5,-6.44566,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x0720009c]
@@ -717,7 +717,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.382684,0,0.923879;
-	  p position = -7.82246,0.78706,-7.16872,0xed8ca792;
+	  p position = -7.57478,-1.5,-6.9223,0xed8ca792;
 	}
 }
 [t:dishes_csl_broken_01,n:0x0720009d]
@@ -752,7 +752,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
+	  q orientation = 0,-0.707107,0,0.707106;
 	  p position = -2.04503,-1.07257,-5.08771,0xed8ca792;
 	}
 }
@@ -869,7 +869,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
+	  q orientation = 0,1,0,4.38495e-007;
 	  p position = -6.96983,-0.500004,-4.81981,0xed8ca792;
 	}
 }
@@ -916,7 +916,7 @@
 	}
 	[placement]
 	{
-	  p position = 3.66127,-1.49596,-5.25275,0xed8ca792;
+	  p position = 3.66127,-1.5,-5.25275,0xed8ca792;
 	}
 }
 [t:table_csl_broken_01,n:0x072000be]
@@ -1151,7 +1151,7 @@
 	}
 	[placement]
 	{
-	  p position = -12.1421,-0.683564,1.25507,0xed8ca792;
+	  p position = -12.1741,-1.5,1.30785,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x072000df]
@@ -1163,7 +1163,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.087156,0,0.996195;
-	  p position = 2.96908,-0.679596,-4.82005,0xed8ca792;
+	  p position = 2.78849,-1.5,-4.97643,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x072000e0]
@@ -1175,7 +1175,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.0871557,0,0.996195;
-	  p position = 4.74004,-0.687265,5.58714,0xed8ca792;
+	  p position = 5.10398,-1.5,5.54334,0xed8ca792;
 	}
 }
 [t:jug_csl_broken_01,n:0x072000e2]
@@ -1187,7 +1187,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.0871559,0,0.996195;
-	  p position = 3.75361,-0.769531,-5.93367,0xed8ca792;
+	  p position = 3.59845,-1.5,-6.03565,0xed8ca792;
 	}
 }
 [t:ivy_grs_05,n:0x07200153]
@@ -1358,7 +1358,7 @@
 	}
 	[placement]
 	{
-	  p position = 4.3284,-0.676563,5.606,0xed8ca792;
+	  p position = 4.34029,-1.5,5.94615,0xed8ca792;
 	}
 }
 [t:lamp_glb_oil_02_unlit,n:0x072005ee]
@@ -4079,7 +4079,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = 3.32328,-2.11476,4.13723,0x1fae5173;
+	  p position = 3.32328,-2.1,4.13723,0x1fae5173;
 	}
 }
 [t:chair_csl_webbed_02,n:0x07200044]
@@ -4269,7 +4269,7 @@
 {
 	[placement]
 	{
-	  p position = 2.10042,-1.36021,3.48367,0x1fae5173;
+	  p position = 2.10042,-2.1,3.48367,0x1fae5173;
 	}
 }
 [t:goblet_csl,n:0x072005d5]
@@ -4280,7 +4280,7 @@
 	}
 	[placement]
 	{
-	  p position = 2.47698,-1.36053,3.5565,0x1fae5173;
+	  p position = 2.47698,-2.1,3.5565,0x1fae5173;
 	}
 }
 [t:banner_glb_legion_02,n:0x072005ea]
@@ -19136,7 +19136,7 @@
 	}
 	[placement]
 	{
-	  p position = 7.91043,-1.99711,2.12094,0x2dbbce58;
+	  p position = 7.8692,-2.65,2.0439,0x2dbbce58;
 	}
 }
 [t:books_glb_02,n:0x072005d1]
@@ -19148,6 +19148,6 @@
 	[placement]
 	{
 	  q orientation = 0,0.190809,0,0.981627;
-	  p position = 7.46511,-1.99653,2.2239,0x2dbbce58;
+	  p position = 7.44996,-2.65,2.21836,0x2dbbce58;
 	}
 }
