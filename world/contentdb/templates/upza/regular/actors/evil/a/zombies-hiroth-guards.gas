@@ -81,6 +81,7 @@
     // equipment from seck_grunt
 	[inventory]
 	{
+        spew_equipped_kill_count = <ignore>;
 		[equipment]
 		{
             es_weapon_hand = sd_un_seck_1h_avg;
@@ -170,6 +171,7 @@
     // equipment from seck_archer
 	[inventory]
 	{
+        spew_equipped_kill_count = <ignore>;
 		selected_active_location = il_active_ranged_weapon;
 		[equipment]
 		{
@@ -261,6 +263,7 @@
     // equipment from seck_guard_elite
 	[inventory]
 	{
+        spew_equipped_kill_count = <ignore>;
 		[equipment]
 		{
             es_weapon_hand = sd_un_seck_1h_fin;
