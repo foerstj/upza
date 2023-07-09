@@ -1,3 +1,76 @@
+[t:template,n:candle_glb_01_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candle_short lightable";
+	[aspect]
+	{
+		model = m_i_glb_candle-01;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "candle_fire1";
+	}
+}
+[t:template,n:candle_glb_02_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candle_tall lightable";
+	[aspect]
+	{
+		model = m_i_glb_candle-02;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "candle_fire1";
+	}
+}
+
+[t:template,n:candle_glb_skull_01_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candle_skull_sm lightable";
+	[aspect]
+	{
+		model = m_i_glb_skull-candle-01;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "skull_candle_fire1";
+	}
+}
+[t:template,n:candle_glb_skull_02_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candle_skull_lg lightable";
+	[aspect]
+	{
+		model = m_i_glb_skull-candle-01;
+		scale_base = 2;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "skull_candle_fire2";
+	}
+}
+
+[t:template,n:candlestand_csl_01_lightable]
+{
+    specializes = base_lightable;
+
+	doc = "candlestick_single lightable";
+	[aspect]
+	{
+		model = m_i_csl_candlestand-01;
+	}
+	[generic_emitter_act]
+	{
+		other_effect = "candle_fire1";
+	}
+}
 [t:template,n:candlestand_csl_02_lightable]
 {
     specializes = base_lightable;
@@ -12,19 +85,17 @@
 		other_effect = "candle_fire2";
 	}
 }
-
-[t:template,n:candle_glb_skull_02_lightable]
+[t:template,n:candlestand_csl_03_lightable]
 {
     specializes = base_lightable;
 
-	doc = "candle_skull_lg lightable";
+	doc = "candlestick_tri lightable";
 	[aspect]
 	{
-		model = m_i_glb_skull-candle-01;
-		scale_base = 2;
+		model = m_i_csl_candlestand-03;
 	}
 	[generic_emitter_act]
 	{
-		other_effect = "skull_candle_fire2";
+		other_effect = "candle_fire3";
 	}
 }

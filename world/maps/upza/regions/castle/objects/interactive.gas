@@ -36,6 +36,34 @@
 		use_point_scids = 0x07000529,0x0700052a;
 	}
 }
+[t:candle_glb_01_lightable,n:0x07000286]
+{
+	[placement]
+	{
+	  p position = -1.66223,-3.3,4.11818,0xfd7d60b1;
+	}
+}
+[t:candle_glb_01_lightable,n:0x07000287]
+{
+	[placement]
+	{
+	  p position = -4.97779,-3.3,0.838651,0xfd7d60b1;
+	}
+}
+[t:candle_glb_02_lightable,n:0x07000288]
+{
+	[placement]
+	{
+	  p position = -2.56447,-3.56234,1.44478,0xfd7d60b1;
+	}
+}
+[t:candle_glb_01_lightable,n:0x07000289]
+{
+	[placement]
+	{
+	  p position = 5.145,-3.3,-2.6828,0xfd7d60b1;
+	}
+}
 [t:door_grs_peasant_left,n:0x0700049e]
 {
 	[aspect]
@@ -65,6 +93,29 @@
 		drop_point_scids = 0x07000667;
 	  q orientation = 0,2.07186e-007,0,1;
 	  p position = -1.91501,-3.5,1.17258,0x2d5b5075;
+	}
+}
+[t:candlestand_csl_01_lightable,n:0x070003fe]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.37854,0.781289,-0.0325623,0x5c165de8;
+	}
+}
+[t:candlestand_csl_01_lightable,n:0x070003fd]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  p position = 2.79647,0.781257,5.99557,0x3f6d62a9;
 	}
 }
 [t:rack_csl_weapons_gen_01_castle,n:0x070003f7]
@@ -118,6 +169,19 @@
 		use_point_scids = 0x0700050e;
 	}
 }
+[t:lamp_glb_post_lightable,n:0x070003af]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,6.22271e-008;
+	  p position = 0.513031,-5.44377,-0.488274,0x4e30a54d;
+	}
+}
 [t:door_glb_keep_01,n:0x070004b2]
 {
 	[door_basic]
@@ -144,6 +208,97 @@
 		use_point_scids = 0x0700050f,0x07000510;
 	}
 }
+[t:lamp_glb_post_lightable,n:0x070003aa]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.6822e-007;
+	  p position = 1.91876,-3.71709,-0.960365,0x70bd0ec3;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a2]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.68221e-007,0,1;
+	  p position = 2.11714,-1.94377,-0.416992,0x55aecba7;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a9]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.68221e-007,0,1;
+	  p position = -1.86288,-1.94378,-0.733276,0x55aecba7;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a6]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = -3.36833,-1.94378,-1.90835,0x840639aa;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a7]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = -3.31167,-1.94377,2.06378,0x840639aa;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a3]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = -0.413467,-1.94377,-0.932295,0xcd25c3ce;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a4]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 3.93765,-1.94378,-0.755868,0xcd25c3ce;
+	}
+}
 [t:respawn_statue,n:0x070006a3]
 {
 	[aspect]
@@ -155,6 +310,32 @@
 	  q orientation = 0,-0.382684,0,0.923879;
 	  p position = 1.77621,0,-1.12352,0xcd25c3ce;
 		use_point_scids = 0x0700075a;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003ab]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.6822e-007;
+	  p position = 1.87894,-3.49628,0.130707,0xe6758fdd;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003ae]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.68219e-007,0,1;
+	  p position = 1.92257,-3.48876,0.0199966,0x92b6eefa;
 	}
 }
 [t:respawn_statue,n:0x07000694]
@@ -230,6 +411,18 @@
 	  q orientation = 0,1,0,5.96046e-008;
 	  p position = -0.00128174,-2,0.013752,0x0438c211;
 		use_point_scids = 0x07000649;
+	}
+}
+[t:candlestand_csl_03_lightable,n:0x070001a3]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,1.49012e-007;
+	  p position = -0.681952,0.895988,-0.0278626,0x12e61726;
 	}
 }
 [t:door_glb_keep_02,n:0x070004b6]
@@ -362,19 +555,6 @@
 		use_point_scids = 0x07000477,0x0700049c;
 	}
 }
-[t:sign_glb_01,n:0x07000719]
-{
-	[common]
-	{
-		dev_instance_text = "castle_1";
-		screen_name = "Town of Hiroth";
-	}
-	[placement]
-	{
-	  q orientation = 0,-1,0,-5.96046e-008;
-	  p position = 2.6988,-6,-7.63443,0x96fa083c;
-	}
-}
 [t:door_glb_keep_right_01,n:0x0700071e]
 {
 	[door_basic]
@@ -494,6 +674,19 @@
 		use_point_scids = 0x0700064d,0x07000659;
 	}
 }
+[t:lamp_glb_post_lightable,n:0x070003a5]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 3.85566,-1.94377,-1.66901,0x1a9e7728;
+	}
+}
 [t:respawn_statue,n:0x07000692]
 {
 	[aspect]
@@ -572,6 +765,28 @@
 	  q orientation = 0,0.707106,0,0.707107;
 	  p position = 1.03676,0,0.527241,0x6d4cb59d;
 		use_point_scids = 0x0700064a,0x0700064b;
+	}
+}
+[t:candlestand_csl_03_lightable,n:0x07000442]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  p position = 1.02034,0.683621,1.87568,0xe31b4764;
+	}
+}
+[t:candlestand_csl_03_lightable,n:0x07000441]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  p position = -4.92357,0.675279,1.93933,0x824e5d5d;
 	}
 }
 [t:rack_csl_weapons_gen_01_castle,n:0x0700041e]
@@ -674,6 +889,19 @@
 	  q orientation = 0,-1,0,-1.55754e-007;
 	  p position = 0.024534,-3.5,2.216,0x6171a06f;
 		use_point_scids = 0x07000511,0x07000524;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003ad]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.6822e-007,0,1;
+	  p position = 1.91543,-3.47249,-0.926117,0x0a07cfa8;
 	}
 }
 [t:door_glb_keep_01,n:0x070004a4]
@@ -1001,6 +1229,19 @@
 		use_point_scids = 0x0700068e;
 	}
 }
+[t:lamp_glb_post_lightable,n:0x070003ac]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,9.70125e-007;
+	  p position = 1.8424,-3.533,0.914886,0x2a23a5c5;
+	}
+}
 [t:door_glb_keep_02,n:0x070004b3]
 {
 	[door_basic]
@@ -1025,5 +1266,42 @@
 	  q orientation = 0,1,0,1.2064e-007;
 	  p position = 0.0262909,-2,-0.0559845,0x0c309696;
 		use_point_scids = 0x0700062f,0x07000634;
+	}
+}
+[t:candlestand_csl_03_lightable,n:0x070001a2]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,5.06639e-007;
+	  p position = 2.65349,0.895988,-0.00415027,0x7d2f14c5;
+	}
+}
+[t:candlestand_csl_03_lightable,n:0x070001a4]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,2.68221e-007;
+	  p position = 0.988347,0.895988,-0.0666656,0x73bc4a83;
+	}
+}
+[t:lamp_glb_post_lightable,n:0x070003a8]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f scale_multiplier = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.68219e-007,0,1;
+	  p position = 1.88817,-3.62888,0.907089,0xcd0a6118;
 	}
 }
