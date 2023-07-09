@@ -51,7 +51,7 @@ if not "%mode%"=="light" (
 )
 if "%mode%"=="light" (
   robocopy "%doc_dsloa%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E /xf .gitignore /xd regions
-  for %%r in (desert oasis oasis_cave eg_seck_dungeon dunes dunes2 new_hub) do (
+  for %%r in (desert oasis oasis_cave eg_seck_dungeon dunes dunes2 new_hub castle castle_dun castle_town hub_quest_dun dragon_r2 dl_r1) do (
     robocopy "%doc_dsloa%\Bits\world\maps\%map%\regions\%%r" "%tmp%\Bits\world\maps\%map%\regions\%%r" /E
   )
 )

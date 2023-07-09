@@ -119,9 +119,32 @@
 			}
 		}
 	}
-	[t:start_group,n:eastern_island]
+	[t:start_group,n:dev]
 	{
 	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698464;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = -2.203398,0.000000,-1.629330,0x9EA75292;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0x9EA75292;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:eastern_island]
+	{
+	  b default = false;
 		description = "The Eastern Island, a mythical place said to have magical passages to the Peninsula";
 	  b dev_only = false;
 	  i id = 0;
