@@ -1414,31 +1414,8 @@
 	  p position = -3.7251,0,0.0315857,0x348928bc;
 	}
 }
-[t:mp_guard_captain,n:0x0710055c]
+[t:upza_zombie_desert_guard,n:0x0710055c]
 {
-	[aspect]
-	{
-	  b is_collidable = false;
-	}
-	[common]
-	{
-		screen_name = "Legionnaire Guard";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_may_attack = false;
-	  b actor_may_be_attacked = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.130526,0,0.991445;
