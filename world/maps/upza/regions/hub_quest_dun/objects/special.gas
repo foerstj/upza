@@ -88,6 +88,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -106,7 +107,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -280,6 +280,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -298,7 +299,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
@@ -311,6 +311,7 @@
 	[common]
 	{
 		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -329,7 +330,6 @@
 			  b start_active = true;
 			}
 		}
-	  b is_single_player = false;
 	}
 	[placement]
 	{
