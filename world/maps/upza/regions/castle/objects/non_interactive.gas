@@ -566,30 +566,6 @@
 	  p position = -8.61468,-1.9,0.124737,0x6a679879;
 	}
 }
-[t:body_glb_chicken_01,n:0x0700041c]
-{
-	[placement]
-	{
-	  q orientation = 0,0.978148,0,0.207912;
-	  p position = -5.6005,-1.9,8.80431,0x6a679879;
-	}
-}
-[t:body_glb_pig_01,n:0x0700041f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.95882,0,0.284015;
-	  p position = -4.74581,-1.9,-4.24134,0x6a679879;
-	}
-}
-[t:body_grs_cow_dead,n:0x07000425]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.0261773,0,-0.999657;
-	  p position = -6.06255,-1.9,-1.13479,0x6a679879;
-	}
-}
 [t:body_glb_farmer_01,n:0x07000426]
 {
 	[placement]
@@ -13308,5 +13284,29 @@
 	{
 	  q orientation = 0,0.883034,0,-0.469309;
 	  p position = 2.00137,0,-2.17999,0x8e01df0e;
+	}
+}
+[t:body_cav_carcass_01,n:0x07000425]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.0261773,0,-0.999657;
+	  p position = -6.06255,-1.9,-1.13479,0x6a679879;
+	}
+}
+[t:bones_grs_animal,n:0x0700041f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.95882,0,0.284015;
+	  p position = -4.74581,-1.9,-4.24134,0x6a679879;
+	}
+}
+[t:bones_grs_animal,n:0x0700041c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.978148,0,0.207912;
+	  p position = -5.6005,-1.9,8.80431,0x6a679879;
 	}
 }

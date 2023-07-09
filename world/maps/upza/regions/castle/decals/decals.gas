@@ -86,54 +86,6 @@
 	}
 	[t:decal,n:*]
 	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -4.604954,-0.900001,-3.984280,0x6A679879;
-	  f far_plane = 1.100000;
-	  x guid = 0x61CF0B3B;
-	  f horizontal_meters = 2.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
-	  f vertical_meters = 2.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -5.589460,-0.899998,8.783678,0x6A679879;
-	  f far_plane = 1.100000;
-	  x guid = 0x2C86E7EB;
-	  f horizontal_meters = 0.500000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
-	  f vertical_meters = 0.500000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -6.033100,-0.900001,-1.397660,0x6A679879;
-	  f far_plane = 1.100000;
-	  x guid = 0x613CC30B;
-	  f horizontal_meters = 3.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
-	  f vertical_meters = 3.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 4.671204,-0.899999,3.784367,0x6A679879;
-	  f far_plane = 1.100000;
-	  x guid = 0x5549AA27;
-	  f horizontal_meters = 2.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
-	  f vertical_meters = 2.000000;
-	}
-	[t:decal,n:*]
-	{
 		decal_orientation = -0.707107,-0.707107,0.000000,0.000000,-0.000000,-1.000000,0.707107,-0.707107,0.000000;
 		decal_origin = -2.248142,1.000000,1.768454,0xAA53C983;
 	  f far_plane = 1.100000;
