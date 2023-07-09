@@ -25,7 +25,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_BesiegedTown_04";
+		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
 }
@@ -56,7 +56,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_BesiegedTown_04";
+		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
 }
@@ -85,7 +85,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_BesiegedTown_04";
+		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
 	[rain]
@@ -151,8 +151,8 @@
 
 	[music]
 	{
-		ambient_track		= "s_e_env_tavern";
-		standard_track		= "s_m_BesiegedTown_04";
+		ambient_track		= "";
+		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
 }
@@ -183,7 +183,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_BesiegedTown_04";
+		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
 }
@@ -219,7 +219,7 @@
 	{
 		ambient_track		= "";
 		standard_intro_delay	= 0.0f;
-		standard_track		= "s_m_CastleEhb_02";
+		standard_track		= "s_m_the_mountain_theme";
 		room_type			= rt_generic;
 	}
 }
@@ -260,7 +260,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		standard_track		= "s_m_CastleEhb_03"; 
+		standard_track		= "s_m_the_mountain_theme"; 
 		room_type			= rt_generic;
 	}
 }
@@ -294,7 +294,7 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay = 10.0f;
-		standard_track		= "s_m_CastleEhb_04";
+		standard_track		= "s_m_the_dead_theme";
 		room_type			= rt_generic;
 	}
 }
@@ -328,7 +328,7 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay = 0.0f;
-		standard_track		= "s_m_Drums_01";
+		standard_track		= "s_m_the_dead_theme";
 		room_type			= rt_generic;
 	}
 }
