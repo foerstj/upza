@@ -914,6 +914,37 @@
 	  p position = 3.54651,-3.1,0.313076,0x1fae5173;
 	}
 }
+[t:trigger_generic,n:0x07200145]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x07200172,0.5f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x07200174,0.5f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x07200176,1f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x07200175,1f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -3.51397,-2.97957,-2.73118,0x1fae5173;
+	}
+}
 [t:trigger_change_mood_box,n:0x072002a4]
 {
 	[common]
@@ -2708,7 +2739,7 @@
 	  p position = -2.4872,-2.65,-2.17723,0x2dbbce58;
 	}
 }
-[t:trigger_generic,n:0x07200145]
+[t:trigger_generic,n:0x07200114]
 {
 	[common]
 	{
@@ -2716,10 +2747,10 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x07200172,0f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x07200174,0f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x07200176,1f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x07200175,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003B,1f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003A,1f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003C,0.5f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003E,0.5f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -2736,6 +2767,6 @@
 	}
 	[placement]
 	{
-	  p position = -3.51397,-2.97957,-2.73118,0x1fae5173;
+	  p position = -1.76868,-1.2,-5.97426,0xed8ca792;
 	}
 }

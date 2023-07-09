@@ -1,11 +1,3 @@
-[t:emitter_glb_smoke_01,n:0x07200039]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.24461,7.03548,-8.73566,0xed8ca792;
-	}
-}
 [t:emt_sound,n:0x072005c0]
 {
 	[placement]
@@ -48,6 +40,14 @@
 	  f repeat_rate = 15;
 	  i start_hour = 5;
 	  i stop_hour = 20;
+	}
+}
+[t:emitter_glb_smoke_01_act,n:0x07200165]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 2.67876,4.07869,3.80026,0x3909b300;
 	}
 }
 [t:emt_sound,n:0x072005ba]
@@ -95,6 +95,21 @@
 	  i stop_hour = 4;
 	}
 }
+[t:emitter_glb_smoke_01_act,n:0x07200175]
+{
+	[placement]
+	{
+	  p position = -1.6545,3.20855,-1.96776,0x1fae5173;
+	}
+}
+[t:emitter_glb_smoke_01_act,n:0x07200176]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -1.95312,3.20855,-1.27682,0x1fae5173;
+	}
+}
 [t:emt_sound,n:0x072005c3]
 {
 	[placement]
@@ -124,14 +139,6 @@
 	  f repeat_rate = 15;
 	  i start_hour = 22;
 	  i stop_hour = 4;
-	}
-}
-[t:emitter_glb_smoke_01,n:0x07200078]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.5,0,0.866026;
-	  p position = -1.53193,-3.64124,-2.14745,0x3e9b31fa;
 	}
 }
 [t:emt_sound,n:0x072005b5]
@@ -585,26 +592,11 @@
 		event_sound = "env_lakeside";
 	}
 }
-[t:emitter_glb_smoke_01_act,n:0x07200165]
+[t:emitter_glb_smoke_01_act,n:0x07200039]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = 2.67876,4.07869,3.80026,0x3909b300;
-	}
-}
-[t:emitter_glb_smoke_01_act,n:0x07200175]
-{
-	[placement]
-	{
-	  p position = -1.6545,3.20855,-1.96776,0x1fae5173;
-	}
-}
-[t:emitter_glb_smoke_01_act,n:0x07200176]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -1.95312,3.20855,-1.27682,0x1fae5173;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.78423,7.03548,-9.28222,0xed8ca792;
 	}
 }
