@@ -11,6 +11,10 @@
 	{
 		other_effect = "candle_fire1";
 	}
+    [common]
+    {
+        screen_name = "Candle";
+    }
 }
 [t:template,n:candle_glb_02_lightable]
 {
@@ -25,6 +29,10 @@
 	{
 		other_effect = "candle_fire1";
 	}
+    [common]
+    {
+        screen_name = "Candle";
+    }
 }
 
 [t:template,n:candle_glb_skull_01_lightable]
@@ -40,6 +48,10 @@
 	{
 		other_effect = "skull_candle_fire1";
 	}
+    [common]
+    {
+        screen_name = "Candle";
+    }
 }
 [t:template,n:candle_glb_skull_02_lightable]
 {
@@ -55,6 +67,10 @@
 	{
 		other_effect = "skull_candle_fire2";
 	}
+    [common]
+    {
+        screen_name = "Candle";
+    }
 }
 
 [t:template,n:candlestand_csl_01_lightable]
@@ -70,6 +86,10 @@
 	{
 		other_effect = "candle_fire1";
 	}
+    [common]
+    {
+        screen_name = "Candlestand";
+    }
 }
 [t:template,n:candlestand_csl_02_lightable]
 {
@@ -84,6 +104,10 @@
 	{
 		other_effect = "candle_fire2";
 	}
+    [common]
+    {
+        screen_name = "Candlestand";
+    }
 }
 [t:template,n:candlestand_csl_03_lightable]
 {
@@ -98,4 +122,8 @@
 	{
 		other_effect = "candle_fire3";
 	}
+    [common]
+    {
+        screen_name = "Candlestand";
+    }
 }
