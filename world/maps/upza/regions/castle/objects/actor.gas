@@ -283,36 +283,8 @@
 	  p position = -0.797264,0,0.451319,0xf729b759;
 	}
 }
-[t:mp_guard_03,n:0x0700071c]
+[t:upza_zombie_hiroth_guard,n:0x0700071c]
 {
-	[aspect]
-	{
-		model = m_c_gah_fb_pos_a3;
-	}
-	[check_level]
-	{
-	  b check_level = true;
-	  f high_level = 54;
-	  f high_level_2w = 86;
-	  f high_level_3w = 110;
-	  f low_level = 50;
-	  f low_level_2w = 84;
-	  f low_level_3w = 109;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_guard;
-			* = conversation_guard_high;
-			* = conversation_guard_low;
-			* = conversation_guard_red;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.92388,0,0.382683;
