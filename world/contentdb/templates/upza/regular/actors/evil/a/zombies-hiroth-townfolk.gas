@@ -1,19 +1,12 @@
 [t:template,n:upza_zombie_hiroth_townfolk] { specializes = upza_zombie_hiroth_townfolk_base; }
 [t:template,n:upza_zombie_hiroth_townfolk_base]
 {
-    specializes = upza_base_zombie_pudgy;
+    specializes = upza_base_zombie_headless;
 
 	[common]
 	{
 		screen_name = "Townfolk";
 	}
-
-    // look from zombie_headless
-    [aspect]
-    {
-		model = m_c_edm_zo_pos_3;
-		[textures] { 0=b_c_edm_zo-04; }
-    }
 
     // stats & loot from impaler
 	[actor]

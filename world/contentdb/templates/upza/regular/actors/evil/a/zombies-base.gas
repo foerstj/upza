@@ -122,3 +122,19 @@
 		[textures] { 0=b_c_edm_zo-03; }
 	}
 }
+
+[t:template,n:upza_base_zombie_headless]
+{
+	specializes = upza_base_zombie;
+
+	doc = "zombie pudgy headless";
+	[body]
+	{
+		max_move_velocity = 1.4;
+	}
+	[aspect]
+	{
+		model = m_c_edm_zo_pos_3;
+		[textures] { 0=b_c_edm_zo-04; }
+	}
+}
