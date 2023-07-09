@@ -312,6 +312,37 @@
 	  p position = 3.09177,0,-2.66014,0xed8ca792;
 	}
 }
+[t:trigger_generic,n:0x07200114]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0720003B,1f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003A,1f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003C,0.5f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0720003E,0.5f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -1.76868,-1.2,-5.97426,0xed8ca792;
+	}
+}
 [t:trigger_change_mood_box,n:0x072005d4]
 {
 	[common]
@@ -2737,36 +2768,5 @@
 	[placement]
 	{
 	  p position = -2.4872,-2.65,-2.17723,0x2dbbce58;
-	}
-}
-[t:trigger_generic,n:0x07200114]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x0720003B,1f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x0720003A,1f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x0720003C,0.5f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x0720003E,0.5f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -1.76868,-1.2,-5.97426,0xed8ca792;
 	}
 }

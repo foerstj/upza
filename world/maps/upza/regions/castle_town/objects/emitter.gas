@@ -1,3 +1,11 @@
+[t:emitter_glb_smoke_01_act,n:0x07200039]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.78423,7.03548,-9.28222,0xed8ca792;
+	}
+}
 [t:emt_sound,n:0x072005c0]
 {
 	[placement]
@@ -590,13 +598,5 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_lakeside";
-	}
-}
-[t:emitter_glb_smoke_01_act,n:0x07200039]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.78423,7.03548,-9.28222,0xed8ca792;
 	}
 }
