@@ -1,9 +1,25 @@
+[t:template,n:lamp_csl_01_unlit]
+{
+	specializes = non_interactive;
+
+	category_name = "lighting";
+	doc = "lantern_hanging unlit";
+	[aspect]
+	{
+		model = m_i_csl_lantern-01;
+	}
+	[common]
+	{
+		screen_name = "Lantern";
+	}
+}
+
 [t:template,n:lamp_glb_wall_01_unlit]
 {
 	specializes = non_interactive;
 
 	category_name = "lighting";
-	doc = "lamp_wall_mono";
+	doc = "lamp_wall_mono unlit";
 	[aspect]
 	{
 		model = m_i_glb_wall-lamp-01;
@@ -19,7 +35,7 @@
 	specializes = non_interactive;
 
 	category_name = "lighting";
-	doc = "lamp_wall_oil";
+	doc = "lamp_wall_oil unlit";
 	[aspect]
 	{
 		model = m_i_glb_lamp-oil-01;
@@ -34,7 +50,7 @@
 	specializes = non_interactive;
 
 	category_name = "lighting";
-	doc = "lamp_wall_oil_ornate";
+	doc = "lamp_wall_oil_ornate unlit";
 	[aspect]
 	{
 		model = m_i_glb_lamp-oil-02;
@@ -49,7 +65,7 @@
 	specializes = non_interactive;
 
 	category_name = "lighting";
-	doc = "lamp_floor_oil";
+	doc = "lamp_floor_oil unlit";
 	[aspect]
 	{
 		model = m_i_glb_lamp-oil-03;
