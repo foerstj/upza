@@ -1,0 +1,45 @@
+[t:template,n:upza_zombie_hiroth_townfolk] { specializes = upza_zombie_hiroth_townfolk_base; }
+[t:template,n:upza_zombie_hiroth_townfolk_base]
+{
+    specializes = upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // look from zombie_headless
+    [aspect]
+    {
+		model = m_c_edm_zo_pos_3;
+		[textures] { 0=b_c_edm_zo-04; }
+    }
+
+    // stats & loot from impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	26, 0;
+			intelligence =  5, 0;
+			dexterity =  	15, 0;
+            melee =         22, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 46000;
+		life = 1340;
+		max_life = 1340;
+		mana = 10;
+		max_mana = 10;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 260;
+		damage_min = 240;
+		reload_delay = 0;
+	}
+    [defend] { defense=440; }
+}
