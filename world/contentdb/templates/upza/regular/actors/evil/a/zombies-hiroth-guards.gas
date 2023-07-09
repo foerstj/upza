@@ -2,6 +2,11 @@
 {
     specializes = upza_base_zombie_headless;
 
+    [mind]
+	{
+	  b actor_auto_fidgets = false;
+    }
+
     // stats & loot from seck_grunt
 	[actor]
 	{
@@ -93,6 +98,11 @@
 {
     specializes = upza_base_zombie_headless;
 
+    [mind]
+	{
+	  b actor_auto_fidgets = false;
+    }
+
     // stats & loot from seck_archer
 	[actor]
 	{
@@ -183,6 +193,11 @@
 [t:template,n:upza_base_zombie_hiroth_guard_captain]
 {
     specializes = upza_base_zombie_headless;
+
+    [mind]
+	{
+	  b actor_auto_fidgets = false;
+    }
 
     // stats & loot from seck_guard_elite
 	[actor]
