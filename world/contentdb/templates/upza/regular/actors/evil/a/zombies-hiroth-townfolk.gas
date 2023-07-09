@@ -36,3 +36,48 @@
 	}
     [defend] { defense=440; }
 }
+
+[t:template,n:upza_zombie_hiroth_townfolk_dwarf] { specializes = upza_zombie_hiroth_townfolk_dwarf_base; }
+[t:template,n:upza_zombie_hiroth_townfolk_dwarf_base]
+{
+    specializes = upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-frag02-07;
+        textures:1 = b_c_pos_a1_034;  // from mp_npc_dwarf_01
+    }
+
+    // stats & loot from impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	26, 0;
+			intelligence =  5, 0;
+			dexterity =  	15, 0;
+            melee =         22, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 46000;
+		life = 1340;
+		max_life = 1340;
+		mana = 10;
+		max_mana = 10;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 260;
+		damage_min = 240;
+		reload_delay = 0;
+	}
+    [defend] { defense=440; }
+}

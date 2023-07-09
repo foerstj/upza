@@ -521,29 +521,11 @@
 	  p position = -0.42939,0.574292,0.63876,0x9eaa62f8;
 	}
 }
-[t:mp_npc_dwarf_01,n:0x07200126]
+[t:upza_zombie_hiroth_townfolk_dwarf,n:0x07200126]
 {
-	[aspect]
-	{
-	  b interest_only = true;
-	}
 	[common]
 	{
 		screen_name = "Scudly Faern";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_scudly;
-			* = conversation_scudly_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-	  b actor_auto_fidgets = false;
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
 	}
 	[placement]
 	{
