@@ -401,3 +401,22 @@
 	  p position = -1.68184,1,1.16109,0x313de0c5;
 	}
 }
+[t:skeleton_large_boss_01,n:0x07000548]
+{
+	[common]
+	{
+		screen_name = "The Reaper";
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_un_dsx_angk_guardian;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.68221e-007;
+	  p position = 0.0585375,0.5,0.997421,0xd0f84cd3;
+	}
+}
