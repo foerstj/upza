@@ -164,6 +164,14 @@
     specializes = upza_base_zombie_hiroth_shop;
 
 	common:screen_name = "Blacksmith Moik Stourn";
+	[inventory]
+	{
+		[equipment]
+		{
+			//es_shield_hand = tongs;
+			es_weapon_hand = blacksmith_hammer;
+		}
+	}
 
     // more loot: shop from original blacksmith_moik_stourn
 	[inventory]
