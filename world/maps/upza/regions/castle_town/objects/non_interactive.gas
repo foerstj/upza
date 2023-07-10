@@ -3914,6 +3914,14 @@
 	  p position = -0.635429,-0.85,-0.796807,0x4906bec4;
 	}
 }
+[t:body_cav_carcass_01,n:0x07200167]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 2.36594,0,0.86829,0x80cbaa3f;
+	}
+}
 [t:trough_grs_hay,n:0x07200169]
 {
 	[placement]
@@ -8808,7 +8816,7 @@
 	  p position = 0.259812,-0.85,-0.580482,0x1978aad2;
 	}
 }
-[t:pig_mp,n:0x0720052b]
+[t:bones_grs_animal,n:0x0720052b]
 {
 	[placement]
 	{
@@ -8816,7 +8824,7 @@
 	  p position = 1.65881,-1.19209e-007,-0.504723,0x4a94a63e;
 	}
 }
-[t:pig_mp,n:0x072005bb]
+[t:bones_grs_animal,n:0x072005bb]
 {
 	[placement]
 	{
@@ -8848,11 +8856,10 @@
 	  p position = -1.28282,-0.849999,0.17543,0xc33296c3;
 	}
 }
-[t:pig_mp,n:0x07200833]
+[t:bones_grs_animal,n:0x07200833]
 {
 	[placement]
 	{
-	  q orientation = 0,-5.96046e-008,0,1;
 	  p position = 0.862038,-0.850001,-1.35424,0xc33296c3;
 	}
 }
@@ -11065,12 +11072,8 @@
 	  p position = -1.44823,0,0.105781,0x1de67810;
 	}
 }
-[t:cow_brown_mp,n:0x07200834]
+[t:body_cav_carcass_01,n:0x07200834]
 {
-	[common]
-	{
-		screen_name = "Petunia";
-	}
 	[placement]
 	{
 	  p position = 0.633253,9.53674e-007,0.673874,0x112e021c;
@@ -11136,12 +11139,8 @@
 	  p position = -0.237709,0,1.60414,0x9e976670;
 	}
 }
-[t:cow_black_white_mp,n:0x07200835]
+[t:body_cav_carcass_01,n:0x07200835]
 {
-	[common]
-	{
-		screen_name = "Begonia";
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
