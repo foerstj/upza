@@ -387,3 +387,29 @@
 	  f min_dist = 2;
 	}
 }
+[t:emt_sound_act,n:0x06f00089]
+{
+	[placement]
+	{
+	  p position = -1.18093,1,1.43822,0xfe4d300f;
+	}
+	[sound_emitter_act]
+	{
+	  b continual_loop = true;
+		event_sound = "secret_nearby";
+	  b stop_instantly = true;
+	}
+}
+[t:emt_sound_act,n:0x06f0008a]
+{
+	[placement]
+	{
+	  p position = -1.5822,0.999999,1.04025,0xfe4d300f;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "secret_found_2";
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}

@@ -2493,6 +2493,8 @@
 			{
 				action* = send_world_message("we_req_activate",0x06F001D5,0f,"default","",0), delay(0.25);
 				action* = send_world_message("we_req_activate",0x06F001D4,0f,"default","",0);
+				action* = send_world_message("we_req_deactivate",0x06F00089,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x06F0008A,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_first_message"), doc("[*one-shot check (trigger is one-shot)*]");
 			  f delay = 0.000000;
