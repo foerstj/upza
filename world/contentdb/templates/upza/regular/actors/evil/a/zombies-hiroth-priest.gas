@@ -8,11 +8,13 @@
 		screen_name = "Utraean High Priest Kavaren";
 	}
 
-    // darker flesh tone
     [aspect]
     {
+        // darker flesh tone
         textures:0 = b_i_glb_frag-generic-02;
-        textures:1 = b_i_glb_frag-generic-02;
+        // robe
+        textures:1 = b_c_pos_a7_014;
+        model = m_c_gah_fb_pos_a7;
     }
 	[common]
 	{
@@ -28,31 +30,18 @@
 			}
 		}
 	}
-    // equipment from original actor object
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_ra_ro_m_g_c_084;
-			es_feet = bo_bo_le_light;
-		}
-        spew_equipped_kill_count = <ignore>;  // don't drop robe or seck staff
-	}
 
     // spell & behavior from seck_mage_high
    	[inventory]
 	{
-		[pcontent]
-		{
-			[all*]
-			{
-				es_weapon_hand = st_un_seck_mage;
-			}
-		}
 		selected_active_location = il_active_primary_spell;
 		[other]
 		{
 			il_active_primary_spell = spell_flame_blades;
+
+            // added drops to accompany quests
+			il_main = tenstone_glb;
+			il_main = upza_book_glb_lore_kavaren_diary;
 		}
 	}
 	[mind]
