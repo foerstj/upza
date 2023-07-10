@@ -380,27 +380,6 @@
 	  p position = -0.293754,-2,1.03841,0x0a07cfa8;
 	}
 }
-[t:wraith_terror,n:0x07000640]
-{
-	[placement]
-	{
-	  p position = 0.840054,1,1.30145,0xf70a271b;
-	}
-}
-[t:punisher,n:0x07000641]
-{
-	[placement]
-	{
-	  p position = -1.99614,1,1.15697,0xf70a271b;
-	}
-}
-[t:wraith_terror,n:0x0700063f]
-{
-	[placement]
-	{
-	  p position = -1.68184,1,1.16109,0x313de0c5;
-	}
-}
 [t:skeleton_large_boss_01,n:0x07000548]
 {
 	[common]
@@ -457,5 +436,26 @@
 	{
 	  q orientation = 0,1,0,2.68221e-007;
 	  p position = 0.0585375,0.5,0.997421,0xd0f84cd3;
+	}
+}
+[t:wraith_terror,n:0x07000640]
+{
+	[placement]
+	{
+	  p position = 0.840054,1,1.30145,0xf70a271b;
+	}
+}
+[t:punisher,n:0x07000641]
+{
+	[placement]
+	{
+	  p position = -1.99614,1,1.15697,0xf70a271b;
+	}
+}
+[t:wraith_terror,n:0x0700063f]
+{
+	[placement]
+	{
+	  p position = -1.68184,1,1.16109,0x313de0c5;
 	}
 }
