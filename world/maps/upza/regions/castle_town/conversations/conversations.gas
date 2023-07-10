@@ -51,39 +51,6 @@
 	}
 }
 
-[conversation_challe]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "Thy arrival comes at a momentous time, my child. I sense much evil in the world. The northern drakes are restless, I fear, and that means grave danger is in store for us all. The shrine will keep thee safe even in times of peril.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x0720042a;
-	}
-	[text*]
-	{
-		choice = shop;
-
-		screen_text = "Pray to Azunai with me now, child, and I will show thee things which thou wilt find helpful in thy journeys.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x0720042a;
-	}
-
-}
-[conversation_challe_red]
-{
-	[text*]
-	{
-
-		screen_text = "If I had not seen the Maljin for myself, I would not have believed such creatures existed!";
-		button_1_text = "Directions";
-       		button_1_value = d_0x0720042a;
-       		choice = shop;
-	}
-}
-
 [conversation_kavaren]
 {
     [text*]             //no ring

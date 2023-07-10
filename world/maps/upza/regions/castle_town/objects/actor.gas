@@ -142,21 +142,8 @@
 	  p position = -8.02132,-1.5,-3.43258,0xed8ca792;
 	}
 }
-[t:azunite_priestess_challe,n:0x0720042a]
+[t:upza_zombie_hiroth_shop_mage,n:0x0720042a]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_challe;
-			* = conversation_challe_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  q orientation = 0,-1,0,-5.96046e-007;
