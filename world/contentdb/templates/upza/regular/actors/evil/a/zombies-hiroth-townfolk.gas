@@ -1,4 +1,3 @@
-[t:template,n:upza_zombie_hiroth_townfolk] { specializes = upza_zombie_hiroth_townfolk_base; }
 [t:template,n:upza_zombie_hiroth_townfolk_base]
 {
     specializes = upza_base_zombie_headless;
@@ -35,6 +34,15 @@
 		reload_delay = 0;
 	}
     [defend] { defense=440; }
+}
+[t:template,n:upza_zombie_hiroth_townfolk]
+{
+    specializes = upza_zombie_hiroth_townfolk_base;
+    mind:jat_startup = jat_none;
+}
+[t:template,n:upza_zombie_hiroth_townfolk_ar]
+{
+    specializes = upza_zombie_hiroth_townfolk_base;
 }
 
 [t:template,n:upza_zombie_hiroth_townfolk_dwarf] { specializes = upza_zombie_hiroth_townfolk_dwarf_base; }
