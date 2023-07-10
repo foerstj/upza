@@ -192,6 +192,58 @@
 	  p position = -3.52373,-4.76837e-007,-1.91721,0x4d9807ef;
 	}
 }
+[t:self_service_mule,n:0x07200111]
+{
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
+	[aspect]
+	{
+	  f max_life = 66.5;
+	  f max_mana = 109;
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x07200139,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x7200111;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -1.58075,0,1.0521,0x4b8ec8fc;
+	}
+}
 [t:mule,n:0x07200168]
 {
 	[common]
@@ -462,6 +514,58 @@
 	  p position = 0.493259,-9.53674e-007,-1.52766,0xccf74180;
 	}
 }
+[t:self_service_mule,n:0x07200116]
+{
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
+	[aspect]
+	{
+	  f max_life = 66.5;
+	  f max_mana = 109;
+		model = m_c_na_pm_pos_2;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0720013D,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_selected",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = self_service_mule_join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x7200116;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.173648,0,0.984808;
+	  p position = 0.521749,-9.53674e-007,-1.55684,0xccf74180;
+	}
+}
 [t:upza_zombie_hiroth_guard_ranged,n:0x0720057f]
 {
 	[common]
@@ -520,109 +624,5 @@
 	{
 	  q orientation = 0,-0.0348999,0,0.99939;
 	  p position = 7.80494,-2.65,1.34921,0x2dbbce58;
-	}
-}
-[t:self_service_mule,n:0x07200111]
-{
-	[actor]
-	{
-		alignment = aa_neutral;
-	}
-	[aspect]
-	{
-	  f max_life = 66.5;
-	  f max_mana = 109;
-		model = m_c_na_pm_pos_2;
-	}
-	[common]
-	{
-		dev_instance_text = "SP";
-	  b is_multi_player = false;
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x07200139,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_selected",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = self_service_mule_join;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x7200111;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -1.58075,0,1.0521,0x4b8ec8fc;
-	}
-}
-[t:self_service_mule,n:0x07200116]
-{
-	[actor]
-	{
-		alignment = aa_neutral;
-	}
-	[aspect]
-	{
-	  f max_life = 66.5;
-	  f max_mana = 109;
-		model = m_c_na_pm_pos_2;
-	}
-	[common]
-	{
-		dev_instance_text = "SP";
-	  b is_multi_player = false;
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x0720013D,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_selected",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = true;
-			  b start_active = true;
-			}
-		}
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = self_service_mule_join;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\self-service-mule\job_talk_self_service_mule.skrit?namespace=self_service_mule&oid=0x7200116;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.173648,0,0.984808;
-	  p position = 0.521749,-9.53674e-007,-1.55684,0xccf74180;
 	}
 }

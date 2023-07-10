@@ -1,3 +1,18 @@
+[t:cmd_alignment_changer,n:0x07200139]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_life_state = false;
+	  b change_selection = false;
+	  i start_state = 1;
+	  x target_actor = 0x07200111;
+	}
+	[placement]
+	{
+	  p position = 1.82327,0,0.0327148,0xaa11a40e;
+	}
+}
 [t:cmd_selection_toggle,n:0x07200141]
 {
 	[cmd_selection_toggle]
@@ -133,21 +148,6 @@
 	[placement]
 	{
 	  p position = 0.546585,-12.6,0.736229,0xc6a8534d;
-	}
-}
-[t:cmd_alignment_changer,n:0x07200139]
-{
-	[cmd_dumb_guy]
-	{
-		alignment_activated = aa_good;
-	  b change_life_state = false;
-	  b change_selection = false;
-	  i start_state = 1;
-	  x target_actor = 0x07200111;
-	}
-	[placement]
-	{
-	  p position = 1.82327,0,0.0327148,0xaa11a40e;
 	}
 }
 [t:cmd_alignment_changer,n:0x0720013d]

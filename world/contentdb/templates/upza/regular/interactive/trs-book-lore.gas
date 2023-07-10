@@ -67,3 +67,20 @@
 		lore_key = lore_sanctuary_keeper_diary;
 	}
 }
+
+[t:template,n:upza_book_glb_lore_kavaren_diary]
+{
+	specializes = base_book_lore;
+
+	category_name = "lorebook";
+	doc = "Flessan diary";
+	[common]
+	{
+		screen_name = "The Diary of Utraean High Priest Kavaren";
+		auto_expiration_class = never;
+	}
+	[gui]
+	{
+		lore_key = lore_kavaren_diary;
+	}
+}
