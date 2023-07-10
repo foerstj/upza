@@ -6,11 +6,11 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF646464;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -20,11 +20,14 @@
 		frustum_height		= 60.0f;
 	}
 
-	[rain] {} // empty [rain] block for lightning manipulation
+	[rain]
+	{
+		rain_density		= 200.0f;
+	}
 
 	[music]
 	{
-		ambient_track		= "";
+		ambient_track		= "s_e_ambient_swamp";
 		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
@@ -37,11 +40,11 @@
 
 	[fog]
 	{
-		fog_near_dist		= 20.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 20.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF646464;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -51,16 +54,19 @@
 		frustum_height		= 60.0f;
 	}
 
-	[rain] {} // empty [rain] block for lightning manipulation
+	[rain]
+	{
+		rain_density		= 200.0f;
+	}
 
 	[music]
 	{
-		ambient_track		= "";
+		ambient_track		= "s_e_ambient_swamp";
 		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]  // 2	//If we want to put a rainy patch in
+[mood_setting*]  // 2	//If we want to put a stormy patch in
 {
 	mood_name				= upza_castle_town_2;
 	transition_time			= 10.0f;
@@ -68,11 +74,11 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF545464;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -84,14 +90,20 @@
 
 	[music]
 	{
-		ambient_track		= "";
+		ambient_track		= "s_e_ambient_swamp";
 		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
+
 	[rain]
 	{
-		rain_density		= 50.0f;
-		lightning			= false;
+		rain_density		= 225.0f;
+		lightning			= true;
+	}
+	[wind]
+	{
+		wind_velocity		= 0.5f;
+		wind_direction		= 0.0f;
 	}
 }
 [mood_setting*]  // 3	//For the castle_town forest
@@ -102,11 +114,11 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF1e281e;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -116,7 +128,10 @@
 		frustum_height		= 60.0f;
 	}
 
-	[rain] {} // empty [rain] block for lightning manipulation
+	[rain]
+	{
+		rain_density		= 200.0f;
+	}
 
 	[music]
 	{
@@ -129,15 +144,15 @@
 {
 	mood_name				= upza_castle_town_tavern;
 	transition_time			= 6.0f;
-	interior				= false;
+	interior				= true;
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF646464;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -170,19 +185,22 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF646464;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
-	[rain] {} // empty [rain] block for lightning manipulation
+	[rain]
+	{
+		rain_density		= 200.0f;
+	}
 
 	[music]
 	{
-		ambient_track		= "";
+		ambient_track		= "s_e_ambient_swamp";
 		standard_track		= "s_m_the_skull_theme_cicatrix_theme";
 		room_type			= rt_generic;
 	}
@@ -196,11 +214,11 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF505050;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -217,7 +235,7 @@
 
 	[music]
 	{
-		ambient_track		= "";
+		ambient_track		= "s_e_ambient_swamp";
 		standard_intro_delay	= 0.0f;
 		standard_track		= "s_m_the_mountain_theme";
 		room_type			= rt_generic;
@@ -231,11 +249,11 @@
 
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
-		fog_color			= 0xFF404040;
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
 		fog_density			= 0.5f;
 	}
 
@@ -259,7 +277,7 @@
 
 	[music]
 	{
-		ambient_track		= "";
+		ambient_track		= "s_e_ambient_swamp";
 		standard_track		= "s_m_the_mountain_theme"; 
 		room_type			= rt_generic;
 	}
