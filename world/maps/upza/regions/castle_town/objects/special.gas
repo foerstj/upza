@@ -2770,3 +2770,40 @@
 	  p position = -2.4872,-2.65,-2.17723,0x2dbbce58;
 	}
 }
+[t:trigger_generic,n:0x07200147]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_townstones","active",0);
+				action* = change_quest_state("quest_townstones","active",1);
+			  b can_self_destruct = true;
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_elddim_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_crystwind_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_fallraen_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_meren_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_lang_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_quillrabe_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_hiroth_01");
+				condition* = has_go_in_inventory("local",0x00000000,"stone_glb_grescal_01");
+				condition* = party_member_within_sphere(64.000000,"while_inside");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 14.008,-9.84858,0.639236,0xe0ca8e02;
+	}
+}

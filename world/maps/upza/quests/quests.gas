@@ -62,11 +62,11 @@
         [*]
         {
             order         = 0;
-            description   = "Gather all of the eight Townstones, representing all of the towns of the Circle, and bring them to Utraean High Priest Kavaren in Hiroth.";
+            description   = "Gather all of the eight Townstones, representing all of the towns of the Circle, and bring them to the Utraean Circle in Hiroth.";
         }
         [*]
         {
-            order         = 1;   //when you have all 8 stones and are talking to Archmage Kavaren of Hiroth
+            order         = 1;   //when you have all 8 stones and are in Hiroth
             speaker       = "Utraean High Priest Kavaren";
             description   = "Place each Townstone on its corresponding dais in the Utraean Circle on the north edge of the town.";
             address = castle_town:conversations:conversation_kavaren_ring;
@@ -75,14 +75,7 @@
         {
             order         = 2;   //when all 8 stones are placed
             speaker       = "";
-            description   = "Return to Utraean High Priest Kavaren.";
-        }
-        [*]
-        {
-            order         = 3;
-            speaker       = "Utraean High Priest Kavaren";
-            description   = "Destroy the Maljin by placing the Legion's Tenstone in the inner sanctum of the Utraean Circle dungeon. Return to High Priest Kavaren when they are defeated.";
-            address = town_center:conversations:conversation_kavaren_state2;
+            description   = "Destroy the Maljin by placing the Legion's Tenstone in the inner sanctum of the Utraean Circle dungeon.";
         }
     }
 
