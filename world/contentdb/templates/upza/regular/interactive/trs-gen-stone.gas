@@ -39,3 +39,24 @@
 		child_template_name = stone_glb_lang_01;
 	}
 }
+
+[t:template,n:gen_stone_glb_hiroth_01]
+{
+	doc = "generator_townstone_hiroth";
+	specializes = base_stone_glb;
+	[aspect]
+	{
+		model = m_i_glb_stone-hiroth;
+		is_selectable = false;
+		is_visible = false;
+		//force_no_render = true;
+	}
+	[common]
+	{
+		screen_name = "Hiroth Stone";
+	}
+	[generator_multiple_mp]
+	{
+		child_template_name = stone_glb_hiroth_01;
+	}
+}

@@ -152,8 +152,8 @@
 }
 [t:upza_zombie_hiroth_priest,n:0x07200543]
 {
-    [common]
-    {
+	[common]
+	{
 		[instance_triggers]
 		{
 			[*]
@@ -172,8 +172,8 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-        }
-    }
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
