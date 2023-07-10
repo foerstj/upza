@@ -362,31 +362,6 @@
 	  f repeat_rate = 20;
 	}
 }
-[t:emt_sound,n:0x06f0014c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.234348,1.5,-0.57357,0x36e9dca3;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_pipe_liquid";
-	  f min_dist = 2;
-	}
-}
-[t:emt_sound,n:0x06f00149]
-{
-	[placement]
-	{
-	  p position = -0.15276,-3.8147e-006,0.103844,0x907f69da;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_pipe_liquid";
-	  f min_dist = 2;
-	}
-}
 [t:emt_sound_act,n:0x06f00089]
 {
 	[placement]
@@ -411,5 +386,30 @@
 		event_sound = "secret_found_2";
 	  b repeat = false;
 	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x06f0014c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.234348,1.5,-0.57357,0x36e9dca3;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_pipe_liquid";
+	  f min_dist = 2;
+	}
+}
+[t:emt_sound,n:0x06f00149]
+{
+	[placement]
+	{
+	  p position = -0.15276,-3.8147e-006,0.103844,0x907f69da;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_pipe_liquid";
+	  f min_dist = 2;
 	}
 }
