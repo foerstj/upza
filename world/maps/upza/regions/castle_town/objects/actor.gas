@@ -225,21 +225,8 @@
 	  p position = 2.36594,0,0.86829,0x80cbaa3f;
 	}
 }
-[t:blacksmith_moik_stourn,n:0x07200429]
+[t:upza_zombie_hiroth_shop_smith,n:0x07200429]
 {
-	[conversation]
-	{
-		[conversations]
-		{
-			* = conversation_moik;
-			* = conversation_moik_red;
-			* = zconversation_directions;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk_mp.skrit;
-	}
 	[placement]
 	{
 	  p position = -4.58181,-3.0874,-2.29668,0x1fae5173;

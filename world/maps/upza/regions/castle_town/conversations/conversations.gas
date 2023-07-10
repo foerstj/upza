@@ -7,50 +7,6 @@
 }
 
 
-[conversation_moik]
-{
-	[text*]
-	{
-		order = 0;
-		choice = shop;
-
-		screen_text = "We're still in one piece, but since Hiroth Castle fell into disrepair, that's about as much as can be said these days. None of the old servants have come out of the castle in weeks, and strange beasts prowl the walls. Still, there's always plenty of business to keep me busy.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x07200429;
-	}
-	[text*]
-	{
-        order = 1;
-		choice = shop;
-
-		screen_text = "Thinking about going into the castle, are you? Well, you'll be lucky if you get past the courtyard inside the walls. In any case, I'll supply you with what you need. You'll have a better chance with my armor protecting your skin.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x07200429;
-	}
-
-    [text*]
-	{
-
-		choice = shop;
-
-		screen_text = "Fear not, my skills are not diminished from the attacks. Hiroth Castle has stood for centuries; and sooner or later, it will rise again as our great protector, and I'll still be here serving those who seek greatness.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x07200429;
-	}
-
-}
-[conversation_moik_red]
-{
-	[text*]
-	{
-
-		screen_text = "There's not much that will stop old Moik from working, but I dunno about this.";
-		button_1_text = "Directions";
-       		button_1_value = d_0x07200429;
-       		choice = shop;
-	}
-}
-
 [conversation_kavaren]
 {
     [text*]             //no ring

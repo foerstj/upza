@@ -1,12 +1,6 @@
-[t:template,n:upza_zombie_hiroth_shop_mage] { specializes = upza_zombie_hiroth_shop_mage_base; }
-[t:template,n:upza_zombie_hiroth_shop_mage_base]
+[t:template,n:upza_base_zombie_hiroth_shop]
 {
     specializes = upza_base_zombie_pudgy;
-
-	[common]
-	{
-		screen_name = "Azunite Priestess Challe Withus";
-	}
 
     // look & behavior from walking_corpse_boss_01
     [aspect]
@@ -87,6 +81,17 @@
 			}
 		}
     }
+}
+
+[t:template,n:upza_zombie_hiroth_shop_mage] { specializes = upza_zombie_hiroth_shop_mage_base; }
+[t:template,n:upza_zombie_hiroth_shop_mage_base]
+{
+    specializes = upza_base_zombie_hiroth_shop;
+
+	[common]
+	{
+		screen_name = "Azunite Priestess Challe Withus";
+	}
 
     // more loot: shop from original azunite_priestess_challe
     [actor] { drops_spellbook = true; }
@@ -150,5 +155,173 @@
             spell_fireshot = 4;
             spell_zap = 4;
 		}
+	}
+}
+
+[t:template,n:upza_zombie_hiroth_shop_smith] { specializes = upza_zombie_hiroth_shop_smith_base; }
+[t:template,n:upza_zombie_hiroth_shop_smith_base]
+{
+    specializes = upza_base_zombie_hiroth_shop;
+
+	common:screen_name = "Blacksmith Moik Stourn";
+
+    // more loot: shop from original blacksmith_moik_stourn
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/247-378;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/247-284;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/285-341;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #body/342-378;
+					max = 5;
+					min = 5;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/33-248;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #gloves/285-341;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #gloves/342-378;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #helm/33-248;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #helm/285-341;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #helm/342-378;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #boots/33-248;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #boots/285-341;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #boots/342-378;
+					max = 6;
+					min = 6;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/33-248;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #shield/285-341;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #shield/342-378;
+					max = 6;
+					min = 6;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/111-127;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/128-152;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #melee/153-169;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/111-127;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/128-152;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #ranged/153-169;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
 	}
 }
