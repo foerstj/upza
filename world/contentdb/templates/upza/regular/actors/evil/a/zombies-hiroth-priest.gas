@@ -1,0 +1,85 @@
+[t:template,n:upza_zombie_hiroth_priest] { specializes = upza_zombie_hiroth_priest_base; }
+[t:template,n:upza_zombie_hiroth_priest_base]
+{
+	specializes = upza_base_zombie_farmboy;
+
+	[common]
+	{
+		screen_name = "Utraean High Priest Kavaren";
+	}
+
+    // darker flesh tone
+    [aspect]
+    {
+        textures:0 = b_i_glb_frag-generic-02;
+        textures:1 = b_i_glb_frag-generic-02;
+    }
+    // equipment from original actor object
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_ra_ro_m_g_c_084;
+			es_feet = bo_bo_le_light;
+		}
+        spew_equipped_kill_count = <ignore>;  // don't drop robe or seck staff
+	}
+
+    // spell & behavior from seck_mage_high
+   	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				es_weapon_hand = st_un_seck_mage;
+			}
+		}
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = spell_flame_blades;
+		}
+	}
+	[mind]
+	{
+        actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= true;
+
+		melee_engage_range = 8;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+
+    // stats & loot from seck_mage_high
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  27, 0;
+			intelligence 	=  46, 0;
+			dexterity 		=  29, 0;
+            combat_magic 	=  63, 0;
+            nature_magic 	=  15, 0;
+		}
+		drops_spellbook = false;
+	}
+	[aspect]
+	{
+		experience_value = 130000;
+		life = 1480;
+		max_life = 1480;
+        mana = 3181;
+        max_mana = 3181;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 220;
+		damage_min = 180;
+	}
+	[defend] { defense=388; }
+}
