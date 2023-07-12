@@ -2,11 +2,11 @@
 {
     specializes = upza_base_zombie_headless;
 
-    [mind]
+	[mind]
 	{
-        jat_startup = jat_none;
-	  b actor_auto_fidgets = false;
-    }
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
 
     // stats & loot from seck_grunt
 	[actor]
@@ -99,11 +99,11 @@
 {
     specializes = upza_base_zombie_headless;
 
-    [mind]
+	[mind]
 	{
-        jat_startup = jat_none;
-	  b actor_auto_fidgets = false;
-    }
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
 
     // stats & loot from seck_archer
 	[actor]
@@ -196,11 +196,11 @@
 {
     specializes = upza_base_zombie_headless;
 
-    [mind]
+	[mind]
 	{
-        jat_startup = jat_none;
-	  b actor_auto_fidgets = false;
-    }
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
 
     // stats & loot from seck_guard_elite
 	[actor]

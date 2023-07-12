@@ -6,6 +6,10 @@
 	{
 		screen_name = "Townfolk";
 	}
+    [mind]
+    {
+		actor_auto_fidgets = true;
+    }
 
     // stats & loot from impaler
 	[actor]
@@ -38,9 +42,13 @@
 [t:template,n:upza_zombie_hiroth_townfolk]
 {
     specializes = upza_zombie_hiroth_townfolk_base;
-    mind:jat_startup = jat_none;
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
 }
-[t:template,n:upza_zombie_hiroth_townfolk_ar]
+[t:template,n:upza_zombie_hiroth_townfolk_reveal]
 {
     specializes = upza_zombie_hiroth_townfolk_base;
 }
