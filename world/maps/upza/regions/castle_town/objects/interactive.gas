@@ -85,6 +85,7 @@
 {
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x0720007B;
 		msg_type_opening = we_trigger_activate;
 	}
@@ -191,6 +192,7 @@
 {
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x0720008E;
 		msg_type_opening = we_trigger_activate;
 	}
@@ -256,6 +258,10 @@
 }
 [t:door_glb_woodfence_right_01,n:0x07200166]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -266,6 +272,7 @@
 {
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x07200084;
 		msg_type_opening = we_trigger_activate;
 	}
@@ -449,6 +456,10 @@
 }
 [t:door_glb_woodfence_left_01,n:0x072000ea]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,2.23517e-008,0,1;
@@ -541,6 +552,10 @@
 }
 [t:door_grs_peasant_right,n:0x072000c5]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  p position = 5.89876,-2.65,-0.895603,0x2dbbce58;
@@ -548,6 +563,10 @@
 }
 [t:door_grs_peasant_right,n:0x072000cf]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -556,6 +575,10 @@
 }
 [t:door_grs_peasant_left,n:0x072001ca]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  p position = -3.59325,-2.65,-0.88496,0x2dbbce58;

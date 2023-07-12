@@ -6,6 +6,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x0700004A;
 		msg_type_opening = we_trigger_activate;
 	  x second_door = 0x0700049A;
@@ -25,6 +26,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x0700004A;
 		msg_type_opening = we_trigger_activate;
 	  x second_door = 0x07000499;
@@ -84,6 +86,7 @@
 	}
 	[door_basic]
 	{
+	  b initially_open = true;
 	  x msg_scid_opening = 0x0700004D;
 		msg_type_opening = we_trigger_activate;
 	}
