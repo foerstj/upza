@@ -121,14 +121,14 @@
 	}
 	[t:start_group,n:dev]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 1698464;
 		screen_name = "";
 		[start_position]
 		{
-		  i id = 1;
+		  i id = 2;
 			position = -2.203398,0.000000,-1.629330,0x9EA75292;
 			[camera]
 			{
@@ -136,6 +136,18 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = -2.203398,0.000000,-1.629330,0x9EA75292;
+			}
+		}
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.849245,-1.100000,-2.256828,0xBDD40056;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.849245,-1.100000,-2.256828,0xBDD40056;
 			}
 		}
 		[world_levels]
@@ -735,7 +747,7 @@
 	}
 	[t:start_group,n:hiroth]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Hiroth, Castle Town";
 	  b dev_only = false;
 	  i id = 8;

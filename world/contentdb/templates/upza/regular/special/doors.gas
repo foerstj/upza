@@ -1,0 +1,90 @@
+[t:template,n:door_glb_keep_01_base]  // = door_glb_keep_01
+{
+	specializes		= base_door;
+	doc				= "keep_tall_ornate_left";
+    category_name   = "doors";
+
+    aspect:model		=	m_i_glb_door-keep-01;
+    aspect:textures:0	=   b_i_glb_door-keep-01;
+    aspect:material     =   wood_large;
+	[body]
+	{
+		[chore_dictionary]
+		{
+        	chore_prefix 		= a_i_glb;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-keep-01-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-keep-01-close;
+			}
+		}
+	}
+	[door_basic]	{}
+}
+[t:template,n:upza_door_glb_keep_01_use_toggle]
+{
+    specializes = door_glb_keep_01_base;
+
+	[messages]
+	{
+		[locked]
+		{
+			screen_text = "This door seems to be magically sealed.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+
+[t:template,n:door_glb_keep_right_01_base]  // = door_glb_keep_right_01
+{
+	specializes		= base_door;
+	doc				= "keep_tall_ornate_rt";
+    category_name   = "doors";
+
+    aspect:model		=	m_i_glb_door-keep-01-R;
+    aspect:textures:0	=   b_i_glb_door-keep-01;
+	[body]
+	{
+		[chore_dictionary]
+		{
+        	chore_prefix 		= a_i_glb;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-keep-01-R-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-keep-01-R-close;
+			}
+		}
+	}
+	[door_basic]	{}
+}
+[t:template,n:upza_door_glb_keep_right_01_use_toggle]
+{
+    specializes = door_glb_keep_right_01_base;
+
+	[messages]
+	{
+		[locked]
+		{
+			screen_text = "This door seems to be magically sealed.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
