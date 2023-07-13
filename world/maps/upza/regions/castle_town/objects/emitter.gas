@@ -267,17 +267,19 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x0720059a]
+[t:emt_sound,n:0x072005c6]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.34521,0.115577,-0.0693493,0x0427584e;
+	  p position = 1.7023,-0.260273,0.146774,0xb2124e79;
 	}
 	[sound_emitter]
 	{
-	  b continual_loop = true;
-		event_sound = "env_waterfall";
+		event_sound = "amb_birds2";
+	  f max_repeat_rate = 60;
+	  f repeat_rate = 20;
+	  i start_hour = 5;
+	  i stop_hour = 20;
 	}
 }
 [t:emt_sound,n:0x072005bf]
@@ -296,19 +298,53 @@
 	  i stop_hour = 4;
 	}
 }
-[t:emt_sound,n:0x072005c6]
+[t:emt_sound,n:0x0720059a]
 {
 	[placement]
 	{
-	  p position = 1.7023,-0.260273,0.146774,0xb2124e79;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.34521,0.115577,-0.0693493,0x0427584e;
 	}
 	[sound_emitter]
 	{
-		event_sound = "amb_birds2";
-	  f max_repeat_rate = 60;
-	  f repeat_rate = 20;
-	  i start_hour = 5;
-	  i stop_hour = 20;
+	  b continual_loop = true;
+		event_sound = "env_waterfall";
+	}
+}
+[t:emt_sound,n:0x07200595]
+{
+	[placement]
+	{
+	  p position = -5.37609,1.45292,1.52911,0xff215bd2;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
+	}
+}
+[t:emt_sound,n:0x07200594]
+{
+	[placement]
+	{
+	  p position = -1.17668,-0.975208,-13.8457,0x2062ee19;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
+	}
+}
+[t:emt_sound,n:0x07200597]
+{
+	[placement]
+	{
+	  p position = -1.13436,-0.975208,0.24971,0x2062ee19;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
 	}
 }
 [t:emt_sound,n:0x072005bd]
@@ -390,54 +426,6 @@
 		event_sound = "env_brook";
 	}
 }
-[t:emt_sound,n:0x072005b6]
-{
-	[placement]
-	{
-	  p position = -3.01958,0.546264,-3.34223,0x4b455b3e;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_lakeside";
-	}
-}
-[t:emt_sound,n:0x07200595]
-{
-	[placement]
-	{
-	  p position = -5.37609,1.45292,1.52911,0xff215bd2;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
-[t:emt_sound,n:0x07200594]
-{
-	[placement]
-	{
-	  p position = -1.17668,-0.975208,-13.8457,0x2062ee19;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
-[t:emt_sound,n:0x07200597]
-{
-	[placement]
-	{
-	  p position = -1.13436,-0.975208,0.24971,0x2062ee19;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
 [t:emt_sound,n:0x07200593]
 {
 	[placement]
@@ -472,6 +460,18 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_brook";
+	}
+}
+[t:emt_sound,n:0x072005b6]
+{
+	[placement]
+	{
+	  p position = -3.01958,0.546264,-3.34223,0x4b455b3e;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_lakeside";
 	}
 }
 [t:emt_sound,n:0x072005b3]

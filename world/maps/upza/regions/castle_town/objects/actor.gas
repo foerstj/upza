@@ -286,18 +286,6 @@
 	  p position = -2.82953,-9.53674e-007,-0.947868,0x8ddbf4df;
 	}
 }
-[t:upza_zombie_hiroth_townfolk_reveal,n:0x07200565]
-{
-	[common]
-	{
-		screen_name = "Lillian Zane";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.258819,0,0.965926;
-	  p position = -1.54308,3.8147e-006,0.381752,0x9e976670;
-	}
-}
 [t:mule,n:0x072000f2]
 {
 	[common]
@@ -374,6 +362,18 @@
 	{
 	  q orientation = 0,0.19081,0,0.981627;
 	  p position = -3.3244,-8.34465e-007,-2.56178,0x7d0ecc5b;
+	}
+}
+[t:upza_zombie_hiroth_townfolk_reveal,n:0x07200565]
+{
+	[common]
+	{
+		screen_name = "Lillian Zane";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.258819,0,0.965926;
+	  p position = -1.54308,3.8147e-006,0.381752,0x9e976670;
 	}
 }
 [t:upza_zombie_hiroth_guard_ranged,n:0x07200584]

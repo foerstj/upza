@@ -1746,6 +1746,126 @@
 	  p position = -0.0329285,-9.4,-8.91816,0x71f7841e;
 	}
 }
+[t:trigger_change_mood_box,n:0x072006d9]
+{
+	[common]
+	{
+		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("hiroth");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -2.40125,-0.150048,1.37488,0xffb78391;
+	}
+}
+[t:trigger_change_mood_box,n:0x072006d7]
+{
+	[common]
+	{
+		dev_instance_text = "PLAYER LOCATION";
+	  b is_single_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("hiroth_ravine");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.200000,20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 0.861923,0,2.31772,0x7d0ecc5b;
+	}
+}
+[t:trigger_change_mood_box,n:0x07200464]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_castle_town_1");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,1.500000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.49012e-008;
+	  p position = -3.91737,7.62939e-006,-0.334488,0xf852e4e9;
+	}
+}
+[t:trigger_change_mood_box,n:0x07200468]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("upza_castle_town_3");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.000000,15.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,-0.130526;
+	  p position = 0.411227,1,3.64433,0x02e46456;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x07200428]
 {
 	[common]
@@ -1938,68 +2058,6 @@
 	  p position = 0.807068,-0.461716,-0.968348,0xfef5f10b;
 	}
 }
-[t:trigger_change_mood_box,n:0x072006d7]
-{
-	[common]
-	{
-		dev_instance_text = "PLAYER LOCATION";
-	  b is_single_player = false;
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = set_player_world_location("hiroth_ravine");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.500000,1.200000,20.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,0.382683;
-	  p position = 0.861923,0,2.31772,0x7d0ecc5b;
-	}
-}
-[t:trigger_change_mood_box,n:0x072006d9]
-{
-	[common]
-	{
-		dev_instance_text = "PLAYER LOCATION";
-	  b is_single_player = false;
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = set_player_world_location("hiroth");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.500000,2.000000,20.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = false;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -2.40125,-0.150048,1.37488,0xffb78391;
-	}
-}
 [t:trigger_change_mood_box,n:0x07200466]
 {
 	[common]
@@ -2027,64 +2085,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -2.81002,-0.990586,-1.98117,0x088e18d2;
-	}
-}
-[t:trigger_change_mood_box,n:0x07200468]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_castle_town_3");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.500000,2.000000,15.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.991445,0,-0.130526;
-	  p position = 0.411227,1,3.64433,0x02e46456;
-	}
-}
-[t:trigger_change_mood_box,n:0x07200464]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("upza_castle_town_1");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.500000,1.500000,4.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,1.49012e-008;
-	  p position = -3.91737,7.62939e-006,-0.334488,0xf852e4e9;
 	}
 }
 [t:trigger_change_mood_box,n:0x07200461]

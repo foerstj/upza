@@ -385,18 +385,14 @@
 }
 [t:door_glb_woodfence_left_01,n:0x072000eb]
 {
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,1.11759e-007,0,1;
 	  p position = 0.00971889,-0.950012,0.997299,0x82211cb4;
-	}
-}
-[t:sign_grs_hiroth,n:0x0720052e]
-{
-	[placement]
-	{
-	  q orientation = 0.629231,0.0618038,0.446363,-0.633252;
-	  p position = -3.67983,0.565687,-1.36192,0xeb327e8b;
 	}
 }
 [t:sign_glb_magic_left,n:0x07200560]
@@ -409,6 +405,14 @@
 	{
 	  q orientation = 0,-0.382684,0,0.92388;
 	  p position = 1.35931,0,-1.93239,0x444aa482;
+	}
+}
+[t:sign_grs_hiroth,n:0x0720052e]
+{
+	[placement]
+	{
+	  q orientation = 0.629231,0.0618038,0.446363,-0.633252;
+	  p position = -3.67983,0.565687,-1.36192,0xeb327e8b;
 	}
 }
 [t:door_grs_peasant_right,n:0x07200054]
