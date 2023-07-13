@@ -121,7 +121,7 @@
 	}
 	[t:start_group,n:dev]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 1698464;
@@ -747,7 +747,7 @@
 	}
 	[t:start_group,n:hiroth]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Hiroth, Castle Town";
 	  b dev_only = false;
 	  i id = 8;
