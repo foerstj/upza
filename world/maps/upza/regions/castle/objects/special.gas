@@ -1718,6 +1718,36 @@
 	  p position = -1.83065,0,-0.937103,0xcdf3408c;
 	}
 }
+[t:trigger_generic,n:0x07000764]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("enter_castle","active",0);
+				action* = change_quest_state("enter_castle","active",1);
+				action* = change_quest_state("enter_castle","completed",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.00105953,-0.0500011,-4.06861,0xd6ec9161;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x0700052b]
 {
 	[common]
@@ -2448,6 +2478,34 @@
 	[placement]
 	{
 	  p position = -0.00731993,-6,5.05151,0x96fa083c;
+	}
+}
+[t:trigger_generic,n:0x07000763]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("enter_castle","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.59737,-6,-4.18489,0x96fa083c;
 	}
 }
 [t:trigger_generic,n:0x070007e6]
@@ -4344,63 +4402,5 @@
 	{
 	  q orientation = 0,1,0,5.96047e-008;
 	  p position = 1.64068,0,3.67781,0xe6aa4d62;
-	}
-}
-[t:trigger_generic,n:0x07000763]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("enter_castle","active",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 1.59737,-6,-4.18489,0x96fa083c;
-	}
-}
-[t:trigger_generic,n:0x07000764]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("enter_castle","active",0);
-				action* = change_quest_state("enter_castle","active",1);
-				action* = change_quest_state("enter_castle","completed",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.00105953,-0.0500011,-4.06861,0xd6ec9161;
 	}
 }
