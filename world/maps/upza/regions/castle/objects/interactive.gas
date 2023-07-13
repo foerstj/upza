@@ -3180,6 +3180,26 @@
 	  p position = 0.0357662,-2,-0.420274,0x6bc9b2e4;
 	}
 }
+[t:candlestand_csl_02_lightable,n:0x07000765]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x85118207;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x85118207;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,3.04461e-007;
+	  p position = 0.993759,-3.5,0.176782,0xcc270db3;
+	}
+}
 [t:candlestand_csl_02_lightable,n:0x070000bf]
 {
 	[aspect]
@@ -3647,6 +3667,26 @@
 	  p position = 0.0463695,1.90735e-006,-1.98746,0x6ab77dec;
 	}
 }
+[t:candlestand_csl_02_lightable,n:0x07000766]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x8E983A83;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x8E983A83;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.08616e-006;
+	  p position = 0.998642,-3.5,0.0158615,0xaa73d5f8;
+	}
+}
 [t:candlestand_csl_02_lightable,n:0x070000c0]
 {
 	[aspect]
@@ -3656,6 +3696,26 @@
 	[placement]
 	{
 	  p position = 0.00399773,-9.53674e-007,-0.0742235,0x51dd23ce;
+	}
+}
+[t:candlestand_csl_02_lightable,n:0x07000767]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[light_enable]
+	{
+	  x siege_light = 0x0D1700EB;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x0D1700EB;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0332203,-3.5,0.975647,0x09843e7b;
 	}
 }
 [t:candlestand_csl_02_lightable,n:0x07000091]
