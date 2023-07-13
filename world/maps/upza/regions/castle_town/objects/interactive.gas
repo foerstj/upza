@@ -256,6 +256,18 @@
 	  p position = 1.00597,-0.31467,-1.6467,0x00ed3f49;
 	}
 }
+[t:sign_glb_magic_right,n:0x07200539]
+{
+	[common]
+	{
+		screen_name = "Utraean Society & Magicks";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.0419426,-0.85,-1.32882,0x2bd7f3f5;
+	}
+}
 [t:door_glb_woodfence_right_01,n:0x07200166]
 {
 	[door_basic]
@@ -266,6 +278,137 @@
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = -0.016716,-0.950001,1.97084,0x79eeec70;
+	}
+}
+[t:lever_cav_stone_01,n:0x0720081d]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x07200823;
+	  x on_scid = 0x07200823;
+	}
+	[placement]
+	{
+	  q orientation = -0.707107,0,0,0.707107;
+	  p position = 1.35804,-4.76837e-007,2.23105,0xa2859afb;
+		use_point_scids = 0x07200822,0x07200821;
+	}
+}
+[t:lever_cav_stone_01,n:0x0720081e]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x07200823;
+	  x on_scid = 0x07200823;
+	}
+	[placement]
+	{
+	  q orientation = -0.5,-0.5,-0.5,0.5;
+	  p position = 0.0648155,-0.600001,3.29567,0x36acff34;
+		use_point_scids = 0x07200821,0x0720081f,0x07200820;
+	}
+}
+[t:lever_glb_06_rescaled,n:0x0720013e]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+		off_message_2 = we_req_activate;
+	  x off_scid = 0x07200573;
+	  x off_scid_2 = 0x0720022C;
+	  x on_scid = 0x07200573;
+	  x on_scid_2 = 0x0720022C;
+	  f reset_time = 10;
+	  f reset_time_2 = 10;
+	}
+	[placement]
+	{
+	  q orientation = -0.694115,0.134922,0.134922,0.694115;
+	  p position = -1.39555,-7.49399,-3.36955,0xe0ca8e02;
+		use_point_scids = 0x07200140;
+	}
+}
+[t:lever_glb_06_rescaled,n:0x0720006b]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+		off_message_2 = we_req_activate;
+	  x off_scid = 0x07200573;
+	  x off_scid_2 = 0x0720022C;
+	  x on_scid = 0x07200573;
+	  x on_scid_2 = 0x0720022C;
+	}
+	[placement]
+	{
+	  q orientation = -0.660141,0.253404,0.253404,0.660141;
+	  p position = -0.0713196,-10.5001,0.0854416,0xc6a8534d;
+		use_point_scids = 0x07200066;
+	}
+}
+[t:door_glb_woodfence_left_01,n:0x07200138]
+{
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
+	[placement]
+	{
+	  p position = 0.00147223,-0.949994,1.00325,0x45605f1c;
+	}
+}
+[t:door_glb_woodfence_right_01,n:0x07200137]
+{
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1.11759e-007,0,1;
+	  p position = -0.0101471,-0.950001,1.03168,0x3f500476;
+	}
+}
+[t:door_glb_woodfence_left_01,n:0x072000ea]
+{
+	[door_basic]
+	{
+	  b initially_open = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,2.23517e-008,0,1;
+	  p position = -0.00428009,-0.949994,1.02296,0x4ede20e2;
+	}
+}
+[t:door_glb_woodfence_left_01,n:0x072000eb]
+{
+	[placement]
+	{
+	  q orientation = 0,1.11759e-007,0,1;
+	  p position = 0.00971889,-0.950012,0.997299,0x82211cb4;
+	}
+}
+[t:sign_grs_hiroth,n:0x0720052e]
+{
+	[placement]
+	{
+	  q orientation = 0.629231,0.0618038,0.446363,-0.633252;
+	  p position = -3.67983,0.565687,-1.36192,0xeb327e8b;
+	}
+}
+[t:sign_glb_magic_left,n:0x07200560]
+{
+	[common]
+	{
+		screen_name = "Utraean Society & Magicks";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382684,0,0.92388;
+	  p position = 1.35931,0,-1.93239,0x444aa482;
 	}
 }
 [t:door_grs_peasant_right,n:0x07200054]
@@ -338,18 +481,6 @@
 	  p position = -2.35802,-3.09661,-1.8918,0x1fae5173;
 	}
 }
-[t:sign_glb_magic_right,n:0x07200539]
-{
-	[common]
-	{
-		screen_name = "Utraean Society & Magicks";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.0419426,-0.85,-1.32882,0x2bd7f3f5;
-	}
-}
 [t:door_grs_peasant_right,n:0x07200070]
 {
 	[door_basic]
@@ -384,129 +515,6 @@
 	{
 	  q orientation = -0.0184469,-0.494631,0.0265085,0.868503;
 	  p position = 1.30773,-3.65,-3.31518,0x3e9b31fa;
-	}
-}
-[t:lever_cav_stone_01,n:0x0720081d]
-{
-	[on_off_lever]
-	{
-		off_message = we_req_activate;
-	  x off_scid = 0x07200823;
-	  x on_scid = 0x07200823;
-	}
-	[placement]
-	{
-	  q orientation = -0.707107,0,0,0.707107;
-	  p position = 1.35804,-4.76837e-007,2.23105,0xa2859afb;
-		use_point_scids = 0x07200822,0x07200821;
-	}
-}
-[t:lever_glb_06_rescaled,n:0x0720013e]
-{
-	[on_off_lever]
-	{
-		off_message = we_req_activate;
-		off_message_2 = we_req_activate;
-	  x off_scid = 0x07200573;
-	  x off_scid_2 = 0x0720022C;
-	  x on_scid = 0x07200573;
-	  x on_scid_2 = 0x0720022C;
-	  f reset_time = 10;
-	  f reset_time_2 = 10;
-	}
-	[placement]
-	{
-	  q orientation = -0.694115,0.134922,0.134922,0.694115;
-	  p position = -1.39555,-7.49399,-3.36955,0xe0ca8e02;
-		use_point_scids = 0x07200140;
-	}
-}
-[t:lever_glb_06_rescaled,n:0x0720006b]
-{
-	[on_off_lever]
-	{
-		off_message = we_req_activate;
-		off_message_2 = we_req_activate;
-	  x off_scid = 0x07200573;
-	  x off_scid_2 = 0x0720022C;
-	  x on_scid = 0x07200573;
-	  x on_scid_2 = 0x0720022C;
-	}
-	[placement]
-	{
-	  q orientation = -0.660141,0.253404,0.253404,0.660141;
-	  p position = -0.0713196,-10.5001,0.0854416,0xc6a8534d;
-		use_point_scids = 0x07200066;
-	}
-}
-[t:door_glb_woodfence_left_01,n:0x07200138]
-{
-	[placement]
-	{
-	  p position = 0.00147223,-0.949994,1.00325,0x45605f1c;
-	}
-}
-[t:door_glb_woodfence_right_01,n:0x07200137]
-{
-	[placement]
-	{
-	  q orientation = 0,1.11759e-007,0,1;
-	  p position = -0.0101471,-0.950001,1.03168,0x3f500476;
-	}
-}
-[t:door_glb_woodfence_left_01,n:0x072000ea]
-{
-	[door_basic]
-	{
-	  b initially_open = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,2.23517e-008,0,1;
-	  p position = -0.00428009,-0.949994,1.02296,0x4ede20e2;
-	}
-}
-[t:door_glb_woodfence_left_01,n:0x072000eb]
-{
-	[placement]
-	{
-	  q orientation = 0,1.11759e-007,0,1;
-	  p position = 0.00971889,-0.950012,0.997299,0x82211cb4;
-	}
-}
-[t:sign_grs_hiroth,n:0x0720052e]
-{
-	[placement]
-	{
-	  q orientation = 0.629231,0.0618038,0.446363,-0.633252;
-	  p position = -3.67983,0.565687,-1.36192,0xeb327e8b;
-	}
-}
-[t:sign_glb_magic_left,n:0x07200560]
-{
-	[common]
-	{
-		screen_name = "Utraean Society & Magicks";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382684,0,0.92388;
-	  p position = 1.35931,0,-1.93239,0x444aa482;
-	}
-}
-[t:lever_cav_stone_01,n:0x0720081e]
-{
-	[on_off_lever]
-	{
-		off_message = we_req_activate;
-	  x off_scid = 0x07200823;
-	  x on_scid = 0x07200823;
-	}
-	[placement]
-	{
-	  q orientation = -0.5,-0.5,-0.5,0.5;
-	  p position = 0.0648155,-0.600001,3.29567,0x36acff34;
-		use_point_scids = 0x07200821,0x0720081f,0x07200820;
 	}
 }
 [t:statue_cav_spin_02_rescaled,n:0x0720081a]
