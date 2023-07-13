@@ -580,4 +580,21 @@
             description = "Clear Dornek's Quarry to find a way to Lang.";
         }
     }
+
+    [enter_castle]
+    {
+        chapter = misc;
+        screen_name = "Enter Hiroth Castle";
+		victory_sample	= s_e_level_up_quest;
+        [*]
+        {
+            order = 0;
+            description = "Enter Hiroth Castle via its mausoleum - find the old criminal's exit to the Mesa Desert.";
+        }
+        [*]
+        {
+            order = 1;
+            description = "Enter Hiroth Castle via its mausoleum.";
+        }
+    }
 }
