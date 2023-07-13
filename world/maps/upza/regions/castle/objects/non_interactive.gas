@@ -34,6 +34,38 @@
 	  p position = -2.44576,0,-2.69994,0x2ced89e7;
 	}
 }
+[t:gpg_bush_glb_dead_03,n:0x07000555]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18415;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.634557,0,0.772876;
+	  p position = -2.63441,0,-2.48162,0x2ced89e7;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x0700056f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.895646;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.082048,0,0.996628;
+	  p position = -3.97543,0,0.455797,0xf0a9241c;
+	}
+}
 [t:flowers_grs_08,n:0x07000519]
 {
 	[aspect]
@@ -68,6 +100,22 @@
 	{
 	  q orientation = 0,0.310195,0,-0.950673;
 	  p position = 2.40515,0,-0.398037,0x3f168d8f;
+	}
+}
+[t:fern_grs_02,n:0x070005c6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06426;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.932171,0,0.362018;
+	  p position = 1.25835,0,0.200663,0x3f168d8f;
 	}
 }
 [t:flowers_grs_08,n:0x0700051c]
@@ -106,6 +154,70 @@
 	  p position = -2.3463,0,3.04066,0x684f96e4;
 	}
 }
+[t:fern_grs_02,n:0x070005b6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.909119;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.670323,0,-0.74207;
+	  p position = 0.397056,0,1.06303,0x684f96e4;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x07000542]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17509;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832925,0,0.553386;
+	  p position = -2.41275,0,1.62893,0x9dbdd683;
+	}
+}
+[t:grass_swp_01,n:0x0700057b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05267;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.865126,0,0.501554;
+	  p position = -3.56645,0,-0.0493704,0x1cc4d17c;
+	}
+}
+[t:gpg_tree_glb_pine_dead_01,n:0x07000002]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19514;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999483,0,0.032167;
+	  p position = 2.78464,0,2.43072,0x128358aa;
+	}
+}
 [t:flowers_grs_08,n:0x0700051f]
 {
 	[aspect]
@@ -140,6 +252,38 @@
 	{
 	  q orientation = 0,0.860914,0,0.508751;
 	  p position = 1.75637,0,-1.61317,0x128358aa;
+	}
+}
+[t:fern_grs_02,n:0x070005bd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.83402;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.364114,0,0.931355;
+	  p position = -2.51473,0,-0.96865,0x128358aa;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005db]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04104;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.268383,0,-0.963312;
+	  p position = -1.29018,0,-2.02455,0x128358aa;
 	}
 }
 [t:gpg_bush_glb_rhod_dead_01,n:0x07000488]
@@ -902,6 +1046,54 @@
 	  p position = -1.83271,0,-0.763783,0x9688859a;
 	}
 }
+[t:gpg_tree_glb_pine_dead_03,n:0x07000016]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17842;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.280969,0,0.959717;
+	  p position = 0.933514,-0.232535,1.23619,0xb13ef32a;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x07000019]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.21901;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.777009,0,0.629489;
+	  p position = -2.63687,-1,-3.55959,0xb13ef32a;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x070000d3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.25608;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.778837,0,0.627227;
+	  p position = 0.872867,0,-3.88876,0xcf031780;
+	}
+}
 [t:gpg_bush_glb_rhod_dead_01,n:0x0700048d]
 {
 	[aspect]
@@ -912,6 +1104,70 @@
 	{
 	  q orientation = 0,0.882869,0,-0.469619;
 	  p position = 3.19267,0,-2.07768,0xcf031780;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000560]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.992067;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.969861,0,0.24366;
+	  p position = -1.49106,-0.958862,-3.5372,0x1407fc38;
+	}
+}
+[t:fern_grs_03,n:0x070005ae]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.812446;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.343786,0,0.939048;
+	  p position = -1.8171,-0.876227,-2.57385,0x1407fc38;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.957408;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.49197,0,0.870612;
+	  p position = -1.14405,-0.750084,-1.07132,0x1407fc38;
+	}
+}
+[t:grass_swp_02,n:0x07000599]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18491;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.843113,0,-0.537737;
+	  p position = -3.99951,-1,-3.87865,0xf184c0d5;
 	}
 }
 [t:flowers_grs_08,n:0x070004ff]
@@ -936,6 +1192,38 @@
 	{
 	  q orientation = 0,0.648895,0,-0.760878;
 	  p position = 1.38449,0,-0.269458,0xf9409980;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x07000296]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15799;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.144322,0,0.989531;
+	  p position = 0.600839,0,-1.4296,0x70c24b7b;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000630]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.881551;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.751106,0,0.660181;
+	  p position = 1.57974,0,1.48086,0x70c24b7b;
 	}
 }
 [t:flowers_grs_08,n:0x070004f1]
@@ -1010,6 +1298,22 @@
 	  p position = 0.480971,0,0.827593,0x459aa796;
 	}
 }
+[t:mushrooms_cav_02,n:0x070005da]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03431;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999959,0,0.009065;
+	  p position = -2.78562,0,0.581144,0x459aa796;
+	}
+}
 [t:flowers_grs_08,n:0x07000502]
 {
 	[aspect]
@@ -1082,6 +1386,38 @@
 	  p position = -0.836145,0,1.78795,0xa3aff8ed;
 	}
 }
+[t:grass_swp_02,n:0x0700059f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.880145;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996832,0,-0.079539;
+	  p position = -1.88578,0,-1.47703,0xa3aff8ed;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x0700002d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03635;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.496051,0,0.868293;
+	  p position = -3.03367,0,1.5613,0x8fd9f351;
+	}
+}
 [t:flowers_grs_08,n:0x070004e6]
 {
 	[aspect]
@@ -1128,6 +1464,54 @@
 	{
 	  q orientation = 0,0.258255,0,0.966077;
 	  p position = -1.98789,0,-3.9237,0x8fd9f351;
+	}
+}
+[t:fern_grs_03,n:0x070005ad]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.24675;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.035594,0,0.999366;
+	  p position = -1.34433,0,1.75638,0x8fd9f351;
+	}
+}
+[t:fern_grs_02,n:0x070005b4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22851;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.419294,0,0.907851;
+	  p position = -1.80003,0,-0.160519,0x8fd9f351;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x0700008f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.974877;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.872206,0,0.489139;
+	  p position = 1.31779,0,0.472733,0x48acbfec;
 	}
 }
 [t:flowers_grs_08,n:0x070004e8]
@@ -1200,6 +1584,22 @@
 	{
 	  q orientation = 0,0.985119,0,0.171871;
 	  p position = 1.33308,0,-3.7576,0x48acbfec;
+	}
+}
+[t:grass_swp_02,n:0x07000591]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.13015;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.766397,0,-0.642367;
+	  p position = -2.6379,0,-3.10185,0x6ecf52fe;
 	}
 }
 [t:bush_swp_07,n:0x07000497]
@@ -1284,6 +1684,22 @@
 	{
 	  q orientation = 0,0.778349,0,0.627832;
 	  p position = -1.30733,0,-0.919676,0xf27dac06;
+	}
+}
+[t:grass_swp_02,n:0x07000590]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.24615;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.976101,0,0.217317;
+	  p position = -2.79552,0,-0.00750017,0xf27dac06;
 	}
 }
 [t:bush_grs_rhod_01,n:0x07000467]
@@ -1394,6 +1810,54 @@
 	  p position = -16.1478,-12,-20.3759,0x70e5fe5f;
 	}
 }
+[t:fern_grs_02,n:0x070005c5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17835;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.946517,0,-0.322653;
+	  p position = 0.425536,-6,-1.32013,0x4aecd054;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x0700056c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.988241;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.430541,0,-0.902571;
+	  p position = -1.03855,-12,-5.2092,0x25b6fdec;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x07000029]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.894938;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.73382,0,-0.679344;
+	  p position = -6.5239,-3.73835,-3.65542,0x1bf1fc57;
+	}
+}
 [t:bush_grs_rhod_01,n:0x0700045e]
 {
 	[aspect]
@@ -1404,6 +1868,22 @@
 	{
 	  q orientation = 0,0.725208,0,0.68853;
 	  p position = -6.16384,-3.79001,-3.68743,0x1bf1fc57;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x07000021]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.945139;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.648534,0,0.761186;
+	  p position = 1.02096,0,-3.99574,0x2de225f8;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000175]
@@ -1430,6 +1910,54 @@
 	  p position = -0.429722,0,-3.11859,0x2de225f8;
 	}
 }
+[t:gpg_tree_glb_pine_dead_05,n:0x07000026]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.908364;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.331616,0,-0.943414;
+	  p position = 2.43155,0,-1.52109,0x25117fc4;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x07000059]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.859667;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.378215,0,-0.925718;
+	  p position = 1.30322,0,-0.0485207,0x25117fc4;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x07000107]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.804318;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.099255,0,0.995062;
+	  p position = -0.227367,0,3.64712,0x25117fc4;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000174]
 {
 	[aspect]
@@ -1452,6 +1980,38 @@
 	{
 	  q orientation = 0,0.103058,0,-0.994675;
 	  p position = 3.939,0,0.913338,0x25117fc4;
+	}
+}
+[t:grass_swp_01,n:0x0700057d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09277;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.480274,0,0.877119;
+	  p position = 0.0401593,0,0.561464,0x25117fc4;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000574]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.933924;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.583459,0,-0.812143;
+	  p position = -1.44091,5.91506,0.352001,0xf193aaf2;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000178]
@@ -1502,6 +2062,54 @@
 	  p position = -1.13139,0.176783,0.353566,0xa13d87c5;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_03,n:0x0700056e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.879751;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.032117,0,-0.999484;
+	  p position = 0.893996,0.712841,2.33639,0xa13d87c5;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000576]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00097;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.997725,0,0.067411;
+	  p position = -0.871979,1,3.97634,0xa13d87c5;
+	}
+}
+[t:grass_swp_01,n:0x0700058a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.88294;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.187316,0,0.9823;
+	  p position = -0.372111,0.627783,2.32131,0xa13d87c5;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700017a]
 {
 	[aspect]
@@ -1512,6 +2120,38 @@
 	{
 	  q orientation = 0,0.353871,0,-0.935294;
 	  p position = 2.19305,0,0.459853,0x60d2c982;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x07000027]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07033;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.094868,0,-0.99549;
+	  p position = 1.68206,0.989123,3.38035,0x2c3783e9;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x07000033]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17687;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.771812,0,-0.635851;
+	  p position = -0.380612,-0.929756,-1.51119,0x2db44351;
 	}
 }
 [t:tree_grs_poplar_01,n:0x0700018b]
@@ -1536,6 +2176,38 @@
 	{
 	  q orientation = 0,0.533129,0,0.846034;
 	  p position = 2.01451,0.113886,0.227772,0x2db44351;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000632]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04052;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.463025,0,0.886345;
+	  p position = -1.64107,-0.550288,-1.01084,0x2db44351;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x07000545]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.930958;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.649672,0,0.760215;
+	  p position = -3.60167,0,-1.92138,0x21c39ec1;
 	}
 }
 [t:tree_grs_deciduous_01,n:0x070002b9]
@@ -1658,6 +2330,38 @@
 	  p position = 3.93508,0,1.7203,0x783e7ec4;
 	}
 }
+[t:fern_grs_02,n:0x070005b7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.809417;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.607566,0,-0.794269;
+	  p position = 3.82837,0,-2.8388,0x783e7ec4;
+	}
+}
+[t:gpg_tree_glb_pine_dead_02,n:0x0700000f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.818358;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.927421,0,0.374019;
+	  p position = -3.32005,-0.727473,-1.45495,0x14f575cf;
+	}
+}
 [t:tree_grs_deciduous_01,n:0x07000294]
 {
 	[aspect]
@@ -1668,6 +2372,38 @@
 	{
 	  q orientation = 0,0.194328,0,0.980937;
 	  p position = 2.26947,-0.55555,1.55058,0x14f575cf;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_01,n:0x07000557]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04313;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.465067,0,0.885275;
+	  p position = 1.35129,-0.943993,-0.83587,0x14f575cf;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000566]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.984684;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.889939,0,0.456079;
+	  p position = -1.39955,0.987365,3.47293,0x14f575cf;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000190]
@@ -1730,6 +2466,86 @@
 	  p position = 2.93256,-0.833935,-1.66787,0x8b484524;
 	}
 }
+[t:grass_swp_02,n:0x07000597]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.95432;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.062508,0,0.998044;
+	  p position = 2.44705,-1,-2.0722,0x8b484524;
+	}
+}
+[t:fern_grs_03,n:0x070005a4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.25075;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.195149,0,-0.980774;
+	  p position = 1.21821,-0.985797,-1.80551,0x8b484524;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.847186;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.987428,0,0.158069;
+	  p position = 0.50791,0.305908,0.586175,0x8b484524;
+	}
+}
+[t:gpg_tree_glb_pine_dead_02,n:0x07000010]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.27631;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.094584,0,0.995517;
+	  p position = -0.627292,0.98399,3.5439,0x96009c2a;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x0700011d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23457;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.643552,0,0.765402;
+	  p position = 2.53442,0.806884,-0.783666,0x96009c2a;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700018d]
 {
 	[aspect]
@@ -1778,6 +2594,22 @@
 	  p position = -0.688025,0.995207,3.55081,0x96009c2a;
 	}
 }
+[t:gpg_tree_glb_pine_dead_04,n:0x0700001c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02594;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.954308,0,-0.298826;
+	  p position = 0.39657,0.650858,1.15086,0x01059bd5;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000196]
 {
 	[aspect]
@@ -1788,6 +2620,54 @@
 	{
 	  q orientation = 0,0.795217,0,-0.606325;
 	  p position = -0.0718415,0.666692,0.96212,0x01059bd5;
+	}
+}
+[t:grass_swp_01,n:0x0700058b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.02015;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878544,0,0.477661;
+	  p position = 1.3696,-0.896801,-1.7936,0x01059bd5;
+	}
+}
+[t:grass_swp_02,n:0x07000596]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.813065;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.315958,0,-0.948773;
+	  p position = 0.995716,0.223337,0.444961,0x01059bd5;
+	}
+}
+[t:grass_swp_02,n:0x070005a0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.914026;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.357561,0,0.93389;
+	  p position = 0.838864,-1,-3.04959,0x01059bd5;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000192]
@@ -1874,6 +2754,70 @@
 	  p position = -0.846465,-1.11535,-2.20609,0x343c2d15;
 	}
 }
+[t:fern_grs_03,n:0x070005a6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.946181;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.987282,0,0.158979;
+	  p position = -0.863235,0.843253,2.71626,0x343c2d15;
+	}
+}
+[t:mushroom_glb_06,n:0x070005d1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05009;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.916126,0,-0.400891;
+	  p position = 2.50936,-0.0599249,-0.11985,0x343c2d15;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000631]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.947209;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.76284,0,-0.646587;
+	  p position = 2.26088,-0.615705,-1.23141,0x343c2d15;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x0700002a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.817417;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.417318,0,-0.90876;
+	  p position = 3.76395,0,1.11861,0xaa53c983;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000195]
 {
 	[aspect]
@@ -1884,6 +2828,38 @@
 	{
 	  q orientation = 0,0.891035,0,0.453934;
 	  p position = 2.27954,0,0.968832,0xaa53c983;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005df]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00149;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.353851,0,-0.935302;
+	  p position = -1.48469,0,1.08808,0xaa53c983;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x07000052]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0799;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.683994,0,0.729487;
+	  p position = -1.55743,-1,-2.08137,0x2c2dbb78;
 	}
 }
 [t:bush_swp_07,n:0x07000490]
@@ -1908,6 +2884,38 @@
 	{
 	  q orientation = 0,0.974709,0,0.223478;
 	  p position = 1.42624,-0.590612,-1.18122,0xc0706b9d;
+	}
+}
+[t:fern_grs_03,n:0x070005a8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09464;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.975512,0,-0.219945;
+	  p position = 3.17913,0.921795,3.10897,0xc0706b9d;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x0700001e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.888827;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.572693,0,-0.81977;
+	  p position = -2.24682,0,0.620945,0xfad36f5b;
 	}
 }
 [t:tree_grs_deciduous_01,n:0x070002c2]
@@ -1992,6 +3000,22 @@
 	{
 	  q orientation = 0,0.783591,0,-0.621277;
 	  p position = 3.32093,0,0.0785875,0xfad36f5b;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_01,n:0x0700055b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01377;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832322,0,-0.554293;
+	  p position = -2.62558,0,-1.39519,0xfad36f5b;
 	}
 }
 [t:bed_glb_02,n:0x070001cc]
@@ -2551,6 +3575,22 @@
 	  p position = 0.563164,1,3.77468,0x57ce8c86;
 	}
 }
+[t:gpg_bush_glb_dead_01,n:0x0700008e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.918482;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.87415,0,-0.485657;
+	  p position = -1.76758,0,1.9223,0xfec18381;
+	}
+}
 [t:flowers_grs_08,n:0x070004d7]
 {
 	[aspect]
@@ -2719,6 +3759,38 @@
 	  p position = 1.07675,0,0.438043,0x925f31ba;
 	}
 }
+[t:grass_swp_01,n:0x07000580]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14618;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.880037,0,-0.474906;
+	  p position = -2.39979,0,-1.1621,0x925f31ba;
+	}
+}
+[t:grass_swp_01,n:0x0700058d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.82253;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.823689,0,0.567042;
+	  p position = -2.73205,0,1.11566,0x925f31ba;
+	}
+}
 [t:bush_swp_07,n:0x070004a0]
 {
 	[aspect]
@@ -2791,6 +3863,86 @@
 	  p position = 2.38588,0,1.5878,0x87f3ee95;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_03,n:0x0700056a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.827604;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.922104,0,-0.386943;
+	  p position = -1.8806,0,1.22732,0xcfaf7d39;
+	}
+}
+[t:mushroom_glb_06,n:0x070005c9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.28796;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.777793,0,0.62852;
+	  p position = 0.556927,0,-0.754314,0xcfaf7d39;
+	}
+}
+[t:gpg_tree_glb_pine_dead_02,n:0x0700000d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.981728;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.66506,0,-0.74679;
+	  p position = 0.867848,0,-3.84614,0xc2463fe1;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x0700003e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.880177;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.884838,0,0.465898;
+	  p position = -2.13802,0,0.241595,0xc2463fe1;
+	}
+}
+[t:grass_swp_01,n:0x07000582]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16143;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.725262,0,-0.688473;
+	  p position = -2.36935,0,1.27488,0xc2463fe1;
+	}
+}
 [t:bush_swp_07,n:0x070004be]
 {
 	[aspect]
@@ -2801,6 +3953,38 @@
 	{
 	  q orientation = 0,0.775462,0,-0.631394;
 	  p position = 2.75323,0,-0.197531,0x39930dfa;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000562]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00663;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.759287,0,0.650756;
+	  p position = -2.41746,0,0.0351752,0x39930dfa;
+	}
+}
+[t:mushrooms_cav_02,n:0x0700062c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.836284;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.836616,0,-0.54779;
+	  p position = 3.21538,0,-1.16639,0x39930dfa;
 	}
 }
 [t:flowers_grs_08,n:0x07000514]
@@ -2837,6 +4021,22 @@
 	{
 	  q orientation = 0,0.24573,0,-0.969338;
 	  p position = -0.626912,0,2.26999,0xea15eeaf;
+	}
+}
+[t:grass_swp_01,n:0x07000589]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.834794;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.768562,0,-0.639775;
+	  p position = 3.10056,0,1.68613,0xea15eeaf;
 	}
 }
 [t:flowers_grs_08,n:0x07000512]
@@ -2947,6 +4147,38 @@
 	  p position = 0.47345,0,1.01044,0x062256c6;
 	}
 }
+[t:fern_grs_03,n:0x070005a7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.13296;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.805139,0,0.593086;
+	  p position = -3.15536,0,2.05401,0x062256c6;
+	}
+}
+[t:mushroom_glb_06,n:0x070005cd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.999946;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.993932,0,0.109998;
+	  p position = -3.28754,0,2.41021,0x062256c6;
+	}
+}
 [t:bush_grs_rhod_01,n:0x07000482]
 {
 	[aspect]
@@ -2957,6 +4189,22 @@
 	{
 	  q orientation = 0,0.823263,0,0.56766;
 	  p position = 1.11295,0,-1.19981,0x39626414;
+	}
+}
+[t:grass_swp_02,n:0x07000598]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.800162;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.046203,0,0.998932;
+	  p position = 3.77797,-4,-1.91326,0x22e3062a;
 	}
 }
 [t:bush_grs_rhod_01,n:0x0700044c]
@@ -3007,6 +4255,22 @@
 	  p position = 1.00361,0,1.87461,0x326636fa;
 	}
 }
+[t:grass_swp_01,n:0x0700057e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01056;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832001,0,0.554775;
+	  p position = -0.771008,0,-0.475057,0x326636fa;
+	}
+}
 [t:bush_grs_rhod_01,n:0x07000459]
 {
 	[aspect]
@@ -3041,6 +4305,54 @@
 	{
 	  q orientation = 0,0.988413,0,-0.15179;
 	  p position = 3.28814,-2,-3.27693,0xf7330456;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000628]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.989801;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.910451,0,0.413617;
+	  p position = -0.242383,-2,-5.73567,0xf7330456;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x07000020]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.859852;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.058855,0,-0.998267;
+	  p position = 0.0936911,-3.73848,0.516083,0xb1d0c442;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x07000025]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.907369;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.191225,0,-0.981546;
+	  p position = -5.65615,-3.95,-1.98319,0xcc363e10;
 	}
 }
 [t:gpg_bush_glb_rhod_dead_01,n:0x07000454]
@@ -3091,6 +4403,22 @@
 	  p position = -0.00483442,-1.90104,-3.34816,0xa7b73cdb;
 	}
 }
+[t:gpg_tree_glb_pine_dead_06,n:0x0700004f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.26972;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.357959,0,0.933737;
+	  p position = -0.0671908,0,0.704854,0xf45f0cbc;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700017b]
 {
 	[aspect]
@@ -3103,6 +4431,38 @@
 	  p position = 2.95256,0,-3.12786,0xf45f0cbc;
 	}
 }
+[t:grass_swp_02,n:0x0700059d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.89058;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.960394,0,0.278645;
+	  p position = 0.0618561,0,3.78172,0xf45f0cbc;
+	}
+}
+[t:fern_grs_03,n:0x070005b2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.905957;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.572112,0,-0.820176;
+	  p position = -3.4846,0,-3.83097,0xf45f0cbc;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700017c]
 {
 	[aspect]
@@ -3113,6 +4473,86 @@
 	{
 	  q orientation = 0,0.706071,0,0.708141;
 	  p position = 0.595647,0,-1.90347,0xafb28b2e;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x0700053b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.973886;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.477014,0,-0.878896;
+	  p position = -3.85147,0,-0.870823,0xafb28b2e;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x07000543]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8815;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.597509,0,0.801862;
+	  p position = 0.316609,0,-1.64947,0xafb28b2e;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x07000544]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.993564;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999997,0,-0.00231;
+	  p position = 2.30517,0,-1.59522,0x699e07fe;
+	}
+}
+[t:grass_swp_01,n:0x0700058c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.928818;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.989515,0,0.144431;
+	  p position = -3.88755,0,0.981946,0x699e07fe;
+	}
+}
+[t:gpg_tree_glb_pine_dead_01,n:0x07000008]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14215;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.473461,0,-0.880815;
+	  p position = -2.55506,0,2.43361,0x4c77fa9c;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000180]
@@ -3139,6 +4579,38 @@
 	  p position = 2.03746,0,-2.47855,0x4c77fa9c;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_01,n:0x0700055a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.822262;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.94203,0,0.335528;
+	  p position = 2.45563,0,-2.54616,0x4c77fa9c;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000626]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04979;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984063,0,-0.17782;
+	  p position = -3.61,0,0.204781,0x4c77fa9c;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000182]
 {
 	[aspect]
@@ -3163,6 +4635,70 @@
 	  p position = -1.24448,0,-0.807761,0x32c7f5fd;
 	}
 }
+[t:gpg_bush_glb_dead_02,n:0x0700033c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22248;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.863797,0,0.50384;
+	  p position = -3.4353,0,-3.82913,0x32c7f5fd;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000635]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10653;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.256606,0,0.966516;
+	  p position = 2.8699,0,-2.14016,0x32c7f5fd;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x07000023]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05379;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.519877,0,-0.854241;
+	  p position = 0.361267,-11.9861,-1.48467,0xf239a2a7;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x0700002e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.817585;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991449,0,-0.130495;
+	  p position = 0.89412,-11.9575,-1.47901,0xf239a2a7;
+	}
+}
 [t:bush_grs_rhod_01,n:0x07000453]
 {
 	[aspect]
@@ -3173,6 +4709,86 @@
 	{
 	  q orientation = 0,0.841161,0,-0.540785;
 	  p position = -0.516608,-5.94959,-5.50602,0xe92bb754;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x07000546]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.935447;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.345865,0,0.938284;
+	  p position = 3.53447,-1.95345,-1.55344,0x0c2e33a9;
+	}
+}
+[t:fern_grs_03,n:0x070005b0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.904326;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.442443,0,0.896797;
+	  p position = 0.179093,-4,-1.82672,0x32ddb0ec;
+	}
+}
+[t:grass_swp_02,n:0x07000594]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.807811;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.146748,0,0.989174;
+	  p position = -1.20866,-4,-1.96141,0xcf78a3c9;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x07000022]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.84261;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.319568,0,0.947563;
+	  p position = 2.92769,0,1.53382,0x96677b51;
+	}
+}
+[t:gpg_bush_glb_dead_03,n:0x07000541]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.929143;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.440768,0,0.897621;
+	  p position = -1.18945,-12,-4.34908,0x0a387b23;
 	}
 }
 [t:stand_csl_01,n:0x07000140]
@@ -3340,6 +4956,118 @@
 	  p position = -0.198547,-3.5,1.89864,0xf88c2ca3;
 	}
 }
+[t:mushrooms_cav_02,n:0x0700062a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.866644;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.374517,0,-0.92722;
+	  p position = -16.673,-12,-20.4154,0xae0db076;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x0700002b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.13064;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.699906,0,-0.714235;
+	  p position = 2.92119,-12,-3.54781,0xe9887357;
+	}
+}
+[t:fern_grs_03,n:0x070005b1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0899;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.974511,0,0.224341;
+	  p position = -0.838914,-12,-5.67488,0x1c03cee9;
+	}
+}
+[t:grass_swp_01,n:0x07000581]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.05187;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998752,0,-0.049952;
+	  p position = 0.863696,-6,-1.27624,0x83366e55;
+	}
+}
+[t:fern_grs_02,n:0x070005b8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.876238;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.709996,0,-0.704205;
+	  p position = 0.413313,-1.9673,-3.01945,0xd690f50a;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000579]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.2809;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.57951,0,0.814965;
+	  p position = 1.00622,-11.9941,-1.95868,0x3f44e496;
+	}
+}
+[t:grass_swp_02,n:0x07000592]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08497;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.762334,0,-0.647184;
+	  p position = 0.206939,-12,-4.21794,0x175b3951;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000185]
 {
 	[aspect]
@@ -3362,6 +5090,22 @@
 	{
 	  q orientation = 0,0.999337,0,-0.036416;
 	  p position = 2.09495,0,-0.817426,0xa0b49544;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000633]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.27275;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956426,0,0.291973;
+	  p position = 1.2415,0,-1.22972,0xa0b49544;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000153]
@@ -3398,6 +5142,38 @@
 	{
 	  q orientation = 0,0.990799,0,-0.135343;
 	  p position = 3.3107,0,1.69567,0x71643f31;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x07000569]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1405;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.188946,0,-0.981987;
+	  p position = 0.454699,0,0.95554,0x71643f31;
+	}
+}
+[t:grass_swp_01,n:0x07000585]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14962;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.529069,0,0.848579;
+	  p position = 3.86768,0,0.581065,0x71643f31;
 	}
 }
 [t:planter_glb_08,n:0x070001e6]
@@ -3634,6 +5410,22 @@
 	[placement]
 	{
 	  p position = 3.25616,-3.5,0.599968,0x455fd49e;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x0700007b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1078;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.997643,0,-0.068616;
+	  p position = -0.537943,0,3.38519,0x55aecba7;
 	}
 }
 [t:tree_glb_palm_sway_02,n:0x0700036b]
@@ -4008,6 +5800,54 @@
 	  p position = 0.216175,0,1.20839,0xcd25c3ce;
 	}
 }
+[t:gpg_bush_glb_dead_03,n:0x07000547]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.977862;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.607504,0,-0.794317;
+	  p position = -0.854931,0,1.02252,0xcd25c3ce;
+	}
+}
+[t:fern_grs_03,n:0x070005a9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18149;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.686047,0,0.727557;
+	  p position = -2.22782,0,0.0711114,0xcd25c3ce;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.91961;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.854097,0,0.520114;
+	  p position = -0.48745,0,-0.354566,0xcd25c3ce;
+	}
+}
 [t:tree_glb_palm_sway_02,n:0x0700036f]
 {
 	[aspect]
@@ -4234,6 +6074,22 @@
 	{
 	  q orientation = 0,0.503877,0,0.863776;
 	  p position = 1.5224,0,-1.16046,0xf34127bc;
+	}
+}
+[t:fern_grs_02,n:0x070005bc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.27787;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.148508,0,-0.988911;
+	  p position = -0.421822,0,1.16656,0xf34127bc;
 	}
 }
 [t:bush_swp_03,n:0x070006e0]
@@ -5439,6 +7295,70 @@
 	  p position = -0.00635529,-3.5,0.187984,0x665e05c5;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000565]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.892116;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.189627,0,0.981856;
+	  p position = -2.55371,0.886077,3.41376,0xa1d661ed;
+	}
+}
+[t:grass_swp_02,n:0x0700058e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.800934;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.896384,0,-0.443278;
+	  p position = -3.49727,-0.974864,0.702653,0xa1d661ed;
+	}
+}
+[t:fern_grs_03,n:0x070005a2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18245;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.185627,0,-0.98262;
+	  p position = 2.84584,0.788149,2.44074,0xa1d661ed;
+	}
+}
+[t:fern_grs_02,n:0x070005ba]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.907182;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.170815,0,-0.985303;
+	  p position = 3.71179,-1,-3.46937,0xa1d661ed;
+	}
+}
 [t:candlestand_csl_02,n:0x070000dc]
 {
 	[aspect]
@@ -5484,6 +7404,22 @@
 	  p position = -1.05553,-0.05,-3.69848,0xd6ec9161;
 	}
 }
+[t:gpg_tree_glb_pine_dead_02,n:0x0700000a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.2855;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.310007,0,0.950734;
+	  p position = -0.799654,0,-0.305517,0x6b8e4d6f;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000170]
 {
 	[aspect]
@@ -5494,6 +7430,22 @@
 	{
 	  q orientation = 0,0.928579,0,0.371134;
 	  p position = -1.15796,0,0.643334,0x6b8e4d6f;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000629]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.26511;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999844,0,-0.017683;
+	  p position = -2.77567,0,0.485359,0x6b8e4d6f;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000171]
@@ -5508,6 +7460,22 @@
 	  p position = 2.17717,0,0.370164,0xb8234f7a;
 	}
 }
+[t:fern_grs_03,n:0x070005a3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.29956;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995947,0,0.089938;
+	  p position = -1.33792,0,-1.56352,0xb8234f7a;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000172]
 {
 	[aspect]
@@ -5520,6 +7488,54 @@
 	  p position = -0.41375,0,-1.12301,0xf8261f24;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000575]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.21818;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999945,0,0.010477;
+	  p position = -3.88293,0,-1.61033,0xf8261f24;
+	}
+}
+[t:grass_swp_01,n:0x0700057c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.978518;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.059319,0,0.998239;
+	  p position = 0.943104,0,0.640147,0xf8261f24;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14533;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.788675,0,-0.614811;
+	  p position = 0.422855,0,-0.445312,0xf8261f24;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000173]
 {
 	[aspect]
@@ -5530,6 +7546,38 @@
 	{
 	  q orientation = 0,0.389829,0,-0.920887;
 	  p position = 3.85961,-12,-5.39173,0x4208bfec;
+	}
+}
+[t:fern_grs_02,n:0x070005bf]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23659;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.683479,0,-0.729971;
+	  p position = 3.23838,0,-0.8144,0x60f3fbd5;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x0700001a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.928999;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.741051,0,-0.671449;
+	  p position = -1.43333,-0.992329,-3.9137,0x6f685bfc;
 	}
 }
 [t:tree_grs_deciduous_12,n:0x07000301]
@@ -5578,6 +7626,22 @@
 	{
 	  q orientation = 0,0.849637,0,-0.527367;
 	  p position = -0.768167,-0.71531,-0.926367,0x6f685bfc;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x07000058]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.957613;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.151042,0,-0.988527;
+	  p position = 1.8873,0.605561,2.32952,0xc83f8116;
 	}
 }
 [t:tree_grs_deciduous_12,n:0x070002ff]
@@ -5760,6 +7824,38 @@
 	  p position = -2.49341,0,-1.45831,0x6b062afa;
 	}
 }
+[t:grass_swp_01,n:0x0700057f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.955494;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.939811,0,-0.341694;
+	  p position = 1.92808,0,0.566621,0x6b062afa;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x07000037]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19308;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.097202,0,0.995265;
+	  p position = 1.85998,-0.925889,-3.76976,0x3ab0ae0a;
+	}
+}
 [t:tree_grs_deciduous_01,n:0x070002d2]
 {
 	[aspect]
@@ -5794,6 +7890,22 @@
 	{
 	  q orientation = 0,0.403401,0,0.915023;
 	  p position = -1.73826,0.647653,-3.16758,0x3ab0ae0a;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000571]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.14719;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.8453,0,0.534292;
+	  p position = 3.33991,-1,-3.77242,0x3ab0ae0a;
 	}
 }
 [t:tree_grs_deciduous_12,n:0x07000309]
@@ -6048,6 +8160,38 @@
 	  p position = 0.64442,1,3.63562,0xeefaf885;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_03,n:0x07000568]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.95505;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.966641,0,0.256134;
+	  p position = -1.67129,-1.03287,-3.16888,0xeefaf885;
+	}
+}
+[t:mushroom_glb_06,n:0x070005ca]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.91466;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.667949,0,0.744207;
+	  p position = 3.9104,0.992579,3.4629,0xeefaf885;
+	}
+}
 [t:tree_grs_deciduous_01,n:0x070002d1]
 {
 	[aspect]
@@ -6072,6 +8216,22 @@
 	  p position = 1.96107,0.680012,1.90006,0xc0ab488a;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_01,n:0x0700055d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.98231;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.079931,0,-0.9968;
+	  p position = 2.0508,-0.289869,-0.579737,0xc0ab488a;
+	}
+}
 [t:tree_grs_deciduous_01,n:0x070002d0]
 {
 	[aspect]
@@ -6082,6 +8242,22 @@
 	{
 	  q orientation = 0,0.84461,0,0.535383;
 	  p position = -1.86566,-2,1.85353,0x3f73f0ea;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x07000018]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09051;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.922267,0,0.386552;
+	  p position = -0.223209,0.63498,1.6749,0x50d3c2e3;
 	}
 }
 [t:tree_grs_deciduous_01,n:0x070002cb]
@@ -6154,6 +8330,38 @@
 	{
 	  q orientation = 0,0.80114,0,-0.598477;
 	  p position = 3.88016,0.768769,2.34384,0x50d3c2e3;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x0700033d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.957747;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956249,0,-0.292553;
+	  p position = 1.74239,1,3.64624,0x50d3c2e3;
+	}
+}
+[t:grass_swp_02,n:0x0700059c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.885636;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707188,0,0.707026;
+	  p position = 3.69795,0.456855,0.91371,0x50d3c2e3;
 	}
 }
 [t:tree_grs_deciduous_01,n:0x070002cd]
@@ -6329,6 +8537,22 @@
 	{
 	  q orientation = 0,0.948118,0,-0.317917;
 	  p position = 0.262393,0.0429937,0.188758,0xdaf87037;
+	}
+}
+[t:fern_grs_02,n:0x070005c0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.922719;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.990636,0,-0.13653;
+	  p position = -0.0774294,-0.115278,-0.0446348,0xdaf87037;
 	}
 }
 [t:tree_grs_deciduous_01,n:0x070002ed]
@@ -6547,6 +8771,22 @@
 	  p position = -3.42639,-6,7.77203,0x96fa083c;
 	}
 }
+[t:gpg_tree_glb_pine_dead_02,n:0x07000012]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.989106;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.224976,0,-0.974364;
+	  p position = 3.19998,-0.942855,-0.154197,0x45f56f63;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700018e]
 {
 	[aspect]
@@ -6607,6 +8847,54 @@
 	  p position = 0.786844,-0.357656,-1.80642,0x45f56f63;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000563]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.20128;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.953385,0,0.301757;
+	  p position = 0.0721854,-0.0360927,-3.26036,0x45f56f63;
+	}
+}
+[t:fern_grs_02,n:0x070005bb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1394;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.210199,0,0.977659;
+	  p position = 0.996138,-0.498069,-3.82548,0x45f56f63;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.28737;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.667711,0,-0.74442;
+	  p position = -0.166163,0.991784,3.86328,0x45f56f63;
+	}
+}
 [t:tree_grs_deciduous_01,n:0x070002f4]
 {
 	[aspect]
@@ -6643,6 +8931,22 @@
 	  p position = -1.11423,0.858816,2.79408,0x646e41c4;
 	}
 }
+[t:fern_grs_02,n:0x070005b5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.99803;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.925029,0,0.379895;
+	  p position = 2.53975,-0.0565472,-0.113094,0x646e41c4;
+	}
+}
 [t:tree_grs_deciduous_12,n:0x0700023d]
 {
 	[aspect]
@@ -6665,6 +8969,22 @@
 	{
 	  q orientation = 0,0.14799,0,-0.988989;
 	  p position = 3.98242,0,1.57979,0xbe76556a;
+	}
+}
+[t:gpg_tree_glb_pine_dead_02,n:0x07000011]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.882398;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.794527,0,0.607229;
+	  p position = 1.22177,0,3.85407,0xcb3aa777;
 	}
 }
 [t:groundcover_grs_01,n:0x070001d7]
@@ -7135,6 +9455,22 @@
 	  p position = -1.99966,0,-0.849479,0x40f3c127;
 	}
 }
+[t:grass_swp_02,n:0x0700059b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.915837;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.752175,0,0.658964;
+	  p position = 3.82496,0,2.43177,0x40f3c127;
+	}
+}
 [t:groundcover_grs_01,n:0x070001e9]
 {
 	[aspect]
@@ -7482,6 +9818,38 @@
 	  p position = -1.21763,0.543982,-3.80353,0xf9a1a266;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_03,n:0x07000567]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.895957;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.958451,0,0.285257;
+	  p position = 2.77095,0.163391,0.215277,0xf9a1a266;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x0700001f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.20956;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.378057,0,-0.925782;
+	  p position = -2.67356,0,1.35462,0x0d4fe4c1;
+	}
+}
 [t:groundcover_grs_01,n:0x070001dd]
 {
 	[aspect]
@@ -7710,6 +10078,38 @@
 	  p position = 0.955331,0,-1.33477,0x0d4fe4c1;
 	}
 }
+[t:grass_swp_02,n:0x0700059a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.13085;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.436967,0,-0.899478;
+	  p position = -3.21181,0,1.73581,0x0d4fe4c1;
+	}
+}
+[t:fern_grs_03,n:0x070005aa]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.947032;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.316891,0,-0.948462;
+	  p position = -2.93681,0,0.144603,0x0d4fe4c1;
+	}
+}
 [t:groundcover_grs_01,n:0x070001d3]
 {
 	[aspect]
@@ -7914,6 +10314,22 @@
 	  p position = -2.34363,0.200303,0.400605,0xc635b7f7;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000572]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.807836;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878539,0,0.477671;
+	  p position = -0.0543026,-1,-3.1771,0xc635b7f7;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700017d]
 {
 	[aspect]
@@ -7962,6 +10378,70 @@
 	  p position = -1.07383,0,-1.66281,0x18aea251;
 	}
 }
+[t:gpg_bush_glb_dead_01,n:0x070000d2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.862087;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991175,0,-0.13256;
+	  p position = -3.28651,-1,-3.48358,0x1943e89a;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_01,n:0x07000556]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23162;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.989748,0,-0.142827;
+	  p position = -1.75965,0,-0.128435,0x8099a6f0;
+	}
+}
+[t:grass_swp_02,n:0x0700059e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1734;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.968574,0,0.248725;
+	  p position = -2.6431,0,1.74984,0x8099a6f0;
+	}
+}
+[t:gpg_tree_glb_pine_dead_01,n:0x07000009]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.860661;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991274,0,-0.131821;
+	  p position = 0.489579,0,-1.01798,0xe21f0f40;
+	}
+}
 [t:bush_grs_rhod_01,n:0x07000479]
 {
 	[aspect]
@@ -7998,6 +10478,22 @@
 	  p position = -1.6749,-1.93649,-4.63055,0x267ca1a7;
 	}
 }
+[t:gpg_tree_glb_pine_dead_02,n:0x0700000e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.909818;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.997903,0,0.06472;
+	  p position = -0.244178,0,2.19824,0x88f83abe;
+	}
+}
 [t:gpg_bush_glb_rhod_dead_01,n:0x07000448]
 {
 	[aspect]
@@ -8020,6 +10516,86 @@
 	{
 	  q orientation = 0,0.323475,0,0.946237;
 	  p position = 1.45298,0,0.548875,0x88f83abe;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000564]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15699;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.835268,0,-0.549843;
+	  p position = -2.78214,0,0.347518,0x88f83abe;
+	}
+}
+[t:mushroom_glb_06,n:0x070005ce]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19249;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.920409,0,0.390956;
+	  p position = 0.684134,0,-1.47724,0x88f83abe;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.919152;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.556919,0,-0.830567;
+	  p position = 3.54894,0,2.19943,0x88f83abe;
+	}
+}
+[t:mushrooms_cav_02,n:0x07000627]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.954979;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.886669,0,0.462405;
+	  p position = -2.82932,0,-2.84022,0x88f83abe;
+	}
+}
+[t:grass_swp_01,n:0x07000588]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.852185;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.495368,0,-0.868683;
+	  p position = 1.45992,0,3.26095,0x2392d4db;
 	}
 }
 [t:bush_swp_07,n:0x070004a9]
@@ -8080,6 +10656,38 @@
 	{
 	  q orientation = 0,0.188492,0,-0.982075;
 	  p position = 3.94753,0,-3.39922,0x3acf618d;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_01,n:0x0700055c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10683;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.874649,0,-0.484756;
+	  p position = 1.94314,0,-0.400416,0x3acf618d;
+	}
+}
+[t:mushroom_glb_06,n:0x070005cc]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16691;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.205647,0,0.978626;
+	  p position = 2.03923,0,-3.98343,0x3acf618d;
 	}
 }
 [t:gpg_bush_glb_rhod_dead_01,n:0x0700047b]
@@ -8301,6 +10909,38 @@
 	  p position = 0.00878895,-3.5,-0.198563,0xf9ba46f1;
 	}
 }
+[t:gpg_tree_glb_pine_dead_01,n:0x07000001]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.983388;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.553222,0,-0.833034;
+	  p position = -0.117518,0,-0.613095,0x1c889111;
+	}
+}
+[t:fern_grs_02,n:0x070005c4]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.896254;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.842202,0,0.539162;
+	  p position = 1.16788,0,1.23639,0x1c889111;
+	}
+}
 [t:planter_glb_08,n:0x070000ae]
 {
 	[aspect]
@@ -8311,6 +10951,22 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = 0.00704956,-3.5,1.92444,0xbf196ff9;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x0700002c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.965275;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.144576,0,0.989494;
+	  p position = 1.90221,-11.9707,-1.79481,0x513484c8;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000156]
@@ -8325,6 +10981,134 @@
 	  p position = -2.08021,0,-1.82036,0xb2d0e595;
 	}
 }
+[t:gpg_tree_glb_pine_dead_03,n:0x07000015]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01605;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.653706,0,-0.756749;
+	  p position = -3.89092,0,1.83676,0x092c830b;
+	}
+}
+[t:mushrooms_cav_02,n:0x0700062b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15298;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.994315,0,0.106475;
+	  p position = -0.913293,0,0.0350184,0x092c830b;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005e1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.818643;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.412085,0,-0.911145;
+	  p position = -1.68432,-2,-4.75467,0xfc5778e4;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x0700055f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.848094;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.976243,0,-0.216677;
+	  p position = -3.74284,-4,-1.95631,0x4e336215;
+	}
+}
+[t:mushroom_glb_06,n:0x070005cb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.829204;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.672241,0,0.740332;
+	  p position = 0.335655,-5.76881,-0.167238,0xbfcad7df;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x0700056b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08469;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.167984,0,0.98579;
+	  p position = -8.65743,-3.95,-1.97753,0x09387ecc;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x07000014]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07637;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.139947,0,0.990159;
+	  p position = -3.71261,-4,-1.98264,0xecfecd61;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x0700056d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.916413;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.709998,0,-0.704204;
+	  p position = -1.55007,-1.9341,-1.34103,0x39000d34;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000187]
 {
 	[aspect]
@@ -8335,6 +11119,22 @@
 	{
 	  q orientation = 0,0.993704,0,0.112038;
 	  p position = 2.85543,0,1.10479,0xe57a1884;
+	}
+}
+[t:gpg_tree_glb_pine_dead_02,n:0x0700000c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.25408;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.753348,0,-0.657622;
+	  p position = -1.28985,0,-1.1369,0x2244c0ee;
 	}
 }
 [t:tree_grs_poplar_01,n:0x0700015c]
@@ -8371,6 +11171,22 @@
 	{
 	  q orientation = 0,0.998774,0,0.049496;
 	  p position = 3.37786,0,2.30685,0xec064f24;
+	}
+}
+[t:fern_grs_02,n:0x070005be]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.800989;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.992127,0,0.125238;
+	  p position = 0.836726,0,3.50694,0xec064f24;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000158]
@@ -8789,6 +11605,22 @@
 	  p position = 1.00289,0,0.321557,0x1a9e7728;
 	}
 }
+[t:grass_swp_01,n:0x07000586]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.881758;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.483757,0,-0.875202;
+	  p position = -3.94459,0,-0.740503,0x1a9e7728;
+	}
+}
 [t:bench_csl_01,n:0x0700022d]
 {
 	[aspect]
@@ -9063,6 +11895,38 @@
 	  p position = 0.0266724,-3.5,1.67398,0xdbe4066d;
 	}
 }
+[t:grass_swp_02,n:0x07000595]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.935453;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.485993,0,0.873963;
+	  p position = 3.3168,0,-0.486329,0x7bc0d5ac;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x0700055e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.986744;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.570213,0,-0.821497;
+	  p position = 2.8198,-12,-5.47595,0x2b9e6798;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000188]
 {
 	[aspect]
@@ -9085,6 +11949,70 @@
 	{
 	  q orientation = 0,0.145297,0,-0.989388;
 	  p position = -1.99083,0,-0.77308,0x54498f46;
+	}
+}
+[t:fern_grs_03,n:0x070005b3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18057;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.077969,0,-0.996956;
+	  p position = -0.856941,5.94608,1.93731,0x994de9ac;
+	}
+}
+[t:fern_grs_03,n:0x070005ab]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.906544;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.823958,0,-0.566651;
+	  p position = 0.658795,-2,-5.48692,0x4ed8f9c5;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x07000038]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.875301;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.621345,0,-0.783537;
+	  p position = -0.94164,-11.993,-3.86506,0xcf580cd6;
+	}
+}
+[t:grass_swp_01,n:0x07000587]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07257;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.401496,0,-0.915861;
+	  p position = 0.980032,-12,-4.85287,0xcf580cd6;
 	}
 }
 [t:candlestand_csl_02,n:0x07000122]
@@ -9360,6 +12288,38 @@
 	  p position = -3.60559,0,1.71852,0xed42e2fe;
 	}
 }
+[t:fern_grs_02,n:0x070005c1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1557;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.976613,0,0.215007;
+	  p position = -1.52261,-1.97613,-1.58305,0x36748106;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x0700002f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15935;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.327341,0,0.944906;
+	  p position = -0.932791,0,-1.54065,0x4aab1b0f;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000169]
 {
 	[aspect]
@@ -9370,6 +12330,54 @@
 	{
 	  q orientation = 0,0.719447,0,0.694547;
 	  p position = 1.00799,-12,-5.33543,0x737a64eb;
+	}
+}
+[t:gpg_tree_glb_pine_dead_01,n:0x07000003]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.950593;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.067624,0,0.997711;
+	  p position = 3.73442,-4,-1.98564,0xa18ddc20;
+	}
+}
+[t:fern_grs_03,n:0x070005ac]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19996;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.957579,0,0.288171;
+	  p position = -3.17016,-12,-4.16514,0x5997ad06;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x07000028]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.987116;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.828972,0,0.55929;
+	  p position = 1.0471,-4,-1.97616,0xe0330680;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000162]
@@ -9394,6 +12402,22 @@
 	{
 	  q orientation = 0,0.960253,0,0.27913;
 	  p position = 0.12026,0,-1.02465,0x4df5413d;
+	}
+}
+[t:mushrooms_cav_02,n:0x0700060d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09564;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.232502,0,-0.972596;
+	  p position = 0.613433,0,-1.89807,0x4df5413d;
 	}
 }
 [t:candlestand_csl_02,n:0x070003ff]
@@ -9870,6 +12894,22 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 2.11281,0,1.91795,0x9862d91b;
+	}
+}
+[t:gpg_tree_glb_pine_dead_06,n:0x0700003c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1138;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.668303,0,-0.743889;
+	  p position = -0.939353,0,-1.61031,0x96632dad;
 	}
 }
 [t:tree_grs_poplar_01,n:0x0700015e]
@@ -11138,6 +14178,22 @@
 	  p position = -0.60562,-0.0853161,-0.89848,0xcb64418f;
 	}
 }
+[t:grass_swp_01,n:0x07000583]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22828;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.957172,0,0.289521;
+	  p position = -0.854495,0.649923,2.20116,0xcb64418f;
+	}
+}
 [t:bench_csl_03,n:0x0700013b]
 {
 	[aspect]
@@ -11462,6 +14518,22 @@
 	  p position = -1.33792,-2,-0.188728,0x40f3bc92;
 	}
 }
+[t:gpg_tree_glb_pine_dead_01,n:0x07000004]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08382;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.293407,0,-0.955988;
+	  p position = -0.653794,0,-2.32221,0x8170c40d;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700016d]
 {
 	[aspect]
@@ -11486,6 +14558,70 @@
 	  p position = -3.7249,0,3.48656,0x8170c40d;
 	}
 }
+[t:grass_swp_02,n:0x07000593]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23154;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.334774,0,-0.942298;
+	  p position = -3.60834,0,2.38676,0x8170c40d;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.810965;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.992218,0,-0.124516;
+	  p position = 0.566846,0,-3.24213,0x8170c40d;
+	}
+}
+[t:mushrooms_cav_02,n:0x0700062e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.891622;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.775244,0,0.631661;
+	  p position = 0.517039,0,0.136025,0x8170c40d;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x07000024]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22762;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.943077,0,-0.332575;
+	  p position = 3.68657,0,-0.204481,0x2d3b77ba;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700016e]
 {
 	[aspect]
@@ -11496,6 +14632,150 @@
 	{
 	  q orientation = 0,0.675862,0,-0.737028;
 	  p position = 2.29795,0,3.35493,0x2d3b77ba;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_02,n:0x07000561]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.96249;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.650719,0,0.759318;
+	  p position = 3.75344,-11.9877,-1.81251,0xe1d62bf9;
+	}
+}
+[t:fern_grs_02,n:0x070005c2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.941754;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.793718,0,0.608285;
+	  p position = 2.10054,-11.9911,-1.93765,0xe1d62bf9;
+	}
+}
+[t:fern_grs_02,n:0x070005c7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.883769;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.912764,0,0.408487;
+	  p position = -1.26281,1.95,1.88362,0x3719141d;
+	}
+}
+[t:mushroom_glb_06,n:0x070005cf]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.984048;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.172374,0,0.985032;
+	  p position = -0.776191,1.97632,1.26498,0x3719141d;
+	}
+}
+[t:mushrooms_cav_02,n:0x0700062d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.26753;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.840993,0,-0.541046;
+	  p position = -1.19546,0,-0.259108,0x6350419e;
+	}
+}
+[t:grass_swp_02,n:0x0700058f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.988834;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.38817,0,-0.921588;
+	  p position = -0.892154,-4,-1.97386,0x52b47dae;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000577]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08983;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.558772,0,0.829321;
+	  p position = -0.663124,1.96708,1.32203,0xe600a09e;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000578]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1152;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.889005,0,-0.457898;
+	  p position = -0.255338,1.95,1.65987,0xe600a09e;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x07000017]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22429;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.371713,0,-0.928348;
+	  p position = -1.31893,0,-1.12143,0xaf98edad;
 	}
 }
 [t:tree_grs_poplar_01,n:0x0700016b]
@@ -11510,6 +14790,54 @@
 	  p position = 2.33247,0,0.735005,0x3a31cfea;
 	}
 }
+[t:gpg_bush_glb_dead_02,n:0x0700033e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.936764;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.929224,0,0.369518;
+	  p position = 2.8331,0,3.80567,0x3a31cfea;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x0700033f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.161;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.773512,0,0.633781;
+	  p position = -0.383409,0,-0.821179,0x3a31cfea;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_01,n:0x07000559]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0813;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.836583,0,-0.547841;
+	  p position = 3.5166,-4,-1.90747,0xd6a575e4;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700016a]
 {
 	[aspect]
@@ -11520,6 +14848,22 @@
 	{
 	  q orientation = 0,0.352832,0,0.935687;
 	  p position = 0.613273,0,0.745013,0xe43572cc;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x0700001b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11417;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999584,0,0.028827;
+	  p position = -1.92928,0,0.699442,0xe26be9fa;
 	}
 }
 [t:tree_grs_poplar_01,n:0x0700016c]
@@ -11651,6 +14995,22 @@
 	{
 	  q orientation = 0,0.190623,0,0.981663;
 	  p position = 3.26234,0,1.18575,0x8926fa20;
+	}
+}
+[t:gpg_tree_glb_pine_dead_04,n:0x0700001d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.833059;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92817,0,0.372155;
+	  p position = 0.425855,-11.9787,-1.84801,0x48e19a17;
 	}
 }
 [t:tree_grs_poplar_01,n:0x07000166]
@@ -12409,6 +15769,38 @@
 	  p position = -0.158066,-3.5,-0.00726339,0xfeedb747;
 	}
 }
+[t:gpg_tree_glb_pine_dead_01,n:0x07000007]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0316;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.134796,0,0.990873;
+	  p position = -2.46368,0,2.3524,0xa3805897;
+	}
+}
+[t:gpg_tree_glb_pine_dead_03,n:0x07000013]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.24255;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.976715,0,-0.214543;
+	  p position = 3.36966,0,-2.06011,0xa3805897;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000161]
 {
 	[aspect]
@@ -12433,6 +15825,54 @@
 	  p position = 1.63009,0,-0.725823,0xa3805897;
 	}
 }
+[t:gpg_bush_glb_rhod_dead_01,n:0x07000558]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.12595;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99714,0,0.075583;
+	  p position = -0.430642,0,0.136056,0xa3805897;
+	}
+}
+[t:grass_swp_01,n:0x0700057a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.818585;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.714313,0,-0.699826;
+	  p position = -3.07865,0,3.33783,0xa3805897;
+	}
+}
+[t:gpg_tree_glb_pine_dead_02,n:0x0700000b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.862146;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.832787,0,-0.553594;
+	  p position = 3.61605,-11.9808,-1.5372,0xab035676;
+	}
+}
 [t:tree_grs_poplar_01,n:0x07000160]
 {
 	[aspect]
@@ -12443,6 +15883,70 @@
 	{
 	  q orientation = 0,0.492744,0,0.870175;
 	  p position = -0.619849,0,-1.21505,0xf321b4f3;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x07000118]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23873;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.401458,0,-0.915877;
+	  p position = 3.63622,-1.96362,-1.59668,0x78e461a7;
+	}
+}
+[t:mushroom_glb_06,n:0x070005d0]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.994654;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998786,0,0.049264;
+	  p position = 1.87241,-1.88476,-1.30859,0x78e461a7;
+	}
+}
+[t:gpg_tree_glb_pine_dead_01,n:0x07000006]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.25401;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.404524,0,0.914528;
+	  p position = -1.87503,0,-1.14715,0x363af239;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005dd]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19927;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.983637,0,0.18016;
+	  p position = 3.61711,0,-0.986864,0x363af239;
 	}
 }
 [t:planter_glb_08,n:0x070000aa]
@@ -12527,6 +16031,22 @@
 	  p position = -1.94066,-3.5,0.101515,0x889a215e;
 	}
 }
+[t:fern_grs_02,n:0x070005c3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.837145;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.959197,0,-0.28274;
+	  p position = -1.05239,-12,-3.94742,0x8fc2e4d3;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700015a]
 {
 	[aspect]
@@ -12551,6 +16071,38 @@
 	  p position = 0.936541,0,-1.90745,0x12505ce4;
 	}
 }
+[t:fern_grs_03,n:0x070005af]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04636;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.659567,0,0.751645;
+	  p position = -2.08467,0,-1.59,0x12505ce4;
+	}
+}
+[t:gpg_bush_glb_dead_01,n:0x07000057]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.12736;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.966593,0,-0.256317;
+	  p position = -0.652904,0,0.128675,0x54fe208b;
+	}
+}
 [t:tree_grs_poplar_01,n:0x0700015b]
 {
 	[aspect]
@@ -12561,6 +16113,22 @@
 	{
 	  q orientation = 0,0.281941,0,0.959432;
 	  p position = 1.39414,0,0.708441,0x54fe208b;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005d7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03495;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.071406,0,-0.997447;
+	  p position = 1.93068,0,0.840248,0x54fe208b;
 	}
 }
 [t:planter_glb_08,n:0x070003e9]
@@ -12597,6 +16165,38 @@
 	[placement]
 	{
 	  p position = 0.0460777,-3.5,1.63306,0x9f04b2bb;
+	}
+}
+[t:fern_grs_03,n:0x070005a1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11057;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.113514,0,-0.993536;
+	  p position = 3.73168,-4,-1.81307,0x6bd4a272;
+	}
+}
+[t:fern_grs_03,n:0x070005a5]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.818239;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.905505,0,-0.424336;
+	  p position = 1.65352,-6,-0.900762,0xfaecc59d;
 	}
 }
 [t:chair_csl_01,n:0x07000229]
@@ -13266,6 +16866,22 @@
 	  p position = -0.184563,-3.97141,-3.76412,0x9c87ca24;
 	}
 }
+[t:gpg_bush_glb_dead_02,n:0x07000538]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.89214;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.966678,0,0.255995;
+	  p position = -1.17074,-1.99397,-1.93974,0x01114ce4;
+	}
+}
 [t:bush_grs_rhod_01,n:0x07000464]
 {
 	[aspect]
@@ -13276,6 +16892,38 @@
 	{
 	  q orientation = 0,0.199338,0,0.979931;
 	  p position = 1.1181,-2,-1.53029,0xc22b5666;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_04,n:0x07000570]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.03358;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.527702,0,-0.849429;
+	  p position = -2.19153,0,3.66383,0x13cd3669;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x070001c7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.944938;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.816606,0,0.577195;
+	  p position = -0.655345,0,3.99751,0xe6aa4d62;
 	}
 }
 [t:flowers_grs_08,n:0x070004f5]
@@ -13362,6 +17010,22 @@
 	  p position = 1.02287,0,-3.32861,0xe6aa4d62;
 	}
 }
+[t:gpg_tree_glb_pine_dead_01,n:0x07000005]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09345;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.230438,0,-0.973087;
+	  p position = -0.140969,0,-3.55944,0xf5525bab;
+	}
+}
 [t:flowers_grs_08,n:0x070004f4]
 {
 	[aspect]
@@ -13372,6 +17036,22 @@
 	{
 	  q orientation = 0,0.703379,0,-0.710815;
 	  p position = 0.987642,0,-0.0632275,0xf5525bab;
+	}
+}
+[t:mushrooms_cav_02,n:0x070005de]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.19332;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.921981,0,-0.387234;
+	  p position = -0.993103,0,0.464821,0xf5525bab;
 	}
 }
 [t:flowers_grs_08,n:0x070004eb]
