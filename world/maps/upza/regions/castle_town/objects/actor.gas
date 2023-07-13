@@ -26,6 +26,22 @@
 	  p position = 0.404512,-9.53674e-007,0.788751,0x6fcf61a9;
 	}
 }
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200014]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.861999;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.859983,0,0.510323;
+	  p position = 3.46221,0,1.48122,0x70a8a3e0;
+	}
+}
 [t:skeleton_mercenary_archer,n:0x07200677]
 {
 	[placement]
@@ -142,6 +158,86 @@
 	  p position = -8.02132,-1.5,-3.43258,0xed8ca792;
 	}
 }
+[t:skeleton_large,n:0x07200024]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.21212;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.838591,0,-0.544762;
+	  p position = 3.69001,-0.354808,-0.758563,0x7e76e0f0;
+	}
+}
+[t:skeleton_large,n:0x07200027]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00199;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.436601,0,-0.899655;
+	  p position = 2.38547,0,-1.41079,0xc2fb95d0;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x0720001f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23897;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.814181,0,0.580611;
+	  p position = -2.16373,0.666081,1.43128,0xc707a518;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200013]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00507;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.196411,0,-0.980522;
+	  p position = -1.68231,0,1.38271,0x2ad30af2;
+	}
+}
+[t:skeleton_large,n:0x07200033]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07117;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.580437,0,-0.814305;
+	  p position = -1.90118,0,-1.30841,0xd28870a5;
+	}
+}
 [t:upza_zombie_hiroth_shop_mage,n:0x0720042a]
 {
 	[placement]
@@ -196,6 +292,118 @@
 	  p position = 0.285919,-4.25,-1.4666,0x3909b300;
 	}
 }
+[t:skeleton_mercenary_archer,n:0x07200002]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.87991;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.541587,0,-0.840645;
+	  p position = 3.77592,0,0.163092,0x07516269;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x0720000b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.04349;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.774803,0,-0.632203;
+	  p position = 0.838323,0,1.05158,0x26cace6c;
+	}
+}
+[t:skeleton_large,n:0x0720002c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.864238;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.948707,0,-0.316158;
+	  p position = 2.03482,0,1.00766,0x26cace6c;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200006]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.933906;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.452063,0,-0.891986;
+	  p position = 1.86273,0,-1.94716,0x7f13e7ce;
+	}
+}
+[t:skeleton_large,n:0x0720002e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.99193;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.157026,0,0.987594;
+	  p position = -2.87717,0,-0.243624,0xd6ec16ba;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200020]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.09815;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.534538,0,-0.845144;
+	  p position = 0.331886,0,-1.20049,0x724c2cfb;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200022]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16037;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.333237,0,0.942843;
+	  p position = -0.729179,0,-0.0152898,0x92b15ffe;
+	}
+}
 [t:upza_zombie_hiroth_guard_ranged,n:0x07200580]
 {
 	[common]
@@ -206,6 +414,54 @@
 	{
 	  q orientation = 0,-0.48481,0,-0.874619;
 	  p position = -3.52373,-4.76837e-007,-1.91721,0x4d9807ef;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200008]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.820029;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.529183,0,0.848508;
+	  p position = -0.608303,-0.85,-0.399163,0x48576e6b;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200003]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0181;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.848441,0,-0.529289;
+	  p position = 2.57654,0,-0.989533,0x55daeeb6;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x0720000f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.22727;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.899057,0,-0.437832;
+	  p position = 3.97187,0,-0.925053,0x1844420c;
 	}
 }
 [t:self_service_mule,n:0x07200111]
@@ -274,6 +530,374 @@
 	  p position = -1.67031,0,1.02744,0x4b8ec8fc;
 	}
 }
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200012]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.878619;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.096063,0,0.995375;
+	  p position = -0.833241,1,3.71959,0xa0129f5d;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x0720000a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.907336;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.944641,0,0.328105;
+	  p position = -1.34802,0.445748,0.881602,0xb552ee7e;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x0720000c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.867828;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.578091,0,-0.815973;
+	  p position = -3.25177,-3.96857,-1.70223,0xd5d0a2da;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200004]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.809891;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.00012,0,-1;
+	  p position = 0.965517,-5.46765,-0.321836,0x6eceb3de;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200011]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1458;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.980325,0,-0.197391;
+	  p position = -0.134183,-5.76247,0.414539,0x6eceb3de;
+	}
+}
+[t:skeleton_large,n:0x0720002a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.854431;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.653661,0,-0.756787;
+	  p position = 3.32233,0,-1.28177,0x369e846f;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200009]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.836125;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.938715,0,0.344694;
+	  p position = -3.17359,0.939554,0.178212,0xa92f07f5;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x0720001b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23093;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.498969,0,-0.86662;
+	  p position = -2.39066,0.904048,1.6983,0xa92f07f5;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x0720001d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18292;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.930084,0,-0.367348;
+	  p position = 3.69718,-12,-3.86829,0xc25f85f2;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x0720001e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.824558;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.997499,0,0.070676;
+	  p position = -6.21474,-3.95,-1.84283,0x04ddd815;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200021]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.812073;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.678634,0,-0.734477;
+	  p position = 1.50845,-1.2,1.5878,0x93aefae8;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200010]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.913629;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.532345,0,-0.846527;
+	  p position = -1.66655,-0.5,0.550579,0x5d1e723f;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x0720000e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.17805;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.661525,0,0.749923;
+	  p position = -0.0417405,0,3.87831,0x50ec1810;
+	}
+}
+[t:skeleton_large,n:0x07200025]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.16405;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99989,0,-0.014801;
+	  p position = -0.82946,0,-1.84091,0x1f15ae2e;
+	}
+}
+[t:skeleton_large,n:0x07200023]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.948582;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.936553,0,-0.350527;
+	  p position = 0.775296,0,-0.664606,0xc2a2c219;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200001]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.29225;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.26143,0,-0.965223;
+	  p position = -0.171182,0,1.82109,0x1f7dfd42;
+	}
+}
+[t:skeleton_large,n:0x07200030]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0878;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.954557,0,-0.298027;
+	  p position = -1.36388,0,-1.47366,0xb67590c6;
+	}
+}
+[t:skeleton_large,n:0x07200026]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.11373;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.825705,0,0.564102;
+	  p position = 3.46176,0,-0.517853,0xba0228d1;
+	}
+}
+[t:skeleton_large,n:0x07200029]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.838542;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.974099,0,-0.226123;
+	  p position = -0.601451,0,-1.43824,0x930d8ffb;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200015]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.87002;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.252221,0,-0.96767;
+	  p position = 1.16368,1.41816,3.68775,0x4f57e1db;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x0720000d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.26555;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.502487,0,0.864585;
+	  p position = -1.57679,-0.85,-0.30927,0x8ac03a3e;
+	}
+}
+[t:skeleton_large,n:0x07200032]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.833165;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.134832,0,-0.990869;
+	  p position = -1.58499,0,0.294679,0x6d3b5239;
+	}
+}
+[t:skeleton_large,n:0x07200035]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.900678;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.394794,0,0.91877;
+	  p position = 0.920458,0,-1.02355,0x78730560;
+	}
+}
 [t:upza_zombie_hiroth_townfolk_reveal,n:0x07200534]
 {
 	[common]
@@ -284,6 +908,22 @@
 	{
 	  q orientation = 0,0.130526,0,0.991445;
 	  p position = -2.82953,-9.53674e-007,-0.947868,0x8ddbf4df;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200019]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.965627;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.842879,0,0.538103;
+	  p position = -0.127852,-0.95,-0.495542,0x4ede20e2;
 	}
 }
 [t:mule,n:0x072000f2]
@@ -352,6 +992,102 @@
 	  p position = 0.521749,-9.53674e-007,-1.55684,0xccf74180;
 	}
 }
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200018]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1962;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.316731,0,0.948516;
+	  p position = -0.809119,-6,-1.33887,0x00a14d66;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x0720001a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.800072;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.881314,0,0.472531;
+	  p position = -6.60621,-3.95,-1.93745,0x7183c55c;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200007]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.899001;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.546892,0,0.837203;
+	  p position = 1.80311,-0.330311,-1.16855,0xc0512d93;
+	}
+}
+[t:skeleton_mercenary_archer,n:0x07200005]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.973203;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.57999,0,-0.814624;
+	  p position = -2.47969,-0.261316,1.09671,0xffb78391;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x0720001c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.18913;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.181673,0,-0.983359;
+	  p position = 1.47706,0,-1.96729,0x869799e8;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200017]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.983925;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.988091,0,-0.153869;
+	  p position = -3.78167,0,0.789933,0x3c932a9b;
+	}
+}
 [t:upza_zombie_hiroth_guard_ranged,n:0x0720057f]
 {
 	[common]
@@ -386,6 +1122,22 @@
 	{
 	  q orientation = 0,0.12187,0,0.992546;
 	  p position = -0.42939,0.574292,0.63876,0x9eaa62f8;
+	}
+}
+[t:skeleton_mercenary_archer_reveal_02,n:0x07200016]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.843271;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.764281,0,0.644883;
+	  p position = -1.60797,-5.49488,0.868883,0xc1cf8959;
 	}
 }
 [t:skeleton_mercenary_archer_reveal_02,n:0x072001fc]
@@ -505,6 +1257,38 @@
 	  p position = -3.62965,2.86102e-006,-2.77153,0x0e592d33;
 	}
 }
+[t:skeleton_large,n:0x0720002d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.910893;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.793528,0,0.608533;
+	  p position = -2.7521,0,-3.7263,0x97f73f49;
+	}
+}
+[t:skeleton_large,n:0x0720002b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00043;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981671,0,0.190584;
+	  p position = -1.06631,-0.156269,-0.431883,0x0c915b15;
+	}
+}
 [t:skeleton_mercenary_archer_reveal_02,n:0x072001f3]
 {
 	[placement]
@@ -529,6 +1313,22 @@
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
 	  p position = -3.61853,-1.5,-3.47722,0x5e713a85;
+	}
+}
+[t:skeleton_large,n:0x07200028]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.882164;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.900599,0,-0.434652;
+	  p position = -0.317829,0,1.29541,0x025a9131;
 	}
 }
 [t:skeleton_mercenary_archer_reveal_02,n:0x072001e8]
@@ -596,6 +1396,22 @@
 	[placement]
 	{
 	  p position = -1.33883,9.53674e-007,3.90296,0xf1e8a135;
+	}
+}
+[t:skeleton_large,n:0x0720002f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23603;
+	}
+	[common]
+	{
+		dev_instance_text = "gaspy plant_gen";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.171117,0,-0.985251;
+	  p position = -0.753647,-0.342567,-1.68823,0x87a13d4a;
 	}
 }
 [t:upza_zombie_hiroth_townfolk_dwarf,n:0x07200126]
