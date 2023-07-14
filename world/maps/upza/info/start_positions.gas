@@ -140,7 +140,7 @@
 		}
 		[start_position]
 		{
-		  i id = 1;
+		  i id = 3;
 			position = 0.849245,-1.100000,-2.256828,0xBDD40056;
 			[camera]
 			{
@@ -148,6 +148,18 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = 0.849245,-1.100000,-2.256828,0xBDD40056;
+			}
+		}
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.151244,-0.450000,-1.262732,0xFC7DD060;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0xFC7DD060;
 			}
 		}
 		[world_levels]
