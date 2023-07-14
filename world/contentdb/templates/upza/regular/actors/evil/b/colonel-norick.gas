@@ -1,0 +1,86 @@
+[t:template,n:upza_colonel_norick]
+{
+	specializes = upza_base_zombie;
+
+	category_name = "1W_character";
+	doc = "late colonel norick";
+	[common] { screen_name="Late Colonel Norick"; }
+	[mind]
+	{
+		melee_engage_range					= 14.0;
+		ranged_engage_range					= 14.0;
+		sight_range							= 14.0;
+	}
+    [inventory]
+    {
+        [pcontent] {}  // no inherited loot
+    }
+    [aspect]
+    {
+		[voice]
+		{
+			[die] { * = s_e_die_norick; }
+			[hit_glance]
+			{
+				* = s_e_hit_male_old_cough;
+				* = s_e_hit_male_old_cough02;
+				* = s_e_hit_male_old_moan;
+
+				* = s_e_hit_male_old_breath_SED;
+				* = s_e_hit_male_old_breath_SED;
+				* = s_e_hit_male_old_breath_SED;
+				* = s_e_hit_male_old_breath_SED;
+				* = s_e_hit_male_old_breath_SED;
+				* = s_e_hit_male_old_breath_SED;
+				* = s_e_hit_male_old_breath_SED;
+			}
+		}
+    }
+    [body]
+    {
+		avg_move_velocity = 0.520000;
+    }
+
+    // auto-reveal
+	[mind]
+	{
+		actor_auto_fidgets = true;
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+
+    // stats & loot from original colonel_norick
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	120, 0;
+			intelligence =  150, 0;
+			dexterity =  	70, 0;
+			melee =  		107, 0;
+			combat_magic = 	106, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 350000;
+		life = 70000;
+		max_life = 70000;
+		mana = 1;
+		max_mana = 1;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 660;
+		damage_min = 540;
+	}
+    [defend] { defense=3510; }
+	[inventory]
+	{
+		[other]
+		{
+			il_main = chicken_gun;
+		}
+	}
+}
