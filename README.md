@@ -21,16 +21,18 @@ Changes from there on:
 - Map renamed, obviously
 - Set up the Eastern Island as the initial starting location, with Loola there
 - Added zombified 2nd Legion mates in Meren
-- Zombified NPCs in Elddim, Crystwind, Meren & Grescal areas, leaving quests intact & dropping shop contents
+- Zombified NPCs, leaving quests intact & dropping shop contents
 - Depopulated Fallraen, overrun by Furoks
-- Zombified NPCs in Lang, pacified Goblins, moved Lang shop contents to Goblins, added further Goblin shops
-- Ruinated towns from Elddim to Lang, & Grescal
+- Pacified Goblins, moved Lang shop contents to Goblins, added further Goblin shops
+- Ruinated towns except Quillrabe
 - Besieged Quillrabe, promoted Ferdl
+- Swampified Hiroth
+- Put the Reaper in Castle Hiroth and locked the door
 - Decalibrated the H.U.B.
 - Plant randomization, to give the map a fresh (and a little unkempt) look
 - Removed paths, leaving only a few decals
 - Zombified enemies - Krug, Bandits, Cyclops, Droog, wolves, bears, drakes
-- Made mules in Elddim, at Horty Olof, in Fallraen, Meren & Grescal self-hireable
+- Made mules in Elddim, at Horty Olof, in Fallraen, Meren, Hiroth & Grescal self-hireable
 - Removed signs, good luck out there lol
 - Removed original tutorial tips, you're on your own
 - Extinguished torches & campfires but made them lightable
@@ -52,5 +54,7 @@ GasPy repo: https://github.com/foerstj/gaspy
 - Legion Robe by Tristanzz
 - Zombie wolves & bears by Eksevis
 - Webbed plants from Yesterhaven
+- Legion armor icons by Eksevis
+- swamp-river textures by Eksevis (beta textures)
 
 The original map was created by Gas-Powered Games.
