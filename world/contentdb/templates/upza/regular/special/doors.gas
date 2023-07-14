@@ -31,6 +31,10 @@
 {
     specializes = door_glb_keep_01_base;
 
+    [aspect]
+    {
+        material = stone;
+    }
 	[messages]
 	{
 		[locked]
@@ -76,6 +80,10 @@
 {
     specializes = door_glb_keep_right_01_base;
 
+    [aspect]
+    {
+        material = stone;
+    }
 	[messages]
 	{
 		[locked]
