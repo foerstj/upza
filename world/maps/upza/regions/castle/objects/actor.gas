@@ -380,11 +380,11 @@
 	  p position = -0.293754,-2,1.03841,0x0a07cfa8;
 	}
 }
-[t:skeleton_large_boss_01,n:0x07000548]
+[t:skeleton,n:0x07000548]
 {
 	[common]
 	{
-		screen_name = "The Reaper";
+		screen_name = "Dummy Reaper";
 		[instance_triggers]
 		{
 			[*]
@@ -419,13 +419,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_weapon_hand = st_un_dsx_angk_guardian;
 		}
 	}
 	[mind]
