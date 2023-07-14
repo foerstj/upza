@@ -121,6 +121,54 @@
 
 	category_name = "1W_evil_b";
 	[common] { screen_name="Undead Big Chicken"; }
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_sy_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+					01 = at-02;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=fl; }
+			}
+            // ADDED for Chris Taylor
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00 = at; }
+			}
+		}
+	}
 
     // behavior from base_chicken_evil
 	[body]
