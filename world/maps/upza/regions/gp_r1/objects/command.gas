@@ -1,45 +1,3 @@
-[t:camera_quake,n:0x08700080]
-{
-	[camera_quake]
-	{
-	  f duration = 13;
-	  f magnitude_x = 0.075;
-	  f magnitude_y = 0.075;
-	  f magnitude_z = 0.075;
-	  b self_destruct = true;
-	}
-	[placement]
-	{
-	  p position = -3.18801,-32.2,-3.47956,0xf676bd47;
-	}
-}
-[t:cmd_selection_toggle,n:0x087001bf]
-{
-	[cmd_selection_toggle]
-	{
-	  x object_scid = 0x087001BD;
-	  i start_state = 1;
-	  b toggle_selection = false;
-	  b toggle_visability = true;
-	}
-	[placement]
-	{
-	  p position = 1.98717,12,0.355877,0x60e4b6cf;
-	}
-}
-[t:camera_quake,n:0x0870006e]
-{
-	[camera_quake]
-	{
-	  f magnitude_x = 0.25;
-	  f magnitude_y = 0.25;
-	  f magnitude_z = 0.25;
-	}
-	[placement]
-	{
-	  p position = -1.05914,0.05,-1.09457,0xd36273e5;
-	}
-}
 [t:cmd_delete_object,n:0x08700040]
 {
 	[placement]
@@ -103,6 +61,21 @@
 	  p position = -2.21502,0,2.66921,0xbbf8b524;
 	}
 }
+[t:camera_quake,n:0x08700080]
+{
+	[camera_quake]
+	{
+	  f duration = 13;
+	  f magnitude_x = 0.075;
+	  f magnitude_y = 0.075;
+	  f magnitude_z = 0.075;
+	  b self_destruct = true;
+	}
+	[placement]
+	{
+	  p position = -3.18801,-32.2,-3.47956,0xf676bd47;
+	}
+}
 [t:animate_elevator,n:0x08700097]
 {
 	[nodal_tex_anim]
@@ -125,15 +98,18 @@
 	  p position = 1.38923,0.139322,0.281522,0xf3ca5686;
 	}
 }
-[t:animate_elevator,n:0x087001bc]
+[t:cmd_selection_toggle,n:0x087001bf]
 {
-	[nodal_tex_anim]
+	[cmd_selection_toggle]
 	{
-	  x siege_node = 0xD39107D5;
+	  x object_scid = 0x087001BD;
+	  i start_state = 1;
+	  b toggle_selection = false;
+	  b toggle_visability = true;
 	}
 	[placement]
 	{
-	  p position = 1.34909,0.139874,0.272158,0x17d345a2;
+	  p position = 1.98717,12,0.355877,0x60e4b6cf;
 	}
 }
 [t:camera_quake,n:0x087000fb]
@@ -146,5 +122,29 @@
 	[placement]
 	{
 	  p position = 1.18343,5.95,1.06927,0x1c0b5fd1;
+	}
+}
+[t:camera_quake,n:0x0870006e]
+{
+	[camera_quake]
+	{
+	  f magnitude_x = 0.25;
+	  f magnitude_y = 0.25;
+	  f magnitude_z = 0.25;
+	}
+	[placement]
+	{
+	  p position = -1.05914,0.05,-1.09457,0xd36273e5;
+	}
+}
+[t:animate_elevator,n:0x087001bc]
+{
+	[nodal_tex_anim]
+	{
+	  x siege_node = 0xD39107D5;
+	}
+	[placement]
+	{
+	  p position = 1.34909,0.139874,0.272158,0x17d345a2;
 	}
 }
