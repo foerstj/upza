@@ -149,17 +149,12 @@
     // looks / behavior from chicken_white_super
     [aspect]
     {
-		scale_base = 3;
+		scale_base = 1.0;  // adapted to base synged size
     }
 	[common]
 	{
 		[template_triggers]
 		{
-			/*[*]
-			{
-				action* = call_sfx_script("feathers_flap_white");
-				condition* = receive_world_message("we_anim_sfx",1);
-			}*/
 			[*]
 			{
 				action* = send_world_message("we_req_activate",0x0940008F,0f,"default","every",0);
@@ -264,18 +259,13 @@
     // looks / behavior from chicken_red_super
     [aspect]
     {
-		scale_base = 3.5;
+		scale_base = 1.17;  // adapted to base synged size
     }
 	body:avg_move_velocity = 4.000000;
 	[common]
 	{
 		[template_triggers]
 		{
-			/*[*]
-			{
-				action* = call_sfx_script("feathers_flap_red");
-				condition* = receive_world_message("we_anim_sfx",1);
-			}*/
 			[*]
 			{
 				action* = send_world_message("we_req_activate",0x0940008F,0f,"default","every",0);
