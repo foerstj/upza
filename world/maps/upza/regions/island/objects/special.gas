@@ -3,6 +3,7 @@
 	[common]
 	{
 		dev_instance_text = "MOOD+PWL";
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -41,6 +42,39 @@
 	{
 	  q orientation = 0,-3.57628e-007,0,1;
 	  p position = 1.5911,0,0.0524292,0xf42500ba;
+	}
+}
+[t:trigger_generic,n:0x079002c9]
+{
+	[common]
+	{
+		dev_instance_text = "NIS";
+	  b is_multi_player = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x079002CB,0f,"default","every",0);
+				action* = mood_change("upza_island_intro_start");
+				action* = mood_change("upza_island_intro_water"), delay(1);
+				action* = mood_change("multiplayer_world_island_2_2"), delay(32);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -4.61728,-13.3311,-40.972,0x91cfe3a5;
 	}
 }
 [t:use_point,n:0x07900eea]
