@@ -7,7 +7,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_lang","active",0);
+				action* = change_quest_state("recalibrate_5_lang","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -22,8 +22,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_lang","active",0);
-				action* = change_quest_state("recalibrate_lang","completed",0);
+				action* = change_quest_state("recalibrate_5_lang","active",0);
+				action* = change_quest_state("recalibrate_5_lang","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;

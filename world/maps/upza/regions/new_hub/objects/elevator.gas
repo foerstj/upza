@@ -7,7 +7,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_quillrabe","active",0);
+				action* = change_quest_state("recalibrate_6_quillrabe","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -22,8 +22,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_quillrabe","active",0);
-				action* = change_quest_state("recalibrate_quillrabe","completed",0);
+				action* = change_quest_state("recalibrate_6_quillrabe","active",0);
+				action* = change_quest_state("recalibrate_6_quillrabe","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -84,7 +84,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_fallraen","active",0);
+				action* = change_quest_state("recalibrate_3_fallraen","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -99,8 +99,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_fallraen","active",0);
-				action* = change_quest_state("recalibrate_fallraen","completed",0);
+				action* = change_quest_state("recalibrate_3_fallraen","active",0);
+				action* = change_quest_state("recalibrate_3_fallraen","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -161,7 +161,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_grescal","active",0);
+				action* = change_quest_state("recalibrate_8_grescal","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -176,8 +176,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_grescal","active",0);
-				action* = change_quest_state("recalibrate_grescal","completed",0);
+				action* = change_quest_state("recalibrate_8_grescal","active",0);
+				action* = change_quest_state("recalibrate_8_grescal","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -238,7 +238,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_crystwind","active",0);
+				action* = change_quest_state("recalibrate_2_crystwind","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -253,8 +253,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_crystwind","active",0);
-				action* = change_quest_state("recalibrate_crystwind","completed",0);
+				action* = change_quest_state("recalibrate_2_crystwind","active",0);
+				action* = change_quest_state("recalibrate_2_crystwind","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -315,7 +315,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_elddim","active",0);
+				action* = change_quest_state("recalibrate_1_elddim","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -330,8 +330,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_elddim","active",0);
-				action* = change_quest_state("recalibrate_elddim","completed",0);
+				action* = change_quest_state("recalibrate_1_elddim","active",0);
+				action* = change_quest_state("recalibrate_1_elddim","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -392,7 +392,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_lang","active",0);
+				action* = change_quest_state("recalibrate_5_lang","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -407,8 +407,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_lang","active",0);
-				action* = change_quest_state("recalibrate_lang","completed",0);
+				action* = change_quest_state("recalibrate_5_lang","active",0);
+				action* = change_quest_state("recalibrate_5_lang","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -469,7 +469,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_hiroth","active",0);
+				action* = change_quest_state("recalibrate_7_hiroth","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -484,8 +484,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_hiroth","active",0);
-				action* = change_quest_state("recalibrate_hiroth","completed",0);
+				action* = change_quest_state("recalibrate_7_hiroth","active",0);
+				action* = change_quest_state("recalibrate_7_hiroth","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -546,7 +546,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("recalibrate_meren","active",0);
+				action* = change_quest_state("recalibrate_4_meren","active",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -561,8 +561,8 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("recalibrate_meren","active",0);
-				action* = change_quest_state("recalibrate_meren","completed",0);
+				action* = change_quest_state("recalibrate_4_meren","active",0);
+				action* = change_quest_state("recalibrate_4_meren","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
