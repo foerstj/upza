@@ -29,11 +29,17 @@
 	}
 	[light_enable]
 	{
-		initially_active = FALSE;
+		initially_active = false;
+
+        use_flare = true;
+        flare_duration = 0.2;
+        flare_magnitude = 1.2;
+        use_fizzle = true;
+        fizzle_duration = 0.2;
 	}
 	[light_flicker]
 	{
-		initially_active = FALSE;
+		initially_active = false;
 		duration = 0;
 
 		flicker_frequency_min = 10;
@@ -42,6 +48,7 @@
 	}
 	[msg_switch]
 	{
+        // switch WE_REQ_USE to WE_REQ_ACTIVATE
 	}
 
     // Added for UPZA lightables
