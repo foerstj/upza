@@ -1,0 +1,20 @@
+owner = GoSkritComponent;
+
+bool isActive$ = false;
+
+startup state Startup$
+{
+	event OnGoHandleMessage$( eWorldEvent e$, WorldMessage /*msg$*/ )
+	{
+		if( e$ == WE_REQ_USE )
+		{
+            isActive$ = !isActive$;
+            eWorldEvent msg$ = WE_REQ_ACTIVATE;
+            if (!isActive$)
+            {
+                msg$ = WE_REQ_DEACTIVATE;
+            }
+			SendWorldMessage( msg$, owner.Goid, owner.goid );
+		}
+	}
+}

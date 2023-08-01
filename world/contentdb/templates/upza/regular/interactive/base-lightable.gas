@@ -46,12 +46,12 @@
 		flicker_frequency_max = 12;
 		magnitude = 0.15;
 	}
-	[msg_switch]
-	{
-        // switch WE_REQ_USE to WE_REQ_ACTIVATE
-	}
 
     // Added for UPZA lightables
+    // use_toggle to switch WE_REQ_USE to WE_REQ_ACTIVATE / WE_REQ_DEACTIVATE
+	[use_toggle]
+	{
+	}
     // msg_forward to forward WE_REQ_ACTIVATE to e.g. smoke emitter and/or sound emitter
     [msg_forward]
     {
