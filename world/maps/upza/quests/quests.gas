@@ -1,6 +1,6 @@
 [chapters]
 {
-    [utraean_circle]
+    [e_utraean_circle]
     {
         screen_name = "Utraean Circle";
         [*]
@@ -9,7 +9,7 @@
           i order = 0;
         }
     }
-    [sides]
+    [d_sides]
     {
         screen_name = "Side Quests";
         [*]
@@ -18,7 +18,7 @@
           i order = 0;
         }
     }
-    [hub]
+    [b_hub]
     {
         screen_name = "Decalibrated H.U.B.";
         [*]
@@ -27,7 +27,7 @@
           i order = 0;
         }
     }
-    [upza]
+    [a_upza]
     {
         screen_name = "Utraean Peninsula: Zombie Apocalypse";
         [*]
@@ -36,7 +36,7 @@
           i order = 0;
         }
     }
-    [misc]
+    [c_misc]
     {
         screen_name = "Misc. Quests";
         [*]
@@ -53,7 +53,7 @@
 
 	[quest_townstones]    //Epic Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		name             = ;
 		screen_name      = "The Utraean Circle";
 		victory_sample   =   s_e_level_up_quest;
@@ -81,7 +81,7 @@
 
     [goto_elddim]    //Goto Elddim Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Elddim";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_26;				// Image for the quest
@@ -97,7 +97,7 @@
 
     [quest_elddim]    //Elddim Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Elddim Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_27;				// Image for the quest
@@ -111,7 +111,7 @@
 
     [goto_crystwind]    //Goto Crystwind Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Crystwind";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_28;				// Image for the quest
@@ -127,7 +127,7 @@
 
     [quest_crystwind]    //Crystwind Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Crystwind Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_29;				// Image for the quest
@@ -141,7 +141,7 @@
 
     [goto_fallraen]    //Goto Fallraen Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Fallraen";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_30;				// Image for the quest
@@ -157,7 +157,7 @@
 
     [quest_fallraen]    //Fallraen Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Fallraen Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_31;				// Image for the quest
@@ -173,7 +173,7 @@
 
     [goto_meren]    //Goto meren Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Meren";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_32;				// Image for the quest
@@ -189,7 +189,7 @@
 
     [quest_meren]    //Meren Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Meren Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_33;				// Image for the quest
@@ -205,7 +205,7 @@
 
     [goto_lang]    //Goto Lang Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Lang";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_34;				// Image for the quest
@@ -221,7 +221,7 @@
 
     [goto_quillrabe]    //Goto Quillrabe Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Quillrabe";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_35;				// Image for the quest
@@ -237,7 +237,7 @@
 
     [quest_quillrabe]    //Quillrabe Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Quillrabe Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_36;				// Image for the quest
@@ -252,7 +252,7 @@
 
     [goto_grescal]    //Goto Grescal Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Grescal";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_38;				// Image for the quest
@@ -268,7 +268,7 @@
 
     [quest_grescal]    //Grescal Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Grescal Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_39;				// Image for the quest
@@ -283,7 +283,7 @@
 
     [goto_hiroth_a]    //Goto Hiroth Quest  from quillrabe
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Travel to Hiroth";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_37;				// Image for the quest
@@ -299,7 +299,7 @@
 
     [goto_hiroth_b]    //Goto Hiroth Quest  from grescal
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Journey to Hiroth";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_37;				// Image for the quest
@@ -315,7 +315,7 @@
 
     [quest_hiroth]  // NEW - Hiroth Townstone Quest
     {
-        chapter = utraean_circle;
+        chapter = e_utraean_circle;
 		screen_name      = "Hiroth Townstone";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_hiroth;  // Image for the quest
@@ -333,7 +333,7 @@
 
     [quest_zabar_hovart]    //Elddim Lord Hovart Quest
     {
-        chapter = sides;
+        chapter = d_sides;
 		screen_name      = "Hovart's Folly";
 		victory_sample   =   s_e_level_up_quest;
 		quest_image = b_gui_ig_mnu_jnl_quest_24;				// Image for the quest
@@ -370,7 +370,7 @@
 
    	[quest_trella_rune]     //Mine_town rune quest
 	{
-        chapter = sides;
+        chapter = d_sides;
 		screen_name		= "The Diamond Runestone";		//name in quest log
 		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
 		quest_image = b_gui_ig_mnu_jnl_quest_23;				// Image for the quest
@@ -384,7 +384,7 @@
 
     [quest_fallraen_barracks]     //Fallraen id_r2 quest
 	{
-        chapter = sides;
+        chapter = d_sides;
 		screen_name		= "Fallraen Barracks";		//name in quest log
 		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
 		quest_image = b_gui_ig_mnu_jnl_quest_40;				// Image for the quest
@@ -399,7 +399,7 @@
 
 	[quest_flooded_sanctuary]     //Redwood Gap wd_r1 quest
 	{
-        chapter = sides;
+        chapter = d_sides;
 		screen_name		= "Flooded Sanctuary";		//name in quest log
 		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
 		quest_image = b_gui_ig_mnu_jnl_quest_41;				// Image for the quest
@@ -417,7 +417,7 @@
 
     [recalibrate_elddim]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Elddim";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -428,7 +428,7 @@
     }
     [recalibrate_crystwind]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Crystwind";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -439,7 +439,7 @@
     }
     [recalibrate_fallraen]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Fallraen";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -450,7 +450,7 @@
     }
     [recalibrate_meren]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Meren";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -461,7 +461,7 @@
     }
     [recalibrate_lang]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Lang";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -472,7 +472,7 @@
     }
     [recalibrate_quillrabe]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Quillrabe";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -483,7 +483,7 @@
     }
     [recalibrate_hiroth]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Hiroth";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -494,7 +494,7 @@
     }
     [recalibrate_grescal]
     {
-        chapter = hub;
+        chapter = b_hub;
         screen_name = "Recalibrate Grescal";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -509,7 +509,7 @@
 
     [find_gnf]
     {
-        chapter = upza;
+        chapter = a_upza;
         screen_name = "Find a safe passage to the Peninsula";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -528,7 +528,7 @@
 
     [zombie_mates]
     {
-        chapter = upza;
+        chapter = a_upza;
         screen_name = "Lost Mates";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -545,7 +545,7 @@
 
     [the_reaper]
     {
-        chapter = upza;
+        chapter = a_upza;
         screen_name = "The Reaper";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -571,7 +571,7 @@
 
     [clear_quarry]
     {
-        chapter = misc;
+        chapter = c_misc;
         screen_name = "Clear Dornek's Quarry";
 		victory_sample	= s_e_level_up_quest;
         [*]
@@ -583,7 +583,7 @@
 
     [enter_castle]
     {
-        chapter = misc;
+        chapter = c_misc;
         screen_name = "Enter Hiroth Castle";
 		victory_sample	= s_e_level_up_quest;
         [*]
