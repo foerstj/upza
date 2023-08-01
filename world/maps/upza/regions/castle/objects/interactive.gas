@@ -40,7 +40,7 @@
 }
 [t:wood_glb_pile_fireplace_burnt_lightable,n:0x070001cd]
 {
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x0700028A;

@@ -158,7 +158,7 @@
 	{
 	  x siege_light = 0xA8FD5F32;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x0270005F;
@@ -278,7 +278,7 @@
 	{
 	  x siege_light = 0x61455B3D;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x027000AC;
@@ -299,7 +299,7 @@
 	{
 	  x siege_light = 0x61B4F99B;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x027000AD;
@@ -457,7 +457,7 @@
 	{
 	  x siege_light = 0x805622A6;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x027000AB;

@@ -8,7 +8,7 @@
 	{
 	  x siege_light = 0x7985D21A;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  x send_to_scid = 0x00300309;
 	}
@@ -33,7 +33,7 @@
 	{
 	  f scale_multiplier = 0.950977;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  x send_to_scid = 0x00300035;
 	}

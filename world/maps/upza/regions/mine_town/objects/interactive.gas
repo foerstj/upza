@@ -123,7 +123,7 @@
 	  f magnitude = 0;
 	  x siege_light = 0x051987A1;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x00C00083;

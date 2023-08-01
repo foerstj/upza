@@ -55,7 +55,7 @@
 	{
 	  x siege_light = 0x74919793;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay2 = 1;
 	  x send_to_scid = 0x07200114;
@@ -225,7 +225,7 @@
 	{
 	  x siege_light = 0x2ADEE248;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x07200165;
@@ -464,7 +464,7 @@
 	{
 	  x siege_light = 0x1604FC30;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  x send_to_scid = 0x07200145;
 	}

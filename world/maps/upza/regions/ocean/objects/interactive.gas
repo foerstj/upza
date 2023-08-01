@@ -8,7 +8,7 @@
 	{
 	  x siege_light = 0x17C0E792;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x04D004BB;
@@ -127,7 +127,7 @@
 	{
 	  x siege_light = 0x1DC3D132;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x04D004BA;
@@ -206,7 +206,7 @@
 	{
 	  x siege_light = 0xCA3DB5FD;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x04D004BC;
@@ -246,7 +246,7 @@
 	{
 	  x siege_light = 0x417D235B;
 	}
-	[msg_forward]
+	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x04D004BD;

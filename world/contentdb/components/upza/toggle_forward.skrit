@@ -1,0 +1,45 @@
+property scid		send_to_scid$				doc = "Scid of object to receive message";
+property float		delay$			= 0			doc = "Number of seconds to delay sending the message";
+property scid		send_to_scid2$				doc = "Scid of 2nd object to receive message";
+property float		delay2$			= 0			doc = "Number of seconds to delay sending the 2nd message";
+
+owner = GoSkritComponent;
+
+trigger OnGoDrawDebugHud$
+{
+	Goid goid$ = send_to_scid$.Goid;
+	if( goid$.IsValid )
+	{
+		World.DrawDebugDirectedLine( owner.go.Placement.Position,
+									 goid$.go.Placement.Position,
+									 MakeColor( 0.5, 1.0, 0, 0.5 ),
+									 ToString( WE_REQ_ACTIVATE ) );
+	}
+
+	Goid goid2$ = send_to_scid2$.Goid;
+	if( goid2$.IsValid )
+	{
+		World.DrawDebugDirectedLine( owner.go.Placement.Position,
+									 goid2$.go.Placement.Position,
+									 MakeColor( 0.5, 1.0, 0, 0.5 ),
+									 ToString( WE_REQ_ACTIVATE ) );
+	}
+}
+
+startup state Startup$
+{
+	event OnGoHandleMessage$( eWorldEvent e$, WorldMessage /*msg$*/ )
+	{
+		if( e$ == WE_REQ_ACTIVATE )
+		{
+			PostWorldMessage( WE_REQ_ACTIVATE, owner.Goid, send_to_scid$, delay$ );
+			PostWorldMessage( WE_REQ_ACTIVATE, owner.Goid, send_to_scid2$, delay2$ );
+		}
+
+		if( e$ == WE_REQ_DEACTIVATE )
+		{
+			PostWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, send_to_scid$, delay$ );
+			PostWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, send_to_scid2$, delay2$ );
+		}
+	}
+}
