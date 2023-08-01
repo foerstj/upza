@@ -358,6 +358,38 @@
 		use_point_scids = 0x091001b9;
 	}
 }
+[t:torch_glb_holder_03_lightable,n:0x09100060]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x97D46462;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x97D46462;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-4.47035e-008;
+	  p position = -1.84186,-1.27803,-0.184799,0x95f79c57;
+	}
+}
+[t:torch_glb_holder_03_lightable,n:0x09100061]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xB94B7E91;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xB94B7E91;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-4.47035e-008;
+	  p position = -3.95084,-1.27803,-0.208366,0xd9aa6b9c;
+	}
+}
 [t:lever_glb_06_rescaled,n:0x09100083]
 {
 	[aspect]
@@ -670,11 +702,87 @@
 		use_point_scids = 0x0910015d;
 	}
 }
+[t:lamp_csl_02_lightable,n:0x09100065]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x5E75D5F6;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x5E75D5F6;
+	}
+	[placement]
+	{
+	  p position = -0.869425,-1.43051e-006,-1.64696,0x037299eb;
+	}
+}
+[t:lamp_csl_02_lightable,n:0x09100063]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x59A9C35C;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x59A9C35C;
+	}
+	[placement]
+	{
+	  p position = 1.07395,0,1.10484,0xfba4f04a;
+	}
+}
+[t:torch_glb_holder_03_lightable,n:0x0910005f]
+{
+	[light_enable]
+	{
+	  x siege_light = 0xF11FB8EA;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0xF11FB8EA;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.11639,-1.27803,-0.696632,0x9e27eb6a;
+	}
+}
 [t:respawn_statue,n:0x09100142]
 {
 	[placement]
 	{
 	  p position = -1.08783,6.67572e-006,-0.888832,0xf10f7fa2;
 		use_point_scids = 0x09100143;
+	}
+}
+[t:lamp_csl_02_lightable,n:0x09100062]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x2CC81AD4;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x2CC81AD4;
+	}
+	[placement]
+	{
+	  p position = 0.330859,0,0.613258,0x612c263d;
+	}
+}
+[t:lamp_csl_02_lightable,n:0x09100064]
+{
+	[light_enable]
+	{
+	  x siege_light = 0x36BBC737;
+	}
+	[light_flicker]
+	{
+	  x siege_light = 0x36BBC737;
+	}
+	[placement]
+	{
+	  p position = 1.28352,0,3.77809,0xdee486f0;
 	}
 }

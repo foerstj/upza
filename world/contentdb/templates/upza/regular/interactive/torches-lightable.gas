@@ -66,3 +66,43 @@
 		other_effect = "torch_firews2";
 	}
 }
+
+[t:template,n:lamp_csl_02_lightable] { specializes = lamp_csl_02_lightable_base; }
+[t:template,n:lamp_csl_02_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "lamp_table_stone lightable";
+	[aspect]
+	{
+		model = m_i_csl_lantern-02;
+	}
+	[common]
+	{
+		screen_name = "Lamp";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "torch_firews2";
+	}
+}
+
+[t:template,n:torch_glb_holder_03_lightable] { specializes = torch_glb_holder_03_lightable_base; }
+[t:template,n:torch_glb_holder_03_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "torch_wall_spiked lightable";
+	[aspect]
+	{
+		model = m_i_glb_light-torch-02;
+	}
+	[common]
+	{
+		screen_name = "Torch";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "torch_firews";
+	}
+}
