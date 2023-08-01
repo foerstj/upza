@@ -107,6 +107,14 @@
 		event_sound = "env_brook";
 	}
 }
+[t:emt_light_ray,n:0x07100056]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0.382683,0;
+	  p position = 0.18325,4.9823,-1.00189,0x92623dba;
+	}
+}
 [t:emt_sound,n:0x071004b9]
 {
 	[placement]
