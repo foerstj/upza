@@ -8,7 +8,10 @@ startup state Startup$
 	{
 		if( e$ == WE_REQ_USE )
 		{
+            isActive$ = Godb.GetScidBit( owner.scid, 1 );
             isActive$ = !isActive$;
+            Godb.SetScidBit( owner.scid, 1, isActive$ );
+
             eWorldEvent msg$ = WE_REQ_ACTIVATE;
             if (!isActive$)
             {
