@@ -166,11 +166,14 @@
             spell_nurture = 4;
 
             // any other useful stuff like transmutation
-            spell_transmute = 8;
+            spell_transmute = 4;
             spell_create_healthpotion = 4;
             spell_transmogrification = 4;
-            spell_transmuteall = 4;
+            spell_transmuteall = 8;
             spell_summon_helper = 4;
+            spell_transmute_healthpotion = 4;
+            spell_transmute_manapotion = 4;
+            spell_mana_chant = 4;
 
             // beginner attack spells
             spell_fireshot = 8;
