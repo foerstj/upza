@@ -61,7 +61,7 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	{
 		screen_text = "If you find a safe way to the Peninsula, tell me!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 }
 [julia_join]
@@ -164,7 +164,7 @@ I hope we find a safe passage to the peninsula soon. This really seems to be the
 	{
 		screen_text = "If you find a safe way to the Peninsula, do tell me!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 }
 [mark_join]
@@ -291,7 +291,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	{
 		screen_text = "If you find a safe way to the Peninsula, tell me!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 }
 [bettina_join]
@@ -385,7 +385,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 0;
 		screen_text = "Look, I found an elevator! It might well be a third magical passage to the peninsula. But you know what happened to Barney - I'm certainly not going first. After you, mate!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 	[text*]
 	{
@@ -482,7 +482,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 1;
 		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
 	  f scroll_rate = 10.000000;
-        activate_quest* = zombie_mates;
+        activate_quest* = upza_2_zombie_mates;
 	}
 	[text*]
 	{
@@ -490,7 +490,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 2;
 		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 	[text*]
 	{
@@ -571,7 +571,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 1;
 		screen_text = "That's our chief officer right here. And our captain was killed by the undead in that ambush in Meren. We're basically free men now.";
 	  f scroll_rate = 10.000000;
-        activate_quest* = zombie_mates;
+        activate_quest* = upza_2_zombie_mates;
 	}
 	[text*]
 	{
@@ -579,7 +579,7 @@ And we have met someone... strange. A survivor from the mainland? She seems to h
 	  i order = 2;
 		screen_text = "I have no idea where we are. This seems to be an island. Some say it's the mythical Eastern Island - I'm not sure, but who knows. It would sure be nice, because the Eastern Island is said to have magical passages to the mainland - and we're essentially shipwrecked here, so that would come in handy!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 	[text*]
 	{
@@ -636,7 +636,7 @@ Libella has taken up guard on the other side. Go greet her if you want. But I su
 	{
 		screen_text = "If you find a safer way to the Peninsula, do tell me!";
 	  f scroll_rate = 10.000000;
-        activate_quest* = find_gnf;
+        activate_quest* = upza_1_find_gnf;
 	}
 }
 [bernard_join]

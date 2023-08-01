@@ -166,8 +166,8 @@ There's an evil force behind all of this, mark my words. Perhaps the Droog know 
 	  f scroll_rate = 10.000000;
 		button_2_text = "Directions";
         button_2_value = d_0x07500165;
-        activate_quest* = the_reaper;
-        activate_quest* = the_reaper,1;
+        activate_quest* = upza_3_the_reaper;
+        activate_quest* = upza_3_the_reaper,1;
 	}
 	[text*]
 	{
@@ -176,7 +176,7 @@ To reach Meren from here, get back out into the Lang Mire. Walk straight east un
 	  f scroll_rate = 10.000000;
 		button_1_text = "Directions";
         button_1_value = d_0x07500165;
-        activate_quest* = zombie_mates;
+        activate_quest* = upza_2_zombie_mates;
 	}
 }
 [guide_red]

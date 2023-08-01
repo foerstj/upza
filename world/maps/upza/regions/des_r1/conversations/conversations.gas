@@ -97,9 +97,9 @@ This was the night the undead hordes swept across the Peninsula. It took them le
     {
         order = 0;
         screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
-        activate_quest* = the_reaper;
-        activate_quest* = the_reaper,1;
-        activate_quest* = the_reaper,2;
+        activate_quest* = upza_3_the_reaper;
+        activate_quest* = upza_3_the_reaper,1;
+        activate_quest* = upza_3_the_reaper,2;
         choice = more;
     }
     [text*]
@@ -180,9 +180,9 @@ Well now, I'm a priest, a mage, and a historian, and I never thought I'd say thi
     {
         order = 0;
         screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
-        activate_quest* = the_reaper;
-        activate_quest* = the_reaper,1;
-        activate_quest* = the_reaper,2;
+        activate_quest* = upza_3_the_reaper;
+        activate_quest* = upza_3_the_reaper,1;
+        activate_quest* = upza_3_the_reaper,2;
 		button_1_text = "Directions";
        	button_1_value = d_0x0070087f;
     }
