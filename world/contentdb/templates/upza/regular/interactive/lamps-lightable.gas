@@ -16,3 +16,61 @@
 		other_effect = "candle_fire1";
 	}
 }
+
+[t:template,n:lamp_glb_oil_01_lightable] { specializes = lamp_glb_oil_01_lightable_base; }
+[t:template,n:lamp_glb_oil_01_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "lamp_wall_oil lightable";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-01;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "oil_fire1";
+	}
+}
+[t:template,n:lamp_glb_oil_02_lightable] { specializes = lamp_glb_oil_02_lightable_base; }
+[t:template,n:lamp_glb_oil_02_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "lamp_wall_oil_ornate lightable";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-02;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "oil_fire2";
+	}
+}
+[t:template,n:lamp_glb_oil_03_lightable] { specializes = lamp_glb_oil_03_lightable_base; }
+[t:template,n:lamp_glb_oil_03_lightable_base]
+{
+	specializes = base_lightable;
+
+	doc = "lamp_floor_oil lightable";
+	[aspect]
+	{
+		model = m_i_glb_lamp-oil-03;
+	}
+	[common]
+	{
+		screen_name = "Oil Lamp";
+    }
+	[generic_emitter_act]
+	{
+		other_effect = "oil_fire3";
+	}
+}
