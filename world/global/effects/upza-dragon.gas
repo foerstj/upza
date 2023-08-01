@@ -1,0 +1,52 @@
+[effect_script*]
+{
+	name	=dragon_fire_breath_green;
+
+	script	=[[
+			sound play s_e_dragon_fire at #SOURCE_POSITION dist 35 45;
+			
+			worldmsg WE_SPELL_SYNC_BEGIN #INVALID_GOID #OWNER_GOID #SOURCE_GOID;
+			
+			sfx create fireb #SOURCE
+				"must_update()dur(2.35)light_spawn()light_freq(65)light_radius(8)
+				velocity(0,0,100)accel(0,0,-10)cvel(1)ts(1)alphafade(.42)
+				lower_r0(1)lower_r1(2)upper_r0(26)upper_r1(26)count(80)
+				flamesize(3)bone_orient()color0(.6,1,.3)fctrl(1,2,3)[0]";
+			sfx attach_point #PEEK @weapon_bone target;
+			set $fire1 #PEEK;
+			sfx start #POP;
+
+			sfx create fireb #SOURCE
+				"must_update()dur(2.35)
+				velocity(0,0,100)accel(0,0,-10)cvel(1)ts(1)alphafade(.42)
+				lower_r0(0)lower_r1(0)upper_r0(13)upper_r1(13)count(80)
+				flamesize(1)bone_orient()color0(1,1,1)fctrl(1,2,3)
+				texture(b_sfx_fireball-01)";
+			sfx attach_point #PEEK @weapon_bone target;
+			set $fire2 #PEEK;
+			sfx start #POP;
+
+			sfx create fireb #SOURCE
+				"must_update()dur(2.35)
+				velocity(0,0,100)accel(0,0,-10)cvel(1)ts(1)alphafade(.42)
+				lower_r0(2)lower_r1(3)upper_r0(-39)upper_r1(60)count(80)
+				flamesize(4)bone_orient()color0(.3,1,.1)fctrl(1,2,3)";
+			sfx attach_point #PEEK @weapon_bone target;
+			set $fire3 #PEEK;
+			sfx start #POP;
+						
+			randrange 0 3;
+            
+			if ( #POP == 2 )
+			{
+				sfx create fireb #SOURCE
+					"must_update()dur(1.15)dark()color0(.2,.2,.2)start_rate(3600)velocity(0,0,95)
+					accel(0,0,-38)cvel(1)ts(.45)alphafade(.5)lower_r0(2)
+					lower_r1(3)upper_r0(-130)upper_r1(-90)count(95)flamesize(3.25)
+					bone_orient()delay(2.35)";
+				sfx attach_point #PEEK @weapon_bone target;
+				sfx start #POP;
+			}
+			
+			]];
+}
