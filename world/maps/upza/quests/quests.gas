@@ -139,6 +139,20 @@
         }
     }
 
+    [quest_lang]    // NEW - Lang Townstone Quest
+    {
+        chapter = e_utraean_circle;
+		screen_name      = "Lang Townstone";
+		victory_sample   =   s_e_level_up_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_lang;				// Image for the quest
+
+        [*]
+        {
+            order         = 0;
+            description   = "Retrieve the Lang Mosquito Stone from Utraean Priestess Janeira.";
+        }
+    }
+
     [quest_quillrabe]    //Quillrabe Townstone Quest
     {
         chapter = e_utraean_circle;
