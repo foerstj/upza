@@ -51,13 +51,12 @@
 {
     // Utraean Circle
 
-	[quest_townstones]    //Epic Townstone Quest
+	[quest_townstones]  // Epic Townstone Quest
     {
         chapter = e_utraean_circle;
-		name             = ;
 		screen_name      = "The Utraean Circle";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_25;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_25;
 
         [*]
         {
@@ -66,25 +65,24 @@
         }
         [*]
         {
-            order         = 1;   //when you have all 8 stones and are in Hiroth
+            order         = 1;  // when you have all 8 stones and are in Hiroth
             speaker       = "Utraean High Priest Kavaren";
             description   = "Place each Townstone on its corresponding dais in the Utraean Circle on the north edge of the town.";
             address = castle_town:conversations:conversation_kavaren_ring;
         }
         [*]
         {
-            order         = 2;   //when all 8 stones are placed
-            speaker       = "";
+            order         = 2;  // when all 8 stones are placed
             description   = "Destroy the Maljin by placing the Legion's Tenstone in the inner sanctum of the Utraean Circle dungeon.";
         }
     }
 
-    [quest_elddim]    //Elddim Townstone Quest
+    [quest_elddim]  // Elddim Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Elddim Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_27;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_27;
 
         [*]
         {
@@ -93,12 +91,12 @@
         }
     }
 
-    [quest_crystwind]    //Crystwind Townstone Quest
+    [quest_crystwind]  // Crystwind Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Crystwind Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_29;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_29;
 
         [*]
         {
@@ -107,12 +105,12 @@
         }
     }
 
-    [quest_fallraen]    //Fallraen Townstone Quest
+    [quest_fallraen]  // Fallraen Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Fallraen Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_31;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_31;
 
         [*]
         {
@@ -123,12 +121,12 @@
         }
     }
 
-    [quest_meren]    //Meren Townstone Quest
+    [quest_meren]  // Meren Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Meren Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_33;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_33;
 
         [*]
         {
@@ -139,12 +137,12 @@
         }
     }
 
-    [quest_lang]    // NEW - Lang Townstone Quest
+    [quest_lang]  // NEW - Lang Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Lang Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_lang;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_lang;
 
         [*]
         {
@@ -153,12 +151,12 @@
         }
     }
 
-    [quest_quillrabe]    //Quillrabe Townstone Quest
+    [quest_quillrabe]  // Quillrabe Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Quillrabe Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_36;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_36;
 
         [*]
         {
@@ -168,12 +166,12 @@
         }
     }
 
-    [quest_grescal]    //Grescal Townstone Quest
+    [quest_grescal]  // Grescal Townstone Quest
     {
         chapter = e_utraean_circle;
 		screen_name      = "Grescal Townstone";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_39;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_39;
 
         [*]
         {
@@ -201,12 +199,12 @@
 
     // Side Quests
 
-    [quest_zabar_hovart]    //Elddim Lord Hovart Quest
+    [quest_zabar_hovart]  // Elddim Lord Hovart Quest
     {
         chapter = d_sides;
 		screen_name      = "Hovart's Folly";
 		victory_sample   =   s_e_level_up_quest;
-		quest_image = b_gui_ig_mnu_jnl_quest_24;				// Image for the quest
+		quest_image = b_gui_ig_mnu_jnl_quest_24;
 
         [*]
         {
@@ -221,63 +219,60 @@
         [*]
         {
             order         = 2;
-            speaker       = "";
             description   = "Take the Gavel of Convening into the underground stronghold known as Hovart's Folly.";
         }
         [*]
         {
             order         = 3;
-            speaker       = "";
             description   = "Destroy Lord Hovart and his undead minions.";
         }
         [*]
         {
             order         = 4;
-            speaker       = "";
             description   = "Lord Hovart is dead.";
         }
 	}
 
-   	[quest_trella_rune]     //Mine_town rune quest
+   	[quest_trella_rune]  // Mine_town rune quest
 	{
         chapter = d_sides;
-		screen_name		= "The Diamond Runestone";		//name in quest log
-		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
-		quest_image = b_gui_ig_mnu_jnl_quest_23;				// Image for the quest
+		screen_name		= "The Diamond Runestone";
+		victory_sample	= s_e_level_up_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_23;
 
 		[*]
 		{
-			order		= 0;                                  //order of quest parts
+			order		= 0;
 			description = "Find the Diamond Runestone in the ruins near the town of Crystwind.";
 		}
 	}
 
-    [quest_fallraen_barracks]     //Fallraen id_r2 quest
+    [quest_fallraen_barracks]  // Fallraen id_r2 quest
 	{
         chapter = d_sides;
-		screen_name		= "Fallraen Barracks";		//name in quest log
-		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
-		quest_image = b_gui_ig_mnu_jnl_quest_40;				// Image for the quest
+		screen_name		= "Fallraen Barracks";
+		victory_sample	= s_e_level_up_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_40;
 
 		[*]
 		{
-			order		= 0;                                  //order of quest parts
-			speaker     = "Barracks Guard";                   // The name of the speaker
-			description = "Investigate the Fallraen Barracks south of Fallraen and kill any creatures found inside.";		// This is the line that appears underneath the speaker name
+			order		= 0;
+			speaker     = "Barracks Guard";
+			description = "Investigate the Fallraen Barracks south of Fallraen and kill any creatures found inside.";
 		}
 	}
 
-	[quest_flooded_sanctuary]     //Redwood Gap wd_r1 quest
+	[quest_flooded_sanctuary]  // Redwood Gap wd_r1 quest
 	{
         chapter = d_sides;
-		screen_name		= "Flooded Sanctuary";		//name in quest log
-		victory_sample	= s_e_level_up_quest;     		//sound to play at quest completion
-		quest_image = b_gui_ig_mnu_jnl_quest_41;				// Image for the quest
+		screen_name		= "Flooded Sanctuary";
+		victory_sample	= s_e_level_up_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_41;
 
 		[*]
 		{
-			order		= 0;                                  //order of quest parts
-			speaker     = "Sanctuary Keeper";                   // The name of the speaker
+			order		= 0;
+			speaker     = "Sanctuary Keeper";
 			description = "Honor the Sanctuary Keeper by clearing the Flooded Sanctuary of creatures.";
 		}
 	}
