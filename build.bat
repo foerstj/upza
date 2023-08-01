@@ -76,6 +76,7 @@ robocopy "%doc_dsloa%\Bits\art\meshes" "%tmp%\Bits\art\meshes" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\art\terrain\generic" "%tmp%\Bits\art\terrain\generic" /E /xf .gitignore /xf .bak
 robocopy "%doc_dsloa%\Bits\art\terrain\desert_canyon" "%tmp%\Bits\art\terrain\desert_canyon" /E /xf .bak
 robocopy "%doc_dsloa%\Bits\sound" "%tmp%\Bits\sound" /E /xf .gitignore
+robocopy "%doc_dsloa%\Bits\language" "%tmp%\Bits\language" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\world\ai\jobs\%res%" "%tmp%\Bits\world\ai\jobs\%res%" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\world\ai\jobs\minibits" "%tmp%\Bits\world\ai\jobs\minibits" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\world\global\moods\%res%" "%tmp%\Bits\world\global\moods\%res%" /E /xf .gitignore
