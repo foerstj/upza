@@ -1,0 +1,20 @@
+[effect_script*]
+{
+	name	=upza_reaper_eye_glow;
+
+	script	=[[	
+			sfx create fireb  #TARGET 
+				"offset(.24,.07,.06)velocity(20,-15,40)scale(.1)color0(.1,.8,.2)
+					alphafade(4)lower_r0(0)lower_r1(0)upper_r0(0)upper_r1(0)
+					count(30)fctrl(0,0,-.1)flamesize(1.5)bone_orient()";
+			sfx attach_point #PEEK Bip01_Head target;
+			sfx start #POP;
+			
+			sfx create fireb  #TARGET 
+				"offset(.24,.07,-.06)velocity(20,-15,-40)scale(.1)color0(.1,.8,.2)
+					alphafade(4)lower_r0(0)lower_r1(0)upper_r0(0)upper_r1(0)
+					count(30)fctrl(0,0,-.1)flamesize(1.5)bone_orient()";
+			sfx attach_point #PEEK Bip01_Head target;
+			sfx start #POP;
+			]];
+}

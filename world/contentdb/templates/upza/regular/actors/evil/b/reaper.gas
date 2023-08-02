@@ -16,4 +16,16 @@
 			es_weapon_hand = st_un_upza_reaper;
 		}
 	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("upza_reaper_eye_glow");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
 }
