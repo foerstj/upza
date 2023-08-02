@@ -46,4 +46,15 @@
 [t:template,n:st_un_upza_reaper_base]
 {
     specializes = st_un_dsx_angk_guardian_base;
+
+    [effect_manager]
+    {
+        start_msg = WE_ENTERED_WORLD;
+        stop_msg = WE_LEFT_WORLD;
+        effect_name = "";
+        rep_effect_name = "shadow_jumper_sword_lightning";
+        repeat_rate = .25;
+        repeat_rate_max = .5;
+        run_once = true;
+    }
 }
