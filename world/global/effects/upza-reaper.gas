@@ -55,3 +55,14 @@
 			sfx start #POP;
 			]];
 }
+
+[effect_script*]
+{
+	name	=unique_light_reaper;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(.2,1,.2)color1(.2,1,.2)frequency(1)iradius(8)radius(16)";
+			sfx start #POP;
+			]];
+}

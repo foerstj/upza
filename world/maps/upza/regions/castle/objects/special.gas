@@ -3990,7 +3990,6 @@
 			[*]
 			{
 				action* = send_world_message("we_req_activate",0x07000771,0f,"default","every",0), doc("black");
-				action* = send_world_message("we_req_activate",0x0700077A,1f,"default","every",0), doc("green");
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -4006,7 +4005,6 @@
 			[*]
 			{
 				action* = send_world_message("we_req_deactivate",0x07000771,0f,"default","every",0), doc("black");
-				action* = send_world_message("we_req_deactivate",0x0700077A,0f,"default","every",0), doc("green");
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
 			  f delay = 0.000000;

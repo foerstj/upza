@@ -26,24 +26,3 @@
 	  p position = -0.572143,0.5,0.951931,0xe575dfb7;
 	}
 }
-[t:light_enable,n:0x0700077a]
-{
-	[common]
-	{
-		dev_instance_text = "GREEN";
-	}
-	[light_enable]
-	{
-	  f fizzle_duration = 3;
-	  f flare_magnitude = 1;
-	  b initially_active = false;
-	  x siege_light = 0x25720533;
-	  b use_fizzle = true;
-	  b use_flare = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707106,0,0.707107;
-	  p position = 0.512604,0.5,0.927196,0xe575dfb7;
-	}
-}

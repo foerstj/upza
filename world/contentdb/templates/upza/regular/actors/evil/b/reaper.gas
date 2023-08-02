@@ -26,6 +26,13 @@
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 			}
+			[*]
+			{
+				single_shot = true;
+				no_trig_bits = true;
+				condition*	= receive_world_message("we_enemy_spotted");
+				action* 	= call_sfx_script("unique_light_reaper(sgx)");
+			}
 		}
 	}
 }
