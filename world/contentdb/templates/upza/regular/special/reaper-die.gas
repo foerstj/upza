@@ -1,0 +1,44 @@
+// for spiralling-upwards animation
+[t:template,n:upza_reaper_die]
+{
+	specializes = non_interactive;
+
+	category_name = "special";
+	doc = "dying reaper";
+
+	[aspect]
+	{
+		model = m_c_edm_rp_pos_1;
+        scale_base = 1.5;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script( "upza_reaper_die" );  // green spiral & rays
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gan_sk_fs;
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = transition;
+				[anim_files] { 00=di-02; }
+			}
+		}
+	}
+	[self_destruct]
+	{
+		delete_msg = WE_ANIM_DONE;
+	}
+}
