@@ -3250,6 +3250,10 @@
 	{
 	  b interest_only = true;
 	}
+	[common]
+	{
+		dev_instance_text = "throne room";
+	}
 	[light_enable]
 	{
 	  x siege_light = 0xA7863AA8;
