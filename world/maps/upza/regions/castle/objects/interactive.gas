@@ -40,14 +40,14 @@
 }
 [t:wood_glb_pile_fireplace_burnt_lightable,n:0x070001cd]
 {
+	[placement]
+	{
+	  p position = 1.85292,-3.95,3.05647,0xfd7d60b1;
+	}
 	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x0700028A;
-	}
-	[placement]
-	{
-	  p position = 1.85292,-3.95,3.05647,0xfd7d60b1;
 	}
 }
 [t:candle_glb_01_lightable,n:0x07000286]
