@@ -12,18 +12,6 @@
 		fog_density			= 1.0f;
 	}
 
-	[rain]
-	{
-		rain_density		= 400.0f;
-		lightning			= true;
-	}
-
-	[wind]
-	{
-		wind_velocity		= 3.0f;
-		wind_direction		= 2.0f;
-	}
-
 	[music]
 	{
 		ambient_track		= "";
