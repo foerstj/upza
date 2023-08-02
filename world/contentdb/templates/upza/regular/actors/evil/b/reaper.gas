@@ -45,15 +45,13 @@
 	}
     [physics]
     {
+		break_effect = blood_mist;
+		break_sound = s_e_meat_explosion;
+		gib_gore_good = true;
 		[break_particulate]
 		{
-			// 10x skeleton
-			frag_glb_bone_01 = 10;
-			frag_glb_bone_02 = 10;
-			frag_glb_bone_03 = 10;
-			frag_glb_bone_04 = 40;
-			frag_glb_bone_05 = 10;
-			frag_glb_bone_06 = 10;
+            // just loads of bloody skulls
+			frag_glb_upza_skull = 128;
 		}
     }
 	// white mist
@@ -62,6 +60,29 @@
 		effect=dsx_elemental_air_die2;
 		effectDelay=.25;
 		lifeSpan=6;
+	}
+}
+
+[t:template,n:frag_glb_upza_skull]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-bone-06;
+		[textures] {0 = b_c_ecm_sk-02; }
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("gib_blood");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
 	}
 }
 
