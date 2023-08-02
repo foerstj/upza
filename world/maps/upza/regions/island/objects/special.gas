@@ -57,8 +57,8 @@
 				action* = send_world_message("we_req_talk_begin",0x079002D6,0f,"0x4006","party_member_within_sphere",0), delay(1);
 				action* = send_world_message("we_req_activate",0x079002CB,0f,"default","every",0);
 				action* = mood_change("upza_island_intro_start");
-				action* = mood_change("upza_island_intro_water"), delay(2);
-				action* = mood_change("multiplayer_world_island_2_2"), delay(32);
+				action* = mood_change("upza_island_intro_water"), delay(15);
+				action* = mood_change("multiplayer_world_island_2_2"), delay(45);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(2.500000,"on_first_enter");
 			  f delay = 0.000000;
