@@ -1,0 +1,49 @@
+[t:template,n:st_un_dsx_angk_guardian_base]  // = st_un_dsx_angk_guardian
+{
+	doc = "DSX rune_guardian_scythe -- Monster Version";
+	specializes = st_un_dsx_angk_base;
+	[aspect]
+	{
+		model = m_w_stf_rg100;
+	}
+	[attack]
+	{
+		damage_max = 90;
+		damage_min = 75;
+	}
+	gui:is_droppable = false;
+	[magic]
+	{
+		[enchantments]
+		{
+			[lightning_chance]
+			{
+				alteration		= alter_custom_damage_chance_melee;
+				custom_damage		= lightning;
+				value			= 35;
+				description		= "+35% Chance of Lightning Strike";
+				duration		= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[lightning_damage]
+			{
+				alteration		= alter_custom_damage_melee;
+				custom_damage		= lightning;
+				value			= 25;
+				max_value		= 35;
+				description		= " of 25 to 35 Damage";
+				duration		= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+				effect_script_hit	= hit_lightning_scythe;
+			}
+		}
+	}
+}
+
+[t:template,n:st_un_upza_reaper] { specializes = st_un_upza_reaper_base; }
+[t:template,n:st_un_upza_reaper_base]
+{
+    specializes = st_un_dsx_angk_guardian_base;
+}

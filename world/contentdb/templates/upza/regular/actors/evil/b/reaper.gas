@@ -4,4 +4,16 @@
 
 	category_name = "1W_evil_b";
 	doc = "The Reaper";
+
+    [aspect]
+    {
+		scale_base = 1.5;
+    }
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_un_upza_reaper;
+		}
+	}
 }
