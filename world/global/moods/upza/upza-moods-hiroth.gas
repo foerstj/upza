@@ -282,11 +282,11 @@
 		room_type			= rt_generic;
 	}
 }
-[mood_setting*]  // 3	//inside the castle
+[mood_setting*]  // inside
 {
 	//pretty close fog; this area is murder on framerate, close
 	//fog should help
-	mood_name				= upza_castle_3;
+	mood_name				= upza_castle_inside;
 	transition_time			= 1.0f;
 	interior				= true;
 
@@ -312,40 +312,6 @@
 	{
 		ambient_track		= "";
 		standard_repeat_delay = 10.0f;
-		standard_track		= "s_m_the_dead_theme";
-		room_type			= rt_generic;
-	}
-}
-[mood_setting*]  // 4	//inside the castle
-{
-	//pretty close fog; this area is murder on framerate, close
-	//fog should help
-	mood_name				= upza_castle_4;
-	transition_time			= 1.0f;
-	interior				= true;
-
-	[fog]
-	{
-		fog_near_dist		= 20.0f;
-		fog_far_dist		= 30.0f;
-		fog_lowdetail_near_dist		= 20.0f;
-		fog_lowdetail_far_dist		= 25.0f;
-		fog_color			= 0xFF000000;
-		fog_density			= 0.5f;
-	}
-
-	[frustum]
-	{
-		frustum_width		= 45.0f;
-		frustum_height		= 60.0f;
-	}
-
-	[rain] {} // empty [rain] block for lightning manipulation
-
-	[music]
-	{
-		ambient_track		= "";
-		standard_repeat_delay = 0.0f;
 		standard_track		= "s_m_the_dead_theme";
 		room_type			= rt_generic;
 	}
