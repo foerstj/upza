@@ -2,6 +2,7 @@
 {
 	name	=upza_reaper_eye_glow;
 
+    // based on gargoyle_eye_glow
 	script	=[[	
 			sfx create fireb  #TARGET 
 				"offset(.24,.07,.06)velocity(20,-15,40)scale(.1)color0(.2,1,.2)
@@ -23,6 +24,7 @@
 {
 	name	=upza_reaper_scythe_lightning;
 
+    // based on shadow_jumper_sword_lightning
 	script	=[[
 
 			frandrange 0 6.283;
@@ -60,9 +62,42 @@
 {
 	name	=unique_light_reaper;
 
+    // based on unique_light_green
 	script	=[[
 			sfx create lightsource #TARGET 
 				"color0(.2,1,.2)color1(.2,1,.2)frequency(1)iradius(8)radius(16)";
 			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=upza_reaper_die;
+
+    // based on swamp_witch_skeleton
+	script	=[[
+			sfx create fire #TARGET
+			"offset(0,1,0)ts(.5)scale(.5)dur(1.33)flamesize(2)count(100)
+			color0(.4,1,.4)color1(0,.2,.2)velocity(0,20,0)accel(0,-4,0)
+			alphafade(0.65)min_displace(0)max_displace(0)min_radius(0)
+			max_radius(5)radius(.66)";
+			
+			
+			sfx snap_to_ground #PEEK;
+			sfx start #POP;
+			
+			sfx create sray #TARGET 
+				"dur(1)scale(.8)radius(1)lmin(1.25)lmax(1.25)color0(.15,.25,.25)
+				color1(.2,1,.2)";
+			sfx start #POP; 
+			
+			sfx create spe #TARGET 
+				"offset(0,0,0)tin(1)tout(1)ts(1)color0(.1,.6,.2)texture(b_sfx_splotches_02)
+				radius(.6)scale(.1)count(100)dur(2)index0(0,-1.57,1.57)
+				index1(0,-1.57,1.57)speed0(10,0,10)speed1(10,0,10)space0(.1256,.02612,.1256)
+				space1(.1256,.02612,.1256)";
+			sfx start #POP;
+		
+			
 			]];
 }

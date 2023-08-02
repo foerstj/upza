@@ -35,4 +35,77 @@
 			}
 		}
 	}
+
+	// spiralling-upwards animation
+	[generator_in_object]
+	{
+		child_template_name = upza_reaper_die;
+		spawn_event = WE_KILLED;
+		spawn_chance = 1.0;
+	}
+    [physics]
+    {
+		[break_particulate]
+		{
+			// 10x skeleton
+			frag_glb_bone_01 = 10;
+			frag_glb_bone_02 = 10;
+			frag_glb_bone_03 = 10;
+			frag_glb_bone_04 = 40;
+			frag_glb_bone_05 = 10;
+			frag_glb_bone_06 = 10;
+		}
+    }
+	// white mist
+	[effect_aftereffect]
+	{
+		effect=dsx_elemental_air_die2;
+		effectDelay=.25;
+		lifeSpan=6;
+	}
+}
+
+// for spiralling-upwards animation
+[t:template,n:upza_reaper_die]
+{
+	specializes = non_interactive;
+
+	category_name = "special";
+	doc = "dying reaper";
+
+	[aspect]
+	{
+		model = m_c_edm_rp_pos_1;
+        scale_base = 1.5;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script( "upza_reaper_die" );  // green spiral & rays
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gan_sk_fs;
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = transition;
+				[anim_files] { 00=di-02; }
+			}
+		}
+	}
+	[self_destruct]
+	{
+		delete_msg = WE_ANIM_DONE;
+	}
 }
