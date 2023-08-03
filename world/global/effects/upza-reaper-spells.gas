@@ -90,6 +90,8 @@
 				scale_range(0,.5,0)texture(b_sfx_sparkle01)color0(.7,.7,1)
 				radius(.4)fade_range(0,1,0)count(25)dur(0.5)";
 			sfx start #POP;
+
+			worldmsg WE_SPELL_SYNC_MID #INVALID_GOID #OWNER_GOID #TARGET_GOID;
 			]];
 }
 
