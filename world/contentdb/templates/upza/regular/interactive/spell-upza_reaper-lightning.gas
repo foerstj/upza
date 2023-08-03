@@ -32,5 +32,5 @@
 		usage_context_flags = uc_offensive;
 		cast_sub_animation = 2;
 	}
-	[spell_instant_hit] { timeout = 0.5; }
+	[spell_instant_hit] {}
 }
