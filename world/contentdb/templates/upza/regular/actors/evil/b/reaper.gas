@@ -180,11 +180,12 @@
 		actor_weapon_preference			= WP_MAGIC;
 		actor_auto_switches_to_magic	= true;
 
-		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+		jat_cast 						= world\ai\jobs\upza\job_cast.skrit
 			?rand_spell					= true
 			&use_self_cast_anim			= true
 			&use_base_duration			= false
 			&check_range				= true
+            &switch_chance              = 0.2
 			&spell_chances				= "0.1, 0.1, 0.2, 0.3, 0.1, 0.0, 0.2"
 			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning, spell_upza_reaper_poison_breath, spell_upza_reaper_poison_cloud, spell_upza_reaper_summon";
     }
