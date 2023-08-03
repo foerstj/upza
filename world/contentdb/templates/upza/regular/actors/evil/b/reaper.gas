@@ -69,6 +69,16 @@
 		}
 	}
 
+    // Stats
+	[aspect]
+	{
+		experience_value = 113;
+		life = 132;
+		max_life = 132;
+		mana = 10;
+		max_mana = 10;
+	}
+
 	// Attacks
 	[body]
 	{
@@ -129,7 +139,7 @@
 				{
                     // EDITED
 					00=mg;
-					01=mg;
+					01=mg-push;  // push for blast
 					02=mg;
 					03=mg;
 					04=mg;
@@ -173,8 +183,8 @@
 			?rand_spell					= true
 			&use_self_cast_anim			= true
 			&use_base_duration			= false
-			&spell_chances				= "0.5, 0.5"
-			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force";
+			&spell_chances				= "0.3, 0.3, 0.4"
+			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast";
     }
 	[inventory]
 	{
@@ -183,6 +193,7 @@
 		{
 			il_active_primary_spell = spell_upza_reaper_skull_storm;
 			il_spell_1 = spell_upza_reaper_force;
+            il_spell_2 = spell_upza_reaper_blast;
 		}
     }
 
