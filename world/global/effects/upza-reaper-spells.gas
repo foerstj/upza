@@ -54,3 +54,41 @@
 			sfx start #POP;
 		]];
 }
+
+[effect_script*]
+{
+	name	=upza_reaper_lightning_strike;
+
+    // based on storm
+	script	=[[
+			sound play s_e_spell_lightning_cast at #TARGET_POSITION dist 1 45;
+
+			sfx create lightning #TARGET 
+				"must_update()bolt_life(.3)scale(1.5)color0(.7,.7,1)
+				mindisplace(-.2)maxdisplace(.2)subd(.3)minsubd(.1)dur(0.5)";
+			set $bolt #POP;
+			sfx target $bolt target;
+			sfx offset_bone $bolt v<0 15 0> target;
+			sfx start $bolt;
+
+			sfx create lightning #TARGET 
+				"must_update()bolt_life(.3)scale(1.5)color0(.7,.7,1)
+				mindisplace(-.1)maxdisplace(.1)subd(.3)minsubd(.1)dur(0.5)";
+			set $bolt2 #POP;
+			sfx target $bolt2 target;
+			sfx offset_bone $bolt2 v<0 15 0> target;
+			sfx start $bolt2;
+
+			sfx create fire #TARGET 
+				"must_update()count(10)color0(.7,.7,1.)color1(.1,.1,.1)
+				delay(.2)scale(.66)max_radius(4)velocity(0,20,0)accel(0,20,0)
+				dur(0.5)";
+			sfx start #POP;
+
+			sfx create explosion #TARGET 
+				"must_update()srate(.02)vmin(4)vmax(8)ivel(0,1.5,0)rvel(5,1.5,5)
+				scale_range(0,.5,0)texture(b_sfx_sparkle01)color0(.7,.7,1)
+				radius(.4)fade_range(0,1,0)count(25)dur(0.5)";
+			sfx start #POP;
+			]];
+}

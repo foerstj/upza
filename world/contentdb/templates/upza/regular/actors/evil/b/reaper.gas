@@ -140,10 +140,10 @@
                     // EDITED
 					00=mg;
 					01=mg-push;  // push for blast
-					02=mg;
+					02=mg-scythe;  // scythe-bam for lightning
 					03=mg;
 					04=mg;
-					05=mg-02;  // hands up for skull-storm
+					05=mg-02;  // hands-up for skull-storm
 					06=mg;
 					07=mg-push;  // push for force
 				}
@@ -183,8 +183,8 @@
 			?rand_spell					= true
 			&use_self_cast_anim			= true
 			&use_base_duration			= false
-			&spell_chances				= "0.3, 0.3, 0.4"
-			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast";
+			&spell_chances				= "0.25, 0.25, 0.25, 0.25"
+			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning";
     }
 	[inventory]
 	{
@@ -194,6 +194,7 @@
 			il_active_primary_spell = spell_upza_reaper_skull_storm;
 			il_spell_1 = spell_upza_reaper_force;
             il_spell_2 = spell_upza_reaper_blast;
+            il_spell_3 = spell_upza_reaper_lightning;
 		}
     }
 
