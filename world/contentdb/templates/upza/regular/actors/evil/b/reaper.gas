@@ -6,6 +6,38 @@
 	category_name = "1W_evil_b";
 	doc = "The Reaper";
 
+    // Endboss things
+    [actor]
+    {
+        is_charmable = false;
+        is_possessable = false;
+    }
+    [common]
+    {
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;  // from gom
+    }
+    [mind]
+    {
+		on_engaged_lost_consciousness_abort_attack = false;
+    }
+
+    // Stand still
+    [body]
+    {
+        avg_move_velocity = 0;
+        min_move_velocity = 0;
+        max_move_velocity = 0;
+    }
+    [mind]
+    {
+		jat_flee_from_object					= jat_none;
+		jat_guard											= jat_none;
+		jat_move											= jat_none;
+		jat_patrol										= jat_none;
+		movement_orders							= mo_hold;
+    }
+
+	// Looks
     [aspect]
     {
 		scale_base = 1.5;
@@ -19,7 +51,6 @@
 	}
 	[common]
 	{
-		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;  // from gom
 		[template_triggers]
 		{
 			[*]
@@ -38,6 +69,7 @@
 		}
 	}
 
+	// Attacks
 	[body]
 	{
         // Animations from NPC skeleton + original reaper animations, EDITED
@@ -132,7 +164,6 @@
 	}
     [mind]
     {
-		on_engaged_lost_consciousness_abort_attack = false;
 		actor_weapon_preference			= WP_MAGIC;
 		actor_auto_switches_to_magic	= true;
     }
@@ -145,6 +176,7 @@
 		}
     }
 
+    // Kill Effects
 	// spiralling-upwards animation
 	[generator_in_object]
 	{
