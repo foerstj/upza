@@ -1,10 +1,10 @@
-[t:template,n:spell_upza_reaper_acid_cloud] { specializes = spell_upza_reaper_acid_cloud_base; }
-[t:template,n:spell_upza_reaper_acid_cloud_base]
+[t:template,n:spell_upza_reaper_poison_cloud] { specializes = spell_upza_reaper_poison_cloud_base; }
+[t:template,n:spell_upza_reaper_poison_cloud_base]
 {
 	specializes = base_spell_monster;
 
 	category_name = "magic";
-	doc = "spell acid cloud";
+	doc = "spell poison cloud";
 
 	[aspect]
 	{
