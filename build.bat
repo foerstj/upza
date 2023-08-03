@@ -71,6 +71,7 @@ if %errorlevel% neq 0 pause
 :: Compile resource file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_dsloa%\Bits\art" "%tmp%\Bits\art" *.nnk /S
+robocopy "%doc_dsloa%\Bits\art\animations" "%tmp%\Bits\art\animations" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\art\bitmaps" "%tmp%\Bits\art\bitmaps" /E /xf .gitignore /xf *.psd
 robocopy "%doc_dsloa%\Bits\art\meshes" "%tmp%\Bits\art\meshes" /E /xf .gitignore
 robocopy "%doc_dsloa%\Bits\art\terrain\generic" "%tmp%\Bits\art\terrain\generic" /E /xf .gitignore /xf .bak
