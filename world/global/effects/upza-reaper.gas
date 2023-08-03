@@ -31,7 +31,7 @@
 			frandrange -.3 .3;
 			frandrange .5 1.5;
 			sfx create orbiter #TARGET 
-				"tin(0)scale(.6)color0(.2,1,.2)dur(.4)radius(#POP)iphi(#POP)
+				"tin(0)scale(.6)color0(.7,.7,1)dur(.4)radius(#POP)iphi(#POP)
 				phi(#POP)tin(0)tout(0)";
 			sfx attach_point #PEEK AP_trace01 target; 
 			sfx snap_to_ground #PEEK;
@@ -40,7 +40,7 @@
 			
 			frandrange 0 -1.9;
 			sfx create orbiter #TARGET 
-				"scale(.5)offset(.1,0,#POP)color0(.2,1,.2)dur(.4)radius(0)
+				"scale(.5)offset(.1,0,#POP)color0(.7,.7,1)dur(.4)radius(0)
 				bone_orient()tin(0)tout(0)";
 			sfx attach_point #PEEK AP_trace01 target; 
 			set $orb2 #POP;
@@ -49,7 +49,7 @@
 			pause 0;
 
 			sfx create lightning #TARGET 
-				"ts(.1)color0(.2,1,.2)mindisplace(-.3)maxdisplace(.3)";
+				"ts(.1)color0(.7,.7,1)mindisplace(-.3)maxdisplace(.3)";
 			sfx rat #PEEK;
 			sfx target #PEEK $orb;
 			sfx offset_bone #PEEK v<0 -.1 0> target;
