@@ -92,3 +92,53 @@
 			sfx start #POP;
 			]];
 }
+
+[effect_script*]
+{
+	name	=upza_reaper_poison_breath;
+
+    // based on gom_flamethrower
+	script	=[[
+            //pause .2;
+            
+            sound play s_e_spell_gom_flamethrower_cast at #SOURCE_POSITION dist 10 30;
+            
+            set $accel 0,0,0;
+
+			set $flames1 100;
+			set $flames2 100;
+
+			set $width1 20;
+			set $width2 40;
+
+			sfx create fireb #SOURCE 
+				"must_update()dark()fctrl(0,1,10)flamesize(4)alphafade(.5)ts(.5)dur(1.75)
+				color0(.4,1,0)velocity(0,60,2)accel($accel)cvel(1)lower_r0(0)
+				lower_r1(0)upper_r0($width1)upper_r1($width2)count($flames2)
+				bone_orient()[0]";
+			sfx attach_point #PEEK bip01_head target;
+			sfx friendly party #PEEK;
+			sfx start #POP;
+
+			sfx create fireb #SOURCE 
+				"must_update()fctrl(0,0,1)flamesize(.3)alphafade(.5)ts(.5)dur(1.75)
+				color0(1,1,0)velocity(0,60,0)accel($accel)cvel(1)lower_r0(0)
+				lower_r1(0)upper_r0($width1)upper_r1($width2)count($flames2)
+				bone_orient()";
+			sfx attach_point #PEEK bip01_head target;
+			sfx friendly party #PEEK;
+			sfx start #POP;
+
+			sfx create fireb #SOURCE 
+				"must_update()fctrl(0,1,10)flamesize(1)alphafade(.5)ts(.5)dur(1.75)
+				color0(.6,.8,0)velocity(0,60,-2)accel($accel)cvel(1)
+				lower_r0(3)lower_r1(5)upper_r0($width1)upper_r1(60)
+				count($flames2)bone_orient()";
+			sfx attach_point #PEEK bip01_head target;
+			sfx friendly party #PEEK;
+			sfx start #POP;
+
+			worldmsg WE_SPELL_SYNC_END #INVALID_GOID #OWNER_GOID #TARGET_GOID;
+
+           	]];
+}
