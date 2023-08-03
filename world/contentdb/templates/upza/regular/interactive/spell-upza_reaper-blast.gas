@@ -17,7 +17,7 @@
 		mana_cost = 0;
 		requires_line_of_sight = true;
 		speed_bias = 1;
-		target_type_flags = tt_conscious_enemy;
+		target_type_flags = tt_conscious_enemy | tt_unconscious_enemy;
 		usage_context_flags = uc_offensive;
 	}
 	[spell_damage_volume]
