@@ -145,7 +145,7 @@
 					03=at;  // scythe-swing for poison-breath
 					04=at;  // scythe-swing for poison-cloud
 					05=mg-02;  // hands-up for skull-storm
-					06=mg;
+					06=mg-02;  // hands-up for summon
 					07=mg-push;  // push for force
 				}
 			}
@@ -185,8 +185,8 @@
 			&use_self_cast_anim			= true
 			&use_base_duration			= false
 			&check_range				= true
-			&spell_chances				= "0.15, 0.15, 0.2, 0.3, 0.1, 0.1"
-			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning, spell_upza_reaper_poison_breath, spell_upza_reaper_poison_cloud";
+			&spell_chances				= "0.1, 0.1, 0.2, 0.3, 0.1, 0.1, 0.1"
+			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning, spell_upza_reaper_poison_breath, spell_upza_reaper_poison_cloud, spell_upza_reaper_summon";
     }
 	[inventory]
 	{
@@ -199,6 +199,7 @@
             il_spell_3 = spell_upza_reaper_lightning;
             il_spell_4 = spell_upza_reaper_poison_breath;
             il_spell_5 = spell_upza_reaper_poison_cloud;
+            il_spell_6 = spell_upza_reaper_summon;
 		}
     }
 
