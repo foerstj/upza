@@ -1,4 +1,5 @@
-[t:template,n:upza_reaper]
+[t:template,n:upza_reaper] { specializes = upza_reaper_base; }
+[t:template,n:upza_reaper_base]
 {
 	specializes = base_grim_reaper;
 
@@ -18,6 +19,7 @@
 	}
 	[common]
 	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;  // from gom
 		[template_triggers]
 		{
 			[*]
@@ -35,6 +37,21 @@
 			}
 		}
 	}
+
+    [mind]
+    {
+		on_engaged_lost_consciousness_abort_attack = false;
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+    }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell=spell_gom_skull_storm;
+		}
+    }
 
 	// spiralling-upwards animation
 	[generator_in_object]
