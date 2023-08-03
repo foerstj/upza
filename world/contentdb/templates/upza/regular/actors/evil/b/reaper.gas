@@ -134,6 +134,8 @@
 					03=mg;
 					04=mg;
 					05=mg-02;  // hands up for skull-storm
+					06=mg;
+					07=mg;  // push for force
 				}
 			}
 			[chore_misc]
@@ -166,6 +168,13 @@
     {
 		actor_weapon_preference			= WP_MAGIC;
 		actor_auto_switches_to_magic	= true;
+
+		jat_cast 						= world\ai\jobs\common\job_cast.skrit
+			?rand_spell					= true
+			&use_self_cast_anim			= true
+			&use_base_duration			= false
+			&spell_chances				= "0.5, 0.5"
+			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force";
     }
 	[inventory]
 	{
@@ -173,6 +182,7 @@
 		[other]
 		{
 			il_active_primary_spell = spell_upza_reaper_skull_storm;
+			il_spell_1 = spell_upza_reaper_force;
 		}
     }
 
