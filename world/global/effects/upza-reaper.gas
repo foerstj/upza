@@ -72,6 +72,85 @@
 
 [effect_script*]
 {
+	name	=upza_reaper_poison_aura;
+
+	script	=[[
+            pause 1;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+            pause .1;
+			call upza_reaper_poison_aura_sub;
+			]];
+}
+[effect_script*]
+{
+	name	=upza_reaper_poison_aura_sub;
+
+    // based on dsx_swamp_gas_puff and acid_cloud
+	script	=[[	
+			frandrange .2 .3;
+            frandrange -3.15 3.15;
+			sfx create orbiter #TARGET 
+				"invisible()radius(8)phi(#POP)iphi(#POP)free()";
+			set $orb #POP;
+			sfx start $orb;
+			
+			frandrange -.15 -.2;
+            frandrange -3.15 3.15;
+			sfx create orbiter #TARGET 
+				"invisible()radius(8)phi(#POP)iphi(#POP)free()";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			set $orb2 #POP;
+			sfx start $orb2;
+
+			set $scale 1;
+			
+			sfx create fire #TARGET 
+				"ts(.2)must_update()offset(0,0,-.66)delay(.1)
+				scale($scale)color0(.1,.15,.05)color1(.02,.02,.02)count(10)velocity(0,-4,0)
+				texture(b_sfx_mist_01)accel(0,10,0)alphafade(.45)flamesize(4)max_radius(25)
+				min_displace(-.33)max_displace(.66)fdamage(150,180,2)damage()";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+			
+			sfx create fire #TARGET 
+				"ts(.2)must_update()offset(0,0,-.66)delay(.2)scale($scale)texture(b_sfx_mist_01)
+				color0(.4,.4,.15)count(7)velocity(0,-15,0)accel(0,40,0)max_displace(.33)
+				alphafade(.85)flamesize(.1)max_radius(16)fctrl(0,0,0)min_displace(-1)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+			
+			sfx create fire #TARGET 
+				"ts(.2)must_update()offset(0,0,-.66)delay(.3)scale($scale)texture(b_sfx_mist_01)max_displace(.85)
+				color0(.35,.75,.15)color1(.05,.05,.05)count(7)velocity(0,5,0)accel(0,0,0)alphafade(.75)
+				flamesize(.1)min_radius(22)max_radius(24)[0]min_displace(-0.8)fctrl(0,0,0)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
 	name	=upza_reaper_die;
 
     // based on swamp_witch_skeleton

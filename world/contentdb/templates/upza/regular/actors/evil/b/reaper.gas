@@ -65,6 +65,7 @@
 				no_trig_bits = true;
 				condition*	= receive_world_message("we_enemy_spotted");
 				action* 	= call_sfx_script("unique_light_reaper(sgx)");
+				action* 	= call_sfx_script("upza_reaper_poison_aura");
 			}
 		}
 	}
