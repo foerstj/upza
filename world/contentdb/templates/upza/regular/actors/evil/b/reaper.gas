@@ -38,6 +38,98 @@
 		}
 	}
 
+	[body]
+	{
+        // Animations from NPC skeleton + original reaper animations, EDITED
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gan_sk_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_attack;
+				[anim_files]
+				{
+					0mid = at;
+					high = at-02;
+					loww = at-03;
+					qffg = dff;
+				}
+		 	  	[anim_durations]
+				{
+					fs0 = 1.250;
+					fs1 = 0.830;
+					fs2 = 0.830;
+					fs3 = 1.250;
+					fs4 = 1.250;
+					fs5 = 1.250;
+					fs6 = 1.000;
+					fs7 = 0.125;
+					fs8 = 1.000;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = ignore;
+				skrit = infinite_loop;
+				[anim_files] { 00=a_c_edm_rp_fs5_ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = ignore;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = a_c_edm_rp_fs5_dsf;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0,5;
+				skrit = select_attack;
+				[anim_files]
+				{
+                    // EDITED
+					00=mg;
+					01=mg;
+					02=mg;
+					03=mg;
+					04=mg;
+					05=mg-02;  // hands up for skull-storm
+				}
+			}
+			[chore_misc]
+			{
+				chore_stances = ignore;
+				skrit = select_transition;
+				[anim_files]
+				{
+					drnk = a_c_gan_sk_fs1_dk;
+					gtup = a_c_gan_sk_fs0_up;
+					frtd = a_c_gan_sk_fs0_dsf-02;
+                    // EDITED to add:
+                    at01 = a_c_gan_sk_fs5_at;  // staff attack, 1 swing
+                    at02 = a_c_gan_sk_fs5_at-02;  // staff attack, 2 swings
+                    at02 = a_c_gan_sk_fs5_at-03;  // same as at
+                    bamm = a_c_gan_sk_fs3_at-02;  // hammer attack making bamm with the scythe
+                    push = a_c_gan_sk_fs8_mg;  // magic push - hands look better in fs8 than fs5
+                    hsup = a_c_gan_sk_fs5_mg-02;  // put your hands up in the air
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
     [mind]
     {
 		on_engaged_lost_consciousness_abort_attack = false;
