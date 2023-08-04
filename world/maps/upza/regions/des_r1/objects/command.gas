@@ -5,31 +5,23 @@
 	  x target1 = 0x00700990;
 	  x target2 = 0x00700596;
 	}
-	[common]
+	[placement]
 	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x007005B6,0f,"default","every",0), doc("self-activate");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(30.000000,10.000000,20.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.241447,0,-0.766762,0xfe50c0ed;
+	}
+}
+[t:cmd_ai_t_attack_object,n:0x007005c0]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x00700A3B;
+	  x target2 = 0x00700596;
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.763244,0,-0.959503,0xfe50c0ed;
+	  p position = 0.926033,0,-0.692459,0xfe50c0ed;
 	}
 }
 [t:cmd_ai_t_attack_object,n:0x00700594]
