@@ -1,0 +1,49 @@
+[t:template,n:upza_droog_guard] { specializes = upza_droog_guard_base; }
+[t:template,n:upza_droog_guard_base]
+{
+	specializes = base_npc_dg;
+
+    category_name = "1W_character";
+	doc = "droog guard";
+	[aspect]
+	{
+		is_collidable = true;
+		[textures] { 0 = b_c_eam_dgg-02; }
+	}
+	[check_level] {}
+	[conversation] {}
+	[common] { screen_name="Droog Guard"; }
+
+    // Stats & equipment from droog_grunt_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength     = 35, 0;
+			intelligence = 13, 0;
+			dexterity    = 23, 0;
+			melee        = 43, 0;
+		}
+	}
+	[aspect]
+	{
+		life             = 1448;
+		max_life         = 1448;
+		mana             = 26;
+		max_mana         = 26;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 70;
+		damage_min = 50;
+	}
+	[defend] { defense=630; }
+    [inventory]
+    {
+        [equipment]
+        {
+            es_weapon_hand = sd_un_droog_1h_avg;
+        }
+    }
+}
