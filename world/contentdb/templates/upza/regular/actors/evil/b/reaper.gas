@@ -35,6 +35,7 @@
 		jat_move											= jat_none;
 		jat_patrol										= jat_none;
 		movement_orders							= mo_hold;
+		combat_orders                              = co_limited;
     }
 
 	// Looks
