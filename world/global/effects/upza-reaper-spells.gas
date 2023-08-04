@@ -1,3 +1,4 @@
+// Blast
 [effect_script*]
 {
 	name	=upza_reaper_blast;
@@ -22,7 +23,6 @@
 
 		]];
 }
-
 [effect_script*]
 {
 	name	=upza_reaper_blast_base;
@@ -55,6 +55,7 @@
 		]];
 }
 
+// Lightning Strike
 [effect_script*]
 {
 	name	=upza_reaper_lightning_strike;
@@ -95,6 +96,7 @@
 			]];
 }
 
+// Poison Breath
 [effect_script*]
 {
 	name	=upza_reaper_poison_breath;
@@ -142,5 +144,265 @@
 
 			worldmsg WE_SPELL_SYNC_END #INVALID_GOID #OWNER_GOID #TARGET_GOID;
 
+           	]];
+}
+
+// Heal
+[effect_script*]
+{
+	name	=upza_reaper_heal_base;
+
+    // based on gom_heal_base
+	script	=[[
+			
+			set $phi [0];
+			set $iphi [1];
+			set $theta [2];
+			set $itheta [3];
+			
+			sfx create orbiter #SOURCE 
+				"must_update()dur(3)invisible()offset(0,10,0)radius(15)
+				phi($phi)theta($theta)iphi($iphi)itheta($itheta)vdisplace(5)";
+			sfx attach_point #PEEK Bip01_Head target;
+			set $orb #POP;
+			sfx start $orb;
+			
+			sfx create orbiter #SOURCE
+				"must_update()color0(.1,1,.2)invisible()radius(0)dur(3.6)tin(2.1)
+				tout(.5)offset(0,2,0)scale(4)";
+			sfx attach_point #PEEK @body_anterior target;
+			set $orb2 #PEEK;
+			sfx start #POP;
+			
+			sfx create curve #TARGET 
+				"must_update()scale(.5)ts(3.25)color0(.25,1,.5)size(.4)spacing(2)curvature(.5)model(1)
+				must_update()";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+
+			pause .03;
+
+			sfx create curve #TARGET 
+				"must_update()scale(.5)ts(3.2)color0(.25,1,.5)size(.4)spacing(2)curvature(.5)model(1)
+				must_update()";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+
+			pause .03;
+
+			sfx create curve #TARGET 
+				"must_update()scale(.5)ts(3.15)color0(.25,1,.5))size(.4)spacing(2)curvature(.5)model(1)
+				must_update()";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+					
+			pause .03;
+
+			sfx create curve #TARGET 
+				"must_update()scale(.5)ts(3.1)color0(.25,1,.5)size(.4)spacing(2)curvature(.5)model(1)
+				must_update()";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+			]];
+}
+[effect_script*]
+{
+	name	=upza_reaper_heal_balls;
+
+    // based on gom_heal_balls
+	script	=[[
+			
+			frandrange -.5 .5;
+			frandrange -.5 .5;
+			frandrange 0 6.28;
+			
+			call upza_reaper_heal_base f<#POP> f<.5> f<#POP> f<#POP>;
+			]];
+}
+[effect_script*]
+{
+	name	=upza_reaper_heal;
+
+    // based on gom_heal
+	script	=[[
+			sfx create charge #SOURCE 
+				"must_update()count(32)color0(.25,1,.5)offset(0,2,0)radius(1)scale(2)
+				dur(2.1)ts(2)";
+			sfx attach_point #PEEK @body_anterior target;
+			sfx start #POP;
+			
+			sfx create orbiter #SOURCE
+				"must_update()color0(.1,1,.2)texture(b_sfx_sparkle01)radius(0)dur(3.6)tin(2.1)
+				tout(.5)offset(0,2,0)scale(6)";
+			sfx attach_point #PEEK @body_anterior target;
+			set $orb #PEEK;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-50)
+				hp0(20,-6,-50)rp1(.4,.4,0)rp0(.4,.4,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.25,1,.5)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-50)
+				hp0(40,0,-50)rp1(.4,.4,0)rp0(.4,.4,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.25,1,.5)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			
+			////
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(0,0,0)hp1(0,0,0)rp0(0,5,7)rp1(.75,6.75,8)tin(.10)
+				tout(2)dur(.66)color0(.25,1,.5)spin(15)segments(14)delay(.4)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(.1,.1,0)hp1(-.1,-.1,0)rp0(.75,6.75,8)rp1(.75,6.75,8)tin(.10)
+				tout(2)dur(.66)color0(.25,1,.5)spin(15)segments(14)delay(.4)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-60)
+				hp0(20,-6,-60)rp1(.5,.5,0)rp0(.5,.5,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.3,1,.6)delay(.4)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-60)
+				hp0(40,0,-60)rp1(.5,.5,0)rp0(.5,.5,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.3,1,.6)delay(.4)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			/////
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(0,0,0)hp1(0,0,0)rp0(0,5,7)rp1(.75,6.75,8)tin(.10)
+				tout(2)dur(.66)color0(.3,1,.6)spin(15)segments(14)delay(.8)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(.1,.1,0)hp1(-.1,-.1,0)rp0(.75,6.75,8)rp1(.75,6.75,8)tin(.10)
+				tout(2)dur(.66)color0(.3,1,.6)spin(15)segments(14)delay(.8)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-70)
+				hp0(20,-6,-70)rp1(.6,.6,0)rp0(.6,.6,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.35,1,.65)delay(.8)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-70)
+				hp0(40,0,-70)rp1(.6,.6,0)rp0(.6,.6,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.35,1,.65))delay(.8)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			/////
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(0,0,0)hp1(0,0,0)rp0(0,5,7)rp1(.75,6.75,8)tin(.10)
+				tout(2)dur(.66)color0(.35,1,.65)spin(15)segments(14)delay(1.20)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(.1,.1,0)hp1(-.1,-.1,0)rp0(.75,6.75,8)rp1(.75,6.75,8)tin(.10)
+				tout(2)dur(.66)color0(.35,1,.65)spin(15)segments(14)delay(1.2)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-80)
+				hp0(20,-6,-80)rp1(.7,.7,0)rp0(.7,.7,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.4,1,.7)delay(1.2)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #SOURCE
+				"must_update()tin(.5)tout(1.5)dur(2)segments(10)alpha(.35)hp1(30,-3,-80)
+				hp0(40,0,-80)rp1(.7,.7,0)rp0(.7,.7,0)texture(b_sfx_lightray_01)
+				spin(5)color0(.4,1,.7)delay(1.2)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			//////
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(0,0,0)hp1(0,0,0)rp0(0,8,7)rp1(.75,9.75,8)tin(.10)
+				tout(2)dur(.8)color0(.4,1,.7)spin(15)segments(14)delay(1.60)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			sfx create cylinder #TARGET_KB
+				"must_update()ts(1.3)offset(0,.05,0)scale(1)texture(b_sfx_cyl_03)
+				hp0(.1,.1,0)hp1(-.1,-.1,0)rp0(.75,9.75,8)rp1(.75,9.75,8)tin(.10)
+				tout(2)dur(.8)color0(.4,1,.7)spin(15)segments(14)delay(1.60)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb;
+			sfx start #POP;
+			
+			call upza_reaper_heal_balls;
+			
+			pause .35;
+			
+			call upza_reaper_heal_balls;
+			
+			pause .3;
+
+			call upza_reaper_heal_balls;
+
+			pause .25;
+			
+			call upza_reaper_heal_balls;
+			
+			pause .2;
+			
+			call upza_reaper_heal_balls;
+			
+			pause .15;
+
+			worldmsg WE_SPELL_SYNC_END #INVALID_GOID #OWNER_GOID #TARGET_GOID;			
            	]];
 }

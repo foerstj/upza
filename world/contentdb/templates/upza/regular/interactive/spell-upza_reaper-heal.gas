@@ -49,6 +49,17 @@
 {
     specializes = spell_gom_heal_base;
 
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("upza_reaper_heal");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
     [magic]
     {
 		[enchantments]
