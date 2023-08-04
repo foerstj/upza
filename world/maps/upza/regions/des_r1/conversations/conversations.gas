@@ -78,14 +78,14 @@
     [text*]
     {
         order = 0;
-        screen_text = "You are looking at the last survivor of the Utraean Historical Society and the Azunite Priesthood of the Utraean Peninsula. I saw High Priest Kavaren die when we...";
+        screen_text = "You are looking at the last survivor of the Utraean Historical Society and the Azunite Priesthood of the Utraean Peninsula. Priest Ferdl had just taken me in as his apprentice, when High Priest Kavaren summoned him. I saw Ferdl die when we...";
         choice = more;
     }
     [text*]
     {
         order = 1;
-        screen_text = "Oh the horror of that fateful night! Ever since the queen had died in Hiroth, things were getting worse in the kingdom. Kavaren had long pushed for the unification of the Circle, but as the situation in Hiroth was deteriorating and the townstones remained lost, he summoned us, Priestess Kylira of Grescal and myself, for one last desperate attempt to resurrect the queen.
-In our hurry, something must have gone terribly wrong. Maybe it was some ancient Utraean magic interfering with our own; they were known to meddle in otherworldly realms. When we had cast the final spell, there was a flash of pale green light, and Death himself stood right before us! As we stood petrified, he devoured the queen's corpse, then turned to us. He killed Kavaren with a single blow of his scythe. Kylira and I ran for our lives; she fell to the undead when she arrived in Grescal.
+        screen_text = "Oh the horror of that fateful night! Ever since the queen had died in Hiroth, things were getting worse in the kingdom. Kavaren had long pushed for the unification of the Circle, but as the situation in Hiroth was deteriorating and the townstones remained lost, he summoned Priest Ferdl and Priestess Kylira of Grescal, for one last desperate attempt to resurrect the queen. Ferdl took me with him to Hiroth.
+In their hurry, something must have gone terribly wrong. Maybe it was some ancient Utraean magic interfering with their own; the Utraeans were known to meddle in otherworldly realms. When Kavaren had cast the final spell, there was a flash of pale green light, and Death himself stood right before us! As we stood petrified, he devoured the queen's corpse, then turned to us. He killed Kavaren with a single blow of his scythe. We all ran for our lives, but the priests had already been poisoned - I had been standing a bit further away. Ferdl fell to the undead when he arrived back in Quillrabe. We threw him down from the southern walls; and in a regrettable frenzy, my Droog brothers threw down the other Humans as well.
 This was the night the undead hordes swept across the Peninsula. It took them less than a week to conquer the former kingdom. I saw it all in my visions.";
         choice = more;  // talk skrit leads to next convo depending on quests. -> _quest_both, _react_reaperdone, or _react_maljindone
     }
@@ -169,7 +169,7 @@ The Mask Stone of Quillrabe is in the possession of the Dragon Queen. I never dr
     [text*]
     {
         screen_text = "So you managed to banish the demonic force of the Maljin with the help of the Tenstone? Praised be Azunai the Defender!
-Well now, I'm a priest, a mage, and a historian, and I never thought I'd say this - but maybe we should stop dabbling in ancient Utraean magicks.";
+Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never thought I'd say this - but maybe we should stop dabbling in ancient Utraean magicks.";
         choice = more;  // -> _quest_reaperonly or _alldone
     }
 }
