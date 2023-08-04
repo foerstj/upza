@@ -1,3 +1,4 @@
+// Eye Glow
 [effect_script*]
 {
 	name	=upza_reaper_eye_glow;
@@ -20,6 +21,7 @@
 			]];
 }
 
+// Scythe Lightning
 [effect_script*]
 {
 	name	=upza_reaper_scythe_lightning;
@@ -58,6 +60,7 @@
 			]];
 }
 
+// Unique Light
 [effect_script*]
 {
 	name	=unique_light_reaper;
@@ -70,6 +73,7 @@
 			]];
 }
 
+// Poison Aura
 [effect_script*]
 {
 	name	=upza_reaper_poison_aura;
@@ -123,16 +127,16 @@
 			set $scale 1;
 			
 			sfx create fire #TARGET 
-				"ts(.2)must_update()offset(0,0,-.66)delay(.1)
+				"ts(.2)must_update()offset(0,-2,0)delay(.1)
 				scale($scale)color0(.1,.15,.05)color1(.02,.02,.02)count(10)velocity(0,-4,0)
 				texture(b_sfx_mist_01)accel(0,10,0)alphafade(.45)flamesize(4)max_radius(25)
-				min_displace(-.33)max_displace(.66)fdamage(150,180,2)damage()";
+				min_displace(-.33)max_displace(.66)fdamage(4,6,2)damage()";
 			sfx rat #PEEK;
 			sfx target #PEEK $orb2;
 			sfx start #POP;
 			
 			sfx create fire #TARGET 
-				"ts(.2)must_update()offset(0,0,-.66)delay(.2)scale($scale)texture(b_sfx_mist_01)
+				"ts(.2)must_update()offset(0,-2,0)delay(.2)scale($scale)texture(b_sfx_mist_01)
 				color0(.4,.4,.15)count(7)velocity(0,-15,0)accel(0,40,0)max_displace(.33)
 				alphafade(.85)flamesize(.1)max_radius(16)fctrl(0,0,0)min_displace(-1)";
 			sfx rat #PEEK;
@@ -140,7 +144,7 @@
 			sfx start #POP;
 			
 			sfx create fire #TARGET 
-				"ts(.2)must_update()offset(0,0,-.66)delay(.3)scale($scale)texture(b_sfx_mist_01)max_displace(.85)
+				"ts(.2)must_update()offset(0,-2,0)delay(.3)scale($scale)texture(b_sfx_mist_01)max_displace(.85)
 				color0(.35,.75,.15)color1(.05,.05,.05)count(7)velocity(0,5,0)accel(0,0,0)alphafade(.75)
 				flamesize(.1)min_radius(22)max_radius(24)[0]min_displace(-0.8)fctrl(0,0,0)";
 			sfx rat #PEEK;
@@ -149,6 +153,7 @@
 			]];
 }
 
+// Die
 [effect_script*]
 {
 	name	=upza_reaper_die;

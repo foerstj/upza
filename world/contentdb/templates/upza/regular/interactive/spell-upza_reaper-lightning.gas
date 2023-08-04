@@ -7,8 +7,9 @@
 	doc = "reaper lightning";
 	[attack]
 	{
-		damage_max = 250;
-		damage_min = 200;
+		// BAM!
+		damage_max = 600;
+		damage_min = 400;
 	}
 	[common]
 	{
