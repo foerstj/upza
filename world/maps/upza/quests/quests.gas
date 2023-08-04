@@ -389,6 +389,7 @@
     {
         chapter = a_upza;
         screen_name = "Find a safe passage to the Peninsula";
+        quest_image = b_gui_ig_mnu_jnl_quest_find_gnf;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -408,6 +409,7 @@
     {
         chapter = a_upza;
         screen_name = "Lost Mates";
+        quest_image = b_gui_ig_mnu_jnl_quest_zombie_mates;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -452,6 +454,7 @@
     {
         chapter = c_misc;
         screen_name = "Clear Dornek's Quarry";
+        quest_image = b_gui_ig_mnu_jnl_quest_clear_quarry;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -464,6 +467,7 @@
     {
         chapter = c_misc;
         screen_name = "Enter Hiroth Castle";
+        quest_image = b_gui_ig_mnu_jnl_quest_enter_castle;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
