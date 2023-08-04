@@ -13,6 +13,11 @@
 	[check_level] {}
 	[conversation] {}
 	[common] { screen_name="Droog Guard"; }
+	[mind]
+	{
+		actor_may_attack = true;
+        actor_may_be_attacked = true;
+    }
 
     // Stats & equipment from droog_grunt_boss_01
 	[actor]
