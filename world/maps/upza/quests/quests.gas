@@ -1,47 +1,52 @@
 [chapters]
 {
-    [e_utraean_circle]
-    {
-        screen_name = "Utraean Circle";
-        [*]
-        {
-            description = "Utraean Circle quests";
-          i order = 0;
-        }
-    }
-    [d_sides]
-    {
-        screen_name = "Side Quests";
-        [*]
-        {
-            description = "Original side quests";
-          i order = 0;
-        }
-    }
-    [b_hub]
-    {
-        screen_name = "Decalibrated H.U.B.";
-        [*]
-        {
-            description = "Recalibrating the H.U.B. platforms";
-          i order = 0;
-        }
-    }
     [a_upza]
     {
         screen_name = "Utraean Peninsula: Zombie Apocalypse";
+        chapter_image = b_gui_ig_mnu_jnl_chapter_01;
         [*]
         {
             description = "Main quests of UPZA";
           i order = 0;
         }
     }
+    [b_hub]
+    {
+        screen_name = "Decalibrated H.U.B.";
+        chapter_image = b_gui_ig_mnu_jnl_chapter_02;
+        [*]
+        {
+            description = "Recalibrating the H.U.B. platforms";
+          i order = 0;
+        }
+    }
     [c_misc]
     {
         screen_name = "Misc. Quests";
+        chapter_image = b_gui_ig_mnu_jnl_chapter_03;
         [*]
         {
             description = "Added miscellaneous quests";
+          i order = 0;
+        }
+    }
+    [d_sides]
+    {
+        screen_name = "Side Quests";
+        chapter_image = b_gui_ig_mnu_jnl_chapter_04;
+        [*]
+        {
+            description = "Original side quests";
+          i order = 0;
+        }
+    }
+    [e_utraean_circle]
+    {
+        screen_name = "Utraean Circle";
+        chapter_image = b_gui_ig_mnu_jnl_chapter_05;
+        [*]
+        {
+            description = "Utraean Circle quests";
           i order = 0;
         }
     }
@@ -284,6 +289,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Elddim";
+		quest_image = b_gui_ig_mnu_jnl_quest_26;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -295,6 +301,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Crystwind";
+		quest_image = b_gui_ig_mnu_jnl_quest_28;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -306,6 +313,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Fallraen";
+		quest_image = b_gui_ig_mnu_jnl_quest_30;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -317,6 +325,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Meren";
+		quest_image = b_gui_ig_mnu_jnl_quest_32;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -328,6 +337,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Lang";
+		quest_image = b_gui_ig_mnu_jnl_quest_34;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -339,6 +349,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Quillrabe";
+		quest_image = b_gui_ig_mnu_jnl_quest_35;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -350,6 +361,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Hiroth";
+		quest_image = b_gui_ig_mnu_jnl_quest_37;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -361,6 +373,7 @@
     {
         chapter = b_hub;
         screen_name = "Recalibrate Grescal";
+		quest_image = b_gui_ig_mnu_jnl_quest_38;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
@@ -412,6 +425,7 @@
     {
         chapter = a_upza;
         screen_name = "The Reaper";
+        quest_image = b_gui_ig_mnu_jnl_quest_reaper;
 		victory_sample	= s_e_level_up_quest;
         [*]
         {
