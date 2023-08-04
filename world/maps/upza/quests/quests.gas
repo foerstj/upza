@@ -395,6 +395,8 @@
         {
             order = 0;
             description = "Find a safe passage from the Eastern Island to the Utraean Peninsula.";
+            speaker       = "Peter";
+			address		= island:conversations:peter_join;
         }
         [*]
         {
@@ -402,6 +404,8 @@
             order = 1;
             required = false;
             description = "You can now add more 2nd Legion mates to your group.";
+            speaker       = "Peter";
+			address		= island:conversations:peter_join;
         }
     }
 
@@ -415,11 +419,15 @@
         {
             order = 0;
             description = "Find your Captain and 2nd Legion Mates lost in Meren.";
+            speaker = "Shipwreck's Journal";
+			address = island:conversations:quest_zombie_mates;
         }
         [*]
         {
             order = 1;
             description = "Release your Captain and 2nd Legion Mates from the Undead.";
+            speaker = "Shipwreck's Journal";
+			address = island:conversations:quest_zombie_mates;
         }
     }
 
@@ -433,17 +441,23 @@
         {
             order = 0;
             description = "Find and eliminate the cause of the Zombie Apocalypse.";
+            speaker = "Shipwreck's Journal";
+			address = island:conversations:quest_the_reaper;
         }
         [*]
         {
             order = 1;
             required = false;
             description = "Find and eliminate the cause of the Zombie Apocalypse; maybe the Droog know more.";
+            speaker = "Buing";
+			address = gi_a:conversations:guide;
         }
         [*]
         {
             order = 2;
             description = "Find and banish the Reaper in Castle Hiroth.";
+            speaker = "Utraean High Priest Ferdl";
+			address = des_r1:conversations:conversation_ferdl_quest_reaperonly;
         }
     }
 
