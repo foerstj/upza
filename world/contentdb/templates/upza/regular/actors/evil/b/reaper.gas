@@ -72,14 +72,37 @@
 	}
 
     // Stats
+    // stats of gom_super
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	72, 0;
+			intelligence =  63, 0;
+			dexterity =  	43, 0;
+			melee =  		96, 0;
+			combat_magic = 	96, 0;
+		}
+	}
 	[aspect]
 	{
-		experience_value = 113;
-		life = 132;
-		max_life = 132;
-		mana = 10;
-		max_mana = 10;
+		experience_value = 300000;
+		life = 11800;
+		max_life = 11800;
+        life_recovery_unit  = 1;
+        life_recovery_period = 20;
+		mana = 3400;
+		max_mana = 3400;
 	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 60;
+		damage_min = 40;
+	}
+	[defend] { defense=1370; }
+    // changes
+    aspect:life_recovery_period = 1;  // you just gotta be faster than that!
 
 	// Attacks
 	[body]
@@ -237,5 +260,52 @@
 		effect=dsx_elemental_air_die2;
 		effectDelay=.25;
 		lifeSpan=6;
+	}
+
+    // Loot: from gom_super
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[all*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+            	    il_main = #spell/65-80;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/150-210;
+					il_main = #armor/320-700;
+					max = 4;
+					min = 3;
+   	    		}
+    			[gold*]
+				{
+					max = 184860;
+					min = 107972;
+                    piles = 15 - 20;
+				}
+				[oneof*]
+				{
+	            	il_main = #weapon/-rare(1)/180-210;
+	                il_main = #armor/-rare(1)/390-460;
+                    il_main = #*/-rare(1)/180-210;
+					max = 3;
+					min = 2;
+
+                }
+				[oneof*]
+                {
+	                il_main = #weapon/-unique(2)/180-210;
+	                il_main = #armor/-unique(2)/390-460;
+                    il_main = #*/-unique(2)/180-210;
+					max = 3;
+					min = 2;
+	            }
+
+			}
+		}
 	}
 }
