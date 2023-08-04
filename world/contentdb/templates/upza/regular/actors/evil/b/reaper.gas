@@ -38,10 +38,18 @@
 		combat_orders                              = co_limited;
     }
 
-	// Looks
+	// Looks & sound
     [aspect]
     {
 		scale_base = 1.5;
+		[voice]
+		{
+			[enemy_spotted]	{ priority = high; * = s_e_call_upza_reaper_SED; }
+			[hit_critical]	{ priority = low; * = s_e_hit_upza_reaper_SED;  }
+			[hit_glance]	{ priority = low; * = s_e_hit_upza_reaper_SED;  }
+			[hit_solid]		{ priority = low; * = s_e_hit_upza_reaper_SED;  }
+			[die]			{ priority = high; * = s_e_die_upza_reaper_SED;  }
+		}
     }
 	[inventory]
 	{
