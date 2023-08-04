@@ -141,7 +141,7 @@
 				{
                     // EDITED
 					00=mg;
-					01=mg-push;  // push for blast
+					01=at-02;  // double-scythe-swing for blast
 					02=mg-scythe;  // scythe-bam for lightning
 					03=at;  // scythe-swing for poison-breath
 					04=at;  // scythe-swing for poison-cloud
@@ -149,6 +149,7 @@
 					06=mg-02;  // hands-up for summon
 					07=mg-push;  // push for force
 					08=mg-still;  // stand-still for heal
+					qffg = mg-still;  // stand-still in between animations
 				}
 			}
 			[chore_misc]
