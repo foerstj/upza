@@ -5,6 +5,26 @@
 	  p position = 1.97512,0,-0.997314,0x67a4f5de;
 	}
 }
+[t:cmd_alignment_changer,n:0x0700078c]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_collide = true;
+	  b change_visibility = true;
+	  b collide_spawn = false;
+	  i start_state = 1;
+	  x target_actor = 0x0700078B;
+	}
+	[common]
+	{
+		dev_instance_text = "QUEEN";
+	}
+	[placement]
+	{
+	  p position = 0.338146,2.38419e-007,0.351988,0x97f7a468;
+	}
+}
 [t:light_enable,n:0x07000771]
 {
 	[common]
@@ -24,21 +44,5 @@
 	{
 	  q orientation = 0,-0.707106,0,0.707107;
 	  p position = -0.572143,0.5,0.951931,0xe575dfb7;
-	}
-}
-[t:cmd_alignment_changer,n:0x0700078c]
-{
-	[cmd_dumb_guy]
-	{
-		alignment_activated = aa_good;
-	  b change_collide = true;
-	  b change_visibility = true;
-	  b collide_spawn = false;
-	  i start_state = 1;
-	  x target_actor = 0x0700078B;
-	}
-	[placement]
-	{
-	  p position = 0.338146,2.38419e-007,0.351988,0x97f7a468;
 	}
 }

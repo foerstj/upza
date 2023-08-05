@@ -4017,7 +4017,7 @@
 				action* = send_world_message("we_req_activate",0x0700076A,1f,"default","every",0), doc("candlestands");
 				action* = send_world_message("we_req_activate",0x0700076B,0f,"default","every",0), doc("quake");
 				action* = send_world_message("we_req_deactivate",0x07000783,0f,"default","every",0), doc("blacklight");
-				action* = send_world_message("we_req_activate",0x0700078C,0f,"default","every",0), doc("queen");
+				action* = send_world_message("we_req_activate",0x070007A8,0f,"default","every",0), doc("queen");
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -4066,6 +4066,37 @@
 	[placement]
 	{
 	  p position = -0.493963,0.5,0.44319,0xd0f84cd3;
+	}
+}
+[t:trigger_generic,n:0x070007a8]
+{
+	[common]
+	{
+		dev_instance_text = "QUEEN";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0700078C,1f,"default","every",0), delay(7), doc("alignment");
+				action* = send_world_message("we_req_activate",0x0700078B,0f,"default","every",0), delay(7), doc("effect");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,8.94069e-007,0,1;
+	  p position = 0.955884,0.5,0.868286,0xbf13359d;
 	}
 }
 [t:trigger_generic,n:0x07000783]
