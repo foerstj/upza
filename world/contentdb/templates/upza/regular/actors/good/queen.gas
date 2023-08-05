@@ -37,9 +37,21 @@
 	{
 		custom_head = m_c_gah_fg_hlmt_head-03;
 		[equipment] {}  // remove boots
+
+		selected_active_location = il_active_primary_spell;
+        [other]
+        {
+            il_active_primary_spell = spell_upza_queen_light_ray;
+        }
     }
     [mind]
     {
         movement_orders = mo_hold;
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+		ranged_engage_range             = 20;
+		sight_range                     = 20;
     }
 }
