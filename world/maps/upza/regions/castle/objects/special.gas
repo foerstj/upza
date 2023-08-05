@@ -4017,6 +4017,7 @@
 				action* = send_world_message("we_req_activate",0x0700076A,1f,"default","every",0), doc("candlestands");
 				action* = send_world_message("we_req_activate",0x0700076B,0f,"default","every",0), doc("quake");
 				action* = send_world_message("we_req_deactivate",0x07000783,0f,"default","every",0), doc("blacklight");
+				action* = send_world_message("we_req_activate",0x0700078C,0f,"default","every",0), doc("queen");
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;

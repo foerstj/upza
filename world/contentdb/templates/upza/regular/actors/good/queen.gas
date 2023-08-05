@@ -1,0 +1,45 @@
+[t:template,n:upza_queen]
+{
+	specializes = base_farmgirl;
+
+	category_name = "1W_character";
+	doc = "Queen Alma of Hiroth";
+    [actor]
+    {
+        drops_spellbook = false;
+        is_male = false;
+        is_charmable = false;
+        is_possessable = false;
+        race = human;
+        screen_class = Queen;
+    }
+	[aspect]
+	{
+		draw_selection_indicator = false;
+        is_ghost_usable = true;
+        is_invincible = true;
+
+		model = m_c_gah_fg_pos_b1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_03;
+			1 = b_c_pos_b1_002;
+		}
+	}
+	[common]
+	{
+		screen_name = "Queen Alma of Hiroth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		custom_head = m_c_gah_fg_hlmt_head-03;
+		[equipment] {}  // remove boots
+    }
+    [mind]
+    {
+        movement_orders = mo_hold;
+    }
+}

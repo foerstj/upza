@@ -26,3 +26,19 @@
 	  p position = -0.572143,0.5,0.951931,0xe575dfb7;
 	}
 }
+[t:cmd_alignment_changer,n:0x0700078c]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+	  b change_collide = true;
+	  b change_visibility = true;
+	  b collide_spawn = false;
+	  i start_state = 1;
+	  x target_actor = 0x0700078B;
+	}
+	[placement]
+	{
+	  p position = 0.338146,2.38419e-007,0.351988,0x97f7a468;
+	}
+}
