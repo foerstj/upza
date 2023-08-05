@@ -2,7 +2,18 @@
 {
 	[text*]
 	{
-		screen_text = "WHOA!";
+        order = 0;
+		screen_text = "What? Is this real? I am alive again?";
+        choice = more;
+	  f scroll_rate = 10.000000;
+    }
+	[text*]
+	{
+        screen_text = "You have banished the Reaper back into Her own realm, and have saved the Peninsula from the cold grip of the Undead. I thank you, heroes of the 2nd Legion.
+
+As you may know, the fates of monarch and kingdom of Hiroth are bound together, by the power of mystic spells cast at the coronation.
+
+This is why, when I died, the kingdom fell into ruin; and now that I'm back, the kingdom too will prosper again. It may be devastated now, but by time it will be rebuilt and repopulated, and with me as its queen, and the legion as its protector, it will rise to new heights. Glory to Hiroth!";
 	  f scroll_rate = 10.000000;
 	}
 }
