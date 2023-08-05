@@ -21,11 +21,11 @@ Changes from there on:
 - Map renamed, obviously
 - Set up the Eastern Island as the initial starting location, with Loola there
 - Added zombified 2nd Legion mates in Meren
-- Zombified NPCs, leaving quests intact & dropping shop contents
+- Zombified NPCs, leaving quests intact & dropping the entire shop contents
+- Ruinated towns except Quillrabe
 - Depopulated Fallraen, overrun by Furoks
 - Pacified Goblins, moved Lang shop contents to Goblins, added further Goblin shops
-- Ruinated towns except Quillrabe
-- Besieged Quillrabe, promoted Ferdl
+- Besieged Quillrabe, zombified human inhabitants, gave Priest Ferdl a surviving apprentice
 - Swampified Hiroth
 - Put the Reaper in Castle Hiroth and locked the door
 - Decalibrated the H.U.B.
