@@ -382,6 +382,11 @@
 }
 [t:upza_reaper,n:0x07000548]
 {
+	[aspect]
+	{
+	  f life = 118;
+	  f max_life = 118;
+	}
 	[common]
 	{
 		screen_name = "Dummy Reaper";
