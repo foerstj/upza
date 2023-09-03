@@ -1,0 +1,58 @@
+[t:template,n:2W_upza_base_zombie_iliarth_guard]
+{
+    specializes = 2W_upza_base_zombie_pudgy;
+
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_zo-07; }
+    }
+
+    // stats & loot from 2W_impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	43.6, 0;
+			intelligence =  6.3, 0;
+			dexterity =  	22.5, 0;
+            melee =         63, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 184000;
+		life = 2560.9;
+		max_life = 2560.9;
+		mana = 19.1;
+		max_mana = 19.1;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 546.6;
+		damage_min = 412.8;
+		reload_delay = 0;
+	}
+    [defend] { defense=891.5; }
+}
+
+[t:template,n:2W_upza_zombie_iliarth_guard] { specializes = 2W_upza_zombie_iliarth_guard_base; }
+[t:template,n:2W_upza_zombie_iliarth_guard_base]
+{
+    specializes = 2W_upza_base_zombie_iliarth_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+    // equipment from skeleton_large
+	[inventory]
+	{
+		[pcontent]
+		{
+            es_weapon_hand = sd_g_c_sd_1h_avg;
+			es_shield_hand = #shield/-no_mod/150-380;
+        }
+	}
+}

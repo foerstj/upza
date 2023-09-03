@@ -1,0 +1,86 @@
+[t:template,n:2W_upza_base_zombie_quillrabe_priest]
+{
+    specializes = 2W_upza_base_zombie_pudgy;
+
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_zo-07; }  // gray for pudgy
+    }
+
+    // stats & loot from sand_mage
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		21.9, 0;
+			intelligence = 	15.2, 0;
+			dexterity = 	21.1, 0;
+			combat_magic = 	72, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 150000;
+		life = 1541.6;
+		max_life = 1541.6;
+		mana = 30.9;
+		max_mana = 30.9;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 318.8;
+		damage_min = 226;
+		damage_bonus_min_cmagic = 111;
+		damage_bonus_max_cmagic = 156;
+	}
+	[defend] { defense=709; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/150-219;
+               		il_main = #nmagic/87-106;
+               		il_main = #cmagic/87-106;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+                    max = 187097;
+					min = 161155;
+				}
+			}
+		}
+	}
+}
+[t:template,n:2W_upza_zombie_quillrabe_priest]
+{
+    specializes = 2W_upza_zombie_quillrabe_townfolk_base;
+
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_orange(sgx)");
+			}
+		}
+	}
+
+    // sand_mage spell
+   	[inventory]
+	{
+    	selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_sand_mage_blast; }
+    }
+}

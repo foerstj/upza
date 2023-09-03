@@ -1,0 +1,120 @@
+[t:template,n:2W_upza_base_zombie_meren_guard]
+{
+    specializes = 2W_upza_base_zombie_thin;
+
+    // look from dsx_slime_zombie
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_slime_zombie; }
+    }
+
+    // stats & loot from 2W_bandit_melee_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =   36.7, 0;
+			intelligence =  15.1, 0;
+			dexterity =   23.8, 0;
+			melee =  69,  0;
+            ranged = 69,  0;  // ADDED for ranged guards
+		}
+	}
+	[aspect]
+    {
+		life = 1333;
+		max_life = 1333;
+		mana = 63.5;
+		max_mana = 63.5;
+   		experience_value = 86970;
+    }
+	[attack]
+    {
+		attack_range = 0.5;
+		damage_max = 306.7;
+		damage_min = 215.9;
+    }
+   	[defend] { defense=1029.9; }
+	[inventory]
+	{
+
+		[pcontent]
+		{
+			[all*]
+			{
+				es_feet = bo_bo_le_light;
+                es_weapon_hand = sd_g_c_gl_1h_avg;
+			}
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.794;
+					il_main = #*/205-218;
+					il_main = #armor/635-793;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/233-277;
+	                il_main = #armor/-rare(1)/717-911;
+                    il_main = #*/-rare(1)/233-277;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/233-277;
+	                il_main = #armor/-unique(2)/717-911;
+                    il_main = #*/-unique(2)/233-277;
+	            }
+				[gold*]
+				{
+					chance = 0.2;
+					max = 206332;
+					min = 151436;
+					min_pile = 397;
+					piles = 2 - 4;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:2W_upza_zombie_meren_guard_ranged] { specializes = 2W_upza_zombie_meren_guard_ranged_base; }
+[t:template,n:2W_upza_zombie_meren_guard_ranged_base]
+{
+    specializes = 2W_upza_base_zombie_meren_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_shield_hand = #bow/-no_mod/40-50;  // nvm they are equipped anyways
+		}
+	}
+}
+
+[t:template,n:2W_upza_zombie_meren_guard] { specializes = 2W_upza_zombie_meren_guard_base; }
+[t:template,n:2W_upza_zombie_meren_guard_base]
+{
+    specializes = 2W_upza_base_zombie_meren_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = #sword/-no_mod/40-50;  // nvm they are equipped anyways
+		}
+	}
+}

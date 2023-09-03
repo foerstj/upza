@@ -1,0 +1,118 @@
+[t:template,n:2W_upza_base_zombie_quillrabe_guard]
+{
+    specializes = 2W_upza_base_zombie_thin;
+
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_zo-07; }  // gray for pudgy
+    }
+
+    // stats & no loot from 2W_impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	43.6, 0;
+			intelligence =  6.3, 0;
+			dexterity =  	22.5, 0;
+            melee =         63, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 184000;
+		life = 2560.9;
+		max_life = 2560.9;
+		mana = 19.1;
+		max_mana = 19.1;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 546.6;
+		damage_min = 412.8;
+		reload_delay = 0;
+	}
+    [defend] { defense=891.5; }
+}
+
+[t:template,n:2W_upza_zombie_quillrabe_guard] { specializes = 2W_upza_zombie_quillrabe_guard_base; }
+[t:template,n:2W_upza_zombie_quillrabe_guard_base]
+{
+    specializes = 2W_upza_base_zombie_quillrabe_guard;
+
+	[common]
+	{
+		screen_name = "Guard";
+	}
+
+    // equipment from mp_guard_05
+	[inventory]
+	{
+		[pcontent]
+		{
+			es_shield_hand = sh_m_g_c_r_s_avg;
+			es_weapon_hand = #sd_g_c_st_1h_avg:o_avg;
+        }
+	}
+}
+
+
+[t:template,n:2W_upza_base_zombie_quillrabe_guard_dwarf]
+{
+    specializes = 2W_upza_base_zombie_dwarf;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-dry-05;  // dry-corpse + gray hair
+        textures:1 = b_i_csl_corpse-dry;  // dry-corpse
+    }
+
+    // stats & no loot from 2W_impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	43.6, 0;
+			intelligence =  6.3, 0;
+			dexterity =  	22.5, 0;
+            melee =         63, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 184000;
+		life = 2560.9;
+		max_life = 2560.9;
+		mana = 19.1;
+		max_mana = 19.1;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 546.6;
+		damage_min = 412.8;
+		reload_delay = 0;
+	}
+    [defend] { defense=891.5; }
+}
+
+[t:template,n:2W_upza_zombie_quillrabe_guard_dwarf] { specializes = 2W_upza_zombie_quillrabe_guard_dwarf_base; }
+[t:template,n:2W_upza_zombie_quillrabe_guard_dwarf_base]
+{
+    specializes = 2W_upza_base_zombie_quillrabe_guard_dwarf;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+    // equipment from mp_dwarf_legionnaire_guard
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = ax_g_c_2h1b_avg;
+		}
+	}
+}

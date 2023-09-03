@@ -1,0 +1,107 @@
+[t:template,n:2W_upza_zombie_meren_townfolk] { specializes = 2W_upza_zombie_meren_townfolk_base; }
+[t:template,n:2W_upza_zombie_meren_townfolk_base]
+{
+    specializes = 2W_upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // look & behavior from walking_corpse
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_zo-02; }
+    }
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from 2W_hell_boar
+	[actor]
+	{
+		[skills]
+		{
+			strength =  40.7, 0;
+			intelligence =  8.3, 0;
+			dexterity =  22.5, 0;
+            melee =  59,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 52716;
+		life = 1080;
+        max_life = 1080;
+        mana = 27.4;
+		max_mana = 27.4;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 233.8;
+		damage_min = 185.1;
+	}
+   	[defend] { defense=637.7; }
+}
+
+[t:template,n:2W_upza_zombie_meren_townfolk_pudgy] { specializes = 2W_upza_zombie_meren_townfolk_pudgy_base; }
+[t:template,n:2W_upza_zombie_meren_townfolk_pudgy_base]
+{
+    specializes = 2W_upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // behavior from walking_corpse, edited
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+
+        // from base_zombie_03
+		jat_attack_object_melee 			= world\ai\jobs\common\job_attack_object_melee.skrit
+			?run_chance 					= 1.0;
+	}
+
+    // stats & loot from 2W_hell_boar
+	[actor]
+	{
+		[skills]
+		{
+			strength =  40.7, 0;
+			intelligence =  8.3, 0;
+			dexterity =  22.5, 0;
+            melee =  59,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 52716;
+		life = 1080;
+        max_life = 1080;
+        mana = 27.4;
+		max_mana = 27.4;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 233.8;
+		damage_min = 185.1;
+	}
+   	[defend] { defense=637.7; }
+}

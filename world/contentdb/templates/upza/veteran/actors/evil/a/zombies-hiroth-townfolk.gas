@@ -1,0 +1,99 @@
+[t:template,n:2W_upza_zombie_hiroth_townfolk_base]
+{
+    specializes = 2W_upza_base_zombie_headless;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+    [mind]
+    {
+		actor_auto_fidgets = true;
+    }
+
+    // stats & loot from 2W_impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	43.6, 0;
+			intelligence =  6.3, 0;
+			dexterity =  	22.5, 0;
+            melee =         63, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 184000;
+		life = 2560.9;
+		max_life = 2560.9;
+		mana = 19.1;
+		max_mana = 19.1;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 546.6;
+		damage_min = 412.8;
+		reload_delay = 0;
+	}
+    [defend] { defense=891.5; }
+}
+[t:template,n:2W_upza_zombie_hiroth_townfolk]
+{
+    specializes = 2W_upza_zombie_hiroth_townfolk_base;
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+}
+[t:template,n:2W_upza_zombie_hiroth_townfolk_reveal]
+{
+    specializes = 2W_upza_zombie_hiroth_townfolk_base;
+}
+
+[t:template,n:2W_upza_zombie_hiroth_townfolk_dwarf] { specializes = 2W_upza_zombie_hiroth_townfolk_dwarf_base; }
+[t:template,n:2W_upza_zombie_hiroth_townfolk_dwarf_base]
+{
+    specializes = 2W_upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-frag02-07;
+        textures:1 = b_c_pos_a1_034;  // from mp_npc_dwarf_01
+    }
+
+    // stats & loot from 2W_impaler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	43.6, 0;
+			intelligence =  6.3, 0;
+			dexterity =  	22.5, 0;
+            melee =         63, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 184000;
+		life = 2560.9;
+		max_life = 2560.9;
+		mana = 19.1;
+		max_mana = 19.1;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 546.6;
+		damage_min = 412.8;
+		reload_delay = 0;
+	}
+    [defend] { defense=891.5; }
+}
