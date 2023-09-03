@@ -1,26 +1,31 @@
 [t:0x0407,n:text]
 {
+    // Directions
 	[0x0000]
 	{
-		from = "You would be nuts to go to Hiroth. It's not far from here, it's the lair of the Reaper. You'll want to exit town via the upper stairs to the west. Follow the torches until you meet up with the road in Quillrabe Canyons, then head south until you reach the Drake Nest cave. If you can sneak past the Dragon Queen and her drakes, you should be able to find your way. Keep to the south and east walls when you come to the split. The Nest exits into Hiroth Ravine, which is just outside of Hiroth proper. Follow the river and you will see the putrid Lake Hiroth ahead, with the haunted ruins of the town around its banks.";
-		to = "";
+		from = "You would be nuts to go to Hiroth. It's not far from here, but it's the lair of the Reaper. You'll want to exit town via the upper stairs to the west. Follow the torches until you meet up with the road in Quillrabe Canyons, then head south until you reach the Drake Nest cave. If you can sneak past the Dragon Queen and her drakes, you should be able to find your way. Keep to the south and east walls when you come to the split. The Nest exits into Hiroth Ravine, which is just outside of Hiroth proper. Follow the river and you will see the putrid Lake Hiroth ahead, with the haunted ruins of the town around its banks.";
+		to = "Ihr wärt verrückt, nach Hiroth zu gehen. Es liegt nicht weit von hier, doch es ist das Reich des Sensenmanns. Der Weg führt über die obere Steige im Westen aus der Stadt. Dann folgt man den Fackeln, bis man in den Quillrabe-Schluchten auf die Straße trifft. Von dort aus geht es nach Süden, bis zur Drachennesthöhle. Wenn Ihr es an der Drachenkönigin und ihren Drachen vorbei schafft, dann könnt Ihr Euch von dort weiter durchschlagen. Orientiert Euch an den Süd- und Ostwänden, wenn Ihr den Riss erreicht. Das Nest ist mit der Schlucht von Hiroth verbunden, und ganz in der Nähe liegt auch Hiroth selbst. Wenn Ihr dem Fluss folgt, erreicht Ihr den fauligen See von Hiroth, an dessen Ufer auch die Ruinen der Stadt liegen.";
 	}
+
+    // Utraean Apprentice Nanuuq
 	[0x0000]
 	{
 		from = "You are looking at the last survivor of the Utraean Historical Society and the Azunite Priesthood of the Utraean Peninsula. Priest Ferdl had just taken me in as his apprentice, when High Priest Kavaren summoned him. I saw Ferdl die when we...";
-		to = "";
+		to = "Ihr seht vor Euch den letzten Überlebenden der Gesellschaft für uträische Geschichte und der Azunitischen Priesterschaft der Halbinsel Uträa. Priester Ferdl hatte mich gerade als Lehrling aufgenommen, als Hohepriester Kavaren ihn zu sich rief. Ich sah Ferdl sterben, als wir...";
 	}
 	[0x0000]
 	{
 		from = "Oh the horror of that fateful night! Ever since the queen had died in Hiroth, things were getting worse in the kingdom. Kavaren had long pushed for the unification of the Circle, but as the situation in Hiroth was deteriorating and the townstones remained lost, he summoned Priest Ferdl and Priestess Kylira of Grescal, for one last desperate attempt to resurrect the queen. Ferdl took me with him to Hiroth.
 In their hurry, something must have gone terribly wrong. Maybe it was some ancient Utraean magic interfering with their own; the Utraeans were known to meddle in otherworldly realms. When Kavaren had cast the final spell, there was a flash of pale green light, and Death himself stood right before us! As we stood petrified, he devoured the queen's corpse, then turned to us. He killed Kavaren with a single blow of his scythe. We all ran for our lives, but the priests had already been poisoned - I had been standing a bit further away. Ferdl fell to the undead when he arrived back in Quillrabe. We threw him down from the southern walls; and in a regrettable frenzy, my Droog brothers threw down the other Humans as well.
 This was the night the undead hordes swept across the Peninsula. It took them less than a week to conquer the former kingdom. I saw it all in my visions.";
-		to = "";
+		to = "Oh die Gräuel jener schicksalhaften Nacht! Seit die Königin in Hiroth gestorben war, verschlechterte sich die Lage des Königreiches zusehends. Kavaren hatte schon länger darauf gedrängt, den Kreis zu vervollständigen, doch als die Situation in Hiroth sich weiter verschlimmerte und die Townstone-Steine verloren blieben, rief er Priester Ferdl und Priesterin Kylira von Grescal zu sich, um einen letzten, verzweifelten Versuch zu wagen, die Königin wiederzubeleben. Ferdl nahm mich mit nach Hiroth.
+In ihrer Eile muss irgend etwas furchtbar schief gegangen sein. Vielleicht war es irgendeine uralte uträische Magie, die die ihre störte; die Uträer waren dafür bekannt, in anderen Elementarbereichen herumzuforschen. Als Kavaren den letzten Zauber gesprochen hatte, gab es einen Blitz von fahlgrünem Licht, und der Tod selbst stand vor uns! Wir starrten wie versteinert, als er den Leichnam der Königin verschlang, dann drehte er sich zu uns. Er tötete Kavaren mit einem einzigen Schwung seiner Sense. Wir alle rannten um unser Leben, doch die Priester waren bereits vergiftet - ich war ein Stückchen abseits gestanden. Ferdl fiel zu den Untoten, bis er zurück in Quillrabe war. Wir warfen ihn von den südlichen Mauern; und in einer bedauerlichen Raserei warfen meine Droogbrüder die anderen Menschen von Quillrabe ebenfalls hinunter.
+Dies war die Nacht, in der die Untoten Horden über die Halbinsel fegten. Sie brauchten keine Woche, um das ehemalige Königreich zu erobern. Ich sah es alles in meinen Visionen.";
 	}
 	[0x0000]
 	{
 		from = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
-		to = "";
+		to = "Ihr könnt Zombies und Skelette erschlagen, sie werden wieder aufstehen, solange der Sensenmann in der Burg Hiroth haust. Nur wenn er zurück in seine eigene Daseinsebene verbannt ist, wird dieser Alptraum ein Ende finden. Doch das ist ein Ding der Unmöglichkeit. Unsere Zeit geht zu Ende. Die Droog leben auf dieser Halbinsel seit der Zeit der alten Uträer, doch selbst Quillrabe wird dem dauernden Ansturm der Untoten nicht viel länger standhalten können. Geht und fordert den Sensenmann heraus, wenn Euer Herz danach verlangt. Am Ende werden wir so oder so alle ihm gehören.";
 	}
 	[0x0000]
 	{
@@ -28,115 +33,124 @@ This was the night the undead hordes swept across the Peninsula. It took them le
 This peninsula is drenched in ancient Utraean magic we never understood. Kavaren's hope was to learn more about it, or even control it, by solving the puzzle the Utraeans left: completing the Circle of the eight Townstones. Doing so might grant you power over the Reaper; it may as well unleash yet another demon. Arguably it can't get much worse than now. Do what you think is right.
 
 The Quillrabe Townstone? Oh that one is in possession of the Dragon Queen, I'm afraid.";
-		to = "";
+		to = "Welche Hoffnung bleibt uns noch? Wie kann der Mensch den Tod herausfordern?
+Diese Halbinsel ist durchtränkt von uralter uträischer Magie, die wir nie verstanden. Kavarens Hoffnung war, mehr darüber zu lernen, oder sie gar zu beherrschen, indem wir das Rätsel lösen, das die Uträer hinterließen: den Kreis der acht Townstone-Steine zu vervollständigen. Dies zu bewerkstelligen, könnte Euch Macht über den Sensenmann geben; es könnte ebenso gut einen weiteren Dämon entfesseln. So gesehen kann es kaum noch schlimmer kommen als es schon ist. Tut was Ihr für richtig haltet.
+
+Der Townstone-Stein von Quillrabe? Oh, der befindet sich in Besitz der Drachenkönigin, fürchte ich.";
 	}
 	[0x0000]
 	{
 		from = "Yeah, the whole thing is pretty much hopeless. Go out to find the Townstones, or confront the Reaper right away, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
-		to = "";
+		to = "Ja, die ganze Angelegenheit ist ziemlich hoffnungslos. Geht hinaus, um die Townstone-Steine zu finden, oder fordert den Sensenmann direkt heraus, wenn Euch Azunai dazu ruft. Ich werde hier bleiben und das Unvermeidliche erwarten.";
 	}
 	[0x0000]
 	{
 		from = "Am I hearing right? You have banished the Reaper back into his own realm? And the Queen is alive again? This is amazing news! We shall survive!
 We shall clear the Peninsula from the Undead, and rebuild the kingdom! But this will be a monumental task...";
-		to = "";
+		to = "Höre ich recht? Ihr habt den Sensenmann zurück in seine eigene Daseinsebene verbannt? Und die Königin ist wieder am Leben? Das sind fantastische Neuigkeiten! Wir werden überleben!
+Wir werden die Halbinsel von den Untoten säubern, und das Königreich wieder aufbauen! Doch dies wird eine monumentale Aufgabe...";
 	}
 	[0x0000]
 	{
 		from = "It would be advisable to have the power of the ancient Utraeans under our control. We finally have to solve the puzzle the ancient Utraeans left us - we have to complete the Circle of the eight Townstones. I beseech you to venture out and find them, and bring them all together at the Utraean Circle in Hiroth.
 
 The Mask Stone of Quillrabe is in the possession of the Dragon Queen. I never dreamt of daring to recover it, but to someone who has confronted the Reaper, the Dragon Queen sure is doable as well?";
-		to = "";
+		to = "Es wäre ratsam, die Kräfte der alten Uträer kontrollieren zu können. Wir müssen endlich das Rätsel lösen, das die Uträer uns hinterließen - wir müssen den Kreis der acht Townstone-Steine vervollständigen. Ich ersuche Euch, hinauszuziehen und sie zu finden, und sie am Uträischen Kreis in Hiroth zusammenzubringen.
+
+Der Maskenstein von Quillrabe befindet sich im Besitz der Drachenkönigin. Ich hätte mir nie träumen lassen, ihn zurückzuerobern, doch für jemanden, der den Sensenmann herausgefordert hat, ist eine Drachenkönigin sicherlich auch machbar?";
 	}
 	[0x0000]
 	{
 		from = "Go out to find the Townstones, and complete the Utraean Circle in Hiroth, so that we may gain strength and wisdom for rebuilding what the Reaper has destroyed.";
-		to = "";
+		to = "Zieht hinaus, die Townstone-Steine zu finden, und vervollständigt den Uträischen Kreis in Hiroth, auf dass wir Stärke und Weisheit erlangen, um wieder aufzubauen, was der Sensenmann zerstört hat.";
 	}
 	[0x0000]
 	{
 		from = "So you managed to banish the demonic force of the Maljin with the help of the Tenstone? Praised be Azunai the Defender!
 Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never thought I'd say this - but maybe we should stop dabbling in ancient Utraean magicks.";
-		to = "";
+		to = "Ihr habt also die dämonischen Maljin mithilfe des Zehntsteins verbannt? Gepriesen sei Azunai der Verteidiger!
+Nun denn, ich bin ein Priesterlehrling, ein Magier, und ein Hobbyhistoriker, und ich hätte nie gedacht, dass ich das einmal sage - aber vielleicht sollten wir aufhören, mit antiken uträischen Zaubern herumzuspielen.";
 	}
 	[0x0000]
 	{
 		from = "Yeah, the whole thing is pretty much hopeless. Go out to confront the Reaper, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
-		to = "";
+		to = "Ja, die ganze Angelegenheit ist ziemlich hoffnungslos. Geht hinaus, um den Sensenmann herauszufordern, wenn Euch Azunai dazu ruft. Ich werde hier bleiben und das Unvermeidliche erwarten.";
 	}
 	[0x0000]
 	{
 		from = "Finally, we are freed - both from the Reaper, and our delusions of obtaining the power of the Utraeans. I am finally having new visions. The way will be long, but the future of the Utraean Peninsula looks bright.";
-		to = "";
+		to = "Endlich sind wir befreit - sowohl vom Sensenmann, als auch von unserem Wahn, die Macht der Uträer zu beherrschen. Ich habe endlich neue Visionen. Der Weg wird lang, doch die Zukunft der Halbinsel Uträa erscheint hell.";
 	}
+
+    // Other NPCs
 	[0x0000]
 	{
 		from = "Made it to Quillrabe, eh? You either great warrior must be, or great fool. Out here, even the rocks have teeth, and same are we to drakes after dark. You in Ehb not anymore, you know.";
-		to = "";
+		to = "Na, bis Quillrabe geschafft? Seid entweder großer Krieger oder großer Narr. Hier haben sogar Felsen Zähne und wir auch für Drachen im Dunkeln. Hier nicht Ehb.";
 	}
 	[0x0000]
 	{
 		from = "There is smell of foulness in Quillrabe. The Windy River no serve your kind here again.";
-		to = "";
+		to = "Auf Quillrabe lastet ein fauliger Hauch. Im Windigen Fluss haben solche wie ihr nichts mehr zu suchen.";
 	}
 	[0x0000]
 	{
 		from = "Noyofan sister Callanon run tavern as long as Dragon Queen has lived in southern cave. I sometimes led tourists from Meren on drake hunts, but they not pay when they undead.";
-		to = "";
+		to = "Noyofans Schwester Callanon ist Wirtin der Taverne, seit Drachenkönigin in Höhle des Südens wohnt. Manchmal ich führte Touristen von Meren auf Drachenjagd, aber wenn untot, sie nicht bezahlen.";
 	}
 	[0x0000]
 	{
 		from = "Better watch them zombies. If ye come across one of them types out on the canyon, they'll feather ye quicker than ye can say 'hail.'";
-		to = "";
+		to = "Hütet Euch vor den Zombies. Wenn Ihr einem dieser Typen draußen in der Schlucht begegnet, rupft er Euch, noch bevor Ihr den Mund auftun könnt.";
 	}
 	[0x0000]
 	{
 		from = "Can you see the Undead smirking as they walk? A little blood in the sky's the least of my worries!";
-		to = "";
+		to = "Seht Ihr nicht, wie diese Untoten hämisch grinsen, während sie vorübergehen? Das bisschen Blut im Himmel ist meine geringste Sorge!";
 	}
 	[0x0000]
 	{
 		from = "Ha! Who's skeered of some undead lizards flying 'round? Ya give me a decent bow, and I'll clean that filthy Drake Nest m'self! Jes' gimme 'nother round of ale, first. *hic*";
-		to = "";
+		to = "Ha! Wer fürchtet sich schon vor'n paar untoten Echsen, die durch die Luft fliegen! Gebt mir 'nen vernünftigen Bogen, und ich miste das stinkende Drachennest eigenhändig aus! Aber ers' ma' noch 'ne Runde Bier! *Hicks*";
 	}
 	[0x0000]
 	{
 		from = "Free advice for you kid, if you have something to offer, the Droog will treat you nicely. If you're down on your luck, don't ask us for help. We've got no room for leachers, and would just as soon feed you to the animals.";
-		to = "";
+		to = "Lass dir eines gesagt sein, Jungchen: Wenn du was anzubieten hast, behandeln dich die Droog freundlich. Aber wenn du in der Patsche steckst, bitte uns lieber nicht um Hilfe. Wir haben keinen Platz für Schmarotzer und würden dich ohne zu zögern unseren Tieren zum Fraß vorwerfen.";
 	}
 	[0x0000]
 	{
 		from = "If yer thinking about taking a stroll along the banks of the Iliarth, keep an eye out for an ambush. The zombies out in the bush aren't anywhere near so tame as the Droog in Quillrabe. ";
-		to = "";
+		to = "Wenn Euch ein Spaziergang am Iliarth vorschwebt, haltet die Augen auf, sonst geratet Ihr am Ende in einen Hinterhalt. Die Zombies im Busch sind nicht halb so zahm wie die Droog in Quillrabe. ";
 	}
 	[0x0000]
 	{
 		from = "Ye really don't want to head inta the bush without some proper training. Those zombies will eat ye fer supper if they catch ye!";
-		to = "";
+		to = "Ihr wollt Euch doch nicht etwa ohne Übung in den Busch wagen? Diese Zombies verspeisen euch glatt zum Abendessen, wenn sie Euch erwischen!";
 	}
 	[0x0000]
 	{
 		from = "Aye, that's right, go show those zombies who to bow down to. They'll be quaking in their sandals at the sight of ye, they will! 'Course, they're not that much of a bother tell ye the truth, and all ye'll do is dull yer weapons against their heads. Ye might be better suited to fodder a bit more evenly matched, mebbe some of them drakes down south?";
-		to = "";
+		to = "Ah, genau! Zeigt diesen Zombies, wem sie zu gehorchen haben. Sie werden bei Eurem Anblick in ihren Sandalen erzittern! Sie sind ehrlich gesagt keine wirklichen Gegner, man haut sich nur die Waffen an ihren Schädeln schartig. Ihr wollt wahrscheinlich Gegner, die euch eher das Wasser reichen können. Wie wäre es mit den Drachen im Süden?";
 	}
 	[0x0000]
 	{
 		from = "Phew! Droogs like meself belong in a house where the air is cool and smells of dirt and rock. I knew I shouldn't of taken this post as a town guard.";
-		to = "";
+		to = "Puh! Droogs wie ich gehören in ein Lehmhaus, wo die Luft kühl ist und es nach Dreck und Stein riecht. Ich wusste ja, dass es ein Fehler war, einen Job als Stadtwache anzunehmen.";
 	}
 	[0x0000]
 	{
 		from = "Hail, traveller. All suited up and ready to go, eh? Don't let these tame Quillrabe Droog fool you; our deceased brothers are as bloodthirsty as they come, stinkin' zombies. You look like you won't have too much trouble convincing them to let you by, though. Heh heh. ";
-		to = "";
+		to = "Seid gegrüßt, Reisender. Alles in Ordnung und bereit zum Aufbruch? Lasst Euch nicht von diesen zahmen Quillrabe-Droog hinters Licht führen; unsere verstorbenen Brüder sind extrem blutrünstige, stinkende Zombies. Bei Eurem Aussehen werden sie Euch aber sicher durchlassen. Hähä. ";
 	}
 	[0x0000]
 	{
 		from = "You really don't want to head into the bush without some proper training. Those zombies will eat you for supper if they catch you!";
-		to = "";
+		to = "Ihr wollt Euch doch nicht etwa ohne jegliche Erfahrung in den Busch begeben? Diese Zombies verspeisen Euch zum Abendessen, wenn sie Euch erwischen!";
 	}
 	[0x0000]
 	{
 		from = "Yes, that's right, go show those zombies who to bow down to. They'll be quaking in their sandals at the sight of you, they will! Of course, they're not that much of a bother to tell you the truth, and all you'll do is dull your weapons against their heads. You might be better suited to fodder a bit more evenly matched, maybe some of those drakes to the south?";
-		to = "";
+		to = "Jawohl, zeigt diesen Zombies mal, wer hier das Sagen hat. Sie werden schon bei Eurem Anblick vor Angst aus den Latschen kippen! Aber ehrlich gesagt sind sie gar keine so fürchterliche Plage und Ihr werdet bloß Eure Waffen unnötig an Ihren Schädeln stumpf schlagen. Vielleicht solltet Ihr Euch auf ebenbürtige Beute konzentrieren - wie wäre es mit diesen Drachen im Süden?";
 	}
 }
