@@ -1,0 +1,190 @@
+[t:template,n:3W_upza_zombie_grescal_townfolk] { specializes = 3W_upza_zombie_grescal_townfolk_base; }
+[t:template,n:3W_upza_zombie_grescal_townfolk_base]
+{
+    specializes = 3W_upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    // look & behavior from dsx_mummy
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_mummy; }
+		material = leather;
+		[voice]
+		{
+			[die]			{ priority = high;	* = s_e_die_dead_SED;		}
+			[enemy_spotted]	{ priority = high; * = s_e_call_mummy_SED; }
+		}
+    }
+   	[mind]
+	{
+		jat_startup						= world\ai\jobs\common\job_startup_reveal.skrit;
+		actor_auto_fidgets					= false;
+		on_enemy_spotted_alert_friends				= true;
+   		on_job_reached_travel_distance_abort_attack 		= true;
+		sight_origin_height					= 1;
+		melee_engage_range					= 9;
+		personal_space_range					= 0.7;
+		ranged_engage_range					= 9.0;
+		sight_range						= 9.0;
+
+		com_channels = dyn_party, zombie;
+		com_range = 5.0;
+	}
+
+    // stats & loot from 3W_lava_imp_01
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		75.3, 0;
+			intelligence = 	17.1, 0;
+			dexterity = 	28.6, 0;
+			melee =  		110, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 8091000;
+		life = 2158.5;
+		max_life = 2158.5;
+		mana = 32.8;
+		max_mana = 32.8;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 516.2;
+		damage_min = 337.8;
+	}
+	[defend] { defense=1243.5; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.35;
+					il_main = #*/254-318;
+	                il_main = #spell/96-124;
+   				    il_main = potion_health_super;
+				    il_main = potion_mana_super;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+					max = 495863;
+					min = 407447;
+				}
+			}
+         }
+	}
+}
+
+[t:template,n:3W_upza_zombie_grescal_townfolk_dwarf] { specializes = 3W_upza_zombie_grescal_townfolk_dwarf_base; }
+[t:template,n:3W_upza_zombie_grescal_townfolk_dwarf_base]
+{
+    specializes = 3W_upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-dry-05;
+        textures:1 = b_c_pos_a1_032;
+
+        // mummy sound
+		material = leather;
+		[voice]
+		{
+			[die]			{ priority = high;	* = s_e_die_dead_SED;		}
+			[enemy_spotted]	{ priority = high; * = s_e_call_mummy_SED; }
+		}
+    }
+	[guts_manager]
+	{
+		effect_name = ;  // dry zombie doesn't spill blood
+	}
+
+    // stats & loot from 3W_lava_imp_01
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		75.3, 0;
+			intelligence = 	17.1, 0;
+			dexterity = 	28.6, 0;
+			melee =  		110, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 8091000;
+		life = 2158.5;
+		max_life = 2158.5;
+		mana = 32.8;
+		max_mana = 32.8;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 516.2;
+		damage_min = 337.8;
+	}
+	[defend] { defense=1243.5; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.35;
+					il_main = #*/254-318;
+	                il_main = #spell/96-124;
+   				    il_main = potion_health_super;
+				    il_main = potion_mana_super;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+					max = 495863;
+					min = 407447;
+				}
+			}
+         }
+	}
+}
+
+[t:template,n:3W_upza_zombie_grescal_townfolk_dunes] { specializes = 3W_upza_zombie_grescal_townfolk_dunes_base; }
+[t:template,n:3W_upza_zombie_grescal_townfolk_dunes_base]
+{
+    specializes = 3W_upza_zombie_grescal_townfolk_base;
+
+	[common]
+	{
+		screen_name = "Dry Corpse";
+	}
+    [aspect]
+    {
+		[textures] { 0=b_i_csl_corpse-dry; }
+    }
+}
+[t:template,n:3W_upza_zombie_grescal_townfolk_dunes_ar]
+{
+	specializes = 3W_upza_zombie_grescal_townfolk_dunes_base;
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+}

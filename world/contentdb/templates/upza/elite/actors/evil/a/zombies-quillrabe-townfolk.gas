@@ -1,0 +1,69 @@
+[t:template,n:3W_upza_base_zombie_quillrabe_townfolk]
+{
+    specializes = 3W_upza_base_zombie_thin;
+
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_zo-07; }  // gray for pudgy
+    }
+
+    // stats & loot from 3W_sand_ripper
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		29.1, 0;
+			intelligence = 	14.8, 0;
+			dexterity = 	23, 0;
+			melee =  		103, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 4268000;
+		life = 2574.5;
+		max_life = 2574.5;
+		mana = 37.5;
+		max_mana = 37.5;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 413;
+		damage_min = 289.6;
+	}
+	[defend] { defense=847.5; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/97-285;
+	                il_main = #nmagic/38-61;
+                	il_main = #cmagic/38-61;
+    			}
+                [gold*]
+				{
+					chance = 0.125;
+                    max = 604334;
+					min = 520540;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_quillrabe_townfolk] { specializes = 3W_upza_zombie_quillrabe_townfolk_base; }
+[t:template,n:3W_upza_zombie_quillrabe_townfolk_base]
+{
+    specializes = 3W_upza_base_zombie_quillrabe_townfolk;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+}

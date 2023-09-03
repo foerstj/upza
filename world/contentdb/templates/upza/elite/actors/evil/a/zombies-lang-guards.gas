@@ -1,0 +1,108 @@
+[t:template,n:3W_upza_base_zombie_lang_guard]
+{
+    specializes = 3W_upza_base_zombie_thin;
+
+    // look from zombie_02
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_zo-02; }
+    }
+
+    // stats & loot from 3W_goblin_guard
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	24.6, 0;
+			intelligence =  	17.2, 0;
+			dexterity =  	24, 0;
+			melee =  		91,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2084000;
+		life = 1598.7;
+		max_life = 1598.7;
+		mana = 79.9;
+		max_mana = 79.9;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 438.6;
+		damage_min = 306.5;
+	}
+	[defend] { defense=735.8; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+            [oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/179-293;
+					il_main = #armor/134-672;
+                	il_main = #nmagic/18-55;
+                	il_main = #cmagic/18-55;
+				}
+            	[oneof*]
+				{
+	        		chance = 0.004;
+	            	il_main = #weapon/-rare(1)/175-286;
+	            	il_main = #armor/-rare(1)/480-832;
+                	il_main = #*/-rare(1)/175-286;
+            	}
+				[oneof*]
+				{
+            		chance = 0.002;
+	            	il_main = #weapon/-unique(2)/175-286;
+	            	il_main = #armor/-unique(2)/480-832;
+                	il_main = #*/-unique(2)/175-286;
+                }
+	        }
+		}
+    }
+}
+
+[t:template,n:3W_upza_zombie_lang_guard] { specializes = 3W_upza_zombie_lang_guard_base; }
+[t:template,n:3W_upza_zombie_lang_guard_base]
+{
+    specializes = 3W_upza_base_zombie_lang_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = sh_m_g_c_r_s_avg;  // from mp_guard, Metal Buckler, 7
+			es_weapon_hand = sd_g_c_gl_1h_avg;  // from goblin_guard, Full Gladius, 24-32
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_lang_guard_ranged] { specializes = 3W_upza_zombie_lang_guard_ranged_base; }
+[t:template,n:3W_upza_zombie_lang_guard_ranged_base]
+{
+    specializes = 3W_upza_base_zombie_lang_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_shield_hand = bw_dsx_zau_2_a;  // Zaurask Long Bow, 62-70, from dsx_zaurask_zombie_archer
+		}
+	}
+}

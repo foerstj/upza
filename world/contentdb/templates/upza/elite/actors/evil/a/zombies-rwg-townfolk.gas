@@ -1,0 +1,71 @@
+[t:template,n:3W_upza_zombie_rwg_townfolk] { specializes = 3W_upza_zombie_rwg_townfolk_base; }
+[t:template,n:3W_upza_zombie_rwg_townfolk_base]
+{
+    specializes = 3W_upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo;
+    }
+
+    // stats & loot from 3W_larch
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	66, 0;
+			intelligence =  7.6, 0;
+			dexterity =  	18.2, 0;
+            melee =  		96,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 3390000;
+		life = 2712;
+		max_life = 2712;
+		mana = 30.5;
+		max_mana = 30.5;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 621.5;
+		damage_min = 481;
+		reload_delay = 0;
+	}
+   	[defend] { defense=1475.1; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				chance = 0.4;
+				il_main = #*/148-296;
+				il_main = #armor/138-705;
+                il_main = #nmagic/15-111;
+                il_main = #cmagic/15-111;
+			}
+            [oneof*]
+			{
+	        	chance = 0.004;
+	            il_main = #weapon/-rare(1)/163-329;
+	            il_main = #armor/-rare(1)/372-1026;
+                il_main = #*/-rare(1)/163-329;
+            }
+			[oneof*]
+			{
+            	chance = 0.002;
+	            il_main = #weapon/-unique(2)/163-329;
+	            il_main = #armor/-unique(2)/372-1026;
+                il_main = #*/-unique(2)/163-329;
+            }
+		}
+	}
+}

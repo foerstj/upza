@@ -1,7 +1,7 @@
-[t:template,n:2W_upza_zombie_meren_shop_mage] { specializes = 2W_upza_zombie_meren_shop_mage_base; }
-[t:template,n:2W_upza_zombie_meren_shop_mage_base]
+[t:template,n:3W_upza_zombie_meren_shop_mage] { specializes = 3W_upza_zombie_meren_shop_mage_base; }
+[t:template,n:3W_upza_zombie_meren_shop_mage_base]
 {
-    specializes = 2W_upza_base_zombie_thin;
+    specializes = 3W_upza_base_zombie_thin;
 
 	[common]
 	{
@@ -38,33 +38,33 @@
 		on_enemy_spotted_alert_friends = true;
 	}
 
-    // stats & loot from 2W_bandit_melee_boss_01
+    // stats & loot from 3W_bandit_melee_boss_01
 	[actor]
 	{
 		[skills]
 		{
-			strength =   36.7, 0;
-			intelligence =  15.1, 0;
-			dexterity =   23.8, 0;
-			melee =  69,  0;
-            ranged = 69,  0;  // ADDED for ranged guards
+			strength =   50.4, 0;
+			intelligence =  17.8, 0;
+			dexterity =   31, 0;
+			melee =  102,  0;
+            ranged = 102,  0;  // ADDED for ranged guards
 		}
 	}
 	[aspect]
     {
-		life = 1333;
-		max_life = 1333;
-		mana = 63.5;
-		max_mana = 63.5;
-   		experience_value = 86970;
+		life = 1935.7;
+		max_life = 1935.7;
+		mana = 92.2;
+		max_mana = 92.2;
+   		experience_value = 2323660;
     }
 	[attack]
     {
 		attack_range = 0.5;
-		damage_max = 306.7;
-		damage_min = 215.9;
-    }
-   	[defend] { defense=1029.9; }
+		damage_max = 459.7;
+		damage_min = 324.4;
+	}
+   	[defend] { defense=1495.5; }
 	[inventory]
 	{
 		[pcontent]
@@ -74,28 +74,28 @@
 				[oneof*]
 				{
 					chance = 0.794;
-					il_main = #*/205-218;
-					il_main = #armor/635-793;
+					il_main = #*/297-315;
+					il_main = #armor/922-1152;
 				}
                 [oneof*]
 				{
 	            	chance = 0.004;
-	                il_main = #weapon/-rare(1)/233-277;
-	                il_main = #armor/-rare(1)/717-911;
-                    il_main = #*/-rare(1)/233-277;
+	                il_main = #weapon/-rare(1)/338-401;
+	                il_main = #armor/-rare(1)/1042-1323;
+                    il_main = #*/-rare(1)/338-401;
                 }
 				[oneof*]
 				{
                 	chance = 0.002;
-	                il_main = #weapon/-unique(2)/233-277;
-	                il_main = #armor/-unique(2)/717-911;
-                    il_main = #*/-unique(2)/233-277;
+	                il_main = #weapon/-unique(2)/338-401;
+	                il_main = #armor/-unique(2)/1042-1323;
+                    il_main = #*/-unique(2)/338-401;
 	            }
 				[gold*]
 				{
 					chance = 0.2;
-					max = 206332;
-					min = 151436;
+					max = 781568;
+					min = 573628;
 					min_pile = 397;
 					piles = 2 - 4;
 				}
@@ -103,7 +103,7 @@
 		}
 	}
 
-    // more loot: shop from original 2W_azunite_priestess_lilyaire_prieve
+    // more loot: shop from original 3W_azunite_priestess_lilyaire_prieve
     [actor] { drops_spellbook = true; }
 	[inventory]
 	{
@@ -114,13 +114,13 @@
 			{
 				[all*]
 				{
-					il_main = #spell/36-76;
+					il_main = #spell/52-109;
 					max = 40;
 					min = 40;
 				}
 				[all*]
 				{
-					il_main = #spell/0-32;
+					il_main = #spell/0-47;
 					max = 10;
 					min = 10;
 				}
@@ -129,7 +129,7 @@
 			{
                 [all*]
 				{
-					il_main = #spellbook/103-198;
+					il_main = #spellbook/175-260;
 					max = 6;
 					min = 4;
 				}
@@ -148,13 +148,14 @@
 
 		[item_restock]
 		{
+			potion_health_medium = 5;
 			potion_health_large = 15;
-			potion_health_medium = 15;
+			potion_health_super = 10;
+			potion_mana_medium = 5;
 			potion_mana_large = 15;
-			potion_mana_medium = 15;
-			potion_rejuvenation_small = 2;
-			potion_rejuvenation_medium = 2;
+			potion_mana_super = 10;
 			potion_rejuvenation_large = 3;
+			potion_rejuvenation_super = 3;
 
 			scroll_resurrect = 10;
             spell_resurrect = 10;
@@ -167,10 +168,10 @@
 	}
 }
 
-[t:template,n:2W_upza_zombie_meren_shop_smith] { specializes = 2W_upza_zombie_meren_shop_smith_base; }
-[t:template,n:2W_upza_zombie_meren_shop_smith_base]
+[t:template,n:3W_upza_zombie_meren_shop_smith] { specializes = 3W_upza_zombie_meren_shop_smith_base; }
+[t:template,n:3W_upza_zombie_meren_shop_smith_base]
 {
-    specializes = 2W_upza_base_zombie_dwarf;
+    specializes = 3W_upza_base_zombie_dwarf;
 
 	common:screen_name = "Wern Silverforge";
 
@@ -208,33 +209,33 @@
 		on_enemy_spotted_alert_friends = true;
 	}
 
-    // stats & loot from 2W_bandit_melee_boss_01
+    // stats & loot from 3W_bandit_melee_boss_01
 	[actor]
 	{
 		[skills]
 		{
-			strength =   36.7, 0;
-			intelligence =  15.1, 0;
-			dexterity =   23.8, 0;
-			melee =  69,  0;
-            ranged = 69,  0;  // ADDED for ranged guards
+			strength =   50.4, 0;
+			intelligence =  17.8, 0;
+			dexterity =   31, 0;
+			melee =  102,  0;
+            ranged = 102,  0;  // ADDED for ranged guards
 		}
 	}
 	[aspect]
     {
-		life = 1333;
-		max_life = 1333;
-		mana = 63.5;
-		max_mana = 63.5;
-   		experience_value = 86970;
+		life = 1935.7;
+		max_life = 1935.7;
+		mana = 92.2;
+		max_mana = 92.2;
+   		experience_value = 2323660;
     }
 	[attack]
     {
 		attack_range = 0.5;
-		damage_max = 306.7;
-		damage_min = 215.9;
-    }
-   	[defend] { defense=1029.9; }
+		damage_max = 459.7;
+		damage_min = 324.4;
+	}
+   	[defend] { defense=1495.5; }
 	[inventory]
 	{
 		[pcontent]
@@ -244,28 +245,28 @@
 				[oneof*]
 				{
 					chance = 0.794;
-					il_main = #*/205-218;
-					il_main = #armor/635-793;
+					il_main = #*/297-315;
+					il_main = #armor/922-1152;
 				}
                 [oneof*]
 				{
 	            	chance = 0.004;
-	                il_main = #weapon/-rare(1)/233-277;
-	                il_main = #armor/-rare(1)/717-911;
-                    il_main = #*/-rare(1)/233-277;
+	                il_main = #weapon/-rare(1)/338-401;
+	                il_main = #armor/-rare(1)/1042-1323;
+                    il_main = #*/-rare(1)/338-401;
                 }
 				[oneof*]
 				{
                 	chance = 0.002;
-	                il_main = #weapon/-unique(2)/233-277;
-	                il_main = #armor/-unique(2)/717-911;
-                    il_main = #*/-unique(2)/233-277;
+	                il_main = #weapon/-unique(2)/338-401;
+	                il_main = #armor/-unique(2)/1042-1323;
+                    il_main = #*/-unique(2)/338-401;
 	            }
 				[gold*]
 				{
 					chance = 0.2;
-					max = 206332;
-					min = 151436;
+					max = 781568;
+					min = 573628;
 					min_pile = 397;
 					piles = 2 - 4;
 				}
@@ -273,7 +274,7 @@
 		}
 	}
 
-    // more loot: shop from original 2W_blacksmith_wern_silverforge
+    // more loot: shop from original 3W_blacksmith_wern_silverforge
 	[inventory]
 	{
 		[store_pcontent]
@@ -283,26 +284,26 @@
 			{
 				[all*]
 				{
-					il_main = #body,ro/213-611;
+					il_main = #body,ro/312-750;
 					max = 4;
 					min = 4;
 				}
 
 				[all*]
 				{
-					il_main = #body/213-298;
+					il_main = #body/312-437;
 					max = 7;
 					min = 7;
 				}
 				[all*]
 				{
-					il_main = #body/302-501;
+					il_main = #body/442-733;
 					max = 18;
 					min = 18;
 				}
 				[all*]
 				{
-					il_main = #body/504-611;
+					il_main = #body/738-750;
 					max = 5;
 					min = 5;
 				}
@@ -310,57 +311,57 @@
 
 				[all*]
 				{
-					il_main = #gloves/28-298;
+					il_main = #gloves/42-437;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #gloves/302-501;
+					il_main = #gloves/442-733;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #gloves/504-611;
+					il_main = #gloves/738-894;
 					max = 6;
 					min = 6;
 				}
 
 				[all*]
 				{
-					il_main = #helm/28-298;
+					il_main = #helm/42-437;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #helm/302-501;
+					il_main = #helm/442-733;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #helm/504-611;
+					il_main = #helm/738-894;
 					max = 6;
 					min = 6;
 				}
 
 				[all*]
 				{
-					il_main = #boots/28-298;
+					il_main = #boots/42-437;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #boots/302-501;
+					il_main = #boots/442-733;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #boots/504-611;
+					il_main = #boots/738-894;
 					max = 6;
 					min = 6;
 				}
@@ -369,19 +370,19 @@
 			{
 				[all*]
 				{
-					il_main = #shield/28-298;
+					il_main = #shield/42-437;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #shield/302-501;
+					il_main = #shield/442-733;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #shield/504-611;
+					il_main = #shield/738-894;
 					max = 6;
 					min = 6;
 				}
@@ -390,38 +391,38 @@
 			{
 				[all*]
 				{
-					il_main = #melee/104-138;
+					il_main = #melee/152-202;
 					max = 8;
 					min = 8;
 				}
 				[all*]
 				{
-					il_main = #melee/142-200;
+					il_main = #melee/207-329;
 					max = 20;
 					min = 20;
 				}
 				[all*]
 				{
-					il_main = #melee/208-244;
+					il_main = #melee/334-399;
 					max = 6;
 					min = 6;
 				}
 
 				[all*]
 				{
-					il_main = #ranged/104-138;
+					il_main = #ranged/152-202;
 					max = 8;
 					min = 8;
 				}
 				[all*]
 				{
-					il_main = #ranged/142-200;
+					il_main = #ranged/207-329;
 					max = 20;
 					min = 20;
 				}
 				[all*]
 				{
-					il_main = #ranged/208-244;
+					il_main = #ranged/334-399;
 					max = 6;
 					min = 6;
 				}

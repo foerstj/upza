@@ -1,0 +1,194 @@
+[t:template,n:3W_upza_base_zombie_crystwind_guard]
+{
+    specializes = 3W_upza_base_zombie_dwarf;
+
+    [aspect]
+    {
+		model = m_c_gan_df_pos_a3;
+        textures:0 = b_c_eam_dfzo-muck-07;
+        textures:1 = b_c_pos_a3_014-rst;
+    }
+
+    // stats & loot from 3W_krug_grunt_boss_01 Futak the Trainer
+	[actor]
+	{
+		[skills]
+		{
+			dexterity = 24.4, 0;
+			intelligence = 10.4, 0;
+			melee = 90,  0;
+			strength = 51.7, 0;
+			melee = 90,  0;  // ADDED for ranged guards
+		}
+	}
+	[aspect]
+	{
+		experience_value = 971100;
+		life = 819.2;
+		mana = 145.6;
+		max_life = 819.2;
+		max_mana = 145.6;
+		selection_indicator_scale = 1.15;
+	}
+	[attack]
+	{
+		damage_max = 343.5;
+		damage_min = 251.8;
+	}
+	[defend]
+	{
+		defense = 1586.5;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+    		[all*]
+			{
+				[gold*]
+				{
+					max = 210372;
+					min = 186186;
+					min_pile = 7;
+					piles = 1 - 2;
+				}
+                // REMOVED - given to guard captain
+				//[all*]
+				//{
+       		   	//    il_main = sh_w_g_c_r_s_krohar;
+                //}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_crystwind_guard] { specializes = 3W_upza_zombie_crystwind_guard_base; }
+[t:template,n:3W_upza_zombie_crystwind_guard_base]
+{
+    specializes = 3W_upza_base_zombie_crystwind_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = ax_g_d_2h1b_avg;  // Timber Axe, 3-6
+            // similarly weak as the "Chuck" 3-7 Futak the Trainer is wearing, but 2h1b like the "Field Axe" 58-74 from mp_dwarf_legionnaire_guard
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_crystwind_guard_ranged] { specializes = 3W_upza_zombie_crystwind_guard_ranged_base; }
+[t:template,n:3W_upza_zombie_crystwind_guard_ranged_base]
+{
+    specializes = 3W_upza_base_zombie_crystwind_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			es_shield_hand = bw_g_c_s_m_c_avg;  // "Bow", 19-29 dex13, from mp_dwarf_legionnaire_archer
+		}
+	}
+}
+
+[t:template,n:3W_upza_base_zombie_crystwind_guard_captain]
+{
+    specializes = 3W_upza_base_zombie_dwarf;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-muck-07;
+        textures:1 = b_c_edm_muck_zombie;
+    }
+
+    // stats & loot from 3W_lord_hovart
+	[actor]
+	{
+		[skills]
+		{
+			strength =  44.5, 0;
+			intelligence =  9.2, 0;
+			dexterity =  24.5, 0;
+			melee =  80,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 987700;
+		life = 1955;
+		max_life = 1955;
+		mana = 414;
+		max_mana = 414;
+	}
+	[attack]
+	{
+		damage_max = 510.3;
+		damage_min = 470.3;
+	}
+	[defend] { defense=925.8; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				[all*]
+				{
+       				chance = 0.05;
+            	    il_main = #spell/90-97;
+				}
+				[oneof*]
+				{
+					chance = 0.50;
+					il_main = #weapon/255-280;
+					il_main = #armor/590-650;
+   				    il_main = potion_health_super;
+				    il_main = potion_mana_super;
+	    		}
+    			[gold*]
+				{
+					max = 16227;
+					min = 12170;
+				}
+                // ADDED - originally Hovart quest reward
+    			[gold*]
+				{
+					max = 500;
+					min = 500;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_crystwind_guard_captain] { specializes = 3W_upza_zombie_crystwind_guard_captain_base; }
+[t:template,n:3W_upza_zombie_crystwind_guard_captain_base]
+{
+    specializes = upza_base_zombie_crystwind_guard_captain;
+
+	[common]
+	{
+		screen_name = "Guard Captain of Crystwind";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = ax_g_c_1h2b_avg;  // from lord_hovart
+			es_shield_hand = sh_w_g_c_r_s_krohar;  // from Futak
+			es_chest = bd_un_pl_f_g_c_avg_upza_leg_03_rst;
+		}
+	}
+}

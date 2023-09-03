@@ -1,0 +1,749 @@
+[t:template,n:3W_upza_base_mate_zombie_fb]
+{
+	specializes = 3W_upza_base_zombie_farmboy;
+
+	doc = "3W_UPZA mate zombie fb";
+
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+		membership = monster,party_bandit_ranged,bandit,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+	[mind]
+	{
+		com_channels = dyn_party, bandit;
+		com_range = 8.0;
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+    }
+    [actor] { drops_spellbook = true; }
+
+    // Stats & loot from 3W_skeleton_mercenary_archer - EDITED
+	[actor]
+	{
+		[skills]
+		{
+            // all the same for simplicity
+			strength =  36.5, 0;
+			intelligence =  36.5, 0;
+			dexterity =  36.5, 0;
+			ranged =  110,  0;
+			melee =  110,  0;
+			combat_magic =  110,  0;
+			nature_magic =  110,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 3072000;
+		life = 1450;
+		max_life = 1450;
+        // max out for simplicity
+		mana = 4230;  // was 14
+		max_mana = 4230;  // was 14
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 585.7;
+		damage_min = 388.2;
+		damage_bonus_min_ranged = 140;
+		damage_bonus_max_ranged = 224;
+	}
+	[defend] { defense=896.2; }
+    [inventory]
+    {
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/233-275;
+					il_main = #armor/140-687;
+        	        il_main = #nmagic/40-77;
+            	    il_main = #cmagic/40-74;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/248-296;
+	                il_main = #armor/-rare(1)/682-745;
+                    il_main = #*/-rare(1)/248-296;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/248-296;
+	                il_main = #armor/-unique(2)/682-745;
+                    il_main = #*/-unique(2)/248-296;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 523747;
+					min = 439873;
+				}
+			}
+		}
+	}
+}
+[t:template,n:3W_upza_base_mate_zombie_fg]
+{
+	specializes = 3W_upza_base_zombie_farmgirl;
+
+	doc = "3W_UPZA mate zombie fg";
+
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+		membership = monster,party_bandit_ranged,bandit,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+	[mind]
+	{
+		com_channels = dyn_party, bandit;
+		com_range = 8.0;
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+    }
+    [actor] { drops_spellbook = true; }
+
+    // Stats & loot from 3W_skeleton_mercenary_archer - EDITED
+	[actor]
+	{
+		[skills]
+		{
+            // all the same for simplicity
+			strength =  36.5, 0;
+			intelligence =  36.5, 0;
+			dexterity =  36.5, 0;
+			ranged =  110,  0;
+			melee =  110,  0;
+			combat_magic =  110,  0;
+			nature_magic =  110,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 3072000;
+		life = 1450;
+		max_life = 1450;
+        // max out for simplicity
+		mana = 4230;  // was 14
+		max_mana = 4230;  // was 14
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 585.7;
+		damage_min = 388.2;
+		damage_bonus_min_ranged = 140;
+		damage_bonus_max_ranged = 224;
+	}
+	[defend] { defense=896.2; }
+    [inventory]
+    {
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/233-275;
+					il_main = #armor/140-687;
+        	        il_main = #nmagic/40-77;
+            	    il_main = #cmagic/40-74;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/248-296;
+	                il_main = #armor/-rare(1)/682-745;
+                    il_main = #*/-rare(1)/248-296;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/248-296;
+	                il_main = #armor/-unique(2)/682-745;
+                    il_main = #*/-unique(2)/248-296;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 523747;
+					min = 439873;
+				}
+			}
+		}
+	}
+}
+[t:template,n:3W_upza_base_mate_zombie_df]
+{
+	specializes = 3W_upza_base_zombie_dwarf;
+
+	doc = "3W_UPZA mate zombie df";
+
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+		membership = monster,party_bandit_ranged,bandit,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+	[mind]
+	{
+		com_channels = dyn_party, bandit;
+		com_range = 8.0;
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party	= true;
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+    }
+    [actor] { drops_spellbook = true; }
+
+    // Stats & loot from 3W_skeleton_mercenary_archer - EDITED
+	[actor]
+	{
+		[skills]
+		{
+            // all the same for simplicity
+			strength =  36.5, 0;
+			intelligence =  36.5, 0;
+			dexterity =  36.5, 0;
+			ranged =  110,  0;
+			melee =  110,  0;
+			combat_magic =  110,  0;
+			nature_magic =  110,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 3072000;
+		life = 1450;
+		max_life = 1450;
+        // max out for simplicity
+		mana = 4230;  // was 14
+		max_mana = 4230;  // was 14
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 585.7;
+		damage_min = 388.2;
+		damage_bonus_min_ranged = 140;
+		damage_bonus_max_ranged = 224;
+	}
+	[defend] { defense=896.2; }
+    [inventory]
+    {
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/233-275;
+					il_main = #armor/140-687;
+        	        il_main = #nmagic/40-77;
+            	    il_main = #cmagic/40-74;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/248-296;
+	                il_main = #armor/-rare(1)/682-745;
+                    il_main = #*/-rare(1)/248-296;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/248-296;
+	                il_main = #armor/-unique(2)/682-745;
+                    il_main = #*/-unique(2)/248-296;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 523747;
+					min = 439873;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_01] { specializes = 3W_upza_mate_zombie_01_base; }
+[t:template,n:3W_upza_mate_zombie_01_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fb;
+
+	doc = "3W_UPZA mate zombie 01";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fbzo-frag-03;  // red hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_02] { specializes = 3W_upza_mate_zombie_02_base; }
+[t:template,n:3W_upza_mate_zombie_02_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fg;
+
+	doc = "3W_UPZA mate zombie 02";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fgzo-frag-07;  // black hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_03] { specializes = 3W_upza_mate_zombie_03_base; }
+[t:template,n:3W_upza_mate_zombie_03_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fb;
+
+	doc = "3W_UPZA mate zombie 03";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fbzo-frag-01;  // blond hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_04] { specializes = 3W_upza_mate_zombie_04_base; }
+[t:template,n:3W_upza_mate_zombie_04_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fg;
+
+	doc = "3W_UPZA mate zombie 04";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fgzo-frag-04;  // red hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_05] { specializes = 3W_upza_mate_zombie_05_base; }
+[t:template,n:3W_upza_mate_zombie_05_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fb;
+
+	doc = "3W_UPZA mate zombie 05";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fbzo-frag-04;  // not head wound
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+[t:template,n:3W_upza_mate_zombie_05_equipped]
+{
+    specializes = 3W_upza_mate_zombie_05_base;
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_le_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_fireball;
+		}
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_06] { specializes = 3W_upza_mate_zombie_06_base; }
+[t:template,n:3W_upza_mate_zombie_06_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fg;
+
+	doc = "3W_UPZA mate zombie 06";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fgzo-frag-03;  // blond hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+[t:template,n:3W_upza_mate_zombie_06_equipped]
+{
+    specializes = 3W_upza_mate_zombie_06_base;
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_le_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_fireball;
+		}
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_07] { specializes = 3W_upza_mate_zombie_07_base; }
+[t:template,n:3W_upza_mate_zombie_07_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fb;
+
+	doc = "3W_UPZA mate zombie 07";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fbzo-frag-05;  // black hair goatie
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_08] { specializes = 3W_upza_mate_zombie_08_base; }
+[t:template,n:3W_upza_mate_zombie_08_base]
+{
+	specializes = 3W_upza_base_mate_zombie_df;
+
+	doc = "3W_UPZA mate zombie 08";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_dfzo-frag-06;  // dark blond hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+[t:template,n:3W_upza_mate_zombie_08_equipped]
+{
+    specializes = 3W_upza_mate_zombie_08_base;
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = bd_un_le_m_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+		[other]
+		{
+			il_active_primary_spell = spell_iceblast;
+		}
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_09] { specializes = 3W_upza_mate_zombie_09_base; }
+[t:template,n:3W_upza_mate_zombie_09_base]
+{
+	specializes = 3W_upza_base_mate_zombie_df;
+
+	doc = "3W_UPZA mate zombie 09";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_dfzo-frag-03;  // red hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_10] { specializes = 3W_upza_mate_zombie_10_base; }
+[t:template,n:3W_upza_mate_zombie_10_base]
+{
+	specializes = 3W_upza_base_mate_zombie_df;
+
+	doc = "3W_UPZA mate zombie 10";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_dfzo-frag-02;  // brown hair
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_11] { specializes = 3W_upza_mate_zombie_11_base; }
+[t:template,n:3W_upza_mate_zombie_11_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fg;
+
+	doc = "3W_UPZA mate zombie 11";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fgzo-frag-08;  // dark blond hair colorful headband
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie";
+	}
+}
+
+[t:template,n:3W_upza_mate_zombie_captain] { specializes = 3W_upza_mate_zombie_captain_base; }
+[t:template,n:3W_upza_mate_zombie_captain_base]
+{
+	specializes = 3W_upza_base_mate_zombie_fb;
+
+	doc = "3W_UPZA mate zombie captain";
+
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_eam_fbzo-frag-22;  // lord bolingar
+            1 = b_c_pos_a1_005;  // brown underwear
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate Zombie Captain";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_red(sgx)");
+				action* = call_sfx_script("unique_ray_red(sgx)");
+			}
+		}
+	}
+   	[mind]
+   	{
+		jat_brain							= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party			= true
+			&actor_creates_own_party			= true
+			&form_party_on_friend_entered_ICZ	= true
+			&form_party_on_friend_entered_OCZ	= true
+			&party_template						= "party_bandit_ranged";
+		jat_fidget		= world\ai\jobs\common\job_fidget.skrit
+			?curious		= 0.75
+			&interest		= interest
+			&meander		= true
+			&still			= false;
+	}
+
+    // Stats & loot from 3W_skeleton_mercenary_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	43.4, 0;
+			intelligence =  19.3, 0;
+			dexterity =  	29, 0;
+			melee =  		114,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 3945060;
+		life = 2552;
+		max_life = 2552;
+		mana = 27.6;
+		max_mana = 27.6;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 556.7;
+		damage_min = 331.9;
+	}
+	[defend] { defense=1639.2; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.794;
+					il_main = #*/301-366;
+					il_main = #armor/1004-1136;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/361-392;
+	                il_main = #armor/-rare(1)/1089-1168;
+                    il_main = #*/-rare(1)/361-392;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/361-392;
+	                il_main = #armor/-unique(2)/1089-1168;
+                    il_main = #*/-unique(2)/361-392;
+	            }
+				[gold*]
+				{
+					chance = 0.2;
+					max = 1010365;
+					min = 782936;
+					min_pile = 2110;
+					piles = 4 - 6;
+				}
+			}
+		}
+	}
+}

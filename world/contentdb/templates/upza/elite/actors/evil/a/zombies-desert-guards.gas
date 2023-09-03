@@ -1,0 +1,98 @@
+[t:template,n:3W_upza_base_zombie_desert_guard]
+{
+    specializes = 3W_upza_base_zombie_thin;
+
+    // look from dsx_mummy
+    [aspect]
+    {
+		[textures] { 0=b_c_edm_mummy; }
+		material = leather;
+		[voice]
+		{
+			[die]			{ priority = high;	* = s_e_die_dead_SED;		}
+			[enemy_spotted]	{ priority = high; * = s_e_call_mummy_SED; }
+		}
+    }
+
+    // stats & loot from 3W_dungeon_crawler
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	66.1, 0;
+			intelligence =  11.5, 0;
+			dexterity =  	21.7, 0;
+			melee =  		101, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 4650000;
+		life = 5071.4;
+		max_life = 5071.4;
+		mana = 14.4;
+        max_mana = 14.4;
+    }
+    [attack]
+	{
+		attack_range = 0.5;
+		damage_max = 526.3;
+		damage_min = 335.9;
+	}
+	[defend] { defense=660.2; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.35;
+					il_main = #*/138-298;
+					il_main = #armor/139-688;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/322-356;
+	                il_main = #armor/-rare(1)/1014-1040;
+                    il_main = #*/-rare(1)/322-356;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/322-356;
+	                il_main = #armor/-unique(2)/1014-1040;
+                    il_main = #*/-unique(2)/322-356;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 583485;
+					min = 504082;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_desert_guard] { specializes = 3W_upza_zombie_desert_guard_base; }
+[t:template,n:3W_upza_zombie_desert_guard_base]
+{
+    specializes = 3W_upza_base_zombie_desert_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_shield_hand = sh_m_g_c_r_s_avg;  // from mp_guard, Metal Buckler, 7
+			es_weapon_hand = ss_g_c_gl_1h_fun;  // Tarnished Gladius, 3-11
+		}
+	}
+}

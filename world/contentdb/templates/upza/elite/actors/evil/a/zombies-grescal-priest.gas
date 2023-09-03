@@ -1,0 +1,28 @@
+[t:template,n:3W_upza_zombie_grescal_priest]
+{
+    specializes = 3W_upza_zombie_grescal_townfolk_base;
+
+   	[mind]
+	{
+		jat_startup = jat_none;  // no hiding in sand
+    }
+
+    [aspect]
+    {
+		textures:0 = b_i_csl_corpse-dry;
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_yellow(sgx)");
+			}
+		}
+	}
+}

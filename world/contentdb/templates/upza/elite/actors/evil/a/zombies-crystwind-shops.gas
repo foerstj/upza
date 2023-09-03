@@ -1,7 +1,7 @@
-[t:template,n:2W_upza_zombie_crystwind_shop_smith] { specializes = 2W_upza_zombie_crystwind_shop_smith_base; }
-[t:template,n:2W_upza_zombie_crystwind_shop_smith_base]
+[t:template,n:3W_upza_zombie_crystwind_shop_smith] { specializes = 3W_upza_zombie_crystwind_shop_smith_base; }
+[t:template,n:3W_upza_zombie_crystwind_shop_smith_base]
 {
-    specializes = 2W_upza_base_zombie_thin;
+    specializes = 3W_upza_base_zombie_thin;
 
 	[common]
 	{
@@ -34,33 +34,33 @@
 		}
 	}
 
-    // stats & loot from 2W_wraith_boss_01
+    // stats & loot from 3W_wraith_boss_01
     // like her shop content, this is on par with Iliarth Canyon, not Crystwind Mines!
 	[actor]
 	{
 		[skills]
 		{
-			strength = 		33.3, 0;
-			intelligence = 	11.5, 0;
-			dexterity = 	13.9, 0;
-   			melee =  		77,  0;
+			strength = 		44.6, 0;
+			intelligence = 	13.5, 0;
+			dexterity = 	17.8, 0;
+   			melee =  		110,  0;
 		}
 	}
 	[aspect]
 	{
-		experience_value = 150000;
-		life = 2484.6;
-		max_life = 2484.6;
-		mana = 36.9;
-		max_mana = 36.9;
+		experience_value = 4380000;
+		life = 3484.5;
+		max_life = 3484.5;
+		mana = 51.8;
+		max_mana = 51.8;
 	}
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 394.6;
-		damage_min = 286;
+		damage_max = 553.4;
+		damage_min = 401.1;
 	}
-   	[defend] { defense=1482.2; }
+   	[defend] { defense=2078.6; }
    	[inventory]
 	{
     	[pcontent]
@@ -70,28 +70,28 @@
 				[oneof*]
 				{
 					chance = 0.794;
-					il_main = #*/234-264;
-					il_main = #armor/717-820;
+					il_main = #*/316-357;
+					il_main = #armor/971-1110;
 				}
 				[oneof*]
 				{
 	            	chance = 0.004;
-	                il_main = #weapon/-rare(1)/254-284;
-	                il_main = #armor/-rare(1)/795-863;
-                    il_main = #*/-rare(1)/254-284;
+	                il_main = #weapon/-rare(1)/343-384;
+	                il_main = #armor/-rare(1)/1077-1168;
+                    il_main = #*/-rare(1)/343-384;
                 }
 				[oneof*]
 				{
                 	chance = 0.002;
-	                il_main = #weapon/-unique(2)/254-284;
-	                il_main = #armor/-unique(2)/795-863;
-                    il_main = #*/-unique(2)/254-284;
+	                il_main = #weapon/-unique(2)/343-384;
+	                il_main = #armor/-unique(2)/1077-1168;
+                    il_main = #*/-unique(2)/343-384;
 	            }
 				[gold*]
 				{
 					chance = 0.2;
-					max = 255980;
-					min = 202488;
+					max = 857236;
+					min = 678101;
 
 					min_pile = 2110;
 					piles = 4 - 6;
@@ -100,7 +100,7 @@
 		}
 	}
 
-    // more loot: shop from original 2W_smith_jerena_strongblade
+    // more loot: shop from original 3W_smith_jerena_strongblade
 	[inventory]
 	{
 		[store_pcontent]
@@ -110,26 +110,26 @@
 			{
 				[all*]
 				{
-					il_main = #body,ro/200-750;
+					il_main = #body,ro/312-750;
 					max = 4;
 					min = 4;
 				}
 
 				[all*]
 				{
-					il_main = #body/200-349;
+					il_main = #body/312-543;
 					max = 7;
 					min = 7;
 				}
 				[all*]
 				{
-					il_main = #body/357-688;
+					il_main = #body/556-640;
 					max = 18;
 					min = 18;
 				}
 				[all*]
 				{
-					il_main = #body/697-750;
+					il_main = #body/700-750;
 					max = 5;
 					min = 5;
 				}
@@ -137,57 +137,57 @@
 
 				[all*]
 				{
-					il_main = #gloves/26-349;
+					il_main = #gloves/41-543;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #gloves/357-688;
+					il_main = #gloves/556-640;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #gloves/697-959;
+					il_main = #gloves/700-760;
 					max = 6;
 					min = 6;
 				}
 
 				[all*]
 				{
-					il_main = #helm/26-349;
+					il_main = #helm/41-543;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #helm/357-688;
+					il_main = #helm/556-640;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #helm/697-959;
+					il_main = #helm/700-760;
 					max = 6;
 					min = 6;
 				}
 
 				[all*]
 				{
-					il_main = #boots/26-349;
+					il_main = #boots/41-543;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #boots/357-688;
+					il_main = #boots/556-640;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #boots/697-959;
+					il_main = #boots/700-760;
 					max = 6;
 					min = 6;
 				}
@@ -196,19 +196,19 @@
 			{
 				[all*]
 				{
-					il_main = #shield/26-349;
+					il_main = #shield/41-543;
 					max = 10;
 					min = 10;
 				}
 				[all*]
 				{
-					il_main = #shield/357-688;
+					il_main = #shield/556-640;
 					max = 12;
 					min = 12;
 				}
 				[all*]
 				{
-					il_main = #shield/697-959;
+					il_main = #shield/700-760;
 					max = 6;
 					min = 6;
 				}
@@ -217,38 +217,38 @@
 			{
 				[all*]
 				{
-					il_main = #melee/112-144;
+					il_main = #melee/174-223;
 					max = 8;
 					min = 8;
 				}
 				[all*]
 				{
-					il_main = #melee/140-170;
+					il_main = #melee/236-270;
 					max = 20;
 					min = 20;
 				}
 				[all*]
 				{
-					il_main = #melee/180-220;
+					il_main = #melee/280-310;
 					max = 6;
 					min = 6;
 				}
 
 				[all*]
 				{
-					il_main = #ranged/112-144;
+					il_main = #ranged/174-223;
 					max = 8;
 					min = 8;
 				}
 				[all*]
 				{
-					il_main = #ranged/140-170;
+					il_main = #ranged/236-270;
 					max = 20;
 					min = 20;
 				}
 				[all*]
 				{
-					il_main = #ranged/180-220;
+					il_main = #ranged/280-310;
 					max = 6;
 					min = 6;
 				}
@@ -261,10 +261,10 @@
 	}
 }
 
-[t:template,n:2W_upza_zombie_crystwind_shop_mage] { specializes = 2W_upza_zombie_crystwind_shop_mage_base; }
-[t:template,n:2W_upza_zombie_crystwind_shop_mage_base]
+[t:template,n:3W_upza_zombie_crystwind_shop_mage] { specializes = 3W_upza_zombie_crystwind_shop_mage_base; }
+[t:template,n:3W_upza_zombie_crystwind_shop_mage_base]
 {
-    specializes = 2W_upza_base_zombie_dwarf;
+    specializes = 3W_upza_base_zombie_dwarf;
 
 	[common]
 	{
@@ -301,36 +301,36 @@
 		}
     }
 
-    // stats & loot from 2W_krug_shaman_boss_01 Huskar the Shaman
+    // stats & loot from 3W_krug_shaman_boss_01 Huskar the Shaman
 	[actor]
 	{
 		[skills]
 		{
-			combat_magic = 56, 0;
-			dexterity = 13.4, 0;
-			intelligence = 14.5, 0;
-			melee = 54, 0;
-			strength = 35.2, 0;
+			combat_magic = 90, 0;
+			dexterity = 18.3, 0;
+			intelligence = 17.4, 0;
+			melee = 88, 0;
+			strength = 51.7, 0;
 		}
 	}
 	[aspect]
 	{
-        experience_value = 29665;
-        life = 501.6;
-        mana = 5700;
-        max_life = 501.6;
-        max_mana = 5700;
+        experience_value = 917150;
+        life = 800.8;
+        mana = 9100;
+        max_life = 800.8;
+        max_mana = 9100;
 	}
 	[attack]
-	{
-        damage_max = 150.5;
-        damage_min = 82.1;
-        damage_bonus_min_cmagic = 123;
-        damage_bonus_max_cmagic = 184;
+    {
+        damage_max = 240.2;
+        damage_min = 131;
+        damage_bonus_min_cmagic = 204;
+        damage_bonus_max_cmagic = 305;
 	}
 	[defend]
 	{
-		defense = 820.8;
+		defense = 1310.4;
 	}
 	[inventory]
 	{
@@ -341,17 +341,17 @@
 				[gold*]
 				{
 					chance = 0.5;
-					max = 342793;
-					min = 237972;
+					max = 1816125;
+					min = 1260781;
 					min_pile = 10;
 					piles = 4 - 6;
 				}
 				[all*]
 				{
 					chance = 0.5;
-					il_main = #weapon/141-162;
-					il_main = #body/331-399;
-                    il_main = #body,ro/331-399;
+					il_main = #weapon/225-257;
+					il_main = #body/528-637;
+                    il_main = #body,ro/528-637;
 					  max = 2;
 					  min = 1;
 				}
@@ -359,7 +359,7 @@
 		}
 	}
 
-    // more loot - shop content from original 2W_conjuror_orkin_umberdeep
+    // more loot - shop content from original 3W_conjuror_orkin_umberdeep
     [actor] { drops_spellbook = true; }
 	[inventory]
 	{
@@ -370,13 +370,13 @@
 			{
 				[all*]
 				{
-					il_main = #spell/35-67;
+					il_main = #spell/54-100;
 					max = 40;
 					min = 40;
 				}
 				[all*]
 				{
-					il_main = #spell/0-26;
+					il_main = #spell/0-41;
 					max = 10;
 					min = 10;
 				}
@@ -385,7 +385,7 @@
 			{
                 [all*]
 				{
-					il_main = #spellbook/85-171;
+					il_main = #spellbook/145-264;
 					max = 6;
 					min = 4;
 				}
@@ -403,15 +403,15 @@
 		item_markup = 2;
 		[item_restock]
 		{
-			potion_health_small = 5;
-			potion_health_medium = 10;
+			potion_health_medium = 5;
 			potion_health_large = 15;
-			potion_mana_small = 5;
-			potion_mana_medium = 10;
+			potion_health_super = 10;
+			potion_mana_medium = 5;
 			potion_mana_large = 15;
-			potion_rejuvenation_small = 2;
-			potion_rejuvenation_medium = 2;
+			potion_mana_super = 10;
+			potion_rejuvenation_medium = 1;
 			potion_rejuvenation_large = 3;
+			potion_rejuvenation_super = 2;
 
 			scroll_resurrect = 10;
             spell_resurrect = 10;

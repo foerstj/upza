@@ -1,0 +1,291 @@
+[t:template,n:3W_upza_base_zombie_hiroth_guard]
+{
+    specializes = 3W_upza_base_zombie_headless;
+
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+
+    // stats & loot from 3W_seck_grunt
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	95.1, 0;
+			intelligence =  24.6, 0;
+			dexterity =  	47.8, 0;
+			melee =  		107, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 7626000;
+		life = 3654.7;
+		max_life = 3654.7;
+		mana = 59.3;
+		max_mana = 59.3;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 473.3;
+		damage_min = 253.9;
+	}
+	[defend] { defense=1642.1; }
+   	[inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/292-333;
+					il_main = #armor/365-725;
+	    			il_main = potion_mana_super;
+					il_main = potion_health_super;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/348-378;
+	                il_main = #armor/-rare(1)/680-770;
+                    il_main = #*/-rare(1)/348-378;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/348-378;
+	                il_main = #armor/-unique(2)/680-770;
+                    il_main = #*/-unique(2)/348-378;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 552484;
+					min = 435504;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_hiroth_guard] { specializes = 3W_upza_zombie_hiroth_guard_base; }
+[t:template,n:3W_upza_zombie_hiroth_guard_base]
+{
+    specializes = 3W_upza_base_zombie_hiroth_guard;
+
+	[common]
+	{
+		screen_name = "Legionnaire Guard";
+	}
+
+    // equipment from seck_grunt
+	[inventory]
+	{
+        spew_equipped_kill_count = <ignore>;
+		[equipment]
+		{
+            es_weapon_hand = sd_un_seck_1h_avg;
+		}
+	}
+}
+
+[t:template,n:3W_upza_base_zombie_hiroth_guard_ranged]
+{
+    specializes = 3W_upza_base_zombie_headless;
+
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+
+    // stats & loot 3W_from seck_archer
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	53.7, 0;
+			intelligence =  27.7, 0;
+			dexterity =  	55.8, 0;
+			ranged =  		98, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 6789000;
+		life = 1966.3;
+		max_life = 1966.3;
+		mana = 65.5;
+		max_mana = 65.5;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 707.8;
+		damage_min = 425.8;
+		damage_bonus_min_ranged = 154;
+		damage_bonus_max_ranged = 264;
+	}
+	[defend] { defense=1081.4; }
+	[inventory]
+	{
+		[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/193-294;
+					il_main = #armor/139-687;
+	    			il_main = potion_mana_super;
+					il_main = potion_health_super;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/294-321;
+	                il_main = #armor/-rare(1)/694-786;
+                    il_main = #*/-rare(1)/294-321;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/294-321;
+	                il_main = #armor/-unique(2)/694-786;
+                    il_main = #*/-unique(2)/294-321;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 594028;
+					min = 537002;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_hiroth_guard_ranged] { specializes = 3W_upza_zombie_hiroth_guard_ranged_base; }
+[t:template,n:3W_upza_zombie_hiroth_guard_ranged_base]
+{
+    specializes = 3W_upza_base_zombie_hiroth_guard_ranged;
+
+	[common]
+	{
+		screen_name = "Legionnaire Archer";
+	}
+
+    // equipment from seck_archer
+	[inventory]
+	{
+        spew_equipped_kill_count = <ignore>;
+		selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+            es_shield_hand = bw_un_seck_avg;
+		}
+	}
+}
+
+[t:template,n:3W_upza_base_zombie_hiroth_guard_captain]
+{
+    specializes = 3W_upza_base_zombie_headless;
+
+	[mind]
+	{
+		jat_startup 					= world\ai\jobs\common\job_startup_reveal.skrit
+			?auto_reveal 				= true;
+	}
+
+    // stats & loot from 3W_seck_guard_elite
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	101, 0;
+			intelligence =  25.7, 0;
+			dexterity =  	48, 0;
+			melee =  		109, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 13950000;
+		life = 3759.6;
+		max_life = 3759.6;
+		mana = 55.7;
+		max_mana = 55.7;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 507;
+		damage_min = 268.2;
+	}
+	[defend] { defense=1755.7; }
+    [inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.35;
+					il_main = #*/216-287;
+					il_main = #armor/138-700;
+	                il_main = #spell/94-117;
+	    			il_main = potion_mana_super;
+					il_main = potion_health_super;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/289-314;
+	                il_main = #armor/-rare(1)/733-838;
+                    il_main = #*/-rare(1)/289-314;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/289-314;
+	                il_main = #armor/-unique(2)/733-838;
+                    il_main = #*/-unique(2)/289-314;
+	            }
+				[gold*]
+				{
+					chance = 0.125;
+					max = 690828;
+					min = 561550;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_hiroth_guard_captain] { specializes = 3W_upza_zombie_hiroth_guard_captain_base; }
+[t:template,n:3W_upza_zombie_hiroth_guard_captain_base]
+{
+    specializes = 3W_upza_base_zombie_hiroth_guard_captain;
+
+	[common]
+	{
+		screen_name = "Legionnaire Captain";
+	}
+
+    // equipment from seck_guard_elite
+	[inventory]
+	{
+        spew_equipped_kill_count = <ignore>;
+		[equipment]
+		{
+            es_weapon_hand = sd_un_seck_1h_fin;
+		}
+	}
+}

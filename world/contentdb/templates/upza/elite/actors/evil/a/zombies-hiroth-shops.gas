@@ -1,0 +1,332 @@
+[t:template,n:3W_upza_base_zombie_hiroth_shop]
+{
+    specializes = 3W_upza_base_zombie_pudgy;
+
+    // look & behavior from walking_corpse_boss_01
+    [aspect]
+    {
+		textures:0 = b_c_edm_zo-04;  // but other texture
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_light_purple(sgx)");  // Hiroth = purple
+			}
+		}
+	}
+   	[mind]
+	{
+		jat_fidget			= world\ai\jobs\common\job_fidget.skrit
+			?still				= false
+			&meander			= false;
+
+		actor_auto_fidgets = true;
+		jat_startup = jat_none;
+		on_enemy_spotted_alert_friends = true;
+	}
+
+    // stats & loot from 3W_lava_imp_04
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		68.2, 0;
+			intelligence = 	25.6, 0;
+			dexterity = 	35.4, 0;
+			melee =  		110, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 9300000;
+		life = 2296.3;
+		max_life = 2296.3;
+		mana = 23;
+		max_mana = 23;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 505.2;
+		damage_min = 330.7;
+	}
+	[defend] { defense=1364; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/245-306;
+	                il_main = #cmagic/93-130;
+   				    il_main = potion_health_super;
+				    il_main = potion_mana_super;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+					max = 618034;
+					min = 502453;
+				}
+			}
+		}
+    }
+}
+
+[t:template,n:3W_upza_zombie_hiroth_shop_mage] { specializes = 3W_upza_zombie_hiroth_shop_mage_base; }
+[t:template,n:3W_upza_zombie_hiroth_shop_mage_base]
+{
+    specializes = 3W_upza_base_zombie_hiroth_shop;
+
+	[common]
+	{
+		screen_name = "Azunite Priestess Challe Withus";
+	}
+
+    // more loot: shop from original 3W_azunite_priestess_challe
+    [actor] { drops_spellbook = true; }
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/91-111;
+					max = 40;
+					min = 40;
+				}
+				[all*]
+				{
+					il_main = #spell/0-88;
+					max = 10;
+					min = 10;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/165-260;
+					max = 6;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 5;
+					min = 5;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_large = 15;
+			potion_health_super = 15;
+			potion_mana_large = 15;
+			potion_mana_super = 15;
+			potion_rejuvenation_large = 3;
+			potion_rejuvenation_super = 3;
+
+			scroll_resurrect = 10;
+            spell_resurrect = 10;
+            spell_revive = 10;
+            spell_healing_hands = 10;
+
+            spell_fireshot = 4;
+            spell_zap = 4;
+		}
+	}
+}
+
+[t:template,n:3W_upza_zombie_hiroth_shop_smith] { specializes = 3W_upza_zombie_hiroth_shop_smith_base; }
+[t:template,n:3W_upza_zombie_hiroth_shop_smith_base]
+{
+    specializes = 3W_upza_base_zombie_hiroth_shop;
+
+	common:screen_name = "Blacksmith Moik Stourn";
+	[inventory]
+	{
+		[equipment]
+		{
+			//es_shield_hand = tongs;
+			es_weapon_hand = blacksmith_hammer;
+		}
+	}
+
+    // more loot: shop from original 3W_blacksmith_moik_stourn
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/560-750;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/560-643;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/646-772;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #body/775-856;
+					max = 5;
+					min = 5;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/75-562;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #gloves/646-772;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #gloves/775-856;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #helm/75-562;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #helm/646-772;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #helm/775-856;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #boots/75-562;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #boots/646-772;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #boots/775-856;
+					max = 6;
+					min = 6;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/75-562;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #shield/646-772;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #shield/775-856;
+					max = 6;
+					min = 6;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/249-285;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/288-342;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #melee/344-380;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/249-285;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/288-342;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #ranged/344-380;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}

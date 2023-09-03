@@ -1,0 +1,297 @@
+[t:template,n:3W_upza_zombie_rwg_shop_rhod] { specializes = 3W_upza_zombie_rwg_shop_rhod_base; }
+[t:template,n:3W_upza_zombie_rwg_shop_rhod_base]
+{
+    specializes = 3W_upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Rhod Emell";
+	}
+
+    [aspect]
+    {
+		textures:0 = b_c_edm_vines;
+    }
+
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				no_trig_bits = true;
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				action* = call_sfx_script("unique_light_green(sgx)");
+			}
+		}
+	}
+
+    // stats & loot from 3W_larch_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	80.7, 0;
+			intelligence =  7.6, 0;
+			dexterity =  	24.3, 0;
+            melee =  		106,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 3880000;
+		life = 4602.5;
+		max_life = 4602.5;
+		mana = 30.5;
+		max_mana = 30.5;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 621.5;
+		damage_min = 481;
+		reload_delay = 0;
+	}
+   	[defend] { defense=2180.6; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.994;
+					il_main = #*/296-355;
+					il_main = #armor/1020-1140;
+                	il_main = #nmagic/111-120;
+                	il_main = #cmagic/111-120;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/341-367;
+	                il_main = #armor/-rare(1)/1053-1197;
+                    il_main = #*/-rare(1)/341-367;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/341-367;
+	                il_main = #armor/-unique(2)/1053-1197;
+                    il_main = #*/-unique(2)/341-367;
+	            }
+			}
+		}
+    }
+
+    // original shop content from 3W_rhod_emell
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/518-750;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/518-555;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/558-747;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/748-750;
+					max = 3;
+					min = 3;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/71-555;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/558-747;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/750-875;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #helm/71-555;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/558-747;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/750-875;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/71-555;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/558-747;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/750-875;
+					max = 4;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/71-555;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/558-747;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/750-875;
+					max = 4;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/235-252;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/255-315;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/320-345;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/235-252;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/255-315;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/320-345;
+					max = 6;
+					min = 6;
+				}
+			}
+
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/84-111;
+					max = 25;
+					min = 25;
+				}
+				[all*]
+				{
+					il_main = #spell/0-81;
+					max = 5;
+					min = 5;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/155-260;
+					max = 4;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_large = 9;
+			potion_health_super = 9;
+			potion_mana_large = 9;
+			potion_mana_super = 9;
+			potion_rejuvenation_large = 2;
+			potion_rejuvenation_super = 2;
+
+			scroll_resurrect = 2;
+            spell_resurrect = 2;
+            spell_revive = 2;
+            spell_healing_hands = 2;
+
+            spell_fireshot = 2;
+            spell_zap = 2;
+		}
+	}
+}
