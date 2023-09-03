@@ -1,0 +1,98 @@
+[t:template,n:2W_cyclops_base]  // = 2W_cyclops
+{
+	category_name = "2W_evil_c";
+	doc = "2W_cyclops";
+	specializes = 2W_base_cyclops;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	44.1, 0;
+			intelligence =  13, 0;
+			dexterity =  	17.5, 0;
+            melee =  		68,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 124460;
+		life = 2714.6;
+		max_life = 2714.6;
+		mana = 39.4;
+		max_mana = 39.4;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 404.8;
+		damage_min = 279.1;
+		reload_delay = 0;
+	}
+	[common] { screen_name="Cyclops"; }
+    [defend] { defense=585.6; }
+   	[inventory]
+	{
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					es_weapon_hand = cb_un_2h_cyclops;
+				}
+				[oneof*]
+				{
+					chance = 0.5;
+					il_main = #*/163-223;
+					il_main = #armor/101-514;
+                	il_main = #nmagic/33-66;
+                	il_main = #cmagic/33-66;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/195-238;
+	                il_main = #armor/-rare(1)/633-751;
+                    il_main = #*/-rare(1)/195-238;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/195-238;
+	                il_main = #armor/-unique(2)/633-751;
+                    il_main = #*/-unique(2)/195-238;
+	            }
+			}
+        }
+	}
+	[mind]
+	{
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+}
+
+[t:template,n:2W_cyclops_zombie] { specializes = 2W_cyclops_zombie_base; }
+[t:template,n:2W_cyclops_zombie_base]
+{
+    specializes = 2W_cyclops_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_ecm_cy-zo;
+		[voice]
+		{
+			[die] 			{ priority = high;	* = s_e_die_zombie_cyclops_SED;		}
+			[enemy_spotted] { priority = high;	* = s_e_call_zombie_cyclops_SED;	}
+			[hit_critical]	{ priority = low;	* = s_e_hit_zombie_cyclops_SED;		}
+			[hit_glance]	{ priority = low;	* = s_e_hit_zombie_cyclops_SED;		}
+			[hit_solid]		{ priority = low;	* = s_e_hit_zombie_cyclops_SED;		}
+		}
+    }
+	[common]
+	{
+		screen_name = "Zombie Cyclops";
+	}
+}

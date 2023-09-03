@@ -1,0 +1,141 @@
+[t:template,n:3W_krug_throw_base]  // = 3W_krug_throw
+{
+	  category_name = "3W_evil_a";
+	  doc = "3W_krug, rock thrower";
+	  specializes = 3W_base_krug;
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 30.7, 0;
+			  intelligence = 12.2, 0;
+			  ranged = 89,  0;
+			  strength = 36.5, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 742014;
+		  life = 323.2;
+		  mana = 110.4;
+		  max_life = 323.2;
+		  max_mana = 110.4;
+		  selection_indicator_scale = 0.85;
+		[textures]
+		{
+			  0 = b_c_eam_kg;
+		}
+		[voice]
+		{
+			[attack]		{	* = s_e_attack_krug_throw;	}
+			[die]			{ priority = high;	* = s_e_die_krug_scout;		}
+			[hit_critical]	{ priority = low;	* = s_e_hit_krug_scout_SED;		}
+			[hit_glance]	{ priority = low;	* = s_e_hit_krug_scout_SED;		}
+			[hit_solid]		{ priority = low;	* = s_e_hit_krug_scout_SED;		}
+		}
+	}
+	[attack]
+	{
+		  attack_range = 0.5;
+		  damage_bonus_min_ranged = 126;
+		  damage_bonus_max_ranged = 172;
+		  damage_max = 413;
+		  damage_min = 287.1;
+		  reload_delay = 1;
+	}
+	[common]
+	{
+		  screen_name = "Krug Chucker";
+		  membership = monster, krug;
+	}
+	[defend]
+	{
+		  defense = 470.4;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_ranged_weapon;
+		[equipment]
+		{
+			  es_shield_hand = rock_krug;
+		}
+		[pcontent]
+		{
+			[gold*]
+			{
+				  chance = 0.12;
+				  max = 203273;
+				  min = 156068;
+			}
+			[oneof*]
+			{
+				  chance = 0.15;
+				  il_main = potion_health_super;
+			}
+			[all*]
+			{
+    				chance = 0.03;
+   	        	    il_main = #spell/37-110;
+			}
+			[oneof*]
+			{
+                   chance = 0.002;
+                   il_main = #weapon/-rare(1)/243-292;
+                   il_main = #armor/-rare(1)/552-736;
+            }
+			[oneof*]
+			{
+				  chance = 0.10;
+				  il_main = #weapon/227-276;
+				  il_main = #*/227-276;
+				  il_main = #armor/129-644;
+				  il_main = potion_mana_super;
+				  il_main = potion_health_super;
+			}
+		}
+	}
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?social		= 0.35
+			&still		= false;
+
+		actor_weapon_preference			= WP_RANGED;
+
+		actor_auto_switches_to_ranged	= true;
+		on_enemy_spotted_alert_friends	= true;
+
+	}
+}
+
+[t:template,n:3W_krug_throw_zombie_01] { specializes = 3W_krug_throw_zombie_01_base; }
+[t:template,n:3W_krug_throw_zombie_01_base]
+{
+    specializes = 3W_krug_throw_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_kg-dk-01;
+    }
+    [common]
+    {
+        screen_name = "Zombie Krug Chucker";
+    }
+}
+
+[t:template,n:3W_krug_throw_zombie_02] { specializes = 3W_krug_throw_zombie_02_base; }
+[t:template,n:3W_krug_throw_zombie_02_base]
+{
+    specializes = 3W_krug_throw_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_kg-dk-02;
+    }
+    [common]
+    {
+        screen_name = "Zombie Krug Chucker";
+    }
+}
+
+[t:template,n:3W_krug_throw_zombie] { specializes = 3W_krug_throw_zombie_01_base; }

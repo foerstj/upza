@@ -1,0 +1,116 @@
+[t:template,n:2W_krug_grunt_base]  // = 2W_krug_grunt
+{
+	  category_name = "2W_evil_a";
+	  doc = "2W_krug grunt";
+	  specializes = 2W_base_krug;
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 13.4, 0;
+			  intelligence = 5.8, 0;
+			  melee = 56,  0;
+			  strength = 31.7, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 16226;
+		  life = 248.2;
+		  mana = 91.2;
+		  max_life = 248.2;
+		  max_mana = 91.2;
+		  selection_indicator_scale = 0.85;
+		[textures]
+		{
+			  0 = b_c_eam_kg;
+		}
+	}
+	[attack]
+	{
+		  damage_max = 204;
+		  damage_min = 161.7;
+	}
+	[common]
+	{
+		  screen_name = "Krug Grunt";
+		  membership = krug, party_krug_grunt_boss, monster;
+	}
+	[defend]
+	{
+		  defense = 344.8;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				  es_weapon_hand = ax_d_d_1h1b_avg;
+			}
+    		[oneof*]
+			{
+				[gold*]
+				{
+					  chance = 0.2;
+					  max = 28157;
+					  min = 21163;
+				}
+				[all*]
+				{
+       				chance = 0.05;
+   	        	    il_main = #spell/23-57;
+				}
+				[oneof*]
+				{
+	    		    chance = 0.15;
+       		   	    il_main = #weapon/121-172;
+           		    il_main = #armor/68-331;
+   					il_main = potion_mana_large;
+					il_main = potion_health_large;
+                }
+			}
+		}
+	}
+	[mind]
+	{
+		on_enemy_spotted_alert_friends 		= true;
+		jat_brain							= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party			= true;
+		jat_fidget							= world\ai\jobs\common\job_fidget.skrit
+			?social								= 0.35
+			&still								= false;
+	}
+}
+
+[t:template,n:2W_krug_grunt_zombie_01] { specializes = 2W_krug_grunt_zombie_01_base; }
+[t:template,n:2W_krug_grunt_zombie_01_base]
+{
+    specializes = 2W_krug_grunt_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_kg-dk-01;
+    }
+    [common]
+    {
+        screen_name = "Zombie Krug Grunt";
+    }
+}
+
+[t:template,n:2W_krug_grunt_zombie_02] { specializes = 2W_krug_grunt_zombie_02_base; }
+[t:template,n:2W_krug_grunt_zombie_02_base]
+{
+    specializes = 2W_krug_grunt_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_kg-dk-02;
+    }
+    [common]
+    {
+        screen_name = "Zombie Krug Grunt";
+    }
+}
+
+[t:template,n:2W_krug_grunt_zombie] { specializes = 2W_krug_grunt_zombie_01_base; }

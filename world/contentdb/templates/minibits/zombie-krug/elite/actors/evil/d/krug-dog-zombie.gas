@@ -1,0 +1,55 @@
+[t:template,n:3W_krug_dog_base]  // = 3W_krug_dog
+{
+	category_name = "3W_evil_d";
+	doc = "3W_krug_dog";
+	specializes = 3W_base_krug_dog;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  18.9, 0;
+			intelligence =  1.8, 0;
+			dexterity =  19.9, 0;
+			melee =  89,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 595467;
+		life = 508;
+		max_life = 508;
+		mana = 178;
+		max_mana = 178;
+		model = m_c_edm_kd_pos_1;
+	}
+	[attack]
+	{
+		damage_max = 246.3;
+		damage_min = 186.4;
+	}
+	[common] { screen_name="Krug Dog"; }
+	[defend] { defense=1024; }
+	[mind]
+	{
+		on_enemy_spotted_alert_friends = true;
+		melee_engage_range = 14.0;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+}
+
+[t:template,n:3W_krug_dog_zombie] { specializes = 3W_krug_dog_zombie_base; }
+[t:template,n:3W_krug_dog_zombie_base]
+{
+    specializes = 3W_krug_dog_base;
+
+    [aspect]
+    {
+        textures:0 = b_i_cav_carcass-02;
+    }
+	[common]
+    {
+        screen_name = "Zombie Krug Dog";
+    }
+}

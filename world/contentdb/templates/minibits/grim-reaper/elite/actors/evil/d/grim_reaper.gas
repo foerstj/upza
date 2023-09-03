@@ -1,0 +1,157 @@
+[t:template,n:3W_base_grim_reaper]
+{
+    specializes = base_skeleton;
+
+	category_name = "3W_evil_d";
+    [aspect]
+    {
+        model = m_c_edm_rp_pos_1;
+    }
+	[common]
+	{
+		screen_name = "Grim Reaper";
+	}
+
+	[body]
+	{
+        // Animations from NPC skeleton + original reaper animations
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gan_sk_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_attack;
+				[anim_files]
+				{
+					0mid = at;
+					high = at-02;
+					loww = at-03;
+					qffg = dff;
+				}
+		 	  	[anim_durations]
+				{
+					fs0 = 1.250;
+					fs1 = 0.830;
+					fs2 = 0.830;
+					fs3 = 1.250;
+					fs4 = 1.250;
+					fs5 = 1.250;
+					fs6 = 1.000;
+					fs7 = 0.125;
+					fs8 = 1.000;
+				}
+			}
+			[chore_default]
+			{
+				// EDITED to use specific reaper anim
+				chore_stances = ignore;
+				skrit = infinite_loop;
+				[anim_files] { 00=a_c_edm_rp_fs5_ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				// EDITED to use specific reaper anim
+				chore_stances = ignore;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = a_c_edm_rp_fs5_dsf;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0,5;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00=mg;
+					00=mg-02;
+				}
+			}
+			[chore_misc]
+			{
+				chore_stances = ignore;
+				skrit = select_transition;
+				[anim_files]
+				{
+					drnk = a_c_gan_sk_fs1_dk;
+					gtup = a_c_gan_sk_fs0_up;
+					frtd = a_c_gan_sk_fs0_dsf-02;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }  // EDITED walk, not run
+			}
+		}
+	}
+    [mind]
+    {
+        // make reaper stand still
+        jat_fidget = world\ai\jobs\common\job_fidget.skrit
+				?wander								= 0
+				&social								= 0.1
+				&delay_min							= 6
+				&delay_max							= 10
+				&still								= true;
+    }
+}
+
+[t:template,n:3W_grim_reaper] { specializes = 3W_grim_reaper_base; }
+[t:template,n:3W_grim_reaper_base]
+{
+    specializes = 3W_base_grim_reaper;
+
+    [aspect]
+    {
+		//scale_base = 1.5;
+    }
+	[body]
+	{
+		avg_move_velocity = 2;
+    }
+
+    // stats from 3W_dsx_rune_guardian_boss - "Balanced to level 18, hard melee+"
+	[actor]
+	{
+		[skills]
+		{
+			strength 	= 49.3, 0;
+			intelligence = 13.9, 0;
+			dexterity 	= 25, 0;
+			melee 		= 85, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 1694760;
+		life = 4033.3;
+		max_life = 4033.3;
+		mana = 88;
+		max_mana = 88;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 878;
+		damage_min = 585;
+	}
+	[defend] { defense=990; }
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_un_dsx_angk_guardian;  // from 3W_dsx_rune_guardian_boss
+		}
+	}
+}
