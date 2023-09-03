@@ -1,0 +1,140 @@
+[t:template,n:2W_upza_base_zombie]
+{
+	specializes = 2W_base_zombie;
+
+	category_name = "2W_evil_a";
+
+    // animations from base_skeleton, so that attacks with swords & bows are animated properly
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_ecm_sk_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+                    01 = at-02;  // ADDED
+					02 = at-03;
+                    03 = at-04;  // ADDED
+					04 = at-05;
+					05 = at-06;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
+				skrit = infinite_loop;
+				[anim_files] { 00=dfs; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
+				skrit = select_transition;
+				[anim_files]
+                {
+                    00=di;
+                    01=di-02;  // ADDED
+                    02=di-03;  // ADDED
+                }
+			}
+			[chore_misc]
+			{
+				chore_stances = ignore;
+				skrit = select_transition;
+				[anim_files]
+				{
+					slp0 = a_c_ecm_sk_fs0_ds-02;
+					slp1 = a_c_ecm_sk_fs1_ds-02;
+					slp2 = a_c_ecm_sk_fs2_ds-02;
+					slp3 = a_c_ecm_sk_fs3_ds-02;
+					slp4 = a_c_ecm_sk_fs4_ds-02;
+					slp5 = a_c_ecm_sk_fs5_ds-02;
+					slp6 = a_c_ecm_sk_fs6_ds-02;
+					wak0 = a_c_ecm_sk_fs0_rv;
+					wak1 = a_c_ecm_sk_fs1_rv;
+					wak2 = a_c_ecm_sk_fs2_rv;
+					wak3 = a_c_ecm_sk_fs3_rv;
+					wak4 = a_c_ecm_sk_fs4_rv;
+					wak5 = a_c_ecm_sk_fs5_rv;
+					wak6 = a_c_ecm_sk_fs6_rv;
+                    // ADDED from base_zombie
+					slep = a_c_ecm_sk_fs0_ds-02;
+					wake = a_c_ecm_sk_fs0_rv;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dff;
+					01 = dff-02;
+					02 = dff-03;
+				}
+			}
+			[chore_magic]
+			{
+                // ADDED from base_zombie
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at-02; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,2,3,4,5,6,8;  // ADDED 8
+				skrit = select_walk;
+				[anim_files]
+                {
+                    00=wl;
+                    01=wl-02;  // ADDED
+                    02=wl-03;  // ADDED
+                    03=wl-04;  // ADDED
+                }
+			}
+		}
+	}
+}
+
+[t:template,n:2W_upza_base_zombie_thin]
+{
+	specializes = 2W_upza_base_zombie;
+
+	doc = "2W_zombie thin";
+}
+
+[t:template,n:2W_upza_base_zombie_pudgy]
+{
+	specializes = 2W_upza_base_zombie;
+
+	doc = "2W_zombie pudgy";
+	[body]
+	{
+		max_move_velocity = 1.4;
+	}
+	[aspect]
+	{
+		model = m_c_edm_zo_pos_2;
+		[textures] { 0=b_c_edm_zo-03; }
+	}
+}
+
+[t:template,n:2W_upza_base_zombie_headless]
+{
+	specializes = 2W_upza_base_zombie;
+
+	doc = "2W_zombie pudgy headless";
+	[body]
+	{
+		max_move_velocity = 1.4;
+	}
+	[aspect]
+	{
+		model = m_c_edm_zo_pos_3;
+		[textures] { 0=b_c_edm_zo-04; }
+	}
+}
