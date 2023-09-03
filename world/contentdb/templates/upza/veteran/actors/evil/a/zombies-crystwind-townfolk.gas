@@ -1,0 +1,217 @@
+[t:template,n:2W_upza_zombie_crystwind_townfolk_dwarf] { specializes = 2W_upza_zombie_crystwind_townfolk_dwarf_base; }
+[t:template,n:2W_upza_zombie_crystwind_townfolk_dwarf_base]
+{
+    specializes = 2W_upza_base_zombie_dwarf;
+
+	[common]
+	{
+		screen_name = "Miner";
+	}
+
+    [aspect]
+    {
+        textures:0 = b_c_eam_dfzo-muck-07b;
+        textures:1 = b_c_edm_muck_zombie;
+    }
+
+    // stats & loot from 2W_dsx_slime_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		25.1,0;
+            intelligence =	9.6,0;
+            dexterity =		16.2,0;
+            melee =		45,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 29925;
+        life = 1380;
+        max_life = 1380;
+        mana = 69;
+        max_mana = 69;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_min = 155.3;
+        damage_max = 253;
+    }
+	[defend] { defense = 398.7; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 36261;
+                    max = 70507;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_large;
+                    il_main = potion_health_large;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/109;
+                    il_main = #armor/23-288;
+                    il_main = #*/109;
+                }
+            }
+        }
+    }
+}
+
+[t:template,n:2W_upza_zombie_crystwind_townfolk] { specializes = 2W_upza_zombie_crystwind_townfolk_base; }
+[t:template,n:2W_upza_zombie_crystwind_townfolk_base]
+{
+    specializes = 2W_upza_base_zombie_thin;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_pu-nt; }  // pupod non-transparent
+    }
+
+    // stats & loot from 2W_dsx_slime_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		25.1,0;
+            intelligence =	9.6,0;
+            dexterity =		16.2,0;
+            melee =		45,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 29925;
+        life = 1380;
+        max_life = 1380;
+        mana = 69;
+        max_mana = 69;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_min = 155.3;
+        damage_max = 253;
+    }
+	[defend] { defense = 398.7; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 36261;
+                    max = 70507;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_large;
+                    il_main = potion_health_large;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/109;
+                    il_main = #armor/23-288;
+                    il_main = #*/109;
+                }
+            }
+        }
+    }
+}
+
+[t:template,n:2W_upza_zombie_crystwind_townfolk_pudgy] { specializes = 2W_upza_zombie_crystwind_townfolk_pudgy_base; }
+[t:template,n:2W_upza_zombie_crystwind_townfolk_pudgy_base]
+{
+    specializes = 2W_upza_base_zombie_pudgy;
+
+	[common]
+	{
+		screen_name = "Townfolk";
+	}
+    [aspect]
+    {
+        [textures] { 0 = b_c_edm_zo-04; }
+    }
+
+    // stats & loot from 2W_dsx_slime_zombie
+	[actor]
+    {
+        [skills]
+        {
+            strength =		25.1,0;
+            intelligence =	9.6,0;
+            dexterity =		16.2,0;
+            melee =		45,0;
+        }
+    }
+	[aspect]
+    {
+        experience_value = 29925;
+        life = 1380;
+        max_life = 1380;
+        mana = 69;
+        max_mana = 69;
+    }
+	[attack]
+    {
+        attack_range = 0.5;
+        damage_min = 155.3;
+        damage_max = 253;
+    }
+	[defend] { defense = 398.7; }
+	[inventory]
+    {
+		[pcontent]
+        {
+            /* Generated: Tue Jun 17 11:13:15 2003
+            Level 4, Medium */
+            [oneof*]
+            {
+                [gold*]
+                {
+                    chance = 0.2;
+                    min = 36261;
+                    max = 70507;
+                }
+                [oneof*]
+                {
+                    chance = 0.088888888888889;
+                    il_main = potion_mana_large;
+                    il_main = potion_health_large;
+                }
+                [oneof*]
+                {
+                    chance = 0.15;
+                    il_main = #weapon/109;
+                    il_main = #armor/23-288;
+                    il_main = #*/109;
+                }
+            }
+        }
+    }
+}
