@@ -1,0 +1,35 @@
+[t:0x0407,n:text]
+{
+    // Red
+	[0x0000]
+	{
+		from = "The sky turned red! We're all gonna die!";
+		to = "";
+	}
+
+    // Self-service mules
+	[0x0000]
+	{
+		from = "[Would you like to add this mule to your group?]";
+		to = "";
+	}
+
+    // Intro
+	[0x0000]
+	{
+		from = "- UTRAEAN PENINSULA: ZOMBIE APOCALYPSE -\n\nIt has been a decade since the Utraean Peninsula\nwas ravished by a zombie apocalypse.\nThe courageous 2nd Legion once more tries to set foot there,\nand with ships and supplies provided by Ehb, they sail westward.\nThey attempt to land on the coast of Meren,\nand only narrowly escape the attacking Undead,\ngetting stranded on the Eastern Island -\na mythical place said to have magical passages to the Peninsula...\n\n\n";
+		to = "";
+	}
+
+    // Dummy quest convos
+	[0x0000]
+	{
+		from = "Dear Diary,\nFinally, things are happening! The king of Ehb has at last allotted a ship and supplies for our noble quest. We shall set sail within the week! The 2nd Legion will once more set foot on the Utraean Peninsula. It's been a decade since the last messages from there have reached us - messages of the queen's death, the demise of the kingdom, and the rising threats of ever-growing hordes of undead ravaging the lands. Our quest is to find out what happened, and to establish a foothold again on the peninsula.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Dear Diary,\nWhat horrors awaited us! We disembarked, finding Meren seemingly empty - and were ambushed by undead! I had never seen something like that - soulless undead working in such a coordinated manner. And their strength was otherworldly. Mates were dying left and right, they killed our captain. The chief officer ordered withdrawal. A few of the zombies had climbed our ship, and when the fight was finally over, our main sail was completely ripped. We're busy trying to nurse the wounded and to repair the ship. The current is taking us south, God knows where.";
+		to = "";
+	}
+}
