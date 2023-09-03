@@ -1,0 +1,21 @@
+[t:template,n:3W_drake_green_zombie] { specializes = 3W_drake_green_zombie_base; }
+[t:template,n:3W_drake_green_zombie_base]
+{
+	specializes = 3W_drake_green_base;
+
+    [aspect]
+    {
+        textures:0 = b_c_edm_ddk-01;
+    }
+	[common]
+	{
+		screen_name = "Undead Green Drake";
+    }
+}
+
+[t:template,n:3W_drake_green_zombie_reveal]
+{
+	specializes = 3W_drake_green_zombie_base;
+
+	mind:jat_startup = world\ai\jobs\common\job_startup_reveal.skrit;
+}
