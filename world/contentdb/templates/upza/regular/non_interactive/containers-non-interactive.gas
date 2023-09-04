@@ -1,56 +1,117 @@
+[t:template,n:base_container_ni]
+{
+    specializes = non_interactive_blocking;
+
+	category_name	= "container";
+    aspect:is_selectable = false;
+
+    // from container core template
+    [common]
+    {
+        forced_expiration_class = immediate;
+        auto_expiration_class = immediate;
+    }
+    [inventory]		{  }
+}
+
+[t:template,n:base_container_barrel_ni]
+{
+	specializes		= base_container_ni;
+
+	doc				= "Barrel base template non-interactive";
+	common:screen_name	= "Barrel";
+	common:rollover_display = true;
+	[aspect]
+	{
+		is_usable	= false;
+		life_state	= LS_ALIVE_CONSCIOUS;
+		max_life	= 1;
+		material	= wood;
+		life		= 1;
+		voice:die:	* =	s_e_env_break_container_wood;
+	}
+	[physics]
+	{
+		[break_particulate]
+		{
+            frag_glb_wood_01	= 1;
+            frag_glb_wood_02	= 1;
+            frag_glb_wood_03	= 1;
+            frag_glb_wood_04	= 1;
+            frag_glb_metal_01	= 2;
+		}
+	}
+}
+[t:template,n:base_container_wood_ni]
+{
+	specializes		= base_container_ni;
+
+	doc				= "Crate";
+	common:screen_name	= "Crate";
+	common:rollover_display = true;
+	[aspect]
+	{
+		material = wood;
+		is_usable =	false;
+		life_state = LS_ALIVE_CONSCIOUS;
+		max_life = 1;
+		life		= 1;
+		voice:die:	* =	s_e_env_break_container_wood;
+	}
+	[physics]
+	{
+		//break_sound =	s_e_IH_break_wood_solid;
+		[break_particulate]
+		{
+            frag_glb_wood_01	= 1;
+            frag_glb_wood_02	= 1;
+            frag_glb_wood_03	= 1;
+            frag_glb_wood_04	= 1;
+            frag_glb_wood_05	= 1;
+            frag_glb_wood_06	= 1;
+		}
+	}
+}
+
 [t:template,n:barrel_glb_ni]
 {
-	specializes		= base_container_barrel;
+	specializes		= base_container_barrel_ni;
 	doc				= "barrel non-interactive";
-	category_name	= "container";
-
 	aspect:model	= m_i_glb_barrel;
-    aspect:is_selectable = false;
 }
 
 [t:template,n:crate_glb_ni]
 {
-	specializes		= base_container_wood;
+	specializes		= base_container_wood_ni;
 	doc				= "crate non-interactive";
-	category_name	= "container";
-
 	aspect:model	= m_i_glb_crate;
-    aspect:is_selectable = false;
 }
 
 [t:template,n:crate_grs_01_ni]
 {
-	specializes		= base_container_wood;
+	specializes		= base_container_wood_ni;
 	doc				= "crate_rustic non-interactive";
-    category_name	= "container";
-
 	[aspect]
 	{
 		model	= m_i_glb_crate-krug;
 		[textures]	{0=b_i_glb_crate-krug;}
-        is_selectable = false;
 	}
 }
 
 [t:template,n:crate_grs_03_ni]
 {
-	specializes		= base_container_wood;
+	specializes		= base_container_wood_ni;
 	doc				= "crate_stained non-interactive";
-	category_name	= "container";
 	[aspect]
 	{
 		model	= m_i_glb_crate-krug;
 		[textures]	{0=b_i_glb_crate-02;}
-        is_selectable = false;
 	}
 }
 
 [t:template,n:footlocker_glb_01_ni]
 {
-	specializes 		= base_container_wood;
+	specializes 		= base_container_wood_ni;
 	doc 				= "chest_footlocker non-interactive";
-    category_name       = "container";
-
 	aspect:model 		= m_i_glb_footlocker-01;
-    aspect:is_selectable = false;
 }
