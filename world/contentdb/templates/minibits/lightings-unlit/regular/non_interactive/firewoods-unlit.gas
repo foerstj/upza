@@ -1,4 +1,5 @@
-[t:template,n:wood_glb_pile_fireplace_burnt_unlit]
+[t:template,n:wood_glb_pile_fireplace_burnt_unlit] { specializes = wood_glb_pile_fireplace_burnt_unlit_base; }
+[t:template,n:wood_glb_pile_fireplace_burnt_unlit_base]
 {
 	specializes = non_interactive_blocking;
 

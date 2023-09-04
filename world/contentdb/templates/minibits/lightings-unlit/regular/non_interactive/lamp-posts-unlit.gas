@@ -39,7 +39,8 @@
 		screen_name = "Lamp";
 	}
 }
-[t:template,n:lamp_ice_01_unlit]
+[t:template,n:lamp_ice_01_unlit] { specializes = lamp_ice_01_unlit_base; }
+[t:template,n:lamp_ice_01_unlit_base]
 {
 	specializes = base_lamp_ice_unlit;
 
@@ -50,7 +51,8 @@
 		model = m_i_glb_lamp-post-01;
 	}
 }
-[t:template,n:lamp_ice_02_unlit]
+[t:template,n:lamp_ice_02_unlit] { specializes = lamp_ice_02_unlit_base; }
+[t:template,n:lamp_ice_02_unlit_base]
 {
 	specializes = base_lamp_ice_unlit;
 
@@ -61,7 +63,8 @@
 		model = m_i_glb_lamp-post-02;
 	}
 }
-[t:template,n:lamp_ice_03_unlit]
+[t:template,n:lamp_ice_03_unlit] { specializes = lamp_ice_03_unlit_base; }
+[t:template,n:lamp_ice_03_unlit_base]
 {
 	specializes = base_lamp_ice_unlit;
 
