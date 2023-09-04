@@ -1,0 +1,200 @@
+[t:template,n:2W_upza_mate_legion_shop_base]
+{
+    specializes = 2W_upza_mate_npc_09_base;
+
+    // basic shop stuff
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		use_range = 1;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+    }
+
+    // store content: some basics, backpacks, and of course legion stuff
+    [inventory]
+    {
+        [store_pcontent]
+        {
+			full_ratio = 0;
+
+			[armor]
+			{
+                [all*]
+                {
+                    il_main = bd_un_le_f_g_c_avg_upza_leg_01;
+					max = 8;
+					min = 4;
+                }
+                [all*]
+                {
+                    il_main = bd_un_ch_r_g_c_avg_upza_leg_02;
+					max = 8;
+					min = 4;
+                }
+                [all*]
+                {
+                    il_main = bd_un_pl_f_g_c_avg_upza_leg_03;
+					max = 8;
+					min = 4;
+                }
+                [all*]
+                {
+                    il_main = bd_un_le_m_g_c_avg_upza_leg_01;
+					max = 8;
+					min = 4;
+                }
+                [all*]
+                {
+                    il_main = he_un_op_pl_upza_leg_01;
+					max = 8;
+					min = 4;
+                }
+                [all*]
+                {
+                    il_main = he_un_op_pl_upza_leg_02;
+					max = 2;
+					min = 1;
+                }
+
+				[all*]
+				{
+					il_main = #body,ro/4-5;
+					max = 4;
+					min = 2;
+				}
+				[all*]
+				{
+					il_main = #body/4-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #gloves/1-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #helm/1-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #boots/1-5;
+					max = 8;
+					min = 4;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/1-5;
+					max = 8;
+					min = 4;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/3-5;
+					max = 8;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = #ranged/3-5;
+					max = 8;
+					min = 4;
+				}
+			}
+			[misc]
+			{
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 8;
+					min = 4;
+				}
+                [all*]
+                {
+                    il_main = DSX_backpack_empty;
+                    max = 4;
+                    min = 4;
+                }
+			}
+        }
+    }
+	[store]
+	{
+		[item_restock]
+		{
+            // potions - super added for 2W
+			potion_health_small = 10;
+			potion_health_medium = 10;
+			potion_health_large = 10;
+			potion_health_super = 10;
+			potion_mana_small = 10;
+			potion_mana_medium = 10;
+			potion_mana_large = 10;
+			potion_mana_super = 10;
+			potion_rejuvenation_small = 2;
+			potion_rejuvenation_medium = 2;
+			potion_rejuvenation_large = 1;
+			potion_rejuvenation_super = 1;
+
+            // resurrect
+			scroll_resurrect = 8;
+            spell_resurrect = 8;
+            spell_full_resurrect = 4;
+            spell_revive = 4;
+            spell_shargs_revive = 4;
+            // heal
+            spell_healing_hands = 8;
+            spell_healing_wind = 8;
+            spell_major_heal = 8;
+            spell_orb_healing = 4;
+            spell_battle_healing = 4;
+            spell_reconstitution = 4;
+            spell_nurture = 4;
+
+            // any other useful stuff like transmutation
+            spell_transmute = 4;
+            spell_create_healthpotion = 4;
+            spell_transmogrification = 4;
+            spell_transmuteall = 8;
+            spell_summon_helper = 4;
+            spell_transmute_healthpotion = 4;
+            spell_transmute_manapotion = 4;
+            spell_mana_chant = 4;
+
+            // beginner attack spells
+            spell_fireshot = 8;
+            spell_zap = 8;
+		}
+	}
+}
+
+[t:template,n:2W_upza_mate_legion_shop]
+{
+    specializes = 2W_upza_mate_legion_shop_base;
+
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_pl_f_g_c_avg_upza_leg_03;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+[t:template,n:3W_upza_droog_apprentice]
+{
+	specializes = 3W_base_npc_dg;
+
+    category_name = "3W_townsperson";
+	doc = "3W_mp_npc_droog_02";
+	[aspect]
+	{
+		[textures] { 0=b_c_eam_dgm; }
+	}
+	[common] { screen_name="Droog Apprentice"; }
+	[conversation] { }
+}

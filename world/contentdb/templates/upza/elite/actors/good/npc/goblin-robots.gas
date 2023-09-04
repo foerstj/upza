@@ -1,0 +1,1038 @@
+// Simple Goblin Robots, except Gobbots, and excluding the Robo Suit.
+
+[t:template,n:3W_kill_bot_base]  // = 3W_kill_bot
+{
+	category_name = "3W_evil_d";
+	doc = "3W_kill_bot";
+	specializes = 3W_base_picker;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  32.8, 0;
+			intelligence =  4.7, 0;
+			dexterity =  21.8, 0;
+            melee       = 104, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2268434;
+		life = 1453.3;
+		max_life = 1453.3;
+		mana = 36.3;
+		max_mana = 36.3;
+		textures:0 = b_c_edm_pr-02;
+		material = steel;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 459.6;
+		damage_min = 343.4;
+		reload_delay = 0;
+	}
+	[common] { screen_name="Kill Bot"; }
+	[defend] { defense=1050; }
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?curious	= 0.65
+			&interest	= interest
+			&meander	= false
+			&still		= false;
+	}
+	[physics]
+	{
+		explode_when_killed = true;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_kill_bot_01 = 1;
+			frag_glb_kill_bot_02 = 1;
+			frag_glb_kill_bot_03 = 3;
+			frag_glb_kill_bot_04 = 2;
+			frag_glb_kill_bot_05 = 3;
+			frag_glb_metal_01 = 3;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 4;
+		}
+	}
+}
+
+[t:template,n:3W_upza_kill_bot]
+{
+    specializes = 3W_kill_bot_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:3W_hunter_base]  // = 3W_hunter
+{
+	category_name = "3W_evil_d";
+	doc = "3W_hunter";
+	specializes = 3W_base_picker;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  26.9, 0;
+			intelligence =  14, 0;
+			dexterity =  23.8, 0;
+            melee       = 109, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2268434;
+		life = 1703.2;
+		max_life = 1703.2;
+		mana = 35.5;
+		max_mana = 35.5;
+		textures:0 = b_c_edm_pr-03;
+		material = steel;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 507.4;
+		damage_min = 383.2;
+		reload_delay = 0;
+	}
+	[common] { screen_name="Hunter"; }
+	[defend] { defense=1179.8; }
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?curious	= 0.65
+			&interest	= interest
+			&meander	= false
+			&still		= false;
+	}
+	[physics]
+	{
+		explode_when_killed = true;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_hunter_01 = 1;
+			frag_glb_hunter_02 = 1;
+			frag_glb_hunter_03 = 3;
+			frag_glb_hunter_04 = 2;
+			frag_glb_hunter_05 = 3;
+			frag_glb_metal_01 = 3;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 4;
+		}
+	}
+}
+
+[t:template,n:3W_upza_hunter]
+{
+    specializes = 3W_hunter_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:3W_heater_base]  // = 3W_heater
+{
+	category_name = "3W_evil_d";
+	doc = "3W_robot_heater";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  		43.7, 0;
+			intelligence =  	10.9, 0;
+			dexterity =  		17.4, 0;
+			ranged =  			89,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2562472;
+		life = 1671.3;
+		max_life = 1671.3;
+		mana = 36.3;
+		max_mana = 36.3;
+		model = m_c_edm_ht_pos_1;
+		material = steel;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_proxo; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_big_SED; }
+		}
+	}
+	[attack]
+	{
+		area_damage_radius = 1.5;
+		damage_max = 575.5;
+		damage_min = 457.8;
+		damage_bonus_min_cmagic = 284;
+		damage_bonus_max_cmagic = 377;
+	}
+	[tsd_manager] {}
+	[body]
+	{
+		avg_move_velocity = 2.000000;
+		[bone_translator]
+		{
+			body_anterior = bone01;
+			body_mid = bone01;
+			body_posterior = bone01;
+			kill_bone = bone01;
+			shield_bone = bone01;
+			weapon_bone = bone01;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_ht_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=ds; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_heater_fire; }
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/254-300;
+					il_main = #armor/134-694;
+                	il_main = #nmagic/18-55;
+                	il_main = #cmagic/18-55;
+                }
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/279-329;
+	                il_main = #armor/-rare(1)/901-1003;
+                    il_main = #*/-rare(1)/279-329;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/279-329;
+	                il_main = #armor/-unique(2)/901-1003;
+                    il_main = #*/-unique(2)/279-329;
+	            }
+			}
+		}
+	}
+	[common]
+	{
+		screen_name="Heater";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_heater");
+			}
+		}
+	}
+	[defend] { defense=1390.4; }
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?meander	= false
+			&still		= false;
+
+		melee_engage_range = 3;
+		personal_space_range = 0.7;
+		ranged_engage_range = 10.0;
+		sight_range = 12.0;
+
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+	}
+	[physics]
+	{
+		break_effect = heater_explosion;
+		explode_when_killed = true;
+		explosion_magnitude = 3.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_heater_01 = 3;
+			frag_glb_heater_02 = 2;
+			frag_glb_heater_03 = 1;
+			frag_glb_heater_04 = 1;
+			frag_glb_heater_05 = 2;
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_02 = 2;
+			frag_glb_metal_03 = 3;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 3;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 2;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 4;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:3W_upza_heater]
+{
+    specializes = 3W_heater_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:3W_blaster_base]  // = 3W_blaster
+{
+	category_name = "3W_evil_d";
+	doc = "3W_robot_blaster";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  65.9, 0;
+			intelligence =  9.3, 0;
+			dexterity =  14.9, 0;
+			ranged =  96, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2542238;
+		life = 2887.5;
+		max_life = 2887.5;
+		mana = 34.4;
+		max_mana = 34.4;
+		model = m_c_edm_bl_pos_1;
+		material = wood;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_proxo; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_big_SED; }
+		}
+	}
+	[tsd_manager]
+	{
+		check_freq_min	= .1;
+		check_freq_max	= .1;
+		use_velocity_for_speed = true;
+	}
+	[body]
+	{
+		avg_move_velocity = 1.960000;
+		[bone_translator]
+		{
+			body_anterior = bone01;
+			body_mid = bone01;
+			body_posterior = bone01;
+			kill_bone = bone01;
+			shield_bone = bone01;
+			weapon_bone = bone01;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_bl_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=ds; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
+
+	[common]
+	{
+		screen_name="Blaster";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_blaster");
+			}
+		}
+	}
+	[defend] { defense=1761.1; }
+	[inventory]
+	{
+    	selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_blaster_bomb; }
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/274-305;
+					il_main = #armor/138-701;
+                	il_main = #nmagic/17-65;
+                	il_main = #cmagic/17-65;
+				}
+				[oneof*]
+				{
+	        		chance = 0.004;
+	            	il_main = #weapon/-rare(1)/291-335;
+	            	il_main = #armor/-rare(1)/877-990;
+                	il_main = #*/-rare(1)/291-335;
+            	}
+				[oneof*]
+				{
+            		chance = 0.002;
+	            	il_main = #weapon/-unique(2)/291-335;
+	            	il_main = #armor/-unique(2)/877-990;
+                	il_main = #*/-unique(2)/291-335;
+	        	}
+            }
+		}
+	}
+	[mind]
+	{
+		jat_fidget						= world\ai\jobs\common\job_fidget.skrit
+			?meander						= false
+			&still							= false;
+
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 9;
+		personal_space_range = 0.7;
+		ranged_engage_range = 12.0;
+		sight_range = 13.0;
+	}
+	[physics]
+	{
+		velocity=14.0;
+		break_effect = generic_explosion;
+		explode_when_killed = true;
+		explosion_magnitude = 3.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_blaster_01 = 3;
+			frag_glb_blaster_02 = 1;
+			frag_glb_blaster_03 = 1;
+			frag_glb_blaster_04 = 1;
+			frag_glb_blaster_05 = 1;
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_02 = 2;
+			frag_glb_metal_03 = 3;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 3;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 2;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 4;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:3W_upza_blaster]
+{
+    specializes = 3W_blaster_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:3W_copter_base]  // = 3W_copter
+{
+	category_name = "3W_evil_d";
+	doc = "3W_robot_copter";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	10.8, 0;
+			intelligence =  	9.3, 0;
+			dexterity =  	25.9, 0;
+			ranged =  	91,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 1954121;
+		life = 1064.5;
+		max_life = 1064.5;
+		mana = 354.8;
+		max_mana = 354.8;
+		model = m_c_edm_cp_pos_1;
+		material = wood;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 	0.5;
+		damage_max = 	378.6;
+		damage_min = 	297;
+		damage_bonus_min_cmagic = 188;
+		damage_bonus_max_cmagic = 247;
+	}
+	[body]
+	{
+		min_move_velocity = 3.75;
+		avg_move_velocity = 5.990000;
+		[bone_translator]
+		{
+			body_anterior = bone01;
+			body_mid = bone01;
+			body_posterior = bone01;
+			kill_bone = bone01;
+			shield_bone = bone01;
+			weapon_bone = bone01;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_cp_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=fl; }
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=at; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=fl; }
+			}
+		}
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_copter_lightning; }
+	}
+
+	[common]
+	{
+		screen_name="Copter";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_copter");
+
+			}
+		}
+	}
+	[defend] { defense=731; }
+	[mind]
+	{
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 12;
+		personal_space_range = 0.7;
+		ranged_engage_range = 13.0;
+		sight_range = 14.0;
+	}
+	[physics]
+	{
+		break_effect = generic_explosion;
+		explode_when_killed = true;
+		explosion_magnitude = 3.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_copter_01 = 1;
+			frag_glb_copter_02 = 1;
+			frag_glb_copter_03 = 1;
+			frag_glb_copter_04 = 1;
+			frag_glb_copter_05 = 1;
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 2;
+			frag_glb_metal_06 = 2;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 1;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 2;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:3W_upza_copter]
+{
+    specializes = 3W_copter_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:3W_proxo_base]  // = 3W_proxo
+{
+	category_name = "3W_evil_d";
+	doc = "3W_robot_proxo";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	18.9, 0;
+			intelligence =  	3.1, 0;
+			dexterity =  	6.5, 0;
+			melee =  		82,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 1621500;
+		life = 141.9;
+		max_life = 141.9;
+		mana = 14.2;
+		max_mana = 14.2;
+		model = m_c_edm_px_pos_1;
+		material = steel;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_proxo;				}
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		area_damage_radius = 4.25;
+		attack_range = 0.5;
+		damage_max = 936.8;
+		damage_min = 702.6;
+	}
+	[body]
+	{
+		avg_move_velocity = 1.970000;
+		[bone_translator]
+		{
+			body_anterior = bip01_head;
+			body_mid = bip01_spine1;
+			body_posterior = bip01_pelvis;
+			kill_bone = bip01_spine1;
+			shield_bone = bip01_l_hand;
+			weapon_bone = bip01_r_hand;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_px_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=ds; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
+	[effect_manager]
+	{
+		start_msg = WE_ENTERED_WORLD;
+		stop_msg = WE_LEFT_WORLD;
+		stop_msg2 = WE_KILLED;
+
+		effect_name = "";
+		rep_effect_name = "proxo_blink";
+
+		repeat_rate = .3;
+		repeat_rate_max = .3;
+
+		run_once = true;
+	}
+	[common]
+	{
+		screen_name="Proxo";
+	}
+	[defend] { defense=181; }
+	[mind]
+	{
+		jat_fidget				= world\ai\jobs\common\job_fidget.skrit
+			?meander				= false
+			&still					= false;
+		jat_attack_object_melee = world\ai\jobs\common\job_attack_object_suicide_bomb.skrit;
+		melee_engage_range = 9;
+		personal_space_range = 0.7;
+		ranged_engage_range = 10.0;
+		sight_range = 11.0;
+	}
+	[physics]
+	{
+		break_effect = proxo_explosion;
+		damage_all = true;
+		explode_when_killed = true;
+		explosion_magnitude = 4.25;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_02 = 2;
+			frag_glb_metal_03 = 3;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 3;
+			frag_glb_proxo_01 = 3;
+			frag_glb_proxo_02 = 2;
+			frag_glb_proxo_03 = 3;
+			frag_glb_proxo_04 = 2;
+			frag_glb_proxo_05 = 1;
+			frag_glb_proxo_06 = 2;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 2;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 4;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:3W_upza_proxo]
+{
+    specializes = 3W_proxo_base;
+    actor:alignment = aa_good;
+}
+
+
+[t:template,n:3W_perforator_base]  // = 3W_perforator
+{
+	category_name = "3W_evil_d";
+	doc = "3W_robot_perforator";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		59.9, 0;
+			intelligence = 	17, 0;
+			dexterity = 	29.6, 0;
+			ranged =  		103, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2876742;
+		life = 2287.3;
+		max_life = 2287.3;
+		mana = 33.6;
+		max_mana = 33.6;
+		model = m_c_edm_pf_pos_1;
+		material = wood;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_proxo; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 236.8;
+		damage_min = 169.5;
+		damage_bonus_min_cmagic = 174;
+		damage_bonus_max_cmagic = 229;
+	}
+	[body]
+	{
+		avg_move_velocity = 3.490000;
+		[bone_translator]
+		{
+			body_anterior = torso;
+			body_mid = torso;
+			body_posterior = torso;
+			kill_bone = torso;
+			shield_bone = left_gun;
+			weapon_bone = right_gun;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_pf_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=ds; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+			{
+				il_active_primary_spell=spell_perforator_minigun;
+//				il_active_secondary_spell=spell_perforator_minigun_l;
+			}
+	}
+	[common]
+	{
+		screen_name="Perforator";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_perforator");
+
+			}
+		}
+	}
+	[defend] { defense=1490.1; }
+	[inventory]
+	{
+    	[pcontent]
+		{
+        	[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = #*/249-305;
+					il_main = #armor/138-706;
+                	il_main = #nmagic/17-61;
+                	il_main = #cmagic/17-61;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/162-265;
+	                il_main = #armor/-rare(1)/444-770;
+                    il_main = #*/-rare(1)/162-265;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/162-265;
+	                il_main = #armor/-unique(2)/444-770;
+                    il_main = #*/-unique(2)/162-265;
+                }
+			}
+		}
+	}
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?meander	= false
+			&still		= false;
+
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 12;
+		personal_space_range = 0.7;
+		ranged_engage_range = 13.0;
+		sight_range = 14.0;
+	}
+	[physics]
+	{
+		break_effect = generic_explosion;
+		explode_when_killed = true;
+		explosion_magnitude = 3.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_02 = 2;
+			frag_glb_metal_03 = 3;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 3;
+			frag_glb_perforator_01 = 2;
+			frag_glb_perforator_02 = 3;
+			frag_glb_perforator_03 = 2;
+			frag_glb_perforator_04 = 1;
+			frag_glb_perforator_05 = 2;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 2;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 4;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:3W_upza_perforator]
+{
+    specializes = 3W_perforator_base;
+    actor:alignment = aa_good;
+}

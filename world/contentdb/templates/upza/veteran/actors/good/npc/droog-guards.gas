@@ -1,0 +1,54 @@
+[t:template,n:2W_upza_droog_guard] { specializes = 2W_upza_droog_guard_base; }
+[t:template,n:2W_upza_droog_guard_base]
+{
+	specializes = 2W_base_npc_dg;
+
+    category_name = "2W_character";
+	doc = "2W_droog guard";
+	[aspect]
+	{
+		is_collidable = true;
+		[textures] { 0 = b_c_eam_dgg-02; }
+	}
+	[check_level] {}
+	[conversation] {}
+	[common] { screen_name="Droog Guard"; }
+	[mind]
+	{
+		actor_may_attack = true;
+        actor_may_be_attacked = true;
+    }
+
+    // Stats & equipment from 2W_droog_grunt_boss_01
+	[actor]
+	{
+		[skills]
+		{
+			strength     = 58.7, 0;
+			intelligence = 16.4, 0;
+			dexterity    = 34.5, 0;
+			melee        = 84, 0;
+		}
+	}
+	[aspect]
+	{
+		life             = 2767.3;
+		max_life         = 2767.3;
+		mana             = 49.7;
+		max_mana         = 49.7;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 290.4;
+		damage_min = 150.8;
+	}
+	[defend] { defense=1308.2; }
+    [inventory]
+    {
+        [equipment]
+        {
+            es_weapon_hand = sd_un_droog_1h_avg;
+        }
+    }
+}

@@ -1,0 +1,409 @@
+[t:template,n:2W_upza_base_mate_npc_fb]
+{
+	specializes = 2W_base_npc_fb_multiplayer;
+
+	category_name = "2W_character";
+	doc = "2W_UPZA mate NPC fb";
+
+	[aspect]
+	{
+		is_collidable = true;
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+	[conversation]
+	{
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+	[mind]
+	{
+		actor_may_attack = true;
+        actor_may_be_attacked = true;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=talk;
+	}
+}
+[t:template,n:2W_upza_base_mate_npc_fg]
+{
+	specializes = 2W_base_npc_fg_multiplayer;
+
+	category_name = "2W_character";
+	doc = "2W_UPZA mate NPC fg";
+
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_collidable = true;
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gah_fg_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = ds;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = select_fidget;
+				[anim_files]
+				{
+                    // edited: dff instead of dsf
+					00 = dff;
+					01 = dff-02;
+				}
+			}
+			[chore_misc]
+			{
+				chore_stances = ignore;
+				skrit = select_transition;
+				[anim_files]
+				{
+					sit1 = a_c_gah_fg_fs0_dsf-08;
+                    // added:
+					look = a_c_gah_fg_fs0_dsf;
+					talk = a_c_gah_fg_fs0_dsf-02;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,2,3,4,5,6;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = rl;
+				}
+			}
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+	[conversation]
+	{
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+	[mind]
+	{
+    	actor_may_attack = true;
+        actor_may_be_attacked = true;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=talk;
+	}
+}
+[t:template,n:2W_upza_base_mate_npc_df]
+{
+	specializes = 2W_base_dwarf;
+
+	category_name = "2W_character";
+	doc = "2W_UPZA mate NPC df";
+
+	[aspect]
+	{
+		is_collidable = true;
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+	[conversation]
+	{
+	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_un_le_f_g_c_avg_upza_leg_01;
+			es_feet = bo_un_bo_le_upza_leg;
+		}
+	}
+	[mind]
+	{
+    	actor_may_attack = true;
+        actor_may_be_attacked = true;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=talk;
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_01] { specializes = 2W_upza_mate_npc_01_base; }
+[t:template,n:2W_upza_mate_npc_01_base]
+{
+	specializes = 2W_upza_base_mate_npc_fb;
+
+	doc = "2W_UPZA mate NPC 01";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_01;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_03;  // red hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_02] { specializes = 2W_upza_mate_npc_02_base; }
+[t:template,n:2W_upza_mate_npc_02_base]
+{
+	specializes = 2W_upza_base_mate_npc_fg;
+
+	doc = "2W_UPZA mate NPC 02";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_02;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_07;  // black hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_03] { specializes = 2W_upza_mate_npc_03_base; }
+[t:template,n:2W_upza_mate_npc_03_base]
+{
+	specializes = 2W_upza_base_mate_npc_fb;
+
+	doc = "2W_UPZA mate NPC 03";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_03;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_01;  // blond hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_04] { specializes = 2W_upza_mate_npc_04_base; }
+[t:template,n:2W_upza_mate_npc_04_base]
+{
+	specializes = 2W_upza_base_mate_npc_fg;
+
+	doc = "2W_UPZA mate NPC 04";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_04;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_04;  // red hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_05] { specializes = 2W_upza_mate_npc_05_base; }
+[t:template,n:2W_upza_mate_npc_05_base]
+{
+	specializes = 2W_upza_base_mate_npc_fb;
+
+	doc = "2W_UPZA mate NPC 05";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_05;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_39;  // head wound
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_06] { specializes = 2W_upza_mate_npc_06_base; }
+[t:template,n:2W_upza_mate_npc_06_base]
+{
+	specializes = 2W_upza_base_mate_npc_fg;
+
+	doc = "2W_UPZA mate NPC 06";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_06;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_03;  // blond hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_07] { specializes = 2W_upza_mate_npc_07_base; }
+[t:template,n:2W_upza_mate_npc_07_base]
+{
+	specializes = 2W_upza_base_mate_npc_fb;
+
+	doc = "2W_UPZA mate NPC 07";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_07;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_05;  // black hair goatie
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_08] { specializes = 2W_upza_mate_npc_08_base; }
+[t:template,n:2W_upza_mate_npc_08_base]
+{
+	specializes = 2W_upza_base_mate_npc_df;
+
+	doc = "2W_UPZA mate NPC 08";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_08;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gan_df_skin_06;  // dark blond hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_09] { specializes = 2W_upza_mate_npc_09_base; }
+[t:template,n:2W_upza_mate_npc_09_base]
+{
+	specializes = 2W_upza_base_mate_npc_df;
+
+	doc = "2W_UPZA mate NPC 09";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_09;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gan_df_skin_03;  // red hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_10] { specializes = 2W_upza_mate_npc_10_base; }
+[t:template,n:2W_upza_mate_npc_10_base]
+{
+	specializes = 2W_upza_base_mate_npc_df;
+
+	doc = "2W_UPZA mate NPC 10";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_10;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gan_df_skin_02;  // brown hair
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}
+
+[t:template,n:2W_upza_mate_npc_11] { specializes = 2W_upza_mate_npc_11_base; }
+[t:template,n:2W_upza_mate_npc_11_base]
+{
+	specializes = 2W_upza_base_mate_npc_fg;
+
+	doc = "2W_UPZA mate NPC 11";
+
+    actor:portrait_icon = b_gui_ig_i_ic_c_upza_mate_11;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_08;  // dark blond hair colorful headband
+		}
+	}
+	[common]
+	{
+		screen_name = "2nd Legion Mate";
+	}
+}

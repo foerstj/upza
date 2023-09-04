@@ -1,0 +1,326 @@
+[t:template,n:3W_base_goblin_shop]
+{
+    specializes = 3W_base_goblin_npc;
+
+	category_name = "1W_shopkeep";
+	[actor]
+    {
+        portrait_icon = b_gui_ig_i_ic_c_neener;
+    }
+	[aspect]
+    {
+        use_range = 1.0;
+        draw_selection_indicator = TRUE;
+        is_ghost_usable = TRUE;
+    }
+	[conversation]
+    {
+    }
+	[common]
+    {
+        screen_name = "Goblin Shopkeep";
+    }
+	[mind]
+    {
+        actor_may_attack = false;
+        actor_may_be_attacked = false;
+        jat_fidget = world\ai\jobs\common\job_fidget.skrit;
+        jat_talk = world\ai\jobs\common\job_talk.skrit;
+    }
+	[respawn_shrine]
+    {
+    }
+	[store]
+    {
+        item_markup = 2;
+    }
+}
+
+[t:template,n:3W_upza_goblin_shop_mage] { specializes = 3W_upza_goblin_shop_mage_base; }
+[t:template,n:3W_upza_goblin_shop_mage_base]
+{
+    specializes = 3W_base_goblin_shop;
+
+    // store from 3W_wise_woman_ninale
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/58-111;
+					max = 40;
+					min = 40;
+				}
+				[all*]
+				{
+					il_main = #spell/0-55;
+					max = 10;
+					min = 10;
+				}
+			}
+			[misc]
+			{
+                [all*]
+				{
+					il_main = #spellbook/157-260;
+					max = 6;
+					min = 4;
+				}
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 5;
+					min = 5;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_medium = 5;
+			potion_health_large = 15;
+			potion_health_super = 10;
+			potion_mana_medium = 5;
+			potion_mana_large = 15;
+			potion_mana_super = 10;
+			potion_rejuvenation_large = 3;
+			potion_rejuvenation_super = 3;
+
+			scroll_resurrect = 10;
+            spell_resurrect = 10;
+            spell_revive = 10;
+            spell_healing_hands = 10;
+
+            spell_fireshot = 4;
+            spell_zap = 4;
+		}
+	}
+}
+
+[t:template,n:3W_upza_goblin_shop_smith] { specializes = 3W_upza_goblin_shop_smith_base; }
+[t:template,n:3W_upza_goblin_shop_smith_base]
+{
+    specializes = 3W_base_goblin_shop;
+
+    // store from 3W_tanner_rumben
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body,ro/354-750;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #body/354-471;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/475-720;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #body/724-750;
+					max = 5;
+					min = 5;
+				}
+
+
+				[all*]
+				{
+					il_main = #gloves/47-471;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #gloves/475-720;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #gloves/724-864;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #helm/47-471;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #helm/475-720;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #helm/724-864;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #boots/47-471;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #boots/475-720;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #boots/724-864;
+					max = 6;
+					min = 6;
+				}
+			}
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/47-471;
+					max = 10;
+					min = 10;
+				}
+				[all*]
+				{
+					il_main = #shield/475-720;
+					max = 12;
+					min = 12;
+				}
+				[all*]
+				{
+					il_main = #shield/724-864;
+					max = 6;
+					min = 6;
+				}
+			}
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/168-214;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/218-290;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #melee/300-330;
+					max = 6;
+					min = 6;
+				}
+
+				[all*]
+				{
+					il_main = #ranged/168-214;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/218-290;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #ranged/300-330;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+
+[t:template,n:3W_upza_goblin_shop_miniguns] { specializes = 3W_upza_goblin_shop_miniguns_base; }
+[t:template,n:3W_upza_goblin_shop_miniguns_base]
+{
+    specializes = 3W_base_goblin_shop;
+
+    [inventory]
+    {
+		[store_pcontent]
+		{
+			full_ratio = 0;
+            [weapons]
+            {
+				[all*] { min = 2; max = 6; il_main = minigun_dragon; }
+				[all*] { min = 2; max = 6; il_main = minigun_flamethrower; }
+				[all*] { min = 2; max = 6; il_main = minigun_lightning; }
+				[all*] { min = 2; max = 6; il_main = minigun_grenade_launcher; }
+            }
+        }
+    }
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+
+[t:template,n:3W_upza_goblin_shop_jewelry] { specializes = 3W_upza_goblin_shop_jewelry_base; }
+[t:template,n:3W_upza_goblin_shop_jewelry_base]
+{
+    specializes = 3W_base_goblin_shop;
+
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[misc]
+			{
+                // hopefully adequate for 3W
+				[all*] { min = 8; max = 8; il_main = #ring/100-150; }
+				[all*] { min = 4; max = 4; il_main = #ring/150-200; }
+				[all*] { min = 8; max = 8; il_main = #ring/200-250; }
+				[all*] { min = 8; max = 8; il_main = #ring/250-300; }
+				[all*] { min = 8; max = 8; il_main = #amulet/100-150; }
+				[all*] { min = 4; max = 4; il_main = #amulet/150-200; }
+				[all*] { min = 8; max = 8; il_main = #amulet/200-250; }
+				[all*] { min = 8; max = 8; il_main = #amulet/250-300; }
+			}
+		}
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
