@@ -1,4 +1,5 @@
-[t:template,n:3W_bear_white_zombie]
+[t:template,n:3W_bear_white_zombie] { specializes = 3W_bear_white_zombie_base; }
+[t:template,n:3W_bear_white_zombie_base]
 {
     specializes = 3W_bear_base;
 

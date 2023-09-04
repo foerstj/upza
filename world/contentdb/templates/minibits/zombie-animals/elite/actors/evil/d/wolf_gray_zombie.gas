@@ -53,7 +53,8 @@
 }
 
 // 3W_wolf_gray but with gray zombie texture
-[t:template,n:3W_wolf_gray_zombie]
+[t:template,n:3W_wolf_gray_zombie] { specializes = 3W_wolf_gray_zombie_base; }
+[t:template,n:3W_wolf_gray_zombie_base]
 {
 	specializes = 3W_wolf_gray_base;
 	doc = "3W_wolf_gray_zombie";

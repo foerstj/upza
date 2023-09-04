@@ -1,5 +1,6 @@
 // 2W_wolf_black but with zombie texture
-[t:template,n:2W_wolf_black_zombie]
+[t:template,n:2W_wolf_black_zombie] { specializes = 2W_wolf_black_zombie_base; }
+[t:template,n:2W_wolf_black_zombie_base]
 {
 	specializes = 2W_wolf_black_base;
 	doc = "2W_wolf_black_zombie";
