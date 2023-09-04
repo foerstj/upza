@@ -44,7 +44,8 @@
 }
 
 
-[t:template,n:brazier_glb_brass_01_lightable]
+[t:template,n:brazier_glb_brass_01_lightable] { specializes = brazier_glb_brass_01_lightable_base; }
+[t:template,n:brazier_glb_brass_01_lightable_base]
 {
 	specializes = base_lightable;
 

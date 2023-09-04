@@ -1,4 +1,5 @@
-[t:template,n:lamp_glb_table_lightable]
+[t:template,n:lamp_glb_table_lightable] { specializes = lamp_glb_table_lightable_base; }
+[t:template,n:lamp_glb_table_lightable_base]
 {
     specializes = base_lightable;
 

@@ -1,4 +1,5 @@
-[t:template,n:candle_glb_01_lightable]
+[t:template,n:candle_glb_01_lightable] { specializes = candle_glb_01_lightable_base; }
+[t:template,n:candle_glb_01_lightable_base]
 {
     specializes = base_lightable;
 
@@ -16,7 +17,8 @@
         screen_name = "Candle";
     }
 }
-[t:template,n:candle_glb_02_lightable]
+[t:template,n:candle_glb_02_lightable] { specializes = candle_glb_02_lightable_base; }
+[t:template,n:candle_glb_02_lightable_base]
 {
     specializes = base_lightable;
 
@@ -35,7 +37,8 @@
     }
 }
 
-[t:template,n:candle_glb_skull_01_lightable]
+[t:template,n:candle_glb_skull_01_lightable] { specializes = candle_glb_skull_01_lightable_base; }
+[t:template,n:candle_glb_skull_01_lightable_base]
 {
     specializes = base_lightable;
 
@@ -53,7 +56,8 @@
         screen_name = "Candle";
     }
 }
-[t:template,n:candle_glb_skull_02_lightable]
+[t:template,n:candle_glb_skull_02_lightable] { specializes = candle_glb_skull_02_lightable_base; }
+[t:template,n:candle_glb_skull_02_lightable_base]
 {
     specializes = base_lightable;
 
@@ -73,7 +77,8 @@
     }
 }
 
-[t:template,n:candlestand_csl_01_lightable]
+[t:template,n:candlestand_csl_01_lightable] { specializes = candlestand_csl_01_lightable_base; }
+[t:template,n:candlestand_csl_01_lightable_base]
 {
     specializes = base_lightable;
 
@@ -91,7 +96,8 @@
         screen_name = "Candlestand";
     }
 }
-[t:template,n:candlestand_csl_02_lightable]
+[t:template,n:candlestand_csl_02_lightable] { specializes = candlestand_csl_02_lightable_base; }
+[t:template,n:candlestand_csl_02_lightable_base]
 {
     specializes = base_lightable;
 
@@ -109,7 +115,8 @@
         screen_name = "Candlestand";
     }
 }
-[t:template,n:candlestand_csl_03_lightable]
+[t:template,n:candlestand_csl_03_lightable] { specializes = candlestand_csl_03_lightable_base; }
+[t:template,n:candlestand_csl_03_lightable_base]
 {
     specializes = base_lightable;
 
