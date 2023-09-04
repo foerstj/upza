@@ -1,0 +1,321 @@
+[t:template,n:2W_upza_reaper] { specializes = 2W_upza_reaper_base; }
+[t:template,n:2W_upza_reaper_base]
+{
+	specializes = 2W_base_grim_reaper;
+
+	category_name = "2W_evil_b";
+	doc = "2W_The Reaper";
+
+    // Endboss things
+    [actor]
+    {
+        is_charmable = false;
+        is_possessable = false;
+    }
+    [common]
+    {
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;  // from gom
+    }
+    [mind]
+    {
+		on_engaged_lost_consciousness_abort_attack = false;
+    }
+
+    // Stand still
+    [body]
+    {
+        avg_move_velocity = 0;
+        min_move_velocity = 0;
+        max_move_velocity = 0;
+    }
+    [mind]
+    {
+		jat_flee_from_object					= jat_none;
+		jat_guard											= jat_none;
+		jat_move											= jat_none;
+		jat_patrol										= jat_none;
+		movement_orders							= mo_hold;
+		combat_orders                              = co_limited;
+    }
+
+	// Looks & sound
+    [aspect]
+    {
+		scale_base = 1.5;
+		[voice]
+		{
+			[enemy_spotted]	{ priority = high; * = s_e_call_upza_reaper_SED; }
+			[hit_critical]	{ priority = low; * = s_e_hit_upza_reaper_SED;  }
+			[hit_glance]	{ priority = low; * = s_e_hit_upza_reaper_SED;  }
+			[hit_solid]		{ priority = low; * = s_e_hit_upza_reaper_SED;  }
+			[die]			{ priority = high; * = s_e_die_upza_reaper_SED;  }
+		}
+    }
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_un_upza_reaper;
+		}
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("upza_reaper_eye_glow");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				single_shot = true;
+				no_trig_bits = true;
+				condition*	= receive_world_message("we_enemy_spotted");
+				action* 	= call_sfx_script("unique_light_reaper(sgx)");
+				action* 	= call_sfx_script("upza_reaper_poison_aura");
+			}
+		}
+	}
+
+    // Stats
+    // stats of 2W_gom_super
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	108.7, 0;
+			intelligence =  76.7, 0;
+			dexterity =  	59.8, 0;
+			melee =  		132, 0;
+			combat_magic = 	132, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 900000;
+		life = 18229;
+		max_life = 18229;
+        life_recovery_unit  = 1;
+        life_recovery_period = 20;
+		mana = 5625.5;
+		max_mana = 5625.5;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 248.6;
+		damage_min = 123.1;
+		damage_bonus_min_cmagic = 106;
+		damage_bonus_max_cmagic = 158;
+	}
+	[defend] { defense=2124; }
+    // changes
+    aspect:life_recovery_period = 1;  // you just gotta be faster than that!
+
+	// Attacks
+	[body]
+	{
+        // Animations from NPC skeleton + original reaper animations, EDITED
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gan_sk_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_attack;
+				[anim_files]
+				{
+					0mid = at;
+					high = at-02;
+					loww = at-03;
+					qffg = dff;
+				}
+		 	  	[anim_durations]
+				{
+					fs0 = 1.250;
+					fs1 = 0.830;
+					fs2 = 0.830;
+					fs3 = 1.250;
+					fs4 = 1.250;
+					fs5 = 1.250;
+					fs6 = 1.000;
+					fs7 = 0.125;
+					fs8 = 1.000;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = ignore;
+				skrit = infinite_loop;
+				[anim_files] { 00=a_c_edm_rp_fs5_ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = ignore;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = a_c_edm_rp_fs5_dsf;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0,5;
+				skrit = select_attack;
+				[anim_files]
+				{
+                    // EDITED
+					00=mg;
+					01=at-02;  // double-scythe-swing for blast
+					02=mg-scythe;  // scythe-bam for lightning
+					03=at;  // scythe-swing for poison-breath
+					04=at;  // scythe-swing for poison-cloud
+					05=mg-02;  // hands-up for skull-storm
+					06=mg-02;  // hands-up for summon
+					07=mg-push;  // push for force
+					08=mg-still;  // stand-still for heal
+					qffg = mg-still;  // stand-still in between animations
+				}
+			}
+			[chore_misc]
+			{
+				chore_stances = ignore;
+				skrit = select_transition;
+				[anim_files]
+				{
+					drnk = a_c_gan_sk_fs1_dk;
+					gtup = a_c_gan_sk_fs0_up;
+					frtd = a_c_gan_sk_fs0_dsf-02;
+                    // EDITED to add:
+                    at01 = a_c_gan_sk_fs5_at;  // staff attack, 1 swing
+                    at02 = a_c_gan_sk_fs5_at-02;  // staff attack, 2 swings
+                    at02 = a_c_gan_sk_fs5_at-03;  // same as at
+                    bamm = a_c_gan_sk_fs3_at-02;  // hammer attack making bamm with the scythe
+                    push = a_c_gan_sk_fs8_mg;  // magic push - hands look better in fs8 than fs5
+                    hsup = a_c_gan_sk_fs5_mg-02;  // put your hands up in the air
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7,8;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
+    [mind]
+    {
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+
+		jat_cast 						= world\ai\jobs\upza\job_cast.skrit
+			?rand_spell					= true
+			&use_self_cast_anim			= true
+			&use_base_duration			= false
+			&check_range				= true
+            &switch_chance              = 0.2
+			&spell_chances				= "0.1, 0.1, 0.2, 0.3, 0.1, 0.0, 0.2"
+			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning, spell_upza_reaper_poison_breath, spell_upza_reaper_poison_cloud, 2W_spell_upza_reaper_summon";
+
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?heal_when_idle				= true
+			&heal_chance				= 0.1;
+    }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = spell_upza_reaper_skull_storm;
+			il_spell_1 = spell_upza_reaper_force;
+            il_spell_2 = spell_upza_reaper_blast;
+            il_spell_3 = spell_upza_reaper_lightning;
+            il_spell_4 = spell_upza_reaper_poison_breath;
+            il_spell_5 = spell_upza_reaper_poison_cloud;
+            il_spell_6 = 2W_spell_upza_reaper_summon;
+			il_spell_10 = spell_upza_reaper_heal;
+		}
+    }
+
+    // Kill Effects
+	// spiralling-upwards animation
+	[generator_in_object]
+	{
+		child_template_name = upza_reaper_die;
+		spawn_event = WE_KILLED;
+		spawn_chance = 1.0;
+	}
+    [physics]
+    {
+		break_effect = blood_mist;
+		break_sound = s_e_meat_explosion;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+            // just loads of bloody skulls
+			frag_glb_upza_skull = 128;
+		}
+    }
+	// white mist
+	[effect_aftereffect]
+	{
+		effect=dsx_elemental_air_die2;
+		effectDelay=.25;
+		lifeSpan=6;
+	}
+
+    // Loot: from 2W_gom_super
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[all*]
+			{
+				[all*]
+				{
+					chance = 0.5;
+            	    il_main = #spell/108-132;
+				}
+				[oneof*]
+				{
+					il_main = #weapon/247-346;
+					il_main = #armor/529-1158;
+					max = 4;
+					min = 3;
+   	    		}
+    			[gold*]
+				{
+					max = 1111965;
+					min = 649470;
+                    piles = 15 - 20;
+				}
+				[oneof*]
+				{
+	            	il_main = #weapon/-rare(1)/296-346;
+	                il_main = #armor/-rare(1)/645-761;
+                    il_main = #*/-rare(1)/296-346;
+					max = 3;
+					min = 2;
+
+                }
+				[oneof*]
+                {
+	                il_main = #weapon/-unique(2)/296-346;
+	                il_main = #armor/-unique(2)/645-761;
+                    il_main = #*/-unique(2)/296-346;
+					max = 3;
+					min = 2;
+	            }
+
+			}
+		}
+	}
+}

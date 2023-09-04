@@ -1,0 +1,61 @@
+[t:template,n:3W_spell_upza_reaper_summon] { specializes = 3W_spell_upza_reaper_summon_base; }
+[t:template,n:3W_spell_upza_reaper_summon_base]
+{
+	specializes = base_spell_monster;
+
+	category_name = "magic";
+	doc = "3W_spell_upza_reaper_summon";
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+					chance = 0.2;
+					il_main = 3W_skeleton_mercenary_summon;
+				}
+				[all*]
+				{
+					chance = 0.2;
+					il_main = 3W_skeleton_mercenary_archer_summon;
+				}
+				[all*]
+				{
+					chance = 0.3;
+					il_main = 3W_wraith_archer_summon;
+				}
+				[all*]
+				{
+					chance = 0.3;
+					il_main = 3W_punisher_summon;
+				}
+			}
+		}
+	}
+	[magic]
+	{
+		cast_range = 10;
+		cast_reload_delay = 1;
+		caster_state_name = "Controlling Monster";
+		effect_duration = 600;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+		state_name = "Controlling Monster";
+		require_state_check = false;
+		cast_sub_animation = 6;
+	}
+	[spell_summon_random_unlimited]
+	{
+		monster_summon = true;
+		spawn_radius	= 8.0;
+		effect_script = "summon";
+		end_script = "un_summon";
+		script_params = "[scale(1.75)]";
+		description = "Summoned Creature";
+		caster_description = "Controlling Summoned";
+	}
+}
