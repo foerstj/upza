@@ -5,6 +5,16 @@
 	category_name	= "container";
     aspect:is_selectable = false;
 
+    // from derived templates
+	[aspect]
+	{
+		is_usable =	false;
+		life_state = LS_ALIVE_CONSCIOUS;
+		max_life = 1;
+		life		= 1;
+	}
+    common:rollover_display = true;
+
     // from container core template
     [common]
     {
@@ -20,14 +30,9 @@
 
 	doc				= "Barrel base template non-interactive";
 	common:screen_name	= "Barrel";
-	common:rollover_display = true;
 	[aspect]
 	{
-		is_usable	= false;
-		life_state	= LS_ALIVE_CONSCIOUS;
-		max_life	= 1;
 		material	= wood;
-		life		= 1;
 		voice:die:	* =	s_e_env_break_container_wood;
 	}
 	[physics]
@@ -48,14 +53,9 @@
 
 	doc				= "Crate";
 	common:screen_name	= "Crate";
-	common:rollover_display = true;
 	[aspect]
 	{
 		material = wood;
-		is_usable =	false;
-		life_state = LS_ALIVE_CONSCIOUS;
-		max_life = 1;
-		life		= 1;
 		voice:die:	* =	s_e_env_break_container_wood;
 	}
 	[physics]

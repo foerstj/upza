@@ -1,6 +1,6 @@
 [t:template,n:gen_explode_box1_defused]
 {
-	specializes		= generator;
+	specializes		= base_container_ni;
     
     [aspect]
     {
@@ -11,7 +11,7 @@
 }
 [t:template,n:gen_explode_box2_defused]
 {
-	specializes		= generator;
+	specializes		= base_container_ni;
     
     [aspect]
     {
@@ -22,7 +22,7 @@
 }
 [t:template,n:gen_explode_box3_defused]
 {
-	specializes		= generator;
+	specializes		= base_container_ni;
     
     [aspect]
     {
