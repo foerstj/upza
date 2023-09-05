@@ -1,4 +1,5 @@
-[t:template,n:gen_stone_glb_crystwind_01]
+[t:template,n:gen_stone_glb_crystwind_01] { specializes = gen_stone_glb_crystwind_01_base; }
+[t:template,n:gen_stone_glb_crystwind_01_base]
 {
 	doc = "generator_townstone_crystwind";
 	specializes = base_stone_glb;
@@ -19,7 +20,8 @@
 	}
 }
 
-[t:template,n:gen_stone_glb_lang_01]
+[t:template,n:gen_stone_glb_lang_01] { specializes = gen_stone_glb_lang_01_base; }
+[t:template,n:gen_stone_glb_lang_01_base]
 {
 	doc = "generator_townstone_lang";
 	specializes = base_stone_glb;
@@ -40,7 +42,8 @@
 	}
 }
 
-[t:template,n:gen_stone_glb_hiroth_01]
+[t:template,n:gen_stone_glb_hiroth_01] { specializes = gen_stone_glb_hiroth_01_base; }
+[t:template,n:gen_stone_glb_hiroth_01_base]
 {
 	doc = "generator_townstone_hiroth";
 	specializes = base_stone_glb;

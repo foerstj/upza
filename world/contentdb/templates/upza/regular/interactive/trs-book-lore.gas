@@ -1,4 +1,5 @@
-[t:template,n:upza_book_glb_lore_kavaren_letter_townstones]
+[t:template,n:upza_book_glb_lore_kavaren_letter_townstones] { specializes = upza_book_glb_lore_kavaren_letter_townstones_base; }
+[t:template,n:upza_book_glb_lore_kavaren_letter_townstones_base]
 {
 	specializes = base_book_lore;
 
@@ -17,7 +18,8 @@
 	}
 }
 
-[t:template,n:upza_book_glb_lore_dornek_diary_sulfurtunnels]
+[t:template,n:upza_book_glb_lore_dornek_diary_sulfurtunnels] { specializes = upza_book_glb_lore_dornek_diary_sulfurtunnels_base; }
+[t:template,n:upza_book_glb_lore_dornek_diary_sulfurtunnels_base]
 {
 	specializes = base_book_lore;
 
@@ -34,7 +36,8 @@
 	}
 }
 
-[t:template,n:upza_book_glb_lore_flessan_diary_lagreth]
+[t:template,n:upza_book_glb_lore_flessan_diary_lagreth] { specializes = upza_book_glb_lore_flessan_diary_lagreth_base; }
+[t:template,n:upza_book_glb_lore_flessan_diary_lagreth_base]
 {
 	specializes = base_book_lore;
 
@@ -51,7 +54,8 @@
 	}
 }
 
-[t:template,n:upza_book_glb_lore_sanctuary_keeper_diary]
+[t:template,n:upza_book_glb_lore_sanctuary_keeper_diary] { specializes = upza_book_glb_lore_sanctuary_keeper_diary_base; }
+[t:template,n:upza_book_glb_lore_sanctuary_keeper_diary_base]
 {
 	specializes = base_book_lore;
 
@@ -68,7 +72,8 @@
 	}
 }
 
-[t:template,n:upza_book_glb_lore_kavaren_diary]
+[t:template,n:upza_book_glb_lore_kavaren_diary] { specializes = upza_book_glb_lore_kavaren_diary_base; }
+[t:template,n:upza_book_glb_lore_kavaren_diary_base]
 {
 	specializes = base_book_lore;
 
@@ -85,7 +90,8 @@
 	}
 }
 
-[t:template,n:upza_book_glb_lore_history_ancient]
+[t:template,n:upza_book_glb_lore_history_ancient] { specializes = upza_book_glb_lore_history_ancient_base; }
+[t:template,n:upza_book_glb_lore_history_ancient_base]
 {
 	specializes = base_book_lore;
 
@@ -103,7 +109,9 @@
 		lore_key = lore_history_ancient;
 	}
 }
-[t:template,n:upza_book_glb_lore_history_modern]
+
+[t:template,n:upza_book_glb_lore_history_modern] { specializes = upza_book_glb_lore_history_modern_base; }
+[t:template,n:upza_book_glb_lore_history_modern_base]
 {
 	specializes = base_book_lore;
 

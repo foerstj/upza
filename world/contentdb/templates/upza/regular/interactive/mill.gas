@@ -1,4 +1,5 @@
-[t:template,n:mill_glb_gear_01_off]
+[t:template,n:mill_glb_gear_01_off] { specializes = mill_glb_gear_01_off_base; }
+[t:template,n:mill_glb_gear_01_off_base]
 {
 	category_name = "node";
 	doc = "mill_glb_gear_01";
@@ -8,7 +9,9 @@
 		model = m_i_grs_sbridge-gear1;
 	}
 }
-[t:template,n:mill_glb_gear_02_off]
+
+[t:template,n:mill_glb_gear_02_off] { specializes = mill_glb_gear_02_off_base; }
+[t:template,n:mill_glb_gear_02_off_base]
 {
 	category_name = "node";
 	doc = "mill_glb_gear_02";
@@ -18,7 +21,9 @@
 		model = m_i_grs_sbridge-gear2;
 	}
 }
-[t:template,n:mill_glb_vanes_off]
+
+[t:template,n:mill_glb_vanes_off] { specializes = mill_glb_vanes_off_base; }
+[t:template,n:mill_glb_vanes_off_base]
 {
 	category_name = "node";
 	doc = "mill_glb_vanes";
