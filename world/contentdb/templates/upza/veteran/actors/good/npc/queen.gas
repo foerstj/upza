@@ -1,4 +1,5 @@
-[t:template,n:2W_upza_queen]
+[t:template,n:2W_upza_queen] { specializes = 2W_upza_queen_base; }
+[t:template,n:2W_upza_queen_base]
 {
 	specializes = base_farmgirl;
 
