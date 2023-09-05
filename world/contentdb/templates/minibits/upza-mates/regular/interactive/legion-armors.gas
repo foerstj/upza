@@ -109,11 +109,34 @@
     }
 }
 
+[t:template,n:upza_base_bd_un_leg_ro]
+{
+	doc = "Legionnaire Robe";
+	specializes = base_body_armor_cloth;
+	[common]
+	{
+	  b allow_modifiers = false;
+        is_pcontent_allowed = false;
+		screen_name = "Legionnaire Robe";
+	}
+	[defend]
+	{
+		armor_style = rdlegro;
+		armor_type = a7;
+	}
+	[gui]
+	{
+		inventory_height = 2;
+		inventory_width = 2;
+		inventory_icon = b_gui_ig_i_a_pos_a7_rdlegro;
+	}
+}
+
 // declare as _le_ (leather) because pcontent pricing for _ro_ (robes) is especially expensive (see pcontent.skrit)
 [t:template,n:bd_un_le_m_g_c_avg_upza_leg_01] { specializes = bd_un_le_m_g_c_avg_upza_leg_01_base; }
 [t:template,n:bd_un_le_m_g_c_avg_upza_leg_01_base]
 {
-	specializes = bd_ro_un_m_g_c_eos_base;
+	specializes = upza_base_bd_un_leg_ro;
 
     [common]
     {
