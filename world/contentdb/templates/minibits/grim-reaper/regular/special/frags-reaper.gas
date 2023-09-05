@@ -1,4 +1,5 @@
-[t:template,n:frag_glb_upza_skull]
+[t:template,n:frag_glb_upza_skull] { specializes = frag_glb_upza_skull_base; }
+[t:template,n:frag_glb_upza_skull_base]
 {
 	doc = "bone fragment";
 	specializes = fragment;

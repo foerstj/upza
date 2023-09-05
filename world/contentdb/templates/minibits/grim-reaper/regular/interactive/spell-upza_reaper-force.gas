@@ -33,7 +33,8 @@
 	[spell_default] {}
 }
 
-[t:template,n:spell_upza_reaper_force]
+[t:template,n:spell_upza_reaper_force] { specializes = spell_upza_reaper_force_base; }
+[t:template,n:spell_upza_reaper_force_base]
 {
     specializes = spell_super_gom_force_base;
 }

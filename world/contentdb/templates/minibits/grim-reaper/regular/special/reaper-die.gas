@@ -1,5 +1,6 @@
 // for spiralling-upwards animation
-[t:template,n:upza_reaper_die]
+[t:template,n:upza_reaper_die] { specializes = upza_reaper_die_base; }
+[t:template,n:upza_reaper_die_base]
 {
 	specializes = non_interactive;
 
