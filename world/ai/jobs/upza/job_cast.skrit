@@ -1,18 +1,5 @@
-/*
-  ============================================================================
-  ----------------------------------------------------------------------------
-
-	File		: job_cast.skrit
-
-	Author(s)	: Bartosz Kijanka, Eric Tams
-
-	Purpose		: This is a basic cast the darn spell job.
-
-	(C)opyright 2000 Gas Powered Games, Inc.
-
-  ----------------------------------------------------------------------------
-  ============================================================================
-*/
+// Like original job_cast, but with added param switch_chance.
+// Purpose is to make enemy behavior look less erratic. Enemy will do an attack a couple of times before switching to the next.
 
 // properties
 
@@ -30,6 +17,7 @@ property	bool	rand_spell$						= false		doc = "Randomly choose a spell from thos
 property	bool	check_range$					= false		doc = "Make sure the spell is in range when choosing a spell.";
 property	string	spell_chances$								doc = "Comma delimited string containing chances to cast different spells if the exist, use with rand_spell$";
 property	string	spells$										doc = "Comma delimited string containing template names coresponding to the chances in spell_chances$";
+// ADDED:
 property	float   switch_chance$					= 1.0		doc = "Chance to switch random spell";
 
 property	bool	spell_by_range$					= false		doc = "choose a spell based on the range to the target";
