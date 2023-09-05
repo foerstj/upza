@@ -17,7 +17,8 @@
     }
 }
 
-[t:template,n:upza_bones_glb_body_readable]
+[t:template,n:upza_bones_glb_body_readable] { specializes = upza_bones_glb_body_readable_base; }
+[t:template,n:upza_bones_glb_body_readable_base]
 {
 	specializes = upza_base_dead_readable;
 

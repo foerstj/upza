@@ -73,21 +73,24 @@
 	}
 }
 
-[t:template,n:barrel_glb_ni]
+[t:template,n:barrel_glb_ni] { specializes = barrel_glb_ni_base; }
+[t:template,n:barrel_glb_ni_base]
 {
 	specializes		= base_container_barrel_ni;
 	doc				= "barrel non-interactive";
 	aspect:model	= m_i_glb_barrel;
 }
 
-[t:template,n:crate_glb_ni]
+[t:template,n:crate_glb_ni] { specializes = crate_glb_ni_base; }
+[t:template,n:crate_glb_ni_base]
 {
 	specializes		= base_container_wood_ni;
 	doc				= "crate non-interactive";
 	aspect:model	= m_i_glb_crate;
 }
 
-[t:template,n:crate_grs_01_ni]
+[t:template,n:crate_grs_01_ni] { specializes = crate_grs_01_ni_base; }
+[t:template,n:crate_grs_01_ni_base]
 {
 	specializes		= base_container_wood_ni;
 	doc				= "crate_rustic non-interactive";
@@ -98,7 +101,8 @@
 	}
 }
 
-[t:template,n:crate_grs_03_ni]
+[t:template,n:crate_grs_03_ni] { specializes = crate_grs_03_ni_base; }
+[t:template,n:crate_grs_03_ni_base]
 {
 	specializes		= base_container_wood_ni;
 	doc				= "crate_stained non-interactive";
@@ -109,7 +113,8 @@
 	}
 }
 
-[t:template,n:footlocker_glb_01_ni]
+[t:template,n:footlocker_glb_01_ni] { specializes = footlocker_glb_01_ni_base; }
+[t:template,n:footlocker_glb_01_ni_base]
 {
 	specializes 		= base_container_wood_ni;
 	doc 				= "chest_footlocker non-interactive";

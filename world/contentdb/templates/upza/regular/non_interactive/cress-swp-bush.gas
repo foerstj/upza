@@ -12,4 +12,5 @@
 }
 
 // Template alias for use as water plant
-[t:template,n:cress_swp_03] { specializes = bush_swp_03_base; }
+[t:template,n:cress_swp_03] { specializes = cress_swp_03_base; }
+[t:template,n:cress_swp_03_base] { specializes = bush_swp_03_base; }
