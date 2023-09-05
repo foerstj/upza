@@ -1,10 +1,10 @@
-[t:template,n:2W_upza_reaper] { specializes = 2W_upza_reaper_base; }
-[t:template,n:2W_upza_reaper_base]
+[t:template,n:3W_upza_reaper] { specializes = 3W_upza_reaper_base; }
+[t:template,n:3W_upza_reaper_base]
 {
-	specializes = 2W_base_grim_reaper;
+	specializes = 3W_base_grim_reaper;
 
-	category_name = "2W_evil_b";
-	doc = "2W_The Reaper";
+	category_name = "3W_evil_b";
+	doc = "3W_The Reaper";
 
     // Endboss things
     [actor]
@@ -80,37 +80,37 @@
 	}
 
     // Stats
-    // stats of 2W_gom_super
+    // stats of 3W_gom_super
 	[actor]
 	{
 		[skills]
 		{
-			strength =  	108.7, 0;
-			intelligence =  76.7, 0;
-			dexterity =  	59.8, 0;
-			melee =  		132, 0;
-			combat_magic = 	132, 0;
+			strength =  	142.3, 0;
+			intelligence =  89.2, 0;
+			dexterity =  	75.2, 0;
+			melee =  		165, 0;
+			combat_magic = 	165, 0;
 		}
 	}
 	[aspect]
 	{
-		experience_value = 900000;
-		life = 18229;
-		max_life = 18229;
+		experience_value = 27900000;
+		life = 29389;
+		max_life = 29389;
         life_recovery_unit  = 1;
         life_recovery_period = 20;
-		mana = 5625.5;
-		max_mana = 5625.5;
+		mana = 7665.5;
+		max_mana = 7665.5;
 	}
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 248.6;
-		damage_min = 123.1;
-		damage_bonus_min_cmagic = 106;
-		damage_bonus_max_cmagic = 158;
+		damage_max = 400.4;
+		damage_min = 214.9;
+		damage_bonus_min_cmagic = 203;
+		damage_bonus_max_cmagic = 304;
 	}
-	[defend] { defense=2124; }
+	[defend] { defense=3485; }
     // changes
     aspect:life_recovery_period = 1;  // you just gotta be faster than that!
 
@@ -216,14 +216,14 @@
 		actor_weapon_preference			= WP_MAGIC;
 		actor_auto_switches_to_magic	= true;
 
-		jat_cast 						= world\ai\jobs\upza\job_cast.skrit
+		jat_cast 						= world\ai\jobs\minibits\grim-reaper\job_cast.skrit
 			?rand_spell					= true
 			&use_self_cast_anim			= true
 			&use_base_duration			= false
 			&check_range				= true
             &switch_chance              = 0.2
 			&spell_chances				= "0.1, 0.1, 0.2, 0.3, 0.1, 0.0, 0.2"
-			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning, spell_upza_reaper_poison_breath, spell_upza_reaper_poison_cloud, 2W_spell_upza_reaper_summon";
+			&spells						= "spell_upza_reaper_skull_storm, spell_upza_reaper_force, spell_upza_reaper_blast, spell_upza_reaper_lightning, spell_upza_reaper_poison_breath, spell_upza_reaper_poison_cloud, 3W_spell_upza_reaper_summon";
 
 		jat_brain						= world\ai\jobs\common\brain_hero.skrit
 			?heal_when_idle				= true
@@ -240,7 +240,7 @@
             il_spell_3 = spell_upza_reaper_lightning;
             il_spell_4 = spell_upza_reaper_poison_breath;
             il_spell_5 = spell_upza_reaper_poison_cloud;
-            il_spell_6 = 2W_spell_upza_reaper_summon;
+            il_spell_6 = 3W_spell_upza_reaper_summon;
 			il_spell_10 = spell_upza_reaper_heal;
 		}
     }
@@ -272,7 +272,7 @@
 		lifeSpan=6;
 	}
 
-    // Loot: from 2W_gom_super
+    // Loot: from 3W_gom_super
    	[inventory]
 	{
     	[pcontent]
@@ -282,35 +282,35 @@
 				[all*]
 				{
 					chance = 0.5;
-            	    il_main = #spell/108-132;
+            	    il_main = #spell/131-161;
 				}
 				[oneof*]
 				{
-					il_main = #weapon/247-346;
-					il_main = #armor/529-1158;
+					il_main = #weapon/301-421;
+					il_main = #armor/646-1413;
 					max = 4;
 					min = 3;
    	    		}
     			[gold*]
 				{
-					max = 1111965;
-					min = 649470;
+					max = 3362096;
+					min = 1963714;
                     piles = 15 - 20;
 				}
 				[oneof*]
 				{
-	            	il_main = #weapon/-rare(1)/296-346;
-	                il_main = #armor/-rare(1)/645-761;
-                    il_main = #*/-rare(1)/296-346;
+	            	il_main = #weapon/-rare(1)/361-421;
+	                il_main = #armor/-rare(1)/787-928;
+                    il_main = #*/-rare(1)/361-421;
 					max = 3;
 					min = 2;
 
                 }
 				[oneof*]
                 {
-	                il_main = #weapon/-unique(2)/296-346;
-	                il_main = #armor/-unique(2)/645-761;
-                    il_main = #*/-unique(2)/296-346;
+	                il_main = #weapon/-unique(2)/361-421;
+	                il_main = #armor/-unique(2)/787-928;
+                    il_main = #*/-unique(2)/361-421;
 					max = 3;
 					min = 2;
 	            }
