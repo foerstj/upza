@@ -1,0 +1,10 @@
+[effect_script*]
+{
+	name	=unique_light_warmwhite;
+
+	script	=[[
+			sfx create lightsource #TARGET 
+				"color0(1,1,.9)color1(1,1,.8)frequency(1)iradius(2)radius(4)";
+			sfx start #POP;
+			]];
+}
