@@ -142,7 +142,8 @@
 }
 
 // a proper character with convo etc
-[t:template,n:upza_goblin_npc_grunt_char]
+[t:template,n:upza_goblin_npc_grunt_char] { specializes = upza_goblin_npc_grunt_char_base; }
+[t:template,n:upza_goblin_npc_grunt_char_base]
 {
     specializes = upza_goblin_npc_grunt_base;
 
@@ -241,7 +242,8 @@
 }
 
 // a proper character with convo etc
-[t:template,n:upza_goblin_npc_guard_char]
+[t:template,n:upza_goblin_npc_guard_char] { specializes = upza_goblin_npc_guard_char_base; }
+[t:template,n:upza_goblin_npc_guard_char_base]
 {
     specializes = upza_goblin_npc_guard_base;
 

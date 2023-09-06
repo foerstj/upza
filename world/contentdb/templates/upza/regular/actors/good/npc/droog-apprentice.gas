@@ -1,4 +1,5 @@
-[t:template,n:upza_droog_apprentice]
+[t:template,n:upza_droog_apprentice] { specializes = upza_droog_apprentice_base; }
+[t:template,n:upza_droog_apprentice_base]
 {
 	specializes = base_npc_dg;
 
