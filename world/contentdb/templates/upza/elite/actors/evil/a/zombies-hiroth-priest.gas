@@ -1,3 +1,89 @@
+[t:template,n:3W_upza_zombie_hiroth_priest] { specializes = 3W_upza_zombie_hiroth_priest_base; }
+[t:template,n:3W_upza_zombie_hiroth_priest_base]
+{
+	specializes = 3W_upza_base_zombie_farmboy;
+
+	[common]
+	{
+		screen_name = "Utraean High Priest Kavaren";
+	}
+
+    [aspect]
+    {
+        // darker flesh tone
+        textures:0 = b_i_glb_frag-generic-02;
+        // robe
+        textures:1 = b_c_pos_a7_014;
+        model = m_c_gah_fb_pos_a7;
+    }
+	[common]
+	{
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_purple(sgx)");  // Hiroth = purple
+			}
+		}
+	}
+
+    // spell & behavior from seck_mage_high
+   	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell = spell_flame_blades;
+		}
+	}
+	[mind]
+	{
+        actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= true;
+
+		melee_engage_range = 8;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+	}
+
+    // stats & loot from 3W_seck_mage_high
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  54.5, 0;
+			intelligence 	=  65.6, 0;
+			dexterity 		=  51.5, 0;
+            combat_magic 	=  133, 0;
+            nature_magic 	=  85, 0;
+		}
+		drops_spellbook = false;
+	}
+	[aspect]
+	{
+		experience_value = 12090000;
+		life = 3434.7;
+		max_life = 3434.7;
+        mana = 7382.3;
+        max_mana = 7382.3;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 786.8;
+		damage_min = 512;
+		damage_bonus_min_cmagic = 228;
+		damage_bonus_max_cmagic = 307;
+	}
+	[defend] { defense=1075.7; }
+}
 [t:template,n:3W_upza_zombie_hiroth_priest_equipped]
 {
 	specializes = 3W_upza_zombie_hiroth_priest_base;
