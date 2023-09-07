@@ -190,7 +190,8 @@
 	physics:gib_gore_good = true;
 }
 
-[t:template,n:synged_white_super]
+[t:template,n:synged_white_super] { specializes = synged_white_super_base; }
+[t:template,n:synged_white_super_base]
 {
     specializes = base_synged_super;
 
@@ -298,7 +299,8 @@
 	}
 }
 
-[t:template,n:synged_red_super]
+[t:template,n:synged_red_super] { specializes = synged_red_super_base; }
+[t:template,n:synged_red_super_base]
 {
     specializes = base_synged_super;
 

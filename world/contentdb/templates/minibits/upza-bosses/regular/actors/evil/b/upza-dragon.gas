@@ -1,27 +1,27 @@
-[t:template,n:3W_dragon_base]  // = 3W_dragon
+[t:template,n:dragon_base]  // = dragon
 {
-	category_name = "3W_evil_b";
-	doc = "3W_dragon";
+	category_name = "1W_evil_b";
+	doc = "dragon";
 	specializes = actor_custom;
 	[actor]
 	{
 		[skills]
 		{
-			strength =  	259.9, 0;
-			intelligence =  58.5, 0;
-			dexterity =  	84.1, 0;
-			melee =  		125, 0;
-            combat_magic =  138, 0;
+			strength =  	120, 0;
+			intelligence =  40, 0;
+			dexterity =  	45, 0;
+			melee =  		52, 0;
+            combat_magic =  65, 0;
 		}
 	}
 	[aspect]
 	{
-		draw_selection_indicator = false;
-		experience_value = 18600000;
-		life = 51727.7;
-		max_life = 51727.7;
-		mana = 38425.5;
-		max_mana = 38425.5;
+        draw_selection_indicator = false;
+		experience_value = 200000;
+		life = 20260;
+		max_life = 20260;
+		mana = 15050;
+		max_mana = 15050;
 		model = m_c_ebb_dg_pos_1;
 		rollover_highlight = false;
 		[voice]
@@ -32,10 +32,8 @@
 	[attack]
 	{
 		attack_range = 0.0;
-		damage_max = 898.7;
-		damage_min = 643.4;
-		damage_bonus_min_cmagic = 475;
-		damage_bonus_max_cmagic = 683;
+		damage_max = 320;
+		damage_min = 280;
 	}
 	[body]
 	{
@@ -114,7 +112,7 @@
 
 		}
 	}
-	[defend] { defense=2633.6; }
+	[defend] { defense=900; }
 	[follower] {}
 	[inventory]
 	{
@@ -165,9 +163,10 @@
 	}
 }
 
-[t:template,n:3W_upza_dragon]
+[t:template,n:upza_dragon] { specializes = upza_dragon_base; }
+[t:template,n:upza_dragon_base]
 {
-    specializes = 3W_dragon_base;
+    specializes = dragon_base;
 
     [aspect]
     {

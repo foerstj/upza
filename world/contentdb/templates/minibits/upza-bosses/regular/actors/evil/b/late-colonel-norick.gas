@@ -1,9 +1,10 @@
-[t:template,n:2W_upza_colonel_norick]
+[t:template,n:upza_colonel_norick] { specializes = upza_colonel_norick_base; }
+[t:template,n:upza_colonel_norick_base]
 {
-	specializes = 2W_upza_base_zombie;
+	specializes = base_zombie;
 
-	category_name = "2W_character";
-	doc = "2W_late colonel norick";
+	category_name = "1W_evil_b";
+	doc = "late colonel norick";
 	[common] { screen_name="Late Colonel Norick"; }
 	[mind]
 	{
@@ -49,33 +50,33 @@
 			?auto_reveal 				= true;
 	}
 
-    // stats & loot from original 2W_colonel_norick
+    // stats & loot from original colonel_norick
 	[actor]
 	{
 		[skills]
 		{
-			strength =  	128.9, 0;
-			intelligence =  156.2, 0;
-			dexterity =  	74.4, 0;
-			melee =  		116, 0;
-			combat_magic = 	115, 0;
+			strength =  	120, 0;
+			intelligence =  150, 0;
+			dexterity =  	70, 0;
+			melee =  		107, 0;
+			combat_magic = 	106, 0;
 		}
 	}
 	[aspect]
 	{
-		experience_value = 1050000;
-		life = 75943.4;
-		max_life = 75943.4;
-		mana = 1.1;
-		max_mana = 1.1;
+		experience_value = 350000;
+		life = 70000;
+		max_life = 70000;
+		mana = 1;
+		max_mana = 1;
 	}
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 787.6;
-		damage_min = 527.3;
+		damage_max = 660;
+		damage_min = 540;
 	}
-    [defend] { defense=4045.6; }
+    [defend] { defense=3510; }
 	[inventory]
 	{
 		[other]
