@@ -1,7 +1,76 @@
-[t:template,n:st_un_dsx_angk_guardian_base]  // = st_un_dsx_angk_guardian
+[t:template,n:upza_dsx_base_staff]  // = dsx_base_staff, keeping independent
+{
+	doc = "Staff or staff-like weapon.";
+	specializes = base_staff;
+	[aspect]
+		{
+			material = wood;
+			[voice]
+				{
+					[put_down]
+						{
+							* = s_e_gui_put_down_staff;
+						}
+				}
+		}
+	[attack]
+		{
+			attack_class = ac_staff;
+			is_melee = true;
+			is_two_handed = true;
+			reload_delay = 0;
+			skill_class = melee;
+		}
+	[gui]
+		{
+			active_icon = b_gui_ig_i_ic_stf_001;
+			equip_slot = es_weapon_hand;
+		}
+	[magic]
+		{
+			[enchantments]
+				{
+					[*]
+						{
+							alteration = alter_chance_to_block_melee_damage;
+							description = "10% Chance to Block Melee Attack";
+							duration = #infinite;
+							innate_enchantment = true;
+							is_permanent = true;
+							is_single_instance = false;
+							value = 10;
+						}
+				}
+		}
+}
+[t:template,n:upza_st_un_dsx_angk_base]  // = st_un_dsx_angk_base but derived from own base template
+{
+	doc = "DSX BASE rune_guardian_scythe";
+	specializes = upza_dsx_base_staff;  // EDITED
+	[aspect]
+	{
+		model = m_w_stf_scythe;
+	}
+
+	[common]
+	{
+		allow_modifiers = false;
+		is_pcontent_allowed = false;
+		screen_name = "Scythe of Angk";
+	}
+	[gui]
+	{
+		active_icon = b_gui_ig_i_ic_stf_004;
+		inventory_height = 4;
+		inventory_icon = b_gui_ig_i_w_stf_319;
+		inventory_width = 1;
+	}
+	[single_pickup] {}
+}
+[t:template,n:upza_st_un_dsx_angk_guardian_base]  // = st_un_dsx_angk_guardian but derived from own base template
 {
 	doc = "DSX rune_guardian_scythe -- Monster Version";
-	specializes = st_un_dsx_angk_base;
+	specializes = upza_st_un_dsx_angk_base;  // EDITED
 	[aspect]
 	{
 		model = m_w_stf_rg100;
@@ -42,10 +111,16 @@
 	}
 }
 
-[t:template,n:st_un_upza_reaper] { specializes = st_un_upza_reaper_base; }
-[t:template,n:st_un_upza_reaper_base]
+[t:template,n:st_un_upza_grim_reaper] { specializes = st_un_upza_grim_reaper_base; }
+[t:template,n:st_un_upza_grim_reaper_base]
 {
-    specializes = st_un_dsx_angk_guardian_base;
+    specializes = upza_st_un_dsx_angk_guardian_base;
+}
+
+[t:template,n:st_un_upza_reaper_boss] { specializes = st_un_upza_reaper_boss_base; }
+[t:template,n:st_un_upza_reaper_boss_base]
+{
+    specializes = upza_st_un_dsx_angk_guardian_base;
 
     [effect_manager]
     {
