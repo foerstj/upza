@@ -1,0 +1,75 @@
+[t:template,n:upza_dsx_base_bow]  // = dsx_base_bow, keeping UPZA independent from LoA
+{
+	doc = "DSX Bow";
+	specializes = base_bow;
+	[aspect]
+		{
+			material = arrow;
+			[voice]
+				{
+					[put_down]
+						{
+							* = s_e_gui_put_down_bow;
+						}
+				}
+		}
+	[attack]
+		{
+			ammo_attach_bone = weapon_grip;
+			ammo_template = arrow;
+			attack_class = ac_bow;
+			attack_range = 9.0;
+			damage_max = 4;
+			damage_min = 2;
+			is_projectile = true;
+			is_two_handed = true;
+			reload_delay = 0.0;
+			skill_class = ranged;
+		}
+	[gui]
+		{
+			active_icon = b_gui_ig_i_ic_bow_001;
+			equip_slot = es_shield_hand;
+		}
+	[physics]
+		{
+			velocity = 14.0;
+		}
+}
+[t:template,n:upza_bw_dsx_zau_2_a_base]  // = bw_dsx_zau_2_a but derived from own base template
+{
+	category_name = "weapon";
+	doc = "DSX Zaurask Long Bow";
+	specializes = upza_dsx_base_bow;  // EDITED
+	[aspect]
+		{
+			model = m_w_bow_025;
+		}
+	[attack]
+		{
+			attack_range = 15;
+			f damage_max = 70.000000;
+			f damage_min = 62.000000;
+			reload_delay = 0;
+		}
+	[common]
+		{
+		is_pcontent_allowed = false;
+			b allow_modifiers = false;
+			screen_name = "Zaurask Long Bow";
+		}
+	[gui]
+		{
+			active_icon = b_gui_ig_i_ic_bow_002;
+			equip_requirements = strength:15,dexterity:22;
+			inventory_height = 4;
+			inventory_icon = b_gui_ig_i_w_bow_014;
+			inventory_width = 1;
+		}
+}
+[t:template,n:bw_upza_lang_guard_ranged] { specializes = bw_upza_lang_guard_ranged_base; }
+[t:template,n:bw_upza_lang_guard_ranged_base]
+{
+    specializes = upza_bw_dsx_zau_2_a_base;
+    common:screen_name = "Lang Guard Long Bow";
+}
