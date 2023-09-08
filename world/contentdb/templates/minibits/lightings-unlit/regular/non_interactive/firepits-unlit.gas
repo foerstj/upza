@@ -1,7 +1,7 @@
 [t:template,n:firepit_glb_unlit] { specializes = firepit_glb_unlit_base; }
 [t:template,n:firepit_glb_unlit_base]
 {
-	specializes = base_light;
+	specializes = non_interactive;
 
 	category_name = "lighting";
 	doc = "firepit_empty unlit";
@@ -15,7 +15,7 @@
 [t:template,n:firepit_glb_03_unlit] { specializes = firepit_glb_03_unlit_base; }
 [t:template,n:firepit_glb_03_unlit_base]
 {
-	specializes = base_light;
+	specializes = non_interactive;
 
 	category_name = "lighting";
 	doc = "firepit with rocks unlit";
