@@ -136,6 +136,35 @@
 	  p position = -4.53676,-1.5,-0.702333,0x766a06c2;
 	}
 }
+[t:trigger_generic,n:0x02d00172]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_grescal","active",0);
+				action* = change_quest_state("quest_grescal","completed",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,8.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.171352,0,-0.0742939,0x8d5d1e87;
+	}
+}
 [t:use_point,n:0x02d00128]
 {
 	[placement]
@@ -576,34 +605,5 @@
 	[placement]
 	{
 	  p position = 0.0326023,-3.1,-0.859882,0x723d00c0;
-	}
-}
-[t:trigger_generic,n:0x02d00172]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("quest_grescal","active",0);
-				action* = change_quest_state("quest_grescal","completed",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(1.000000,0.500000,8.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.171352,0,-0.0742939,0x8d5d1e87;
 	}
 }

@@ -303,6 +303,34 @@
 	  p position = 2.8497,0,-1.93451,0xeeaf8be8;
 	}
 }
+[t:trigger_generic,n:0x04f0004c]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_fallraen","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 3.79865,9.53674e-007,-1.77303,0x690259ca;
+	}
+}
 [t:chunks_ice_03,n:0x04f00120]
 {
 	[placement]
@@ -363,33 +391,5 @@
 	[placement]
 	{
 	  p position = 0.135574,-5.98957,2.88082,0x28c60c3e;
-	}
-}
-[t:trigger_generic,n:0x04f0004c]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("quest_fallraen","active",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(16.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 3.79865,9.53674e-007,-1.77303,0x690259ca;
 	}
 }

@@ -1135,6 +1135,30 @@
 	  p position = -2.32628,1.90735e-006,-1.51899,0xd18adf70;
 	}
 }
+[t:mp_lagreth,n:0x04f0004b]
+{
+	[common]
+	{
+		dev_instance_text = "MP NPC";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = lagreth_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 2.87395,0,-0.0191078,0x690259ca;
+	}
+}
 [t:braak_magic,n:0x04f00083]
 {
 	[placement]
@@ -1401,29 +1425,5 @@
 	[placement]
 	{
 	  p position = -0.404633,0,-1.56332,0x9b50196f;
-	}
-}
-[t:mp_lagreth,n:0x04f0004b]
-{
-	[common]
-	{
-		dev_instance_text = "MP NPC";
-	  b is_single_player = false;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = lagreth_mp;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,0.382683;
-	  p position = 2.87395,0,-0.0191078,0x690259ca;
 	}
 }
