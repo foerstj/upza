@@ -44,27 +44,6 @@
 	  x target1 = 0x00700A34;
 	  x target2 = 0x0070059C;
 	}
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x007005B1,0f,"default","every",0), doc("self-activate");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(20.000000,10.000000,20.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
 	[placement]
 	{
 	  p position = 1.45905,0.55,3.97613,0x02c2b97b;
@@ -118,5 +97,18 @@
 	[placement]
 	{
 	  p position = 1.62044,9.53674e-007,-0.864822,0xca72fd1f;
+	}
+}
+[t:cmd_alignment_changer,n:0x007005cb]
+{
+	[cmd_dumb_guy]
+	{
+	  i start_state = 1;
+	  x target_actor = 0x00700A34;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = -1.54521,0.767218,0.736313,0x180e062f;
 	}
 }
