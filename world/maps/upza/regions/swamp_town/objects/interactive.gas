@@ -12,14 +12,14 @@
 	{
 	  x siege_light = 0x35315D66;
 	}
-	[toggle_forward]
-	{
-	  x send_to_scid = 0x04E00166;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -3.2032,-1.43051e-006,1.42996,0x3fbef206;
+	}
+	[toggle_forward]
+	{
+	  x send_to_scid = 0x04E00166;
 	}
 }
 [t:torch_swp_stick_01_lightable,n:0x04e002df]
@@ -170,15 +170,15 @@
 	{
 	  x siege_light = 0x3E7B2C03;
 	}
-	[toggle_forward]
-	{
-	  f delay = 1;
-	  x send_to_scid = 0x04E000C6;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.147809,0,-0.989016;
 	  p position = -1.77907,-1.75361,1.14748,0x1d07ba5f;
+	}
+	[toggle_forward]
+	{
+	  f delay = 1;
+	  x send_to_scid = 0x04E000C6;
 	}
 }
 [t:door_swp_breakable,n:0x04e001d2]
