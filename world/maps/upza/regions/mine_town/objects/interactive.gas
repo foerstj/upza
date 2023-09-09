@@ -123,16 +123,16 @@
 	  f magnitude = 0;
 	  x siege_light = 0x051987A1;
 	}
+	[placement]
+	{
+	  q orientation = 0,4.12869e-006,0,1;
+	  p position = 1.62028,-1.48088,0.740729,0xbd469bbb;
+	}
 	[toggle_forward]
 	{
 	  f delay = 1;
 	  x send_to_scid = 0x00C00083;
 	  x send_to_scid2 = 0x00C003B0;
-	}
-	[placement]
-	{
-	  q orientation = 0,4.12869e-006,0,1;
-	  p position = 1.62028,-1.48088,0.740729,0xbd469bbb;
 	}
 }
 [t:door_cav_01,n:0x00c00384]

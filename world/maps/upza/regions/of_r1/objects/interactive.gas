@@ -155,14 +155,14 @@
 	{
 	  x siege_light = 0x9B0DC227;
 	}
-	[toggle_forward]
-	{
-	  x send_to_scid = 0x05A00AA8;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.382684,0,0.923879;
 	  p position = 2.70105,9.53674e-007,-1.54477,0xb4f31ce8;
+	}
+	[toggle_forward]
+	{
+	  x send_to_scid = 0x05A00AA8;
 	}
 }
 [t:respawn_statue,n:0x05a00845]
