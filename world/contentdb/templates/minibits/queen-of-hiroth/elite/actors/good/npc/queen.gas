@@ -47,6 +47,7 @@
     }
     [mind]
     {
+		combat_orders = co_free;
         movement_orders = mo_hold;
 		actor_weapon_preference			= WP_MAGIC;
 		actor_auto_switches_to_magic	= true;
