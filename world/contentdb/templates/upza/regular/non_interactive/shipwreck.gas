@@ -1,0 +1,7 @@
+[t:template,n:upza_dsx_shipwreck]  // = dsx_shipwreck, keeping independent
+{
+ category_name = "node";
+ doc = "dsx_shipwreck";
+ specializes = non_interactive_blocking;
+ [aspect] { model=m_i_glb_shipwreck; }
+}
