@@ -114,7 +114,7 @@ string decide_convo$()
         return MakeStringF( "%s_first", namespace$ );
     }
 
-    bool isReaperDone$ = Victory.IsQuestCompleted( "the_reaper" );
+    bool isReaperDone$ = Victory.IsQuestCompleted( "upza_3_the_reaper" );
     bool isMaljinDone$ = Victory.IsQuestCompleted( "quest_townstones" );
     if ( isReaperDone$ && !GameAuditor.GetDb.GetBool( MakeStringF( "%s_reacted_reaperdone", namespace$ ) ) )
     {
