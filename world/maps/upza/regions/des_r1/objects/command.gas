@@ -1,3 +1,17 @@
+[t:cmd_alignment_changer,n:0x007005cd]
+{
+	[cmd_dumb_guy]
+	{
+	  b change_life_state = false;
+	  b change_selection = false;
+	  i start_state = 1;
+	  x target_actor = 0x00700990;
+	}
+	[placement]
+	{
+	  p position = -7.22182,4,1.07403,0x87f229a7;
+	}
+}
 [t:cmd_ai_t_attack_object,n:0x007005b6]
 {
 	[cmd_ai_dojob]
@@ -9,19 +23,6 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -0.241447,0,-0.766762,0xfe50c0ed;
-	}
-}
-[t:cmd_ai_t_attack_object,n:0x007005c0]
-{
-	[cmd_ai_dojob]
-	{
-	  x target1 = 0x00700A3B;
-	  x target2 = 0x00700596;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.926033,0,-0.692459,0xfe50c0ed;
 	}
 }
 [t:cmd_ai_t_attack_object,n:0x00700594]
@@ -53,6 +54,8 @@
 {
 	[cmd_dumb_guy]
 	{
+	  b change_life_state = false;
+	  b change_selection = false;
 	  i start_state = 1;
 	  x target_actor = 0x00700A34;
 	}

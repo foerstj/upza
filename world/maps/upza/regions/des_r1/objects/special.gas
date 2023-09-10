@@ -1906,12 +1906,13 @@
 {
 	[common]
 	{
+		dev_instance_text = "SCRIPTED EVENT EXIT";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x007005B6,0f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x007005C0,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x007005CD,0f,"default","every",0), doc("alignment changer");
+				action* = send_world_message("we_req_activate",0x007005B6,0f,"default","every",0), doc("attack object");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,10.000000,20.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -1936,14 +1937,15 @@
 {
 	[common]
 	{
+		dev_instance_text = "SCRIPTED EVENT ENTRANCE";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x007005B1,0f,"default","every",0);
-				action* = send_world_message("we_req_activate",0x007005CB,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x007005CB,0f,"default","every",0), doc("alignment changer");
+				action* = send_world_message("we_req_activate",0x007005B1,0f,"default","every",0), doc("attack object");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(20.000000,10.000000,20.000000,"on_every_enter");
+				condition* = party_member_within_bounding_box(16.000000,8.000000,32.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -1958,7 +1960,7 @@
 	}
 	[placement]
 	{
-	  p position = 1.58151,0.299999,-2.78787,0x180e062f;
+	  p position = -5.79624,1.85,-2.42905,0x54ccef51;
 	}
 }
 [t:trigger_change_mood_box,n:0x00700501]
