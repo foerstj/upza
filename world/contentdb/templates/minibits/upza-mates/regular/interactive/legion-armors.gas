@@ -151,3 +151,32 @@
 		equip_requirements = intelligence:20;
 	}
 }
+
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03_rst] { specializes = bd_un_pl_f_g_c_avg_upza_leg_03_rst_base; }
+[t:template,n:bd_un_pl_f_g_c_avg_upza_leg_03_rst_base]
+{
+    specializes = upza_base_bd_un_leg;
+
+    [common]
+    {
+        screen_name = "Rusted 2nd Legion Fighter Plate";
+    }
+	[defend]
+	{
+		armor_style = 014-rst;
+	}
+	[gui]
+	{
+		inventory_icon = b_gui_ig_i_a_pos_a3_014;
+	}
+
+    // stats
+    [defend]
+    {
+        defense = 50;
+    }
+    [gui]
+    {
+        equip_requirements = strength:15;
+    }
+}
