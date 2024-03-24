@@ -1,20 +1,20 @@
 # Utraean Peninsula: Zombie Apocalypse
+A map for Dungeon Siege 1 and Legends of Aranna, based on the original multi-player campaign.
 
-A map for Dungeon Siege: Legends of Aranna, based on the original multi-player campaign.
+FOSS, CC-BY-SA.
 
+## About
 *It has been a decade since the Utraean Peninsula was ravished by a zombie apocalypse. The courageous 2nd Legion once more tries to set foot there, and with ships and supplies provided by Ehb, they sail westward. They attempt to land on the coast of Meren, and only narrowly escape the attacking Undead, getting stranded on the Eastern Island - a mythical place said to have magical passages to the Peninsula...*
 
-## Installation
-
-Put the dsmap & dsres files into the DSLOA folder of your Dungeon Siege installation.\
-This map requires Dungeon Siege: Legends of Aranna.
-
-## Compatibility
-
-No known compatibility issues.
+## Installation & Compatibility
+- This map is made for both vanilla DS and LoA.
+- Installation:
+  - For playing with DS LoA, place the dsmap & dsres files into the DSLOA folder.
+  - For playing with vanilla DS, place the dsmap file in the Maps folder and the dsres files in the Resources folder. Also download the optional LoA polyfill dsres and place it in the Resources folder as well.
+- To uninstall, simply remove the files again :)
+- No known compatibility issues.
 
 ## What I did
-
 This map is based on the *Utraean Peninsula remastered* project at https://github.com/foerstj/up-remaster, containing changes of the *revisit* and *single-player* branches, including the Fury Eye but without any mules or companions.
 
 Changes from there on:
@@ -41,7 +41,6 @@ Changes from there on:
 - Spread moldy Furies into the Redwood Gap
 
 ## How to build
-
 GasPy repo: https://github.com/foerstj/gaspy
 
 - Put TankCreator and gaspy on the same folder level as your Dungeon Siege installation. Basically in the upper folder, you should have a "Dungeon Siege" folder, a "TankCreator" folder, and a "gaspy" folder.
@@ -50,7 +49,6 @@ GasPy repo: https://github.com/foerstj/gaspy
 - %USERPROFILE%\Documents\Dungeon Siege LoA\Bits\build.bat
 
 ## Attribution
-
 - Legion Robe by Tristanzz
 - Zombie wolves & bears by Eksevis
 - Webbed plants from Yesterhaven
