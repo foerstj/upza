@@ -1,0 +1,31 @@
+[t:template,n:2W_wraith_archer_summon_base]  // = 2W_wraith_archer_summon
+{
+	category_name = "2W_evil_c";
+	doc = "[summon] wraith_archer";
+	specializes = 2W_wraith_archer_base;
+	aspect:experience_value = 0;
+	[inventory]
+	{
+		spew_equipped_kill_count = ;
+		selected_active_location = IL_ACTIVE_RANGED_WEAPON;
+		[pcontent]
+		{
+			[oneof*]
+			{
+				es_shield_hand = bw_g_c_c_l_4_avg;
+			}
+		}
+	}
+	mind:jat_brain						= world\ai\jobs\common\brain_hero.skrit;
+}
+
+// To be summoned by a monster - explodes when killed instead of just fading out, because there's no un-summon effect
+[t:template,n:2W_wraith_archer_summon_monster] { specializes = 2W_wraith_archer_summon_monster_base; }
+[t:template,n:2W_wraith_archer_summon_monster_base]
+{
+    specializes = 2W_wraith_archer_summon_base;
+	[physics]
+	{
+		explode_when_killed = true;
+    }
+}

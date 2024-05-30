@@ -24,7 +24,7 @@
 				[all*]
 				{
 					chance = 0.3;
-					il_main = 3W_wraith_archer_summon;
+					il_main = 3W_wraith_archer_summon_monster;
 				}
 				[all*]
 				{
@@ -52,8 +52,8 @@
 	{
 		monster_summon = true;
 		spawn_radius	= 8.0;
-		effect_script = "summon";
-		end_script = "un_summon";
+		effect_script = "gresh_summon";
+		//end_script = "un_summon";
 		script_params = "[scale(1.75)]";
 		description = "Summoned Creature";
 		caster_description = "Controlling Summoned";
