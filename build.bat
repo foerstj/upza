@@ -24,21 +24,11 @@ echo %mode%
 pushd %gaspy%
 setlocal EnableDelayedExpansion
 if not "%mode%"=="light" (
-  venv\Scripts\python -m build.check_player_world_locations %map%
-  if !errorlevel! neq 0 pause
-  venv\Scripts\python -m build.check_lore %map%
-  if !errorlevel! neq 0 pause
-  venv\Scripts\python -m build.check_moods %map%
-  if !errorlevel! neq 0 pause
-  venv\Scripts\python -m build.check_quests %map%
-  if !errorlevel! neq 0 pause
-  venv\Scripts\python -m build.check_dupe_node_ids %map%
-  if !errorlevel! neq 0 pause
-  venv\Scripts\python -m build.check_tips %map%
-  if !errorlevel! neq 0 pause
-)
-if "%mode%"=="release" (
-  venv\Scripts\python -m build.check_cam_blocks %map%
+  set checks=standard
+  if "%mode%"=="release" (
+    set checks=all
+  )
+  venv\Scripts\python -m build.pre_build_checks %map% --check !checks!
   if !errorlevel! neq 0 pause
 )
 endlocal
