@@ -100,7 +100,9 @@ This was the night the undead hordes swept across the Peninsula. It took them le
         activate_quest* = upza_3_the_reaper;
         activate_quest* = upza_3_the_reaper,1;
         activate_quest* = upza_3_the_reaper,2;
-        choice = more;
+        //choice = more;  // leave player with main quest, instead of directly adding a side quest
+		button_1_text = "Directions";
+       	button_1_value = d_0x0070087f;
     }
     [text*]
     {
