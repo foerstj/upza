@@ -14,6 +14,13 @@ FOSS, CC-BY-SA.
 - To uninstall, simply remove the files again :)
 - No known compatibility issues.
 
+## Changelog
+Changes in 1.1:
+- More agile Skeleton Soldiers in Hiroth
+- Use Gresh summon effect for Reaper
+- Improved appearance of undead enemies, incl. Fix Krug Dog Skeleton
+- Minor fixes & improvements
+
 ## Attribution
 - Legion Robe by Tristanzz
 - Zombie wolves & bears by Eksevis
