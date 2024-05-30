@@ -1,0 +1,20 @@
+[effect_script*]
+{
+	name	=green_blood_mist;
+
+	script	=[[
+			if ( #NO_BLOOD )
+			{
+				exit;
+			}
+			
+            set $blood_color .06,.275,.06;
+
+			sfx create steam #TARGET
+				"ts(2)dur(1)count(15)scale(1.5)wispsize(.98)color0($blood_color)
+				velocity(0,0,0)accel(0,0,0)";
+				
+				
+			sfx start #POP;
+			]];
+}

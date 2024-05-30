@@ -121,6 +121,7 @@
     }
 	[physics]
 	{
+		break_effect = green_blood_mist;
 		[break_particulate]
 		{
 			frag_glb_upza_fury_01	= 1;
@@ -249,6 +250,7 @@
     }
 	[physics]
 	{
+		break_effect = green_blood_mist;
 		[break_particulate]
 		{
 			frag_glb_upza_fury_lesser_01	= 1;
