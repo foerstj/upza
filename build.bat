@@ -12,6 +12,12 @@ set ds=%DungeonSiege%
 :: path of TankCreator
 set tc=%TankCreator%
 
+:: tank properties
+set year=2025
+set copyright=CC-BY-SA %year%
+set title=%map_cs%
+set author=Johannes Förstner
+
 :: param
 set mode=%1
 echo %mode%
@@ -51,7 +57,7 @@ if "%mode%"=="release" (
 )
 endlocal
 popd
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile main resource file
@@ -72,7 +78,7 @@ robocopy "%bits%\world\contentdb\components\%res%" "%tmp%\Bits\world\contentdb\c
 robocopy "%bits%\world\contentdb\components\minibits" "%tmp%\Bits\world\contentdb\components\minibits" /E /xf .gitignore
 robocopy "%bits%\world\contentdb\templates\%res%" "%tmp%\Bits\world\contentdb\templates\%res%" /E /xf .gitignore
 robocopy "%bits%\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /E /xf .gitignore
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile language resource file
@@ -80,7 +86,7 @@ setlocal EnableDelayedExpansion
 if not "%mode%"=="light" (
   rmdir /S /Q "%tmp%\Bits"
   robocopy "%bits%\language" "%tmp%\Bits\language" /E /xf .gitignore
-  "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.de.dsres" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
+  "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.de.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
   if !errorlevel! neq 0 pause
 )
 endlocal
