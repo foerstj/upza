@@ -144,7 +144,7 @@
 {
 	mood_name				= upza_castle_town_tavern;
 	transition_time			= 6.0f;
-	interior				= true;
+	interior				= false;
 
 	[fog]
 	{
@@ -288,7 +288,7 @@
 	//fog should help
 	mood_name				= upza_castle_inside;
 	transition_time			= 1.0f;
-	interior				= true;
+	interior				= false;
 
 	[fog]
 	{
@@ -320,7 +320,7 @@
 {
 	mood_name				= upza_castle_inside_battle;
 	transition_time			= 1.0f;
-	interior				= true;
+	interior				= false;
 
 	[fog]
 	{
@@ -352,7 +352,7 @@
 {
 	mood_name				= upza_castle_inside_victory;
 	transition_time			= 1.0f;
-	interior				= true;
+	interior				= false;
 
 	[fog]
 	{
