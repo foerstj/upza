@@ -5,7 +5,6 @@
 		screen_text = "You would be nuts to go to Hiroth. It's not far from here, but it's the lair of the Reaper. You'll want to exit town via the upper stairs to the west. Follow the torches until you meet up with the road in Quillrabe Canyons, then head south until you reach the Drake Nest cave. If you can sneak past the Dragon Queen and her drakes, you should be able to find your way. Keep to the south and east walls when you come to the split. The Nest exits into Hiroth Ravine, which is just outside of Hiroth proper. Follow the river and you will see the putrid Lake Hiroth ahead, with the haunted ruins of the town around its banks.";
 	}
 }
-
 [conversation_orelle]
 {
 	[text*]
@@ -14,22 +13,22 @@
 		choice = shop;
 		screen_text = "Stranger and stranger. Last week Orelle see zombies from Lang, this week Orelle see you. Someone been telling you about Orelle special leather maybe?";
 		button_1_text = "Directions";
-        button_1_value = d_0x00700614;
+		button_1_value = d_0x00700614;
 	}
 	[text*]
 	{
-        order = 1;
+		order = 1;
 		choice = shop;
 		screen_text = "Strange person come back? I suppose Orelle show things you not see before. You probably need if going to get out of here in one piece.";
 		button_1_text = "Directions";
-        button_1_value = d_0x00700614;
+		button_1_value = d_0x00700614;
 	}
-    [text*]
+	[text*]
 	{
 		choice = shop;
 		screen_text = "When wind blows hot, tempers burn. I sell you goods, but many of Orelle's brothers not greet you with kindness.";
 		button_1_text = "Directions";
-        button_1_value = d_0x00700614;
+		button_1_value = d_0x00700614;
 	}
 }
 [conversation_orelle_red]
@@ -39,10 +38,9 @@
 		screen_text = "Sky red? What is happening?";
 		choice = shop;
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700614;
+		button_1_value = d_0x00700614;
 	}
 }
-
 [conversation_dreven]
 {
 	[text*]
@@ -51,14 +49,14 @@
 		choice = shop;
 		screen_text = "Magic... Strong... Potions... Wands... This and more... I have in store... Come!";
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700615;
+		button_1_value = d_0x00700615;
 	}
 	[text*]
 	{
 		choice = shop;
 		screen_text = "Hiroth has fallen in the south, not so great after all... How Dreven know? The moon shows all to Dreven.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700615;
+		button_1_value = d_0x00700615;
 	}
 }
 [conversation_dreven_red]
@@ -68,151 +66,137 @@
 		screen_text = "Droog no like changes like this. The warriors seek revenge, I tell you so.";
 		choice = shop;
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700615;
+		button_1_value = d_0x00700615;
 	}
 }
-
-// First convo, explaining the cause of the Zombie Apocalypse, introducing the Reaper
 [conversation_ferdl_first]
 {
-    [text*]
-    {
-        order = 0;
-        screen_text = "You are looking at the last survivor of the Utraean Historical Society and the Azunite Priesthood of the Utraean Peninsula. Priest Ferdl had just taken me in as his apprentice, when High Priest Kavaren summoned him. I saw Ferdl die when we...";
-        choice = more;
-    }
-    [text*]
-    {
-        order = 1;
-        screen_text = "Oh the horror of that fateful night! Ever since the queen had died in Hiroth, things were getting worse in the kingdom. Kavaren had long pushed for the unification of the Circle, but as the situation in Hiroth was deteriorating and the townstones remained lost, he summoned Priest Ferdl and Priestess Kylira of Grescal, for one last desperate attempt to resurrect the queen. Ferdl took me with him to Hiroth.
+	[text*]
+	{
+		order = 0;
+		screen_text = "You are looking at the last survivor of the Utraean Historical Society and the Azunite Priesthood of the Utraean Peninsula. Priest Ferdl had just taken me in as his apprentice, when High Priest Kavaren summoned him. I saw Ferdl die when we...";
+		choice = more;
+	}
+	[text*]
+	{
+		order = 1;
+		screen_text = "Oh the horror of that fateful night! Ever since the queen had died in Hiroth, things were getting worse in the kingdom. Kavaren had long pushed for the unification of the Circle, but as the situation in Hiroth was deteriorating and the townstones remained lost, he summoned Priest Ferdl and Priestess Kylira of Grescal, for one last desperate attempt to resurrect the queen. Ferdl took me with him to Hiroth.
 In their hurry, something must have gone terribly wrong. Maybe it was some ancient Utraean magic interfering with their own; the Utraeans were known to meddle in otherworldly realms. When Kavaren had cast the final spell, there was a flash of pale green light, and Death himself stood right before us! As we stood petrified, he devoured the queen's corpse, then turned to us. He killed Kavaren with a single blow of his scythe. We all ran for our lives, but the priests had already been poisoned - I had been standing a bit further away. Ferdl fell to the undead when he arrived back in Quillrabe. We threw him down from the southern walls; and in a regrettable frenzy, my Droog brothers threw down the other Humans as well.
 This was the night the undead hordes swept across the Peninsula. It took them less than a week to conquer the former kingdom. I saw it all in my visions.";
-        choice = more;  // talk skrit leads to next convo depending on quests. -> _quest_both, _react_reaperdone, or _react_maljindone
-    }
+		choice = more;
+	}
 }
-// Convo if neither Reaper nor Townstone quest is already fulfilled
 [conversation_ferdl_quest_both]
 {
-    [text*]
-    {
-        order = 0;
-        screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
-        activate_quest* = upza_3_the_reaper;
-        activate_quest* = upza_3_the_reaper,1;
-        activate_quest* = upza_3_the_reaper,2;
-        //choice = more;  // leave player with main quest, instead of directly adding a side quest
+	[text*]
+	{
+		order = 0;
+		screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
+		activate_quest* = upza_3_the_reaper;
+		activate_quest* = upza_3_the_reaper,1;
+		activate_quest* = upza_3_the_reaper,2;
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-    }
-    [text*]
-    {
-        order = 1;
-        screen_text = "What hope is there left? How can Man challenge Death?
+		button_1_value = d_0x0070087f;
+	}
+	[text*]
+	{
+		order = 1;
+		screen_text = "What hope is there left? How can Man challenge Death?
 This peninsula is drenched in ancient Utraean magic we never understood. Kavaren's hope was to learn more about it, or even control it, by solving the puzzle the Utraeans left: completing the Circle of the eight Townstones. Doing so might grant you power over the Reaper; it may as well unleash yet another demon. Arguably it can't get much worse than now. Do what you think is right.
 
 The Quillrabe Townstone? Oh that one is in possession of the Dragon Queen, I'm afraid.";
-        activate_quest* = quest_townstones;
-        activate_quest* = quest_quillrabe;
+		activate_quest* = quest_townstones;
+		activate_quest* = quest_quillrabe;
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-    }
-    [text*]
-    {
-        // when talking to him again
-        screen_text = "Yeah, the whole thing is pretty much hopeless. Go out to find the Townstones, or confront the Reaper right away, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
+		button_1_value = d_0x0070087f;
+	}
+	[text*]
+	{
+		screen_text = "Yeah, the whole thing is pretty much hopeless. Go out to find the Townstones, or confront the Reaper right away, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-    }
+		button_1_value = d_0x0070087f;
+	}
 }
-// Reaction to Reaper done
 [conversation_ferdl_react_reaperdone]
 {
-    [text*]
-    {
-        order = 0;
-        screen_text = "Am I hearing right? You have banished the Reaper back into his own realm? And the Queen is alive again? This is amazing news! We shall survive!
+	[text*]
+	{
+		order = 0;
+		screen_text = "Am I hearing right? You have banished the Reaper back into his own realm? And the Queen is alive again? This is amazing news! We shall survive!
 We shall clear the Peninsula from the Undead, and rebuild the kingdom! But this will be a monumental task...";
-        choice = more;  // -> _quest_townstones or _react_maljindone or _alldone
-    }
+		choice = more;
+	}
 }
-// Convo when Reaper is done, and Townstones are todo
 [conversation_ferdl_quest_townstones]
 {
-    [text*]
-    {
-        order = 1;
-        screen_text = "It would be advisable to have the power of the ancient Utraeans under our control. We finally have to solve the puzzle the ancient Utraeans left us - we have to complete the Circle of the eight Townstones. I beseech you to venture out and find them, and bring them all together at the Utraean Circle in Hiroth.
+	[text*]
+	{
+		order = 1;
+		screen_text = "It would be advisable to have the power of the ancient Utraeans under our control. We finally have to solve the puzzle the ancient Utraeans left us - we have to complete the Circle of the eight Townstones. I beseech you to venture out and find them, and bring them all together at the Utraean Circle in Hiroth.
 
 The Mask Stone of Quillrabe is in the possession of the Dragon Queen. I never dreamt of daring to recover it, but to someone who has confronted the Reaper, the Dragon Queen sure is doable as well?";
-        activate_quest* = quest_townstones;
-        activate_quest* = quest_quillrabe;
+		activate_quest* = quest_townstones;
+		activate_quest* = quest_quillrabe;
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-    }
-    [text*]
-    {
-        // when talking to him again
-        screen_text = "Go out to find the Townstones, and complete the Utraean Circle in Hiroth, so that we may gain strength and wisdom for rebuilding what the Reaper has destroyed.";
+		button_1_value = d_0x0070087f;
+	}
+	[text*]
+	{
+		screen_text = "Go out to find the Townstones, and complete the Utraean Circle in Hiroth, so that we may gain strength and wisdom for rebuilding what the Reaper has destroyed.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-    }
+		button_1_value = d_0x0070087f;
+	}
 }
-// Convo while sky is red during Maljin dungeon (no matter the Reaper status)
 [conversation_ferdl_red]
 {
-    [text*]
-    {
+	[text*]
+	{
 		screen_text = "The sky turned red! We're all gonna die!";
-    }
+	}
 }
-// Reaction to Townstones/Maljin done
 [conversation_ferdl_react_maljindone]
 {
-    [text*]
-    {
-        screen_text = "So you managed to banish the demonic force of the Maljin with the help of the Tenstone? Praised be Azunai the Defender!
+	[text*]
+	{
+		screen_text = "So you managed to banish the demonic force of the Maljin with the help of the Tenstone? Praised be Azunai the Defender!
 Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never thought I'd say this - but maybe we should stop dabbling in ancient Utraean magicks.";
-        choice = more;  // -> _quest_reaperonly or _alldone
-    }
+		choice = more;
+	}
 }
-// Convo if Reaper is todo, but Townstones are done
 [conversation_ferdl_quest_reaperonly]
 {
-    [text*]
-    {
-        order = 0;
-        screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
-        activate_quest* = upza_3_the_reaper;
-        activate_quest* = upza_3_the_reaper,1;
-        activate_quest* = upza_3_the_reaper,2;
+	[text*]
+	{
+		order = 0;
+		screen_text = "You can slay zombies and skeletons, they will rise again, as long as the Reaper resides in Castle Hiroth. Only when he is banished back into his own realm, will this nightmare end. But that is a thing of impossibility. We are living on borrowed time. The Droog have lived on this Peninsula since the time of the ancient Utraeans, but even Quillrabe cannot withstand the constant onslaught of the Undead for much longer. Go confront the Reaper, if your heart tells you to. In the end, we will all join his ranks one way or another.";
+		activate_quest* = upza_3_the_reaper;
+		activate_quest* = upza_3_the_reaper,1;
+		activate_quest* = upza_3_the_reaper,2;
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-        quest_dialog = true;
-    }
-    [text*]
-    {
-        // when talking to him again
-        screen_text = "Yeah, the whole thing is pretty much hopeless. Go out to confront the Reaper, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
+		button_1_value = d_0x0070087f;
+		quest_dialog = true;
+	}
+	[text*]
+	{
+		screen_text = "Yeah, the whole thing is pretty much hopeless. Go out to confront the Reaper, if you hear Azunai's call. I'm gonna stay right here to await the inevitable.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x0070087f;
-    }
+		button_1_value = d_0x0070087f;
+	}
 }
-// Convo if both Reaper and Townstones are done
 [conversation_ferdl_alldone]
 {
-    [text*]
-    {
-        screen_text = "Finally, we are freed - both from the Reaper, and our delusions of obtaining the power of the Utraeans. I am finally having new visions. The way will be long, but the future of the Utraean Peninsula looks bright.";
-    }
+	[text*]
+	{
+		screen_text = "Finally, we are freed - both from the Reaper, and our delusions of obtaining the power of the Utraeans. I am finally having new visions. The way will be long, but the future of the Utraean Peninsula looks bright.";
+	}
 }
-
 [conversation_calbyllon]
 {
 	[text*]
 	{
 		screen_text = "Made it to Quillrabe, eh? You either great warrior must be, or great fool. Out here, even the rocks have teeth, and same are we to drakes after dark. You in Ehb not anymore, you know.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007df;
+		button_1_value = d_0x007007df;
 	}
 }
 [conversation_calbyllon_red]
@@ -221,7 +205,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "There is smell of foulness in Quillrabe. The Windy River no serve your kind here again.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007df;
+		button_1_value = d_0x007007df;
 	}
 }
 [conversation_noyofan]
@@ -230,7 +214,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Noyofan sister Callanon run tavern as long as Dragon Queen has lived in southern cave. I sometimes led tourists from Meren on drake hunts, but they not pay when they undead.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007e0;
+		button_1_value = d_0x007007e0;
 	}
 }
 [conversation_noyofan_red]
@@ -239,17 +223,16 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "I like not the things you bring, stranger. Droog stick to Droog, and should not have done differently.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007e0;
+		button_1_value = d_0x007007e0;
 	}
 }
 [conversation_scudicus]
 {
 	[text*]
 	{
-
 		screen_text = "Better watch them zombies. If ye come across one of them types out on the canyon, they'll feather ye quicker than ye can say 'hail.'";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007e2;
+		button_1_value = d_0x007007e2;
 	}
 }
 [conversation_scudicus_red]
@@ -258,7 +241,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Can you see the Undead smirking as they walk? A little blood in the sky's the least of my worries!";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007e2;
+		button_1_value = d_0x007007e2;
 	}
 }
 [conversation_chandrall]
@@ -267,7 +250,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Ha! Who's skeered of some undead lizards flying 'round? Ya give me a decent bow, and I'll clean that filthy Drake Nest m'self! Jes' gimme 'nother round of ale, first. *hic*";
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700797;
+		button_1_value = d_0x00700797;
 	}
 }
 [conversation_chandrall_red]
@@ -276,7 +259,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Is it this bad all over the land? The stink of brimstone is making me sick!";
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700797;
+		button_1_value = d_0x00700797;
 	}
 }
 [conversation_allissedell]
@@ -285,7 +268,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Droog like not strangers in our land. You stay not long if you smart. Dragon Queen is not only danger in the night.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007e1;
+		button_1_value = d_0x007007e1;
 	}
 }
 [conversation_allissedell_red]
@@ -294,7 +277,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Death stink is on the wind, you can smell? This not good place to be when warriors come home.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007007e1;
+		button_1_value = d_0x007007e1;
 	}
 }
 [conversation_mordryn]
@@ -303,7 +286,7 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Free advice for you kid, if you have something to offer, the Droog will treat you nicely. If you're down on your luck, don't ask us for help. We've got no room for leachers, and would just as soon feed you to the animals.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x00700798;
+		button_1_value = d_0x00700798;
 	}
 }
 [conversation_mordryn_red]
@@ -312,35 +295,34 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Lookit those dumb birds. The world is falling apart around us, and they're still perfectly happy to peck at a few seeds.";
 		button_1_text = "Directions";
-   		button_1_value = d_0x00700798;
+		button_1_value = d_0x00700798;
 	}
 }
-
 [conversation_guard_e]
 {
-	[text*]	// 49 - 51
+	[text*]
 	{
 		screen_text = "If yer thinking about taking a stroll along the banks of the Iliarth, keep an eye out for an ambush. The zombies out in the bush aren't anywhere near so tame as the Droog in Quillrabe. ";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d0;
+		button_1_value = d_0x007006d0;
 	}
 }
 [conversation_guard_e_low]
 {
-	[text*] //level 48 or lower
+	[text*]
 	{
 		screen_text = "Ye really don't want to head inta the bush without some proper training. Those zombies will eat ye fer supper if they catch ye!";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d0;
+		button_1_value = d_0x007006d0;
 	}
 }
 [conversation_guard_e_high]
 {
-	[text*]	//level 52+
+	[text*]
 	{
 		screen_text = "Aye, that's right, go show those zombies who to bow down to. They'll be quaking in their sandals at the sight of ye, they will! 'Course, they're not that much of a bother tell ye the truth, and all ye'll do is dull yer weapons against their heads. Ye might be better suited to fodder a bit more evenly matched, mebbe some of them drakes down south?";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d0;
+		button_1_value = d_0x007006d0;
 	}
 }
 [conversation_guard_e_red]
@@ -349,35 +331,34 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Phew! Droogs like meself belong in a house where the air is cool and smells of dirt and rock. I knew I shouldn't of taken this post as a town guard.";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d0;
+		button_1_value = d_0x007006d0;
 	}
 }
-
 [conversation_guard_s]
 {
-	[text*]	// 51 - 53
+	[text*]
 	{
 		screen_text = "Hail, traveller. All suited up and ready to go, eh? Don't let these tame Quillrabe Droog fool you; our deceased brothers are as bloodthirsty as they come, stinkin' zombies. You look like you won't have too much trouble convincing them to let you by, though. Heh heh. ";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d1;
+		button_1_value = d_0x007006d1;
 	}
 }
 [conversation_guard_s_low]
 {
-	[text*] //level 50 or lower
+	[text*]
 	{
 		screen_text = "You really don't want to head into the bush without some proper training. Those zombies will eat you for supper if they catch you!";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d1;
+		button_1_value = d_0x007006d1;
 	}
 }
 [conversation_guard_s_high]
 {
-	[text*]	//level 54+
+	[text*]
 	{
 		screen_text = "Yes, that's right, go show those zombies who to bow down to. They'll be quaking in their sandals at the sight of you, they will! Of course, they're not that much of a bother to tell you the truth, and all you'll do is dull your weapons against their heads. You might be better suited to fodder a bit more evenly matched, maybe some of those drakes to the south?";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d1;
+		button_1_value = d_0x007006d1;
 	}
 }
 [conversation_guard_s_red]
@@ -386,6 +367,6 @@ Well now, I'm a priest apprentice, a mage, and a hobby historian, and I never th
 	{
 		screen_text = "Lightning in the desert?! I have a bad feeling about this...";
 		button_1_text = "Directions";
-       	button_1_value = d_0x007006d1;
+		button_1_value = d_0x007006d1;
 	}
 }
