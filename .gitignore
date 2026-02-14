@@ -1,7 +1,14 @@
 dir.lqd20
+
 /*demo*.bat
+# ignore any .bat that is not on top level
+/*/**/*.bat
+*.exe
+
 *.psd
 *.xcf
-*.exe
+
+
 *.bak
+
 /language/dscore-*.gas
