@@ -15,6 +15,15 @@ FOSS, CC-BY-SA.
 - No known compatibility issues.
 
 ## Changelog
+Changes in 1.2:
+- Applied recent fixes from Utraean Peninsula revisited (single-player)
+  - North Vector in Goblin Warrens, direction switch Elspen Forest -> Ancient Temple
+  - Pieces of rivers flowing in the wrong direction
+  - Fixed walking through closed doors in Meren
+- Fixed mood interior flags for day-night cycle
+- Used nicer texture for yellow flag by Eksevis
+- LoA polyfill for Vanilla: cleaner build, and fixed texture for Buing's cane
+
 Changes in 1.1:
 - More agile Skeleton Soldiers in Hiroth
 - Use Gresh summon effect for Reaper
@@ -27,5 +36,6 @@ Changes in 1.1:
 - Webbed plants from Yesterhaven
 - Legion armor icons by Eksevis
 - swamp-river textures by Eksevis (beta textures)
+- Yellow flag texture by Eksevis
 
 The original map was created by Gas-Powered Games.
