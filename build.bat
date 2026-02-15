@@ -64,7 +64,7 @@ if %errorlevel% neq 0 pause
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\art" "%tmp%\Bits\art" *.nnk /S
 robocopy "%bits%\art\animations" "%tmp%\Bits\art\animations" /E /xf .gitignore
-robocopy "%bits%\art\bitmaps" "%tmp%\Bits\art\bitmaps" /E /xf .gitignore /xf *.psd
+robocopy "%bits%\art\bitmaps" "%tmp%\Bits\art\bitmaps" /E /xf .gitignore /xf *.psd /xf *.exe /xf *.bat /xd new
 robocopy "%bits%\art\meshes" "%tmp%\Bits\art\meshes" /E /xf .gitignore
 robocopy "%bits%\art\terrain\generic" "%tmp%\Bits\art\terrain\generic" /E /xf .gitignore /xf .bak
 robocopy "%bits%\art\terrain\desert_canyon" "%tmp%\Bits\art\terrain\desert_canyon" /E /xf .bak
