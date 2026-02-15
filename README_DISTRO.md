@@ -17,7 +17,7 @@ FOSS, CC-BY-SA.
 ## Changelog
 Changes in 1.2:
 - Applied recent fixes from Utraean Peninsula revisited (single-player)
-  - North Vector in Goblin Warrens, direction switch Elspen Forest -> Ancient Temple
+  - North Vector in Goblin Warrens, direction switch Mt. Utrae Forest -> Ancient Temple
   - Pieces of rivers flowing in the wrong direction
   - Fixed walking through closed doors in Meren
 - Fixed mood interior flags for day-night cycle
